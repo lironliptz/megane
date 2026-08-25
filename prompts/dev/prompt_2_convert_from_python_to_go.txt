@@ -1,0 +1,314 @@
+=== prompt ===
+Port the Python EDGAR tooling under `python/edgar/` to Go.
+
+These scripts download SEC filings into `fileDB/`, classify each filing, and
+write derived `meta.json` beside each accession folder. The Go port becomes
+the canonical ingestion + enrichment layer for megane. **Phase 1 keeps JSON on
+disk as the database** (same layout as today). SQLite tables may come later —
+design types and interfaces so persistence can be swapped without rewriting
+classification or download logic.
+
+Relates to `prompts/dev/prompt_1_display_basic_company_data.txt`: the
+`internal/filedb` read layer should consume the JSON shapes defined here.
+
+
+## Goal
+
+Replace `python/edgar/` with a Go package that:
+
+1. Models SEC submissions, filing manifests, and derived filing metadata
+2. Downloads company filings from `data.sec.gov` / `www.sec.gov`
+3. Builds `meta.json` for each accession folder (tier, category, summary, tags)
+4. Exposes CLI commands equivalent to the Python scripts
+
+Keep **byte-for-byte compatible JSON output** where practical so existing
+`fileDB/companies/0001567529/` data and prompt-1 UI keep working.
+
+
+## Source inventory (Python → Go)
+
+| Python file | Role | Go equivalent |
+|-------------|------|---------------|
+| `build_meta.py` | Core: read `filing.json` + HTML/XML on disk → `meta.json` | `internal/edgar/meta/builder.go` + tests |
+| `build_meta_all.py` | Batch CLI: walk company dir, skip existing unless `--all` | `cmd/edgar-meta/main.go` or `make edgar-meta` |
+| `fetch_kamada.py` | Fetch `submissions.json`, download last N years of filings | `cmd/edgar-fetch/main.go` |
+| `backfill_primary_docs.py` | One-off: download missing `primaryDocument` files | `cmd/edgar-backfill/main.go` |
+
+**Port order:** `build_meta` (+ tests) → `build_meta_all` → `fetch` → `backfill`.
+
+The classification logic in `build_meta.py` is the highest-value piece — port
+it faithfully before touching network code.
+
+
+## Feasibility
+
+**Yes — straightforward Go port.** No exotic Python dependencies:
+
+- `json` → `encoding/json`
+- `pathlib` / `os` → `path/filepath`, `os`
+- `re` → `regexp`
+- `html.unescape` → `html.UnescapeString`
+- `xml.etree` → `encoding/xml` (ownership forms) or targeted regex where Python uses regex anyway
+- `requests` → `net/http` with shared client, context, timeouts
+
+Main care points:
+
+- SEC **User-Agent header is mandatory** — read from env (e.g. `SEC_USER_AGENT`)
+- Rate limit **≥120 ms between requests** (Python uses 0.12 s)
+- HTML/XML parsing: filing agents vary; preserve Python's tolerant `errors="ignore"` reads
+- `filings.recent` in submissions.json uses **parallel arrays** — model explicitly
+
+
+## Target package layout
+
+```
+internal/edgar/
+  models/
+    submissions.go      # SEC CIK submissions API
+    filing.go           # filing.json row (from submissions recent)
+    index.go            # index.json directory manifest
+    meta.go             # derived meta.json (app-owned schema)
+  meta/
+    builder.go          # BuildMeta(dir) → Meta
+    classify.go         # form → tier, category, tags
+    extract.go          # exhibit titles, body snippet, ownership XML
+    summary.go
+  client/
+    client.go           # HTTP client, rate limiter, GetJSON, Download
+    urls.go             # archive URL helpers
+  store/
+    paths.go            # fileDB path conventions
+    read.go             # load submissions, filing, meta from disk
+    write.go            # write filing.json, meta.json, index.json
+
+cmd/
+  edgar-meta/main.go    # batch build meta.json
+  edgar-fetch/main.go   # download company filings
+  edgar-backfill/main.go
+```
+
+Wire `internal/filedb` (prompt 1) to import `internal/edgar/models` and
+`internal/edgar/store/read.go` — do not duplicate struct definitions.
+
+
+## Go models (reflect on-disk JSON)
+
+### 1. `Submissions` — `fileDB/companies/{cik}/submissions.json`
+
+SEC shape. Minimum fields to model:
+
+```go
+type Submissions struct {
+    CIK                          string   `json:"cik"`
+    Name                         string   `json:"name"`
+    Tickers                      []string `json:"tickers"`
+    Exchanges                    []string `json:"exchanges"`
+    SIC                          string   `json:"sic"`
+    SICDescription               string   `json:"sicDescription"`
+    Category                     string   `json:"category"`
+    FiscalYearEnd                string   `json:"fiscalYearEnd"`
+    StateOfIncorporation         string   `json:"stateOfIncorporation"`
+    StateOfIncorporationDesc     string   `json:"stateOfIncorporationDescription"`
+    FormerNames                  []FormerName `json:"formerNames"`
+    Addresses                    Addresses    `json:"addresses"`
+    Phone                        string       `json:"phone"`
+    Filings                      FilingsBlock `json:"filings"`
+}
+
+type FilingsBlock struct {
+    Recent RecentFilings `json:"recent"`
+}
+
+// Parallel arrays — index i across all slices is one filing.
+type RecentFilings struct {
+    AccessionNumber []string `json:"accessionNumber"`
+    Form            []string `json:"form"`
+    FilingDate      []string `json:"filingDate"`
+    ReportDate      []string `json:"reportDate"`
+    // … add other SEC columns used by fetch (primaryDocument, isXBRL, etc.)
+}
+
+func (r RecentFilings) At(i int) FilingRecord { /* zip slices → struct */ }
+```
+
+Add helper `Rows() []FilingRecord` and `Len() int`.
+
+### 2. `FilingRecord` — per-accession `filing.json`
+
+Written by fetch; mirrors one row from submissions + download metadata:
+
+```go
+type FilingRecord struct {
+    AccessionNumber     string `json:"accessionNumber"`
+    FilingDate          string `json:"filingDate"`
+    ReportDate          string `json:"reportDate"`
+    Form                string `json:"form"`
+    PrimaryDocument     string `json:"primaryDocument"`
+    PrimaryDocDescription string `json:"primaryDocDescription"`
+    IsXBRL              int    `json:"isXBRL"`
+    IsInlineXBRL        int    `json:"isInlineXBRL"`
+    // preserve extra SEC fields as needed for forward compatibility
+}
+```
+
+### 3. `IndexManifest` — `index.json`
+
+```go
+type IndexManifest struct {
+    Directory IndexDirectory `json:"directory"`
+}
+type IndexDirectory struct {
+    Item []IndexItem `json:"item"` // SEC may return object or array — normalize on decode
+}
+type IndexItem struct {
+    Name         string `json:"name"`
+    Type         string `json:"type"`
+    Size         string `json:"size"`
+    LastModified string `json:"last-modified"`
+}
+```
+
+Custom `UnmarshalJSON` when `item` is a single object (see Python `fetch_kamada.py`).
+
+### 4. `Meta` — derived `meta.json` (app schema)
+
+Must match existing files under `fileDB/companies/0001567529/`:
+
+```go
+type Meta struct {
+    Accession  string       `json:"accession"`
+    Form       string       `json:"form"`
+    FilingDate string       `json:"filingDate"`
+    ReportDate *string      `json:"reportDate"`
+    Tier       int          `json:"tier"`
+    TierLabel  string       `json:"tierLabel"`
+    Category   string       `json:"category"`
+    Summary    string       `json:"summary"`
+    Signals    MetaSignals  `json:"signals"`
+    Tags       []string     `json:"tags"`
+}
+
+type MetaSignals struct {
+    IsXBRL        bool `json:"isXBRL"`
+    HasFinancials bool `json:"hasFinancials"`
+    FileCount     int  `json:"fileCount"`
+    ExhibitCount  int  `json:"exhibitCount"`
+}
+
+const (
+    TierMajor    = 1 // MAJOR
+    TierModerate = 2 // MODERATE
+    TierMinor    = 3 // MINOR
+    TierRoutine  = 4 // ROUTINE
+)
+```
+
+Categories to preserve (from Python `_classify`): `quarterly_results`,
+`annual_report`, `earnings_preview`, `annual_guidance`, `corporate_action`,
+`admin_update`, `governance`, `regulatory_clinical`, `business_deal`,
+`investor_relations`, `ownership_disclosure`, `insider_initial`,
+`insider_trade`, `current_report`, `unknown`.
+
+
+## Classification parity (must match Python)
+
+Port these functions literally, then lock with table-driven tests against
+≥10 real folders from `fileDB/companies/0001567529/`:
+
+| Python | Go |
+|--------|-----|
+| `_classify_6k` | `classify6K(titles, body, isXBRL)` |
+| `_classify` | `Classify(form, titles, body, isXBRL, ownership)` |
+| `_build_summary` | `BuildSummary(...)` |
+| `_extract_exhibit_titles` | `ExtractExhibitTitles(dir)` |
+| `_extract_body_snippet` | `ExtractBodySnippet(dir, filing)` |
+| `_parse_ownership` | `ParseOwnership(dir)` |
+
+Tier labels map: `1→MAJOR, 2→MODERATE, 3→MINOR, 4→ROUTINE`.
+
+Form normalization: strip `SCHEDULE ` prefix; treat `SC 13G` like `13G`.
+
+
+## SEC HTTP client
+
+```go
+// Env: SEC_USER_AGENT (required), SEC_REQUEST_INTERVAL (default 120ms)
+type Client struct { /* http.Client + rate limiter */ }
+
+func (c *Client) SubmissionsURL(cik string) string
+    // https://data.sec.gov/submissions/CIK{cik}.json
+
+func (c *Client) ArchiveBaseURL(cik, accession string) string
+    // https://www.sec.gov/Archives/edgar/data/{cik_int}/{accession_no_dashes}
+```
+
+- Reject startup if `SEC_USER_AGENT` is empty
+- Add `SEC_USER_AGENT` to `.env.example`
+- Context-aware requests with 30s timeout
+- Do not embed personal email in source — env only
+
+
+## CLI behavior
+
+### `edgar-meta [company_dir] [--all]`
+
+- Default dir: `fileDB/companies/0001567529`
+- Find dirs containing `filing.json` (recursive)
+- Skip if `meta.json` exists unless `--all`
+- Print: `{filingDate} {form} tier={tier} {accession}`
+- Exit 1 if any folder errors
+
+### `edgar-fetch --cik=0001567529 [--years=10]`
+
+- Download `submissions.json` → `{fileDB}/companies/{cik}/`
+- Filter filings to last N calendar years
+- For each accession: write `filing.json`, fetch `index.json`, download missing files
+- Call `meta.Build` after each filing folder is populated
+- Idempotent: skip files that already exist on disk
+
+### `edgar-backfill --cik=0001567529`
+
+- Port `find_real_gaps()` logic: skip XSL-viewer paths (`/` in name, `.xml` suffix)
+- Download missing `primaryDocument` only
+
+
+## Storage abstraction (fileDB now, SQLite later)
+
+```go
+type FilingStore interface {
+    Submissions(ctx context.Context, cik string) (*models.Submissions, error)
+    Filing(ctx context.Context, cik, accession string) (*models.FilingRecord, error)
+    Meta(ctx context.Context, cik, accession string) (*models.Meta, error)
+    WriteMeta(ctx context.Context, cik, accession string, m *models.Meta) error
+}
+```
+
+Phase 1: `FileDBStore` rooted at `FILEDB_DIR` env (default `./fileDB`).
+Phase 2: optional `SQLiteStore` — same interface; migration out of scope here.
+
+
+## Acceptance criteria
+
+- [ ] `go test ./internal/edgar/...` passes
+- [ ] Table tests: rebuilding meta for 10+ Kamada folders matches existing `meta.json` (tier, category, summary, tags)
+- [ ] `edgar-meta` on full Kamada tree: 0 errors, counts align with Python run
+- [ ] JSON structs round-trip `submissions.json`, `filing.json`, `index.json`, `meta.json` without data loss
+- [ ] `edgar-fetch --cik=0001567529 --years=1` downloads at least one new filing when run against empty year folder (integration test, optional `-short` skip)
+- [ ] `SEC_USER_AGENT` documented in `.env.example`
+- [ ] `make test` still passes for whole repo
+- [ ] Python scripts remain in repo until Go port verified; add README note in `python/edgar/` pointing to Go commands
+
+## Out of scope
+
+- SQLite migrations for companies/filings/meta
+- LLM pipeline integration
+- Prompt-1 UI (separate prompt; consumes these models)
+- Deleting `python/edgar/` (do after parity sign-off)
+
+## Implementation notes
+
+- Prefer stdlib; avoid heavy HTML parsers — Python uses regex + strip tags
+- Use `filepath.WalkDir` instead of recursive glob where clearer
+- Log with `log/slog`; structured fields: `cik`, `accession`, `form`
+- Add Makefile targets: `edgar-meta`, `edgar-fetch` wrapping `go run ./cmd/...`
+- Keep diffs focused; no unrelated refactors

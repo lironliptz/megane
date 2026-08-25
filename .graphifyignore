@@ -1,0 +1,13 @@
+# graphify scope: codebase only, not uploaded project data or AI tooling config.
+# See CLAUDE.md for the canonical directory layout.
+fileDB/
+.claude/
+.claude-flow/
+.vscode/
+.db/
+.git/
+graphify-out/
+
+# Third-party vendor bundles (minified, not authored here) — pollute the graph
+# with thousands of low-signal nodes/edges.
+static/js/chart.umd.min.js

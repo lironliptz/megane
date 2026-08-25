@@ -1,0 +1,293 @@
+=== prompt ===
+Evolve the company page (`/companies/:cik`) from a single long scroll into a **tabbed
+company view**. Each tab is a self-contained module with its own data aggregation.
+**Timeline is the priority** for this phase: stock price over a selectable window, filing
+events overlaid on the chart, with quarterly results and major events emphasized.
+
+Builds on prompt 1 (company picker + overview API + `company-page.js`) and consumes
+`meta.json` categories from prompt 2. **All new server code is Go**; frontend is plain
+HTML/JS/CSS with Chart.js (already in `static/js/chart.umd.min.js`).
+
+
+## Current state (prompt 1 — as-built)
+
+Route: `/companies/:cik` → `static/company.html` + `static/js/company-page.js`.
+
+Today the page is one vertical stack: header · identity · coverage · filings summary ·
+paginated filings table · timeline placeholder card. No tabs, no stock data, no hash routing.
+
+APIs already available:
+
+| Endpoint | Use |
+|----------|-----|
+| `GET /api/companies/:cik` | Identity, coverage, filingsSummary |
+| `GET /api/companies/:cik/filings?year=&form=&limit=&offset=` | Paginated filing rows |
+
+Each filing row includes: `filingDate`, `form`, `category`, `tier`, `tierLabel`, `summary`,
+`tags[]`, `hasFinancials`, `accessionNumber`.
+
+
+## Goal
+
+Under the company name header, add a **tab bar** that switches content panels without
+changing overall page height. URL hash selects the active tab so links are shareable
+(e.g. `/companies/0001567529#timeline`). Refactor existing cards into tab modules; ship
+**Timeline** as the first fully designed tab; stub or minimally ship the others.
+
+
+## UX requirements
+
+### Tab bar (below company header, above content)
+
+- Tabs are **always visible** while scrolling tab content (sticky within the main column or
+  fixed min-height layout — pick one, document in LLD).
+- **Hash routing:** `#general`, `#filings`, `#timeline`, `#events` (see tab list below).
+  On load, read `location.hash`; default `#timeline` once Timeline ships, else `#general`
+  during migration. `hashchange` switches tabs without reload.
+- **No layout jump:** all tab panels live in one container with `min-height` set to the
+  tallest panel *or* a fixed viewport-relative height (e.g. `min-height: 60vh`) so switching
+  tabs does not resize the page shell. Hide inactive panels with `hidden` / `display:none`;
+  do not unmount the DOM on every switch (preserves chart state and scroll positions).
+- Keyboard: arrow keys move focus across tabs; `Enter`/`Space` activates. Use
+  `role="tablist"` / `role="tab"` / `role="tabpanel"` and wire `aria-selected`.
+- Deep links from filings table → `#filings?accession=…` is out of scope; hash tab name only.
+
+
+### Suggested tabs (ship order)
+
+| Tab | Hash | Module | Phase |
+|-----|------|--------|-------|
+| **Timeline** | `#timeline` | Price chart + filing events + window controls | **Now (P0)** |
+| **General** | `#general` | Identity + coverage + summary (move existing cards) | P0 refactor |
+| **Filings** | `#filings` | Existing paginated table + filters | P0 refactor |
+| **Special events** | `#events` | Curated major events (see design section) | P1 design + MVP |
+| **Ownership** | `#ownership` | Forms 3/4/13G insider & holder activity | P2 |
+| **Financials** | `#financials` | Filtered list: `quarterly_results`, `annual_report`, `hasFinancials` | P2 |
+| **Documents** | `#documents` | Accession detail / full-text preview | P3 (needs filing detail API) |
+
+Start with four tabs in the UI: **Timeline · General · Filings · Special events** (last
+can be a designed placeholder until P1). Hide P2+ tabs until implemented.
+
+
+## Architecture
+
+### Frontend modules
+
+Split `company-page.js` into a thin shell plus one file per tab:
+
+```
+static/js/company/
+  shell.js          # header, tab bar, hash router, shared CIK + detail fetch
+  tab-general.js    # identity, coverage, summary (existing render fns)
+  tab-filings.js    # table, filters, pager (existing)
+  tab-timeline.js   # chart, window, event lanes
+  tab-events.js     # special events list (P1)
+```
+
+Load order in `company.html`: `app.js` → `chart.umd.min.js` → shell → tab modules.
+Each module exports `init(ctx)` / `show()` / `hide()` where `ctx = { cik, detail, apiFetch }`.
+
+### Backend (new for Timeline + prices)
+
+Extend `CompanyStore` or add a narrow `MarketDataStore` — do not fetch Yahoo from the browser.
+
+**Decision: store daily prices in SQLite** when a company is first opened (or on first
+Timeline visit). Rationale:
+
+- Timeline pan/zoom and window changes must be instant; no repeated external API calls.
+- One row per `(cik, trade_date)` is small (~250 bytes × 2,500 days ≈ 625 KB/company).
+- Aligns with Phase 2 migration in prompt 1 HLD (companies + filings tables); prices are a
+  third table, not another 645 MB tree.
+
+```sql
+-- append to internal/db/migrations.sql
+CREATE TABLE IF NOT EXISTS stock_prices (
+  cik          TEXT NOT NULL,
+  trade_date   TEXT NOT NULL,   -- YYYY-MM-DD
+  open         REAL,
+  high         REAL,
+  low          REAL,
+  close        REAL NOT NULL,
+  volume       INTEGER,
+  currency     TEXT DEFAULT 'USD',
+  source       TEXT NOT NULL,   -- e.g. stooq, polygon
+  fetched_at   TEXT NOT NULL,
+  PRIMARY KEY (cik, trade_date)
+);
+CREATE INDEX IF NOT EXISTS idx_stock_prices_cik_date ON stock_prices(cik, trade_date);
+```
+
+Populate lazily:
+
+1. Client opens `#timeline` → `GET /api/companies/:cik/timeline?from=&to=`
+2. Handler checks DB coverage for `[from, to]`; if gaps, calls market provider for primary
+   ticker from `identity.tickers[0]`, upserts rows, returns `{ prices[], events[] }`
+3. Subsequent window changes hit DB only
+
+Env (`.env.example`): `MARKET_DATA_PROVIDER`, `MARKET_DATA_API_KEY` (if needed),
+`STOCK_FETCH_ON_COMPANY_OPEN=true|false` (optional eager fetch).
+
+Provider preference (document in LLD, pick one for MVP):
+
+- **Stooq** CSV — free, no key, good for daily OHLC backfill (symbol mapping: `KMDA.US`)
+- **Polygon / Alpha Vantage** — paid/keyed; defer unless required
+
+Foreign issuers (Kamada: NASDAQ `KMDA`) use US listing ticker. Multi-ticker companies: primary =
+first exchange-listed US ticker from `submissions.json`.
+
+
+## Timeline tab (P0 — most important)
+
+### Visual design
+
+Single **Chart.js** mixed chart (or line + annotation plugin):
+
+- **X-axis:** trading dates in the selected window (default: last 2 years, or full coverage if shorter)
+- **Y-axis:** adjusted close (document if unadjusted in MVP)
+- **Line:** daily close price
+- **Event markers** on filing dates (vertical markers or point annotations):
+
+| Visual weight | Source | Examples |
+|---------------|--------|----------|
+| **Large / bold** | `tier === 1` (MAJOR) OR `category` in `quarterly_results`, `annual_report` | Earnings, 20-F |
+| **Medium** | `tier === 2` OR `business_deal`, `regulatory_clinical`, `corporate_action` | Deals, FDA, dividends |
+| **Small / muted** | Everything else including `unknown` | Routine 6-K, insider 4 |
+
+- **Quarterly reports:** always show label on hover — `summary` or `"Q results · {form}"`.
+  Optionally shade fiscal quarters behind the chart (future).
+- **Tooltip on marker:** `{filingDate} · {category} · {summary}` + link placeholder to
+  future filing detail (`#filings` for now).
+
+### Controls (above chart)
+
+- Presets: `1Y` · `2Y` · `5Y` · `All` (clamped to price + filing coverage)
+- Optional date inputs for custom range
+- Toggle lanes: `Major only` | `Financials` | `All events` (filters client-side or via query param)
+- Loading / empty states: no ticker, no price data yet fetching, provider error
+
+### Events payload (server-built)
+
+Do not send all 381 filings as fat objects. New endpoint aggregates from `filedb` filing index:
+
+```
+GET /api/companies/:cik/timeline?from=2024-01-01&to=2026-08-20&filter=major|financials|all
+```
+
+```json
+{
+  "window": { "from": "2024-01-01", "to": "2026-08-20" },
+  "ticker": "KMDA",
+  "prices": [{ "date": "2024-01-02", "close": 4.12, "volume": 102400 }],
+  "events": [{
+    "filingDate": "2024-02-15",
+    "form": "6-K",
+    "category": "quarterly_results",
+    "tier": 1,
+    "tierLabel": "MAJOR",
+    "summary": "…",
+    "accessionNumber": "…",
+    "weight": "major"
+  }],
+  "priceCoverage": { "earliest": "2016-01-06", "latest": "2026-08-19", "gaps": [] }
+}
+```
+
+`weight` is computed server-side from tier + category rules above (keeps chart logic dumb).
+
+Implementation: `internal/companyview/timeline.go` or method on store; unit-test weight
+mapping and date clamping.
+
+
+## Special events module (P1 — investigate & design)
+
+**Problem:** not every filing is a "special event" for investors. Timeline shows everything
+weighted; this tab shows a **curated narrative** — the ~10–30 events that matter most.
+
+### Candidate signals (from existing `meta.json` — no LLM required for MVP)
+
+| Signal | Rule |
+|--------|------|
+| Tier | `tier <= 2` (MAJOR or MODERATE) |
+| Category | `quarterly_results`, `annual_report`, `business_deal`, `regulatory_clinical`, `corporate_action`, `annual_guidance` |
+| Form | `20-F`, `6-K` with `hasFinancials` |
+| Tags | contains `financials`, `regulatory`, `business` |
+
+**Exclude:** `insider_trade`, `insider_initial`, `ownership_disclosure`, `unknown` unless tier 1.
+
+### MVP presentation
+
+- Reverse-chronological **event cards**: date, category chip, summary, form, tier badge
+- Group by calendar year
+- "Why this matters" one-liner — template per category (no LLM in MVP), e.g.
+  `quarterly_results` → "Reported quarterly financial results"
+- Link action: scroll/highlight on Timeline (same accession) or open `#filings` filtered to date
+
+### Future (document, do not build yet)
+
+- LLM-generated `event_significance` field stored in DB at ingest time
+- User pinning / hiding events
+- Correlation note: "Stock moved ±X% in 5 days after filing" (needs prices table)
+
+Deliverable for P1: **`prompt_3_company_view-events-design.md`** one-pager OR section in LLD
+with final rules + mock JSON before coding `tab-events.js`.
+
+
+## General & Filings tabs (P0 refactor)
+
+Move existing render functions into tab modules **without behavior change**:
+
+- **General:** identity grid, coverage line, year chips, form bars, category/tier chips
+- **Filings:** filters, table, pager — same `PAGE_SIZE=25`, same API
+
+Remove the old standalone cards and the "Timeline — coming soon" placeholder from the main
+scroll; Timeline tab replaces it.
+
+
+## Stack constraints
+
+- Go + Gin; auth on all `/api/companies/:cik/*` routes
+- `escHtml()` on all dynamic HTML; chart tooltips use text nodes or escaped strings only
+- CSS: existing tokens in `style.css`; add `.company-tabs`, `.tab-panel`, `.timeline-*`
+- Migrations: append-only `CREATE TABLE IF NOT EXISTS`
+- No Python; no fetching market data from the browser
+
+
+## Acceptance criteria
+
+### P0 (tab shell + refactor + timeline)
+
+- [ ] Tab bar under company header; hash `#general`, `#filings`, `#timeline` syncs with selection
+- [ ] Switching tabs does not change overall page height (no shell jump)
+- [ ] General and Filings match prompt 1 behavior after refactor
+- [ ] Timeline shows price line for KMDA over default window when prices fetched
+- [ ] Timeline plots filing markers; quarterly_results and tier MAJOR visually distinct
+- [ ] `GET /api/companies/:cik/timeline` returns prices + events; auth required
+- [ ] `stock_prices` table populated on first timeline load; idempotent re-fetch
+- [ ] `make test` passes; Go tests for event weight rules and price date normalization
+
+### P1 (special events)
+
+- [ ] Design doc approved (rules table above refined with counts from Kamada corpus)
+- [ ] `#events` tab lists curated events; count ≪ total filings
+- [ ] Category templates render; no LLM call in request path
+
+
+## Out of scope
+
+- Intraday / real-time quotes · options · indices · peer comparison charts
+- Filing body viewer / LLM summary on click
+- WebSocket price streaming
+- Admin UI to edit events
+- Replacing `fileDB` with SQLite for filings (still prompt 1 Phase 2)
+
+
+## Implementation order
+
+1. **LLD** — `prompt_3_company_view-lld.md` (tab shell, hash router, CSS min-height strategy)
+2. Refactor: split `company-page.js` → tab modules; wire General + Filings (no new features)
+3. DB migration `stock_prices` + market fetcher interface + Stooq (or chosen) impl
+4. `GET .../timeline` handler + `tab-timeline.js` + Chart.js annotations
+5. Manual smoke on `0001567529` (Kamada): verify quarterly 6-K markers visible on chart
+6. P1: events design note → `tab-events.js` + optional `GET .../events` if not client-filtered
+
+Keep diffs focused; do not rewrite `internal/filedb` search or picker in this prompt.

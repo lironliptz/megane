@@ -111,6 +111,7 @@
     "SQLite default: DB_PATH=./.db/<app_slug>.db (see internal/db DefaultSQLitePath*).",
     "Struct fields + prompts must stay in sync — Gemini sees both.",
     "Adding a struct field without updating renderAnalysis in analyze.js means data is never shown.",
-    "Go module path in go.mod must be updated alongside all import paths if the app is renamed."
+    "Go module path in go.mod must be updated alongside all import paths if the app is renamed.",
+    "Local SEC filing corpus: fileDB/ (gitignored; excluded from Cursor via .cursorignore and Claude/graphify via .graphifyignore). Populate with python/edgar or edgar-fetch; default path ./fileDB."
   ]
 }

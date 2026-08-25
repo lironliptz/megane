@@ -7,6 +7,7 @@
 
 # Uploads & DB files (large / sensitive)
 projects/
+fileDB/
 *.db
 *.db-shm
 *.db-wal

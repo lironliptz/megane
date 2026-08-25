@@ -1,12 +1,5 @@
 requireAuth();
 
-function escHtml(str) {
-  var s = str == null ? '' : String(str);
-  return s.replace(/[&<>"']/g, function (c) {
-    return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c];
-  });
-}
-
 const POLL_INTERVAL = 3000;
 const pollTimers = {};
 let insightCharts = [];

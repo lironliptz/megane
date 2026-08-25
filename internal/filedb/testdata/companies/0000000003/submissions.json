@@ -1,0 +1,70 @@
+{
+ "cik": "0000000003",
+ "entityType": "other",
+ "sic": "2834",
+ "sicDescription": "Pharmaceutical Preparations",
+ "name": "ZETA TEST CORP",
+ "tickers": [
+  "ZTST"
+ ],
+ "exchanges": [
+  "NYSE"
+ ],
+ "ein": "000000000",
+ "lei": null,
+ "description": "",
+ "website": "",
+ "investorWebsite": "",
+ "category": "Accelerated filer",
+ "fiscalYearEnd": "1231",
+ "stateOfIncorporation": "L3",
+ "stateOfIncorporationDescription": "Israel",
+ "addresses": {
+  "mailing": {
+   "street1": "1 MAIL ST",
+   "city": "MAILVILLE",
+   "stateOrCountry": "L3",
+   "stateOrCountryDescription": "Israel",
+   "zipCode": "1"
+  },
+  "business": {
+   "street1": "2 BIZ ST",
+   "city": "REHOVOT",
+   "stateOrCountry": "L3",
+   "stateOrCountryDescription": "Israel",
+   "zipCode": "2"
+  }
+ },
+ "phone": "97200000000",
+ "flags": "",
+ "formerNames": [
+  {
+   "name": "Kamada Systems Inc",
+   "from": "2010-01-01",
+   "to": "2015-01-01"
+  }
+ ],
+ "filings": {
+  "recent": {
+   "accessionNumber": [
+    "0000000003-19-000001"
+   ],
+   "filingDate": [
+    "2019-09-09"
+   ],
+   "reportDate": [
+    "2019-09-09"
+   ],
+   "form": [
+    "8-K"
+   ],
+   "primaryDocument": [
+    "doc.htm"
+   ],
+   "primaryDocDescription": [
+    "TEST DOC"
+   ]
+  },
+  "files": []
+ }
+}

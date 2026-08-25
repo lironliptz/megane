@@ -177,6 +177,37 @@ var versionedMigrations = []struct {
 	)`},
 	{30, `CREATE INDEX IF NOT EXISTS idx_dm_build_configs_file_type ON dm_build_configs(file_type_id)`},
 	{31, `CREATE INDEX IF NOT EXISTS idx_dm_build_configs_status    ON dm_build_configs(status)`},
+	// Daily stock bars for the company timeline (prompt 3).
+	// adj_close is stored separately from close because they diverge on ~97% of
+	// bars for a dividend-paying issuer (measured: 3221/3329, up to 5.7%), and
+	// the chart plots the adjusted series.
+	// No secondary index: the (cik, trade_date) primary key already is one.
+	{32, `CREATE TABLE IF NOT EXISTS stock_prices (
+		cik        TEXT    NOT NULL,
+		trade_date TEXT    NOT NULL,
+		open       REAL,
+		high       REAL,
+		low        REAL,
+		close      REAL    NOT NULL,
+		adj_close  REAL,
+		volume     INTEGER,
+		currency   TEXT    NOT NULL DEFAULT 'USD',
+		source     TEXT    NOT NULL,
+		fetched_at DATETIME NOT NULL,
+		PRIMARY KEY (cik, trade_date)
+	)`},
+	// Fetch bookkeeping. Without this there is no way to tell "never fetched"
+	// from "this company has no ticker", so a tickerless company would re-hit
+	// the provider on every timeline open.
+	{33, `CREATE TABLE IF NOT EXISTS stock_price_coverage (
+		cik             TEXT PRIMARY KEY,
+		symbol          TEXT NOT NULL DEFAULT '',
+		earliest        TEXT,
+		latest          TEXT,
+		status          TEXT NOT NULL,
+		note            TEXT NOT NULL DEFAULT '',
+		last_attempt_at DATETIME NOT NULL
+	)`},
 }
 
 // DB wraps sql.DB with helper methods.

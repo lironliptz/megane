@@ -1,0 +1,17 @@
+{
+ "accession": "0000000001-26-000003",
+ "form": "6-K",
+ "filingDate": "2026-08-20",
+ "reportDate": "2026-08-20",
+ "tier": 2,
+ "tierLabel": "MODERATE",
+ "category": "unknown",
+ "summary": "Uncategorized filing.",
+ "signals": {
+  "isXBRL": false,
+  "hasFinancials": true,
+  "fileCount": 3,
+  "exhibitCount": 2
+ },
+ "tags": []
+}

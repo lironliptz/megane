@@ -1,0 +1,17 @@
+{
+ "accession": "0000000003-19-000001",
+ "form": "8-K",
+ "filingDate": "2019-09-09",
+ "reportDate": "2019-09-09",
+ "tier": 4,
+ "tierLabel": "ROUTINE",
+ "category": "admin_update",
+ "summary": "Routine update.",
+ "signals": {
+  "isXBRL": false,
+  "hasFinancials": false,
+  "fileCount": 3,
+  "exhibitCount": 0
+ },
+ "tags": []
+}

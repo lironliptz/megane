@@ -4,12 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
-  <title>Login — megane</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Sign in — megane</title>
   <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body class="login-page">
   <div class="login-box">
-    <h1>megane</h1>
+    <div class="login-brand">
+      <div class="logo-lockup">
+        <img class="logo-mark" src="/static/img/megane-mark.svg" width="28" height="28" alt="">
+        <span class="logo">megane</span>
+      </div>
+      <p class="login-tagline">See filings clearly</p>
+    </div>
     <div id="error-msg" class="error-msg"></div>
     <form id="login-form">
       <div class="form-group">
@@ -28,9 +37,8 @@
 
   <script src="/static/js/app.js"></script>
   <script>
-    // If already logged in, go straight to the app.
     if (getToken()) {
-      window.location.href = '/';
+      window.location.href = '/companies';
     }
 
     document.getElementById('login-form').addEventListener('submit', async (e) => {
@@ -53,7 +61,7 @@
 
         localStorage.setItem('token', body.data.token);
         localStorage.setItem('role',  body.data.role);
-        window.location.href = '/';
+        window.location.href = '/companies';
       } catch (err) {
         showError(err.message || 'Login failed');
         btn.disabled = false;

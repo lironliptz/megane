@@ -1,0 +1,19 @@
+{
+ "accession": "0000000002-21-000001",
+ "form": "10-K",
+ "filingDate": "2021-03-03",
+ "reportDate": "2021-03-03",
+ "tier": 1,
+ "tierLabel": "MAJOR",
+ "category": "annual_report",
+ "summary": "Annual report.",
+ "signals": {
+  "isXBRL": false,
+  "hasFinancials": true,
+  "fileCount": 3,
+  "exhibitCount": 0
+ },
+ "tags": [
+  "annual"
+ ]
+}

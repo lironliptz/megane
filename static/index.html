@@ -4,29 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <title>megane — Document insights</title>
   <link rel="stylesheet" href="/static/css/style.css">
 </head>
-<body class="app-layout">
+<body class="app-layout layout-compact">
 
+  <!-- app-header -->
   <header class="app-header">
-    <span class="logo">megane</span>
+    <a class="logo-lockup" href="/companies" aria-label="megane home">
+      <img class="logo-mark" src="/static/img/megane-mark.svg" width="24" height="24" alt="">
+      <span class="logo">megane</span>
+    </a>
     <nav>
-      <a href="/">Analyze</a>
+      <a href="/companies">Companies</a>
+      <a href="/" class="nav-active">Analyze</a>
       <a href="/admin" id="admin-link" style="display:none">Admin</a>
     </nav>
     <div class="header-right">
-      <span id="header-email" style="color:var(--text-muted);font-size:.85rem"></span>
+      <span id="header-email" style="color:var(--text-muted);font-size:.8125rem"></span>
       <button class="btn btn-ghost" onclick="logout()">Sign out</button>
     </div>
   </header>
 
   <main class="main-content">
-    <section class="hero card hero-card">
+    <section class="hero card hero-card hero-compact">
+      <p class="hero-eyebrow">See filings clearly</p>
       <h1 class="hero-title">Turn any file into insight</h1>
       <p class="hero-lead">
-        After sign-in, drop a document below. We extract text, send it to the model, and show
-        <strong>metadata</strong>, an <strong>explanation</strong>, and <strong>charts</strong> when the content has numbers or categories to visualize.
+        Drop a document below. We extract text, run the model, and return
+        <strong>metadata</strong>, an <strong>explanation</strong>, and <strong>charts</strong> when the content supports them.
       </p>
     </section>
 

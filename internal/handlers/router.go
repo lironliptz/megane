@@ -11,7 +11,9 @@ import (
 	"megane/internal/admin"
 	"megane/internal/auth"
 	"megane/internal/datamodeling"
+	"megane/internal/companyview"
 	"megane/internal/db"
+	"megane/internal/filedb"
 	"megane/internal/pipeline"
 	"megane/internal/version"
 )
@@ -20,9 +22,17 @@ const maxUploadBytes = 50 << 20 // 50 MB
 
 const defaultRequestTimeout = 60 * time.Second
 
+// CompanyDeps bundles what the company view needs. It is a struct rather than
+// more positional parameters because NewRouter already takes seven.
+type CompanyDeps struct {
+	Store    filedb.CompanyStore
+	Timeline *companyview.Service
+}
+
 // NewRouter creates and returns a fully configured Gin engine.
 // ctx is the application lifetime context; it is used to stop background goroutines on shutdown.
-func NewRouter(ctx context.Context, database *db.DB, pipe *pipeline.Pipeline, projectsDir string, llmCfg LLMRouteConfig, prompts map[string]string) *gin.Engine {
+// companies carries the read model and timeline service backing the company view.
+func NewRouter(ctx context.Context, database *db.DB, pipe *pipeline.Pipeline, projectsDir string, llmCfg LLMRouteConfig, prompts map[string]string, companies CompanyDeps) *gin.Engine {
 	r := gin.New()
 	r.Use(gin.Recovery())
 	r.MaxMultipartMemory = maxUploadBytes
@@ -40,6 +50,12 @@ func NewRouter(ctx context.Context, database *db.DB, pipe *pipeline.Pipeline, pr
 	r.StaticFile("/", "./static/index.html")
 	r.StaticFile("/login", "./static/login.html")
 	r.StaticFile("/admin", "./static/admin.html")
+	r.StaticFile("/companies", "./static/companies.html")
+	// Company page. Auth is client-side here, exactly as for "/" and "/admin":
+	// auth.AuthRequired reads a Bearer header, which a browser navigation cannot
+	// send, so the page loads publicly and its /api/companies/* calls carry the
+	// token. The API group below is what enforces auth.
+	r.GET("/companies/:cik", func(c *gin.Context) { c.File("./static/company.html") })
 	r.Static("/static", "./static")
 
 	// Auth routes
@@ -63,6 +79,16 @@ func NewRouter(ctx context.Context, database *db.DB, pipe *pipeline.Pipeline, pr
 		apiFiles.POST("/:id/reprocess", fileHandler.Reprocess)
 		apiFiles.DELETE("/:id", fileHandler.Delete)
 		apiFiles.GET("/:id/result", fileHandler.Result)
+	}
+
+	// Company routes (authenticated users) — read-only view over fileDB/.
+	companyHandler := &CompanyHandler{Store: companies.Store, Timeline: companies.Timeline}
+	apiCompanies := r.Group("/api/companies", auth.AuthRequired(), requestTimeout(defaultRequestTimeout))
+	{
+		apiCompanies.GET("/search", companyHandler.Search)
+		apiCompanies.GET("/:cik", companyHandler.Get)
+		apiCompanies.GET("/:cik/filings", companyHandler.Filings)
+		apiCompanies.GET("/:cik/timeline", companyHandler.TimelineView)
 	}
 
 	// Admin routes

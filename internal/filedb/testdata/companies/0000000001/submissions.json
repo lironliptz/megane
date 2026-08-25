@@ -1,0 +1,88 @@
+{
+ "cik": "0000000001",
+ "entityType": "other",
+ "sic": "2834",
+ "sicDescription": "Pharmaceutical Preparations",
+ "name": "KAMADA TEST LTD",
+ "tickers": [
+  "KTST"
+ ],
+ "exchanges": [
+  "Nasdaq"
+ ],
+ "ein": "000000000",
+ "lei": null,
+ "description": "",
+ "website": "",
+ "investorWebsite": "",
+ "category": "Accelerated filer",
+ "fiscalYearEnd": "1231",
+ "stateOfIncorporation": "L3",
+ "stateOfIncorporationDescription": "Israel",
+ "addresses": {
+  "mailing": {
+   "street1": "1 MAIL ST",
+   "city": "MAILVILLE",
+   "stateOrCountry": "L3",
+   "stateOrCountryDescription": "Israel",
+   "zipCode": "1"
+  },
+  "business": {
+   "street1": "2 BIZ ST",
+   "city": "REHOVOT",
+   "stateOrCountry": "L3",
+   "stateOrCountryDescription": "Israel",
+   "zipCode": "2"
+  }
+ },
+ "phone": "97200000000",
+ "flags": "",
+ "formerNames": [],
+ "filings": {
+  "recent": {
+   "accessionNumber": [
+    "0000000001-16-000001",
+    "0000000001-20-000002",
+    "0000000001-26-000003",
+    "0000000001-13-000099",
+    "0000000001-14-000098"
+   ],
+   "filingDate": [
+    "2016-01-06",
+    "2020-05-01",
+    "2026-08-20",
+    "2013-01-24",
+    "2014-02-02"
+   ],
+   "reportDate": [
+    "2016-01-06",
+    "2020-05-01",
+    "2026-08-20",
+    "2013-01-24",
+    "2014-02-02"
+   ],
+   "form": [
+    "6-K",
+    "20-F",
+    "6-K",
+    "6-K",
+    "6-K"
+   ],
+   "primaryDocument": [
+    "doc.htm",
+    "doc.htm",
+    "doc.htm",
+    "doc.htm",
+    "doc.htm"
+   ],
+   "primaryDocDescription": [
+    "TEST DOC",
+    "TEST DOC",
+    "TEST DOC",
+    "TEST DOC",
+    "TEST DOC"
+   ]
+  },
+  "files": []
+ }
+}

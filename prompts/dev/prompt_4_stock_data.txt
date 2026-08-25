@@ -1,0 +1,215 @@
+=== prompt ===
+Given a company already in the system (CIK + tickers from `submissions.json`,
+via `internal/filedb`), fetch and cache its **daily stock price history, 10
+years back**, from a free external source — this prompt owns the market-data
+provider integration and the storage schema. It does not own the Timeline
+chart UI or the `GET /api/companies/:cik/timeline` endpoint — see
+"Relationship to prompt_3" below.
+
+Builds on prompt 1 (`internal/filedb` — CIK, `identity.tickers[0]`) and feeds
+prompt 3 (Timeline tab). No LLM involved.
+
+
+## Goal
+
+1. A small provider package that fetches daily OHLCV history for a ticker
+   from a free source, no API key required for the primary path.
+2. A SQLite table + query methods, following this repo's existing `internal/db`
+   conventions (not a new storage package).
+3. A backfill/refresh strategy: full 10-year history on first request, cheap
+   incremental top-ups afterward — never re-fetch what's already cached.
+
+
+## Source decision
+
+**Primary: [Stooq](https://stooq.com)** — free, no signup, no API key.
+
+```
+GET https://stooq.com/q/d/l/?s={ticker}.us&i=d
+```
+
+Returns CSV (`Date,Open,High,Low,Close,Volume`) with the **full available
+daily history in one request** — often 20+ years for US-listed names, so a
+10-year backfill is one HTTP call, not a paginated loop. No documented rate
+limit, but no formal SLA either — this app should be a polite, cache-first
+client (fetch once, never repeat a query for dates already in the DB).
+
+**Fallback: Yahoo Finance's unofficial chart API** — also free, no key:
+
+```
+GET https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?range=10y&interval=1d
+```
+
+JSON, and — important — includes `indicators.adjclose` (split/dividend
+adjusted close) alongside raw close. Use this as the fallback when Stooq
+returns no rows for a ticker (thin OTC names, some foreign ADRs), and see
+the adjusted-close note below for why it may end up preferred over Stooq
+even as a non-fallback source.
+
+**Deliberately not used**: Polygon.io (free tier caps history at 2 years —
+fails the "10 years back" requirement outright), Marketstack (100
+req/**month**, thin free-tier history), IEX Cloud (service sunset in 2024).
+Tiingo/Alpha Vantage/FMP are documented, keyed alternatives — worth keeping
+in mind if Stooq/Yahoo reliability becomes a real problem in production, but
+not needed for MVP; do not add a second keyed provider speculatively.
+
+### Adjusted-close note
+
+Over a 2-year window an unadjusted close is a minor wrinkle; over **10
+years** it's much more likely to cross a stock split, and an unadjusted
+series will show a fake cliff on the chart at the split date. Stooq's CSV
+does not clearly document whether `Close` is split-adjusted. Decision:
+**prefer Yahoo's `adjclose` as the stored `close` value** when available;
+fall back to Stooq's raw `Close` only when Yahoo has no data for that
+ticker. Document which was used per row (see schema `source` column) so a
+future correction pass can identify rows that need re-fetching.
+
+
+## Storage — extend `internal/db`, do not add a new storage package
+
+This repo's convention (see `internal/db/{status.go,crawler_stats.go,
+pipeline_llm.go}`) is: one `db` package, one shared `*DB` (wraps `*sql.DB`),
+domain-specific query methods split into their own file within that same
+package — not a separate package per subsystem. Stock prices follow that
+pattern: new file `internal/db/stock_prices.go`, no new package for storage.
+
+Also: prompt 3's draft said "append to `internal/db/migrations.sql`" — that
+file is a stale reference copy. The actual, live migration mechanism is
+appending an entry to the `versionedMigrations` slice in `internal/db/db.go`
+(applied via the `schema_migrations` table on `Open()`). This prompt's
+migration entry is the corrected version of prompt 3's sketch:
+
+```go
+{32, `CREATE TABLE IF NOT EXISTS stock_prices (
+    cik        TEXT     NOT NULL,
+    trade_date TEXT     NOT NULL,   -- YYYY-MM-DD
+    open       REAL,
+    high       REAL,
+    low        REAL,
+    close      REAL     NOT NULL,   -- adjusted close when source provided one; see `source`
+    volume     INTEGER,
+    currency   TEXT     NOT NULL DEFAULT 'USD',
+    source     TEXT     NOT NULL,   -- 'stooq' | 'yahoo'
+    fetched_at DATETIME NOT NULL,
+    PRIMARY KEY (cik, trade_date)
+)`},
+{33, `CREATE INDEX IF NOT EXISTS idx_stock_prices_cik_date ON stock_prices(cik, trade_date)`},
+```
+
+`internal/db/stock_prices.go` methods (mirrors the shape of existing
+`(d *DB) Get.../ (d *DB) Upsert...` methods elsewhere in the package):
+
+```go
+func (d *DB) UpsertStockPrices(cik string, rows []StockPrice) error
+func (d *DB) StockPrices(cik string, from, to string) ([]StockPrice, error)
+func (d *DB) StockPriceCoverage(cik string) (earliest, latest string, count int, err error)
+```
+
+`StockPrice` struct fields match the table columns 1:1 (`TradeDate, Open,
+High, Low, Close, Volume, Currency, Source, FetchedAt`).
+
+
+## Provider package — `internal/marketdata`
+
+New package, small and flat — no subpackages, mirroring how `internal/llm`
+already holds multiple backend implementations (`gemini.go`-equivalent,
+`openai.go`, `local.go`) behind one `Client` interface. This is the same
+"don't overdesign" call made on the EDGAR port (prompt 2's HLD/LLD): the
+amount of logic here (two HTTP fetchers + CSV/JSON parsing) does not
+justify more than 2–3 files.
+
+```
+internal/marketdata/
+  provider.go   # Provider interface, ticker resolution, fetch orchestration
+  stooq.go      # Stooq CSV client
+  yahoo.go      # Yahoo chart-API client (fallback)
+```
+
+```go
+type DailyBar struct {
+    Date   string  // YYYY-MM-DD
+    Open, High, Low, Close float64
+    Volume int64
+    Source string  // "stooq" | "yahoo"
+}
+
+type Provider interface {
+    // DailyHistory returns daily bars for ticker, oldest first, best-effort
+    // full available history (Stooq) — callers slice to the window they need.
+    DailyHistory(ctx context.Context, ticker string) ([]DailyBar, error)
+}
+```
+
+Ticker resolution: primary = `identity.tickers[0]` from `internal/filedb`
+(already resolved there — this package takes a plain ticker string, it does
+not know about CIKs or `submissions.json`). Symbol mapping quirks (Stooq's
+`.us` suffix, exchange suffixes for non-US listings) live in `stooq.go`, not
+leaked into the `Provider` interface.
+
+
+## Backfill / refresh strategy
+
+1. First request for a CIK with no `stock_prices` rows: fetch full history
+   from the provider (Stooq primary, Yahoo fallback) in one call, `UpsertStockPrices`
+   the whole result. This naturally covers "10 years back" — Stooq/Yahoo
+   return more than 10 years for most tickers; store all of it, let callers
+   window it.
+2. Subsequent requests: check `StockPriceCoverage(cik)` — if `latest` is
+   already within one trading day of today, serve from DB only, no fetch.
+   If stale, fetch only from `latest+1` forward (Yahoo supports a `period1`/
+   `period2` range; Stooq's endpoint has a `d1`/`d2` range form too) and
+   upsert the delta — do not re-fetch the full 10 years on every visit.
+3. No background/scheduled refresh in this prompt — refresh is triggered by
+   the next read that finds stale coverage (matches prompt 3's "lazy, on
+   Timeline visit" model). A cron-based pre-warm is future work, not MVP.
+
+
+## Relationship to prompt 3
+
+Prompt 3 ("Timeline" tab) already sketched a `stock_prices` table and a
+lazy-fetch flow behind `GET /api/companies/:cik/timeline`. This prompt is
+the canonical owner of that table's schema and the fetch/cache mechanics
+(`internal/db/stock_prices.go` + `internal/marketdata`); prompt 3's handler
+becomes a thin caller: check coverage, call `internal/marketdata` if stale,
+read `internal/db.StockPrices` for the response window, build the chart
+JSON. Prompt 3 should be read as consuming this prompt's output, not
+re-deriving the schema — if prompt 3's LLD is written first, reconcile its
+migration entry against this one rather than shipping two competing
+`CREATE TABLE stock_prices` statements.
+
+
+## Env (`.env.example`)
+
+```
+MARKET_DATA_PROVIDER=stooq   # stooq | yahoo (fallback is automatic; this picks the primary)
+```
+
+No API key needed for either provider — do not add a `MARKET_DATA_API_KEY`
+placeholder unless a keyed provider (Tiingo etc.) actually gets added later.
+
+
+## Acceptance criteria
+
+- [ ] `internal/marketdata.Provider` fetches ≥10 years of daily bars for
+      `KMDA` (Kamada, CIK `0001567529`) from Stooq
+- [ ] Yahoo fallback exercised (unit test with a ticker Stooq returns empty
+      for, or a mocked empty-Stooq-response case)
+- [ ] `stock_prices` migration applied via `versionedMigrations` in
+      `internal/db/db.go` (not `migrations.sql`)
+- [ ] `UpsertStockPrices` is idempotent — re-running the same fetch does not
+      duplicate or error on the `(cik, trade_date)` primary key
+- [ ] `StockPriceCoverage` correctly reports gaps so a caller can decide
+      full-backfill vs incremental-top-up
+- [ ] Table-driven test: given existing coverage through date X, the
+      refresh path requests only `[X+1, today]`, not the full range
+- [ ] `make test` passes
+
+
+## Out of scope
+
+- The `GET /api/companies/:cik/timeline` endpoint and Chart.js UI (prompt 3)
+- Intraday/real-time quotes, options, indices
+- A second keyed provider (Tiingo/Alpha Vantage/FMP) — only add if
+  Stooq+Yahoo prove unreliable in practice
+- Scheduled/cron pre-warming of all companies' price history
+- Currency conversion (store `currency` as reported by the source; no FX)

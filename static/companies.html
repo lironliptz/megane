@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>megane — Companies</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="app-layout layout-compact">
+
+  <!-- app-header -->
+  <header class="app-header">
+    <a class="logo-lockup" href="/companies" aria-label="megane home">
+      <img class="logo-mark" src="/static/img/megane-mark.svg" width="24" height="24" alt="">
+      <span class="logo">megane</span>
+    </a>
+    <nav>
+      <a href="/companies" class="nav-active">Companies</a>
+      <a href="/">Analyze</a>
+      <a href="/admin" id="admin-link" style="display:none">Admin</a>
+    </nav>
+    <div class="header-right">
+      <span id="header-email" style="color:var(--text-muted);font-size:.8125rem"></span>
+      <button class="btn btn-ghost" onclick="logout()">Sign out</button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="hero card hero-card hero-compact">
+      <h1 class="hero-title">Find a company</h1>
+      <p class="hero-lead">Search by <strong>name</strong>, <strong>ticker</strong>, or <strong>CIK</strong>.</p>
+    </section>
+
+    <div id="error-msg" class="error-msg"></div>
+
+    <div class="card">
+      <h2>Company search</h2>
+      <div class="form-group search-combobox-wrap" style="margin:0">
+        <label for="company-search">Search</label>
+        <div class="search-combobox">
+          <input type="text" id="company-search" class="search-box" autocomplete="off"
+                 placeholder="Search by name, ticker, or CIK" aria-label="Search companies"
+                 aria-controls="search-results" aria-autocomplete="list"
+                 role="combobox" aria-expanded="false" aria-haspopup="listbox">
+          <div id="search-results" class="search-results" role="listbox"
+               aria-label="Company matches" hidden></div>
+        </div>
+      </div>
+      <p id="search-state" class="muted search-state" style="margin-top:.75rem"></p>
+    </div>
+  </main>
+
+  <script src="/static/js/app.js"></script>
+  <script src="/static/js/companies.js"></script>
+</body>
+</html>

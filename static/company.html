@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <title>megane — Company</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="app-layout company-page">
+
+  <header class="app-header">
+    <span class="logo">megane</span>
+    <nav>
+      <a href="/companies">Companies</a>
+      <a href="/">Analyze</a>
+      <a href="/admin" id="admin-link" style="display:none">Admin</a>
+    </nav>
+    <div class="header-right">
+      <span id="header-email" style="color:var(--text-muted);font-size:.85rem"></span>
+      <button class="btn btn-ghost" onclick="logout()">Sign out</button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div id="error-msg" class="error-msg"></div>
+
+    <section class="hero card hero-card">
+      <div class="company-title">
+        <h1 id="company-name">Loading…</h1>
+        <span id="company-tickers"></span>
+      </div>
+      <div class="company-subtitle" id="company-subtitle"></div>
+    </section>
+
+    <div class="tabs company-tabs" role="tablist" aria-label="Company sections">
+      <button class="tab-btn active" role="tab" id="tabbtn-timeline" aria-controls="tab-timeline" aria-selected="true">Timeline</button>
+      <button class="tab-btn" role="tab" id="tabbtn-general" aria-controls="tab-general" aria-selected="false" tabindex="-1">General</button>
+      <button class="tab-btn" role="tab" id="tabbtn-filings" aria-controls="tab-filings" aria-selected="false" tabindex="-1">Filings</button>
+      <button class="tab-btn" role="tab" id="tabbtn-events" aria-controls="tab-events" aria-selected="false" tabindex="-1">Special events</button>
+    </div>
+
+    <!-- Tab panels scroll inside this container; the page shell does not. -->
+    <div class="tab-container">
+
+      <div class="tab-panel" role="tabpanel" id="tab-general" aria-labelledby="tabbtn-general">
+        <div class="card" id="identity-card">
+          <h2>Identity</h2>
+          <div class="meta-grid" id="identity-grid"></div>
+        </div>
+
+        <div class="card" id="coverage-card">
+          <h2>Filing coverage</h2>
+          <p class="coverage-line" id="coverage-line">Loading…</p>
+          <div class="chip-list" id="coverage-years"></div>
+        </div>
+
+        <div class="card" id="summary-card">
+          <h2>Filings summary</h2>
+          <div id="form-bars"></div>
+          <button type="button" class="btn btn-ghost" id="form-toggle" style="display:none;margin-top:.5rem"></button>
+
+          <h2 style="margin-top:1.5rem">By category</h2>
+          <div class="chip-list" id="category-chips"></div>
+
+          <h2 style="margin-top:1.25rem">By tier</h2>
+          <div class="chip-list" id="tier-chips"></div>
+        </div>
+      </div>
+
+      <div class="tab-panel active" role="tabpanel" id="tab-timeline" aria-labelledby="tabbtn-timeline">
+        <div class="card" id="timeline-panel-body">
+          <h2>Price &amp; filing timeline</h2>
+          <div class="timeline-controls">
+            <div class="timeline-presets" role="group" aria-label="Time range">
+              <button type="button" class="btn btn-ghost" id="tl-preset-1Y">1Y</button>
+              <button type="button" class="btn btn-ghost active" id="tl-preset-2Y">2Y</button>
+              <button type="button" class="btn btn-ghost" id="tl-preset-5Y">5Y</button>
+              <button type="button" class="btn btn-ghost" id="tl-preset-All">All</button>
+            </div>
+            <label class="timeline-lane-label" for="tl-lane">Show</label>
+            <select id="tl-lane" aria-label="Which filings to show">
+              <option value="all">All events</option>
+              <option value="major">Major only</option>
+              <option value="financials">Financials &amp; key events</option>
+            </select>
+            <span class="pager-status" id="timeline-counts"></span>
+          </div>
+          <p id="timeline-status" class="muted"></p>
+          <div class="timeline-chart-wrap">
+            <canvas id="timeline-chart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-panel" role="tabpanel" id="tab-filings" aria-labelledby="tabbtn-filings">
+        <div class="card">
+          <h2>Recent filings</h2>
+          <div class="filings-filters">
+            <select id="filter-year" aria-label="Filter by year"></select>
+            <select id="filter-form" aria-label="Filter by form type"></select>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Form</th>
+                  <th>Category</th>
+                  <th>Tier</th>
+                  <th>Accession</th>
+                  <th>Summary</th>
+                </tr>
+              </thead>
+              <tbody id="filings-tbody">
+                <tr><td colspan="6" class="cell-muted">Loading…</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="pager">
+            <button type="button" class="btn btn-ghost" id="page-prev">Previous</button>
+            <button type="button" class="btn btn-ghost" id="page-next">Next</button>
+            <span class="pager-status" id="page-status"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-panel" role="tabpanel" id="tab-events" aria-labelledby="tabbtn-events">
+        <div class="card">
+          <h2>Special events</h2>
+          <p class="card-hint" id="events-count">The filings that move the story — earnings, deals, regulatory milestones, corporate actions.</p>
+          <div id="events-list"></div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="/static/js/app.js"></script>
+  <script src="/static/js/chart.umd.min.js"></script>
+  <script src="/static/js/company/shell.js"></script>
+  <script src="/static/js/company/tab-general.js"></script>
+  <script src="/static/js/company/tab-filings.js"></script>
+  <script src="/static/js/company/tab-timeline.js"></script>
+  <script src="/static/js/company/tab-events.js"></script>
+</body>
+</html>

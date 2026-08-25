@@ -54,6 +54,17 @@ function formatFileSize(bytes) {
 }
 
 /**
+ * Escapes HTML-significant characters so untrusted text is safe inside innerHTML.
+ * Shared by every page — do not redefine it locally.
+ */
+function escHtml(str) {
+  var s = str == null ? '' : String(str);
+  return s.replace(/[&<>"']/g, function (c) {
+    return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c];
+  });
+}
+
+/**
  * Creates a <progress> bar for pipeline stage % (0–100). Returns { el, setValue }.
  */
 function createLLMProgressBar(initialPct) {

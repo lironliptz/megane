@@ -14,10 +14,13 @@ import (
 	"github.com/joho/godotenv"
 
 	"megane/internal/auth"
+	"megane/internal/companyview"
 	"megane/internal/datamodeling"
 	"megane/internal/db"
+	"megane/internal/filedb"
 	"megane/internal/handlers"
 	"megane/internal/llm"
+	"megane/internal/marketdata"
 	"megane/internal/pipeline"
 	"megane/internal/version"
 )
@@ -117,7 +120,25 @@ func main() {
 	ctx, stop := signal.NotifyContext(context.Background(), syscall.SIGINT, syscall.SIGTERM)
 	defer stop()
 
-	router := handlers.NewRouter(ctx, database, pipe, projectsDir, llmRouteCfg, prompts)
+	// Company read model over the on-disk fileDB/ corpus. Construction performs
+	// no I/O, so a missing fileDB directory does not block startup: it surfaces
+	// as empty search results and 404s on company detail.
+	fileDBDir := getEnv("FILEDB_DIR", "./fileDB")
+	companyStore := filedb.NewFileDBStore(fileDBDir, filedb.Options{
+		TTL: filedb.ParseTTL(os.Getenv("FILEDB_CACHE_TTL")),
+	})
+	slog.Info("company file store configured", "dir", fileDBDir)
+
+	// Market data for the company timeline. Construction performs no I/O; the
+	// first fetch happens when a user opens the Timeline tab.
+	priceProvider := marketdata.NewFromEnv(os.Getenv("MARKET_DATA_PROVIDER"))
+	timelineSvc := companyview.NewService(companyStore, database, priceProvider, companyview.Config{
+		FetchOnOpen: getEnv("STOCK_FETCH_ON_COMPANY_OPEN", "false") == "true",
+	})
+	slog.Info("market data provider configured", "provider", priceProvider.Name())
+
+	router := handlers.NewRouter(ctx, database, pipe, projectsDir, llmRouteCfg, prompts,
+		handlers.CompanyDeps{Store: companyStore, Timeline: timelineSvc})
 	addr := ":" + port
 	srv := &http.Server{Addr: addr, Handler: router}
 

@@ -18,6 +18,10 @@
 projects/
 downloads/
 
+# Local SEC filing corpus (~600MB+; fetch via python/edgar or edgar-fetch)
+fileDB/*
+!fileDB/.gitkeep
+
 # -----------------------------------------------------------------------------
 # Go build & tooling
 # -----------------------------------------------------------------------------
