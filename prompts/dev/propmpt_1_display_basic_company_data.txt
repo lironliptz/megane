@@ -1,0 +1,195 @@
+=== prompt ===
+Build company search and a company overview page for megane.
+
+This is phase 1 of a financial-filings product. Data comes from the local
+`fileDB/` tree (SEC-style filings on disk). SQLite persistence and external
+APIs come later — design the logic layer so the source can be swapped without
+rewriting handlers or UI.
+
+
+## Goal
+
+After login, the user lands on a **company picker** (not the upload page).
+They search by company name or partial CIK, select one company, and navigate
+to a **company page** — the main app surface for now — showing basic
+identity, filing coverage, and a filing inventory summary derived from `fileDB`.
+
+
+## Stack constraints (megane)
+
+- Backend: Go + Gin; register routes in `internal/handlers/router.go`
+- Auth: JWT via existing `auth.AuthRequired()` middleware
+- Frontend: plain HTML/JS/CSS; reuse `:root` tokens from `static/css/style.css`
+- Escape all dynamic text with `escHtml()` before `innerHTML`
+- Response shape: `gin.H{"data": ..., "error": nil}` with proper HTTP status codes
+- Do not wire LLM pipeline or upload flow into this feature yet
+
+
+## Data source: `fileDB/` layout
+
+```
+fileDB/companies/{cik}/
+  submissions.json          ← company identity + filing index (SEC submissions API shape)
+  {year}/{accessionNumber}/
+    filing.json             ← form, filingDate, reportDate, accessionNumber, …
+    meta.json               ← tier, category, summary, tags, signals
+    index.json              ← file manifest for the accession folder
+    *.txt / *.htm           ← extracted filing text (do not load all into memory for search)
+```
+
+Example company on disk today: `0001567529` (KAMADA LTD, ticker KMDA).
+
+Key fields already available:
+
+| Source | Fields to use |
+|--------|----------------|
+| `submissions.json` | `cik`, `name`, `tickers[]`, `exchanges[]`, `sic`, `sicDescription`, `category`, `fiscalYearEnd`, `stateOfIncorporationDescription`, `addresses`, `phone`, `formerNames[]` |
+| `submissions.json` → `filings.recent` | parallel arrays: `accessionNumber`, `form`, `filingDate`, `reportDate` (fast index; cross-check folders on disk) |
+| per-filing `filing.json` | `form`, `filingDate`, `reportDate`, `accessionNumber`, `primaryDocDescription` |
+| per-filing `meta.json` | `tier`, `tierLabel`, `category`, `summary`, `tags[]`, `signals.hasFinancials`, `signals.exhibitCount` |
+
+Aggregations to compute at read time (no DB yet):
+
+- **Coverage period**: min/max `filingDate` across filings present on disk
+- **Years with data**: distinct years from folder names under `{cik}/`
+- **Filing counts**: total filings; breakdown by `form` (e.g. 6-K, 20-F, 4, SC 13G/A)
+- **Category breakdown**: from `meta.json` when present (e.g. quarterly_results, insider_trade, annual_report)
+- **Tier breakdown**: MAJOR / minor counts from `metaLabel` or `tierLabel`
+
+
+## Logic layer (required abstraction)
+
+Add `internal/filedb/` (or similar) with a small interface:
+
+```go
+type CompanyStore interface {
+    ListCompanies(ctx context.Context) ([]CompanySummary, error)
+    SearchCompanies(ctx context.Context, query string, limit int) ([]CompanySummary, error)
+    GetCompany(ctx context.Context, cik string) (*CompanyDetail, error)
+}
+```
+
+Phase 1 implementation: `FileDBStore` reading `fileDB/companies/`.
+Phase 2 (later): `SQLiteStore` — same interface, handlers unchanged.
+
+Search rules:
+
+- Match `name` case-insensitively (substring + token-prefix)
+- Match `cik` when query is numeric or partial CIK (strip leading zeros for UX)
+- Match `tickers[]` exactly (case-insensitive)
+- Match `formerNames[]` if non-empty
+- Return at most 20 results, sorted: exact ticker match → name prefix → substring → CIK
+- Debounce on the client; server endpoint must be fast (<200 ms for one company on disk)
+
+
+## API endpoints
+
+All under `/api`, auth required:
+
+| Method | Path | Purpose |
+|--------|------|---------|
+| GET | `/api/companies/search?q=` | Search companies; returns `{cik, name, tickers, exchanges}` |
+| GET | `/api/companies/:cik` | Full company detail + filing coverage stats |
+| GET | `/api/companies/:cik/filings?year=&form=&limit=&offset=` | Paginated filing list (newest first) |
+
+`GET /api/companies/:cik` response should include at minimum:
+
+```json
+{
+  "identity": {
+    "cik": "0001567529",
+    "name": "KAMADA LTD",
+    "tickers": ["KMDA"],
+    "exchanges": ["Nasdaq"],
+    "sic": "2834",
+    "sicDescription": "Pharmaceutical Preparations",
+    "stateOfIncorporation": "Israel",
+    "fiscalYearEnd": "1231",
+    "category": "Accelerated filer"
+  },
+  "coverage": {
+    "earliestFilingDate": "2016-02-02",
+    "latestFilingDate": "2026-…",
+    "yearsOnDisk": [2016, 2017, "…"],
+    "totalFilings": 381
+  },
+  "filingsSummary": {
+    "byForm": {"6-K": 321, "20-F": 13},
+    "byCategory": {"quarterly_results": 26, "insider_trade": 19},
+    "byTier": {"MAJOR": 120, "MINOR": 261}
+  }
+}
+```
+
+Return 404 when CIK folder or `submissions.json` is missing.
+
+
+## UI pages
+
+### 1. Company picker (`/companies` or post-login default)
+
+- Single search input: placeholder "Search by name, ticker, or CIK"
+- Live results dropdown / list (keyboard navigable)
+- Each row: **name**, **tickers**, **CIK**
+- Click row → navigate to `/companies/{cik}` (or `?cik=` if staying SPA-less)
+- Empty state when no matches; loading state while fetching
+
+### 2. Company page (`/companies/:cik`)
+
+Main application home for now. Sections:
+
+1. **Header** — company name, tickers (linked badges), CIK, exchange
+2. **Identity card** — SIC, incorporation, fiscal year end, filer category, HQ location (from addresses)
+3. **Coverage card** — "We have filings from {earliest} to {latest}" + year chips
+4. **Filings summary** — horizontal bar or table: counts by form type; optional category/tier chips
+5. **Recent filings table** — columns: date, form, category (from meta), accession, summary; paginated via API
+6. **Placeholder panel** — "Timeline view (coming soon)" — see out of scope below
+
+Reuse existing layout: `app-header`, `card`, `main-content`, brand `--accent`.
+Add nav link "Companies" beside Analyze.
+
+
+## Suggested display parameters (from fileDB today)
+
+**Always show:** name, CIK, tickers, exchanges, SIC + description, coverage date range, total filings, top form types.
+
+**Show when present:** state of incorporation, fiscal year end, filer category, business address city/country, phone, former names.
+
+**Per-filing row:** filingDate, form, category, tierLabel, summary, tags, hasFinancials flag.
+
+**Do not show yet:** raw HTML paths, full `.txt` bodies, LLM analysis, stock prices.
+
+
+## Acceptance criteria
+
+- [ ] Post-login default route is company picker (or prominent nav to it)
+- [ ] Search finds "Kamada", "KMDA", and partial CIK "1567529"
+- [ ] Company page loads for `0001567529` with correct identity and ≥300 filing count
+- [ ] Coverage dates match min/max `filingDate` on disk
+- [ ] Form-type breakdown includes 6-K and 20-F for the sample company
+- [ ] Filings table paginates without loading all 381 rows at once
+- [ ] All endpoints require auth; unauthenticated requests get 401
+- [ ] `make test` passes; add unit tests for search ranking and aggregation helpers
+
+
+## Out of scope (document only — next prompts)
+
+- **SQLite / DB migration** for companies and filings index
+- **Timeline view** correlating filings with stock price — needs price data source and event extraction
+- **External APIs** (SEC live fetch, market data)
+- **Filing detail / LLM analysis** of individual accession folders
+- **Admin** company management
+
+When implementing timeline later: use `filingDate` + `meta.category` as events; overlay price series from a future market-data provider; highlight tier MAJOR filings and categories like quarterly_results, business_deal, annual_report.
+
+
+## Implementation order
+
+1. `internal/filedb` store + tests against `fileDB/companies/0001567529`
+2. Handlers + router registration
+3. `static/companies.html` + `static/js/companies.js` (picker)
+4. `static/company.html` + `static/js/company-page.js` (detail)
+5. CSS tweaks only if needed (prefer existing card/table styles)
+6. Smoke test manually and with curl (see `.claude/skills/test-pipeline` pattern for auth)
+
+Keep diffs focused. No LLM struct/prompt/renderer changes in this phase.

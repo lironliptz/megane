@@ -1,0 +1,17 @@
+{
+  "accession": "0001178913-18-000565",
+  "form": "SC 13G/A",
+  "filingDate": "2018-02-14",
+  "reportDate": null,
+  "tier": 3,
+  "tierLabel": "MINOR",
+  "category": "unknown",
+  "summary": "EXHIBIT 99.1",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": []
+}

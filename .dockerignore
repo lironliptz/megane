@@ -1,0 +1,48 @@
+# Slim build context for `docker build` — faster uploads, no secrets in layer cache.
+
+# Version control
+.git
+.gitattributes
+
+# Ignore rules themselves (not needed in image)
+.gitignore
+.cursorignore
+.dockerignore
+
+# Credentials & local env — runtime must inject via compose / -e / secrets
+.env
+.env.*
+!.env.example
+
+# Runtime dirs & SQLite (mounted or created at runtime)
+projects/
+downloads/
+.db/
+*.db
+*.db-shm
+*.db-wal
+
+# Docs & planning (not compiled)
+*.md
+prompt0.txt
+
+# Editor / agent config (not used by `go build`)
+.vscode
+.idea
+.cursor
+.claude
+
+# Compose & Makefile — image builds from Dockerfile only
+docker-compose.yml
+docker-compose.*.yml
+Makefile
+
+# Local binary artifact
+jump-starter
+
+# Tests — not required for production `go build`
+**/*_test.go
+
+# OS noise
+.DS_Store
+Thumbs.db

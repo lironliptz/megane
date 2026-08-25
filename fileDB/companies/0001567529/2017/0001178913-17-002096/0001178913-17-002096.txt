@@ -1,0 +1,442 @@
+<SEC-DOCUMENT>0001178913-17-002096.txt : 20170720
+<SEC-HEADER>0001178913-17-002096.hdr.sgml : 20170720
+<ACCEPTANCE-DATETIME>20170720070217
+ACCESSION NUMBER:		0001178913-17-002096
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20170720
+FILED AS OF DATE:		20170720
+DATE AS OF CHANGE:		20170720
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		17973370
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>zk1720273.htm
+<DESCRIPTION>6-K
+<TEXT>
+<html>
+<head>
+<title></title>
+<!--Licensed to: ZKG
+    Document created using EDGARfilings PROfile 4.3.2.0
+    Copyright 1995 - 2017 Summit Financial Printing, LLC.  All rights reserved.-->
+</head>
+<body style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif" text="#000000" bgcolor="#ffffff">
+<div>
+<hr style="BORDER-TOP: black 4px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 1px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+<br style="LINE-HEIGHT: 1.25">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">UNITED STATES</div>
+
+<div style="TEXT-ALIGN: center; FONT: bold 14pt/1.25 'Times New Roman', Times, serif">SECURITIES AND EXCHANGE COMMISSION</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Washington, D.C. 20549</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: center; FONT: bold 14pt/1.25 'Times New Roman', Times, serif">FORM 6-K</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Report of Foreign Private Issuer</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Pursuant to Rule 13a-16 or 15d-16</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">of the Securities Exchange Act of 1934</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">For the Month of June, 2017</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Commission File Number 001-35948</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: center; FONT: bold 16pt/1.25 'Times New Roman', Times, serif">Kamada Ltd.</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">(Translation of registrant's name into English)</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">
+<div id="DSPFPageHeader"></div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">2 Holzman Street</div>
+
+Science Park, P.O. Box 4081,</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Rehovot 7670402</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Israel</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font> &#160;(Address of principal executive offices)</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Indicate by check mark whether the registrant files or will file annual reports under cover Form 20-F or Form 40-F.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Form 20-F <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Wingdings 2', serif">T</font>&#160;&#160; Form 40-F <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">&#9744;</font></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ____</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7): ____</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<div id="DSPFPageHeader" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold"></div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">This Form 6-K is being incorporated by reference into the Registrant's Form S-8 Registration Statements, File Nos. 333-192720, 333-207933 and 333-215983,</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">&#160;</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">and the Registrant's Form F-3 Registration Statement, as amended, File No. </font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">333-214816</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">.</font></font><br style="LINE-HEIGHT: 1.25">
+ &#160;</div>
+</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; MARGIN-TOP: 10pt; CLEAR: both">
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 100%; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+
+<div id="DSPFPageHeader">
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">The following exhibit is attached:</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="za2c6d014eb084c40881054d4c26e57fc" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 36pt; VERTICAL-ALIGN: top; align: right">99.1</td>
+<td style="WIDTH: auto; VERTICAL-ALIGN: top; TEXT-ALIGN: left">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">News Release: Kamada Submits Proposed Phase 3 Protocol to FDA for Inhaled Alpha-1-Antitrypsin for Treatment of Alpha-1 Antitrypsin Deficiency Disease</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; MARGIN-TOP: 10pt; CLEAR: both">
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 100%; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+
+<div id="DSPFPageHeader">
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; MARGIN-LEFT: 36pt; LINE-HEIGHT: 1.25; TEXT-INDENT: -36pt">SIGNATURE</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</div>
+
+<table id="z901ac6e9311847cca4871584e5562a18" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 50.25%; VERTICAL-ALIGN: top">
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Date: July 20, 2017</div>
+</td>
+<td style="WIDTH: 35.13%; VERTICAL-ALIGN: top">
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">KAMADA LTD.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+</td>
+<td style="WIDTH: 13.89%; VERTICAL-ALIGN: top">&#160;</td>
+</tr>
+
+<tr>
+<td style="WIDTH: 50.25%; VERTICAL-ALIGN: top; PADDING-BOTTOM: 2px">&#160;</td>
+<td style="WIDTH: 35.13%; VERTICAL-ALIGN: top; BORDER-BOTTOM: black 2px solid">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">By:&#160; <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">/s/ Gil Efron</font></div>
+</td>
+<td style="WIDTH: 13.89%; VERTICAL-ALIGN: top; PADDING-BOTTOM: 2px">&#160;</td>
+</tr>
+
+<tr>
+<td style="WIDTH: 50.25%; VERTICAL-ALIGN: top">&#160;</td>
+<td style="WIDTH: 35.13%; VERTICAL-ALIGN: top">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Gil Efron<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font> Deputy Chief Executive Officer and Chief Financial Officer</div>
+</td>
+<td style="WIDTH: 13.89%; VERTICAL-ALIGN: top">&#160;</td>
+</tr>
+</table>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; MARGIN-TOP: 10pt; CLEAR: both">
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 100%; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+
+<div id="DSPFPageHeader">
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25"><u>EXHIBIT INDEX</u></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<table id="z4a09687b50ef46ff908a2b969a8a695d" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-VARIANT: normal; WIDTH: 10%; VERTICAL-ALIGN: top; FONT-WEIGHT: normal; FONT-STYLE: normal">
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25"><u>EXHIBIT NO.</u></div>
+</td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-VARIANT: normal; WIDTH: 90%; VERTICAL-ALIGN: top; FONT-WEIGHT: normal; FONT-STYLE: normal">
+<div><u>DESCRIPTION</u></div>
+</td>
+</tr>
+
+<tr>
+<td style="WIDTH: 10%; VERTICAL-ALIGN: top">
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">99.1</div>
+</td>
+<td style="WIDTH: 90%; VERTICAL-ALIGN: top">
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">News Release: Kamada Submits Proposed Phase 3 Protocol to FDA for Inhaled Alpha-1-Antitrypsin for Treatment of Alpha-1 Antitrypsin Deficiency Disease</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div>&#160;</div>
+
+<div>&#160;</div>
+
+<div>&#160;</div>
+
+<div>
+<hr style="BORDER-TOP: black 1px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 4px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+</div>
+</body>
+</html>
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>exhibit_99-1.htm
+<DESCRIPTION>EXHIBIT 99.1
+<TEXT>
+<html>
+<head>
+<title></title>
+<!--Licensed to: ZKG
+    Document created using EDGARfilings PROfile 4.3.2.0
+    Copyright 1995 - 2017 Summit Financial Printing, LLC.  All rights reserved.-->
+</head>
+<body style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif" text="#000000" bgcolor="#ffffff">
+<div>
+<div id="DSPFPageHeader">
+<div style="LINE-HEIGHT: 1.25">
+<hr style="BORDER-TOP: black 4px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 1px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+<br style="LINE-HEIGHT: 1.25">
+</div>
+</div>
+
+<div style="TEXT-ALIGN: right; FONT: bold 10pt/1.25 'Times New Roman', Times, serif"><u>Exhibit 99.1</u></div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: center; FONT: bold 12pt/1.25 'Times New Roman', Times, serif">Kamada Submits Proposed Phase 3 Protocol to FDA for </div>
+
+<div style="TEXT-ALIGN: center; FONT: bold 12pt/1.25 'Times New Roman', Times, serif">Inhaled Alpha-1-Antitrypsin for Treatment of Alpha-1 </div>
+
+<div style="TEXT-ALIGN: center; FONT: bold 12pt/1.25 'Times New Roman', Times, serif">Antitrypsin Deficiency Disease</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Patients would be treated with 80 mg/day; intended primary endpoint of lung function and </div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">lung density as planned secondary endpoint</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Rehovot, Israel, July 20, 2017 &#8211; Kamada Ltd. (NASDAQ &amp; TASE: KMDA), a plasma-derived protein therapeutics company focused on orphan indications, today announced that the Company has submitted to the U.S. Food and Drug Administration (FDA) for review a proposed pivotal Phase 3 protocol for its proprietary inhaled Alpha-1 Antitrypsin (AAT) therapy (Inhaled AAT) for the treatment of Alpha-1 Antitrypsin Deficiency (AATD)</font>.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The proposed Phase 3 pivotal study is intended to treat AATD subjects with inhaled AAT at a dose of&#160; 80 mg once daily for a period of two years, with a placebo arm at a 2:1 ratio with cross over to the treatment arm following a period of 12 months. In parallel, a concurrent Intravenous</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">&#160;</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">AAT (AAT IV) arm will be evaluated for two years. The study is planned to include approximately 200-300 patients, and is expected to measure lung function as a primary endpoint and lung density as a secondary endpoint.</font></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">"The proposed study design is based on Kamada's experience with previous Inhaled AAT studies.&#160; Our Phase 2 US study showed increases in AAT levels in the lungs to the upper normal range with a daily dose of 80 mg of inhaled AAT.&#160; The primary endpoint of lung function was selected based on the results of our European Phase 2/3 study, and the secondary endpoint is consistent with prior AAT IV studies," said Dr. Naveh Tov, MD, PhD, Kamada's Vice President of Clinical Development &amp; Medical Director for Pulmonary Diseases.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">As previously announced, Kamada has completed a Phase 2/3 clinical trial in Europe and a Phase 2 clinical trial in the United States (U.S.) with its Inhaled AAT for the treatment of AATD.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">The U.S. Phase 2 study, which was double-blind and placebo-controlled, met its primary endpoint and the results indicated that patients treated with Kamada's Inhaled AAT, in both dosage arms (80 mg/day and 160 mg/day), demonstrated a significant increase of antigenic AAT, and of Anti-Neutrophil Elastase inhibitory Capacity (ANEC) in the endothelial lining fluid (ELF) levels in the lungs compared to the placebo group.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">When the Company presented the data from the European Phase 2/3 study to the FDA, the agency expressed concerns and questions about that data, primarily related to the safety and efficacy of </font>Inhaled AAT <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">for the treatment of AATD and the risk/benefit balance to patients based on that data. Those questions and concerns will need to be resolved before the FDA will allow the Company to proceed with additional clinical development of Inhaled AAT in the U.S., including the planned Phase 3 pivotal study.&#160; In order to address the FDA comments, in April 2017, the Company submitted to the agency the results of the U.S. Phase 2 data together with a proposed Phase 3 synopsis.&#160;The FDA has provided the Company with guidance for further development of the synopsis and requested that the Company submit a complete proposed study protocol for the next phase prior to enabling the Company to continue clinical development in the U.S.</font></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; MARGIN-TOP: 10pt; CLEAR: both">
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 100%; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">On July 18, 2017, Kamada submitted a full study protocol, which the Company believes addresses the remaining concerns and questions identified by the FDA.&#160;</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">"The submission of our proposed Phase 3 protocol represents an important accomplishment for our inhaled AAT program," said </font>Amir London, Kamada's Chief Executive Officer.<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"> "Following the guidance received from the FDA, we believe we have appropriately designed our proposed Phase 3 clinical trial protocol. Based on the collective clinical data generated to date, we continue to believe that </font>Inhaled AAT has the potential to be a safe and effective treatment for AATD.&#160; If approved to move forward by the FDA, we intend to proceed with a U.S. Phase 3 pivotal clinical trial as expeditiously as possible for the potential benefit of the AATD patient population."</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">About eFlow&#174; Technology and PARI Pharma</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">The Company's Inhaled AAT therapy is delivered by an investigational eFlow&#174; Nebulizer System developed by PARI Pharma specifically for Kamada. The optimized device uses eFlow Technology to enable highly efficient aerosolization of medication via a vibrating, perforated membrane that includes thousands of laser-drilled holes. Compared with other nebulization technologies, eFlow Technology produces aerosols with a very high density of active drug, a precisely defined droplet size and a high proportion of respirable droplets delivered in the shortest possible period of time. Combined with its quiet mode of operation, small size, light weight and battery use, eFlow Technology reduces the burden of taking daily, inhaled treatments.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">About Kamada</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">Kamada Ltd. is focused on plasma-derived protein therapeutics for orphan indications, and has a commercial product portfolio and a robust late-stage product pipeline. The Company uses its proprietary platform technology and know-how for the extraction and purification of proteins from human plasma to produce Alpha-1 Antitrypsin (AAT) in a highly-purified, liquid form, as well as other plasma-derived Immune globulins.&#160; AAT is a protein derived from human plasma with known and newly-discovered therapeutic roles given its immunomodulatory, anti-inflammatory, tissue-protective and antimicrobial properties. The Company's flagship product is GLASSIA&#174;, the first and only liquid, ready-to-use, intravenous plasma-derived AAT product approved by the U.S. Food and Drug Administration. Kamada markets GLASSIA&#174; in the U.S. through a strategic partnership with Baxalta (now part of Shire plc) and in other counties through local distributors.&#160; In addition to GLASSIA&#174;, Kamada has a product line of seven other pharmaceutical products administered by injection or infusion, that are marketed through distributors in more than 15 countries, including Israel, Russia, Brazil, India and other countries in Latin America and Asia. Kamada has five late-stage plasma-derived protein products in development, including an inhaled formulation of AAT for the treatment of AAT deficiency for which the Company completed a pivotal Phase 2/3 clinical trial in Europe. &#160;Kamada has also completed its Phase 2 clinical trials in the U.S for the treatment of AAT deficiency with Inhaled AAT. In addition, Kamada's intravenous AAT is in development for other indications such as type-1 diabetes, GvHD and prevention of lung transplant rejection. Kamada also leverages its expertise and presence in the plasma-derived protein therapeutics market by distributing more than 10 complementary products in Israel that are manufactured by third parties.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; MARGIN-TOP: 10pt; CLEAR: both">
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 100%; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">Cautionary Note Regarding Forward-Looking Statements</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">This release includes forward-looking statements within the meaning of Section 27A of the U.S. Securities Act of 1933, as amended, Section 21E of the U.S. Securities Exchange Act of 1934, as amended, and the safe harbor provisions of the U.S. Private Securities Litigation Reform Act of 1995.&#160; Forward-looking statements are statements that are not historical facts, such as statements regarding the Company's belief that the supplementary data needed for approval of the MAA requires an additional clinical trial; the Company's plan to utilize the data to be obtained from the planned U.S. Phase 3 pivotal study, if positive, to resubmit the MAA to the EMA; </font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">the Company's plans for the resolution of questions and concerns raised by the FDA, including through its submission of a full study protocol, in order to proceed with additional clinical development of Inhaled AAT in the U.S., including the planned Phase 3 pivotal study; the Company's belief that the full study protocol submitted to the FDA addresses the remaining concerns and questions identified by the FDA</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"> when they reviewed the European Phase 2/3 data</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">; expectations regarding the receipt of an authorization from the FDA in order to proceed with the clinical development</font>&#160;<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">of Inhaled AAT for the treatment of AATD in the U.S., including the proposed Phase 3 trial; </font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">the Company's belief that </font>Inhaled AAT has the potential to be a safe and effective treatment for AATD; and the Company's intention, if approved to move forward by the FDA, to proceed with a U.S. Phase 3 pivotal clinical trial as expeditiously as possible for the potential benefit of the AATD patient population<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">.&#160; Forward-looking statements are based on Kamada's current knowledge and its present beliefs and expectations regarding possible future events and are subject to risks, uncertainties and assumptions.&#160; Actual results and the timing of events could differ materially from those anticipated in these forward-looking statements as a result of several factors including, but not limited to, unexpected results of clinical trials, delays or denial in the U.S. FDA or the EMA approval process, additional competition in the AATD market or further regulatory delays.&#160; The forward-looking statements made herein speak only as of the date of this announcement and Kamada undertakes no obligation to update publicly such forward-looking statements to reflect subsequent events or circumstances, except as otherwise required by law.</font></div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">###</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">CONTACTS:</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">Gil Efron</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">Deputy CEO &amp; Chief Financial Officer</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">IR@kamada.com</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">Bob Yedid</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">LifeSci Advisors, LLC</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">646-597-6989</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25"><u>Bob@LifeSciAdvisors.com</u></div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<hr style="BORDER-TOP: black 1px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 4px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+</div>
+</div>
+</body>
+</html>
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

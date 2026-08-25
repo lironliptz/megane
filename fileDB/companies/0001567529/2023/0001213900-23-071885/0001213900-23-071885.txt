@@ -1,0 +1,483 @@
+<SEC-DOCUMENT>0001213900-23-071885.txt : 20230830
+<SEC-HEADER>0001213900-23-071885.hdr.sgml : 20230830
+<ACCEPTANCE-DATETIME>20230830070002
+ACCESSION NUMBER:		0001213900-23-071885
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20230830
+FILED AS OF DATE:		20230830
+DATE AS OF CHANGE:		20230830
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		231223673
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>ea184416-6k_kamada.htm
+<DESCRIPTION>REPORT OF FOREIGN PRIVATE ISSUER
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 2pt solid; border-bottom: Black 1pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>UNITED STATES</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>SECURITIES AND EXCHANGE COMMISSION</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>Washington, D.C. 20549</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>FORM 6-K</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>Report of Foreign Private Issuer</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>Pursuant to Rule 13a-16 or 15d-16</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>of the Securities Exchange Act of 1934</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">For the Month of August 2023</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Commission File Number 001-35948</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>Kamada Ltd.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Translation of registrant&rsquo;s name into English)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>2 Holzman Street<BR>
+Science Park, P.O. Box 4081<BR>
+Rehovot 7670402<BR>
+Israel<BR>
+</B>(Address of principal executive offices)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Indicate by check mark whether the registrant
+files or will file annual reports under cover Form 20-F or Form 40-F.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Form 20-F &#9746; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Form
+40-F &#9744;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Indicate by check mark whether the registrant
+by furnishing the information contained in this Form is also thereby furnishing the information to the Commission pursuant to Rule 12g3-2(b)
+under the Securities Exchange Act of 1934.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Yes &#9744; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No
+&#9746;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">If &ldquo;Yes&rdquo; is marked, indicate below
+the file number assigned to the registrant in connection with Rule 12g3-2(b): 82-____</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in; text-align: justify; text-indent: -0.5in">&nbsp;&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>This Form 6-K is being incorporated by reference
+into the Registrant&rsquo;s Form S-8 Registration Statements, File Nos. <A HREF="https://www.sec.gov/Archives/edgar/data/1567529/000117891313003548/zk1314048.htm">333-192720</A>, <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891315003362/zk1517560.htm">333-207933</A>, <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891317000388/zk1719386.htm">333-215983</A>, <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891318000396/zk1821132.htm">333-222891</A>, <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891319002187/zk1923409.htm">333-233267</A> and
+<A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000121390022035395/ea161899-s8_kamadaltd.htm">333-265866</A>.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1pt solid; border-bottom: Black 2pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+
+<!-- Field: Page; Sequence: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>EXPLANATORY NOTE</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify; text-indent: -0.05pt">On August 29,
+2023, Kamada Ltd. (the &ldquo;<B>Company</B>&rdquo;) held an Extraordinary General Meeting of Shareholders at the Company&rsquo;s offices
+at 2 Holzman Street, Weizmann Science Park, Rehovot, Israel (the &ldquo;<B>Meeting</B>&rdquo;). At the Meeting, the shareholders voted
+on and approved, by the applicable required majority, each of the proposals that were described in the Company&rsquo;s Notice and Proxy
+Statement for the Meeting that was attached as Exhibit 99.1 to a Report of Foreign Private Issuer on Form 6-K furnished by the Company
+to the U.S. Securities and Exchange Commission on July 13, 2023 (the &ldquo;<B>Proxy Statement</B>&rdquo;). Accordingly, at the Meeting,
+the shareholders of the Company approved the following proposals:</P>
+
+<P STYLE="text-align: justify; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">1.</TD><TD STYLE="text-align: justify">A private placement of the Company&rsquo;s ordinary shares,
+following which FIMI shall become a controlling shareholder of the Company (within the meaning of the Israeli Companies Law, 5759-199
+(the &ldquo;<B>Israeli Companies Law</B>&rdquo;)), on the conditions set forth in Proposal 1 to the Proxy Statement for the Meeting (the
+&ldquo;<B>Private Placement</B>&rdquo;).</TD>
+</TR></TABLE>
+
+<P STYLE="text-align: justify; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">2.</TD><TD STYLE="text-align: justify">The election of each of Prof. Benjamin Dekel and Assaf Itshayek
+as external directors, within the meaning of the Israeli Companies Law, for an initial three-year term, subject to the closing of the
+Private Placement.</TD>
+</TR></TABLE>
+
+<P STYLE="text-align: justify; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">3.</TD><TD STYLE="text-align: justify">The grant of options to each of Prof. Benjamin Dekel and
+Assaf Itshayek, within the meaning of the Israeli Companies Law.</TD>
+</TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 35.45pt; text-align: justify; text-indent: -0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; background-color: white">Additionally, the following exhibit is attached:</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; background-color: white">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR STYLE="vertical-align: top; background-color: rgb(204,238,255)">
+    <TD STYLE="width: 9%; text-align: justify; font-size: 10pt"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.1</FONT></TD>
+    <TD STYLE="width: 1%; text-align: justify; font-size: 10pt">&nbsp;</TD>
+    <TD STYLE="width: 90%; text-align: justify; font-size: 10pt"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><A HREF="ea184416ex99-1_kamada.htm">Kamada Announces Shareholder Approval and Planned Closing of $60 Million Private Placement with FIMI Opportunity Funds</A></FONT></TD></TR>
+  </TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>&nbsp;</B></P>
+
+<!-- Field: Page; Sequence: 2; Options: NewSection; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->1<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center; background-color: white"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center; background-color: white"><B>SIGNATURE</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white">Pursuant to the requirements
+of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto
+duly authorized.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR STYLE="vertical-align: top">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Date: August 30, 2023</FONT></TD>
+    <TD COLSPAN="2"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>KAMADA LTD.</B></FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="width: 60%">&nbsp;</TD>
+    <TD STYLE="width: 4%">&nbsp;</TD>
+    <TD STYLE="width: 36%">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">By:</FONT></TD>
+    <TD STYLE="border-bottom: black 1.5pt solid"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">/s/ Nir Livneh</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Nir Livneh</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Vice President General Counsel and<BR>
+Corporate Secretary</FONT></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<!-- Field: Page; Sequence: 3; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->2<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center; background-color: white"><U>EXHIBIT INDEX</U></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center; background-color: white">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR STYLE="vertical-align: bottom">
+    <TD STYLE="border-bottom: black 1.5pt solid; white-space: nowrap; width: 9%"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">EXHIBIT NO.</FONT></TD>
+    <TD STYLE="white-space: nowrap; width: 1%">&nbsp;</TD>
+    <TD STYLE="border-bottom: black 1.5pt solid; white-space: nowrap; width: 90%"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">DESCRIPTION</FONT></TD></TR>
+  <TR STYLE="vertical-align: top; background-color: #CCEEFF">
+    <TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.1</FONT></TD>
+    <TD STYLE="text-align: justify">&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><A HREF="ea184416ex99-1_kamada.htm">Kamada Announces Shareholder Approval and Planned Closing of $60 Million Private Placement with FIMI Opportunity Funds</A></FONT></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center; background-color: white">3</P>
+
+
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center; background-color: white"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center; background-color: white">&nbsp;</P>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>ea184416ex99-1_kamada.htm
+<DESCRIPTION>KAMADA ANNOUNCES SHAREHOLDER APPROVAL AND PLANNED CLOSING OF $60 MILLION PRIVATE PLACEMENT WITH FIMI OPPORTUNITY FUNDS
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right"><B>Exhibit 99.1</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>Kamada Announces Shareholder Approval and Planned
+Closing of $60 Million Private Placement with FIMI Opportunity Funds</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in; text-align: left">&#9679;</TD><TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif"><I>Funding
+Strengthens Kamada&rsquo;s Financial Position, Supporting its Growth Plans and the Pursuit of Strategic Business Development Opportunities</I></FONT></TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in; text-align: left">&#9679;</TD><TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif"><I>Appointment
+of Two New Independent Directors to its Board: Professor Benjamin Dekel and Mr. Assaf Itshayek</I></FONT></TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Rehovot, Israel, and Hoboken, NJ &ndash; August
+30, 2023</B> -- Kamada Ltd. (NASDAQ: KMDA; TASE: KMDA.TA), a commercial stage global biopharmaceutical company with a portfolio of marketed
+products indicated for rare and serious conditions and a leader in the specialty plasma-derived field, today announced shareholder approval
+and planned closing of the previously announced $60 million private placement <FONT STYLE="background-color: white">(the &ldquo;<B>Private
+Placement</B>&rdquo;) </FONT>with <FONT STYLE="background-color: white">FIMI Opportunity Funds (&ldquo;<B>FIMI</B>&rdquo;), the leading
+private equity firm in Israel and a large existing Kamada shareholder</FONT>.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><FONT STYLE="background-color: white">Under the
+terms of the Private Placement, Kamada will be issuing an aggregate of approximately 12.6 million ordinary shares to FIMI at a price of
+$4.75 per share (which represented the average closing price of the Company&rsquo;s shares on NASDAQ during the 20 trading days prior
+to the date of execution of the Private Placement). Upon closing of the Private Placement, expected during the first week of September,
+FIMI will beneficially own approximately 38% of Kamada&rsquo;s outstanding ordinary shares and will become a controlling shareholder of
+the Company, within the meaning of the Israeli Companies Law, 1999 (the &ldquo;<B>Companies Law</B>&rdquo;).</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&ldquo;We are grateful for the support of FIMI
+and our shareholders in approving the $60 million private placement,&rdquo; <FONT STYLE="background-color: white">said Amir London, Kamada&rsquo;s
+Chief Executive Officer.</FONT> &ldquo;We now have <FONT STYLE="background-color: white">enhanced financial flexibility, which allows
+us to accelerate the growth of our business. We are proactively evaluating a number of compelling business development opportunities that
+have the potential to expand our existing product portfolio.</FONT>&rdquo;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The securities offered under the Private Placement
+were not registered under the Securities Act of 1933, as amended. The Company agreed to file a registration statement with the U.S. Securities
+and Exchange Commission registering the resale of all the ordinary shares held by FIMI, following its request, at any time after the lapse
+of six months following the closing of the Private Placement.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Kamada also separately announced the appointment
+of two new independent directors (who qualify as External Directors under the Companies Law) to its Board of Directors, Professor Benjamin
+Dekel, MD, PhD. and Mr. Assaf Itshayek. Professor Dekel is <FONT STYLE="background-color: white">known internationally as one of the most
+innovative and highly recognized researchers in the field of human renal stem cell biology and regenerative medicine, and Mr. Itshayek
+</FONT>has over 15 years of hi-tech industry experience in senior management and finance executive positions.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&ldquo;We are pleased to welcome Professor Dekel
+and <FONT STYLE="background-color: white">Mr. Itshayek</FONT>, both highly accomplished individuals in their fields, to our Board of Directors,&rdquo;
+said Ms. Lilach Asher Topilsky, Kamada&rsquo;s Chairman of the Board. &ldquo;The appointment of these two new directors enhances the scientific
+and financial acumen of our Board, which is important as we continue developing our business and pipeline, while evaluating potential
+new opportunities. We look forward to leveraging the successful track records of both Professor Dekel and <FONT STYLE="background-color: white">Mr.
+Itshayek</FONT>.&rdquo;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">This press release shall not constitute an offer
+to sell or the solicitation of an offer to buy these securities, nor shall there be any offer, solicitation, or sale of these securities
+in any state or other jurisdiction in which such an offer, solicitation or sale would be unlawful. Any offering of the ordinary shares
+under the resale registration statement will only be by means of a prospectus.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+
+<!-- Field: Page; Sequence: 1; Options: NewSection; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>About Kamada </B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Kamada Ltd. (the &ldquo;Company&rdquo;) is a commercial
+stage global biopharmaceutical company with a portfolio of marketed products indicated for rare and serious conditions and a leader in
+the specialty plasma-derived field, focused on diseases of limited treatment alternatives. The Company is also advancing an innovative
+development pipeline targeting areas of significant unmet medical need. The Company&rsquo;s strategy is focused on driving profitable
+growth from its significant commercial catalysts as well as its manufacturing and development expertise in the plasma-derived and biopharmaceutical
+fields. The Company&rsquo;s commercial products portfolio includes six FDA approved plasma-derived biopharmaceutical products: CYTOGAM&reg;,
+KEDRAB&reg;, WINRHO SDF&reg;, VARIZIG&reg;, HEPAGAM B&reg; and GLASSIA&reg;, as well as KAMRAB&reg;, KAMRHO (D)&reg; and two types of
+equine-based anti-snake venom (ASV) products. The Company distributes its commercial products portfolio directly, and through strategic
+partners or third-party distributors in more than 30 countries, including the U.S., Canada, Israel, Russia, Argentina, Brazil, India,
+Australia and other countries in Latin America, Europe, Middle East, and Asia. The Company leverages its expertise and presence in the
+Israeli market to distribute, for use in Israel, more than 25 pharmaceutical products that are supplied by international manufacturers.
+During recent years the Company added eleven biosimilar products to its Israeli distribution portfolio, which, subject to the European
+Medicines Agency (EMA) and the Israeli Ministry of Health approvals, are expected to be launched in Israel through 2028. The Company owns
+an FDA licensed plasma collection center in Beaumont, Texas, which currently specializes in the collection of hyper-immune plasma used
+in the manufacture of KAMRHO (D). In addition to the Company&rsquo;s commercial operation, it invests in research and development of new
+product candidates. The Company&rsquo;s leading investigational product is an inhaled AAT for the treatment of AAT deficiency, for which
+it is continuing to progress the InnovAATe clinical trial, a randomized, double-blind, placebo-controlled, pivotal Phase 3 trial. FIMI
+Opportunity Funds, the leading private equity firm in Israel, is the Company&rsquo;s lead shareholder, will beneficially own approximately
+38% of the outstanding ordinary shares upon the closing of the Private Placement.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Cautionary Note Regarding Forward-Looking Statements
+</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">This release includes forward-looking statements
+within the meaning of Section 21E of the U.S. Securities Exchange Act of 1934, as amended, and the safe harbor provisions of the U.S.
+Private Securities Litigation Reform Act of 1995. Forward-looking statements are statements that are not historical facts, including statements
+regarding: (1) the financing strengthening the Company&rsquo;s financial flexibility, allowing it to accelerate the growth of its business
+and evaluate and pursue compelling business development opportunities that have the potential to expand its existing product portfolio;
+(2) planned closing of the Private Placement during the first week of September; and (3) Ms. Asher Topilsky&rsquo;s statement <FONT STYLE="background-color: white">regarding</FONT>
+the appointment of the two new directors and leveraging the successful track records of both, which is important as the Company continues
+to develop its business and pipeline while evaluating potential new opportunities<FONT STYLE="background-color: white">. </FONT> Forward-looking
+statements are based on Kamada&rsquo;s current knowledge and its present beliefs and expectations regarding possible future events and
+are subject to risks, uncertainties and assumptions. Actual results and the timing of events could differ materially from those anticipated
+in these forward-looking statements as a result of several factors including, but not limited to, success in expanding Kamada&rsquo;s
+product portfolio through business development initiatives, Kamada&rsquo;s ability to consummate any business development opportunities,
+success in integrating any business development opportunities within Kamada&rsquo;s existing business, availability of sufficient raw
+materials required to maintain manufacturing plans, continued utilization of Kamada&rsquo;s Israeli manufacturing site, continuation of
+inbound and outbound international delivery routes, continued demand for the IgG product portfolio, FDA and international health authorities&rsquo;
+approval process, financial conditions of the Company&rsquo;s customers, suppliers and services providers, Kamada&rsquo;s ability to integrate
+the new product portfolio into its current product portfolio, Kamada&rsquo;s ability to grow the revenues of its new product portfolio,
+and leverage and expand its international distribution network, Kamada&rsquo;s ability to manage operating expenses, additional competition
+in the markets that Kamada competes, regulatory delays, prevailing market conditions and the impact of general economic, industry or political
+conditions in the U.S., Israel or otherwise, and other risks detailed in Kamada&rsquo;s filings with the U.S. Securities and Exchange
+Commission (the &ldquo;SEC&rdquo;) including those discussed in its most recent Annual Report on Form 20-F and in any subsequent reports
+on Form 6-K, each of which is on file or furnished with the SEC and available at the SEC&rsquo;s website at www.sec.gov. The forward-looking
+statements made herein speak only as of the date of this announcement and Kamada undertakes no obligation to update publicly such forward-looking
+statements to reflect subsequent events or circumstances, except as otherwise required by law.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>CONTACTS:</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Chaime Orlev</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Chief Financial Officer</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">IR@kamada.com</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Brian Ritchie</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">LifeSci Advisors, LLC</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">(212) 915-2578</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">britchie@LifeSciAdvisors.com</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></P>
+
+<!-- Field: Page; Sequence: 2; Options: Last -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

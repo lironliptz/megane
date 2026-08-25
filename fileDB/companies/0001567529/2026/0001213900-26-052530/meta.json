@@ -1,0 +1,19 @@
+{
+  "accession": "0001213900-26-052530",
+  "form": "6-K",
+  "filingDate": "2026-05-06",
+  "reportDate": "2026-05-06",
+  "tier": 3,
+  "tierLabel": "MINOR",
+  "category": "earnings_preview",
+  "summary": "KAMADA TO ANNOUNCE FIRST QUARTER 2026 FINANCIAL RESULTS ON MAY 13, 2026",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": [
+    "financials"
+  ]
+}

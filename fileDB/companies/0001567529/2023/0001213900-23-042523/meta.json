@@ -1,0 +1,17 @@
+{
+  "accession": "0001213900-23-042523",
+  "form": "6-K",
+  "filingDate": "2023-05-24",
+  "reportDate": "2023-05-24",
+  "tier": 2,
+  "tierLabel": "MODERATE",
+  "category": "current_report",
+  "summary": "6-K",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 7,
+    "exhibitCount": 0
+  },
+  "tags": []
+}

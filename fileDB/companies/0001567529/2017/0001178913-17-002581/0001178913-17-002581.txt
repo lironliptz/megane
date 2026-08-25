@@ -1,0 +1,397 @@
+<SEC-DOCUMENT>0001178913-17-002581.txt : 20170830
+<SEC-HEADER>0001178913-17-002581.hdr.sgml : 20170830
+<ACCEPTANCE-DATETIME>20170830095132
+ACCESSION NUMBER:		0001178913-17-002581
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20170830
+FILED AS OF DATE:		20170830
+DATE AS OF CHANGE:		20170830
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		171059519
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>zk1720507.htm
+<DESCRIPTION>6-K
+<TEXT>
+<html>
+<head>
+<title></title>
+<!--Licensed to: ZKG
+    Document created using EDGARfilings PROfile 4.3.2.0
+    Copyright 1995 - 2017 Summit Financial Printing, LLC.  All rights reserved.-->
+</head>
+<body style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif" bgcolor="#ffffff" text="#000000">
+<div><br>
+<hr style="BORDER-TOP: black 4px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 1px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+</div>
+
+<div id="DSPFPageHeader">
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">UNITED STATES</div>
+
+<div style="TEXT-ALIGN: center; FONT: bold 14pt/1.25 'Times New Roman', Times, serif">SECURITIES AND EXCHANGE COMMISSION</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Washington, D.C. 20549</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: center; FONT: bold 14pt/1.25 'Times New Roman', Times, serif">FORM 6-K</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Report of Foreign Private Issuer</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Pursuant to Rule 13a-16 or 15d-16</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">of the Securities Exchange Act of 1934</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">For the Month of August, 2017</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Commission File Number 001-35948</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: center; FONT: bold 16pt/1.25 'Times New Roman', Times, serif"><u>Kamada Ltd.</u></div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">(Translation of registrant&#8217;s name into English)</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">2 Holzman Street</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Science Park, P.O. Box 4081</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Rehovot 7670402</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Israel</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font> &#160;(Address of principal executive offices)</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Indicate by check mark whether the registrant files or will file annual reports under cover Form 20-F or Form 40-F.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Form 20-F <font style="FONT-FAMILY: 'Wingdings 2', serif">T</font>&#160;&#160; Form 40-F &#9744;</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ____</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7): ____</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Indicate by check mark whether the registrant by furnishing the information contained in this Form is also thereby furnishing the information to the Commission pursuant to Rule 12g3-2(b) under the Securities Exchange Act of 1934.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Yes <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">&#9744;</font>&#160;&#160; No <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Wingdings 2', serif">T</font></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">If &#8220;Yes&#8221; is marked, indicate below the file number assigned to the registrant in connection with Rule 12g3-2(b): 82&#8209;___</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">This Form 6-K is being incorporated by reference into the Registrant's Form S-8 Registration Statements, File Nos. 333-192720, 333-207933 and 333-215983,&#160;and the Registrant's Form F-3 Registration Statement, as amended, File No. 333-214816.</div>
+
+<div style="LINE-HEIGHT: 1.25">
+<div style="LINE-HEIGHT: 1.25">
+<div style="LINE-HEIGHT: 1.25">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<hr style="BORDER-TOP: medium none; HEIGHT: 2px; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: #000000; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #000000; MARGIN-RIGHT: auto" align="center" noshade="noshade">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">The following exhibit is attached:</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">99.1</font>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">News Release: Kamada Announces Full Exercise of Underwriters&#8217; Option to Purchase Additional Shares</font></div>
+</div>
+
+<!--PROfilePageNumberReset%Num%2%%%--></div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="line-height: 1.25;">&#160;</div>
+
+<div style="LINE-HEIGHT: 1.25">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">SIGNATURE</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">&#160;</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+</div>
+
+<table id="z4b60bd1e1e8a4c10a739ede27742ff1c" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="VERTICAL-ALIGN: top; WIDTH: 49.4%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Date:&#160; August 30, 2017</div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 32.58%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">KAMADA LTD.</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 18.02%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+</td>
+</tr>
+
+<tr>
+<td style="VERTICAL-ALIGN: top; WIDTH: 49.4%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+</td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BORDER-TOP-COLOR: ; FONT-VARIANT: normal; VERTICAL-ALIGN: top; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: ; WIDTH: 32.58%; BORDER-LEFT-COLOR: "><u> </u>
+
+<div><u>By: /s/ Gil Efron </u></div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 18.02%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+</td>
+</tr>
+
+<tr>
+<td style="VERTICAL-ALIGN: top; WIDTH: 49.4%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 32.58%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Gil Efron<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font> Deputy Chief Executive Officer and Chief Financial Officer</div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 18.02%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+</td>
+</tr>
+</table>
+
+<div style="LINE-HEIGHT: 1.25">
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 8pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">2</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25"><u>EXHIBIT INDEX</u></div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+</div>
+
+<table id="z7bf45cc892ea47e7aa668f493bb1dbbf" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BORDER-TOP-COLOR: ; FONT-VARIANT: normal; VERTICAL-ALIGN: top; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: ; WIDTH: 10.65%; BORDER-LEFT-COLOR: "><u> </u>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25"><u>EXHIBIT NO.</u></div>
+</td>
+<td style="BORDER-TOP-COLOR: ; VERTICAL-ALIGN: top; BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: ; WIDTH: 1%; BORDER-LEFT-COLOR: ">&#160;</td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BORDER-TOP-COLOR: ; FONT-VARIANT: normal; VERTICAL-ALIGN: top; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: ; WIDTH: 89.24%; BORDER-LEFT-COLOR: "><u> </u>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25"><u>DESCRIPTION</u></div>
+</td>
+</tr>
+
+<tr>
+<td style="VERTICAL-ALIGN: top; WIDTH: 10.65%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25"><a href="exhibit_99-1.htm">99.1</a></div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 1%">&#160;</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 89.24%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25"><a href="exhibit_99-1.htm">News Release: <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Kamada Announces Full Exercise of Underwriters&#8217; Option to Purchase Additional Shares</font></a></div>
+</td>
+</tr>
+</table>
+
+<div style="line-height: 1.25;">&#160;</div>
+
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 8pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">3</font></div>
+
+<div style="TEXT-ALIGN: center">
+<hr style="BORDER-TOP: black 1px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 4px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+</div>
+</body>
+</html>
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>exhibit_99-1.htm
+<DESCRIPTION>EXHIBIT 99.1
+<TEXT>
+<html>
+<head>
+<title></title>
+<!--Licensed to: ZKG
+    Document created using EDGARfilings PROfile 4.3.2.0
+    Copyright 1995 - 2017 Summit Financial Printing, LLC.  All rights reserved.-->
+</head>
+<body style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif" bgcolor="#ffffff" text="#000000">
+<div style="TEXT-ALIGN: right">
+<hr style="BORDER-TOP: black 4px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 1px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-VARIANT: normal; FONT-WEIGHT: bold; FONT-STYLE: normal"><u>Exhibit 99.1</u></font><br style="LINE-HEIGHT: 1.25">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Kamada Announces Full Exercise of Underwriters&#8217; Option to Purchase Additional Shares</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Rehovot, Israel, August 30, 2017</font> &#8212; <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Kamada Ltd. (NASDAQ &amp; TASE: KMDA)</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">, a plasma-derived protein therapeutics company focused on orphan indications,</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"> today announced that the </font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">underwriters of its previously announced underwritten public offering of 3,333,334 of its ordinary shares at a price of&#160;$4.50 per share have exercised in full their option to purchase an additional 500,000 shares.&#160; All of the shares sold in the offering were offered by Kamada.&#160; Total gross proceeds from the offering of an aggregate of&#160;3,833,334 shares were approximately $17.3 million, before deducting the underwriting discount and estimated offering expenses payable by Kamada.&#160; The closing of the sale of 3,333,334 shares was completed on August 2, 2017, and the </font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">closing of the sale of 500,000 shares </font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">pursuant to the full exercise by the underwriters of their option to purchase additional shares was completed on August 30, 2017.&#160; </font></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Kamada currently intends to use the net proceeds from the offering to fund general corporate purposes, including a Phase 3 study in the United States for Inhaled AAT for AATD upon FDA approval and a Phase 2/3 study with AAT (IV) for the treatment of GvHD in Europe and in the United States upon receipt of the relevant regulatory approvals and in-licensing of marketed products or technologies.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Cantor Fitzgerald &amp; Co. acted as the sole book-running manager for the offering.&#160; Raymond James &amp; Associates, Inc., Oppenheimer &amp; Co. Inc., Ladenburg Thalmann &amp; Co. Inc. and Chardan Capital Markets, LLC acted as co-managers for the offering.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">The ordinary shares described above were offered by Kamada pursuant to a shelf registration statement previously filed with and declared effective by the Securities and Exchange Commission (the &#8220;SEC&#8221;).&#160; A final prospectus supplement and accompanying prospectus related to the offering have been filed with the SEC and are available on the SEC&#8217;s website, located at <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><u>www.sec.gov</u></font>.&#160; Copies of the final prospectus supplement and accompanying prospectus relating to this offering may be obtained from: Cantor Fitzgerald &amp; Co., Attention: Capital Markets, 499 Park Ave., 6th Floor, New York, New York, 10022, or by email at prospectus@cantor.com.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">This press release shall not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or other jurisdiction in which such offer, solicitation or sale would be unlawful prior to registration or qualification under the securities laws of any such state or other jurisdiction. Any offer, if at all, will be made only by means of the prospectus supplement and accompanying prospectus forming a part of the effective registration statement.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<!--PROfilePageNumberReset%Num%2%%%-->
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">About Kamada</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Kamada Ltd. is focused on plasma-derived protein therapeutics for orphan indications, and has a commercial product portfolio and a robust late-stage product pipeline. The Company uses its proprietary platform technology and know-how for the extraction and purification of proteins from human plasma to produce Alpha-1 Antitrypsin (AAT) in a highly-purified, liquid form, as well as other plasma-derived Immune globulins.&#160; AAT is a protein derived from human plasma with known and newly-discovered therapeutic roles given its immunomodulatory, anti-inflammatory, tissue-protective and antimicrobial properties. The Company&#8217;s flagship product is GLASSIA&#174;, the first and only liquid, ready-to-use, intravenous plasma-derived AAT product approved by the U.S. Food and Drug Administration. Kamada markets GLASSIA&#174; in the U.S. through a strategic partnership with Baxalta (now part of Shire plc) and in other counties through local distributors.&#160; In addition to GLASSIA&#174;, Kamada has a product line of seven other pharmaceutical products administered by injection or infusion, that are marketed through distributors in more than 15 countries, including Israel, Russia, Brazil, India and other countries in Latin America and Asia. Kamada has five late-stage plasma-derived protein product candidates in development, including an inhaled formulation of AAT for the treatment of AAT deficiency. In addition, Kamada's intravenous AAT is in development for other indications such as type-1 diabetes, GvHD and prevention of lung transplant rejection. Kamada also leverages its expertise and presence in the plasma-derived protein therapeutics market by distributing more than 10 complementary products in Israel that are manufactured by third parties.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Cautionary Note Regarding Forward-Looking Statements</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Any statements in this press release about future expectations, plans and prospects for Kamada Ltd., including statements about the Company's anticipated use of proceeds and other statements containing the words "anticipate," "believe," "estimate," "expect," "intend," "may," "plan," "predict," "project," "target," "potential," "will," "would," "could," "should," "continue," and similar expressions, constitute forward-looking statements within the meaning of The Private Securities Litigation Reform Act of 1995.&#160; Actual results and the timing of events could differ materially from those anticipated in these forward-looking statements as a result of several factors including, but not limited to, unexpected results of clinical trials, delays or denial in the U.S. FDA or the EMA approval process, additional competition in the AATD market, future regulatory delays, prevailing market conditions, and the impact of general economic, industry or political conditions in the U.S., Israel or otherwise. The forward-looking statements made herein speak only as of the date of this announcement and Kamada undertakes no obligation to update publicly such forward-looking statements to reflect subsequent events or circumstances, except as otherwise required by law.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">###</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">CONTACTS:</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">Gil Efron</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">Deputy CEO &amp; Chief Financial Officer</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">IR@kamada.com</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">Bob Yedid</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">LifeSci Advisors, LLC</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">646-597-6989</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25"><u>Bob@LifeSciAdvisors.com</u></div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+</div>
+
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center">
+<hr style="BORDER-TOP: black 1px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 4px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+</div>
+</body>
+</html>
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

@@ -1,0 +1,361 @@
+<SEC-DOCUMENT>0001213900-22-032911.txt : 20220615
+<SEC-HEADER>0001213900-22-032911.hdr.sgml : 20220615
+<ACCEPTANCE-DATETIME>20220615070012
+ACCESSION NUMBER:		0001213900-22-032911
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20220615
+FILED AS OF DATE:		20220615
+DATE AS OF CHANGE:		20220615
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		221016607
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>ea161623-6k_kamadaltd.htm
+<DESCRIPTION>REPORT OF FOREIGN PRIVATE ISSUER
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="margin: 0"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 2pt solid; border-bottom: Black 1pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="margin: 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>UNITED STATES</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>SECURITIES AND EXCHANGE COMMISSION</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Washington, D.C. 20549</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>FORM 6-K</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Report of Foreign Private Issuer</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Pursuant to Rule 13a-16 or 15d-16</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>of the Securities Exchange Act of 1934</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">For the Month of June 2022</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">Commission File Number 001-35948</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Kamada Ltd.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">(Translation of registrant&rsquo;s name into English)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>2 Holzman Street<BR>
+Science Park, P.O. Box 4081<BR>
+Rehovot 7670402<BR>
+Israel<BR>
+</B>(Address of principal executive offices)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Indicate by check mark whether the registrant
+files or will file annual reports under cover Form 20-F or Form 40-F.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Form 20-F &#9746;&nbsp;&nbsp; Form 40-F &#9744;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Indicate by check mark if the registrant is submitting
+the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ____</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Indicate by check mark if the registrant is submitting
+the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7): ____</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Indicate by check mark whether the registrant
+by furnishing the information contained in this Form is also thereby furnishing the information to the Commission pursuant to Rule 12g3-2(b)
+under the Securities Exchange Act of 1934.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Yes &#9744; No &#9746;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">If &ldquo;Yes&rdquo; is marked, indicate below
+the file number assigned to the registrant in connection with Rule 12g3-2(b): 82-____</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 36pt; text-align: justify; text-indent: -36pt">&nbsp;&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>This Form 6-K is being incorporated by reference
+into the Registrant&rsquo;s Form S-8 Registration Statements, File Nos. <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891313003548/zk1314048.htm">333-192720</A>, <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891315003362/zk1517560.htm">333-207933</A>, <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891317000388/zk1719386.htm">333-215983</A>, <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891318000396/zk1821132.htm">333-222891</A> and <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891319002187/zk1923409.htm">333-233267</A>.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1pt solid; border-bottom: Black 2pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<!-- Field: Page; Sequence: 1 -->
+    <DIV STYLE="margin-top: 6pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 6pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The following exhibit is attached:</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR STYLE="vertical-align: top; background-color: rgb(204,238,255)">
+    <TD STYLE="width: 9%; font-size: 10pt"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.1</FONT></TD>
+    <TD STYLE="width: 1%; font-size: 10pt; text-align: justify">&nbsp;</TD>
+    <TD STYLE="width: 90%; font-size: 10pt; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><A HREF="ea161623ex99-1_kamadaltd.htm">Kamada Strengthens Senior Leadership Team; Furthering Commitment as a Fully Integrated Global Leader in the Specialty Plasma Derived Therapeutics Market</A></FONT></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 36pt; text-align: justify; text-indent: -36pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></P>
+
+<!-- Field: Page; Sequence: 2; Options: NewSection; Value: 1 -->
+    <DIV STYLE="margin-top: 6pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->1<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 6pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>SIGNATURE</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Pursuant to the requirements of the Securities
+Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR STYLE="vertical-align: top">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Date: June 15, 2022</FONT></TD>
+    <TD COLSPAN="2"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>KAMADA LTD.</B></FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="width: 60%">&nbsp;</TD>
+    <TD STYLE="width: 4%"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">By: </FONT></TD>
+    <TD STYLE="border-bottom: black 1.5pt solid; width: 36%"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">/s/ Yifat Philip</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>
+    <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Yifat Philip</P>
+    <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Vice President General Counsel and<BR>
+    Corporate Secretary</P></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<!-- Field: Page; Sequence: 3; Value: 1 -->
+    <DIV STYLE="margin-top: 6pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->2<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 6pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><U>EXHIBIT INDEX</U></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="width: 9%; border-bottom: black 1.5pt solid"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">EXHIBIT&nbsp;NO.</FONT></TD>
+    <TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 90%; border-bottom: black 1.5pt solid"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">DESCRIPTION</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: top; background-color: rgb(204,238,255)">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.1</FONT></TD>
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><A HREF="ea161623ex99-1_kamadaltd.htm">Kamada Strengthens Senior Leadership Team; Furthering Commitment as a Fully Integrated Global Leader in the Specialty Plasma Derived Therapeutics Market</A></FONT></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">3</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right"></P>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>ea161623ex99-1_kamadaltd.htm
+<DESCRIPTION>KAMADA STRENGTHENS SENIOR LEADERSHIP TEAM; FURTHERING COMMITMENT AS A FULLY INTEGRATED GLOBAL LEADER IN THE SPECIALTY PLASMA DERIVED THERAPEUTICS MARKET
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="text-align: right; margin: 0"><B>Exhibit 99.1</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Kamada Strengthens Senior Leadership
+Team; Furthering Commitment as a Fully Integrated Global Leader in the Specialty Plasma Derived Therapeutics Market</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Rehovot, Israel, and Hoboken, NJ, June 15,
+2022 </B>-- Kamada Ltd. (NASDAQ &amp; TASE: KMDA), a vertically integrated global biopharmaceutical company, focused on specialty plasma-derived
+therapeutics, announced today the promotions of Shavit Beladev to Vice President responsible for the Company&rsquo;s Plasma Operations, and
+Boris Gorelik to Vice President of Business Development and Strategic Programs, both reporting to Kamada&rsquo;s CEO, Amir London. Ms. Beladev
+will be responsible for the operations and expansion of Kamada Plasma, the Company&rsquo;s wholly owned U.S-based plasma collection subsidiary.
+Mr. Gorelik will be responsible for the advancement of existing and new business development opportunities, as well as managing Kamada&rsquo;s
+existing strategic partner relationships.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&ldquo;These important promotions reflect our
+strategy focused on expanding our presence in the U.S. as a vertically-integrated specialty plasma company, including plasma collection
+and commercialization of our recently expanded product portfolio,&rdquo; said Amir London, Kamada&rsquo;s Chief Executive Officer. &ldquo;During
+their time at Kamada, both Shavit and Boris demonstrated an unwavering dedication to the advancement of our business, including the successful
+execution of many key initiatives and programs that are at the core of our strategic objectives. I look forward to their continued significant
+contribution to our growth plans.&rdquo;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Ms. Beladev has been with Kamada for over 20 years
+in increasingly senior positions, most recently as Director of Business Development. She also previously served in management roles at
+the Company, responsible for International Sales, Key Accounts Management and Plasma Procurement. Since the establishment of Kamada Plasma
+in early 2021, Ms. Beladev&rsquo;s extended responsibilities also included overseeing the operation of the Company&rsquo;s plasma collection center
+in Beaumont, Texas, and the advance towards the opening of new centers.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Mr. Gorelik has been with Kamada for more than
+two years, most recently as Director of Business Development. He has over 14 years of Business Development and M&amp;A experience, most
+of it in the pharmaceutical industry. Prior to joining Kamada, Mr. Gorelik was Senior Director of Global Business Development and Strategy
+with Teva Pharmaceutical Industries, Ltd. Prior to his tenure at Teva, he served in various legal, M&amp;A, and transaction services-related
+roles in the Israeli law office of Goldfarb Seligman, as well as KPMG and Deloitte Israeli offices.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>About Kamada</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Kamada Ltd. (the &ldquo;Company&rdquo;) is a vertically
+integrated global biopharmaceutical company, focused on specialty plasma-derived therapeutics, with a diverse portfolio of marketed products,
+a robust development pipeline and industry-leading manufacturing capabilities. The Company&rsquo;s strategy is focused on driving profitable
+growth from our current commercial activities as well as our manufacturing and development expertise in the plasma-derived biopharmaceutical
+market. The Company&rsquo;s commercial products portfolio includes its developed and FDA approved products GLASSIA&reg; and KEDRAB&reg;
+as well as its recently acquired FDA approved plasma-derived hyperimmune products CYTOGAM&reg;, HEPAGAM B&reg;, VARIZIG&reg; and WINRHO&reg;SDF.
+The Company has additional four plasma-derived products which are registered in markets outside the U.S. The Company distributes its commercial
+products portfolio directly, and through strategic partners or third-party distributors in more than 30 countries, including the U.S.,
+Canada, Israel, Russia, Brazil, Argentina, India and other countries in Latin America and Asia. The Company has a diverse portfolio of
+development pipeline products including an inhaled AAT for the treatment of AAT deficiency for which the Company is currently conducting
+the InnovAATe clinical trial, a randomized, double-blind, placebo-controlled, pivotal Phase 3 trial. The Company leverages its expertise
+and presence in the Israeli pharmaceutical market to distribute in Israel more than 20 products that are manufactured by third parties
+and have recently added 11 biosimilar products to its Israeli distribution portfolio, which, subject to EMA and the Israeli MOH approvals,
+are expected to be launched in Israel between the years 2022 and 2028. FIMI Opportunity Fund, the leading private equity investor in Israel,
+is the Company&rsquo;s lead shareholder, beneficially owning approximately 21% of the outstanding ordinary shares.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>###</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>CONTACTS:</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Chaime Orlev</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Chief Financial Officer</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">IR@kamada.com</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Bob Yedid</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">LifeSci Advisors, LLC</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">646-597-6989</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Bob@LifeSciAdvisors.com</P>
+
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

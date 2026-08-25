@@ -1,0 +1,1639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <title>Admin — megane</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <style>
+    .js-form { display:grid; gap:.75rem; }
+    .js-row  { display:grid; grid-template-columns:1fr 1fr; gap:.75rem; }
+    .js-row3 { display:grid; grid-template-columns:1fr 1fr 1fr; gap:.75rem; }
+    .js-result { margin-top:1.25rem; padding:1rem; border-radius:8px; font-size:.9rem; line-height:1.6; display:none; }
+    .js-result.ok    { background:rgba(34,197,94,.12); border:1px solid rgba(34,197,94,.3); color:#4ade80; }
+    .js-result.error { background:rgba(239,68,68,.12);  border:1px solid rgba(239,68,68,.3);  color:#f87171; }
+    .js-result code  { display:block; margin-top:.5rem; font-family:monospace; word-break:break-all; font-size:.85rem; opacity:.85; }
+    .color-row { display:flex; align-items:center; gap:.5rem; }
+    .color-row input[type=color] { width:2.5rem; height:2.2rem; border:none; background:none; cursor:pointer; padding:0; }
+    .color-row input[type=text]  { flex:1; }
+    .section-label { font-size:.75rem; text-transform:uppercase; letter-spacing:.08em; color:var(--text-muted); margin:.25rem 0 .1rem; }
+    .req { color: #e05c5c; }
+    .jump-btn { margin-top:.5rem; width:100%; padding:.9rem; font-size:1.05rem; font-weight:700; letter-spacing:.04em; }
+
+    /* ---- Data Modeling tab ---- */
+    .dm-layout {
+      display: grid;
+      grid-template-columns: minmax(300px, 32%) 1fr;
+      gap: 1.25rem;
+      align-items: start;
+    }
+    .dm-sidebar {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem;
+      box-shadow: var(--shadow);
+    }
+    .dm-sidebar h3 {
+      font-size: .72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .09em;
+      color: var(--text-muted);
+      margin-bottom: .75rem;
+    }
+    .dm-type-list { list-style: none; margin-bottom: .75rem; }
+    .dm-type-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: .5rem;
+      padding: .45rem .6rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: .875rem;
+      transition: background .12s;
+      min-width: 0;
+    }
+    .dm-type-item .dm-type-name {
+      flex: 1;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .dm-type-item:hover { background: var(--surface2); }
+    .dm-type-item.active { background: #fff7ed; color: var(--accent); font-weight: 600; }
+    .dm-type-item .dm-version-badge {
+      font-size: .65rem;
+      font-weight: 700;
+      background: var(--surface2);
+      color: var(--text-muted);
+      border-radius: 99px;
+      padding: .1rem .45rem;
+      letter-spacing: .04em;
+    }
+    .dm-type-item.active .dm-version-badge { background: #fed7aa; color: #9a3412; }
+    .dm-type-delete {
+      flex-shrink: 0;
+      width: 1.35rem;
+      height: 1.35rem;
+      border: none;
+      border-radius: 4px;
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 1rem;
+      line-height: 1;
+      cursor: pointer;
+      opacity: 0;
+      transition: opacity .12s, background .12s, color .12s;
+    }
+    .dm-type-item:hover .dm-type-delete,
+    .dm-type-item.active .dm-type-delete { opacity: 1; }
+    .dm-type-delete:hover { background: #fee2e2; color: #b91c1c; }
+    .dm-type-item.dm-guess-type {
+      margin-bottom: .35rem;
+      border: 1px dashed var(--border);
+      color: var(--text-muted);
+    }
+    .dm-type-item.dm-guess-type.active {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .dm-type-divider {
+      height: 1px;
+      background: var(--border);
+      margin: .5rem .6rem .65rem;
+      list-style: none;
+    }
+    .dm-new-type-btn {
+      width: 100%;
+      text-align: left;
+      padding: .45rem .6rem;
+      border-radius: 6px;
+      border: 1px dashed var(--border);
+      background: transparent;
+      color: var(--text-muted);
+      font-size: .85rem;
+      cursor: pointer;
+      transition: border-color .15s, color .15s;
+    }
+    .dm-new-type-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* hints tag input */
+    .dm-hints-wrap {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: .5rem .75rem;
+      min-height: 2.75rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: .35rem;
+      background: var(--surface);
+      cursor: text;
+      transition: border-color .2s, box-shadow .2s;
+    }
+    .dm-hints-wrap:focus-within {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(249,115,22,.12);
+    }
+    .dm-hint-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: .3rem;
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
+      color: #9a3412;
+      font-size: .8rem;
+      font-weight: 600;
+      border-radius: 99px;
+      padding: .18rem .55rem;
+      white-space: nowrap;
+    }
+    .dm-hint-tag button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #c2410c;
+      font-size: .85rem;
+      padding: 0;
+      line-height: 1;
+      opacity: .7;
+    }
+    .dm-hint-tag button:hover { opacity: 1; }
+    .dm-extraction-brief {
+      width: 100%;
+      min-height: 4.5rem;
+      resize: vertical;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: .6rem .75rem;
+      font-size: .875rem;
+      font-family: inherit;
+      line-height: 1.45;
+      background: var(--surface);
+      color: var(--text);
+    }
+    .dm-extraction-brief:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(249, 115, 22, .15);
+    }
+    .dm-hints-input {
+      border: none;
+      outline: none;
+      background: transparent;
+      font-size: .875rem;
+      color: var(--text);
+      min-width: 160px;
+      flex: 1;
+      padding: .15rem 0;
+    }
+    .dm-hints-placeholder {
+      font-size: .825rem;
+      color: var(--text-muted);
+      pointer-events: none;
+      user-select: none;
+    }
+
+    /* drop zone (compact — types sidebar is the wide column) */
+    .dm-upload-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: .75rem 1rem;
+      max-width: 22rem;
+    }
+    .dm-drop-zone {
+      display: flex;
+      align-items: center;
+      gap: .65rem;
+      border: 2px dashed var(--border);
+      border-radius: var(--radius);
+      padding: .65rem .85rem;
+      text-align: left;
+      cursor: pointer;
+      transition: border-color .2s, background .2s;
+      background: var(--surface2);
+      flex: 1;
+      min-width: 14rem;
+    }
+    .dm-drop-zone:hover, .dm-drop-zone.drag-over {
+      border-color: var(--accent);
+      background: #fff7ed;
+    }
+    .dm-drop-zone-icon { font-size: 1.15rem; line-height: 1; flex-shrink: 0; }
+    .dm-drop-zone-copy p { color: var(--text-muted); font-size: .8rem; margin: 0; line-height: 1.35; }
+    .dm-drop-zone-copy p + p { margin-top: .15rem; font-size: .72rem; }
+    .dm-file-progress-list {
+      display: flex;
+      flex-direction: column;
+      gap: .55rem;
+      flex: 1 1 100%;
+      min-width: 0;
+    }
+    .dm-file-progress-row {
+      display: flex;
+      flex-direction: column;
+      gap: .2rem;
+      min-width: 0;
+    }
+    .dm-file-progress-name {
+      font-size: .8rem;
+      color: var(--text);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .dm-file-progress-meta {
+      display: flex;
+      align-items: center;
+      gap: .35rem;
+      font-size: .72rem;
+      color: var(--text-muted);
+      min-height: 1rem;
+    }
+    .dm-file-progress-meta .spinner {
+      width: 12px;
+      height: 12px;
+      border-width: 2px;
+      flex-shrink: 0;
+    }
+    .dm-file-progress-row progress.pipeline-progress-bar {
+      width: 100%;
+      height: .45rem;
+    }
+
+    /* result area */
+    .dm-result { display: none; }
+    .dm-result.visible { display: block; }
+
+    .dm-strategy-chips {
+      display: flex;
+      gap: .5rem;
+      flex-wrap: wrap;
+      margin-top: .5rem;
+    }
+    .dm-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: .3rem;
+      padding: .25rem .65rem;
+      border-radius: 99px;
+      font-size: .78rem;
+      font-weight: 600;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+    }
+    .dm-chip.on { background: #dcfce7; border-color: #86efac; color: #15803d; }
+    .dm-chip.off { background: #fee2e2; border-color: #fca5a5; color: #b91c1c; }
+
+    .dm-resolution-list { list-style: none; display: flex; flex-direction: column; gap: .4rem; margin-top: .6rem; }
+    .dm-resolution-item {
+      display: flex;
+      align-items: baseline;
+      gap: .5rem;
+      font-size: .875rem;
+    }
+    .dm-res-badge {
+      font-size: .7rem;
+      font-weight: 700;
+      border-radius: 99px;
+      padding: .15rem .5rem;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .dm-res-badge.found  { background: #dcfce7; color: #15803d; }
+    .dm-res-badge.missing { background: #fee2e2; color: #b91c1c; }
+    .dm-res-note { color: var(--text-muted); font-size: .8rem; }
+
+    .dm-schema-table { width: 100%; border-collapse: collapse; font-size: .875rem; margin-top: .6rem; }
+    .dm-schema-table th {
+      background: var(--surface2);
+      color: var(--text-muted);
+      text-align: left;
+      padding: .5rem .75rem;
+      border-bottom: 1px solid var(--border);
+      font-size: .72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .07em;
+    }
+    .dm-schema-table td { padding: .5rem .75rem; border-bottom: 1px solid var(--border); vertical-align: middle; }
+    .dm-schema-table tbody tr:hover { background: var(--surface2); }
+    .dm-field-delete {
+      border: none; background: transparent; color: var(--text-muted); cursor: pointer;
+      padding: .2rem .45rem; border-radius: 4px; font-size: 1rem; line-height: 1;
+    }
+    .dm-field-delete:hover { background: #fee2e2; color: #b91c1c; }
+    .dm-file-dup-badge {
+      display: inline-block; margin-left: .35rem; padding: .1rem .4rem; border-radius: 4px;
+      font-size: .72rem; font-weight: 600; background: #fef3c7; color: #92400e;
+    }
+    .dm-samples-list { margin: .5rem 0 0; padding: 0; list-style: none; font-size: .82rem; }
+    .dm-samples-list li { padding: .25rem 0; color: var(--text-muted); display: flex; gap: .5rem; flex-wrap: wrap; }
+    .dm-samples-list strong { color: var(--text); font-weight: 600; }
+    .dm-excluded-list { margin: .5rem 0 0; padding: 0; list-style: none; font-size: .82rem; color: var(--text-muted); }
+    .dm-excluded-list li { padding: .2rem 0; }
+    .dm-excluded-list code { font-size: .8rem; }
+    .dm-conf-high   { color: #15803d; font-weight: 700; }
+    .dm-conf-medium { color: #d97706; font-weight: 700; }
+    .dm-conf-low    { color: #b91c1c; font-weight: 700; }
+    .dm-required-dot { display:inline-block; width:6px; height:6px; border-radius:50%; margin-right:.3rem; vertical-align: middle; }
+    .dm-required-dot.req  { background: var(--danger); }
+    .dm-required-dot.opt  { background: var(--border); }
+
+    .dm-refinement-box {
+      background: #fef9c3;
+      border: 1px solid #fde68a;
+      border-radius: var(--radius);
+      padding: .75rem 1rem;
+      font-size: .875rem;
+      color: #92400e;
+      margin-top: .5rem;
+    }
+
+    .dm-questions { display: flex; flex-direction: column; gap: .6rem; margin-top: .75rem; }
+    .dm-question-item { display: flex; gap: .6rem; align-items: flex-start; }
+    .dm-question-item label { font-size: .875rem; color: var(--text); flex: 1; line-height: 1.5; }
+    .dm-question-item textarea {
+      width: 100%;
+      padding: .5rem .75rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      color: var(--text);
+      font-size: .875rem;
+      resize: vertical;
+      min-height: 2.5rem;
+    }
+
+    .dm-section-title {
+      font-size: .72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .09em;
+      color: var(--text-muted);
+      margin: 1.1rem 0 .5rem;
+    }
+    .dm-section-title:first-child { margin-top: 0; }
+
+    .dm-loading { display:none; text-align:center; padding: 2rem; color: var(--text-muted); font-size: .9rem; }
+    .dm-loading.visible { display:block; }
+  </style>
+</head>
+<body class="app-layout">
+
+  <header class="app-header">
+    <span class="logo">megane</span>
+    <nav>
+      <a href="/">My Files</a>
+      <a href="/admin" style="color:var(--accent)">Admin</a>
+    </nav>
+    <div class="header-right">
+      <span id="header-email" style="color:var(--text-muted);font-size:.85rem"></span>
+      <button class="btn btn-ghost" onclick="logout()">Sign out</button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div id="error-msg" class="error-msg"></div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchTab('users')">Users</button>
+      <button class="tab-btn" onclick="switchTab('projects')">Projects</button>
+      <button class="tab-btn" onclick="switchTab('stats')">Statistics</button>
+      <button class="tab-btn" onclick="switchTab('crawler')">Crawler</button>
+      <button class="tab-btn" onclick="switchTab('jumpstart')" style="color:var(--accent);font-weight:600">⚡ Jump-Start</button>
+      <button class="tab-btn" onclick="switchTab('datamodeling')">&#x1F9E9; Data Modeling</button>
+    </div>
+
+    <!-- Users tab -->
+    <div class="tab-panel active" id="tab-users">
+      <div class="card">
+        <h2>Create user</h2>
+        <form id="create-user-form" style="display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:.75rem;align-items:end">
+          <div class="form-group" style="margin:0">
+            <label>Email</label>
+            <input type="email" id="new-email" required placeholder="user@example.com">
+          </div>
+          <div class="form-group" style="margin:0">
+            <label>Password</label>
+            <input type="password" id="new-password" required placeholder="••••••••">
+          </div>
+          <div class="form-group" style="margin:0">
+            <label>Role</label>
+            <select id="new-role">
+              <option value="user">user</option>
+              <option value="admin">admin</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Add user</button>
+        </form>
+      </div>
+
+      <div class="card">
+        <h2>All users</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>#</th><th>Email</th><th>Role</th><th>Created</th><th>Actions</th></tr>
+            </thead>
+            <tbody id="users-tbody">
+              <tr><td colspan="5" style="text-align:center;color:var(--text-muted)">Loading…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects tab -->
+    <div class="tab-panel" id="tab-projects">
+      <div class="card">
+        <h2>All projects</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>#</th><th>User ID</th><th>Filename</th><th>Status</th><th>Uploaded</th><th>Processing time</th></tr>
+            </thead>
+            <tbody id="projects-tbody">
+              <tr><td colspan="6" style="text-align:center;color:var(--text-muted)">Loading…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats tab -->
+    <div class="tab-panel" id="tab-stats">
+      <div class="card">
+        <h2>Projects by status</h2>
+        <div class="stats-grid" id="stats-grid">
+          <p style="color:var(--text-muted)">Loading…</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Last 20 pipeline events</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Project</th><th>Stage</th><th>Message</th><th>Time</th></tr>
+            </thead>
+            <tbody id="events-tbody">
+              <tr><td colspan="4" style="text-align:center;color:var(--text-muted)">Loading…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Crawler stats tab -->
+    <div class="tab-panel" id="tab-crawler">
+      <div class="card">
+        <h2>Crawler (all recorded runs)</h2>
+        <p style="color:var(--text-muted);margin-bottom:1rem;font-size:.9rem">
+          Totals and per-run counters are recorded when CLI tools (e.g. <code>maya-financial-reports</code>) exit and write to <code>DB_PATH</code> (default <code>./.db/megane.db</code>).
+        </p>
+        <div class="stats-grid" id="crawler-summary-grid">
+          <p style="color:var(--text-muted)">Loading…</p>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Recent runs</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Source</th>
+                <th>Started</th>
+                <th>Ended</th>
+                <th>Nav</th>
+                <th>Back</th>
+                <th>Clicks</th>
+                <th>Fills</th>
+                <th>Downloads</th>
+              </tr>
+            </thead>
+            <tbody id="crawler-runs-tbody">
+              <tr><td colspan="8" style="text-align:center;color:var(--text-muted)">Loading…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Jump-Start tab -->
+    <div class="tab-panel" id="tab-jumpstart">
+      <div class="card">
+        <h2>⚡ Create a sprout-application</h2>
+        <p style="color:var(--text-muted);margin-bottom:1.25rem">
+          Clones this template into a new directory with your customizations applied.
+          The result is a ready-to-run Go application — just add your domain logic.
+        </p>
+
+        <form class="js-form" id="js-form" novalidate onsubmit="event.preventDefault(); doJumpStart();">
+
+          <!-- Identity -->
+          <div class="section-label">Identity</div>
+          <div class="js-row">
+            <div class="form-group" style="margin:0">
+              <label>App name <span class="req" aria-hidden="true">*</span> <span style="color:var(--text-muted)">(display)</span></label>
+              <input type="text" id="js-app-name" placeholder="Contract Analyzer" required oninput="autoSlug(this.value)">
+            </div>
+            <div class="form-group" style="margin:0">
+              <label>App slug <span class="req" aria-hidden="true">*</span> <span style="color:var(--text-muted)">(module name)</span></label>
+              <input type="text" id="js-app-slug" placeholder="contract-analyzer" required pattern="[a-z][a-z0-9\-]{1,62}" title="Lowercase letters, digits, hyphens; 2–63 chars; start with a letter">
+            </div>
+          </div>
+          <div class="form-group" style="margin:0">
+            <label>Description <span class="req" aria-hidden="true">*</span> <span style="color:var(--text-muted)">(used in system prompt)</span></label>
+            <textarea id="js-description" rows="2" required placeholder="Analyzes legal contracts and extracts key clauses, parties, and obligations." style="width:100%;resize:vertical"></textarea>
+          </div>
+
+          <!-- Location -->
+          <div class="section-label">Location</div>
+          <div class="form-group" style="margin:0">
+            <label>Target path <span class="req" aria-hidden="true">*</span> <span style="color:var(--text-muted)">(absolute — must not exist or be empty)</span></label>
+            <input type="text" id="js-path" required placeholder="/Users/me/projects/contract-analyzer">
+          </div>
+
+          <!-- Language & UI -->
+          <div class="section-label">Language &amp; appearance</div>
+          <div class="js-row3">
+            <div class="form-group" style="margin:0">
+              <label>Interface language</label>
+              <select id="js-language">
+                <option value="en">English (LTR)</option>
+                <option value="he">עברית / Hebrew (RTL)</option>
+              </select>
+            </div>
+            <div class="form-group" style="margin:0">
+              <label>Primary accent color</label>
+              <div class="color-row">
+                <input type="color" id="js-color-picker" value="#4f8ef7" oninput="document.getElementById('js-color-text').value=this.value">
+                <input type="text"  id="js-color-text"   value="#4f8ef7" placeholder="#4f8ef7"
+                       oninput="syncColor(this.value)">
+              </div>
+            </div>
+            <div class="form-group" style="margin:0">
+              <label>LLM provider</label>
+              <select id="js-llm" onchange="updateLLMFields('js-llm')"></select>
+            </div>
+          </div>
+          <div id="js-llm-keys"></div>
+
+          <!-- Security -->
+          <div class="section-label">Default credentials</div>
+          <div class="js-row3">
+            <div class="form-group" style="margin:0">
+              <label>Admin email <span class="req" aria-hidden="true">*</span></label>
+              <input type="email" id="js-admin-email" required placeholder="admin@example.com">
+            </div>
+            <div class="form-group" style="margin:0">
+              <label>Admin password <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="js-admin-password" required minlength="4" placeholder="changeme">
+            </div>
+            <div class="form-group" style="margin:0">
+              <label>Session TTL <span class="req" aria-hidden="true">*</span> <span style="color:var(--text-muted)">(seconds)</span></label>
+              <input type="number" id="js-ttl" value="86400" required min="60">
+            </div>
+          </div>
+
+          <!-- Server -->
+          <div class="section-label">Server</div>
+          <div style="max-width:160px">
+            <div class="form-group" style="margin:0">
+              <label>Port <span class="req" aria-hidden="true">*</span></label>
+              <input type="number" id="js-port" value="8080" required min="1" max="65535">
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary jump-btn">⚡ Jump-Start</button>
+        </form>
+
+        <div id="js-result" class="js-result"></div>
+      </div>
+    </div>
+
+    <!-- Data Modeling tab -->
+    <div class="tab-panel" id="tab-datamodeling">
+      <div class="dm-layout">
+
+        <!-- Sidebar: file types -->
+        <aside class="dm-sidebar">
+          <h3>File Types</h3>
+          <ul class="dm-type-list" id="dm-type-list">
+            <li style="color:var(--text-muted);font-size:.85rem;padding:.3rem .6rem">Loading…</li>
+          </ul>
+          <button class="dm-new-type-btn" onclick="dmNewType()">+ New type</button>
+        </aside>
+
+        <!-- Main content -->
+        <div>
+
+          <!-- Config card -->
+          <div class="card" style="margin-bottom:1.25rem">
+            <h2>Analyze sample files</h2>
+            <p id="dm-type-mode-hint" class="muted" style="margin:0 0 .85rem;font-size:.85rem"></p>
+
+            <!-- Field hints -->
+            <div class="section-label" style="margin-bottom:.4rem">Field hints <span style="font-weight:400;text-transform:none;letter-spacing:0;font-size:.78rem">(optional — type a field name or description and press Enter)</span></div>
+            <div class="dm-hints-wrap" id="dm-hints-wrap" onclick="document.getElementById('dm-hint-input').focus()">
+              <span class="dm-hints-placeholder" id="dm-hints-placeholder">e.g. "invoice_total", "the date the contract expires"…</span>
+              <input class="dm-hints-input" id="dm-hint-input" type="text"
+                     placeholder=""
+                     onkeydown="dmHintKeydown(event)"
+                     oninput="dmTogglePlaceholder()">
+            </div>
+
+            <!-- Extraction expectations -->
+            <div class="section-label" style="margin:.85rem 0 .4rem">What to extract <span style="font-weight:400;text-transform:none;letter-spacing:0;font-size:.78rem">(optional — saved on the type; hints where to look, not field names)</span></div>
+            <textarea id="dm-extraction-brief" class="dm-extraction-brief" rows="3"
+                      placeholder="e.g. Focus on the payments table (may be titled תשלמים מאושרים or אישורי תשלומים). Extract each row as line items — use Field hints above for specific column names."
+                      oninput="dmScheduleTypeConfigSave()"></textarea>
+
+            <!-- File drop zone -->
+            <div class="section-label" style="margin:.9rem 0 .4rem">Sample files</div>
+            <div class="dm-upload-row">
+              <div class="dm-drop-zone" id="dm-drop-zone"
+                   ondragover="event.preventDefault();this.classList.add('drag-over')"
+                   ondragleave="this.classList.remove('drag-over')"
+                   ondrop="dmHandleDrop(event)"
+                   onclick="document.getElementById('dm-file-input').click()">
+                <div class="dm-drop-zone-icon">&#x1F4C2;</div>
+                <div class="dm-drop-zone-copy">
+                  <p>Drop or <strong>click to select</strong></p>
+                  <p>PDF, image, DOCX, XLSX</p>
+                </div>
+                <input type="file" id="dm-file-input" multiple style="display:none"
+                       accept=".pdf,.png,.jpg,.jpeg,.docx,.xlsx"
+                       onchange="dmFilesSelected(this.files)">
+              </div>
+              <div class="dm-file-progress-list" id="dm-file-progress-list"></div>
+            </div>
+            <div id="dm-samples-section" style="display:none;margin-top:.75rem">
+              <p class="section-label" style="margin-bottom:.35rem">Files already used for this type</p>
+              <ul class="dm-samples-list" id="dm-samples-list"></ul>
+            </div>
+
+            <!-- Actions -->
+            <div style="display:flex;gap:.75rem;margin-top:1rem;align-items:center">
+              <button class="btn btn-primary" onclick="dmAnalyze()" id="dm-analyze-btn">Analyze</button>
+              <button class="btn btn-ghost" onclick="dmReset()">Clear</button>
+              <span id="dm-status-msg" style="font-size:.85rem;color:var(--text-muted)"></span>
+            </div>
+          </div>
+
+          <!-- Result card -->
+          <div class="card dm-result" id="dm-result">
+
+            <!-- Processing strategy -->
+            <p class="dm-section-title">Processing strategy</p>
+            <div class="dm-strategy-chips" id="dm-strategy-chips"></div>
+
+            <!-- Hint resolution -->
+            <div id="dm-hints-resolution-section" style="display:none">
+              <p class="dm-section-title">Field hints resolution</p>
+              <ul class="dm-resolution-list" id="dm-resolution-list"></ul>
+            </div>
+
+            <!-- Schema -->
+            <p class="dm-section-title">Proposed schema <span id="dm-schema-version" style="font-weight:400;text-transform:none;letter-spacing:0;font-size:.8rem;color:var(--text-muted)"></span></p>
+            <div class="table-wrap">
+              <table class="dm-schema-table">
+                <thead>
+                  <tr>
+                    <th>Field</th>
+                    <th>Type</th>
+                    <th>Required</th>
+                    <th>Confidence</th>
+                    <th>Seen in docs</th>
+                    <th>Description</th>
+                    <th style="width:2.5rem"></th>
+                  </tr>
+                </thead>
+                <tbody id="dm-schema-tbody"></tbody>
+              </table>
+            </div>
+            <div id="dm-excluded-section" style="display:none;margin-top:.75rem">
+              <p class="dm-section-title" style="font-size:.78rem;color:var(--text-muted)">Excluded fields (won't be re-inferred)</p>
+              <ul class="dm-excluded-list" id="dm-excluded-list"></ul>
+            </div>
+
+            <!-- Refinement notes -->
+            <div id="dm-refinement-section" style="display:none">
+              <p class="dm-section-title">What changed</p>
+              <div class="dm-refinement-box" id="dm-refinement-box"></div>
+            </div>
+
+            <!-- Manual help -->
+            <div id="dm-manual-section" style="display:none">
+              <p class="dm-section-title" style="color:#b45309">&#x26A0;&#xFE0F; LLM needs your input</p>
+              <form id="dm-manual-form" onsubmit="event.preventDefault();dmSubmitAnswers()">
+                <div class="dm-questions" id="dm-questions"></div>
+                <button type="submit" class="btn btn-primary" style="margin-top:1rem">Submit answers &amp; re-analyze</button>
+              </form>
+            </div>
+
+          </div><!-- /dm-result -->
+
+        </div><!-- /main -->
+      </div><!-- /dm-layout -->
+    </div><!-- /tab-datamodeling -->
+
+  </main>
+
+  <script src="/static/js/app.js"></script>
+  <script src="/static/js/jumpstart-utils.js?v=1.0.1"></script>
+  <script>
+    requireAuth();
+    if (!isAdmin()) { window.location.href = '/'; }
+
+    (async () => {
+      try {
+        const me = await apiFetch('/auth/me');
+        document.getElementById('header-email').textContent = me.email;
+      } catch (_) { logout(); }
+      renderLLMProviders('js-llm', 'js-llm-keys');
+      await Promise.all([loadUsers(), loadProjects(), loadStats(), loadCrawlerStats()]);
+    })();
+
+    // ---- Tab switching ----
+    const TAB_NAMES = ['users','projects','stats','crawler','jumpstart','datamodeling'];
+
+    function tabFromHash() {
+      const raw = (location.hash || '').replace(/^#/, '').toLowerCase();
+      return TAB_NAMES.includes(raw) ? raw : 'users';
+    }
+
+    function switchTab(name, opts) {
+      opts = opts || {};
+      if (!TAB_NAMES.includes(name)) name = 'users';
+      document.querySelectorAll('.tab-btn').forEach((b, i) => b.classList.toggle('active', TAB_NAMES[i] === name));
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.toggle('active', p.id === 'tab-' + name));
+      if (!opts.skipHash && location.hash !== '#' + name) {
+        location.hash = name;
+      }
+      if (name === 'crawler') loadCrawlerStats();
+      if (name === 'datamodeling') {
+        dmLoadTypes().then(function () {
+          if (dm.guessTypeFromDoc && !dm.activeTypeId) dmSelectGuessType();
+        });
+      }
+    }
+
+    window.addEventListener('hashchange', function () {
+      switchTab(tabFromHash(), { skipHash: true });
+    });
+
+    switchTab(tabFromHash(), { skipHash: true });
+
+    // ---- Users ----
+    async function loadUsers() {
+      try {
+        const users = await apiFetch('/api/admin/users');
+        const tbody = document.getElementById('users-tbody');
+        if (!users || users.length === 0) {
+          tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--text-muted)">No users</td></tr>';
+          return;
+        }
+        tbody.innerHTML = users.map(u => `
+          <tr id="user-row-${u.id}">
+            <td>${u.id}</td>
+            <td>${escHtml(u.email)}</td>
+            <td><span class="badge ${u.role === 'admin' ? 'complete' : 'uploaded'}">${u.role}</span></td>
+            <td>${u.created_at}</td>
+            <td><button class="btn btn-danger" onclick="deleteUser(${u.id})">Delete</button></td>
+          </tr>`).join('');
+      } catch (err) { showError(err.message); }
+    }
+
+    document.getElementById('create-user-form').addEventListener('submit', async e => {
+      e.preventDefault();
+      try {
+        await apiFetch('/api/admin/users', {
+          method: 'POST',
+          body: JSON.stringify({
+            email:    document.getElementById('new-email').value.trim(),
+            password: document.getElementById('new-password').value,
+            role:     document.getElementById('new-role').value,
+          }),
+        });
+        document.getElementById('create-user-form').reset();
+        await loadUsers();
+      } catch (err) { showError(err.message); }
+    });
+
+    async function deleteUser(id) {
+      if (!confirm('Delete this user? This cannot be undone.')) return;
+      try {
+        await apiFetch(`/api/admin/users/${id}`, { method: 'DELETE' });
+        document.getElementById(`user-row-${id}`)?.remove();
+      } catch (err) { showError(err.message); }
+    }
+
+    // ---- Projects ----
+    async function loadProjects() {
+      try {
+        const projects = await apiFetch('/api/admin/projects');
+        const tbody = document.getElementById('projects-tbody');
+        if (!projects || projects.length === 0) {
+          tbody.innerHTML = '<tr><td colspan="6" style="text-align:center;color:var(--text-muted)">No projects</td></tr>';
+          return;
+        }
+        tbody.innerHTML = projects.map(p => `
+          <tr>
+            <td>${p.ID}</td><td>${p.UserID}</td>
+            <td>${escHtml(p.OriginalName)}</td>
+            <td><span class="badge ${p.Status}">${p.Status.replace(/_/g,' ')}</span></td>
+            <td>${formatDate(p.CreatedAt)}</td>
+            <td>${escHtml(formatProcessingDisplay(String(p.CreatedAt||''), String(p.completed_at||''), p.Status))}</td>
+          </tr>`).join('');
+      } catch (err) { showError(err.message); }
+    }
+
+    // ---- Stats ----
+    async function loadStats() {
+      try {
+        const data = await apiFetch('/api/admin/stats');
+        const counts = data.by_status || {};
+        document.getElementById('stats-grid').innerHTML =
+          ['uploaded','converting','llm_pending','llm_done','post_processing','complete','error'].map(s => `
+            <div class="stat-card">
+              <div class="stat-value">${counts[s] || 0}</div>
+              <div class="stat-label">${s.replace(/_/g,' ')}</div>
+            </div>`).join('');
+        const events = data.recent_events || [];
+        document.getElementById('events-tbody').innerHTML = events.length === 0
+          ? '<tr><td colspan="4" style="text-align:center;color:var(--text-muted)">No events</td></tr>'
+          : events.map(e => `
+            <tr>
+              <td>${e.ProjectID||e.project_id}</td>
+              <td><span class="badge ${e.Stage||e.stage}">${e.Stage||e.stage}</span></td>
+              <td>${escHtml(e.Message||e.message)}</td>
+              <td>${formatDate(e.CreatedAt||e.created_at)}</td>
+            </tr>`).join('');
+      } catch (err) { showError(err.message); }
+    }
+
+    async function loadCrawlerStats() {
+      try {
+        const data = await apiFetch('/api/admin/crawler-stats');
+        const s = data.summary || {};
+        document.getElementById('crawler-summary-grid').innerHTML = `
+          <div class="stat-card"><div class="stat-value">${s.runs ?? 0}</div><div class="stat-label">recorded runs</div></div>
+          <div class="stat-card"><div class="stat-value">${s.navigations ?? 0}</div><div class="stat-label">page loads (navigate)</div></div>
+          <div class="stat-card"><div class="stat-value">${s.history_backs ?? 0}</div><div class="stat-label">history back</div></div>
+          <div class="stat-card"><div class="stat-value">${s.clicks ?? 0}</div><div class="stat-label">clicks</div></div>
+          <div class="stat-card"><div class="stat-value">${s.form_fills ?? 0}</div><div class="stat-label">form fills</div></div>
+          <div class="stat-card"><div class="stat-value">${s.downloads ?? 0}</div><div class="stat-label">downloads</div></div>`;
+        const runs = data.runs || [];
+        document.getElementById('crawler-runs-tbody').innerHTML = runs.length === 0
+          ? '<tr><td colspan="8" style="text-align:center;color:var(--text-muted)">No recorded runs yet. Run a crawler CLI with the app database.</td></tr>'
+          : runs.map(r => `
+            <tr>
+              <td>${escHtml(r.source)}</td>
+              <td>${formatDate(r.started_at)}</td>
+              <td>${formatDate(r.ended_at)}</td>
+              <td>${r.navigations}</td>
+              <td>${r.history_backs}</td>
+              <td>${r.clicks}</td>
+              <td>${r.form_fills}</td>
+              <td>${r.downloads}</td>
+            </tr>`).join('');
+      } catch (err) { showError(err.message); }
+    }
+
+    // ---- Jump-Start (logic in jumpstart-utils.js) ----
+
+    function escHtml(str) {
+      return (str || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+
+    function dmFieldDocStatCell(fieldName, statsByField, docsTotal) {
+      const st = statsByField[fieldName] || {};
+      const count = st.document_count || 0;
+      const total = docsTotal || 0;
+      if (!total) return '<span style="color:var(--text-muted)">—</span>';
+      const pct = Math.round((st.presence_rate != null ? st.presence_rate : (count / total)) * 100);
+      let html = '<span title="Appeared in ' + count + ' of ' + total + ' analyzed documents">' +
+        escHtml(count + ' / ' + total) + ' <span style="color:var(--text-muted)">(' + pct + '%)</span></span>';
+      const aliases = st.aliases_seen || [];
+      if (aliases.length) {
+        html += '<div style="color:var(--text-muted);font-size:.75rem;margin-top:.15rem">also as: ' +
+          aliases.map(a => escHtml(a)).join(', ') + '</div>';
+      }
+      return html;
+    }
+
+    // =============================================
+    // Data Modeling tab
+    // =============================================
+    const dm = {
+      hints: [],              // array of hint strings
+      files: [],              // File objects
+      fileRowEls: [],         // per-file progress DOM refs
+      activeTypeId: null,     // selected file type id (when refining an existing type)
+      guessTypeFromDoc: true, // when true, LLM infers / creates the type from the sample
+      lastResult: null,       // last API response
+      typeBriefs: {},         // file_type_id → extraction_brief
+      typeHints: {},          // file_type_id → string[] field hint labels
+      typeSamples: {},        // file_type_id → sample file list from API
+      fileDupHints: {},       // filename → duplicate note (pre-upload check)
+      configSaveTimer: null,
+    };
+
+    document.getElementById('dm-schema-tbody').addEventListener('click', function (e) {
+      const btn = e.target.closest('.dm-field-delete');
+      if (!btn) return;
+      const name = btn.getAttribute('data-field-name');
+      if (name) dmExcludeField(name);
+    });
+
+    function dmSetExtractionBrief(text) {
+      const el = document.getElementById('dm-extraction-brief');
+      if (el) el.value = text || '';
+    }
+
+    function dmGetExtractionBrief() {
+      const el = document.getElementById('dm-extraction-brief');
+      return el ? el.value.trim() : '';
+    }
+
+    function dmLoadFieldHints(labels) {
+      dm.hints = Array.isArray(labels) ? labels.slice() : [];
+      dmRenderHints();
+    }
+
+    function dmApplyTypeConfig(typeId, brief, fieldHints) {
+      if (typeId) {
+        dm.typeBriefs[typeId] = brief || '';
+        dm.typeHints[typeId] = datamodelingFieldHintLabels(fieldHints);
+      }
+      dmSetExtractionBrief(brief || '');
+      dmLoadFieldHints(dm.typeHints[typeId] || datamodelingFieldHintLabels(fieldHints));
+    }
+
+    function datamodelingFieldHintLabels(fieldHints) {
+      if (!fieldHints || !fieldHints.length) return [];
+      return fieldHints.map(function (h) {
+        if (typeof h === 'string') return h;
+        return (h && h.label) ? h.label : '';
+      }).filter(Boolean);
+    }
+
+    async function dmPersistTypeConfig() {
+      if (!dm.activeTypeId || dm.guessTypeFromDoc) return;
+      const typeId = dm.activeTypeId;
+      const body = {
+        extraction_brief: dmGetExtractionBrief(),
+        field_hints: dm.hints.map(function (label) { return { label: label }; }),
+      };
+      try {
+        const ft = await apiFetch('/api/admin/datamodeling/types/' + typeId + '/config', {
+          method: 'PATCH',
+          body: JSON.stringify(body),
+        });
+        dm.typeBriefs[typeId] = ft.extraction_brief || '';
+        dm.typeHints[typeId] = datamodelingFieldHintLabels(ft.field_hints);
+      } catch (_) { /* best-effort; analyze also saves */ }
+    }
+
+    function dmScheduleTypeConfigSave() {
+      if (!dm.activeTypeId || dm.guessTypeFromDoc) return;
+      clearTimeout(dm.configSaveTimer);
+      dm.configSaveTimer = setTimeout(dmPersistTypeConfig, 600);
+    }
+
+    function dmGuessTypeItemHtml() {
+      const active = dm.guessTypeFromDoc && !dm.activeTypeId;
+      return `<li class="dm-type-item dm-guess-type${active ? ' active' : ''}" onclick="dmSelectGuessType()">
+        <span class="dm-type-name">Guess type from doc</span>
+        <span class="dm-version-badge">auto</span>
+      </li>`;
+    }
+
+    function dmUpdateTypeModeHint() {
+      const el = document.getElementById('dm-type-mode-hint');
+      if (!el) return;
+      if (dm.guessTypeFromDoc && !dm.activeTypeId) {
+        el.textContent = 'The model will infer the file type from your sample and create or match a schema.';
+      } else if (dm.activeTypeId) {
+        el.textContent = 'Refining the selected type — upload more samples to evolve its schema.';
+      } else {
+        el.textContent = '';
+      }
+    }
+
+    // ---- File types sidebar ----
+    async function dmLoadTypes() {
+      const list = document.getElementById('dm-type-list');
+      list.innerHTML = '<li style="color:var(--text-muted);font-size:.85rem;padding:.3rem .6rem">Loading…</li>';
+      try {
+        const types = await apiFetch('/api/admin/datamodeling/types');
+        let html = dmGuessTypeItemHtml();
+        if (!types || types.length === 0) {
+          html += '<li class="dm-type-divider"></li>';
+          html += '<li style="color:var(--text-muted);font-size:.85rem;padding:.3rem .6rem">No saved types yet.</li>';
+        } else {
+          html += '<li class="dm-type-divider"></li>';
+          html += types.map(t => `
+            <li class="dm-type-item${dm.activeTypeId === t.id ? ' active' : ''}"
+                data-type-id="${t.id}"
+                data-type-name="${escHtml(t.name).replace(/"/g, '&quot;')}"
+                onclick="dmSelectTypeFromEl(this)">
+              <span class="dm-type-name">${escHtml(t.name)}</span>
+              <span class="dm-version-badge">v${t.latest_version || 0}</span>
+              <button type="button" class="dm-type-delete" title="Delete type"
+                      data-type-id="${t.id}"
+                      data-type-name="${escHtml(t.name).replace(/"/g, '&quot;')}"
+                      onclick="event.stopPropagation();dmDeleteType(this)">×</button>
+            </li>`).join('');
+        }
+        list.innerHTML = html;
+        dm.typeBriefs = {};
+        dm.typeHints = {};
+        (types || []).forEach(function (t) {
+          dm.typeBriefs[t.id] = t.extraction_brief || '';
+          dm.typeHints[t.id] = datamodelingFieldHintLabels(t.field_hints);
+        });
+        dmUpdateTypeModeHint();
+      } catch (_) {
+        list.innerHTML = dmGuessTypeItemHtml() +
+          '<li style="color:var(--text-muted);font-size:.85rem;padding:.3rem .6rem">—</li>';
+      }
+    }
+
+    function dmSelectGuessType() {
+      dmRenderSamplesList([]);
+      dm.guessTypeFromDoc = true;
+      dm.activeTypeId = null;
+      document.querySelectorAll('.dm-type-item').forEach(item => item.classList.remove('active'));
+      const guessEl = document.querySelector('.dm-guess-type');
+      if (guessEl) guessEl.classList.add('active');
+      document.getElementById('dm-result').classList.remove('visible');
+      dm.lastResult = null;
+      document.getElementById('dm-status-msg').textContent = 'Guess type from document';
+      dmSetExtractionBrief('');
+      dmLoadFieldHints([]);
+      dmUpdateTypeModeHint();
+    }
+
+    function dmSelectTypeFromEl(el) {
+      const id = parseInt(el.dataset.typeId, 10);
+      const name = el.dataset.typeName || '';
+      dmSelectType(id, name, el);
+    }
+
+    async function dmDeleteType(btn) {
+      const id = parseInt(btn.dataset.typeId, 10);
+      const name = btn.dataset.typeName || 'this type';
+      if (!id || !confirm('Delete type "' + name + '"? All schema versions and analysis history will be removed.')) return;
+      try {
+        await apiFetch('/api/admin/datamodeling/types/' + id, { method: 'DELETE' });
+        if (dm.activeTypeId === id) {
+          dmSelectGuessType();
+        }
+        document.getElementById('dm-status-msg').textContent = 'Deleted type: ' + name;
+        await dmLoadTypes();
+      } catch (err) {
+        document.getElementById('dm-status-msg').textContent = 'Error: ' + err.message;
+      }
+    }
+
+    async function dmSelectType(id, name, el) {
+      dm.guessTypeFromDoc = false;
+      dm.activeTypeId = id;
+      document.querySelectorAll('.dm-type-item').forEach(item => item.classList.remove('active'));
+      if (el) el.classList.add('active');
+      document.getElementById('dm-status-msg').textContent = 'Type: ' + name;
+      dmApplyTypeConfig(id, dm.typeBriefs[id] || '', (dm.typeHints[id] || []).map(function (l) { return { label: l }; }));
+      await Promise.all([dmLoadTypeSchema(id, name), dmLoadTypeSamples(id)]);
+      if (dm.files.length) dmCheckSelectedFileDuplicates();
+    }
+
+    async function dmLoadTypeSchema(typeId, typeName) {
+      const resultEl = document.getElementById('dm-result');
+      if (!typeId) {
+        resultEl.classList.remove('visible');
+        dm.lastResult = null;
+        return;
+      }
+      resultEl.classList.remove('visible');
+      document.getElementById('dm-status-msg').textContent = 'Type: ' + typeName + ' — loading schema…';
+      try {
+        const data = await apiFetch('/api/admin/datamodeling/types/' + typeId + '/schema');
+        if (data.file_type) {
+          dmApplyTypeConfig(typeId, data.file_type.extraction_brief, data.file_type.field_hints);
+        }
+        const schema = data.current_schema;
+        const fields = (schema && schema.fields) || [];
+        if (!fields.length) {
+          dm.lastResult = null;
+          document.getElementById('dm-status-msg').textContent = 'Type: ' + typeName + ' — no schema yet. Upload a sample to analyze.';
+          return;
+        }
+        const view = {
+          file_type: data.file_type,
+          proposed_schema: schema,
+          field_statistics: data.field_statistics || {},
+          schema_version: data.schema_version,
+          is_finalized: data.is_finalized,
+          convergence_score: data.convergence_score,
+        };
+        dm.lastResult = view;
+        dmRenderResult(view);
+        var finalized = data.is_finalized ? ' · finalized' : '';
+        var score = data.convergence_score != null
+          ? ' · convergence ' + Math.round(data.convergence_score * 100) + '%'
+          : '';
+        document.getElementById('dm-status-msg').textContent =
+          'Type: ' + typeName + ' · v' + (data.schema_version || '?') + finalized + score;
+        dmUpdateTypeModeHint();
+      } catch (err) {
+        dm.lastResult = null;
+        document.getElementById('dm-status-msg').textContent = 'Type: ' + typeName;
+        showError(err.message);
+      }
+    }
+
+    async function dmNewType() {
+      const name = prompt('New file type name (e.g. "invoice", "contract"):');
+      if (!name || !name.trim()) return;
+      try {
+        await apiFetch('/api/admin/datamodeling/types', {
+          method: 'POST',
+          body: JSON.stringify({ name: name.trim() }),
+        });
+        await dmLoadTypes();
+      } catch (err) { showError(err.message); }
+    }
+
+    // ---- Field hints tag input ----
+    function dmHintKeydown(e) {
+      if (e.key === 'Enter' || e.key === ',') {
+        e.preventDefault();
+        const val = e.target.value.trim().replace(/,+$/, '');
+        if (val) dmAddHint(val);
+        e.target.value = '';
+        dmTogglePlaceholder();
+      } else if (e.key === 'Backspace' && e.target.value === '' && dm.hints.length) {
+        dmRemoveHint(dm.hints.length - 1);
+      }
+    }
+
+    function dmAddHint(text) {
+      if (dm.hints.includes(text)) return;
+      dm.hints.push(text);
+      dmRenderHints();
+      dmScheduleTypeConfigSave();
+    }
+
+    function dmRemoveHint(index) {
+      dm.hints.splice(index, 1);
+      dmRenderHints();
+      dmTogglePlaceholder();
+      dmScheduleTypeConfigSave();
+    }
+
+    function dmRenderHints() {
+      const wrap = document.getElementById('dm-hints-wrap');
+      wrap.querySelectorAll('.dm-hint-tag').forEach(el => el.remove());
+      const input = document.getElementById('dm-hint-input');
+      dm.hints.forEach((h, i) => {
+        const tag = document.createElement('span');
+        tag.className = 'dm-hint-tag';
+        tag.innerHTML = escHtml(h) + `<button type="button" onclick="dmRemoveHint(${i})" title="Remove">&#x2715;</button>`;
+        wrap.insertBefore(tag, input);
+      });
+      dmTogglePlaceholder();
+    }
+
+    function dmTogglePlaceholder() {
+      const ph = document.getElementById('dm-hints-placeholder');
+      ph.style.display = (dm.hints.length === 0 && !document.getElementById('dm-hint-input').value) ? '' : 'none';
+    }
+
+    // ---- File selection ----
+    function dmHandleDrop(e) {
+      e.preventDefault();
+      e.currentTarget.classList.remove('drag-over');
+      dmFilesSelected(e.dataTransfer.files);
+    }
+
+    function dmFormatBytes(n) {
+      if (!n && n !== 0) return '';
+      if (n < 1024) return n + ' B';
+      if (n < 1024 * 1024) return (n / 1024).toFixed(1) + ' KB';
+      return (n / (1024 * 1024)).toFixed(1) + ' MB';
+    }
+
+    function dmRenderSamplesList(samples) {
+      const section = document.getElementById('dm-samples-section');
+      const list = document.getElementById('dm-samples-list');
+      if (!section || !list) return;
+      if (!samples || !samples.length) {
+        section.style.display = 'none';
+        return;
+      }
+      section.style.display = '';
+      list.innerHTML = samples.map(function (s) {
+        const count = s.analysis_count > 1 ? ' · analyzed ' + s.analysis_count + '×' : '';
+        const seen = s.last_seen_at ? s.last_seen_at.slice(0, 10) : '';
+        return '<li><strong>' + escHtml(s.original_name) + '</strong>' +
+          '<span>' + escHtml(dmFormatBytes(s.size_bytes)) + count +
+          (seen ? ' · last ' + escHtml(seen) : '') + '</span></li>';
+      }).join('');
+    }
+
+    async function dmLoadTypeSamples(typeId) {
+      if (!typeId) {
+        dmRenderSamplesList([]);
+        return;
+      }
+      try {
+        const samples = await apiFetch('/api/admin/datamodeling/types/' + typeId + '/samples');
+        dm.typeSamples[typeId] = samples;
+        dmRenderSamplesList(samples);
+      } catch (_) {
+        dmRenderSamplesList(dm.typeSamples[typeId] || []);
+      }
+    }
+
+    async function dmCheckSelectedFileDuplicates() {
+      dm.fileDupHints = {};
+      if (!dm.activeTypeId || !dm.files.length) {
+        dmRenderFileProgressList();
+        return;
+      }
+      try {
+        const data = await apiFetch('/api/admin/datamodeling/types/' + dm.activeTypeId + '/check-samples', {
+          method: 'POST',
+          body: JSON.stringify({
+            samples: dm.files.map(function (f) { return { name: f.name, size: f.size }; }),
+          }),
+        });
+        const dups = (data && data.duplicates) || [];
+        dm.files.forEach(function (f) {
+          const hit = dups.find(function (d) {
+            return d.sample && d.sample.original_name &&
+              d.sample.original_name.toLowerCase() === f.name.toLowerCase() &&
+              d.sample.size_bytes === f.size;
+          });
+          if (hit) {
+            dm.fileDupHints[f.name] = hit.match_type === 'exact'
+              ? 'Duplicate (same content)'
+              : 'Likely duplicate (same name & size)';
+          }
+        });
+      } catch (_) { /* non-fatal */ }
+      dmRenderFileProgressList();
+    }
+
+    function dmRenderFileProgressList() {
+      const host = document.getElementById('dm-file-progress-list');
+      if (!host) return;
+      host.innerHTML = '';
+      dm.fileRowEls = [];
+      if (!dm.files.length) return;
+
+      dm.files.forEach(function (f) {
+        const row = document.createElement('div');
+        row.className = 'dm-file-progress-row';
+
+        const nameEl = document.createElement('div');
+        nameEl.className = 'dm-file-progress-name';
+        const dupNote = dm.fileDupHints[f.name];
+        nameEl.innerHTML = escHtml(f.name) +
+          (dupNote ? '<span class="dm-file-dup-badge" title="' + escHtml(dupNote) + '">duplicate</span>' : '');
+        row.appendChild(nameEl);
+
+        const pb = createLLMProgressBar(0);
+        row.appendChild(pb.el);
+
+        const meta = document.createElement('div');
+        meta.className = 'dm-file-progress-meta';
+        const sp = document.createElement('span');
+        sp.className = 'spinner';
+        sp.style.display = 'none';
+        meta.appendChild(sp);
+        const lbl = document.createElement('span');
+        lbl.textContent = 'Ready';
+        meta.appendChild(lbl);
+        row.appendChild(meta);
+
+        host.appendChild(row);
+        dm.fileRowEls.push({ name: f.name, bar: pb, labelEl: lbl, spinnerEl: sp, nameEl: nameEl });
+      });
+    }
+
+    function dmSetFileProgress(name, stage, pct, label, item) {
+      const row = dm.fileRowEls.find(function (r) { return r.name === name; });
+      if (!row) return;
+      const inProgress = stage && stage !== 'complete' && stage !== 'error' && stage !== 'queued';
+      row.bar.setValue(pct, stage === 'error');
+      let lbl = label || stage || '';
+      if (item && item.is_duplicate && item.duplicate_note) {
+        lbl = item.duplicate_note + (lbl ? ' · ' + lbl : '');
+      }
+      row.labelEl.textContent = lbl;
+      row.spinnerEl.style.display = inProgress ? '' : 'none';
+      if (item && item.is_duplicate && row.nameEl && !row.nameEl.querySelector('.dm-file-dup-badge')) {
+        row.nameEl.innerHTML = escHtml(name) + '<span class="dm-file-dup-badge">duplicate</span>';
+      }
+    }
+
+    function dmSetAllFileProgress(stage, pct, label) {
+      dm.fileRowEls.forEach(function (r) { dmSetFileProgress(r.name, stage, pct, label); });
+    }
+
+    function dmApplyServerFileProgress(items) {
+      if (!items || !items.length) return;
+      items.forEach(function (it) {
+        dmSetFileProgress(it.name, it.stage, it.progress, it.label, it);
+      });
+    }
+
+    function dmFilesSelected(fileList) {
+      dm.files = Array.from(fileList);
+      dmCheckSelectedFileDuplicates();
+    }
+
+    function dmPostAnalyze(formData) {
+      return new Promise(function (resolve, reject) {
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', '/api/admin/datamodeling/analyze');
+        xhr.setRequestHeader('Authorization', 'Bearer ' + localStorage.getItem('token'));
+        xhr.upload.addEventListener('progress', function (e) {
+          if (e.lengthComputable && e.total > 0) {
+            const pct = Math.min(15, Math.round((e.loaded / e.total) * 15));
+            dmSetAllFileProgress('uploading', pct, 'Uploading…');
+          }
+        });
+        xhr.onload = function () {
+          let body;
+          try { body = JSON.parse(xhr.responseText); } catch (_) {
+            reject(new Error('Invalid server response'));
+            return;
+          }
+          if (xhr.status >= 200 && xhr.status < 300) {
+            resolve(body);
+            return;
+          }
+          const msg = body.message || body.error || xhr.statusText;
+          const detail = body.details ? ' — ' + body.details : '';
+          reject(new Error(msg + detail));
+        };
+        xhr.onerror = function () { reject(new Error('Network error during upload')); };
+        xhr.send(formData);
+      });
+    }
+
+    // Poll a background analysis job until complete or error.
+    async function dmPollAnalysisJob(jobId) {
+      const maxWaitMs = 11 * 60 * 1000;
+      const start = Date.now();
+      while (Date.now() - start < maxWaitMs) {
+        const status = await apiFetch('/api/admin/datamodeling/jobs/' + encodeURIComponent(jobId));
+        dmApplyServerFileProgress(status.file_progress);
+        if (status.status === 'complete') return status.result;
+        if (status.status === 'error') {
+          dmSetAllFileProgress('error', 0, (status.error && status.error.message) || 'Failed');
+          const err = status.error || {};
+          let msg = err.message || err.error || 'Analysis failed';
+          if (err.error === 'cost_threshold_exceeded') {
+            msg = 'Estimated token cost is too high for this batch. Try fewer files. ' + msg;
+          }
+          if (err.details) msg += ' — ' + err.details;
+          throw new Error(msg);
+        }
+        await new Promise(r => setTimeout(r, 2000));
+      }
+      throw new Error('Analysis timed out waiting for background job');
+    }
+
+    // ---- Analyze ----
+    async function dmAnalyze() {
+      if (dm.files.length === 0) {
+        document.getElementById('dm-status-msg').textContent = 'Select at least one file.';
+        return;
+      }
+
+      // Flush any pending hint text
+      const inputEl = document.getElementById('dm-hint-input');
+      if (inputEl.value.trim()) { dmAddHint(inputEl.value.trim()); inputEl.value = ''; }
+
+      document.getElementById('dm-analyze-btn').disabled = true;
+      document.getElementById('dm-status-msg').textContent = '';
+      document.getElementById('dm-result').classList.remove('visible');
+      dmRenderFileProgressList();
+      dmSetAllFileProgress('uploading', 2, 'Uploading…');
+
+      try {
+        const formData = new FormData();
+        dm.files.forEach(f => formData.append('files', f));
+        if (dm.activeTypeId) formData.append('file_type_id', dm.activeTypeId);
+        formData.append('max_cost_tier', 'premium');
+        formData.append('extraction_brief', dmGetExtractionBrief());
+        dm.hints.forEach(h => formData.append('field_hints', h));
+
+        const envelope = await dmPostAnalyze(formData);
+        const accepted = envelope.data || envelope;
+        if (accepted.job_id) {
+          dmApplyServerFileProgress(accepted.file_progress);
+          if (accepted.duplicate_warnings && accepted.duplicate_warnings.length) {
+            document.getElementById('dm-status-msg').textContent =
+              'Analyzing… (' + accepted.duplicate_warnings.length + ' duplicate file(s) detected — upload allowed)';
+          } else {
+            document.getElementById('dm-status-msg').textContent = 'Analyzing…';
+          }
+          dm.lastResult = await dmPollAnalysisJob(accepted.job_id);
+        } else {
+          dm.lastResult = accepted;
+        }
+        dmRenderResult(dm.lastResult);
+
+        const ft = dm.lastResult && dm.lastResult.file_type;
+        if (ft && ft.id) {
+          dm.guessTypeFromDoc = false;
+          dm.activeTypeId = ft.id;
+          dmApplyTypeConfig(ft.id, ft.extraction_brief, ft.field_hints);
+        }
+        await dmLoadTypes();
+        if (ft && ft.id) await dmLoadTypeSamples(ft.id);
+
+        if (ft && ft.name) {
+          const label = ft.is_new ? 'Created type: ' + ft.name : 'Type: ' + ft.name;
+          const ver = dm.lastResult.schema_version ? ' · v' + dm.lastResult.schema_version : '';
+          document.getElementById('dm-status-msg').textContent = label + ver;
+        }
+        dmUpdateTypeModeHint();
+      } catch (err) {
+        dmSetAllFileProgress('error', 0, 'Failed');
+        document.getElementById('dm-status-msg').textContent = 'Error: ' + err.message;
+      } finally {
+        document.getElementById('dm-analyze-btn').disabled = false;
+      }
+    }
+
+    function dmRenderResult(r) {
+      const resultEl = document.getElementById('dm-result');
+      resultEl.classList.add('visible');
+
+      // Strategy chips (analyze runs only; hidden when viewing a saved schema)
+      const strat = r.processing_strategy || {};
+      const stratHost = document.getElementById('dm-strategy-chips');
+      const hasStrategy = !!(strat.use_ocr || strat.convert_to_image || strat.multi_pass ||
+        (strat.passes && strat.passes.length) || strat.rationale);
+      if (stratHost) {
+        if (stratHost.previousElementSibling) {
+          stratHost.previousElementSibling.style.display = hasStrategy ? '' : 'none';
+        }
+        stratHost.style.display = hasStrategy ? '' : 'none';
+      }
+      stratHost.innerHTML = [
+        { key: 'use_ocr',          label: 'OCR' },
+        { key: 'convert_to_image', label: 'Vision (image)' },
+        { key: 'multi_pass',       label: 'Multi-pass' },
+      ].map(({ key, label }) => {
+        const on = !!strat[key];
+        return `<span class="dm-chip ${on ? 'on' : 'off'}">${on ? '&#x2713;' : '&#x2715;'} ${label}</span>`;
+      }).join('') + (strat.passes && strat.passes.length
+        ? strat.passes.map(p => `<span class="dm-chip">${escHtml(p)}</span>`).join('')
+        : '');
+
+      // Hint resolution
+      const hints = r.user_field_hints_resolution || [];
+      const hintSection = document.getElementById('dm-hints-resolution-section');
+      if (hints.length) {
+        hintSection.style.display = '';
+        document.getElementById('dm-resolution-list').innerHTML = hints.map(h => `
+          <li class="dm-resolution-item">
+            <span class="dm-res-badge ${h.found ? 'found' : 'missing'}">${h.found ? '&#x2713; found' : '&#x2715; missing'}</span>
+            <strong>${escHtml(h.user_label)}</strong>
+            ${h.mapped_to && h.found ? `&#x2192; <code>${escHtml(h.mapped_to)}</code>` : ''}
+            ${h.note ? `<span class="dm-res-note">${escHtml(h.note)}</span>` : ''}
+          </li>`).join('');
+      } else {
+        hintSection.style.display = 'none';
+      }
+
+      // Schema version label
+      const versionEl = document.getElementById('dm-schema-version');
+      versionEl.textContent = r.schema_version ? `— v${r.schema_version}` : '';
+
+      // Schema table
+      const fields = (r.proposed_schema && r.proposed_schema.fields) || [];
+      const fieldStats = r.field_statistics || {};
+      const docsTotal = fieldStats.documents_analyzed || 0;
+      const statsByField = fieldStats.fields || {};
+      const typeId = r.file_type && r.file_type.id;
+      document.getElementById('dm-schema-tbody').innerHTML = fields.length ? fields.map(f => `
+        <tr>
+          <td><strong>${escHtml(f.name)}</strong></td>
+          <td><code style="font-size:.8rem">${escHtml(f.type)}</code></td>
+          <td>
+            <span class="dm-required-dot ${f.required ? 'req' : 'opt'}"></span>
+            ${f.required ? 'Required' : '<span style="color:var(--text-muted)">Optional</span>'}
+          </td>
+          <td><span class="dm-conf-${f.extraction_confidence || 'medium'}">${escHtml(f.extraction_confidence || '—')}</span></td>
+          <td style="font-size:.82rem;white-space:nowrap">${dmFieldDocStatCell(f.name, statsByField, docsTotal)}</td>
+          <td style="color:var(--text-muted);font-size:.82rem">${escHtml(f.description || '')}</td>
+          <td>${typeId ? `<button type="button" class="dm-field-delete" data-field-name="${escHtml(f.name)}" title="Remove field and block re-inference">&#x2715;</button>` : ''}</td>
+        </tr>`).join('')
+        : '<tr><td colspan="7" style="text-align:center;color:var(--text-muted);padding:1rem">No fields extracted.</td></tr>';
+
+      const excluded = (r.file_type && r.file_type.excluded_fields) || [];
+      const exSection = document.getElementById('dm-excluded-section');
+      if (excluded.length) {
+        exSection.style.display = '';
+        document.getElementById('dm-excluded-list').innerHTML = excluded.map(e =>
+          `<li><code>${escHtml(e.name)}</code>${e.excluded_at ? ` <span>— ${escHtml(e.excluded_at.slice(0, 10))}</span>` : ''}</li>`
+        ).join('');
+      } else {
+        exSection.style.display = 'none';
+      }
+
+      // Refinement notes
+      const refSection = document.getElementById('dm-refinement-section');
+      if (r.refinement_notes) {
+        refSection.style.display = '';
+        document.getElementById('dm-refinement-box').textContent = r.refinement_notes;
+      } else {
+        refSection.style.display = 'none';
+      }
+
+      // Manual help
+      const manSection = document.getElementById('dm-manual-section');
+      const questions = r.manual_questions || [];
+      if (r.needs_manual_help && questions.length) {
+        manSection.style.display = '';
+        document.getElementById('dm-questions').innerHTML = questions.map((q, i) => `
+          <div class="dm-question-item" style="flex-direction:column">
+            <label for="dm-q-${i}">${escHtml(q.question || q)}</label>
+            <textarea id="dm-q-${i}" rows="2" placeholder="Your answer…"></textarea>
+          </div>`).join('');
+      } else {
+        manSection.style.display = 'none';
+      }
+    }
+
+    async function dmExcludeField(fieldName) {
+      const typeId = dm.activeTypeId || (dm.lastResult && dm.lastResult.file_type && dm.lastResult.file_type.id);
+      if (!typeId || !fieldName) return;
+      if (!confirm('Remove "' + fieldName + '" from the schema?\n\nFuture analyzes for this type will not re-add this field.')) return;
+      try {
+        const data = await apiFetch('/api/admin/datamodeling/types/' + typeId + '/exclude-field', {
+          method: 'POST',
+          body: JSON.stringify({ field_name: fieldName }),
+        });
+        const view = {
+          file_type: data.file_type,
+          proposed_schema: data.current_schema,
+          field_statistics: data.field_statistics || {},
+          schema_version: data.schema_version,
+        };
+        dm.lastResult = view;
+        dmRenderResult(view);
+        document.getElementById('dm-status-msg').textContent =
+          'Removed field: ' + fieldName + ' · v' + (data.schema_version || '?');
+      } catch (err) { showError(err.message); }
+    }
+
+    async function dmSubmitAnswers() {
+      const questions = dm.lastResult && dm.lastResult.manual_questions || [];
+      const answers = questions.map((q, i) => ({
+        question_id: q.question_id || String(i),
+        answer: (document.getElementById(`dm-q-${i}`) || {}).value || '',
+      }));
+      try {
+        const typeId = dm.lastResult && dm.lastResult.file_type && dm.lastResult.file_type.id;
+        if (!typeId) return;
+        await apiFetch(`/api/admin/datamodeling/types/${typeId}/manual-answer`, {
+          method: 'POST',
+          body: JSON.stringify({ answers }),
+        });
+        await dmAnalyze();
+      } catch (err) { showError(err.message); }
+    }
+
+    function dmReset() {
+      clearTimeout(dm.configSaveTimer);
+      dm.hints = [];
+      dm.files = [];
+      dmRenderHints();
+      document.getElementById('dm-file-progress-list').innerHTML = '';
+      dm.fileRowEls = [];
+      dmSetExtractionBrief('');
+      document.getElementById('dm-result').classList.remove('visible');
+      document.getElementById('dm-file-input').value = '';
+      dmSelectGuessType();
+    }
+  </script>
+</body>
+</html>

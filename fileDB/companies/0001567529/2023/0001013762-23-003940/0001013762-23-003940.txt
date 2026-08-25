@@ -1,0 +1,491 @@
+<SEC-DOCUMENT>0001013762-23-003940.txt : 20231016
+<SEC-HEADER>0001013762-23-003940.hdr.sgml : 20231016
+<ACCEPTANCE-DATETIME>20231016070013
+ACCESSION NUMBER:		0001013762-23-003940
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20231016
+FILED AS OF DATE:		20231016
+DATE AS OF CHANGE:		20231016
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		231326178
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>ea186782-6k_kamada.htm
+<DESCRIPTION>REPORT OF FOREIGN PRIVATE ISSUER
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="text-align: center; font-size: 1pt; border-top: Black 2pt solid; border-bottom: Black 1pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>UNITED STATES</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>SECURITIES AND EXCHANGE COMMISSION</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Washington, D.C. 20549</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>FORM 6-K</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Report of Foreign Private Issuer</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Pursuant to Rule 13a-16 or 15d-16</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>of the Securities Exchange Act of 1934</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">For the Month of October 2023</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">Commission File Number 001-35948</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Kamada Ltd.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">(Translation of registrant&rsquo;s name into English)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>2 Holzman Street<BR>
+Science Park, P.O. Box 4081<BR>
+Rehovot 7670402<BR>
+Israel<BR>
+</B>(Address of principal executive offices)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left">Indicate by check mark whether the registrant
+files or will file annual reports under cover Form 20-F or Form 40-F.</P>
+
+<P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">Form 20-F &#9746;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Form 40-F &#9744;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>This Form 6-K is being incorporated by reference
+into the Registrant&rsquo;s Form S-8 Registration Statements, File Nos. <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891313003548/zk1314048.htm">333-192720</A>, <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891315003362/zk1517560.htm">333-207933</A>, <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891317000388/zk1719386.htm">333-215983</A>, <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891318000396/zk1821132.htm">333-222891</A>, <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891319002187/zk1923409.htm">333-233267</A> and
+<A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000121390022035395/ea161899-s8_kamadaltd.htm">333-265866</A>.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1pt solid; border-bottom: Black 2pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></P>
+
+<!-- Field: Page; Sequence: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The following exhibit is attached:</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR STYLE="vertical-align: top; background-color: #CCEEFF">
+    <TD STYLE="width: 8%"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.1</FONT></TD>
+    <TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 91%; text-align: justify"><A HREF="ea186782ex99-1_kamada.htm"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Kamada Announces
+    Recent Achievements with CYTOGAM&reg; including Availability of Product Manufactured by the Company for U.S Commercial Sale and Presentation
+    of New Clinical Data</FONT></A></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in; text-align: justify; text-indent: -0.5in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></P>
+
+<!-- Field: Page; Sequence: 2; Options: NewSection; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->1<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>SIGNATURE</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Pursuant to the requirements of the Securities
+Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR STYLE="vertical-align: top">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Date: October 16, 2023</FONT></TD>
+    <TD COLSPAN="2"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>KAMADA LTD.</B></FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="width: 60%">&nbsp;</TD>
+    <TD STYLE="width: 4%"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">By: </FONT></TD>
+    <TD STYLE="width: 36%; border-bottom: black 1.5pt solid"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">/s/ Nir Livneh</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>
+    <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Nir Livneh</P>
+    <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Vice President General Counsel and<BR>
+    Corporate Secretary</P></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></P>
+
+<!-- Field: Page; Sequence: 3; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->2<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><U>EXHIBIT INDEX</U></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR>
+    <TD STYLE="border-bottom: black 1.5pt solid; vertical-align: top; width: 9%"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">EXHIBIT&nbsp;NO.</FONT></TD>
+    <TD STYLE="vertical-align: top; width: 1%">&nbsp;</TD>
+    <TD STYLE="border-bottom: black 1.5pt solid; vertical-align: bottom; width: 90%"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">DESCRIPTION</FONT></TD></TR>
+  <TR STYLE="vertical-align: top; background-color: #CCEEFF">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.1</FONT></TD>
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><A HREF="ea186782ex99-1_kamada.htm"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Kamada Announces Recent
+    Achievements with CYTOGAM&reg; including Availability of Product Manufactured by the Company for U.S Commercial Sale and Presentation
+    of New Clinical Data</FONT></A></TD></TR>
+  </TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">3</P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right"></P>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>ea186782ex99-1_kamada.htm
+<DESCRIPTION>KAMADA ANNOUNCES RECENT ACHIEVEMENTS WITH CYTOGAM INCLUDING AVAILABILITY OF PRODUCT MANUFACTURED BY THE COMPANY FOR U.S COMMERCIAL SALE AND PRESENTATION OF NEW CLINICAL DATA
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right"><B>Exhibit 99.1</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Kamada Announces Recent Achievements with CYTOGAM&reg;
+including Availability of Product Manufactured by the Company for U.S Commercial Sale and Presentation of New Clinical Data</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.25in; text-align: justify; text-indent: -0.25in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in">&#9679;</TD><TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif"><I>Following Recent FDA Approval of Technology
+Transfer Process, CYTOGAM&reg; Manufactured by Kamada at its Facility Now Available for Commercial Sales in U.S.</I></FONT></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.25in; text-align: justify; text-indent: -0.25in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in">&#9679;</TD><TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif"><I>New Clinical Data Highlighting Five-year Real-world
+Survival Benefits of High Risk CMV Mismatch Lung Transplant Patients Receiving CYTOGAM were Presented at IDWeek 2023</I></FONT></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.25in; text-align: justify; text-indent: -0.25in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in">&#9679;</TD><TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif"><I>Company Establishes Scientific Advisory Board
+Focused on U.S. Clinical Programs for CYTOGAM</I></FONT></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.25in; text-align: justify; text-indent: -0.25in"><I>&nbsp;</I></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Rehovot, Israel, and Hoboken, NJ &ndash;
+October 16, 2023</B> &ndash; Kamada Ltd. (NASDAQ: KMDA; TASE: KMDA.TA), a commercial stage global biopharmaceutical company with a
+portfolio of marketed products indicated for rare and serious conditions and a leader in the specialty plasma-derived field, today
+announced multiple recent achievements related to CYTOGAM&reg; <FONT STYLE="background-color: white">(Cytomegalovirus Immune
+Globulin Intravenous [Human]) (CMV-IGIV), which </FONT>is indicated for the prophylaxis of cytomegalovirus (&ldquo;CMV&rdquo;)
+disease associated with transplantation of kidney, lung, liver, pancreas and heart<FONT STYLE="background-color: white">, and is the </FONT>sole
+U.S. Food and Drug Administration (&ldquo;FDA&rdquo;) <FONT STYLE="background-color: white">approved immunoglobulin (IgG) product
+for this indication. </FONT>See important safety information listed below.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Kamada announced that CYTOGAM <FONT STYLE="background-color: white">manufactured
+at the Company&rsquo;s facility in Beit Kama, Israel</FONT>, is now available for commercial sales in the U.S. This follows the recent
+FDA approval of the technology transfer process of CYTOGAM from its previous manufacturer, CSL Behring. The availability of Kamada-manufactured
+CYTOGAM in Canada is expected later this year.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><FONT STYLE="background-color: white">The results
+of an investigator</FONT>-<FONT STYLE="background-color: white">initiated five-year retrospective study, consisting of 325 lung-transplant
+patients, evaluating </FONT>the real-world use of CYTOGAM in combination with anti-viral agents for the prevention of CMV disease in high-risk
+CMV mismatch lung transplant recipients (CMV seronegative patients receiving a lung from a seropositive donor), conducted by senior author
+Fernando Torres M.D., Clinical Chief, Division of Pulmonary and Critical Care at University of Texas Southwestern Medical Center were
+presented at IDWeek 2023, that took place on October 11-15, 2023, in Boston, MA. Dr. Torres concludes his poster presentation by indicating
+that the use of a proactive multimodality CMV prophylaxis consisting of antivirals and immune augmentation with CMV immunoglobulin may
+improve outcomes among high-risk CMV mismatch lung transplant recipients.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&ldquo;The prevention of CMV disease is an area
+of significant unmet medical need and a leading cause for organ rejection and severe transplantation complications,&rdquo; said Amir London,
+Kamada&rsquo;s Chief Executive Officer. &ldquo;The results presented by Dr. Torres align with previously published data regarding the
+survival benefit of high-risk CMV mismatched lung transplant patients receiving a prophylaxis regimen that includes CYTOGAM and an antiviral
+vs. antiviral monotherapy. In addition, the significant milestone of launching our <FONT STYLE="background-color: white">internal commercial
+manufacturing of CYTOGAM </FONT>further validates our investment in this critical life-saving product, and our commitment to serving the
+transplant community.&rdquo;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Company recently established its first Scientific
+Advisory Board consisting of eight U.S. based world-renowned thought leaders in the solid organ transplantation field. The advisory board
+focuses on Kamada&rsquo;s newly implemented U.S. clinical program for CYTOGAM including new opportunities and future research and development
+possibilities.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>About CYTOGAM&reg;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">CYTOGAM&reg; (Cytomegalovirus Immune Globulin
+Intravenous [Human]) (CMV-IGIV) is indicated for the prophylaxis of cytomegalovirus disease associated with the transplantation of the
+kidney, lung, liver, pancreas and heart. The product is the sole FDA-approved immunoglobulin (IgG) product for this indication.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></P>
+
+<!-- Field: Page; Sequence: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Important Safety Information</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">CYTOGAM is contraindicated in individuals with
+a history of a prior severe reaction associated with the administration of this or other human immunoglobulin preparations. Persons with
+selective immunoglobulin A deficiency have the potential for developing antibodies to immunoglobulin A and could have anaphylactic
+reactions to subsequent administration of blood products that contain immunoglobulin A, including CYTOGAM.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Immune Globulin Intravenous (Human) products have
+been reported to be associated with renal dysfunction, acute renal failure, osmotic nephrosis and death. Patients predisposed to acute
+renal failure include patients with any degree of preexisting renal insufficiency, diabetes mellitus, age greater than 65, volume
+depletion, sepsis, paraproteinemia, or patients receiving known nephrotoxic drugs. Especially in such patients, IGIV products should be
+administered at the minimum concentrations available and the minimum rate of infusion practicable. Agents containing sucrose as a stabilizer
+(CYTOGAM contains sucrose) have been associated with reports of renal dysfunction given at daily doses of 350 mg/kg or greater.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">During administration, the patient&rsquo;s vital
+signs should be monitored continuously, and careful observation made for any symptoms throughout the infusion. Epinephrine and diphenhydramine
+should be available for the treatment of an acute anaphylactic reaction.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Increases in serum creatinine and blood urea nitrogen
+(BUN) have been observed as soon as one to two days following IGIV infusion. Progression to oliguria or anuria requiring dialysis has
+been observed.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Immune Globulin Intravenous (Human) products can
+contain blood group antibodies which may act as hemolysins and induce in vivo coating of red blood cells with immunoglobulin, causing
+a positive direct antiglobulin reaction and, rarely, hemolysis.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">CYTOGAM is derived from human plasma. As with
+all plasma-derived products, the risk of transmission of infectious agents, including viruses and, theoretically, the Creutzfeldt-Jakob
+disease (CJD) agent, cannot be completely eliminated.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Minor reactions, such as flushing, chills,
+muscle cramps, back pain, fever, nausea, vomiting, arthralgia, and wheezing, were the most frequent adverse reactions observed during
+the clinical trials for CYTOGAM.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Please see full Prescribing Information for full
+prescribing details.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">To report SUSPECTED ADVERSE REACTIONS, contact
+Kamada at pharmacovigilance@kamada.com or 1-(866)-916-0077 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>About Kamada</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Kamada Ltd. (the &ldquo;Company&rdquo;) is a commercial
+stage global biopharmaceutical company with a portfolio of marketed products indicated for rare and serious conditions and a leader in
+the specialty plasma-derived field, focused on diseases of limited treatment alternatives. The Company is also advancing an innovative
+development pipeline targeting areas of significant unmet medical need. The Company&rsquo;s strategy is focused on driving profitable
+growth from its significant commercial catalysts as well as its manufacturing and development expertise in the plasma-derived and biopharmaceutical
+fields. The Company&rsquo;s commercial products portfolio includes six FDA approved plasma-derived biopharmaceutical products: CYTOGAM&reg;,
+KEDRAB&reg;, WINRHO SDF&reg;, VARIZIG&reg;, HEPAGAM B&reg; and GLASSIA&reg;, as well as KAMRAB&reg;, KAMRHO (D)&reg; and two types of
+equine-based anti-snake venom (ASV) products. The Company distributes its commercial products portfolio directly, and through strategic
+partners or third-party distributors in more than 30 countries, including the U.S., Canada, Israel, Russia, Argentina, Brazil, India,
+Australia and other countries in Latin America, Europe, Middle East, and Asia. The Company leverages its expertise and presence in the
+Israeli market to distribute, for use in Israel, more than 25 pharmaceutical products that are supplied by international manufacturers
+and during recent years added eleven biosimilar products to its Israeli distribution portfolio, which, subject to the European Medicines
+Agency (EMA) and the Israeli Ministry of Health approvals, are expected to be launched in Israel through 2028. The Company owns an FDA
+registered plasma collection center in Beaumont, Texas, which currently specializes in the collection of hyper-immune plasma used in the
+manufacture of KAMRHO (D). In addition to the Company&rsquo;s commercial operation, it invests in research and development of new product
+candidates. The Company&rsquo;s leading investigational product is an inhaled AAT for the treatment of AAT deficiency, for which it is
+continuing to progress the InnovAATe clinical trial, a randomized, double-blind, placebo-controlled, pivotal Phase 3 trial. FIMI Opportunity
+Fund, the leading private equity investor in Israel, is the Company&rsquo;s lead shareholder, beneficially owning approximately 38% of
+the outstanding ordinary shares.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B></B></P>
+
+<!-- Field: Page; Sequence: 2; Options: NewSection; Value: 2 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->2<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Cautionary Note Regarding Forward-Looking Statements</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">This release includes forward-looking statements
+within the meaning of Section 21E of the U.S. Securities Exchange Act of 1934, as amended, and the safe harbor provisions of the U.S.
+Private Securities Litigation Reform Act of 1995. Forward-looking statements are statements that are not historical facts, including statements
+regarding: (1) the availability of Kamada-manufactured CYTOGAM in Canada is expected later this year; (2) recent scientific publication
+suggest that use of a proactive multimodality CMV prophylaxis consisting of antivirals and immune augmentation with CMV immunoglobulin
+may improve outcomes among high-risk CMV mismatch lung transplant recipients, (3) Kamada commitment to serving the transplant community;
+and (4) the Company&rsquo;s belief of new opportunities and future research and development possibilities for CYTOGAM. Forward-looking
+statements are based on Kamada&rsquo;s current knowledge and its present beliefs and expectations regarding possible future events and
+are subject to risks, uncertainties and assumptions. Actual results and the timing of events could differ materially from those anticipated
+in these forward-looking statements as a result of several factors including, but not limited to, the evolving nature of the conflicts
+in the middle east and the impact of such conflicts in Israel, the Middle East and the rest of the world, the impact of conflicts on market
+conditions and the general economic, industry and political conditions in Israel, the U.S. and globally, availability of sufficient raw
+materials required to maintain manufacturing plans, meeting the Canadian health authorities requirements for the commercial launch of
+CYTOGAM manufactured by the Company in Israel, continued utilization of Kamada&rsquo;s Israeli manufacturing site, continuation of inbound
+and outbound international delivery routes, continued demand for the IgG product portfolio, financial conditions of the Company&rsquo;s
+customers, suppliers and services providers, Kamada&rsquo;s ability to leverage and expand its international distribution network, Kamada&rsquo;s
+ability to manage operating expenses, additional competition in the markets that Kamada competes, regulatory impact and potential delays
+associated with clinical trials, regulatory delays, prevailing market conditions and the impact of general economic, industry or political
+conditions in the U.S., Israel or otherwise, and other risks detailed in Kamada&rsquo;s filings with the U.S. Securities and Exchange
+Commission (the &ldquo;SEC&rdquo;) including those discussed in its most recent Annual Report on Form 20-F and in any subsequent reports
+on Form 6-K, each of which is on file or furnished with the SEC and available at the SEC&rsquo;s website at www.sec.gov. The forward-looking
+statements made herein speak only as of the date of this announcement and Kamada undertakes no obligation to update publicly such forward-looking
+statements to reflect subsequent events or circumstances, except as otherwise required by law.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>CONTACTS:</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Chaime Orlev</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Chief Financial Officer</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">IR@kamada.com</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Brian Ritchie</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">LifeSci Advisors, LLC</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">212-915-2578</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">britchie@LifeSciAdvisors.com</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">3</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

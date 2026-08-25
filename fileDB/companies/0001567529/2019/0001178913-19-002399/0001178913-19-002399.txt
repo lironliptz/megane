@@ -1,0 +1,292 @@
+<SEC-DOCUMENT>0001178913-19-002399.txt : 20190924
+<SEC-HEADER>0001178913-19-002399.hdr.sgml : 20190924
+<ACCEPTANCE-DATETIME>20190924070039
+ACCESSION NUMBER:		0001178913-19-002399
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20190924
+FILED AS OF DATE:		20190924
+DATE AS OF CHANGE:		20190924
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		191109158
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>zk1923502.htm
+<DESCRIPTION>6-K
+<TEXT>
+<html>
+  <head>
+    <title></title>
+    <!-- Licensed to: company
+         Document created using EDGARfilings PROfile 6.3.0.0
+         Copyright 1995 - 2019 Broadridge -->
+  </head>
+<body bgcolor="#ffffff" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; text-align: left; color: #000000;">
+  <div>
+    <hr align="center" style="border: none; border-bottom: 1px solid black; border-top: 4px solid black; height: 10px; color: #ffffff; background-color: #ffffff; text-align: center; margin-left: auto; margin-right: auto;">
+    <div>
+      <div id="DSPFPageHeader">
+        <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+        </div>
+      </div>
+      <div style="text-align: center; line-height: 1.25; font-weight: bold;">UNITED STATES</div>
+      <div style="text-align: center; line-height: 1.25; font-family: 'Times New Roman',Times,serif; font-size: 14pt; font-weight: bold;">SECURITIES AND EXCHANGE COMMISSION</div>
+      <div style="text-align: center; line-height: 1.25; font-weight: bold;">Washington, D.C. 20549</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="text-align: center; line-height: 1.25; font-family: 'Times New Roman',Times,serif; font-size: 14pt; font-weight: bold;">FORM 6-K</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="text-align: center; line-height: 1.25; font-weight: bold;">Report of Foreign Private Issuer</div>
+      <div style="text-align: center; line-height: 1.25; font-weight: bold;">Pursuant to Rule 13a-16 or 15d-16</div>
+      <div style="text-align: center; line-height: 1.25; font-weight: bold;">of the Securities Exchange Act of 1934</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="text-align: center; line-height: 1.25;">For the Month of September 2019</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="text-align: center; line-height: 1.25;">Commission File Number 001-35948</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="text-align: center; line-height: 1.25; font-family: 'Times New Roman',Times,serif; font-size: 16pt; font-weight: bold;">Kamada Ltd.</div>
+      <div style="text-align: center; line-height: 1.25;">(Translation of registrant&#8217;s name into English)</div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="text-align: center; line-height: 1.25;"><font style="font-weight: bold;">2 Holzman Street</font><br>
+        <font style="font-weight: bold;">Science Park, P.O. Box 4081</font><br>
+        <font style="font-weight: bold;">Rehovot 7670402</font><br>
+        <font style="font-weight: bold;">Israel</font><br>
+        &#160;(Address of principal executive offices)</div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="line-height: 1.25;">Indicate by check mark whether the registrant files or will file annual reports under cover Form 20-F or Form 40-F.</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="text-align: center; line-height: 1.25;">Form 20-F &#9746;&#160;&#160; Form 40-F &#9744;</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25;">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ____</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25;">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7): ____</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25;">Indicate by check mark whether the registrant by furnishing the information contained in this Form is also thereby furnishing the
+        information to the Commission pursuant to Rule 12g3-2(b) under the Securities Exchange Act of 1934.</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="text-align: center; line-height: 1.25;">Yes &#9744;&#160;&#160; No &#9746;</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25;">If &#8220;Yes&#8221; is marked, indicate below the file number assigned to the registrant in connection with Rule 12g3-2(b): 82&#8209;____</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="text-align: justify; line-height: 1.25; font-weight: bold;">This Form 6-K is being incorporated by reference into the Registrant's Form S-8 Registration Statements, File Nos.
+        333-192720, 333-207933, 333-215983, 333-222891 and 333-233267,&#160;and the Registrant's Form F-3 Registration Statement, as amended, File No. 333-214816.</div>
+      <div style="background-color: #FFFFFF; line-height: 1.25;">
+        <div style="line-height: 1.25">
+          <hr align="center" noshade="noshade" style="height: 2px; color: #000000; background-color: #000000; text-align: center; margin-left: auto; margin-right: auto; border: none;">&#160;</div>
+        <div style="line-height: 1.25;">The following exhibit is attached:</div>
+        <div style="line-height: 1.25;">&#160;</div>
+        <div style="line-height: 1.25;">99.1 Press Release: Kamada to Present Corporate Overview at the 2019 Cantor Global Healthcare Conference.</div>
+      </div>
+      <div style="text-align: center; line-height: 1.25; font-weight: bold;">
+        <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+        </div>
+        <div style="clear: both; margin-top: 10pt; margin-bottom: 10pt;" id="DSPFPageBreakArea">
+          <div style="page-break-after: always;" id="DSPFPageBreak">
+            <hr noshade="noshade" style="border-width: 0px; clear: both; margin: 4px 0px; width: 100%; height: 2px; color: #000000; background-color: #000000;"></div>
+        </div>
+        SIGNATURE</div>
+      <div style="background-color: #FFFFFF; line-height: 1.25;">
+        <div style="line-height: 1.25">&#160; <br>
+        </div>
+      </div>
+      <div style="background-color: #FFFFFF; line-height: 1.25;">
+        <div style="line-height: 1.25;">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its
+          behalf by the undersigned hereunto duly authorized.</div>
+        <div style="line-height: 1.25">&#160;</div>
+      </div>
+      <table cellspacing="0" cellpadding="0" id="z1257539c88e5470b8a4bf87cf41c80c9" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; width: 100%; text-align: left; color: #000000;">
+
+          <tr>
+            <td style="width: 49.4%; vertical-align: top;">
+              <div style="line-height: 1.25;">Date:&#160; September 24, 2019</div>
+            </td>
+            <td style="width: 32.58%; vertical-align: top;">
+              <div style="line-height: 1.25; font-weight: bold;">KAMADA LTD.</div>
+              <div style="line-height: 1.25;">&#160;</div>
+            </td>
+            <td style="width: 18.02%; vertical-align: top;">
+              <div style="line-height: 1.25;">&#160;</div>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 49.4%; vertical-align: top;">
+              <div style="line-height: 1.25;">&#160;</div>
+            </td>
+            <td style="width: 32.58%; vertical-align: top; border-bottom: #000000 2px solid;">
+              <div style="line-height: 1.25;">By:&#160; /s/ Orna Naveh<br>
+              </div>
+            </td>
+            <td style="width: 18.02%; vertical-align: top;">
+              <div style="line-height: 1.25;">&#160;</div>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 49.4%; vertical-align: top;">
+              <div style="line-height: 1.25;">&#160;</div>
+            </td>
+            <td style="width: 32.58%; vertical-align: top;">
+              <div style="line-height: 1.25;">Orna Naveh</div>
+              <div style="line-height: 1.25;">General Counsel and Corporate Secretary</div>
+            </td>
+            <td style="width: 18.02%; vertical-align: top;">
+              <div style="line-height: 1.25;">&#160;</div>
+            </td>
+          </tr>
+
+      </table>
+      <div style="background-color: #FFFFFF; line-height: 1.25;">
+        <div style="line-height: 1.25">
+          <hr align="center" noshade="noshade" style="height: 2px; color: #000000; background-color: #000000; text-align: center; margin-left: auto; margin-right: auto; border: none;">&#160;</div>
+        <div style="text-align: center; line-height: 1.25;"><u>EXHIBIT INDEX</u></div>
+        <div style="line-height: 1.25">&#160;</div>
+      </div>
+      <table cellspacing="0" cellpadding="0" border="0" id="z83a9c8c584d243b7898ca3e9a5d32341" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; width: 100%; text-align: left; color: #000000;">
+
+          <tr>
+            <td style="width: 10%; vertical-align: top; background-color: rgb(255, 255, 255); border-bottom: 2px solid black;">
+              <div style="text-align: center; line-height: 1.25;">EXHIBIT NO.</div>
+            </td>
+            <td style="width: 1%; vertical-align: top; background-color: rgb(255, 255, 255); padding-bottom: 2px;" colspan="1">&#160;</td>
+            <td style="width: 89%; vertical-align: top; background-color: rgb(255, 255, 255); border-bottom: 2px solid black;">
+              <div style="line-height: 1.25;">DESCRIPTION</div>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 10%; vertical-align: top; background-color: rgb(255, 255, 255);" rowspan="1">&#160;</td>
+            <td style="width: 1%; vertical-align: top; background-color: rgb(255, 255, 255);" rowspan="1" colspan="1">&#160;</td>
+            <td style="width: 89%; vertical-align: top; background-color: rgb(255, 255, 255);" rowspan="1">&#160;</td>
+          </tr>
+          <tr>
+            <td style="width: 10%; vertical-align: top; background-color: rgb(255, 255, 255);">
+              <div style="text-align: center; line-height: 1.25;"><a href="exhibit_99-1.htm">99.1</a></div>
+            </td>
+            <td style="width: 1%; vertical-align: top; background-color: rgb(255, 255, 255);" colspan="1">&#160;</td>
+            <td style="width: 89%; vertical-align: top; background-color: rgb(255, 255, 255);">
+              <div style="line-height: 1.25;"><a href="exhibit_99-1.htm">Press Release: Kamada to Present Corporate Overview at the 2019 Cantor Global Healthcare
+                  Conference.<font style="line-height: 1.25;"> <br>
+                  </font></a></div>
+            </td>
+          </tr>
+
+      </table>
+      <div style="background-color: #FFFFFF; line-height: 1.25;">
+        <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+        </div>
+        <div style="line-height: 1.25">
+          <hr align="center" style="border: none; border-bottom: 4px solid black; border-top: 1px solid black; height: 10px; color: #ffffff; background-color: #ffffff; text-align: center; margin-left: auto; margin-right: auto;"></div>
+      </div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>exhibit_99-1.htm
+<DESCRIPTION>EXHIBIT 99.1
+<TEXT>
+<html>
+  <head>
+    <title></title>
+    <!-- Licensed to: company
+         Document created using EDGARfilings PROfile 6.3.0.0
+         Copyright 1995 - 2019 Broadridge -->
+  </head>
+<body bgcolor="#ffffff" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; text-align: left; color: #000000;">
+  <div>
+    <hr align="center" style="border: none; border-bottom: 1px solid black; border-top: 4px solid black; height: 10px; color: #ffffff; background-color: #ffffff; text-align: center; margin-left: auto; margin-right: auto;">
+    <div style="text-align: right;"><u><font style="font-weight: bold;">Exhibit 99.1</font></u><br>
+    </div>
+    <div> <br>
+    </div>
+    <div>
+      <div style="text-align: center; text-indent: 36pt; line-height: 1.25; font-weight: bold;">Kamada to Present Corporate Overview at the 2019 Cantor Global Healthcare </div>
+      <div style="text-align: center; text-indent: 36pt; line-height: 1.25; font-weight: bold;">Conference</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25;"><font style="font-weight: bold;">REHOVOT, Israel &#8211; September 24, 2019</font>
+        &#8211; Kamada Ltd. (NASDAQ and TASE: KMDA), a plasma-derived protein therapeutics company, announced today that Amir London, Chief Executive Officer, will provide a corporate overview at the 2019 Cantor Global Healthcare Conference, being held October
+        2-4, 2019, in New York City. The presentation will take place on Friday, October 4, at 10:05 am ET.</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25;">A live webcast of Mr. London&#8217;s presentation will be
+          available at: <u>http://wsw.com/webcast/cantor7/kmda/</u></div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25; font-style: italic; font-weight: bold;">About Kamada</div>
+      <div style="text-align: justify; line-height: 1.25;">Kamada Ltd. is focused on plasma-derived protein therapeutics for orphan indications, and has a commercial product portfolio and a
+        late-stage product pipeline. The Company uses its proprietary platform technology and know-how for the extraction and purification of proteins from human plasma to produce Alpha-1 Antitrypsin (AAT) in a highly-purified, liquid form, as well as
+        other plasma-derived Immune globulins.&#160; AAT is a protein derived from human plasma with known and newly-discovered therapeutic roles given its immunomodulatory, anti-inflammatory, tissue-protective and antimicrobial properties. The Company&#8217;s
+        flagship product is GLASSIA&#174;, the first liquid, ready-to-use, intravenous plasma-derived AAT product approved by the U.S. Food and Drug Administration. Kamada markets GLASSIA&#174; in the U.S. through a strategic partnership with Takeda Pharmaceuticals
+        Company Limited and in other counties through local distributors.&#160; Kamada&#8217;s second leading product is KamRAB, a rabies immune globulin (Human) for Post-Exposure Prophylaxis against rabies infection. KamRAB is FDA approved and is being marketed in
+        the U.S. under the brand name KEDRAB and through a strategic partnership with Kedrion S.p.A. In addition to GLASSIA and KEDRAB, Kamada has a product line of four other plasma-derived pharmaceutical products administered by injection or infusion,
+        that are marketed through distributors in more than 15 countries, including Israel, Russia, Brazil, India and other countries in Latin America and Asia. Kamada has late-stage products in development, including an inhaled formulation of AAT for the
+        treatment of AAT deficiency, and in addition, its intravenous AAT is in development for other indications, such as GvHD, prevention of lung transplant rejection and type-1 diabetes. Kamada also leverages its expertise and presence in the
+        plasma-derived protein therapeutics market by distributing more than 20 complementary products in Israel that are manufactured by third parties.</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25; font-weight: bold;">CONTACTS:</div>
+      <div style="text-align: justify; line-height: 1.25;">Chaime Orlev</div>
+      <div style="text-align: justify; line-height: 1.25;">Chief Financial Officer</div>
+      <div style="text-align: justify; line-height: 1.25;">IR@kamada.com</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="text-align: justify; line-height: 1.25;">Bob Yedid</div>
+      <div style="text-align: justify; line-height: 1.25;">LifeSci Advisors, LLC</div>
+      <div style="text-align: justify; line-height: 1.25;">646-597-6989</div>
+      <div style="text-align: justify; line-height: 1.25;"><u>Bob@LifeSciAdvisors.com</u></div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25;">
+        <hr align="center" style="border: none; border-bottom: 4px solid black; border-top: 1px solid black; height: 10px; color: #ffffff; background-color: #ffffff; text-align: center; margin-left: auto; margin-right: auto;"></div>
+    </div>
+  </div>
+</body>
+</html>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

@@ -1,0 +1,17 @@
+{
+  "accession": "9999999997-17-005477",
+  "form": "CT ORDER",
+  "filingDate": "2017-04-14",
+  "reportDate": null,
+  "tier": 3,
+  "tierLabel": "MINOR",
+  "category": "unknown",
+  "summary": "CT ORDER",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 7,
+    "exhibitCount": 0
+  },
+  "tags": []
+}

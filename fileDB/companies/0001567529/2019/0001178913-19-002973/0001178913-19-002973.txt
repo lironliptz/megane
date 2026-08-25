@@ -1,0 +1,388 @@
+<SEC-DOCUMENT>0001178913-19-002973.txt : 20191226
+<SEC-HEADER>0001178913-19-002973.hdr.sgml : 20191226
+<ACCEPTANCE-DATETIME>20191226070028
+ACCESSION NUMBER:		0001178913-19-002973
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20191226
+FILED AS OF DATE:		20191226
+DATE AS OF CHANGE:		20191226
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		191308301
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>zk1923759.htm
+<DESCRIPTION>6-K
+<TEXT>
+<html>
+  <head>
+    <title></title>
+    <!-- Licensed to: ZKG
+         Document created using EDGARfilings PROfile 6.4.0.0
+         Copyright 1995 - 2019 Broadridge -->
+  </head>
+<body bgcolor="#ffffff" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; text-align: left; color: #000000;">
+  <div>
+    <div id="DSPFPageHeader">
+      <div style="line-height: 1.25;">
+        <hr align="center" style="border: none; border-bottom: 1px solid black; border-top: 4px solid black; height: 10px; color: #ffffff; background-color: #ffffff; text-align: center; margin-left: auto; margin-right: auto;"></div>
+    </div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25; font-weight: bold;"> <br>
+    </div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25; font-weight: bold;">UNITED STATES</div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25; font-family: 'Times New Roman',Times,serif; font-size: 14pt; font-weight: bold;">SECURITIES AND EXCHANGE COMMISSION</div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25; font-weight: bold;">Washington, D.C. 20549</div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25; font-family: 'Times New Roman',Times,serif; font-size: 14pt; font-weight: bold;">FORM 6-K</div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25; font-weight: bold;">Report of Foreign Private Issuer</div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25; font-weight: bold;">Pursuant to Rule 13a-16 or 15d-16</div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25; font-weight: bold;">of the Securities Exchange Act of 1934</div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25;">For the Month of December, 2019</div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25;">Commission File Number 001-35948</div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25; font-family: 'Times New Roman',Times,serif; font-size: 16pt; font-weight: bold;">Kamada Ltd.</div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25;">(Translation of registrant&#8217;s name into English)</div>
+    <div style="line-height: 1.25">&#160;</div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25;"><font style="font-weight: bold;">2 Holzman Street</font><br>
+      <font style="font-weight: bold;">Science Park, P.O. Box 4081</font><br>
+      <font style="font-weight: bold;">Rehovot 7670402</font><br>
+      <font style="font-weight: bold;">Israel</font><br>
+      &#160;(Address of principal executive offices)</div>
+    <div style="line-height: 1.25">&#160;</div>
+    <div style="margin-right: 0.75pt; line-height: 1.25;">Indicate by check mark whether the registrant files or will file annual reports under cover Form 20-F or Form 40-F.</div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25;">Form 20-F &#9746; &#160; Form 40-F &#9744;</div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div style="margin-right: 0.75pt; line-height: 1.25;">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ____</div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div style="margin-right: 0.75pt; line-height: 1.25;">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7): ____</div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div style="margin-right: 0.75pt; line-height: 1.25;">Indicate by check mark whether the registrant by furnishing the information contained in this Form is also thereby furnishing the information to the Commission pursuant to Rule 12g3-2(b) under the
+      Securities Exchange Act of 1934.</div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25;">Yes &#9744;&#160;&#160; No &#9746;</div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div style="margin-right: 0.75pt; line-height: 1.25;">If &#8220;Yes&#8221; is marked, indicate below the file number assigned to the registrant in connection with Rule 12g3-2(b): 82&#8209;____</div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div style="margin-right: 0.75pt; line-height: 1.25; font-weight: bold;">This Form 6-K is being incorporated by reference into the Registrant&#8217;s Form S-8 Registration Statements, File Nos. 333-192720, 333-207933, 333-215983, 333-222891 and 333-233267,
+      and the Registrant&#8217;s Form F-3 Registration Statement, as amended, File No. 333-214816.</div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div id="DSPFPageBreakArea" style="clear: both; margin-top: 10pt; margin-bottom: 10pt;">
+      <div id="DSPFPageBreak" style="page-break-after: always;">
+        <hr noshade="noshade" style="border-width: 0px; clear: both; margin: 4px 0px; width: 100%; height: 2px; color: #000000; background-color: #000000;"></div>
+    </div>
+    <div style="margin-right: 0.75pt; line-height: 1.25;">The following exhibit is attached:</div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div style="line-height: 1.25;">
+      <div>
+        <table cellspacing="0" cellpadding="0" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; width: 100%; text-align: left; color: #000000;" class="DSPFListTable" id="z7765b84c7a7e4b07a4b075f8e4571408">
+
+            <tr>
+              <td style="width: 36pt; vertical-align: top; align: right;">99.1</td>
+              <td style="width: auto; vertical-align: top;">
+                <div>Notice of Results of the 2019 Annual General Meeting of Shareholders, held on December 24, 2019</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+    </div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div id="DSPFPageBreakArea" style="clear: both; margin-top: 10pt; margin-bottom: 10pt;">
+      <div id="DSPFPageBreak" style="page-break-after: always;">
+        <hr noshade="noshade" style="border-width: 0px; clear: both; margin: 4px 0px; width: 100%; height: 2px; color: #000000; background-color: #000000;"></div>
+    </div>
+    <div style="background-color: #FFFFFF; line-height: 1.25;">
+      <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25; font-weight: bold;">SIGNATURE</div>
+      <div style="line-height: 1.25">&#160;</div>
+    </div>
+    <div style="background-color: #FFFFFF; line-height: 1.25;">
+      <div style="margin-right: 0.75pt; line-height: 1.25;">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</div>
+      <div style="margin-right: 0.75pt; line-height: 1.25;"> <br>
+      </div>
+      <div style="margin-right: 0.75pt; line-height: 1.25;">
+        <table cellspacing="0" cellpadding="0" border="0" style="width: 100%; border-collapse: separate; font-family: 'Times New Roman', Times, serif; font-size: 10pt;">
+
+            <tr>
+              <td valign="top" style="width: 50%;">
+                <div style="text-align: left; margin-right: 0.75pt; line-height: 1.25;">Date:&#160; December 26, 2019</div>
+              </td>
+              <td valign="top" colspan="2">
+                <div style="text-align: left; margin-right: 0.75pt; line-height: 1.25; font-weight: bold;">KAMADA LTD.</div>
+              </td>
+              <td valign="top" style="width: 11%;">&#160;</td>
+            </tr>
+            <tr>
+              <td valign="top" style="width: 50%;">&#160;</td>
+              <td valign="top" style="width: 4%;">&#160;</td>
+              <td valign="top" style="width: 35%;">&#160;</td>
+              <td valign="top" style="width: 11%;">&#160;</td>
+            </tr>
+            <tr>
+              <td valign="top" align="left" style="width: 50%; padding-bottom: 2px;">
+                <div align="left" style="margin-left: 0pt; text-indent: 0pt; margin-right: 0pt;"><br>
+                </div>
+              </td>
+              <td valign="top" style="width: 4%; padding-bottom: 2px;">
+                <div align="left" style="margin-left: 0pt; text-indent: 0pt; margin-right: 0pt;">By: </div>
+              </td>
+              <td valign="top" align="left" style="width: 35%; border-bottom: #000000 2px solid;">/s/ Orna Naveh </td>
+              <td valign="top" style="width: 11%; padding-bottom: 2px;">&#160;</td>
+            </tr>
+            <tr>
+              <td valign="top" style="width: 50%;">&#160;</td>
+              <td valign="top" style="width: 4%;">&#160;</td>
+              <td valign="bottom" align="left" style="width: 35%;">Orna Naveh </td>
+              <td valign="top" style="width: 11%;">&#160;</td>
+            </tr>
+            <tr>
+              <td valign="top" style="width: 50%;">&#160;</td>
+              <td valign="top" style="width: 4%;">&#160;</td>
+              <td valign="top" style="width: 35%;">General Counsel and Corporate Secretary</td>
+              <td valign="top" style="width: 11%;">&#160;</td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="line-height: 1.25">&#160;</div>
+    </div>
+    <div style="background-color: #FFFFFF; line-height: 1.25;">
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div id="DSPFPageBreakArea" style="clear: both; margin-top: 10pt; margin-bottom: 10pt;">
+        <div id="DSPFPageBreak" style="page-break-after: always;">
+          <hr noshade="noshade" style="border-width: 0px; clear: both; margin: 4px 0px; width: 100%; height: 2px; color: #000000; background-color: #000000;"></div>
+      </div>
+    </div>
+    <div style="background-color: #FFFFFF; line-height: 1.25;">
+      <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25;"><u>EXHIBIT INDEX</u></div>
+      <div style="line-height: 1.25">&#160;</div>
+    </div>
+    <table cellspacing="0" cellpadding="4" border="0" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; width: 100%; text-align: left; color: #000000;" id="z55511ee08859437a875b37a5fc505e8d">
+
+        <tr>
+          <td style="width: 16.37%; vertical-align: top;">
+            <div style="margin-right: 0.75pt; line-height: 1.25;">EXHIBIT NO.</div>
+          </td>
+          <td style="width: 83.63%; vertical-align: top;">
+            <div style="margin-right: 0.75pt; line-height: 1.25;">DESCRIPTION</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 16.37%; vertical-align: top;">
+            <div style="margin-right: 0.75pt; line-height: 1.25;"><a href="exhibit_99-1.htm">99.1</a></div>
+          </td>
+          <td style="width: 83.63%; vertical-align: top;">
+            <div style="margin-right: 0.75pt; line-height: 1.25;"><a href="exhibit_99-1.htm">Notice of Results of the 2019 Annual General Meeting of Shareholders,
+                held on December 24, 2019</a></div>
+          </td>
+        </tr>
+
+    </table>
+    <div style="background-color: #FFFFFF; line-height: 1.25;">
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25">
+        <hr align="center" style="border: none; border-bottom: 4px solid black; border-top: 1px solid black; height: 10px; color: #ffffff; background-color: #ffffff; text-align: center; margin-left: auto; margin-right: auto;"></div>
+    </div>
+  </div>
+</body>
+</html>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>exhibit_99-1.htm
+<DESCRIPTION>EXHIBIT 99.1
+<TEXT>
+<html>
+  <head>
+    <title></title>
+    <!-- Licensed to: ZKG
+         Document created using EDGARfilings PROfile 6.4.0.0
+         Copyright 1995 - 2019 Broadridge -->
+  </head>
+<body bgcolor="#ffffff" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; text-align: left; color: #000000;">
+  <div>
+    <div style="background-color: #FFFFFF; line-height: 1.25;">
+      <div style="line-height: 1.25;">
+        <hr align="center" style="border: none; border-bottom: 1px solid black; border-top: 4px solid black; height: 10px; color: #ffffff; background-color: #ffffff; text-align: center; margin-left: auto; margin-right: auto;"></div>
+    </div>
+    <div style="text-align: right; margin-right: 0.75pt; line-height: 1.25; font-weight: bold;"><u>Exhibit 99.1</u></div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25; font-weight: bold;">KAMADA LTD.</div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25;">2 Holzman Street<br>
+      Weizmann Science Park<br>
+      P.O. Box 4081<br>
+      Rehovot 7670402, Israel</div>
+    <div style="text-align: center; margin-right: 0.75pt; line-height: 1.25; font-weight: bold;">&#160;<br>
+      <font style="font-size: 12pt;">Notice of Results of the 2019 Annual General Meeting of Shareholders, held on December 24, 2019</font></div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div style="text-align: justify; margin-right: 0.75pt; line-height: 1.25;">Kamada Ltd. (the &#8220;<font style="font-weight: bold;">Company</font>&#8221;)
+
+      today announced that all of the proposals presented for approval at its 2019 Annual General Meeting of Shareholders held on December 24, 2019 in Rehovot, Israel (the &#8220;<font style="font-weight: bold;">Meeting</font>&#8221;) were duly approved by the shareholders of the Company.&#160; Accordingly, at the Meeting, the shareholders of the Company approved the following:</div>
+    <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+    </div>
+    <div style="text-align: justify; line-height: 1.25;">
+      <div>
+        <table cellspacing="0" cellpadding="0" class="DSPFListTable" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; width: 100%; text-align: left; color: #000000;">
+
+            <tr>
+              <td style="width: 35.7pt;"><br>
+              </td>
+              <td style="width: 17.85pt; vertical-align: top; align: right;">1.</td>
+              <td style="width: auto; vertical-align: top; text-align: justify;">
+                <div>The election of the following directors to serve as members of the Company&#8217;s Board of Directors until the next annual general meeting of shareholders and until
+                  their successors are duly elected by the shareholders of the Company:</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+    </div>
+    <div style="line-height: 1.25">&#160;</div>
+    <table cellspacing="0" cellpadding="0" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; width: 100%; text-align: left; color: #000000;">
+
+        <tr>
+          <td style="width: 100%; vertical-align: top;">
+            <div style="text-align: justify; line-height: 1.25; font-family: 'Times New Roman',Times,serif; margin-left: 72pt;">Mr. Leon Recanati</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 100%; vertical-align: top;">
+            <div style="text-align: justify; margin-right: 0.75pt; line-height: 1.25; font-family: 'Times New Roman',Times,serif; margin-left: 72pt;">Ms. Lilach Asher Topilsky</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 100%; vertical-align: top;">
+            <div style="text-align: justify; margin-right: 0.75pt; line-height: 1.25; font-family: 'Times New Roman',Times,serif; margin-left: 72pt;">Mr. Avraham Berger</div>
+            <div style="text-align: justify; margin-right: 0.75pt; line-height: 1.25; font-family: 'Times New Roman',Times,serif; margin-left: 72pt;">Mr. Amiram Boehm</div>
+            <div style="text-align: justify; margin-right: 0.75pt; line-height: 1.25; font-family: 'Times New Roman',Times,serif; margin-left: 72pt;">Mr. Ishay Davidi</div>
+            <div style="text-align: justify; margin-right: 0.75pt; line-height: 1.25; font-family: 'Times New Roman',Times,serif; margin-left: 72pt;">Ms. Karnit Goldwasser</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 100%; vertical-align: top;">
+            <div style="text-align: justify; margin-right: 0.75pt; line-height: 1.25; font-family: 'Times New Roman',Times,serif; margin-left: 72pt;">Mr. Jonathan Hahn</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 100%; vertical-align: top;" rowspan="1">
+            <div style="text-align: justify; line-height: 1.25; font-family: 'Times New Roman',Times,serif; margin-left: 72pt;">Mr. David Tsur</div>
+          </td>
+        </tr>
+
+    </table>
+    <div style="text-align: justify; text-indent: 18.45pt; margin-left: 53.55pt; line-height: 1.25;"><br>
+    </div>
+    <div style="text-align: justify; line-height: 1.25;">
+      <div>
+        <table cellspacing="0" cellpadding="0" class="DSPFListTable" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; width: 100%; text-align: left; color: #000000;">
+
+            <tr>
+              <td style="width: 35.7pt;"><br>
+              </td>
+              <td style="width: 17.85pt; vertical-align: top; align: right;">2.</td>
+              <td style="width: auto; vertical-align: top; text-align: justify;">
+                <div>The Company entering into an indemnification and exculpation agreement with each of Ms. Lilach Asher Topilsky, Mr. Amiram Boehm, Mr. Ishay Davidi and Ms. Karnit
+                  Goldwasser.</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+    </div>
+    <div style="line-height: 1.25">&#160;</div>
+    <div style="text-align: justify; line-height: 1.25;">
+      <div>
+        <table cellspacing="0" cellpadding="0" class="DSPFListTable" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; width: 100%; text-align: left; color: #000000;">
+
+            <tr>
+              <td style="width: 35.7pt;"><br>
+              </td>
+              <td style="width: 17.85pt; vertical-align: top; align: right;">3.</td>
+              <td style="width: auto; vertical-align: top; text-align: justify;">
+                <div>The amendment to the Company&#8217;s Compensation Policy for Executive Officers and Directors, with respect to the procurement of directors&#8217; and officers&#8217; liability
+                  insurance.</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+    </div>
+    <div style="line-height: 1.25">&#160;</div>
+    <div style="text-align: justify; line-height: 1.25;">
+      <div>
+        <table cellspacing="0" cellpadding="0" class="DSPFListTable" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; width: 100%; text-align: left; color: #000000;">
+
+            <tr>
+              <td style="width: 35.7pt;"><br>
+              </td>
+              <td style="width: 17.85pt; vertical-align: top; align: right;">4.</td>
+              <td style="width: auto; vertical-align: top; text-align: justify;">
+                <div>The ratification and approval of the reappointment of Kost Forer Gabbay &amp; Kasierer, a member of Ernst &amp; Young Global, as the Company&#8217;s independent
+                  registered public accountants for the year ending December 31, 2019 and for such additional period until the next annual general meeting.</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+    </div>
+    <div style="line-height: 1.25">&#160;
+      <hr align="center" style="border: none; border-bottom: 4px solid black; border-top: 1px solid black; height: 10px; color: #ffffff; background-color: #ffffff; text-align: center; margin-left: auto; margin-right: auto;"> </div>
+  </div>
+</body>
+</html>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

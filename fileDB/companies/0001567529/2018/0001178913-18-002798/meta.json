@@ -1,0 +1,19 @@
+{
+  "accession": "0001178913-18-002798",
+  "form": "6-K",
+  "filingDate": "2018-11-05",
+  "reportDate": "2018-11-05",
+  "tier": 3,
+  "tierLabel": "MINOR",
+  "category": "earnings_preview",
+  "summary": "EXHIBIT 99.1",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": [
+    "financials"
+  ]
+}

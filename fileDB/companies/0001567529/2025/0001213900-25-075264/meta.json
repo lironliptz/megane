@@ -1,0 +1,19 @@
+{
+  "accession": "0001213900-25-075264",
+  "form": "6-K",
+  "filingDate": "2025-08-13",
+  "reportDate": "2025-06-30",
+  "tier": 1,
+  "tierLabel": "MAJOR",
+  "category": "quarterly_results",
+  "summary": "KAMADA REPORTS STRONG SECOND QUARTER AND FIRST HALF 2025 FINANCIAL RESULTS WITH 11% YEAR-OVER-YEAR 6-MONTH TOP LINE GROWTH AND A 35% INCREASE IN PROFITABILITY; RAISES FULL-YEAR PROFITABILITY GUIDANCE",
+  "signals": {
+    "isXBRL": true,
+    "hasFinancials": true,
+    "fileCount": 57,
+    "exhibitCount": 2
+  },
+  "tags": [
+    "financials"
+  ]
+}

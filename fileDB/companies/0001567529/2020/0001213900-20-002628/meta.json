@@ -1,0 +1,19 @@
+{
+  "accession": "0001213900-20-002628",
+  "form": "6-K",
+  "filingDate": "2020-02-05",
+  "reportDate": "2020-02-05",
+  "tier": 3,
+  "tierLabel": "MINOR",
+  "category": "earnings_preview",
+  "summary": "KAMADA TO ANNOUNCE FOURTH QUARTER AND FISCAL YEAR ENDED DECEMBER 31, 2019 FINANCIAL RESULTS AND HOST CONFERENCE CALL ON FEBRUARY 12, 2020",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": [
+    "financials"
+  ]
+}

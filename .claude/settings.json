@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go list *)",
+      "Bash(npx @claude-flow*)",
+      "Bash(npx claude-flow*)",
+      "Bash(node .claude/*)",
+      "mcp__claude-flow__:*"
+    ]
+  },
+  "env": {
+    "CLAUDE_FLOW_V3_ENABLED": "false",
+    "CLAUDE_FLOW_HOOKS_ENABLED": "false"
+  }
+}

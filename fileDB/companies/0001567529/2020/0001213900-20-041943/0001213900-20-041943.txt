@@ -1,0 +1,358 @@
+<SEC-DOCUMENT>0001213900-20-041943.txt : 20201210
+<SEC-HEADER>0001213900-20-041943.hdr.sgml : 20201210
+<ACCEPTANCE-DATETIME>20201210093023
+ACCESSION NUMBER:		0001213900-20-041943
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20201210
+FILED AS OF DATE:		20201210
+DATE AS OF CHANGE:		20201210
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		201379698
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>ea131389-6k_kamadaltd.htm
+<DESCRIPTION>REPORT OF FOREIGN PRIVATE ISSUER
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; text-align: center"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0; margin-bottom: 0; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 2pt solid; border-bottom: Black 1pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>UNITED STATES</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>SECURITIES AND EXCHANGE COMMISSION</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Washington, D.C. 20549</B></P>
+
+<P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>FORM 6-K</B></P>
+
+<P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Report of Foreign Private
+Issuer</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Pursuant to Rule 13a-16 or
+15d-16</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>of the Securities Exchange
+Act of 1934</B></P>
+
+<P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">For the Month of December 2020</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">Commission File Number 001-35948</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Kamada Ltd.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">(Translation of registrant&rsquo;s
+name into English)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>2 Holzman Street<BR>
+Science Park, P.O. Box 4081<BR>
+Rehovot 7670402<BR>
+Israel<BR>
+</B> (Address of principal executive offices)</P>
+
+<P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">&nbsp;</P>
+
+<P STYLE="text-align: justify; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0">Indicate by check mark whether the registrant files
+or will file annual reports under cover Form 20-F or Form 40-F.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">Form 20-F &#9744; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Form 40-F
+&#9744;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="text-align: justify; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0">Indicate by check mark if the registrant is submitting
+the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ____</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="text-align: justify; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0">Indicate by check mark if the registrant is submitting
+the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7): ____</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="text-align: justify; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0">Indicate by check mark whether the registrant by
+furnishing the information contained in this Form is also thereby furnishing the information to the Commission pursuant to Rule
+12g3-2(b) under the Securities Exchange Act of 1934.</P>
+
+<P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">Yes &#9744; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No &#9744;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="text-align: justify; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0">If &ldquo;Yes&rdquo; is marked, indicate below the
+file number assigned to the registrant in connection with Rule 12g3-2(b): 82-____</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0">&nbsp;</P>
+
+<P STYLE="text-align: justify; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0"><B>This Form 6-K is being incorporated by reference
+into the Registrant&rsquo;s Form S-8 Registration Statements, File Nos. 333-192720, 333-207933, 333-215983, 333-222891 and 333-233267.
+</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0">&nbsp;</P>
+
+
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.85pt 0pt 0"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0; margin-bottom: 0; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1pt solid; border-bottom: Black 2pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.85pt 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.85pt 0pt 0"></P>
+
+<!-- Field: Page; Sequence: 1; Options: NewSection; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"></P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.85pt 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.85pt 0pt 0">The following exhibit is attached:</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top; background-color: rgb(204,238,255)">
+<TD STYLE="width: 0%"></TD><TD STYLE="width: 10%">99.1</TD><TD STYLE="padding-right: 0.75pt; width: 90%"><A HREF="ea131389ex99-1_kamadaltd.htm">Notice of Results of the 2020 Annual General Meeting of Shareholders held on December 10, 2020</A></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0.5in; text-indent: -0.5in">&nbsp;</P>
+
+
+<!-- Field: Page; Sequence: 2; Options: NewSection; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font-size: 10pt; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->1<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"></P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; background-color: white"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; text-align: center; background-color: white"><B>SIGNATURE</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; background-color: white">&nbsp;</P>
+
+<P STYLE="text-align: justify; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; background-color: white">Pursuant to the requirements
+of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned
+hereunto duly authorized.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; background-color: white">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding-right: 0.75pt"><FONT STYLE="font-size: 10pt">Date: December 10, 2020</FONT></TD>
+    <TD COLSPAN="2" STYLE="font: 10pt Times New Roman, Times, Serif; padding-right: 0.75pt"><FONT STYLE="font-size: 10pt"><B>KAMADA LTD.</B></FONT></TD>
+    </TR>
+<TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding-right: 0.75pt; width: 60%">&nbsp;</TD>
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding-right: 0.75pt; width: 3%">&nbsp;</TD>
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding-right: 0.75pt; width: 37%">&nbsp;</TD>
+    </TR>
+<TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding-right: 0.75pt">&nbsp;</TD>
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding-right: 0.75pt"><FONT STYLE="font-size: 10pt">By:</FONT></TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; font: 10pt Times New Roman, Times, Serif; padding-right: 0.75pt"><FONT STYLE="font-size: 10pt">/s/ Yifat Philip</FONT></TD>
+    </TR>
+<TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding-right: 0.75pt">&nbsp;</TD>
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding-right: 0.75pt">&nbsp;</TD>
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding-right: 0.75pt"><FONT STYLE="font-size: 10pt">Yifat Philip <BR>
+Vice President General Counsel and <BR>
+Corporate Secretary</FONT></TD>
+    </TR>
+</TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<!-- Field: Page; Sequence: 3; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font-size: 10pt; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->2<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"></P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+
+
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; text-align: center; background-color: white"><U>EXHIBIT
+INDEX</U></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; background-color: white; text-indent: 0.5in">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; border-collapse: collapse">
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; width: 12%"><FONT STYLE="font-size: 10pt">EXHIBIT NO.</FONT></TD>
+    <TD STYLE="padding-bottom: 1.5pt; width: 1%">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left; width: 87%; vertical-align: bottom"><FONT STYLE="font-size: 10pt">DESCRIPTION</FONT></TD></TR>
+<TR STYLE="vertical-align: top; background-color: rgb(204,238,255)">
+    <TD><FONT STYLE="font-size: 10pt">99.1</FONT></TD>
+    <TD>&nbsp;</TD>
+    <TD><A HREF="ea131389ex99-1_kamadaltd.htm"><FONT STYLE="font-size: 10pt">Notice of Results of the 2020 Annual General Meeting of Shareholders held on December 10, 2020</FONT></A></TD></TR>
+</TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; background-color: white">&nbsp;</P>
+
+
+
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0">&nbsp;</P>
+
+<P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">3</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0; margin-bottom: 0; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; text-align: right"></P>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>ea131389ex99-1_kamadaltd.htm
+<DESCRIPTION>NOTICE OF RESULTS OF THE 2020 ANNUAL GENERAL MEETING OF SHAREHOLDERS HELD ON DECEMBER 10, 2020
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; text-align: right"><B>EXHIBIT 99.1</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; text-align: center"><B>KAMADA LTD.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; text-align: center">2 Holzman Street<BR>
+Weizmann Science Park<BR>
+P.O. Box 4081<BR>
+Rehovot 7670402, Israel</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; text-align: center"><B>Notice of Results of
+the 2020 Annual General Meeting of Shareholders held on December 10, 2020</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; text-align: justify">Kamada Ltd. (the &ldquo;<B>Company</B>&rdquo;)
+today announced that all of the proposals presented for approval at its 2020 Annual General Meeting of Shareholders held on December
+10, 2020 at the Company&rsquo;s offices in Rehovot, Israel (the &ldquo;<B>Meeting</B>&rdquo;), as forth in the Company&rsquo;s
+Notice and Proxy Statement for the Meeting that was attached as Exhibit 99.1 to a Report of Foreign Private Issuer on Form 6-K
+furnished by the Company to the U.S. Securities and Exchange Commission on October 29, 2020, were duly approved. Accordingly, at
+the Meeting, the shareholders of the Company approved the following proposals:</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.75pt 0pt 0; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 35.7pt"></TD><TD STYLE="width: 17.85pt">1.</TD><TD STYLE="text-align: justify">The election of the following directors to serve as members of the Company&rsquo;s Board of Directors
+until the next annual general meeting of shareholders and until their successors are duly elected by the shareholders of the Company:</TD></TR></TABLE>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<TR STYLE="vertical-align: top">
+    <TD STYLE="padding-left: 1in; width: 100%">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Lilach Asher Topilsky</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="padding-left: 1in; font-size: 10pt; text-align: justify"><FONT STYLE="font-size: 10pt">Avraham Berger </FONT></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="padding-left: 1in; font-size: 10pt; text-align: justify"><FONT STYLE="font-size: 10pt">Amiram Boehm</FONT></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="padding-left: 1in; font-size: 10pt; text-align: justify"><FONT STYLE="font-size: 10pt">Ishay Davidi</FONT></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="padding-left: 1in; font-size: 10pt; text-align: justify"><FONT STYLE="font-size: 10pt">Karnit Goldwasser</FONT></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="padding-left: 1in; font-size: 10pt; text-align: justify"><FONT STYLE="font-size: 10pt">Jonathan Hahn</FONT></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="padding-left: 1in; font-size: 10pt; text-align: justify"><FONT STYLE="font-size: 10pt">Leon Recanati</FONT></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="padding-left: 1in; font-size: 10pt; text-align: justify"><FONT STYLE="font-size: 10pt">Ari Shamiss </FONT></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="padding-left: 1in; font-size: 10pt; text-align: justify"><FONT STYLE="font-size: 10pt">David Tsur</FONT></TD></TR>
+</TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 53.55pt; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 35.7pt"></TD><TD STYLE="width: 17.85pt">2.</TD><TD STYLE="text-align: justify">The award of options to Prof. Shamiss and the Company entering into an indemnification and exculpation
+agreement with him.</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 53.55pt; text-align: justify; text-indent: -17.85pt">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 35.7pt"></TD><TD STYLE="width: 17.85pt">3.</TD><TD STYLE="text-align: justify">The amendment to the Company&rsquo;s Compensation Policy for Executive Officers and Compensation
+Policy for Directors with respect to the procurement of directors&rsquo; and officers&rsquo; liability insurance.</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 53.55pt; text-align: justify; text-indent: -17.85pt">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 35.7pt"></TD><TD STYLE="width: 17.85pt">4.</TD><TD STYLE="text-align: justify">The ratification and approval of the reappointment of Kost Forer Gabbay &amp; Kasierer, a member
+of Ernst &amp; Young Global, as the Company&rsquo;s independent registered public accountants for the year ending December 31,
+2020 and for such additional period until the next annual general meeting.</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 53.55pt; text-align: justify; text-indent: -17.85pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 53.55pt; text-align: justify; text-indent: -17.85pt">&nbsp;</P>
+
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

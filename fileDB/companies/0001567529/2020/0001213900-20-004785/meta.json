@@ -1,0 +1,17 @@
+{
+  "accession": "0001213900-20-004785",
+  "form": "6-K",
+  "filingDate": "2020-02-26",
+  "reportDate": "2020-02-26",
+  "tier": 2,
+  "tierLabel": "MODERATE",
+  "category": "current_report",
+  "summary": "KAMADA FILES ANNUAL REPORT FOR THE YEAR ENDED DECEMBER 31, 2019",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": []
+}

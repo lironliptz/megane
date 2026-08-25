@@ -1,0 +1,1521 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FilingSummary>
+  <Version>3.24.0.1</Version>
+  <ProcessingTime/>
+  <ReportFormat>html</ReportFormat>
+  <ContextCount>576</ContextCount>
+  <ElementCount>578</ElementCount>
+  <EntityCount>1</EntityCount>
+  <FootnotesReported>true</FootnotesReported>
+  <SegmentCount>160</SegmentCount>
+  <ScenarioCount>0</ScenarioCount>
+  <TuplesReported>false</TuplesReported>
+  <UnitCount>7</UnitCount>
+  <MyReports>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R1.htm</HtmlFileName>
+      <LongName>000 - Document - Document And Entity Information</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/DocumentAndEntityInformation</Role>
+      <ShortName>Document And Entity Information</ShortName>
+      <MenuCategory>Cover</MenuCategory>
+      <Position>1</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R2.htm</HtmlFileName>
+      <LongName>001 - Statement - Consolidated Statements of Financial Position</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ConsolidatedBalanceSheet</Role>
+      <ShortName>Consolidated Statements of Financial Position</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>2</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R3.htm</HtmlFileName>
+      <LongName>002 - Statement - Consolidated Statements of Profit or Loss and Other Comprehensive Income</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ConsolidatedIncomeStatement</Role>
+      <ShortName>Consolidated Statements of Profit or Loss and Other Comprehensive Income</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>3</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R4.htm</HtmlFileName>
+      <LongName>003 - Statement - Consolidated Statements of Changes in Equity</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ShareholdersEquityType2or3</Role>
+      <ShortName>Consolidated Statements of Changes in Equity</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>4</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R5.htm</HtmlFileName>
+      <LongName>004 - Statement - Consolidated Statements of Cash Flows</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ConsolidatedCashFlow</Role>
+      <ShortName>Consolidated Statements of Cash Flows</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>5</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R6.htm</HtmlFileName>
+      <LongName>005 - Disclosure - General</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/General</Role>
+      <ShortName>General</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>6</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R7.htm</HtmlFileName>
+      <LongName>006 - Disclosure - Material Accounting Policies</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/MaterialAccountingPolicies</Role>
+      <ShortName>Material Accounting Policies</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>7</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R8.htm</HtmlFileName>
+      <LongName>007 - Disclosure - Significant Accounting Judgments, Estimates and Assumptions Used in the Preparation of the Financial Statements</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/SignificantAccountingJudgmentsEstimatesandAssumptionsUsedinthePreparationoftheFinancialStatements</Role>
+      <ShortName>Significant Accounting Judgments, Estimates and Assumptions Used in the Preparation of the Financial Statements</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>8</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R9.htm</HtmlFileName>
+      <LongName>008 - Disclosure - New Accounting Standards or Amendments for 2023 and Forthcoming Requirements</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/NewAccountingStandardsorAmendmentsfor2023andForthcomingRequirements</Role>
+      <ShortName>New Accounting Standards or Amendments for 2023 and Forthcoming Requirements</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>9</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R10.htm</HtmlFileName>
+      <LongName>009 - Disclosure - Business Combinations</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/BusinessCombinations</Role>
+      <ShortName>Business Combinations</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>10</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R11.htm</HtmlFileName>
+      <LongName>010 - Disclosure - Cash and Cash Equivalents</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/CashandCashEquivalents</Role>
+      <ShortName>Cash and Cash Equivalents</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>11</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R12.htm</HtmlFileName>
+      <LongName>011 - Disclosure - Trade Receivables, Net</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/TradeReceivablesNet</Role>
+      <ShortName>Trade Receivables, Net</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>12</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R13.htm</HtmlFileName>
+      <LongName>012 - Disclosure - Other Accounts Receivables</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/OtherAccountsReceivables</Role>
+      <ShortName>Other Accounts Receivables</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>13</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R14.htm</HtmlFileName>
+      <LongName>013 - Disclosure - Inventories</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/Inventories</Role>
+      <ShortName>Inventories</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>14</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R15.htm</HtmlFileName>
+      <LongName>014 - Disclosure - Property, Plant and Equipment</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/PropertyPlantandEquipment</Role>
+      <ShortName>Property, Plant and Equipment</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>15</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R16.htm</HtmlFileName>
+      <LongName>015 - Disclosure - Intangible Assets, Goodwill and Other Long Term Assets</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/IntangibleAssetsGoodwillandOtherLongTermAssets</Role>
+      <ShortName>Intangible Assets, Goodwill and Other Long Term Assets</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>16</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R17.htm</HtmlFileName>
+      <LongName>016 - Disclosure - Trade Payables</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/TradePayables</Role>
+      <ShortName>Trade Payables</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>17</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R18.htm</HtmlFileName>
+      <LongName>017 - Disclosure - Other Accounts Payables</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/OtherAccountsPayables</Role>
+      <ShortName>Other Accounts Payables</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>18</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R19.htm</HtmlFileName>
+      <LongName>018 - Disclosure - Loans and Financial Liabilities</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/LoansandFinancialLiabilities</Role>
+      <ShortName>Loans and Financial Liabilities</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>19</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R20.htm</HtmlFileName>
+      <LongName>019 - Disclosure - Leases</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/Leases</Role>
+      <ShortName>Leases</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>20</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R21.htm</HtmlFileName>
+      <LongName>020 - Disclosure - Financial Instruments</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/FinancialInstruments</Role>
+      <ShortName>Financial Instruments</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>21</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R22.htm</HtmlFileName>
+      <LongName>021 - Disclosure - Employee Benefit Liabilities, Net</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/EmployeeBenefitLiabilitiesNet</Role>
+      <ShortName>Employee Benefit Liabilities, Net</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>22</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R23.htm</HtmlFileName>
+      <LongName>022 - Disclosure - Contingent Liabilities and Commitments</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ContingentLiabilitiesandCommitments</Role>
+      <ShortName>Contingent Liabilities and Commitments</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>23</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R24.htm</HtmlFileName>
+      <LongName>023 - Disclosure - Guarantees and Charges</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/GuaranteesandCharges</Role>
+      <ShortName>Guarantees and Charges</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>24</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R25.htm</HtmlFileName>
+      <LongName>024 - Disclosure - Equity</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/Equity</Role>
+      <ShortName>Equity</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>25</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R26.htm</HtmlFileName>
+      <LongName>025 - Disclosure - Share-Based Payment</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ShareBasedPayment</Role>
+      <ShortName>Share-Based Payment</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>26</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R27.htm</HtmlFileName>
+      <LongName>026 - Disclosure - Taxes on Income</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/TaxesonIncome</Role>
+      <ShortName>Taxes on Income</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>27</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R28.htm</HtmlFileName>
+      <LongName>027 - Disclosure - Supplementary Information to the Statements of Profit and Loss</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/SupplementaryInformationtotheStatementsofProfitandLoss</Role>
+      <ShortName>Supplementary Information to the Statements of Profit and Loss</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>28</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R29.htm</HtmlFileName>
+      <LongName>028 - Disclosure - Income (Loss) Per Share</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/IncomeLossPerShare</Role>
+      <ShortName>Income (Loss) Per Share</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>29</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R30.htm</HtmlFileName>
+      <LongName>029 - Disclosure - Operating Segments</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/OperatingSegments</Role>
+      <ShortName>Operating Segments</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>30</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R31.htm</HtmlFileName>
+      <LongName>030 - Disclosure - Balances and Transactions with Related Parties</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/BalancesandTransactionswithRelatedParties</Role>
+      <ShortName>Balances and Transactions with Related Parties</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>31</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R32.htm</HtmlFileName>
+      <LongName>031 - Disclosure - Events Subsequent to the Reporting Period</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/EventsSubsequenttotheReportingPeriod</Role>
+      <ShortName>Events Subsequent to the Reporting Period</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>32</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R33.htm</HtmlFileName>
+      <LongName>996000 - Disclosure - Accounting Policies, by Policy (Policies)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/AccountingPoliciesByPolicy</Role>
+      <ShortName>Accounting Policies, by Policy (Policies)</ShortName>
+      <MenuCategory>Policies</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/MaterialAccountingPolicies</ParentRole>
+      <Position>33</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R34.htm</HtmlFileName>
+      <LongName>996001 - Disclosure - Material Accounting Policies (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/MaterialAccountingPoliciesTables</Role>
+      <ShortName>Material Accounting Policies (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/MaterialAccountingPolicies</ParentRole>
+      <Position>34</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R35.htm</HtmlFileName>
+      <LongName>996002 - Disclosure - Business Combinations (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/BusinessCombinationsTables</Role>
+      <ShortName>Business Combinations (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/BusinessCombinations</ParentRole>
+      <Position>35</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R36.htm</HtmlFileName>
+      <LongName>996003 - Disclosure - Cash and Cash Equivalents (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/CashandCashEquivalentsTables</Role>
+      <ShortName>Cash and Cash Equivalents (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/CashandCashEquivalents</ParentRole>
+      <Position>36</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R37.htm</HtmlFileName>
+      <LongName>996004 - Disclosure - Trade Receivables, Net (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/TradeReceivablesNetTables</Role>
+      <ShortName>Trade Receivables, Net (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/TradeReceivablesNet</ParentRole>
+      <Position>37</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R38.htm</HtmlFileName>
+      <LongName>996005 - Disclosure - Other Accounts Receivables (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/OtherAccountsReceivablesTables</Role>
+      <ShortName>Other Accounts Receivables (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/OtherAccountsReceivables</ParentRole>
+      <Position>38</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R39.htm</HtmlFileName>
+      <LongName>996006 - Disclosure - Inventories (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/InventoriesTables</Role>
+      <ShortName>Inventories (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/Inventories</ParentRole>
+      <Position>39</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R40.htm</HtmlFileName>
+      <LongName>996007 - Disclosure - Property, Plant and Equipment (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/PropertyPlantandEquipmentTables</Role>
+      <ShortName>Property, Plant and Equipment (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/PropertyPlantandEquipment</ParentRole>
+      <Position>40</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R41.htm</HtmlFileName>
+      <LongName>996008 - Disclosure - Intangible Assets, Goodwill and Other Long Term Assets (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/IntangibleAssetsGoodwillandOtherLongTermAssetsTables</Role>
+      <ShortName>Intangible Assets, Goodwill and Other Long Term Assets (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/IntangibleAssetsGoodwillandOtherLongTermAssets</ParentRole>
+      <Position>41</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R42.htm</HtmlFileName>
+      <LongName>996009 - Disclosure - Trade Payables (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/TradePayablesTables</Role>
+      <ShortName>Trade Payables (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/TradePayables</ParentRole>
+      <Position>42</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R43.htm</HtmlFileName>
+      <LongName>996010 - Disclosure - Other Accounts Payables (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/OtherAccountsPayablesTables</Role>
+      <ShortName>Other Accounts Payables (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/OtherAccountsPayables</ParentRole>
+      <Position>43</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R44.htm</HtmlFileName>
+      <LongName>996011 - Disclosure - Loans and Financial Liabilities (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/LoansandFinancialLiabilitiesTables</Role>
+      <ShortName>Loans and Financial Liabilities (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/LoansandFinancialLiabilities</ParentRole>
+      <Position>44</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R45.htm</HtmlFileName>
+      <LongName>996012 - Disclosure - Leases (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/LeasesTables</Role>
+      <ShortName>Leases (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/Leases</ParentRole>
+      <Position>45</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R46.htm</HtmlFileName>
+      <LongName>996013 - Disclosure - Financial Instruments (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/FinancialInstrumentsTables</Role>
+      <ShortName>Financial Instruments (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/FinancialInstruments</ParentRole>
+      <Position>46</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R47.htm</HtmlFileName>
+      <LongName>996014 - Disclosure - Employee Benefit Liabilities, Net (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/EmployeeBenefitLiabilitiesNetTables</Role>
+      <ShortName>Employee Benefit Liabilities, Net (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/EmployeeBenefitLiabilitiesNet</ParentRole>
+      <Position>47</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R48.htm</HtmlFileName>
+      <LongName>996015 - Disclosure - Equity (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/EquityTables</Role>
+      <ShortName>Equity (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/Equity</ParentRole>
+      <Position>48</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R49.htm</HtmlFileName>
+      <LongName>996016 - Disclosure - Share-Based Payment (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ShareBasedPaymentTables</Role>
+      <ShortName>Share-Based Payment (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/ShareBasedPayment</ParentRole>
+      <Position>49</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R50.htm</HtmlFileName>
+      <LongName>996017 - Disclosure - Taxes on Income (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/TaxesonIncomeTables</Role>
+      <ShortName>Taxes on Income (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/TaxesonIncome</ParentRole>
+      <Position>50</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R51.htm</HtmlFileName>
+      <LongName>996018 - Disclosure - Supplementary Information to the Statements of Profit and Loss (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/SupplementaryInformationtotheStatementsofProfitandLossTables</Role>
+      <ShortName>Supplementary Information to the Statements of Profit and Loss (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/SupplementaryInformationtotheStatementsofProfitandLoss</ParentRole>
+      <Position>51</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R52.htm</HtmlFileName>
+      <LongName>996019 - Disclosure - Income (Loss) Per Share (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/IncomeLossPerShareTables</Role>
+      <ShortName>Income (Loss) Per Share (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/IncomeLossPerShare</ParentRole>
+      <Position>52</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R53.htm</HtmlFileName>
+      <LongName>996020 - Disclosure - Operating Segments (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/OperatingSegmentsTables</Role>
+      <ShortName>Operating Segments (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/OperatingSegments</ParentRole>
+      <Position>53</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R54.htm</HtmlFileName>
+      <LongName>996021 - Disclosure - Balances and Transactions with Related Parties (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/BalancesandTransactionswithRelatedPartiesTables</Role>
+      <ShortName>Balances and Transactions with Related Parties (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/BalancesandTransactionswithRelatedParties</ParentRole>
+      <Position>54</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R55.htm</HtmlFileName>
+      <LongName>996022 - Disclosure - General (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/GeneralDetails</Role>
+      <ShortName>General (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/General</ParentRole>
+      <Position>55</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R56.htm</HtmlFileName>
+      <LongName>996023 - Disclosure - Material Accounting Policies (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/MaterialAccountingPoliciesDetails</Role>
+      <ShortName>Material Accounting Policies (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/MaterialAccountingPoliciesTables</ParentRole>
+      <Position>56</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R57.htm</HtmlFileName>
+      <LongName>996024 - Disclosure - Material Accounting Policies (Details) - Schedule of Depreciation on a Straight-line Basis Over the Useful Life of the Assets at Annual Rates</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofDepreciationonaStraightlineBasisOvertheUsefulLifeoftheAssetsatAnnualRatesTable</Role>
+      <ShortName>Material Accounting Policies (Details) - Schedule of Depreciation on a Straight-line Basis Over the Useful Life of the Assets at Annual Rates</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/MaterialAccountingPoliciesTables</ParentRole>
+      <Position>57</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R58.htm</HtmlFileName>
+      <LongName>996025 - Disclosure - Material Accounting Policies (Details) - Schedule of Depreciation of Right-of-Use Asset Useful Life</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofDepreciationofRightofUseAssetUsefulLifeTable</Role>
+      <ShortName>Material Accounting Policies (Details) - Schedule of Depreciation of Right-of-Use Asset Useful Life</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/MaterialAccountingPoliciesTables</ParentRole>
+      <Position>58</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R59.htm</HtmlFileName>
+      <LongName>996026 - Disclosure - Material Accounting Policies (Details) - Schedule of Intangible Assets with Finite Useful Life</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofIntangibleAssetswithFiniteUsefulLifeTable</Role>
+      <ShortName>Material Accounting Policies (Details) - Schedule of Intangible Assets with Finite Useful Life</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/MaterialAccountingPoliciesTables</ParentRole>
+      <Position>59</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R60.htm</HtmlFileName>
+      <LongName>996027 - Disclosure - Business Combinations (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/BusinessCombinationsDetails</Role>
+      <ShortName>Business Combinations (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/BusinessCombinationsTables</ParentRole>
+      <Position>60</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R61.htm</HtmlFileName>
+      <LongName>996028 - Disclosure - Business Combinations (Details) - Schedule of Acquisition Consideration</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofAcquisitionConsiderationTable</Role>
+      <ShortName>Business Combinations (Details) - Schedule of Acquisition Consideration</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/BusinessCombinationsTables</ParentRole>
+      <Position>61</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R62.htm</HtmlFileName>
+      <LongName>996029 - Disclosure - Business Combinations (Details) - Schedule of Fair Value of the Identifiable Assets and Liabilities on the Acquisition Date</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofFairValueoftheIdentifiableAssetsandLiabilitiesontheAcquisitionDateTable</Role>
+      <ShortName>Business Combinations (Details) - Schedule of Fair Value of the Identifiable Assets and Liabilities on the Acquisition Date</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/BusinessCombinationsTables</ParentRole>
+      <Position>62</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R63.htm</HtmlFileName>
+      <LongName>996030 - Disclosure - Business Combinations (Details) - Schedule of Intangible Assets</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofIntangibleAssetsTable</Role>
+      <ShortName>Business Combinations (Details) - Schedule of Intangible Assets</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/BusinessCombinationsTables</ParentRole>
+      <Position>63</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R64.htm</HtmlFileName>
+      <LongName>996031 - Disclosure - Cash and Cash Equivalents (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/CashandCashEquivalentsDetails</Role>
+      <ShortName>Cash and Cash Equivalents (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/CashandCashEquivalentsTables</ParentRole>
+      <Position>64</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R65.htm</HtmlFileName>
+      <LongName>996032 - Disclosure - Cash and Cash Equivalents (Details) - Schedule of Cash and Cash Equivalents</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofCashandCashEquivalentsTable</Role>
+      <ShortName>Cash and Cash Equivalents (Details) - Schedule of Cash and Cash Equivalents</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/CashandCashEquivalentsTables</ParentRole>
+      <Position>65</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R66.htm</HtmlFileName>
+      <LongName>996033 - Disclosure - Trade Receivables, Net (Details) - Schedule of Trade Receivables, Net</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofTradeReceivablesNetTable</Role>
+      <ShortName>Trade Receivables, Net (Details) - Schedule of Trade Receivables, Net</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/TradeReceivablesNetTables</ParentRole>
+      <Position>66</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R67.htm</HtmlFileName>
+      <LongName>996034 - Disclosure - Trade Receivables, Net (Details) - Schedule of Analysis of Past Due but Not Impaired Trade Receivables</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofAnalysisofPastDuebutNotImpairedTradeReceivablesTable</Role>
+      <ShortName>Trade Receivables, Net (Details) - Schedule of Analysis of Past Due but Not Impaired Trade Receivables</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/TradeReceivablesNetTables</ParentRole>
+      <Position>67</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R68.htm</HtmlFileName>
+      <LongName>996035 - Disclosure - Other Accounts Receivables (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/OtherAccountsReceivablesDetails</Role>
+      <ShortName>Other Accounts Receivables (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/OtherAccountsReceivablesTables</ParentRole>
+      <Position>68</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R69.htm</HtmlFileName>
+      <LongName>996036 - Disclosure - Other Accounts Receivables (Details) - Schedule of Other Accounts Receivables</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofOtherAccountsReceivablesTable</Role>
+      <ShortName>Other Accounts Receivables (Details) - Schedule of Other Accounts Receivables</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/OtherAccountsReceivablesTables</ParentRole>
+      <Position>69</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R70.htm</HtmlFileName>
+      <LongName>996037 - Disclosure - Inventories (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/InventoriesDetails</Role>
+      <ShortName>Inventories (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/InventoriesTables</ParentRole>
+      <Position>70</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R71.htm</HtmlFileName>
+      <LongName>996038 - Disclosure - Inventories (Details) - Schedule of Inventories</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofInventoriesTable</Role>
+      <ShortName>Inventories (Details) - Schedule of Inventories</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/InventoriesTables</ParentRole>
+      <Position>71</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R72.htm</HtmlFileName>
+      <LongName>996039 - Disclosure - Property, Plant and Equipment (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/PropertyPlantandEquipmentDetails</Role>
+      <ShortName>Property, Plant and Equipment (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/PropertyPlantandEquipmentTables</ParentRole>
+      <Position>72</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R73.htm</HtmlFileName>
+      <LongName>996040 - Disclosure - Property, Plant and Equipment (Details) - Schedule of Composition and Movement of Property, Plant and Equipment</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofCompositionandMovementofPropertyPlantandEquipmentTable</Role>
+      <ShortName>Property, Plant and Equipment (Details) - Schedule of Composition and Movement of Property, Plant and Equipment</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/PropertyPlantandEquipmentTables</ParentRole>
+      <Position>73</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R74.htm</HtmlFileName>
+      <LongName>996041 - Disclosure - Property, Plant and Equipment (Details) - Schedule of Leasing Rights of Land from Israel Land Administration</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofLeasingRightsofLandfromIsraelLandAdministrationTable</Role>
+      <ShortName>Property, Plant and Equipment (Details) - Schedule of Leasing Rights of Land from Israel Land Administration</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/PropertyPlantandEquipmentTables</ParentRole>
+      <Position>74</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R75.htm</HtmlFileName>
+      <LongName>996042 - Disclosure - Intangible Assets, Goodwill and Other Long Term Assets (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/IntangibleAssetsGoodwillandOtherLongTermAssetsDetails</Role>
+      <ShortName>Intangible Assets, Goodwill and Other Long Term Assets (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/IntangibleAssetsGoodwillandOtherLongTermAssetsTables</ParentRole>
+      <Position>75</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R76.htm</HtmlFileName>
+      <LongName>996043 - Disclosure - Intangible Assets, Goodwill and Other Long Term Assets (Details) - Schedule of Other Long Term Assets</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofOtherLongTermAssetsTable</Role>
+      <ShortName>Intangible Assets, Goodwill and Other Long Term Assets (Details) - Schedule of Other Long Term Assets</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/IntangibleAssetsGoodwillandOtherLongTermAssetsTables</ParentRole>
+      <Position>76</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R77.htm</HtmlFileName>
+      <LongName>996044 - Disclosure - Intangible Assets, Goodwill and Other Long Term Assets (Details) - Schedule of Composition and Movement</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofCompositionandMovementTable</Role>
+      <ShortName>Intangible Assets, Goodwill and Other Long Term Assets (Details) - Schedule of Composition and Movement</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/IntangibleAssetsGoodwillandOtherLongTermAssetsTables</ParentRole>
+      <Position>77</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R78.htm</HtmlFileName>
+      <LongName>996045 - Disclosure - Intangible Assets, Goodwill and Other Long Term Assets (Details) - Schedule of Amortization Expenses of Intangible Assets</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofAmortizationExpensesofIntangibleAssetsTable</Role>
+      <ShortName>Intangible Assets, Goodwill and Other Long Term Assets (Details) - Schedule of Amortization Expenses of Intangible Assets</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/IntangibleAssetsGoodwillandOtherLongTermAssetsTables</ParentRole>
+      <Position>78</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R79.htm</HtmlFileName>
+      <LongName>996046 - Disclosure - Intangible Assets, Goodwill and Other Long Term Assets (Details) - Schedule of Allocation of Goodwill to Cash-Generating Units</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofAllocationofGoodwilltoCashGeneratingUnitsTable</Role>
+      <ShortName>Intangible Assets, Goodwill and Other Long Term Assets (Details) - Schedule of Allocation of Goodwill to Cash-Generating Units</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/IntangibleAssetsGoodwillandOtherLongTermAssetsTables</ParentRole>
+      <Position>79</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R80.htm</HtmlFileName>
+      <LongName>996047 - Disclosure - Trade Payables (Details) - Schedule of Trade Payables</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofTradePayablesTable</Role>
+      <ShortName>Trade Payables (Details) - Schedule of Trade Payables</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/TradePayablesTables</ParentRole>
+      <Position>80</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R81.htm</HtmlFileName>
+      <LongName>996048 - Disclosure - Other Accounts Payables (Details) - Schedule of Other Accounts Payables</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofOtherAccountsPayablesTable</Role>
+      <ShortName>Other Accounts Payables (Details) - Schedule of Other Accounts Payables</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/OtherAccountsPayablesTables</ParentRole>
+      <Position>81</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R82.htm</HtmlFileName>
+      <LongName>996049 - Disclosure - Other Accounts Payables (Details) - Schedule of Statement of Financial Position and Profit or Loss and Other Comprehensive Income</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofStatementofFinancialPositionandProfitorLossandOtherComprehensiveIncomeTable</Role>
+      <ShortName>Other Accounts Payables (Details) - Schedule of Statement of Financial Position and Profit or Loss and Other Comprehensive Income</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/OtherAccountsPayablesTables</ParentRole>
+      <Position>82</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R83.htm</HtmlFileName>
+      <LongName>996050 - Disclosure - Loans and Financial Liabilities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/LoansandFinancialLiabilitiesDetails</Role>
+      <ShortName>Loans and Financial Liabilities (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/LoansandFinancialLiabilitiesTables</ParentRole>
+      <Position>83</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R84.htm</HtmlFileName>
+      <LongName>996051 - Disclosure - Loans and Financial Liabilities (Details) - Schedule of Loans and Financial Liabilities</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofLoansandFinancialLiabilitiesTable</Role>
+      <ShortName>Loans and Financial Liabilities (Details) - Schedule of Loans and Financial Liabilities</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/LoansandFinancialLiabilitiesTables</ParentRole>
+      <Position>84</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R85.htm</HtmlFileName>
+      <LongName>996052 - Disclosure - Loans and Financial Liabilities (Details) - Schedule of Financial Liabilities</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofFinancialLiabilitiesTable</Role>
+      <ShortName>Loans and Financial Liabilities (Details) - Schedule of Financial Liabilities</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/LoansandFinancialLiabilitiesTables</ParentRole>
+      <Position>85</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R86.htm</HtmlFileName>
+      <LongName>996053 - Disclosure - Leases (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/LeasesDetails</Role>
+      <ShortName>Leases (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/LeasesTables</ParentRole>
+      <Position>86</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R87.htm</HtmlFileName>
+      <LongName>996054 - Disclosure - Leases (Details) - Schedule of Right-Of-Use Assets Composition and Changes in Lease Liabilities</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofRightOfUseAssetsCompositionandChangesinLeaseLiabilitiesTable</Role>
+      <ShortName>Leases (Details) - Schedule of Right-Of-Use Assets Composition and Changes in Lease Liabilities</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/LeasesTables</ParentRole>
+      <Position>87</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R88.htm</HtmlFileName>
+      <LongName>996055 - Disclosure - Leases (Details) - Schedule of Maturity Analysis of Lease Liabilities</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofMaturityAnalysisofLeaseLiabilitiesTable</Role>
+      <ShortName>Leases (Details) - Schedule of Maturity Analysis of Lease Liabilities</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/LeasesTables</ParentRole>
+      <Position>88</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R89.htm</HtmlFileName>
+      <LongName>996056 - Disclosure - Financial Instruments (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/FinancialInstrumentsDetails</Role>
+      <ShortName>Financial Instruments (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/FinancialInstrumentsTables</ParentRole>
+      <Position>89</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R90.htm</HtmlFileName>
+      <LongName>996057 - Disclosure - Financial Instruments (Details) - Schedule of Groups of Financial Instruments</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofGroupsofFinancialInstrumentsTable</Role>
+      <ShortName>Financial Instruments (Details) - Schedule of Groups of Financial Instruments</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/FinancialInstrumentsTables</ParentRole>
+      <Position>90</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R91.htm</HtmlFileName>
+      <LongName>996058 - Disclosure - Financial Instruments (Details) - Schedule of Financial Liabilities Based on Contractual Undiscounted Payments</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofFinancialLiabilitiesBasedonContractualUndiscountedPaymentsTable</Role>
+      <ShortName>Financial Instruments (Details) - Schedule of Financial Liabilities Based on Contractual Undiscounted Payments</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/FinancialInstrumentsTables</ParentRole>
+      <Position>91</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R92.htm</HtmlFileName>
+      <LongName>996059 - Disclosure - Financial Instruments (Details) - Schedule of Changes in Liabilities Arising from Financing Activities</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofChangesinLiabilitiesArisingfromFinancingActivitiesTable</Role>
+      <ShortName>Financial Instruments (Details) - Schedule of Changes in Liabilities Arising from Financing Activities</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/FinancialInstrumentsTables</ParentRole>
+      <Position>92</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R93.htm</HtmlFileName>
+      <LongName>996060 - Disclosure - Financial Instruments (Details) - Schedule of Fair Value of the Financial Assets and Liabilities</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofFairValueoftheFinancialAssetsandLiabilitiesTable</Role>
+      <ShortName>Financial Instruments (Details) - Schedule of Fair Value of the Financial Assets and Liabilities</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/FinancialInstrumentsTables</ParentRole>
+      <Position>93</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R94.htm</HtmlFileName>
+      <LongName>996061 - Disclosure - Financial Instruments (Details) - Schedule of Financial Assets (Liabilities) Measured at Fair Value</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofFinancialAssetsLiabilitiesMeasuredatFairValueTable</Role>
+      <ShortName>Financial Instruments (Details) - Schedule of Financial Assets (Liabilities) Measured at Fair Value</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/FinancialInstrumentsTables</ParentRole>
+      <Position>94</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R95.htm</HtmlFileName>
+      <LongName>996062 - Disclosure - Financial Instruments (Details) - Schedule of Sensitivity Test to Changes in Interest Rate Risk</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofSensitivityTesttoChangesinInterestRateRiskTable</Role>
+      <ShortName>Financial Instruments (Details) - Schedule of Sensitivity Test to Changes in Interest Rate Risk</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/FinancialInstrumentsTables</ParentRole>
+      <Position>95</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R96.htm</HtmlFileName>
+      <LongName>996063 - Disclosure - Financial Instruments (Details) - Schedule of Linkage Terms of Financial Liabilities by Groups of Financial Instruments</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofLinkageTermsofFinancialLiabilitiesbyGroupsofFinancialInstrumentsTable</Role>
+      <ShortName>Financial Instruments (Details) - Schedule of Linkage Terms of Financial Liabilities by Groups of Financial Instruments</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/FinancialInstrumentsTables</ParentRole>
+      <Position>96</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R97.htm</HtmlFileName>
+      <LongName>996064 - Disclosure - Employee Benefit Liabilities, Net (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/EmployeeBenefitLiabilitiesNetDetails</Role>
+      <ShortName>Employee Benefit Liabilities, Net (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/EmployeeBenefitLiabilitiesNetTables</ParentRole>
+      <Position>97</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R98.htm</HtmlFileName>
+      <LongName>996065 - Disclosure - Employee Benefit Liabilities, Net (Details) - Schedule of Expenses Recognized in Comprehensive Income (Loss)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofExpensesRecognizedinComprehensiveIncomeLossTable</Role>
+      <ShortName>Employee Benefit Liabilities, Net (Details) - Schedule of Expenses Recognized in Comprehensive Income (Loss)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/EmployeeBenefitLiabilitiesNetTables</ParentRole>
+      <Position>98</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R99.htm</HtmlFileName>
+      <LongName>996066 - Disclosure - Employee Benefit Liabilities, Net (Details) - Schedule of Expenses Presented in Statement of Comprehensive Income (Loss)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofExpensesPresentedinStatementofComprehensiveIncomeLossTable</Role>
+      <ShortName>Employee Benefit Liabilities, Net (Details) - Schedule of Expenses Presented in Statement of Comprehensive Income (Loss)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/EmployeeBenefitLiabilitiesNetTables</ParentRole>
+      <Position>99</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R100.htm</HtmlFileName>
+      <LongName>996067 - Disclosure - Employee Benefit Liabilities, Net (Details) - Schedule of Plan Liabilities, Net</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofPlanLiabilitiesNetTable</Role>
+      <ShortName>Employee Benefit Liabilities, Net (Details) - Schedule of Plan Liabilities, Net</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/EmployeeBenefitLiabilitiesNetTables</ParentRole>
+      <Position>100</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R101.htm</HtmlFileName>
+      <LongName>996068 - Disclosure - Employee Benefit Liabilities, Net (Details) - Schedule of Changes in Present Value of Defined Benefit Obligation</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofChangesinPresentValueofDefinedBenefitObligationTable</Role>
+      <ShortName>Employee Benefit Liabilities, Net (Details) - Schedule of Changes in Present Value of Defined Benefit Obligation</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/EmployeeBenefitLiabilitiesNetTables</ParentRole>
+      <Position>101</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R102.htm</HtmlFileName>
+      <LongName>996069 - Disclosure - Employee Benefit Liabilities, Net (Details) - Schedule of Changes in Fair Value of Plan Assets</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofChangesinFairValueofPlanAssetsTable</Role>
+      <ShortName>Employee Benefit Liabilities, Net (Details) - Schedule of Changes in Fair Value of Plan Assets</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/EmployeeBenefitLiabilitiesNetTables</ParentRole>
+      <Position>102</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R103.htm</HtmlFileName>
+      <LongName>996070 - Disclosure - Employee Benefit Liabilities, Net (Details) - Schedule of Principal Assumptions Underlying Defined Benefit Plan</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofPrincipalAssumptionsUnderlyingDefinedBenefitPlanTable</Role>
+      <ShortName>Employee Benefit Liabilities, Net (Details) - Schedule of Principal Assumptions Underlying Defined Benefit Plan</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/EmployeeBenefitLiabilitiesNetTables</ParentRole>
+      <Position>103</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R104.htm</HtmlFileName>
+      <LongName>996071 - Disclosure - Contingent Liabilities and Commitments (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ContingentLiabilitiesandCommitmentsDetails</Role>
+      <ShortName>Contingent Liabilities and Commitments (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/ContingentLiabilitiesandCommitments</ParentRole>
+      <Position>104</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R105.htm</HtmlFileName>
+      <LongName>996072 - Disclosure - Guarantees and Charges (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/GuaranteesandChargesDetails</Role>
+      <ShortName>Guarantees and Charges (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/GuaranteesandCharges</ParentRole>
+      <Position>105</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R106.htm</HtmlFileName>
+      <LongName>996073 - Disclosure - Equity (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/EquityDetails</Role>
+      <ShortName>Equity (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/EquityTables</ParentRole>
+      <Position>106</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R107.htm</HtmlFileName>
+      <LongName>996074 - Disclosure - Equity (Details) - Schedule of Share Capital</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofShareCapitalTable</Role>
+      <ShortName>Equity (Details) - Schedule of Share Capital</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/EquityTables</ParentRole>
+      <Position>107</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R108.htm</HtmlFileName>
+      <LongName>996075 - Disclosure - Equity (Details) - Schedule of Share Capital (Parentheticals)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofShareCapitalTable_Parentheticals</Role>
+      <ShortName>Equity (Details) - Schedule of Share Capital (Parentheticals)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/EquityTables</ParentRole>
+      <Position>108</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R109.htm</HtmlFileName>
+      <LongName>996076 - Disclosure - Equity (Details) - Schedule of Issued and Outstanding Share Capital</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofIssuedandOutstandingShareCapitalTable</Role>
+      <ShortName>Equity (Details) - Schedule of Issued and Outstanding Share Capital</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/EquityTables</ParentRole>
+      <Position>109</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R110.htm</HtmlFileName>
+      <LongName>996077 - Disclosure - Share-Based Payment (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ShareBasedPaymentDetails</Role>
+      <ShortName>Share-Based Payment (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/ShareBasedPaymentTables</ParentRole>
+      <Position>110</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R111.htm</HtmlFileName>
+      <LongName>996078 - Disclosure - Share-Based Payment (Details) - Schedule of Expense Recognized in Financial Statements</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofExpenseRecognizedinFinancialStatementsTable</Role>
+      <ShortName>Share-Based Payment (Details) - Schedule of Expense Recognized in Financial Statements</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/ShareBasedPaymentTables</ParentRole>
+      <Position>111</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R112.htm</HtmlFileName>
+      <LongName>996079 - Disclosure - Share-Based Payment (Details) - Schedule of Weighted Average Exercise Prices of Share</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofWeightedAverageExercisePricesofShareTable</Role>
+      <ShortName>Share-Based Payment (Details) - Schedule of Weighted Average Exercise Prices of Share</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/ShareBasedPaymentTables</ParentRole>
+      <Position>112</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R113.htm</HtmlFileName>
+      <LongName>996080 - Disclosure - Share-Based Payment (Details) - Schedule of RSUs and Changes in RSUs</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofRSUsandChangesinRSUsTable</Role>
+      <ShortName>Share-Based Payment (Details) - Schedule of RSUs and Changes in RSUs</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/ShareBasedPaymentTables</ParentRole>
+      <Position>113</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R114.htm</HtmlFileName>
+      <LongName>996081 - Disclosure - Share-Based Payment (Details) - Schedule of Inputs to Binomial Model Used for Fair Value Measurement</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofInputstoBinomialModelUsedforFairValueMeasurementTable</Role>
+      <ShortName>Share-Based Payment (Details) - Schedule of Inputs to Binomial Model Used for Fair Value Measurement</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/ShareBasedPaymentTables</ParentRole>
+      <Position>114</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R115.htm</HtmlFileName>
+      <LongName>996082 - Disclosure - Taxes on Income (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/TaxesonIncomeDetails</Role>
+      <ShortName>Taxes on Income (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/TaxesonIncomeTables</ParentRole>
+      <Position>115</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R116.htm</HtmlFileName>
+      <LongName>996083 - Disclosure - Taxes on Income (Details) - Schedule of Taxes on Income</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofTaxesonIncomeTable</Role>
+      <ShortName>Taxes on Income (Details) - Schedule of Taxes on Income</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/TaxesonIncomeTables</ParentRole>
+      <Position>116</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R117.htm</HtmlFileName>
+      <LongName>996084 - Disclosure - Supplementary Information to the Statements of Profit and Loss (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/SupplementaryInformationtotheStatementsofProfitandLossDetails</Role>
+      <ShortName>Supplementary Information to the Statements of Profit and Loss (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/SupplementaryInformationtotheStatementsofProfitandLossTables</ParentRole>
+      <Position>117</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R118.htm</HtmlFileName>
+      <LongName>996085 - Disclosure - Supplementary Information to the Statements of Profit and Loss (Details) - Schedule of Additional Information about Revenues</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofAdditionalInformationaboutRevenuesTable</Role>
+      <ShortName>Supplementary Information to the Statements of Profit and Loss (Details) - Schedule of Additional Information about Revenues</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/SupplementaryInformationtotheStatementsofProfitandLossTables</ParentRole>
+      <Position>118</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R119.htm</HtmlFileName>
+      <LongName>996086 - Disclosure - Supplementary Information to the Statements of Profit and Loss (Details) - Schedule of Revenues Based on Location of Customers</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofRevenuesBasedonLocationofCustomersTable</Role>
+      <ShortName>Supplementary Information to the Statements of Profit and Loss (Details) - Schedule of Revenues Based on Location of Customers</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/SupplementaryInformationtotheStatementsofProfitandLossTables</ParentRole>
+      <Position>119</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R120.htm</HtmlFileName>
+      <LongName>996087 - Disclosure - Supplementary Information to the Statements of Profit and Loss (Details) - Schedule of Cost of Goods Sold</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofCostofGoodsSoldTable</Role>
+      <ShortName>Supplementary Information to the Statements of Profit and Loss (Details) - Schedule of Cost of Goods Sold</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/SupplementaryInformationtotheStatementsofProfitandLossTables</ParentRole>
+      <Position>120</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R121.htm</HtmlFileName>
+      <LongName>996088 - Disclosure - Income (Loss) Per Share (Details) - Schedule of Number of Shares and Income (Loss)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofNumberofSharesandIncomeLossTable</Role>
+      <ShortName>Income (Loss) Per Share (Details) - Schedule of Number of Shares and Income (Loss)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/IncomeLossPerShareTables</ParentRole>
+      <Position>121</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R122.htm</HtmlFileName>
+      <LongName>996089 - Disclosure - Operating Segments (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/OperatingSegmentsDetails</Role>
+      <ShortName>Operating Segments (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/OperatingSegmentsTables</ParentRole>
+      <Position>122</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R123.htm</HtmlFileName>
+      <LongName>996090 - Disclosure - Operating Segments (Details) - Schedule of Reporting on Operating Segments</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofReportingonOperatingSegmentsTable</Role>
+      <ShortName>Operating Segments (Details) - Schedule of Reporting on Operating Segments</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/OperatingSegmentsTables</ParentRole>
+      <Position>123</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R124.htm</HtmlFileName>
+      <LongName>996091 - Disclosure - Balances and Transactions with Related Parties (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/BalancesandTransactionswithRelatedPartiesDetails</Role>
+      <ShortName>Balances and Transactions with Related Parties (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/BalancesandTransactionswithRelatedPartiesTables</ParentRole>
+      <Position>124</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R125.htm</HtmlFileName>
+      <LongName>996092 - Disclosure - Balances and Transactions with Related Parties (Details) - Schedule of Balances with Related Parties</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofBalanceswithRelatedPartiesTable</Role>
+      <ShortName>Balances and Transactions with Related Parties (Details) - Schedule of Balances with Related Parties</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/BalancesandTransactionswithRelatedPartiesTables</ParentRole>
+      <Position>125</Position>
+    </Report>
+    <Report instance="f20f2023_kamadaltd.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R126.htm</HtmlFileName>
+      <LongName>996093 - Disclosure - Balances and Transactions with Related Parties (Details) - Schedule of CEO Employment Terms</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://kamadaltd.com/role/ScheduleofCEOEmploymentTermsTable</Role>
+      <ShortName>Balances and Transactions with Related Parties (Details) - Schedule of CEO Employment Terms</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://kamadaltd.com/role/BalancesandTransactionswithRelatedPartiesTables</ParentRole>
+      <Position>126</Position>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>All Reports</LongName>
+      <ReportType>Book</ReportType>
+      <ShortName>All Reports</ShortName>
+    </Report>
+  </MyReports>
+  <InputFiles>
+    <File doctype="20-F" isDefinitelyFs="true" isIfrs="true" isUsgaap="true" original="f20f2023_kamadaltd.htm">f20f2023_kamadaltd.htm</File>
+    <File>kmda-20231231.xsd</File>
+    <File>kmda-20231231_cal.xml</File>
+    <File>kmda-20231231_def.xml</File>
+    <File>kmda-20231231_lab.xml</File>
+    <File>kmda-20231231_pre.xml</File>
+  </InputFiles>
+  <SupplementalFiles>
+    <File>image_001.jpg</File>
+  </SupplementalFiles>
+  <BaseTaxonomies>
+    <BaseTaxonomy items="3">http://fasb.org/srt/2023</BaseTaxonomy>
+    <BaseTaxonomy items="44">http://xbrl.sec.gov/dei/2023</BaseTaxonomy>
+    <BaseTaxonomy items="1345">https://xbrl.ifrs.org/taxonomy/2023-03-23/ifrs-full</BaseTaxonomy>
+  </BaseTaxonomies>
+  <HasPresentationLinkbase>true</HasPresentationLinkbase>
+  <HasCalculationLinkbase>true</HasCalculationLinkbase>
+</FilingSummary>

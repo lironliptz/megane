@@ -1,0 +1,19 @@
+{
+  "accession": "0001213900-22-048800",
+  "form": "6-K",
+  "filingDate": "2022-08-17",
+  "reportDate": "2022-06-30",
+  "tier": 1,
+  "tierLabel": "MAJOR",
+  "category": "quarterly_results",
+  "summary": "6-K",
+  "signals": {
+    "isXBRL": true,
+    "hasFinancials": true,
+    "fileCount": 8,
+    "exhibitCount": 0
+  },
+  "tags": [
+    "financials"
+  ]
+}

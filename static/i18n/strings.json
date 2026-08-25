@@ -1,0 +1,16 @@
+{
+  "sign_out": "Sign out",
+  "analyze_nav": "Analyze",
+  "admin_nav": "Admin",
+  "uploading": "Uploading {n} file(s)…",
+  "files_queued": "{n} file(s) queued — processing…",
+  "upload_failed": "Upload failed",
+  "upload_cancelled": "Upload cancelled",
+  "analysis_complete": "Analysis complete",
+  "loading": "Loading…",
+  "sign_in": "Sign in",
+  "signing_in": "Signing in…",
+  "email_label": "Email address",
+  "password_label": "Password",
+  "login_failed": "Login failed"
+}

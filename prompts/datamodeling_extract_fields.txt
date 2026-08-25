@@ -1,0 +1,24 @@
+The uploaded file could not be parsed. Return a minimal valid JSON response indicating
+that extraction was not possible. Use this exact shape:
+
+{
+  "file_type": "unknown",
+  "processing_strategy": {
+    "use_ocr": false, "convert_to_image": false, "multi_pass": false, "passes": [],
+    "rationale": "File could not be processed"
+  },
+  "metadata": { "format": "unknown", "size_bytes": 0, "has_embedded_text": false },
+  "user_field_hints_resolution": [],
+  "proposed_schema": { "fields": [] },
+  "refinement_notes": "Extraction failed — no schema proposed",
+  "needs_manual_help": true,
+  "manual_questions": [
+    {
+      "question_id": "q0",
+      "question": "This file could not be parsed. What format is it supposed to be, and can you provide a readable version?",
+      "context": "File upload stage"
+    }
+  ]
+}
+
+Return ONLY the JSON.

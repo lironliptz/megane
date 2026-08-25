@@ -1,0 +1,116 @@
+{
+  "template": "megane",
+  "purpose": "Go + Gin + SQLite template for web AI document pipelines; sprouts customize prompts, LLM JSON shape, and static UI.",
+  "agent_entrypoints": [
+    "AGENTS.md",
+    "sprout.index.json",
+    "CLAUDE.md"
+  ],
+  "cursor_rules": ".cursorrules",
+  "skills": [
+    { "id": "sprout-quickstart",  "path": ".claude/skills/sprout-quickstart/SKILL.md",  "when": "First orientation — where to start, key files, gotchas" },
+    { "id": "new-field",          "path": ".claude/skills/new-field/SKILL.md",           "when": "Add a field to the LLM output struct + prompt + UI in sync" },
+    { "id": "customize-output",   "path": ".claude/skills/customize-output/SKILL.md",    "when": "Replace DocumentAnalysis with a domain-specific struct end-to-end" },
+    { "id": "customize-ui",       "path": ".claude/skills/customize-ui/SKILL.md",        "when": "Colors, copy, layout widths, result modal renderer" },
+    { "id": "add-file-type",      "path": ".claude/skills/add-file-type/SKILL.md",       "when": "Support a new MIME / file format in the upload pipeline" },
+    { "id": "add-db-table",       "path": ".claude/skills/add-db-table/SKILL.md",        "when": "Add a SQLite table, query helpers, optional API endpoint" },
+    { "id": "new-route",          "path": ".claude/skills/new-route/SKILL.md",           "when": "Add a new HTTP API endpoint" },
+    { "id": "new-admin-tab",      "path": ".claude/skills/new-admin-tab/SKILL.md",       "when": "Add a tab to the admin panel" },
+    { "id": "new-jumpstart-field","path": ".claude/skills/new-jumpstart-field/SKILL.md", "when": "Add a config field to the Jump-Start wizard" },
+    { "id": "test-pipeline",      "path": ".claude/skills/test-pipeline/SKILL.md",       "when": "Upload a file via curl and check pipeline result end-to-end" },
+    { "id": "production-debugging","path": ".claude/skills/production-debugging/SKILL.md","when": "Trace errors from logs to exact Go/static files" }
+  ],
+  "customization_surfaces": [
+    {
+      "id": "prompts",
+      "paths": ["prompts/system.txt", "prompts/analyze.txt"],
+      "role": "Primary business logic as plain text; loaded at startup into pipeline.",
+      "must_sync_with": ["internal/models/document_analysis.go"]
+    },
+    {
+      "id": "llm_response_schema",
+      "paths": ["internal/models/document_analysis.go"],
+      "role": "DocumentAnalysis (default) or domain structs. json + description tags feed llm.BuildSchema → Gemini structured output. Implement LLMOutput interface (SchemaName() string). Register via pipe.Routes in cmd/server/main.go.",
+      "must_sync_with": ["prompts/*.txt", "static/js/analyze.js"]
+    },
+    {
+      "id": "pipeline_routes",
+      "paths": ["cmd/server/main.go", "internal/pipeline/route.go"],
+      "role": "pipe.Routes maps MIME types to output structs and optional custom Process functions. First matching Route wins; nil Matches = catch-all.",
+      "must_sync_with": ["internal/models/"]
+    },
+    {
+      "id": "analyze_ui",
+      "paths": ["static/js/analyze.js", "static/index.html", "static/css/style.css"],
+      "role": "Landing upload UX and modal rendering of JSON result (renderAnalysis ~line 161).",
+      "must_sync_with": ["internal/models/document_analysis.go"]
+    },
+    {
+      "id": "admin_ui",
+      "paths": ["static/admin.html"],
+      "role": "Admin tabs; extend only if new admin APIs exist.",
+      "must_sync_with": ["internal/admin", "internal/handlers/router.go"]
+    },
+    {
+      "id": "database",
+      "paths": ["internal/db/migrations.sql", "internal/db/db.go"],
+      "role": "Schema + migrations (append-only, CREATE TABLE IF NOT EXISTS). Query helpers as methods on *DB.",
+      "must_sync_with": []
+    },
+    {
+      "id": "file_converters",
+      "paths": ["internal/fileconv/"],
+      "role": "One Converter per MIME family. Register in init() in converter.go. Add MIME to allowedMIMETypes in internal/handlers/files.go.",
+      "must_sync_with": ["internal/handlers/files.go"]
+    }
+  ],
+  "pipeline": {
+    "entry_file": "internal/pipeline/pipeline.go",
+    "route_file": "internal/pipeline/route.go",
+    "upload_handler": "internal/handlers/files.go",
+    "status_poll_endpoint": "GET /api/files/:id/status",
+    "result_endpoint": "GET /api/files/:id/result",
+    "lifecycle_statuses": [
+      "uploaded",
+      "converting",
+      "llm_pending",
+      "llm_done",
+      "post_processing",
+      "complete",
+      "error"
+    ]
+  },
+  "llm_output": {
+    "interface": "models.LLMOutput (SchemaName() string)",
+    "default_struct": "models.DocumentAnalysis",
+    "default_file": "internal/models/document_analysis.go",
+    "schema_builder": "internal/llm/schema_builder.go",
+    "tag_format": "json:\"field_name\" description:\"hint for gemini\" enum:\"a,b,c\""
+  },
+  "css_tokens": {
+    "file": "static/css/style.css",
+    "accent": "--accent (brand color, buttons, links)",
+    "layout_width": "--layout-max-width",
+    "modal_width": "--modal-max-width",
+    "modal_wide_width": "--modal-wide-max-width"
+  },
+  "stable_packages": [
+    "internal/llm",
+    "internal/auth",
+    "internal/fileconv",
+    "internal/handlers/router.go"
+  ],
+  "commands": {
+    "run": "make run",
+    "test": "make test",
+    "docker": "make docker"
+  },
+  "env_template": ".env.example",
+  "notes": [
+    "CGO_ENABLED=1 required (sqlite3 + go-fitz). Makefile sets it.",
+    "SQLite default: DB_PATH=./.db/<app_slug>.db (see internal/db DefaultSQLitePath*).",
+    "Struct fields + prompts must stay in sync — Gemini sees both.",
+    "Adding a struct field without updating renderAnalysis in analyze.js means data is never shown.",
+    "Go module path in go.mod must be updated alongside all import paths if the app is renamed."
+  ]
+}

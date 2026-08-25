@@ -1,0 +1,18 @@
+{
+  "accessionNumber": "0001213900-23-067979",
+  "filingDate": "2023-08-16",
+  "reportDate": "2023-06-30",
+  "acceptanceDateTime": "2023-08-16T11:00:37.000Z",
+  "act": "34",
+  "form": "6-K",
+  "fileNumber": "001-35948",
+  "filmNumber": "231176457",
+  "items": "",
+  "core_type": "XBRL",
+  "size": 14514430,
+  "isXBRL": 1,
+  "isInlineXBRL": 1,
+  "isXBRLNumeric": null,
+  "primaryDocument": "ea182910-6k_kamada.htm",
+  "primaryDocDescription": "REPORT OF FOREIGN PRIVATE ISSUER"
+}

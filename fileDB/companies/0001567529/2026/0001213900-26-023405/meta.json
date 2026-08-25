@@ -1,0 +1,19 @@
+{
+  "accession": "0001213900-26-023405",
+  "form": "6-K",
+  "filingDate": "2026-03-04",
+  "reportDate": "2026-03-04",
+  "tier": 3,
+  "tierLabel": "MINOR",
+  "category": "earnings_preview",
+  "summary": "KAMADA TO ANNOUNCE FISCAL YEAR AND FOURTH QUARTER 2025 FINANCIAL RESULTS ON MARCH 11, 2026",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": [
+    "financials"
+  ]
+}

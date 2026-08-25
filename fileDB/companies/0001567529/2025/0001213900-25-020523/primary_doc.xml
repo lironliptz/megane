@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><edgarSubmission xmlns="http://www.sec.gov/edgar/schedule13g" xmlns:com="http://www.sec.gov/edgar/common">
+  <headerData>
+    <submissionType>SCHEDULE 13G/A</submissionType>
+    <filerInfo>
+      <filer>
+        <filerCredentials>
+          <!-- Field: Pseudo-Tag; ID: Name; Data: Gov Financial Holdings Ltd. -->
+          <cik>0001434863</cik>
+          <ccc>XXXXXXXX</ccc>
+        </filerCredentials>
+      </filer>
+      <liveTestFlag>LIVE</liveTestFlag>
+
+
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPageHeader>
+      <amendmentNo>8</amendmentNo>
+      <securitiesClassTitle>Ordinary Shares, par value NIS 1.0 per share</securitiesClassTitle>
+      <eventDateRequiresFilingThisStatement>12/31/2024</eventDateRequiresFilingThisStatement>
+      <issuerInfo>
+        <issuerCik>0001567529</issuerCik>
+        <issuerName>Kamada Ltd.</issuerName>
+        <issuerCusip>M6240T109</issuerCusip>
+        <issuerPrincipalExecutiveOfficeAddress>
+          <com:street1>2 Holzman St., Science Park</com:street1>
+          <com:street2>P.O. Box 4081</com:street2>
+          <com:city>Rehovot</com:city>
+          <com:stateOrCountry>L3</com:stateOrCountry>
+          <com:zipCode>7670402</com:zipCode>
+        </issuerPrincipalExecutiveOfficeAddress>
+      </issuerInfo>
+      <designateRulesPursuantThisScheduleFiled>
+        <designateRulePursuantThisScheduleFiled>Rule 13d-1(d)</designateRulePursuantThisScheduleFiled>
+      </designateRulesPursuantThisScheduleFiled>
+    </coverPageHeader>
+    <coverPageHeaderReportingPersonDetails>
+
+
+      <reportingPersonName>Gov Financial Holdings Ltd.</reportingPersonName>
+      <citizenshipOrOrganization>L3</citizenshipOrOrganization>
+      <reportingPersonBeneficiallyOwnedNumberOfShares>
+        <soleVotingPower>0.00</soleVotingPower>
+        <sharedVotingPower>1455459.00</sharedVotingPower>
+        <soleDispositivePower>0.00</soleDispositivePower>
+        <sharedDispositivePower>1455459.00</sharedDispositivePower>
+      </reportingPersonBeneficiallyOwnedNumberOfShares>
+      <reportingPersonBeneficiallyOwnedAggregateNumberOfShares>1455459.00</reportingPersonBeneficiallyOwnedAggregateNumberOfShares>
+      <aggregateAmountExcludesCertainSharesFlag>N</aggregateAmountExcludesCertainSharesFlag>
+      <classPercent>2.53</classPercent>
+      <typeOfReportingPerson>CO</typeOfReportingPerson>
+      <comments>* Gov Financial Holdings Ltd. ("Gov") is wholly-owned by Mr. Leon Recanati, who exercises sole voting and investment power over the shares held by Gov.
+
+** Calculated based on 57,505,031 ordinary shares of the Issuer outstanding as of December 31, 2024.</comments>
+    </coverPageHeaderReportingPersonDetails>
+    <coverPageHeaderReportingPersonDetails>
+
+      <reportingPersonName>Insight Capital Ltd.</reportingPersonName>
+      <citizenshipOrOrganization>L3</citizenshipOrOrganization>
+      <reportingPersonBeneficiallyOwnedNumberOfShares>
+        <soleVotingPower>0.00</soleVotingPower>
+        <sharedVotingPower>1346335.00</sharedVotingPower>
+        <soleDispositivePower>0.00</soleDispositivePower>
+        <sharedDispositivePower>1346335.00</sharedDispositivePower>
+      </reportingPersonBeneficiallyOwnedNumberOfShares>
+      <reportingPersonBeneficiallyOwnedAggregateNumberOfShares>1346335.00</reportingPersonBeneficiallyOwnedAggregateNumberOfShares>
+      <aggregateAmountExcludesCertainSharesFlag>N</aggregateAmountExcludesCertainSharesFlag>
+      <classPercent>2.34</classPercent>
+      <typeOfReportingPerson>CO</typeOfReportingPerson>
+      <comments>* Insight Capital Ltd. ("Insight") is wholly-owned by Mr. Leon Recanati, who exercises sole voting and investment power over the shares held by Insight.
+
+** Calculated based on 57,505,031 ordinary shares of the Issuer outstanding as of December 31, 2024.</comments>
+    </coverPageHeaderReportingPersonDetails>
+    <coverPageHeaderReportingPersonDetails>
+
+      <reportingPersonName>Leon Recanati</reportingPersonName>
+      <citizenshipOrOrganization>L3</citizenshipOrOrganization>
+      <reportingPersonBeneficiallyOwnedNumberOfShares>
+        <soleVotingPower>687645.00</soleVotingPower>
+        <sharedVotingPower>2801794.00</sharedVotingPower>
+        <soleDispositivePower>687645.00</soleDispositivePower>
+        <sharedDispositivePower>2801794.00</sharedDispositivePower>
+      </reportingPersonBeneficiallyOwnedNumberOfShares>
+      <reportingPersonBeneficiallyOwnedAggregateNumberOfShares>3489439.00</reportingPersonBeneficiallyOwnedAggregateNumberOfShares>
+      <aggregateAmountExcludesCertainSharesFlag>N</aggregateAmountExcludesCertainSharesFlag>
+      <classPercent>6.07</classPercent>
+      <typeOfReportingPerson>IN</typeOfReportingPerson>
+      <comments>* Mr. Recanati directly holds 631,145 ordinary shares of the Issuer and options to purchase 56,500 ordinary shares of the Issuer currently exercisable or exercisable within 60 days of December 31, 2024. In addition, Mr. Recanati beneficially owns 1,455,459 ordinary shares of the Issuer through Gov and 1,346,335 ordinary shares of the Issuer through Insight, both of which are wholly-owned by Mr. Leon Recanati.
+
+** Calculated based on 57,505,031 ordinary shares of the Issuer outstanding as of December 31, 2024.</comments>
+    </coverPageHeaderReportingPersonDetails>
+    <items>
+      <item1>
+        <issuerName>Kamada Ltd.</issuerName>
+        <issuerPrincipalExecutiveOfficeAddress>2 Holzman St., Science Park, P.O. Box 4081, Rehovot, 7670402, Israel</issuerPrincipalExecutiveOfficeAddress>
+      </item1>
+      <item2>
+        <filingPersonName>Gov Financial Holdings Ltd.
+Insight Capital Ltd.
+Leon Recanati</filingPersonName>
+        <principalBusinessOfficeOrResidenceAddress>27 Yoav St. 69081, Israel</principalBusinessOfficeOrResidenceAddress>
+        <citizenship>Israel</citizenship>
+      </item2>
+      <item3>
+        <notApplicableFlag>Y</notApplicableFlag>
+      </item3>
+      <item4>
+        <amountBeneficiallyOwned>Gov Financial Holdings Ltd. 1,455,459 Ordinary Shares
+Insight Capital Ltd. 1,346,335
+Leon Recanati 3,489,439 Ordinary Shares</amountBeneficiallyOwned>
+        <classPercent>Gov Financial Holdings Ltd. 2.53%*
+Insight Capital Ltd. 2.34%*
+Leon Recanati 6.07%*
+
+* Calculated based on 57,505,031 ordinary shares of the Issuer outstanding as of December 31, 2024.</classPercent>
+        <numberOfSharesPersonHas>
+          <solePowerOrDirectToVote>See Item 5 of each cover page.</solePowerOrDirectToVote>
+          <sharedPowerOrDirectToVote>See Item 6 of each cover page.</sharedPowerOrDirectToVote>
+          <solePowerOrDirectToDispose>See Item 7 of each cover page.</solePowerOrDirectToDispose>
+          <sharedPowerOrDirectToDispose>See Item 8 of each cover page.
+
+* Calculations are based on 57,505,031 Ordinary Shares of the Issuer outstanding as of December 31, 2024.</sharedPowerOrDirectToDispose>
+        </numberOfSharesPersonHas>
+      </item4>
+      <item5>
+        <notApplicableFlag>Y</notApplicableFlag>
+      </item5>
+      <item6>
+        <notApplicableFlag>Y</notApplicableFlag>
+      </item6>
+      <item7>
+        <notApplicableFlag>Y</notApplicableFlag>
+      </item7>
+      <item8>
+        <notApplicableFlag>Y</notApplicableFlag>
+      </item8>
+      <item9>
+        <notApplicableFlag>Y</notApplicableFlag>
+      </item9>
+      <item10>
+        <notApplicableFlag>Y</notApplicableFlag>
+      </item10>
+    </items>
+    <exhibitInfo>Exhibit 99.1 Joint Filing Agreement, dated March 5, 2025</exhibitInfo>
+    <signatureInformation>
+      <reportingPersonName>Gov Financial Holdings Ltd.</reportingPersonName>
+      <signatureDetails>
+        <signature>/s/ Leon Recanati</signature>
+        <title>Leon Recanati/Chairman and CEO</title>
+        <date>03/05/2025</date>
+      </signatureDetails>
+    </signatureInformation>
+    <signatureInformation>
+      <reportingPersonName>Insight Capital Ltd.</reportingPersonName>
+      <signatureDetails>
+        <signature>/s/ Leon Recanati</signature>
+        <title>Leon Recanati/Chairman and CEO</title>
+        <date>03/05/2025</date>
+      </signatureDetails>
+    </signatureInformation>
+    <signatureInformation>
+      <reportingPersonName>Leon Recanati</reportingPersonName>
+      <signatureDetails>
+        <signature>/s/ Leon Recanati</signature>
+        <title>Leon Recanati</title>
+        <date>03/05/2025</date>
+      </signatureDetails>
+    </signatureInformation>
+  </formData>
+
+</edgarSubmission>

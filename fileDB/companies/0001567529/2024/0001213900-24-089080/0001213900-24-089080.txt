@@ -1,0 +1,1711 @@
+<SEC-DOCUMENT>0001213900-24-089080.txt : 20241021
+<SEC-HEADER>0001213900-24-089080.hdr.sgml : 20241021
+<ACCEPTANCE-DATETIME>20241021070022
+ACCESSION NUMBER:		0001213900-24-089080
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		3
+CONFORMED PERIOD OF REPORT:	20241021
+FILED AS OF DATE:		20241021
+DATE AS OF CHANGE:		20241021
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		ORGANIZATION NAME:           	03 Life Sciences
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		241381950
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>ea0218093-6k_kamada.htm
+<DESCRIPTION>REPORT OF FOREIGN PRIVATE ISSUER
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="text-align: center; margin-top: 0; margin-bottom: 0"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 2pt solid; border-bottom: Black 1pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="text-align: center; margin-top: 0; margin-bottom: 0"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>UNITED STATES</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>SECURITIES AND EXCHANGE COMMISSION</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>Washington, D.C. 20549</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin: 0pt auto; width: 25%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>FORM 6-K</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin: 0pt auto; width: 25%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>Report of Foreign Private Issuer<BR>
+Pursuant to Rule&nbsp;13a-16 or 15d-16<BR>
+of the Securities Exchange&nbsp;Act&nbsp;of&nbsp;1934</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">For the&nbsp;Month of October 2024</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Commission File Number&nbsp;001-35948</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B></B></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin: 0pt auto; width: 25%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B></B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>Kamada Ltd.<BR>
+</B>(Translation of registrant&rsquo;s name into English)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B></B></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin: 0pt auto; width: 25%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>2 Holzman Street<BR>
+Science Park, P.O.&nbsp;Box 4081<BR>
+Rehovot 7670402<BR>
+Israel<BR>
+</B>(Address of principal executive offices)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Indicate by check mark whether the registrant
+files or will file annual reports under cover Form&nbsp;20-F or Form&nbsp;40-F.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Form&nbsp;20-F &#9746;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Form&nbsp;40-F &#9744;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>This Form&nbsp;6-K is being incorporated by
+reference into the Registrant&rsquo;s Form&nbsp;S-8 Registration Statements, File Nos.&nbsp;<A HREF="https://www.sec.gov/Archives/edgar/data/1567529/000117891313003548/zk1314048.htm">333-192720</A>,&nbsp;<A HREF="https://www.sec.gov/Archives/edgar/data/1567529/000117891315003362/zk1517560.htm">333-207933</A>,&nbsp;<A HREF="https://www.sec.gov/Archives/edgar/data/1567529/000117891317000388/zk1719386.htm">333-215983</A>,&nbsp;<A HREF="https://www.sec.gov/Archives/edgar/data/1567529/000117891318000396/zk1821132.htm">333-222891</A>,&nbsp;<A HREF="https://www.sec.gov/Archives/edgar/data/1567529/000117891319002187/zk1923409.htm">333-233267</A>
+and&nbsp;<A HREF="https://www.sec.gov/Archives/edgar/data/1567529/000121390022035395/ea161899-s8_kamadaltd.htm">333-265866</A>.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1pt solid; border-bottom: Black 2pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<!-- Field: Page; Sequence: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt">&nbsp;</P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B><U>Other Information</U></B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 24pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify; text-indent: 0.25in">Kamada Ltd. (the &ldquo;Company&rdquo;)
+announces that it will hold an Annual General Meeting of Shareholders on Wednesday, December 11, 2024 at 4:00&nbsp;p.m. (Israel time),
+at the offices of the Company at 2 Holzman Street, Weizmann Science Park, Rehovot, Israel. A copy of the Notice of Annual General Meeting
+of Shareholders and Proxy Statement and the proxy card are attached hereto as Exhibit 99.1 and Exhibit 99.2, respectively, and are incorporated
+herein by reference.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B><U>Exhibit</U></B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; width: 9%"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>Exhibit&nbsp;No.</B></FONT></TD>
+    <TD STYLE="white-space: nowrap; width: 1%">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; width: 90%"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>Description</B></FONT></TD></TR>
+  <TR STYLE="vertical-align: top; background-color: #CCEEFF">
+    <TD STYLE="text-align: justify"><FONT STYLE="font-size: 10pt">99.1</FONT></TD>
+    <TD STYLE="white-space: nowrap">&nbsp;</TD>
+    <TD STYLE="text-align: justify"><A HREF="ea021809301ex99-1_kamada.htm"><FONT STYLE="font-size: 10pt">Notice and Proxy Statement for Annual General Meeting of Shareholders to be held on December 11, 2024</FONT></A></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="text-align: justify"><FONT STYLE="font-size: 10pt">99.2</FONT></TD>
+    <TD STYLE="white-space: nowrap">&nbsp;</TD>
+    <TD STYLE="text-align: justify"><A HREF="ea021809301ex99-2_kamada.htm"><FONT STYLE="font-size: 10pt">Form of Proxy Card</FONT></A></TD></TR>
+  </TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<!-- Field: Page; Sequence: 2; Options: NewSection; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->1<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>SIGNATURE</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 24pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify; text-indent: 0.25in">Pursuant to the requirements
+of the Securities Exchange&nbsp;Act&nbsp;of&nbsp;1934, the registrant has duly caused this report to be signed on its behalf by the undersigned
+hereunto duly authorized.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 24pt">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD COLSPAN="2">
+    <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></P>
+    <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>KAMADA LTD.</B></P></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="width: 60%; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Date: October 21, 2024</FONT></TD>
+    <TD STYLE="width: 4%; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">By:</FONT></TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; width: 36%"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">/s/ Nir Livneh</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>
+    <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Nir Livneh</P>
+    <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>Vice President General Counsel and<BR>
+    Corporate Secretary</TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">2</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>ea021809301ex99-1_kamada.htm
+<DESCRIPTION>NOTICE AND PROXY STATEMENT FOR ANNUAL GENERAL MEETING OF SHAREHOLDERS TO BE HELD ON DECEMBER 11, 2024
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="text-align: right; margin: 0"><B>Exhibit 99.1</B></P>
+
+<P STYLE="margin: 0; text-align: right">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>KAMADA LTD.<BR>
+</B>2 Holzman Street<BR>
+Weizmann Science Park<BR>
+P.O.&nbsp;Box 4081<BR>
+Rehovot 7670402, Israel</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>NOTICE OF ANNUAL GENERAL MEETING OF SHAREHOLDERS</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Dear Shareholder:</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">We cordially invite you to
+attend the Annual General Meeting of Shareholders (the &ldquo;<B>Meeting</B>&rdquo;) of Kamada Ltd<FONT STYLE="font-family: Times New Roman, Times, Serif">.
+(the &ldquo;<B>Company</B>&rdquo;) to be held at our offices at 2 Holzman Street, Weizmann Science Park, Rehovot, Israel, on Wednesday,
+December&nbsp;11, 2024, at 4:00 p.m. (Israel time), for </FONT>the following purposes:</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 42pt; text-align: justify; text-indent: -0.25in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">(1)</TD><TD STYLE="text-align: justify">To re-elect seven directors to serve as members of our Board
+of Directors until our next annual general meeting of shareholders and until their respective successors are duly elected by the shareholders
+of the Company.</TD>
+</TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 42pt; text-align: justify; text-indent: -0.25in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">(2)</TD><TD STYLE="text-align: justify">To ratify and approve the re-appointment of Kost Forer Gabbay&nbsp;&amp;
+Kasierer, a member of Ernst&nbsp;&amp; Young Global, as our independent registered public accountants for the year ending December&nbsp;31,
+2024, and for such additional period until our next annual general meeting of shareholders.</TD>
+</TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">In addition to considering
+and voting on the foregoing proposals, representatives of our management will be available at the Meeting to review and discuss with shareholders
+our consolidated financial statements for the year ended December&nbsp;31, 2023.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"><B>Our Board of Directors recommends
+a vote &ldquo;FOR&rdquo; the re-election of each of the director nominees set forth in Proposal 1 and the other <FONT STYLE="font-family: Times New Roman, Times, Serif">proposal
+</FONT>described in the attached Proxy Statement.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">Shareholders of record at the
+close of business on October 28, 2024 (the (&ldquo;<B>Record Date</B>&rdquo;)<FONT STYLE="font-family: Times New Roman, Times, Serif">,</FONT>
+are entitled to notice of and to vote at the Meeting. <FONT STYLE="font-family: Times New Roman, Times, Serif">You</FONT> are also entitled
+to vote at the Meeting if you held ordinary shares through a bank, broker or other nominee that was a shareholder of record at the close
+of business on the Record Date or which appeared in the participant listing of a securities depository on that date, and if you held your
+shares through the Tel Aviv Stock Exchange (&ldquo;<B>TASE</B>&rdquo;) on that date. All shareholders are cordially invited to attend
+the Meeting in person, but only shareholders as of the Record Date are entitled to vote at the Meeting.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">If you are a shareholder of
+record, you can vote either by mailing in your proxy or in person by attending the Meeting. If voting by proxy, we will generally not
+be able to include your vote in the tally of ordinary shares voted at the Meeting unless your proxy is received by our transfer agent
+or at our registered office in Israel at least 48 hours prior to the appointed time of the Meeting. If you attend the Meeting, you may
+revoke your proxy (if previously submitted) and vote in person. If you are a beneficial owner of shares registered in the name of your
+broker, bank, trustee or nominee and you wish to vote in person at the Meeting, you must first obtain a &ldquo;legal proxy&rdquo; from
+your broker, bank, trustee or nominee that holds your shares giving you the right to vote the shares at the Meeting. Detailed proxy voting
+instructions are provided both in the Proxy Statement and on the enclosed proxy card.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">If you are a beneficial owner
+of shares registered in the name of a member of the TASE and wish to vote, either by proxy or in person by attending the Meeting, you
+must deliver to us a proof of ownership in accordance with the Israeli Companies Law, 1999 (&ldquo;<B>Israeli Companies Law</B>&rdquo;)
+and the Israeli Companies Regulations (Proof of Ownership of Shares for Voting at General Meetings), 2000. Such certification may be obtained
+at the TASE member&rsquo;s offices or may be sent to the shareholder by mail (subject to payment of the cost of mailing), at the election
+of the shareholder, provided that the shareholder&rsquo;s request is submitted with respect to a specific securities account. Shareholders
+who hold shares through members of the TASE may also vote electronically via the electronic voting system of the Israel Securities Authority
+(&ldquo;<B>ISA</B>&rdquo;) up to six hours before the time fixed for the Meeting. You should receive instructions about electronic voting
+from the TASE member through which you hold your shares.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"></P>
+
+<!-- Field: Page; Sequence: 1; Options: NewSection; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->1<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">The presence (in person, by
+proxy or via the ISA&rsquo;s electronic voting system) of two or more shareholders holding or representing, in the aggregate, at least
+twenty-five percent of our Company&rsquo;s voting rights will constitute a quorum at the Meeting. No business will be considered or determined
+at the Meeting unless the requisite quorum is present within half an hour from the time designated for the Meeting. If within half an
+hour from the time designated for the Meeting a quorum is not present, the Meeting will stand adjourned to the same&nbsp;day in the following
+week, at the same time and place. Any number of shareholders present (in person or by proxy or via the ISA&rsquo;s electronic voting system)
+will constitute a quorum at the adjourned meeting. This notice will serve as notice of such reconvened meeting if no quorum is present
+at the original date and time and no further notice of the reconvened meeting will be given to shareholders.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">The affirmative vote of the
+holders of a majority of the ordinary shares represented at the Meeting, in person, by proxy or via the ISA&rsquo;s electronic voting
+system, entitled to vote and voting on the matter, is required to elect each of the director nominees set forth in Proposal 1 and to approve
+the other proposal.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">The last date for submitting
+a request to include a proposal in accordance with Section 66(b) of the Israeli Companies Law, is October 28, 2024. Shareholders may review
+the full version of the proposed resolutions in the Proxy Statement as well as the accompanying proxy card, via the website of the U.S.&nbsp;Securities
+and Exchange Commission at <I>www.sec.gov </I>or via the ISA&rsquo;s electronic filing system at <I>http://www.magna.isa.gov.il</I> or
+the TASE&rsquo;s website at <I>http://maya.tase.co.il</I>, and also at our offices upon prior notice and during regular business&nbsp;hours
+(2 Holzman Street, Weizmann Science Park, Rehovot, Israel; Tel: +972-8-9406472<FONT STYLE="font-family: Times New Roman, Times, Serif">)</FONT>,
+until the date of the Meeting. Our Company&rsquo;s representatives are Mr. Nir Livneh, our Vice President General Counsel and Corporate
+Secretary and Ms. Rotem Green, our Legal Counsel (2 Holzman Street, Weizmann Science Park, Rehovot, Israel; Tel: +972-733-321705<FONT STYLE="font-family: Times New Roman, Times, Serif">).</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="width: 60%">&nbsp;</TD>
+    <TD STYLE="width: 40%; text-align: justify"><FONT STYLE="font-size: 10pt">Sincerely,</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid"><FONT STYLE="font-size: 10pt">/s/ Lilach Asher-Topilsky</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-size: 10pt">Lilach Asher-Topilsky</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-size: 10pt">Chair of the Board of Directors</FONT></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">October 21, 2024</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B></B></P>
+
+<!-- Field: Page; Sequence: 2; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->2<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>KAMADA LTD.<BR>
+</B>2 Holzman Street<BR>
+Weizmann Science Park<BR>
+P.O.&nbsp;Box 4081<BR>
+Rehovot 7670402, Israel</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>PROXY STATEMENT</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>ANNUAL GENERAL MEETING OF SHAREHOLDERS</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">This Proxy Statement is being
+furnished in connection with the solicitation of proxies on behalf of the Board of Directors of Kamada Ltd. (&ldquo;<B>we</B>,&rdquo;
+&ldquo;<B>us</B>,&rdquo; &ldquo;<B>our</B>,&rdquo; or the &ldquo;<B>Company</B>&rdquo;) to be voted at the Annual General Meeting of Shareholders
+(the &ldquo;<B>Meeting</B>&rdquo;), and at any adjournment thereof, pursuant to the accompanying Notice of Annual General Meeting of Shareholders.
+The Meeting will be held at our offices at 2 Holzman Street, Weizmann Science Park, Rehovot, Israel, on Wednesday, December 11, 2024,
+at 4:00 p.m. (Israel time).</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Purpose of the Annual General Meeting</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">At the Meeting, shareholders
+will be asked to consider and vote upon the following: (1) re-election of seven directors to serve as members of our Board of Directors
+until our next annual general meeting of shareholders and until their successors are duly elected by the shareholders of the Company;
+and (2) ratification and approval of the re-appointment of Kost Forer Gabbay&nbsp;&amp; Kasierer, a member of Ernst &amp; Young Global,
+as our independent registered public accountants for the year ending December 31, 2024 and for such additional period until our next annual
+general meeting of shareholders. In addition to considering and voting on the foregoing proposals, representatives of our management will
+be available at the Meeting to review and discuss with shareholders our consolidated financial statements for the year ended December&nbsp;31,
+2023.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">We are not aware of any other
+matters that will come before the Meeting. If any other matters properly come before the Meeting, the persons designated as proxies intend
+to vote on such matters in accordance with the judgment and recommendation of the Board of Directors.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Recommendation of the Board of Directors</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"><B>Our Board of Directors recommends
+a vote FOR the election of each of the director nominees set forth in Proposal 1 and each of the other proposals set forth in this Proxy
+Statement.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Who Can Vote</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">You are entitled to notice
+of, and to vote in person or by proxy at, the Meeting, if you are a holder of record of our ordinary shares as of the close of business
+on October 28, 2024 (the &ldquo;<B>Record Date</B>&rdquo;)<FONT STYLE="font-family: Times New Roman, Times, Serif">.</FONT> You are also
+entitled to notice of the Meeting and to vote at the Meeting if you held ordinary shares through a bank, broker or other nominee that
+is one of our shareholders of record at the close of business on the Record Date, or which appeared in the participant listing of a securities
+depository on that date, and if you held your shares through the Tel Aviv Stock Exchange (&ldquo;<B>TASE</B>&rdquo;) on that date. See
+below &ldquo;How You Can Vote.&rdquo;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>How You Can Vote</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in; text-align: justify; text-indent: -0.25in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in">&#9679;</TD><TD STYLE="text-align: justify"><B>Shares Traded on Nasdaq</B></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 60pt; text-align: justify; text-indent: -0.25in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in"><FONT STYLE="font-family: Times New Roman, Times, Serif">o</FONT></TD><TD STYLE="text-align: justify"><B><I>Voting in Person</I>. </B>If your shares are registered directly in your
+name with our transfer agent, American Stock Transfer&nbsp;&amp; Trust Company LLC, or in our register of shareholders (i.e., you are
+a &ldquo;registered shareholder&rdquo;), you may attend and vote in person at the Meeting. If you are a beneficial owner of shares registered
+in the name of your broker, bank, trustee or nominee (i.e., your shares are held in &ldquo;street name&rdquo;), you are also invited to
+attend the Meeting; however, to vote in person at the Meeting as a beneficial owner, you must first obtain a &ldquo;legal proxy&rdquo;
+from your broker, bank, trustee or nominee that holds your shares giving you the right to vote the shares at the Meeting.</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 60pt; text-align: justify; text-indent: -0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 60pt; text-align: justify; text-indent: -0.25in"></P>
+
+<!-- Field: Page; Sequence: 3; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->3<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 60pt; text-align: justify; text-indent: -0.25in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in"><FONT STYLE="font-family: Times New Roman, Times, Serif">o</FONT></TD><TD STYLE="text-align: justify"><B><I>Voting by Proxy</I>. </B>You may submit your proxy by mail by completing,
+signing and mailing the enclosed proxy card in the enclosed, postage-paid envelope, or, if your shares are held in &ldquo;street name,&rdquo;
+by following the voting instructions provided by your broker, bank trustee or nominee. We will generally not be able to include your vote
+in the tally of ordinary shares voted at the Meeting unless your proxy is received by our transfer agent or at our registered office in
+Israel at least 48 hours prior to the designated time for the Meeting. Upon receipt of a properly signed and dated proxy in the form enclosed,
+the persons named as proxies therein will vote the ordinary shares represented thereby in accordance with the instructions of the shareholder
+indicated thereon, or if directions are not given or directions are not in accordance with the options listed on a proxy card, such shares
+will be voted in accordance with the recommendations of our Board of Directors.</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in; text-align: justify; text-indent: -0.25in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in">&#9679;</TD><TD STYLE="text-align: justify"><B>Shares Traded on TASE </B></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 60pt; text-align: justify; text-indent: -0.25in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in"><FONT STYLE="font-family: Times New Roman, Times, Serif">o</FONT></TD><TD STYLE="text-align: justify"><B><I>Voting in Person or by Proxy</I>. </B>Shareholders who hold shares through
+members of the TASE may vote in person or through the enclosed form of proxy by completing, signing, dating and mailing the proxy with
+a copy of their identity card, passport or certificate of incorporation, as the case may be, to the Company&rsquo;s office in Israel.
+Shareholders who hold shares through members of the TASE and intend to vote their shares either in person or by proxy, must deliver to
+the Company an ownership certificate confirming their ownership of the Company&rsquo;s shares on the Record Date (&ldquo;<B>Ownership
+Certificate</B>&rdquo;), which must be certified by a recognized financial institution, as required by the Israeli Companies Regulations
+(Proof of Ownership of Shares for Voting at General Meeting) of 2000. Generally, a proxy (together with the Ownership Certificate) must
+be received at our registered office in Israel at least 48 hours prior to the designated time for the Meeting to be included in the tally
+of ordinary shares voted at the Meeting.</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 60pt; text-align: justify; text-indent: -0.25in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in"><FONT STYLE="font-family: Times New Roman, Times, Serif">o</FONT></TD><TD STYLE="text-align: justify"><B><I>Voting Electronically.</I>  </B>Shareholders who hold shares through members
+of the TASE may vote electronically via the electronic voting system of the Israel Securities Authority (&ldquo;<B>ISA</B>&rdquo;) up
+to six hours before the time fixed for the Meeting. You should receive instructions about electronic voting from the TASE member through
+which you hold your shares.</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Change or Revocation of Proxy</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">If you are a shareholder of
+record, you may change your vote at any time prior to the exercise of authority granted in the proxy by delivering a written notice of
+revocation to our General Counsel and Corporate Secretary, by granting a new proxy bearing a later date, or by attending the Meeting and
+voting in person. Attendance at the Meeting will not cause your previously granted proxy to be revoked unless you specifically so request.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">If your shares are held in
+&ldquo;street name,&rdquo; you may change your vote by submitting new voting instructions to your broker, bank, trustee or nominee or,
+if you have obtained a legal proxy from your broker, bank, trustee or nominee giving you the right to vote your shares, by attending the
+Meeting and voting in person.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">If you are a beneficial owner
+of shares registered in the name of a member of the TASE, you may change your vote (i)&nbsp;by attending the Meeting and voting in person,
+by presenting a valid Ownership Certificate as of the Record Date; (ii)&nbsp;by delivering a later-dated duly executed proxy, together
+with a valid Ownership Certificate as of the Record Date, to the Company&rsquo;s registered office in Israel at least 48 hours prior to
+the designated time for the Meeting, or (iii) by following the relevant instructions for changing your vote via the ISA&rsquo;s electronic
+voting system by no later than six hours before the time set for the Meeting.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Quorum</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">The presence (in person, by
+proxy or via the ISA&rsquo;s electronic voting system), of two or more shareholders holding or representing, in the aggregate, at least
+twenty-five percent of the Company&rsquo;s voting rights will constitute a quorum at the Meeting. No business will be considered or determined
+at the Meeting unless the requisite quorum is present within half an hour from the time designated for the Meeting. If within half an
+hour from the time designated for the Meeting a quorum is not present, the Meeting will stand adjourned to the same&nbsp;day in the following
+week, at the same time and place. Any number of shareholders present (in person, by proxy or via the ISA&rsquo;s electronic voting system),
+will constitute a quorum at the adjourned meeting. This notice will serve as notice of such reconvened meeting if no quorum is present
+at the original date and time and no further notice of the reconvened meeting will be given to shareholders.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"></P>
+
+<!-- Field: Page; Sequence: 4; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->4<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">Abstentions and broker non-votes
+will be counted towards the quorum. Broker non-votes occur for a particular proposal when brokers that hold their customers&rsquo; shares
+in street name, sign and submit proxies for such shares (in which case they are considered present for purposes of determining the presence
+of a quorum at the Meeting), but do not have the discretionary authority to vote on such particular proposal. Brokers that have not received
+voting instructions from their customers may vote such shares, as the holders of record, on &ldquo;routine&rdquo; matters but not on &ldquo;non-routine&rdquo;
+matters.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">Unsigned or unreturned proxies,
+including those not returned by banks, brokers, or other record holders, will not be counted for quorum or voting purposes.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Vote Required for Approval of the Proposals</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">Each ordinary share entitles
+the holder to one vote.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">The affirmative vote of the
+holders of a majority of the ordinary shares represented at the Meeting, in person, by proxy or via the ISA&rsquo;s electronic voting
+system, entitled to vote and voting on the matter, is required to elect each of the director nominees set forth in Proposal 1 and to approve
+the other proposal.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">In tabulating the voting results
+for any particular proposal, shares that constitute broker non-votes and abstentions are not considered votes cast on that proposal. Unsigned
+or unreturned proxies, including those not returned by banks, brokers, or other record holders, will not be counted for voting purposes.
+Therefore, it is important for a shareholder that holds ordinary shares through a bank or broker to instruct its bank or broker how to
+vote its shares if the shareholder wants its shares to count towards the vote tally for a given proposal.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Solicitation of Proxies</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">Proxies will be solicited by
+mail and may also be solicited in person, by telephone or electronic communication, by our directors, officers and employees. <FONT STYLE="font-family: Times New Roman, Times, Serif">We
+will bear the cost of soliciting proxies from our shareholders. </FONT>We will reimburse brokerage houses and other custodians, nominees
+and fiduciaries for their expenses in accordance with the regulations of the U.S.&nbsp;Securities and Exchange Commission (the &ldquo;<B>SEC</B>&rdquo;)
+concerning the sending of proxies and proxy material to the beneficial owners of our shares.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>Beneficial Ownership of Securities by Certain Beneficial Owners
+and Management</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">The following table sets forth
+certain information as of October 15, 2024 (unless otherwise indicated below) regarding the beneficial ownership by (i)&nbsp;each person
+known to us to beneficially own more than 5% of our outstanding ordinary shares; (ii)&nbsp;each of our current directors and director
+nominees; and (iii)&nbsp;all of our current directors and executive officers as a group.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">The percentage of beneficial
+ownership of our ordinary shares is based on 57,492,308 ordinary shares outstanding as of October 15, 2024. Beneficial ownership is determined
+in accordance with the rules of the SEC and generally includes voting power or investment power with respect to securities. Ordinary shares
+subject to options that are currently exercisable or exercisable within 60&nbsp;days of the date of the table are deemed to be outstanding
+and beneficially owned by the person holding such options for the purpose of computing the number of shares beneficially owned by such
+shareholder. Such shares are also deemed outstanding for purposes of computing the percentage ownership of the person holding the options.
+They are not, however, deemed to be outstanding and beneficially owned for the purpose of computing the percentage ownership of any other
+person or entity.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">Except as described in the
+footnotes below, we believe each shareholder has voting and investment power with respect to the ordinary shares indicated in the table
+as beneficially owned.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 24.1pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 24.1pt"></P>
+
+<!-- Field: Page; Sequence: 5; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->5<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 24.1pt">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="border-collapse: collapse; width: 100%; font: 10pt Times New Roman, Times, Serif">
+  <TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">Ordinary Shares <BR> Beneficially Owned</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom">
+    <TD STYLE="font-weight: bold; border-bottom: Black 1.5pt solid">Name</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">Number</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">Percentage</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom">
+    <TD STYLE="font-weight: bold; text-align: left">5% or Greater Shareholders</TD><TD>&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="text-align: right">&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="text-align: right">&nbsp;</TD><TD>&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="width: 76%"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">FIMI Funds<SUP>(1)</SUP> &nbsp;</FONT></TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 9%; text-align: right">22,084,287</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 9%; text-align: right">38.41</TD><TD STYLE="width: 1%; text-align: left">%</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">The Phoenix Holdings Ltd.<SUP>(2)</SUP> &nbsp;</FONT></TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">4,138,809</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">7.20</TD><TD STYLE="text-align: left">%</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Leon Recanati<SUP>(3)</SUP> &nbsp;</FONT></TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">3,537,886</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">6.15</TD><TD STYLE="text-align: left">%</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="font-weight: bold">Directors</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Lilach Asher Topilsky<SUP>(4)</SUP> &nbsp;</FONT></TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">34,000</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">*</FONT></TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: White">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Uri Botzer<SUP>(5)</SUP> &nbsp;</FONT></TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">7,500</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">*</FONT></TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Ishay Davidi<SUP>(6)</SUP> &nbsp;</FONT></TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">22,118,287</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">38.45</TD><TD STYLE="text-align: left">%</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: White">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Karnit Goldwasser<SUP>(7)</SUP> &nbsp;</FONT></TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">34,000</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">*</FONT></TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Lilach Payorski<SUP>(8)</SUP> &nbsp;</FONT></TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">7,500</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">*</FONT></TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: White">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Leon Recanati<SUP>(3)</SUP> &nbsp;</FONT></TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">3,537,886</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">6.15</TD><TD STYLE="text-align: left">%</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">David Tsur<SUP>(9) </SUP>&nbsp;&nbsp;</FONT></TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">656,929</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">1.14</TD><TD STYLE="text-align: left">%</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Prof. Benjamin Dekel<SUP>(10)</SUP> &nbsp;</FONT></TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">4,000</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">*</FONT></TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Assaf Itshayek<SUP>(11)</SUP> &nbsp;</FONT></TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">4,000</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">*</FONT></TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="font-weight: bold; font-style: normal; text-align: left"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>Directors and executive officers as a group</B> <FONT STYLE="font-style: normal; font-weight: normal">(21 persons)<SUP>(12)</SUP> &nbsp;</FONT></FONT></TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">27,181,242</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">47</TD><TD STYLE="text-align: left">%</TD></TR>
+  </TABLE>
+
+
+
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 24.1pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 24.1pt"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 25%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 24.1pt"></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in">*</TD><TD STYLE="text-align: justify">Less than 1% of our ordinary shares.</TD></TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.3in; text-align: left">(1)</TD><TD STYLE="text-align: justify">Based solely upon, and qualified in its entirety with reference
+to, Amendment No. 3 to Schedule&nbsp;13D filed with the SEC on September 7, 2023. According to the Statement, (A) (i) includes 4,421,909
+shares directly owned by FIMI Opportunity Fund 6, L.P. and 5,030,799 shares directly owned by FIMI Israel Opportunity Fund 6, Limited
+Partnership (together, the &ldquo;<B>FIMI 6 Funds</B>&rdquo;) and (ii) the 9,452,708 ordinary shares held by the FIMI 6 Funds are indirectly
+beneficially owned by FIMI&nbsp;6 2016 Ltd. (&ldquo;<B>FIMI&nbsp;6</B>&rdquo;), which serves as the managing general partner of the FIMI&nbsp;6
+Funds, and Or Adiv Ltd., a company controlled by Mr.&nbsp;Ishay Davidi, which controls FIMI 6; (B) (i) includes 4,911,158 shares directly
+owned by FIMI Opportunity 7, L.P. and 7,720,421 shares directly owned by FIMI Israel Opportunity Fund 7, Limited Partnership (together,
+the &ldquo;<B>FIMI 7 Funds</B>&rdquo;) and (ii) the 12,631,579 ordinary shares held by the FIMI 7 Funds are indirectly beneficially owned
+by FIMI&nbsp;7 2016 Ltd. (&ldquo;<B>FIMI 7</B>&rdquo;), which serves as the managing general partner of the FIMI 7 Funds, and O.D.N Seven
+Investments Ltd., a company controlled by Mr. Ishay Davidi, which controls FIMI 7; and (C) the 22,084,287 ordinary shares held by the
+FIMI 6 Funds and the FIMI 7 Funds are indirectly beneficially owned by Mr. Ishay Davidi. &nbsp;Information included in this footnote
+does not include 34,000 ordinary shares subject to options held directly by Mr.&nbsp;Ishay Davidi that are currently exercisable or exercisable
+within 60&nbsp;days of the date of the table.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.3in; text-align: left">(2)</TD><TD STYLE="text-align: justify">Based solely upon, and qualified in its entirety with reference
+to, a notice provided to the Company dated October 6, 2024, reporting its holdings as of September 30, 2024.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.3in; text-align: left">(3)</TD><TD STYLE="text-align: justify">Mr.&nbsp;Recanati (i) directly holds 631,145 ordinary shares
+and (ii) beneficially owns 1,511,406 ordinary shares through Gov and 1,346,335 ordinary shares through Insight, both of which are wholly
+owned by Mr. Recanati. &nbsp;In addition, includes options to purchase 49,000 ordinary shares directly held by Mr.&nbsp;Recanati that
+are currently exercisable or exercisable within 60&nbsp;days of the date of the table, at a weighted average exercise price of NIS 22.30
+(or $5.93) per share, which expire between June&nbsp;20, 2025 and June&nbsp;22, 2029. Does not include 22,500 ordinary shares subject
+to unvested options that are not exercisable within 60&nbsp;days of the date of the table.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.3in; text-align: left">(4)</TD><TD STYLE="text-align: justify">Subject to options to purchase 34,000 ordinary shares that
+are currently exercisable or exercisable within 60 days of the date of the table, at an exercise price of NIS 22.71 (or $6.04) per share,
+which expire between September 25, 2026 and June 22, 2029. Does not include 22,500 ordinary shares subject to unvested options that are
+not exercisable within 60 days of the date of the table.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.3in; text-align: left">(5)</TD><TD STYLE="text-align: justify">Subject to options to purchase 7,500 ordinary shares that
+are currently exercisable or exercisable within 60 days of the date of the table, at an exercise price of NIS 17.35 (or $4.61) per share,
+which expire on June 22, 2029. Does not include 22,500 ordinary shares subject to unvested options that are not exercisable within 60
+days of the date of the table.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<P STYLE="margin-top: 0; margin-bottom: 0"></P>
+
+<!-- Field: Page; Sequence: 6; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->6<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.3in; text-align: left">(6)</TD><TD STYLE="text-align: justify">Includes (i) 22,084,287 shares indirectly beneficially owned
+through the FIMI 6 Funds and FIMI 7 Funds. and (ii) 34,000 ordinary shares subject to options held directly held by Mr. Ishay Davidi
+that are currently exercisable or exercisable within 60 days of the date of the table, at a weighted average exercise price of NIS 22.71
+(or $6.04) per share, which expire between September 25, 2026 and June 22, 2029. Does not include 22,500 ordinary shares subject to unvested
+options held by Mr. Ishay Davidi that are not exercisable within 60 days of the date of the table.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.3in; text-align: left">(7)</TD><TD STYLE="text-align: justify">Subject to options to purchase 34,000 ordinary shares that
+are currently exercisable or exercisable within 60 days of the date of the table, at a weighted average exercise price of NIS 22.71 (or
+$6.04) per share, which expire between September 25, 2026 and June 22, 2029. Does not include 22,500 ordinary shares subject to unvested
+options that are not exercisable within 60 days of the date of the table.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.3in; text-align: left">(8)</TD><TD STYLE="text-align: justify">Subject to options to purchase 7,500 ordinary shares that
+are currently exercisable or exercisable within 60 days of the date of the table, at an exercise price of NIS 19.36 (or $5.15) per share,
+which expire on June 22, 2029. Does not include 22,500 ordinary shares subject to unvested options that are not exercisable within 60
+days of the date of the table.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.3in; text-align: left">(9)</TD><TD STYLE="text-align: justify">Mr. David Tsur directly holds 607,929 ordinary shares. In
+addition, includes options to purchase 49,000 ordinary shares directly held by Mr. Tsur that are currently exercisable or exercisable
+within 60 days of the date of the table, at a weighted average exercise price of NIS 22.30 (or $5.93) per share, which expire between
+June 20, 2025 and June 22, 2029. Does not include 22,500 ordinary shares subject to unvested options that are not exercisable within
+60 days of the date of the table.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.3in; text-align: left">(10)</TD><TD STYLE="text-align: justify">Subject to options to purchase 4,000 ordinary shares that
+are currently exercisable or exercisable within 60 days of the date of the table, at an exercise price of NIS 19.71 (or $5.24) per share,
+which expire on March 7, 2030. Does not include 12,000 ordinary shares subject to unvested options that are not exercisable within 60
+days of the date of the table.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.3in; text-align: left">(11)</TD><TD STYLE="text-align: justify">Subject to options to purchase 4,000 ordinary shares that
+are currently exercisable or exercisable within 60 days of the date of the table, at an exercise price of NIS 19.71 (or $5.24) per share,
+which expire on March 7, 2030. Does not include 12,000 ordinary shares subject to unvested options that are not exercisable within 60
+days of the date of the table.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.3in; text-align: left">(12)</TD><TD STYLE="text-align: justify">Includes 26,290,242 ordinary shares held by the company&rsquo;s
+executive officers. In addition, includes options to purchase 891,000 ordinary shares that are currently exercisable or exercisable within
+60 days of the date of the table, at a weighted average exercise price of NIS 20.54 (or $5.46) per share, which expire between December
+27, 2024 and March 7, 2030. For certain information regarding the directors&rsquo; beneficial ownership, See footnotes (1)-(11).</TD>
+</TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>Board Diversity Matrix</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">The table below provides certain
+information with respect to the diversity of our Board of Directors as of the date hereof.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; border-collapse: collapse; width: 100%">
+  <TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD>Country of Principal Executive Offices</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">Israel</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: White">
+    <TD>Foreign Private Issuer:</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">Yes</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD>Disclosure Prohibited Under Home Country Law</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">No</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="width: 90%; text-align: left; text-indent: -10pt; padding-left: 10pt">Total Number of Directors</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 9%; text-align: center">9</TD></TR>
+  </TABLE>
+
+
+<P STYLE="margin: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; border-collapse: collapse; width: 100%">
+  <TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="3" STYLE="border-bottom: Black 1.5pt solid; font-weight: bold; text-align: center">Female</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="3" STYLE="border-bottom: Black 1.5pt solid; font-weight: bold; text-align: center">Male</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="3" STYLE="border-bottom: Black 1.5pt solid; font-weight: bold; text-align: center">Non-Binary</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="3" STYLE="border-bottom: Black 1.5pt solid; font-weight: bold; text-align: center">Did Not<BR>
+ Disclose<BR>
+ Gender</TD></TR>
+  <TR STYLE="vertical-align: bottom">
+    <TD STYLE="font-weight: bold; text-align: left; text-indent: -10pt; padding-left: 10pt">Part&nbsp;I:&nbsp;Gender Identity</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="width: 52%; text-indent: -10pt; padding-left: 10pt">Directors</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: center">&nbsp;</TD><TD STYLE="width: 9%; text-align: center">3</TD><TD STYLE="width: 1%; text-align: center">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: center">&nbsp;</TD><TD STYLE="width: 9%; text-align: center">6</TD><TD STYLE="width: 1%; text-align: center">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: center">&nbsp;</TD><TD STYLE="width: 9%; text-align: center">&mdash;</TD><TD STYLE="width: 1%; text-align: center">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: center">&nbsp;</TD><TD STYLE="width: 9%; text-align: center">&mdash;</TD><TD STYLE="width: 1%; text-align: center">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: White">
+    <TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="font-weight: bold; text-align: left; text-indent: -10pt; padding-left: 10pt">Part&nbsp;II:&nbsp;Demographic Background</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left; text-indent: -10pt; padding-left: 10pt">Underrepresented Individual in Home Country Jurisdiction</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&mdash;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-indent: -10pt; padding-left: 10pt">LGBTQ+</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&mdash;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left; text-indent: -10pt; padding-left: 10pt">Did Not Disclose Demographic Background</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&mdash;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD></TR>
+  </TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B></B></P>
+
+<!-- Field: Page; Sequence: 7; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->7<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>Compensation of Executive Officers</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">For information regarding compensation
+paid to our directors and officers with respect to 2023, including compensation incurred by us in relation to our five most highly compensated
+office holders (within the meaning of the Israel Companies Law) for the year ended December&nbsp;31, 2023, see &ldquo;Item&nbsp;6. Directors,
+Senior Management and Employees&nbsp;&mdash;&nbsp;Compensation of Directors and Executive Officers&nbsp;&mdash;&nbsp;Compensation of Covered
+Executives&rdquo; of our annual report on Form&nbsp;20-F for the year ended December 31, 2023, filed with the SEC on March 6, 2024 (which
+we refer to as our &ldquo;<B>2023 Form 20-F</B>&rdquo;). Item 6.C of our 2023 Form 20-F (&ldquo;Board Practices&rdquo;) contains additional
+information regarding our Board of Directors, its committees and our corporate governance practices. We encourage you to review those
+portions of our 2023 Form 20-F.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>PROPOSAL 1<BR>
+RE-ELECTION OF DIRECTORS<BR>
+</B>(Item&nbsp;1 on the Proxy Card)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Background</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">Under our articles of association,
+the number of directors on our Board of Directors shall be no less than five and no more than 11. Our Board of Directors is currently
+comprised of nine directors: Mrs. Lilach Asher Topilsky, Mr.&nbsp;Uri Botzer, Mr.&nbsp;Ishay Davidi, Ms. Karnit Goldwasser, Ms. Lilach
+Payorski, Mr. Leon Recanati and Mr. David Tsur, all of whom were elected to serve in such capacity at our 2023 annual general meeting
+of shareholders, and Prof. Benjamin Dekel and Mr. Assaf Itshayek, who were elected to serve as external directors, within the meaning
+of the Companies Law, each for a three year term, at our extraordinary general meeting of shareholders held on August&nbsp;29, 2023. Each
+of our directors (other than our external directors) generally holds office until the first annual general meeting of shareholders following
+his or her appointment (unless the tenure of such director expires earlier, or a director is removed from office pursuant to the Israeli
+Companies Law).</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">Each of our currently serving
+directors (excluding our external directors) is standing for re-election at the Meeting, to hold office until our next annual general
+meeting of shareholders and until his or her successor is elected and qualified, subject to our articles of association and applicable
+law. Our Board of Directors has affirmatively determined that each of Mrs. Lilach Asher Topilsky, Mr.&nbsp;Uri Botzer, Mr.&nbsp;Ishay
+Davidi, Ms. Karnit Goldwasser, Ms. Lilach Payorski, Mr. Leon Recanati, Mr. David Tsur, Prof. Benjamin Dekel and Mr. Assaf Itshayek is
+an &ldquo;independent director&rdquo; as defined under the Nasdaq Listing Rules. Accordingly, subject to shareholder approval of the above
+director nominees, our Board of Directors will consist of nine members, all of whom satisfy the independence requirements of the Nasdaq
+Listing Rules.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">In accordance with the Israeli
+Companies Law, each of the director nominees has certified to us that he or she meets all the requirements of the Israeli Companies Law
+for election as a director of a public company, possesses the necessary qualifications and is able to dedicate sufficient time to fulfill
+his or her duties as a director of the Company, taking into consideration our Company&rsquo;s size and special needs.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Nominees for Director</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">The following biographical
+information is provided with respect to each director nominee based upon our records and information provided to us by each nominee.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"><B><I>&nbsp;</I></B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"><B><I>Lilach Asher Topilsky</I></B>
+has served as a member of our Board of Directors since December 2019, as the Chair of our Board of Directors since August 2020 and serves
+as a member of our Strategy Committee (as the Chair of the Strategy Committee since November 2023). Mrs. Asher Topilsky previously served
+as a member of our Compensation Committee from August 2020 until August 2023. Mrs. Asher Topilsky has been a Senior Partner in the FIMI
+Opportunity Funds, Israel&rsquo;s largest group of private equity funds, since December 2019. Mrs. Asher Topilsky currently serves as
+the chairman of Rimoni Industries Ltd. (TASE), SOS Ltd. Elyakim Ben Ari Group Ltd. and Amal and beyond Ltd. and as a director at Amiad
+Water Systems Ltd. (AIM), Ashot Ashkelon Industries Ltd. (TASE) and Tel Aviv University. Prior to joining FIMI, Mrs. Asher Topilsky served
+as the President and CEO of Israel Discount Bank (TASE), one of the leading banking groups in Israel, as the Chairman at IDBNY BANKCORP
+and as a director at IDB Bank New York from 2014 -2019. Mrs. Asher Topilsky also served as the Chairman of Mercantile Bank from 2014-2016.
+Before that, Mrs. Asher Topilsky served as a member of the management of Bank Hapoalim (TASE) as Deputy CEO &amp; Head of Retail Banking
+Division (2009-2013) and Head of Strategy &amp; Planning Division (2007-2009). Previously, Mrs. Asher Topilsky served as a Strategy Consultant
+at The Boston Consulting Group (BCG, Chicago 1997-1998) and at Shaldor Strategy Consulting (Israel 1995-1996). Mrs. Asher Topilsky holds
+an M.B.A. degree from Kellogg School of Management, Northwestern University, Chicago, USA (1997), and a B.A. degree in Management and
+Economics from Tel Aviv University, Israel (Magna Cum Laude, 1994).</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"></P>
+
+<!-- Field: Page; Sequence: 8; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->8<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"><B><I>Uri Botzer</I></B> has
+served as a member of our Board of Directors since December 2022. Mr. Botzer has been a Junior Partner in the FIMI Opportunity Funds,
+Israel&rsquo;s largest group of private equity funds, since 2019. Prior to joining FIMI, Mr. Botzer served as a lawyer at FISCHER (FBC
+&amp; Co.). Mr. Botzer holds a B.A. degree in Business Administration and a LL.B. (Bachelor of Law), Cum Laude, from Reichman University,
+Herzliya.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"><B><I>Ishay Davidi</I></B>
+has served on our Board of Directors since December 2019. Mr. Davidi is the Founder and has served as Chief Executive Officer of the FIMI
+Opportunity Funds, Israel&rsquo;s largest group of private equity funds, since 1996. Mr. Davidi currently serves as the Chairman of the
+Board of Directors of Polyram Plastic Industries Ltd (TASE) and Ashot Ashkelon Industries Ltd. (TASE). Mr. Davidi also serves as a director
+of Bet Shemesh Engines Ltd. (TASE), C. Mer Industries Ltd. (TASE), PCB Technologies Ltd. (TASE), Rekah Pharmaceutical Industries (TASE),
+SOS Ltd., GreenStream Ltd., Amiad Water Systems Ltd (AIM), Rimoni Industries Ltd. (TASE), Elyakim Ben-Ari Group Ltd. and Amal and Beyond
+Ltd. Mr. Davidi previously served as the Chairman of the Board of Directors of Infinya Ltd. (TASE), Inrom, Retalix (previously traded
+on NASDAQ and TASE) and Tefron Ltd. (NYSE and TASE) and as a director of G1 Security Systems Ltd. (TASE), Gilat Satellite Networks Ltd.
+(NASDAQ and TASE), Pharm Up Ltd (TASE), Ham-Let Ltd. (TASE), Ormat Industries Ltd. (previously traded on TASE), Lipman Electronic Engineering
+Ltd. (NASDAQ and TASE), Merhav Ceramic and Building Materials Center Ltd. (NASDAQ and TASE), Orian C.M. Ltd. (TASE), Ophir Optronics Ltd.,
+Overseas Commerce Ltd. (TASE), Scope Metals Group Ltd. (TASE), Tadir-Gan (Precision Products) 1993 Ltd. (TASE) and Formula Systems Ltd.
+(NASDAQ and TASE). Prior to establishing FIMI, from 1993 until 1996, Mr. Davidi was the Founder and Chief Executive Officer of Tikvah
+Fund, a private Israeli investment fund. From 1992 until 1993, Mr. Davidi served as the Chief Executive Officer of Zer Science Industries
+Ltd. Mr. Davidi holds an M.B.A. degree from Bar Ilan University, Israel, and a B.Sc. degree, with honors, in Industrial Engineering from
+the Tel Aviv University, Israel.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"><B><I>Karnit Goldwasser</I></B>
+has served on our Board of Directors since December 2019. Ms. Goldwasser served as a member of our Audit Committee and Compensation Committee
+from January 2020 until August 2023. Ms. Goldwasser serves as an independent consultant and environmental engineer for various agencies
+and organizations. Ms. Goldwasser is a director at Delek San Recycling Ltd. (since December 2016). Ms. Goldwasser previously served as
+a director at ELA Recycling Corporation (2015-September 2021), Orian DB Schenker (2017-2020) and at the government-owned Environmental
+Services Company Ltd., as chair of the Safety Committee (2010-2016), and as a member of the Tel Aviv-Jaffa City Council, holding the environmental
+portfolio (2013-2016). Ms. Goldwasser also served as a director in several Tel Aviv-Jaffa municipality corporations: Dan Municipal Sanitation
+Association, as chair of the audit committee; Tel Aviv-Jaffa Economic Development Authority; and Ganei Yehoshua Co. Ltd. Ms. Goldwasser
+holds a B.Sc. degree in Environmental Engineering, focusing on chemistry, mathematics and environmental engineering, a M.Sc. degree in
+Civil Engineering, specializing in Hydrodynamics and Water Resources, both from the Technion &ndash; Israel Institute of Technology, and
+a M.A. degree in Public Policy and Administration from the Lauder School of Government, Diplomacy and Strategy, IDC Herzliya. Ms. Goldwasser
+also completed the Directors Program at LAHAV, School of Management, Tel Aviv University.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"><B><I>Lilach Payorski</I></B>
+has served on our Board of Directors since December 2021 and has served as a member of our Audit Committee since such time (as the Chair
+of our Audit Committee from December 2021 until October 2023). Ms. Payorski served as the Group Chief Financial Officer of Delta Galil
+Industries (TASE: DELG) from May 2024 until October 2024. Prior to that, Ms. Payorski served as the Chief Financial Officer of Tyto Care
+Ltd. from November 2022 until March 2023. Prior to that, Ms. Payorski served as the Chief Financial Officer of Stratasys Ltd (NASDAQ:
+SSYS), a developer and manufacturer of 3D printers and additive solutions, from January 2017 to February 2022. From December 2012 until
+December 2016, Ms. Payorski served as Senior Vice President, Corporate Finance at Stratasys. From December 2009 to December 2012, Ms.
+Payorski served as Head of Finance at PMC-Sierra (NASDAQ: PMCS), a company operating in the semiconductors industry, which was subsequently
+acquired by Microsemi Corporation. Prior to that, from March 2005 to December 2009, Ms. Payorski served as Compliance Controller at Check
+Point Software Technologies Ltd. (NASDAQ: CHKP), a security company. Ms. Payorski also served as corporate controller at Wind River Systems
+(NASDAQ: WIND), a software company, which was subsequently acquired by Intel Corporation, from June 2003 to March 2005. Earlier in her
+career, from March 1997 to June 2003, Ms. Payorski worked as a chartered public accountant at Ernst &amp; Young LLP, both in Israel and
+later in Palo Alto, CA. Ms. Payorski currently serves as the chairman of the audit committee of ODDITY Ltd. (NASDAQ: ODD) and served as
+the chairman of the audit committee of Scodix Ltd. (TASE: SCDX) from October 2021 to October 2024. Ms. Payorski holds a B.A. degree in
+Accounting and Economics from Tel Aviv University. Ms. Payorski also completed the Board of Directors and Senior Corporate Officers Program
+at LAHAV, School of Management, Tel Aviv University.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"></P>
+
+<!-- Field: Page; Sequence: 9; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->9<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"><B><I>Leon Recanati</I></B>
+has served on our Board of Directors since May 2005, as the Chairman of our Board of Directors from March 2013 to August 2020. Mr.&nbsp;Recanati
+served as the Chairman of our Compensation Committee from February 2019 until September 2023. Mr.&nbsp;Recanati currently serves as the
+Chairman of MadaTech, National Museum of Science Technology and Space in memory of Daniel and Mathilde Recanati. Mr. Recanati currently
+serves as a board member of Evogene Ltd., a plant genomics company listed on the TASE and New York Stock Exchange. Mr. Recanati is also
+a board member of the following private companies: GlenRock Israel Ltd., Gov, RelTech Holdings Ltd., Legov Ltd., Insight Capital Ltd.,
+Shavit Capital Funds and Ofil Ltd. Mr. Recanati currently serves as the Chairman and Chief Executive Officer of GlenRock. Previously,
+Mr. Recanati was Chief Executive Officer and/or Chairman of IDB Holding Corporation Ltd., Clal Industries Ltd., Azorim Investment Development
+and Construction Co Ltd., Delek Israel Fuel Corporation and Super-Sol Ltd. Mr. Recanati also founded Clal Biotechnologies Industries Ltd.,
+a biotechnology investment company operating in Israel. Mr. Recanati holds an M.B.A. degree from the Hebrew University of Jerusalem and
+Honorary Doctorates from the Technion &ndash; Israel Institute of Technology and Tel Aviv University.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"><B><I>David Tsur</I></B> has
+served on our Board of Directors since our inception and serves as a member of our Strategy Committee. Mr. Tsur served as the Active Deputy
+Chairman on a half-time basis from July 2015 until December 31, 2019<FONT STYLE="font-family: Times New Roman, Times, Serif">. Prior to
+that, Mr. Tsur</FONT> served as our Chief Executive Officer from our inception until July 2015. Mr. Tsur currently serves as the Chairman
+of the Board of Directors of Kanabo Ltd. (LSE) and as a director of BioHarvest Sciences Inc. (CSE). Prior to co-founding Kamada in 1990,
+Mr. Tsur served as Chief Executive Officer of Arad Systems and RAD Chemicals Inc. Mr. Tsur previously served as the Chairman of the Board
+of Directors of CollPlant Ltd., a company listed on the TASE and OTC market. Mr. Tsur has also held various positions in the Israeli Ministry
+of Economy and Industry (formerly named the Ministry of Industry and Trade), including Chief Economist and Commercial Attach&eacute; in
+Argentina and Iran. Mr. Tsur holds a B.A. degree in Economics and International Relations and an M.B.A. degree in Business Management,
+both from the Hebrew University of Jerusalem.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">As permitted by the Nasdaq
+Listing Rules, we follow Israeli law and practice rather than the Nasdaq requirement for independent director oversight over our director
+nominations process. In accordance with Israeli law and practice, directors are recommended by our Board of Directors for election by
+our shareholders. Our Board of Directors reviewed the qualifications and suitability of each of the director nominees and our Board of
+Directors as a whole. We believe that our Board of Directors contains highly qualified and talented directors, including directors with
+global biopharmaceutical and financial experience. Accordingly, our Board of Directors approved the nomination of each of the director
+nominees.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">Under a shareholders&rsquo;
+agreement entered into on March 6, 2013, Mr. Recanati and any company controlled by him (collectively, the &ldquo;<B>Recanati Group</B>&rdquo;),
+on the one hand, and Damar Chemicals Inc., TUTEUR S.A.C.I.F.I.A (companies controlled by the Hahn family) and their affiliates (collectively,
+the &ldquo;<B>Damar Group</B>&rdquo;),&nbsp; on the other hand, have each agreed to vote the ordinary shares beneficially owned by them
+in favor of the election of director nominees designated by the other group as follows: (i) three director nominees, so long as the other
+group beneficially owns at least 7.5% of our outstanding share capital, (ii) two director nominees, so long as the other group beneficially
+owns at least 5.0% (but less than 7.5%) of our outstanding share capital, and (iii) one director nominee, so long as the other group beneficially
+owns at least 2.5% (but less than 5.0%) of our outstanding share capital. In addition, to the extent that after the designation of the
+foregoing director nominees there are additional director vacancies, each of the Recanati Group and Damar Group have agreed to vote the
+ordinary shares beneficially owned by them in favor of such additional director nominees designated by the party who beneficially owns
+the larger voting rights in our company.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">We are not aware of any reason
+why the nominees, if elected, would be unable or unwilling to serve as directors. Should the nominees be unavailable for election, the
+proxies will be voted for substitute nominees designated by our Board of Directors.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">If elected at the Meeting,
+the director nominees will be paid an annual fee and per-meeting fees in the maximum amounts payable from time to time by us under the
+Second and Third Addendums to the Companies Regulations (Rules Regarding Compensation and Expense Reimbursement of External Directors),
+2000. In addition, if elected at the Meeting, the director nominees shall continue to benefit from indemnification and exculpation agreements
+previously entered into with each of them, as well as from directors&rsquo; and officers&rsquo; liability insurance as we shall procure
+from time to time.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B></B></P>
+
+<!-- Field: Page; Sequence: 10; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->10<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Proposal</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">The shareholders are being
+asked to re-elect the seven directors named above to serve as members of our Board of Directors until our next annual general meeting
+of shareholders and until their respective successors are duly elected by the shareholders of the Company. Each director nominee shall
+be voted on separately.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Approval Required</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">See &ldquo;Vote Required for
+Approval of the Proposals&rdquo; above.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Board Recommendation</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"><B>The Board of Directors recommends
+a vote FOR the re-election of each nominee for director named above.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>PROPOSAL&nbsp;2<BR>
+RATIFICATION AND APPROVAL OF APPOINTMENT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTANTS<BR>
+</B>(Item 2 on the Proxy Card)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Background</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">At the Meeting, shareholders
+will be asked to ratify and approve the re-appointment of Kost Forer Gabbay&nbsp;&amp; Kasierer, registered public accounting firm, a
+member of Ernst&nbsp;&amp; Young Global, as our independent registered public accountants for the fiscal year ending December&nbsp;31,
+2024 and for such additional period until our next annual general meeting of shareholders, pursuant to the approval and recommendation
+of our Audit Committee and Board of Directors. Kost Forer Gabbay&nbsp;&amp; Kasierer has no relationship with us or any of our subsidiaries
+except as independent registered public accountants and, from time to time and to a limited extent, as tax consultants and providers of
+some audit-related and other services.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">The following table sets forth
+the aggregate fees for the professional services rendered by Kost Forer Gabbay &amp; Kasierer, a member of Ernst &amp; Young Global, in
+each of the previous two fiscal&nbsp;years:</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="border-collapse: collapse; width: 100%; font: 10pt Times New Roman, Times, Serif">
+  <TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">Year Ended <BR> December&nbsp;31,</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2023</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2022</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="width: 76%; text-indent: -10pt; padding-left: 10pt"><FONT STYLE="font-size: 10pt">Audit Fees<SUP>(1)</SUP></FONT></TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">430,000</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">365,000</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-indent: -10pt; padding-left: 10pt"><FONT STYLE="font-size: 10pt">Tax Fees<SUP>(2)</SUP></FONT></TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">111,243</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">186,445</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt; text-indent: -10pt; padding-left: 10pt"><FONT STYLE="font-size: 10pt">All Other Fees<SUP>(3)</SUP></FONT></TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">8,041</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">-</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="font-weight: bold; padding-bottom: 4pt; text-indent: -10pt; padding-left: 10pt">Total</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">549,284</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">551,445</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD></TR>
+  </TABLE>
+
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 24.1pt; text-align: justify; text-indent: -24.1pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 24.1pt; text-align: justify; text-indent: -24.1pt"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 25%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 24.1pt; text-align: justify; text-indent: -24.1pt"></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in">(1)</TD><TD STYLE="text-align: justify">&ldquo;Audit fees&rdquo; are aggregate fees for audit services for each of the years shown in this table,
+including fees associated with the annual audit and reviews of our quarterly financial results submitted on Form 6-K, the auditor attestation
+report on the effectiveness of our internal control over financial reporting, consultations on various accounting issues and audit services
+provided in connection with other statutory or regulatory filings.</TD></TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in">(2)</TD><TD STYLE="text-align: justify">&ldquo;Tax fees&rdquo; are for services rendered by our auditors in 2023 and 2022 for compliance with
+tax regulation.</TD></TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in">(3)</TD><TD STYLE="text-align: justify">&ldquo;Other fees&rdquo; are for environmental, social and governance related services rendered by our
+auditors in 2023.</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Proposal</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">It is proposed that at the
+Meeting the following resolution be adopted:</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.25in; text-align: justify">&nbsp;</P>
+
+<P STYLE="text-indent: 0.25in; font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify">&ldquo;RESOLVED, that the re-appointment
+of Kost Forer Gabbay&nbsp;&amp; Kasierer, a member of Ernst&nbsp;&amp; Young Global, as the independent registered public accountants
+of the Company for the year ending December&nbsp;31, 2024, and for such additional period until the next annual general meeting of shareholders,
+be and hereby is ratified and approved.&rdquo;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B></B></P>
+
+<!-- Field: Page; Sequence: 11; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->11<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Approval Required</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">See &ldquo;Vote Required for
+Approval of the Proposals&rdquo; above.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Board Recommendation</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in"><B>The Board of Directors recommends
+a vote FOR the re-appointment of Kost Forer Gabbay&nbsp;&amp; Kasierer, a member of Ernst &amp; Young Global, as our independent registered
+public accountants for the year ending December 31, 2024, and for such additional period until the next annual general meeting of shareholders.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>REVIEW AND DISCUSSION OF CONSOLIDATED FINANCIAL
+STATEMENTS</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">In addition to considering
+the foregoing agenda items at the Meeting, we will also present our audited consolidated financial statements for the year ended December&nbsp;31,
+2023. This Item will not involve a shareholder vote.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">Our audited consolidated financial
+statements for the year ended December&nbsp;31, 2023, which form part of our 2023 Form 20-F, are available under the &ldquo;Investor &amp;
+Media&rdquo; portion of our website at <I>www.kamada.com</I> or via the SEC&rsquo;s website at <I>www.sec.gov</I> or the website of the
+ISA at <I>www.magna.isa.gov.il</I>. Shareholders may receive a hard copy of the 2023 Form 20-F containing the consolidated financial statements
+free of charge upon request. None of the audited consolidated financial statements, the 2023 Form 20-F nor the contents of our website
+form part of the proxy solicitation material.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>OTHER MATTERS</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">Our Board of Directors does
+not intend to bring any matters before the Meeting other than those specifically set forth in the Notice of Annual General Meeting of
+Shareholders and knows of no matters to be brought before the Meeting by others. If any other matters properly come before the Meeting,
+it is the intention of the persons named in the accompanying proxy to vote such proxy in accordance with the judgment and recommendation
+of the Board of Directors.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>ADDITIONAL INFORMATION</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">We are subject to the information
+reporting requirements of the U.S. Securities Exchange&nbsp;Act&nbsp;of&nbsp;1934, as amended (the &ldquo;<B>Exchange Act</B>&rdquo;),
+applicable to foreign private issuers. The Company fulfills these obligations by filing reports with the SEC. Our filings with the SEC
+are available to the public on the SEC&rsquo;s website at <I>www.sec.gov</I>, the ISA&rsquo;s website at <I>www.magna.isa.gov.il</I>,
+the TASE&rsquo;s website at <I>http://maya.tase.co.il</I> and under the &ldquo;Investor &amp; Media&rdquo; portion of our website at <I>www.kamada.com</I>.
+The contents of our website do not form part of the proxy solicitation material.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">As a foreign private issuer,
+we are exempt from the rules under the Exchange Act related to the furnishing and content of proxy statements. The circulation of this
+proxy statement and related notice should not be taken as an admission that we are subject to those proxy rules.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.25in">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="width: 60%">&nbsp;</TD>
+    <TD STYLE="width: 40%; text-align: justify"><FONT STYLE="font-size: 10pt">By Order of the Board of Directors,</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid"><FONT STYLE="font-size: 10pt">/s/ Lilach Asher-Topilsky</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-size: 10pt">Lilach Asher-Topilsky</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-size: 10pt">Chair of the Board of Directors</FONT></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Date: October 21, 2024</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></P>
+
+<!-- Field: Page; Sequence: 12; Options: Last -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->12<!-- Field: /Sequence --></P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></P>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.2
+<SEQUENCE>3
+<FILENAME>ea021809301ex99-2_kamada.htm
+<DESCRIPTION>FORM OF PROXY CARD
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="text-align: right; margin-top: 0; margin-bottom: 0"><B>Exhibit 99.2</B></P>
+
+<P STYLE="text-align: center; margin-top: 0; margin-bottom: 0"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>KAMADA LTD.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>THIS PROXY IS SOLICITED ON BEHALF OF THE BOARD
+OF DIRECTORS</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">The undersigned hereby appoint(s)
+Chaime Orlev and Nir Livneh, or either of them, attorneys or attorney of the undersigned, for and in the name(s) of the undersigned, with
+power of substitution and revocation in each to vote any and all ordinary shares, par value NIS 1.0 per share, of Kamada Ltd. (the &ldquo;<B>Company</B>&rdquo;),
+which the undersigned would be entitled to vote as fully as the undersigned could if personally present at the Annual General Meeting
+of Shareholders of the Company to be held on Wednesday, December 11, 2024, at 4:00 p.m. (Israel time), at the offices of the Company,
+2 Holzman Street, Weizmann Science Park, Rehovot 7670402, Israel, and at any adjournment or adjournments thereof, and hereby revoking
+any prior proxies to vote said shares, upon the following items of business more fully described in the Notice and Proxy Statement for
+such Annual General Meeting (receipt of which is hereby acknowledged):</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>THIS PROXY WILL BE VOTED AS SPECIFIED ON THE
+REVERSE. IN THE ABSENCE OF SUCH SPECIFICATION, THE SHARES REPRESENTED BY THIS PROXY CARD WILL BE VOTED FOR THE RE-ELECTION OF THE DIRECTORS
+NAMED IN ITEM 1 AND FOR THE OTHER ITEM SET FORTH ON THE REVERSE. ON ANY OTHER BUSINESS THAT MAY PROPERLY COME BEFORE THE MEETING, THIS
+PROXY WILL BE VOTED IN ACCORDANCE WITH THE JUDGMENT OF THE PERSONS NAMED ABOVE AS PROXIES. </B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>(Continued and to be signed on the reverse side)</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B></B></P>
+
+<!-- Field: Page; Sequence: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>ANNUAL GENERAL MEETING OF SHAREHOLDERS</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>OF</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>KAMADA LTD.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">DECEMBER 11, 2024</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>GO GREEN</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; border-collapse: collapse">
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="width: 100%">
+    <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">e-Consent makes it easy to go paperless. With
+e-Consent, you can quickly access your proxy<BR>
+material, statements and other eligible documents online, while reducing costs, clutter and<BR>
+paper waste. Enroll today via www.amstock.com to enjoy online access.</P></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>Please sign, date and mail your proxy card in
+the</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>envelope provided as soon as possible.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center; text-indent: 0.5in"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Courier; margin: 0pt 0; text-align: center"><FONT STYLE="font-family: Symbol; font-size: 10pt"><B>&macr;</B></FONT>
+<FONT STYLE="font-family: Times New Roman, Times, Serif">Please detach along perforated line and mail in the envelope provided. </FONT><FONT STYLE="font-family: Symbol; font-size: 10pt"><B>&macr;</B></FONT></P>
+
+<P STYLE="font: 10pt Courier; margin: 0pt 0; text-align: center"><FONT STYLE="font-family: Symbol; font-size: 10pt"><B>&nbsp;</B></FONT></P>
+
+<P STYLE="font: 10pt Courier; margin: 0pt 0; text-align: center"><FONT STYLE="font-family: Symbol; font-size: 10pt"><B></B></FONT></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Courier; margin: 0pt 0; text-align: center"><FONT STYLE="font-family: Symbol; font-size: 10pt"><B></B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 2pt 0pt; text-align: justify"><B>THE BOARD OF DIRECTORS RECOMMENDS A VOTE &ldquo;FOR&rdquo;
+THE RE-ELECTION OF THE DIRECTORS NAMED IN ITEM 1 AND &ldquo;FOR&rdquo; THE OTHER PROPOSAL. PLEASE SIGN, DATE AND RETURN PROMPTLY IN THE
+ENCLOSED ENVELOPE. PLEASE MARK YOUR VOTE IN BLUE OR BLACK INK AS SHOWN HERE &#9746;</B></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 2pt 0pt 0pt; text-align: justify"><B></B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in; text-align: justify; text-indent: -0.5in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.5in">1.</TD><TD STYLE="text-align: justify">To re-elect seven directors to serve as members of the Company&rsquo;s Board of Directors until the next
+annual general meeting of shareholders and until their respective successors are duly elected by the shareholders of the Company.</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in; text-align: justify; text-indent: -0.5in">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; border-collapse: collapse">
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="width: 6%">&nbsp;</TD>
+    <TD STYLE="width: 43%; text-align: justify">&nbsp;</TD>
+    <TD STYLE="width: 17%; text-align: center"><FONT STYLE="font-size: 10pt"><B>FOR</B></FONT></TD>
+    <TD STYLE="width: 17%; text-align: center"><FONT STYLE="font-size: 10pt"><B>AGAINST</B></FONT></TD>
+    <TD STYLE="width: 17%; text-align: center"><FONT STYLE="font-size: 10pt"><B>ABSTAIN</B></FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-size: 10pt">Lilach Asher Topilsky</FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-size: 10pt">Uri Botzer</FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-size: 10pt">Ishay Davidi</FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-size: 10pt">Karnit Goldwasser</FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-size: 10pt">Lilach Payorski </FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-size: 10pt">Leon Recanati</FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-size: 10pt">David Tsur</FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744;</B></FONT></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.5in">2.</TD><TD STYLE="text-align: justify">To ratify and approve the re-appointment of Kost Forer Gabbay &amp; Kasierer, a member of Ernst &amp;
+Young Global, as the Company&rsquo;s independent registered public accountants for the year ending December 31, 2024, and for such additional
+period until the Company&rsquo;s next annual general meeting of shareholders.</TD></TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; border-collapse: collapse">
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="width: 6%">&nbsp;</TD>
+    <TD STYLE="width: 43%; text-align: justify"></TD>
+    <TD STYLE="width: 17%; text-align: center"><FONT STYLE="font-size: 10pt"><B>FOR</B></FONT></TD>
+    <TD STYLE="width: 17%; text-align: center"><FONT STYLE="font-size: 10pt"><B>AGAINST</B></FONT></TD>
+    <TD STYLE="width: 17%; text-align: center"><FONT STYLE="font-size: 10pt"><B>ABSTAIN</B></FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify">&nbsp;</TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744; </B></FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744; </B></FONT></TD>
+    <TD STYLE="text-align: center"><FONT STYLE="font-size: 10pt"><B>&#9744; </B></FONT></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">To change the address on your account, please
+check the box at right and indicate your new address in the address space above. Please note that changes to the registered name(s) on
+the account may not be submitted via this method. &#9744;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 4in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Signature of Shareholder _______ Date _____ Signature
+of Shareholder__________ Date _____</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 2in; text-align: justify"><B>&nbsp;</B></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.5in"><B>Note</B>:</TD><TD STYLE="text-align: justify">Please sign exactly as your name or names appear on this Proxy. When shares are held jointly, each holder
+should sign. When signing as executor, administrator, attorney, trustee or guardian, please give full title as such. If the signer is
+a corporation, please sign full corporate name by duly authorized officer, giving full title as such. If signer is a partnership, please
+sign in partnership name by authorized person.</TD></TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<P STYLE="margin-top: 0; margin-bottom: 0"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="margin-top: 0; margin-bottom: 0"></P>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

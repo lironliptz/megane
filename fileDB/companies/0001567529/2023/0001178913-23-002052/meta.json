@@ -1,0 +1,17 @@
+{
+  "accession": "0001178913-23-002052",
+  "form": "SC 13D/A",
+  "filingDate": "2023-05-24",
+  "reportDate": null,
+  "tier": 3,
+  "tierLabel": "MINOR",
+  "category": "unknown",
+  "summary": "EXHIBIT 1",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": []
+}

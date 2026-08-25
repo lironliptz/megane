@@ -1,0 +1,524 @@
+<SEC-DOCUMENT>0001178913-19-000299.txt : 20190206
+<SEC-HEADER>0001178913-19-000299.hdr.sgml : 20190206
+<ACCEPTANCE-DATETIME>20190206070012
+ACCESSION NUMBER:		0001178913-19-000299
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20190206
+FILED AS OF DATE:		20190206
+DATE AS OF CHANGE:		20190206
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		19569832
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>zk1922570.htm
+<DESCRIPTION>6-K
+<TEXT>
+<html>
+<head>
+<title></title>
+<!--Licensed to: Z-K GLOBAL
+    Document created using EDGARfilings PROfile 4.5.0.0
+    Copyright 1995 - 2019 Broadridge-->
+</head>
+<body style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif" bgcolor="#ffffff" text="#000000">
+<div>
+<hr style="BORDER-TOP: black 4px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 1px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+<div id="DSPFPageHeader">
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+</div>
+
+<div style="FONT-SIZE: 14pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">UNITED STATES</div>
+
+<div style="FONT-SIZE: 14pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">SECURITIES AND EXCHANGE COMMISSION</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Washington, D.C. 20549</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 14pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">FORM 6-K</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Report of Foreign Private Issuer</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Pursuant to Rule 13a-16 or 15d-16</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">of the Securities Exchange Act of 1934</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">For the Month of February 2019</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Commission File Number 001-35948</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 16pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Kamada Ltd.</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">(Translation of registrant&#8217;s name into English)</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">2 Holzman Street</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Science Park, P.O. Box 4081</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Rehovot 7670402</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Israel</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font> &#160;(Address of principal executive offices)</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Indicate by check mark whether the registrant files or will file annual reports under cover Form 20-F or Form 40-F.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Form 20-F&#160;&#9746;&#160;&#160; Form 40-F <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">&#9744;</font></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ____</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7): ____</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Indicate by check mark whether the registrant by furnishing the information contained in this Form is also thereby furnishing the information to the Commission pursuant to Rule 12g3-2(b) under the Securities Exchange Act of 1934.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Yes <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">&#9744;</font>&#160;&#160; No &#9746;</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">If &#8220;Yes&#8221; is marked, indicate below the file number assigned to the registrant in connection with Rule 12g3-2(b): 82&#8209;____</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">This Form 6-K is being incorporated by reference into the Registrant's Form S-8 Registration Statements, File Nos. 333-192720, 333-207933, 333-215983 and 333-222891,&#160;and the Registrant's Form F-3 Registration Statement, as amended, File No. 333-214816.</div>
+
+<div style="LINE-HEIGHT: 1.25; BACKGROUND-COLOR: #ffffff">
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="LINE-HEIGHT: 1.25">
+<hr style="BORDER-TOP: medium none; HEIGHT: 2px; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: #000000; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #000000; MARGIN-RIGHT: auto" align="center" noshade="noshade">
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">The following exhibit is attached:</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+ &#160;</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">99.1 Press Release: Kamada Announces Additional Interim Results from Phase 2 Proof of Concept Clinical Trial of Intravenous Alpha-1 Antitrypsin Treatment for Prevention of Lung Transplant Rejection.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; BACKGROUND-COLOR: #ffffff">SIGNATURE</div>
+
+<div style="LINE-HEIGHT: 1.25; BACKGROUND-COLOR: #ffffff">
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.<br style="LINE-HEIGHT: 1.25">
+</div>
+</div>
+
+<table id="z8e30ed5596a349f39dfdef7759a2fc14" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="VERTICAL-ALIGN: top; WIDTH: 49.4%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Date:&#160; February 6, 2019</div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 32.58%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">KAMADA LTD.</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 18.02%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+</td>
+</tr>
+
+<tr style="HEIGHT: 17px">
+<td style="VERTICAL-ALIGN: top; WIDTH: 49.4%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+</td>
+<td style="VERTICAL-ALIGN: top; BORDER-BOTTOM: #000000 2px solid; WIDTH: 32.58%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">By:&#160; /s/ Chaime Orlev </div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 18.02%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+</td>
+</tr>
+
+<tr>
+<td style="VERTICAL-ALIGN: top; WIDTH: 49.4%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 32.58%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Chaime Orlev<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font> Chief Financial Officer</div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 18.02%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+</td>
+</tr>
+</table>
+
+<div style="LINE-HEIGHT: 1.25; BACKGROUND-COLOR: #ffffff">
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; BACKGROUND-COLOR: #ffffff"><u>EXHIBIT INDEX</u></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<table id="zcd8652ce72764dc6bf129989df3d6bef" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="VERTICAL-ALIGN: top; BORDER-BOTTOM-COLOR: ; WIDTH: 10.78%; BACKGROUND-COLOR: #ffffff">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-VARIANT: normal; FONT-WEIGHT: normal; FONT-STYLE: normal; BACKGROUND-COLOR: #ffffff"><u>EXHIBIT NO.</u></font></div>
+</td>
+<td style="VERTICAL-ALIGN: top; BORDER-BOTTOM-COLOR: ; WIDTH: 89.22%; BACKGROUND-COLOR: #ffffff">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-VARIANT: normal; FONT-WEIGHT: normal; FONT-STYLE: normal; BACKGROUND-COLOR: #ffffff"><u>DESCRIPTION</u></font></div>
+</td>
+</tr>
+
+<tr>
+<td style="VERTICAL-ALIGN: top; WIDTH: 10.78%; BACKGROUND-COLOR: #ffffff">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25"><a href="exhibit_99-1.htm">99.1</a></div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 89.22%; BACKGROUND-COLOR: #ffffff">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; TEXT-INDENT: 7.1pt"><a href="exhibit_99-1.htm"></a>&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25"><a href="exhibit_99-1.htm">Press Release: Kamada Announces Additional Interim Results from Phase 2 Proof of Concept Clinical Trial of Intravenous Alpha-1 Antitrypsin Treatment for Prevention of Lung Transplant Rejection.</a></div>
+</td>
+</tr>
+</table>
+
+<div style="LINE-HEIGHT: 1.25; BACKGROUND-COLOR: #ffffff">
+<div style="LINE-HEIGHT: 1.25">
+<div id="DSPFPageHeader"></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="LINE-HEIGHT: 1.25; BACKGROUND-COLOR: #ffffff">
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+ &#160;</div>
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<hr style="BORDER-TOP: black 1px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 4px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+</div>
+</div>
+</div>
+</body>
+</html>
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>exhibit_99-1.htm
+<DESCRIPTION>EXHIBIT 99.1
+<TEXT>
+<html>
+<head>
+<title></title>
+<!--Licensed to: Z-K GLOBAL
+    Document created using EDGARfilings PROfile 4.5.0.0
+    Copyright 1995 - 2019 Broadridge-->
+</head>
+<body style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif" bgcolor="#ffffff" text="#000000">
+<div><br>
+<hr style="BORDER-TOP: black 4px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 1px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+</div>
+
+<div>&#160;</div>
+
+<div>
+<div id="DSPFPageHeader"></div>
+
+<div style="TEXT-ALIGN: right; FONT: bold 10pt/1.25 'Times New Roman', Times, serif"><u>Exhibit 99.1</u></div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: center; FONT: bold 12pt/1.25 'Times New Roman', Times, serif">Kamada Announces Additional Interim Results from Phase 2 Proof </div>
+
+<div style="TEXT-ALIGN: center; FONT: bold 12pt/1.25 'Times New Roman', Times, serif">of Concept Clinical Trial of Intravenous Alpha-1 Antitrypsin </div>
+
+<div style="TEXT-ALIGN: center; FONT: bold 12pt/1.25 'Times New Roman', Times, serif">Treatment for Prevention of Lung Transplant Rejection</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-STYLE: italic; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Kamada&#8217;s IV-AAT demonstrated a trend towards improvements in multiple clinical outcomes, </div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-STYLE: italic; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">including days on mechanical ventilation post-transplant, pulmonary function at week 4 and </div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-STYLE: italic; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">week 48 post-transplant and six-minute walk test.</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-STYLE: italic; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">Top-line Results Anticipated in H2 2019</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; BACKGROUND-COLOR: #ffffff">Rehovot, Israel, February 6, 2019</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff"> &#8211; Kamada Ltd. (NASDAQ &amp; TASE: KMDA), a plasma-derived protein therapeutics company focused on orphan indications, today announced interim results from the Company&#8217;s Phase 2 trial of intravenous Alpha-1 Antitrypsin (IV-AAT) for the prevention of lung transplant rejection following one year of treatment for all patients. The </font>study is being conducted at the Rabin Medical Center - Beilinson Hospital in Israel, under the leadership of Professor Mordechai R. Kramer, M.D., Director of the Institute of Pulmonary Medicine at the Center.&#160; The study is being conducted in collaboration with Shire plc, now owned by Takeda.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">The Phase 2 proof-of-concept trial is a randomized, open-label study of 30 lung transplant patients to evaluate the safety and efficacy of IV-AAT to prevent lung transplant rejection and assess impact on pulmonary function measured by FEV1 compared with standard-of-care treatment (SOC). Patients were randomized 2:1, with 20 patients assigned to the treatment group receiving IV-AAT in combination with SOC (AAT+SOC), and 10 patients assigned to the control group receiving only SOC. This is a two-year study, with one year of treatment and one year of follow-up.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">In January 2018, Kamada announced interim data summarizing the first six-months of treatment. These interim data were accepted for presentation at the International Society for Heart and Lung Transplantation 2019 Annual Meeting and Scientific Sessions, which will take place from April 3-6, 2019, in Orlando, Florida.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">In May 2018, the last patient enrolled in the study completed one year of treatment and began the one-year follow-up period.&#160; This most recent interim report summarizes data from the one year treatment period for all patients in the study.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">None of the adverse events (AEs) or serious adverse events (SAEs) observed to date were considered to be related to treatment with IV-AAT.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Acute rejection rates and pulmonary infections were similar in both study groups; 5 events of acute rejection were observed in 5 AAT+SOC patients (26%) vs. 4 events in 3 SOC patients (30%), and pulmonary infections were observed in 10&#160;AAT+SOC patients (53%) vs. 5 SOC patients (50%).</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Pulmonary function showed a trend towards improved FEV1% of predicted value in the AAT+SOC group at week 4 and week 48 post-transplantation compared to the SOC group (at week 4: 59.4 &#177; 3.8 for AAT+SOC vs. 45.6 &#177; 3.3 for SOC; At week 48: 58.0 &#177; 13.0 for AAT+SOC vs. 52.1 &#177; 3.9 for SOC).</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+ &#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">When compared to SOC, treatment with AAT+SOC demonstrated a trend towards a lower percentage of patients with Primary Graft Dysfunction (PGD) grade 3 on day 3 (15% of the patients with AAT+SOC vs. 30% of the patients with SOC treatment), and a shorter mechanical ventilation time post-surgery (median of 1 day with AAT+SOC vs. 4.5 days with SOC treatment).</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">In addition, the AAT+SOC group demonstrated a trend towards improved Six Minute Walk Test (6MWT) results at the end of week 48 as compared to the SOC group (445&#177;115 meters for AAT+SOC vs. 371&#177;144 meters for SOC).</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Throughout the one-year treatment period, 44 adverse events (AEs) were reported in the SOC group, while a total of 107 AEs were reported in the AAT+SOC group. This represents a rate of 1.5 and 1.8 AEs per 100 treatment days in the SOC and AAT+SOC groups, respectively. Out of the 44 AEs in the SOC group, 12 were serious adverse events (SAEs), while out of the 107 AEs in the AAT+SOC group, 31 were SAEs. This represents a rate of 0.4 and 0.5 SAEs per 100 treatment days in the SOC and AAT+SOC groups, respectively.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">During the one-year treatment period of the study, five patients in the AAT+SOC group and two patients in the SOC group, died. During the follow-up period, to date, three additional patients from the AAT+SOC group have died. All deaths were considered as resulting from common transplant-related complications and unrelated to treatment with IV-AAT.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#8220;Decreasing post-transplantation mechanical ventilation duration of lung-transplanted patients and reducing proportion of PGD are meaningful clinical targets that may also reduce long-term complications, such as chronic rejection,&#8221; said Prof. Kramer. &#8220;Lung transplant recipients suffer from numerous post-operative complications, prolonged hospitalization duration and high mortality rates. I am encouraged by the interim results of this study and believe that further advanced powered studies are warranted to validate these meaningful signals of improvement.&#8221;</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#8220;We are pleased by these interim results and look forward to top-line data from this study, which are expected in the second half of 2019,&#8221; said Amir London, Chief Executive Officer of Kamada.&#160; &#8220;This study is a reflection of Kamada&#8217;s dedication to the lung transplant community, a patient group with a significant unmet medical need. Moreover, our complementary ongoing AAT research programs in Graft vs. Host Disease (GvHD) and Organ Preservation demonstrate the broad potential utility and scalability of our drug and its unique mechanism of action. We believe that this franchise of transplantation-related AAT treatments represents a significant market opportunity for Kamada.&#8221;</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Shire, now owned by Takeda, has distribution rights and an exclusive license to Kamada&#8217;s IV-AAT product for all IV indications in the U.S., Canada, Australia, and New Zealand, while Kamada maintains rights in all other territories and all other AAT routes of administration.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+ &#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">About FEV1</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">FEV1 indicates the volume of air forcefully exhaled within the first second of exhalation. FEV1 expressed as percent of the value predicted based on gender, age and height. Low FEV1 values indicates the presence of breathing disorder and correlates with the severity of the disease.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">About PGD</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Primary graft dysfunction (PGD) is a syndrome of acute lung injury up to 72 hours after lung transplantation. PGD develops in approximately 20-30% of all lung transplant recipients. According to the International Society for Heart and Lung Transplantation (ISHLT), PGD is associated with higher rate of complications such as chronic rejection and higher mortality rate.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">About Mechanical Ventilation</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Mechanical ventilation assists or replaces patients&#8217; spontaneous breathing during and post transplantation. Prolonged mechanical ventilation is associated with higher rates of morbidity and mortality. </div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">About 6MWT</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">The six-minute walk test (6MWT) measures the distance an individual is able to walk over a total of six minutes on a hard, flat surface. The goal is for the individual to walk as far as possible in six minutes where an increase of more than 40 meters is clinically meaningful.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">About Kamada</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Kamada Ltd. is focused on plasma-derived protein therapeutics for orphan indications, and has a commercial product portfolio and a late-stage product pipeline. The Company uses its proprietary platform technology and know-how for the extraction and purification of proteins from human plasma to produce Alpha-1 Antitrypsin (AAT) in a highly-purified, liquid form, as well as other plasma-derived Immune globulins.&#160; AAT is a protein derived from human plasma with known and newly-discovered therapeutic roles given its immunomodulatory, anti-inflammatory, tissue-protective and antimicrobial properties. The Company&#8217;s flagship product is GLASSIA&#174;, the first liquid, ready-to-use, intravenous plasma-derived AAT product approved by the U.S. Food and Drug Administration. Kamada markets GLASSIA&#174; in the U.S. through a strategic partnership with Shire plc (now owned by Takeda) and in other counties through local distributors.&#160; In addition to GLASSIA&#174;, Kamada has a product line of six other plasma-derived pharmaceutical products administered by injection or infusion, that are marketed through distributors in more than 15 countries, including Israel, Russia, Brazil, India and other countries in Latin America and Asia. Kamada has late-stage products in development, including an inhaled formulation of AAT for the treatment of AAT deficiency, and in addition, it's intravenous AAT is in development for other indications, such as type-1 diabetes, GvHD and prevention of lung transplant rejection. Kamada's rabies immune globulin (Human) product received FDA approval for Post-Exposure Prophylaxis against rabies infection in August 2017 and was launched in the US during Q1-2018. Kamada also leverages its expertise and presence in the plasma-derived protein therapeutics market by distributing more than 10 complementary products in Israel that are manufactured by third parties.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Cautionary Note Regarding Forward-Looking Statements</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">This release includes forward-looking statements within the meaning of Section 21E of the U.S. Securities Exchange Act of 1934, as amended, and the safe harbor provisions of the U.S. Private Securities Litigation Reform Act of 1995.&#160; Forward-looking statements are statements that are not historical facts, such as (without limitation) statements regarding optimism related to study results and continued development program, timing of top line results publications and participation and presentation in medical conferences. Forward-looking statements are based on Kamada&#8217;s current knowledge and its present beliefs and expectations regarding possible future events and are subject to risks, uncertainties and assumptions.&#160; Actual results and the timing of events could differ materially from those anticipated in these forward-looking statements as a result of several factors including, but not limited to, unexpected results of ongoing clinical studies, delays with the studies, additional competition in the markets that Kamada competes, including AAT, regulatory delays, prevailing market conditions, and the impact of general economic, industry or political conditions in the U.S., Israel or otherwise. The forward-looking statements made herein speak only as of the date of this announcement and Kamada undertakes no obligation to update publicly such forward-looking statements to reflect subsequent events or circumstances, except as otherwise required by law.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">###</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">CONTACTS:</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Chaime Orlev</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Chief Financial Officer</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25"><u>IR@kamada.com</u></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">Bob Yedid</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">LifeSci Advisors, LLC</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">646-597-6989</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25"><u>Bob@LifeSciAdvisors.com</u></div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<hr style="BORDER-TOP: black 1px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 4px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+</div>
+</body>
+</html>
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

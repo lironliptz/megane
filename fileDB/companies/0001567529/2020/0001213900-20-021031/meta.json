@@ -1,0 +1,17 @@
+{
+  "accession": "0001213900-20-021031",
+  "form": "6-K",
+  "filingDate": "2020-08-10",
+  "reportDate": "2020-08-10",
+  "tier": 2,
+  "tierLabel": "MODERATE",
+  "category": "current_report",
+  "summary": "6-K",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 7,
+    "exhibitCount": 0
+  },
+  "tags": []
+}

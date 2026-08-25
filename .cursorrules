@@ -1,0 +1,68 @@
+# megane / sprout-app rules for Cursor AI
+
+## Read these files first (in order)
+1. `AGENTS.md` — checklist and hot paths (start here, most token-efficient)
+2. `sprout.index.json` — same as structured JSON (skills table, file paths, pitfalls)
+3. `CLAUDE.md` — full architecture detail (read when you need more depth)
+
+## Stack
+Go + Gin + SQLite3 (CGO required) · Gemini LLM (structured output via JSON schema) · Plain HTML/JS frontend · JWT auth
+
+## The three surfaces that change in every sprout
+1. `prompts/system.txt` — what the LLM does and what fields it populates
+2. `internal/models/document_analysis.go` — Go struct whose `json`+`description` tags drive the Gemini JSON schema
+3. `static/js/analyze.js` → `renderAnalysis()` (~line 161) — renders the result modal
+
+**These three must stay in sync.** Adding a field to the struct without updating the prompt and renderer is the most common mistake.
+
+## LLM output model rules
+- Every output struct must implement `models.LLMOutput` (one method: `SchemaName() string`)
+- Use `json:"field"` + `description:"hint for gemini"` on every field. `description` is passed verbatim to Gemini.
+- Register structs via `pipe.Routes` in `cmd/server/main.go`
+- Default struct: `models.DocumentAnalysis` in `internal/models/document_analysis.go`
+
+## Pipeline route registration (`cmd/server/main.go`)
+```go
+pipe.Routes = []pipeline.Route{
+    {
+        Name:      "my-domain",
+        Matches:   func(mime string) bool { return mime == "application/pdf" },
+        OutputFor: func(_ string) models.LLMOutput { return &models.MyStruct{} },
+        // Process: nil → built-in document analysis flow
+    },
+    // nil Matches = catch-all, place last
+}
+```
+
+## File converter rules (`internal/fileconv/`)
+- One file per format, implements `Converter` interface: `Extract(ctx, path) (string, error)` + `SupportedMIME() []string`
+- Register in `init()` in `converter.go`
+- Add MIME type to `allowedMIMETypes` in `internal/handlers/files.go`
+
+## Database rules
+- Migrations: `internal/db/migrations.sql` — **append only**, `CREATE TABLE IF NOT EXISTS`
+- Query helpers: methods on `*DB` in `internal/db/db.go`
+- Follow existing scan/exec pattern in `db.go`
+
+## API endpoint rules
+- User-facing endpoints: `internal/handlers/` + register in `/api` group in `router.go` with `auth.AuthRequired()`
+- Admin endpoints: `internal/admin/` + register in `/api/admin` group with `auth.AdminRequired()`
+- Return `gin.H{"data": ..., "error": nil}` on success; include HTTP status codes (400/404/500)
+
+## CSS / UI rules
+- All design tokens are CSS vars in `:root` in `static/css/style.css`
+- Brand color: `--accent` · Layout width: `--layout-max-width` · Modal: `--modal-wide-max-width`
+- Always use `escHtml()` before inserting LLM or user data into `innerHTML`
+
+## Commands
+```
+make run    # dev server (sets CGO_ENABLED=1)
+make test
+cp .env.example .env  # fill GEMINI_API_KEY + SESSION_SECRET; SQLite defaults to ./.db/megane.db
+```
+
+## Pitfalls
+- Struct ↔ prompt drift: if Gemini returns null/empty for a field, check that the prompt mentions it
+- Renderer gap: new struct fields invisible until `renderAnalysis()` is updated
+- CGO: SQLite + PDF require `CGO_ENABLED=1` — never use `go run` without it (use `make run`)
+- Go module rename: update all `import "megane/..."` paths when changing `go.mod` module name

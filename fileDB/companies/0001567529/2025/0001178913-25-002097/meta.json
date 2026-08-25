@@ -1,0 +1,19 @@
+{
+  "accession": "0001178913-25-002097",
+  "form": "SCHEDULE 13G/A",
+  "filingDate": "2025-06-05",
+  "reportDate": null,
+  "tier": 4,
+  "tierLabel": "ROUTINE",
+  "category": "ownership_disclosure",
+  "summary": "SCHEDULE 13G/A",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 7,
+    "exhibitCount": 0
+  },
+  "tags": [
+    "ownership"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "accession": "0000000000-19-011980",
+  "form": "UPLOAD",
+  "filingDate": "2019-08-02",
+  "reportDate": null,
+  "tier": 3,
+  "tierLabel": "MINOR",
+  "category": "unknown",
+  "summary": "UPLOAD",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 7,
+    "exhibitCount": 0
+  },
+  "tags": []
+}

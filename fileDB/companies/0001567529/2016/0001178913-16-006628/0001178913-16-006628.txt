@@ -1,0 +1,403 @@
+<SEC-DOCUMENT>0001178913-16-006628.txt : 20161006
+<SEC-HEADER>0001178913-16-006628.hdr.sgml : 20161006
+<ACCEPTANCE-DATETIME>20161006063021
+ACCESSION NUMBER:		0001178913-16-006628
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20161006
+FILED AS OF DATE:		20161006
+DATE AS OF CHANGE:		20161006
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		161923882
+
+	BUSINESS ADDRESS:	
+		STREET 1:		7 SAPIR ST. WEIZMANN SCIENCE PARK
+		CITY:			NESS ZIONA
+		STATE:			L3
+		ZIP:			74140
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		7 SAPIR ST. WEIZMANN SCIENCE PARK
+		CITY:			NESS ZIONA
+		STATE:			L3
+		ZIP:			74140
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>zk1619065.htm
+<DESCRIPTION>6-K
+<TEXT>
+<html>
+<head>
+<title></title>
+<!--Licensed to: ZKG
+    Document created using EDGARfilings PROfile 4.1.0.0
+    Copyright 1995 - 2016 Summit Financial Printing, LLC.  All rights reserved.-->
+</head>
+<body style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" bgcolor="#ffffff" text="#000000">
+<div>
+<hr style="BORDER-BOTTOM: black 1px solid; TEXT-ALIGN: center; BACKGROUND-COLOR: #ffffff; HEIGHT: 10px; COLOR: #ffffff; MARGIN-LEFT: auto; BORDER-TOP: black 4px solid; MARGIN-RIGHT: auto" align="center">
+</div>
+
+<div id="DSPFPageHeader">
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+</div>
+
+<div style="text-align: center; line-height: 1.25; font-variant: normal; font-style: normal; font-family: 'Times New Roman', Times, serif; font-size: 14pt; font-weight: bold;">UNITED STATES</div>
+
+<div style="text-align: center; line-height: 1.25; font-variant: normal; font-style: normal; font-family: 'Times New Roman', Times, serif; font-size: 14pt; font-weight: bold;">SECURITIES AND EXCHANGE COMMISSION</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Washington, D.C. 20549</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="text-align: center; line-height: 1.25; font-variant: normal; font-style: normal; font-family: 'Times New Roman', Times, serif; font-size: 14pt; font-weight: bold;">FORM 6-K</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Report of Foreign Private Issuer</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Pursuant to Rule 13a-16 or 15d-16</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">of the Securities Exchange Act of 1934</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">For the Month of October, 2016</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Commission File Number 001-35948</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="text-align: center; line-height: 1.25; font-variant: normal; font-style: normal; font-family: 'Times New Roman', Times, serif; font-size: 16pt; font-weight: bold;">Kamada Ltd.</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">(Translation of registrant&#8217;s name into English)</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">7 Sapir St.</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><br>
+</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Kiryat Weizmann Science Park</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><br>
+</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">P.O Box 4081</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><br>
+</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Ness Ziona 74140</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><br>
+</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Israel</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><br>
+</font> &#160;(Address of principal executive offices)</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Indicate by check mark whether the registrant files or will file annual reports under cover Form 20-F or Form 40-F.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Form 20-F <font style="FONT-FAMILY: 'Wingdings 2', serif; FONT-SIZE: 10pt">T</font>&#160;&#160; Form 40-F <font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">&#9744;</font></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ____</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7): ____</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Indicate by check mark whether the registrant by furnishing the information contained in this Form is also thereby furnishing the information to the Commission pursuant to Rule 12g3-2(b) under the Securities Exchange Act of 1934.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Yes <font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">&#9744;</font>&#160;&#160; No <font style="FONT-FAMILY: 'Wingdings 2', serif; FONT-SIZE: 10pt">T</font></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">If &#8220;Yes&#8221; is marked, indicate below the file number assigned to the registrant in connection with Rule 12g3-2(b): 82&#8209;____</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">This Form 6-K is being incorporated by reference into the Registrant&#8217;s Form S-8 Registration Statement File No. 333-192720.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="MARGIN-TOP: 10pt; MARGIN-BOTTOM: 10pt; CLEAR: both" id="DSPFPageBreakArea">
+<div style="PAGE-BREAK-AFTER: always" id="DSPFPageBreak">
+<hr style="BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: #000000; MARGIN: 4px 0px; WIDTH: 100%; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 2px; COLOR: #000000; CLEAR: both; BORDER-LEFT-WIDTH: 0px" noshade="noshade">
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">The following exhibit is attached:</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25"><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">99.1</font>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">News Release: Kamada Announces Extension of Glassia Supply and Distribution Agreement with Shire with Minimum $237 Million of Revenue for the Years 2017 to 2020</font></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="MARGIN-TOP: 10pt; MARGIN-BOTTOM: 10pt; CLEAR: both" id="DSPFPageBreakArea">
+<div style="PAGE-BREAK-AFTER: always" id="DSPFPageBreak">
+<hr style="BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: #000000; MARGIN: 4px 0px; WIDTH: 100%; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 2px; COLOR: #000000; CLEAR: both; BORDER-LEFT-WIDTH: 0px" noshade="noshade">
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; TEXT-INDENT: -36pt; FONT-FAMILY: 'Times New Roman', Times, serif; MARGIN-LEFT: 36pt; FONT-SIZE: 10pt; FONT-WEIGHT: bold">SIGNATURE</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">&#160;</div>
+
+<table style="WIDTH: 100%; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" id="z6dd61d3dd23a413d91f1e663bdec99c3" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 50%; VERTICAL-ALIGN: top">
+<div style="LINE-HEIGHT: 1.25">Date: October 6, 2016</div>
+</td>
+<td style="WIDTH: 3%; VERTICAL-ALIGN: top" colspan="2"><font style="FONT-WEIGHT: bold">KAMADA LTD.</font>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+</td>
+<td style="WIDTH: 24%; VERTICAL-ALIGN: top">&#160;</td>
+</tr>
+
+<tr>
+<td style="PADDING-BOTTOM: 2px; WIDTH: 50%; VERTICAL-ALIGN: top">&#160;</td>
+<td style="PADDING-BOTTOM: 2px; WIDTH: 3%; VERTICAL-ALIGN: top">By:</td>
+<td style="BORDER-BOTTOM: black 2px solid; WIDTH: 23%; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top">
+<div>/s/ Gil Efron</div>
+</td>
+<td style="PADDING-BOTTOM: 2px; WIDTH: 24%; VERTICAL-ALIGN: top">&#160;</td>
+</tr>
+
+<tr>
+<td style="WIDTH: 50%; VERTICAL-ALIGN: top">&#160;</td>
+<td style="WIDTH: 3%; VERTICAL-ALIGN: top">&#160;</td>
+<td style="WIDTH: 23%; VERTICAL-ALIGN: top">
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Gil Efron</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><br>
+</font> Deputy Chief Executive Officer and </div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Chief Financial Officer</div>
+</td>
+<td style="WIDTH: 24%; VERTICAL-ALIGN: top">&#160;</td>
+</tr>
+</table>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="MARGIN-TOP: 10pt; MARGIN-BOTTOM: 10pt; CLEAR: both" id="DSPFPageBreakArea">
+<div style="PAGE-BREAK-AFTER: always" id="DSPFPageBreak">
+<hr style="BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: #000000; MARGIN: 4px 0px; WIDTH: 100%; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 2px; COLOR: #000000; CLEAR: both; BORDER-LEFT-WIDTH: 0px" noshade="noshade">
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><u>EXHIBIT INDEX</u></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<table style="WIDTH: 100%; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" id="ze252dc2b99b8482a9d85a58846505997" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 10%; VERTICAL-ALIGN: top">
+<div style="text-align: center; line-height: 1.25; font-variant: normal; font-style: normal; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: normal;"><u>EXHIBIT NO.</u></div>
+</td>
+<td style="WIDTH: 90%; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top">
+<div style="FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: normal"><u>DESCRIPTION</u></div>
+</td>
+</tr>
+
+<tr>
+<td style="WIDTH: 10%; VERTICAL-ALIGN: top">&#160;</td>
+<td style="WIDTH: 90%; VERTICAL-ALIGN: top">&#160;</td>
+</tr>
+
+<tr>
+<td style="WIDTH: 10%; VERTICAL-ALIGN: top">
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25">99.1</div>
+</td>
+<td style="WIDTH: 90%; VERTICAL-ALIGN: top">
+<div style="LINE-HEIGHT: 1.25">News Release: Kamada Announces Extension of Glassia Supply and Distribution Agreement with Shire with Minimum $237 Million of Revenue for the Years 2017 to 2020</div>
+</td>
+</tr>
+</table>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<hr style="BORDER-BOTTOM: black 4px solid; TEXT-ALIGN: center; BACKGROUND-COLOR: #ffffff; HEIGHT: 10px; COLOR: #ffffff; MARGIN-LEFT: auto; BORDER-TOP: black 1px solid; MARGIN-RIGHT: auto" align="center">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+ &#160;</div>
+</body>
+</html>
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>exhibit_99-1.htm
+<DESCRIPTION>EXHIBIT 99.1
+<TEXT>
+<html>
+<head>
+<title></title>
+<!--Licensed to: ZKG
+    Document created using EDGARfilings PROfile 4.1.0.0
+    Copyright 1995 - 2016 Summit Financial Printing, LLC.  All rights reserved.-->
+</head>
+<body style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" bgcolor="#ffffff" text="#000000">
+<div>
+<hr style="BORDER-BOTTOM: black 1px solid; TEXT-ALIGN: center; BACKGROUND-COLOR: #ffffff; HEIGHT: 10px; COLOR: #ffffff; MARGIN-LEFT: auto; BORDER-TOP: black 4px solid; MARGIN-RIGHT: auto" align="center">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="text-align: right; line-height: 1.25; font-variant: normal; font-style: normal; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;"><u>EXHIBIT 99.1</u></div>
+
+<div style="LINE-HEIGHT: 1.25">
+<div id="DSPFPageHeader"></div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">&#160;</div>
+
+<div style="text-align: center; line-height: 1.25; font-variant: normal; font-style: normal; font-family: 'Times New Roman', Times, serif; font-size: 14pt; font-weight: bold;">Kamada Announces Extension of GLASSIA&#174; Supply and Distribution </div>
+
+<div style="text-align: center; line-height: 1.25; font-variant: normal; font-style: normal; font-family: 'Times New Roman', Times, serif; font-size: 14pt; font-weight: bold;">Agreement with Shire with Minimum $237 Million of Revenue for the </div>
+
+<div style="text-align: center; line-height: 1.25; font-variant: normal; font-style: normal; font-family: 'Times New Roman', Times, serif; font-size: 14pt; font-weight: bold;">Years 2017 to 2020</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-STYLE: italic; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Extended Agreement May Expand to $288 Million of Revenue in 2017 to 2020</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">NESS ZIONA, Israel &#8211; October 6, 2016 &#8211; Kamada Ltd. (NASDAQ and TASE: KMDA), </font>a plasma-derived protein therapeutics company focused on orphan indications,&#160;announced today the extension of the strategic partnership with <font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Shire plc (LSE: SHP, NASDAQ: SHPG) for GLASSIA</font><sup style="vertical-align: text-top; line-height: 1; font-size: smaller">&#174; </sup><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">.</font>&#160; Minimum revenue for GLASSIA in the extended agreement for the years 2017 to 2020 will reach approximately $237 million and may be expanded to $288 million during that period. Kamada will now continue to produce GLASSIA through 2020 for Shire, after which Shire may produce the product at their facility and pay Kamada established royalty rates. This represents the fourth time the companies have extended the contract for manufacturing supply of GLASSIA since the start of the strategic relationship in 2010.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">&#8220;The extension of our strategic partnership agreement with Shire is a testament to the growing market share and increasing demand for GLASSIA in the U.S., and to the strong strategic relationship between Kamada and Shire,&#8221; said Amir London, Kamada&#8217;s Chief Executive Officer.&#160; &#8220;This minimum commitment by Shire further strengthens our confidence in achieving the expected $100 million revenue target in 2017 and represents further growth in the following years.</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">&#160;</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">We have the capacity to support this increasing demand for GLASSIA and appreciate the trust of Shire in our capabilities, which are demonstrated in our supply agreement, as well as our co-development projects for IV-AAT for additional indications, including Graft-versus-Host Disease and lung transplant.&#8221;</font></div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Approved in 2010, GLASSIA is the first and only liquid ready-to-use augmentation product approved for the treatment of clinically evident emphysema due to severe AAT deficiency.&#160; Kamada and Shire (Baxter at the time) entered into an exclusive strategic cooperation agreement for the distribution and license of GLASSIA in 2010. Under the terms of the agreement, Shire is the exclusive distributor of GLASSIA in the U.S., Canada, Australia and New Zealand, and is licensed to produce GLASSIA using Kamada&#8217;s technology at a Shire facility for sales in those countries.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">About GLASSIA</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">GLASSIA is the first available ready-to-infuse liquid alpha1-proteinase inhibitor and is indicated as a chronic augmentation and maintenance therapy in adults with clinically evident emphysema due to severe congenital AAT deficiency. GLASSIA is administered intravenously once a week to augment the levels of AAT in the blood.&#160; AAT is a protein derived from human plasma with known and newly discovered therapeutic roles given its immunomodulatory, anti-inflammatory, tissue protective and antimicrobial properties. GLASSIA is approved by the FDA and is marketed through a strategic partnership with Baxalta in the United States.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Please see the full prescribing information for GLASSIA at:</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">http://www.baxalta.com/assets/documents/Glassia_PI.pdf</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="MARGIN-TOP: 10pt; MARGIN-BOTTOM: 10pt; CLEAR: both" id="DSPFPageBreakArea">
+<div style="PAGE-BREAK-AFTER: always" id="DSPFPageBreak">
+<hr style="BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: #000000; MARGIN: 4px 0px; WIDTH: 100%; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 2px; COLOR: #000000; CLEAR: both; BORDER-LEFT-WIDTH: 0px" noshade="noshade">
+</div>
+</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">About Kamada</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Kamada Ltd. is focused on plasma-derived protein therapeutics for orphan indications, and has a commercial product portfolio and a robust late-stage product pipeline. The Company uses its proprietary platform technology and know-how for the extraction and purification of proteins from human plasma to produce Alpha-1 Antitrypsin (AAT) in a highly-purified, liquid form, as well as other plasma-derived Immune globulins.&#160; AAT is a protein derived from human plasma with known and newly-discovered therapeutic roles given its immunomodulatory, anti-inflammatory, tissue-protective and antimicrobial properties. The Company&#8217;s flagship product is GLASSIA&#174;, the first and only liquid, ready-to-use, intravenous plasma-derived AAT product approved by the U.S. Food and Drug Administration. Kamada markets GLASSIA&#174; in the U.S. through a strategic partnership with Baxalta (now part of Shire plc) and in other counties through local distributors.&#160; In addition to GLASSIA&#174;, Kamada has a product line of seven other pharmaceutical products administered by injection or infusion, that are marketed through distributors in more than 15 countries, including Israel, Russia, Brazil, India and other countries in Latin America and Asia. Kamada has five late-stage plasma-derived protein products in development, including an inhaled formulation of AAT for the treatment of AAT deficiency for which a MAA was submitted to the EMA after completing a pivotal Phase 2/3 clinical trials in Europe. <font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">&#160;</font>Kamada has also completed its<font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">&#160;</font>Phase 2 clinical trials in the U.S for the treatment of AAT deficiency with inhaled AAT. In addition, Kamada's intravenous AAT is in development for other indications such as type-1 diabetes, GvHD and prevention of lung transplant rejection. Kamada also leverages its expertise and presence in the plasma-derived protein therapeutics market by distributing more than 10 complementary products in Israel that are manufactured by third parties.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; FONT-STYLE: italic; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Cautionary Note Regarding Forward-Looking Statements</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">This release includes forward-looking statements within the meaning of Section 27A of the U.S. Securities Act of 1933, as amended, Section 21E of the U.S. Securities Exchange Act of 1934, as amended, and the safe harbor provisions of the U.S. Private Securities Litigation Reform Act of 1995.&#160; Forward-looking statements are statements that are not historical facts, such as statements regarding assumptions and results related to financial results forecast, commercial results, timing and results of clinical trials and EMA and U.S. FDA submissions and authorizations.&#160; Forward-looking statements are based on Kamada&#8217;s current knowledge and its present beliefs and expectations regarding possible future events and are subject to risks, uncertainties and assumptions.&#160; Actual results and the timing of events could differ materially from those anticipated in these forward-looking statements as a result of several factors including, but not limited to, unexpected results of clinical trials, delays or denial in the U.S. FDA or the EMA approval process, additional competition in the AATD market or further regulatory delays.&#160; The forward-looking statements made herein speak only as of the date of this announcement and Kamada undertakes no obligation to update publicly such forward-looking statements to reflect subsequent events or circumstances, except as otherwise required by law.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">###</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">CONTACTS</font>:</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">&#160;</div>
+
+<table style="WIDTH: 50%; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" id="z20f423a21072482db4dbbbdfbab5ba5f" border="0" cellspacing="0" cellpadding="3">
+<tr>
+<td style="BORDER-BOTTOM: #000000 2px solid; BORDER-LEFT: #000000 2px solid; WIDTH: 50%; VERTICAL-ALIGN: top; BORDER-TOP: #000000 2px solid">
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Gil Efron</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Chief Financial Officer</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">ir@kamada.com</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+</td>
+<td style="BORDER-BOTTOM: #000000 2px solid; BORDER-LEFT: #000000 2px solid; WIDTH: 50%; VERTICAL-ALIGN: top; BORDER-TOP: #000000 2px solid; BORDER-RIGHT: #000000 2px solid">
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Bob Yedid</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">LifeSci Advisors</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">646-597-6989</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">bob@lifesciadvisors.com</div>
+</td>
+</tr>
+</table>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="LINE-HEIGHT: 1.25">
+<hr style="BORDER-BOTTOM: black 4px solid; TEXT-ALIGN: center; BACKGROUND-COLOR: #ffffff; HEIGHT: 10px; COLOR: #ffffff; MARGIN-LEFT: auto; BORDER-TOP: black 1px solid; MARGIN-RIGHT: auto" align="center">
+</div>
+</div>
+</body>
+</html>
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

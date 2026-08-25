@@ -1,0 +1,1285 @@
+<SEC-DOCUMENT>0001178913-23-000628.txt : 20230214
+<SEC-HEADER>0001178913-23-000628.hdr.sgml : 20230214
+<ACCEPTANCE-DATETIME>20230214162909
+ACCESSION NUMBER:		0001178913-23-000628
+CONFORMED SUBMISSION TYPE:	SC 13G/A
+PUBLIC DOCUMENT COUNT:		1
+FILED AS OF DATE:		20230214
+DATE AS OF CHANGE:		20230214
+
+SUBJECT COMPANY:	
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		SC 13G/A
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	005-87516
+		FILM NUMBER:		23630092
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+
+FILED BY:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Phoenix Holdings Ltd.
+		CENTRAL INDEX KEY:			0001679543
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		SC 13G/A
+
+	BUSINESS ADDRESS:	
+		STREET 1:		53 DERECH HA'SHALOM ST.
+		CITY:			GIVATAYIM
+		STATE:			L3
+		ZIP:			53454
+		BUSINESS PHONE:		972-3-733-2997
+
+	MAIL ADDRESS:	
+		STREET 1:		53 DERECH HA'SHALOM ST.
+		CITY:			GIVATAYIM
+		STATE:			L3
+		ZIP:			53454
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>SC 13G/A
+<SEQUENCE>1
+<FILENAME>zk2329245.htm
+<DESCRIPTION>SC 13G/A
+<TEXT>
+<html>
+  <head>
+    <title></title>
+    <!-- Licensed to: company
+         Document created using Broadridge PROfile 23.1.1.5115
+         Copyright 1995 - 2023 Broadridge -->
+  </head>
+<body bgcolor="#ffffff" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; text-align: left; color: #000000;">
+  <div>
+    <div style="font-size: 14pt; font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">
+      <hr align="center" style="border: none; border-bottom: 1px solid black; border-top: 4px solid black; height: 10px; color: #ffffff; background-color: #ffffff; margin-left: auto; margin-right: auto;"></div>
+    <div style="font-size: 14pt; font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;"> <br>
+    </div>
+    <div style="font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">UNITED STATES</div>
+    <div style="font-size: 14pt; font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">SECURITIES AND EXCHANGE COMMISSION</div>
+    <div style="font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">Washington, D.C.&#160;&#160;20549</div>
+    <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+    </div>
+    <div style="font-size: 14pt; font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">SCHEDULE 13G</div>
+    <div style="font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">UNDER THE SECURITIES EXCHANGE ACT OF 1934</div>
+    <div style="TEXT-ALIGN: center; MARGIN-LEFT: 0pt; DISPLAY: block; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt">
+      <div style="font-weight: bold; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">(Amendment No. 13)*</div>
+      <div style="font-weight: bold; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">&#160;</div>
+    </div>
+    <div style="DISPLAY: block; TEXT-INDENT: 0pt">
+      <div style="font-size: 15pt; font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;"><font style="font-weight: bold; text-decoration: underline; display: inline;">Kamada Ltd.</font></div>
+      <div style="font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">(Name of Issuer)</div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div style="text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">
+        <div style="line-height: 1.25;"><u>Ordinary Shares, par value NIS 1.00 each</u></div>
+      </div>
+      <div style="font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">&#160;(Title of Class of Securities)</div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div style="text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;"><font style="TEXT-DECORATION: underline; DISPLAY: inline">M6240T109</font><font style="display: inline;">&#160;</font></div>
+      <div style="font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">&#160;(CUSIP Number)</div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt">&#160;</div>
+      <div style="TEXT-ALIGN: center; MARGIN-LEFT: 0pt; DISPLAY: block; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt">
+        <div style="margin-left: 0pt; text-decoration: underline; display: block; margin-right: 0pt; text-indent: 0pt;">
+          <div style="line-height: 1.25;">
+            <div style="line-height: 1.25; font-family: 'Times New Roman',Times,serif;">
+              <div style="line-height: 1.25; font-family: 'Times New Roman', Times, serif;">
+                <div style="line-height: 1.25;"><u>December 31</u><u>, 2022</u></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="font-weight: bold; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">&#160;(Date of Event Which Requires Filing of this Statement)</div>
+        <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">&#160;</div>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">Check the appropriate box to designate the rule pursuant to which this Schedule is filed:</div>
+    <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+    </div>
+    <div style="margin-left: 18pt; display: block; margin-right: 0pt; text-indent: 0pt;">&#9744; Rule 13d-1(b)</div>
+    <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+    </div>
+    <div style="margin-left: 18pt; display: block; margin-right: 0pt; text-indent: 0pt;">&#9746; Rule 13d-1(c)</div>
+    <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+    </div>
+    <div style="margin-left: 18pt; display: block; margin-right: 0pt; text-indent: 0pt;">&#9744; Rule 13d-1(d)</div>
+    <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+    </div>
+    <div style="text-align: justify; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">*The remainder of this cover page shall be filled out for a reporting person&#8217;s initial filing on this form with respect to the subject class of
+      securities, and for any subsequent amendment containing information which would alter the disclosures provided in a prior cover page.</div>
+    <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+    </div>
+    <div style="text-align: justify; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">The information required in the remainder of this cover page shall not be deemed to be &#8220;filed&#8221; for the purpose of Section 18 of the <font style="FONT-STYLE: italic; DISPLAY: inline">Securities Exchange Act</font> of 1934 (&#8220;Act&#8221;) or otherwise subject to the liabilities of that section of the Act but shall be subject to all other provisions of the Act (however, see the Notes).</div>
+    <div style="text-align: justify; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;"> <br>
+    </div>
+    <div class="BRPFPageBreakArea" style="clear: both; margin-top: 10pt; margin-bottom: 10pt;">
+      <div class="BRPFPageBreak" style="page-break-after: always;">
+        <hr noshade="noshade" style="border-width: 0px; clear: both; margin: 4px 0px; width: 100%; height: 2px; color: #000000; background-color: #000000;"></div>
+    </div>
+    <div>
+      <div style="MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt"> </div>
+      <div>
+        <div> <br>
+        </div>
+        <table cellspacing="0" cellpadding="0" border="0" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr>
+              <td valign="top" align="left" style="border-width: 2px; border-style: solid; border-color: black; width: 33%;">
+                <div style="font-weight: bold; text-align: left; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">CUSIP No. <font style="font-weight: bold; display: inline;">M6240T109</font></div>
+              </td>
+              <td valign="top" style="width: 33%;">
+                <div style="font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">13G</div>
+              </td>
+              <td valign="top" align="left" style="border-width: 2px 2px 2px 0.75pt; border-style: solid; border-color: black; width: 33%;">
+                <div style="font-weight: bold; text-align: left; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">Page 2 of 8 Pages</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div>
+        <table cellspacing="0" cellpadding="0" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr>
+              <td valign="top" style="BORDER-TOP: black 2px solid; BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 5%">
+                <div style="font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">1</div>
+              </td>
+              <td valign="top" align="left" style="BORDER-TOP: black 2px solid; FONT-FAMILY: 'Times New Roman', Times, serif; BORDER-RIGHT: black 0.75pt solid; BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 95%" colspan="3">
+                <div>NAME OF REPORTING PERSONS</div>
+                <div>&#160;</div>
+                <div>The Phoenix Holdings Ltd.</div>
+              </td>
+            </tr>
+            <tr style="HEIGHT: 48px">
+              <td valign="top" style="BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 5%">
+                <div style="font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">2</div>
+              </td>
+              <td valign="top" align="left" style="FONT-FAMILY: 'Times New Roman', Times, serif; BORDER-RIGHT: black 0.75pt solid; BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 95%" colspan="3">
+                <div>CHECK THE APPROPRIATE BOX IF A MEMBER OF A GROUP&#160;&#160;&#160;(See instructions)</div>
+                <div>(a)&#160; &#9744;</div>
+                <div>(b)&#160; &#9746;</div>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" style="BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 5%">
+                <div style="font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">3</div>
+              </td>
+              <td style="FONT-FAMILY: 'Times New Roman', Times, serif; BORDER-RIGHT: black 0.75pt solid; VERTICAL-ALIGN: top; BORDER-BOTTOM: black 2px solid; TEXT-ALIGN: left; BORDER-LEFT: black 0.75pt solid; WIDTH: 95%; BACKGROUND-COLOR: #cceeff" colspan="3">
+                <div>SEC USE ONLY</div>
+                <div>&#160;</div>
+                <div>&#160;</div>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" style="BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 5%">
+                <div style="font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">4</div>
+              </td>
+              <td valign="top" align="left" style="FONT-FAMILY: 'Times New Roman', Times, serif; BORDER-RIGHT: black 0.75pt solid; BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 95%" colspan="3">
+                <div>CITIZENSHIP OR PLACE OF ORGANIZATION</div>
+                <div>&#160;</div>
+                <div>Israel</div>
+              </td>
+            </tr>
+            <tr>
+              <td valign="middle" style="BORDER-BOTTOM: black 2px solid; TEXT-ALIGN: center; MARGIN-LEFT: 0pt; BORDER-LEFT: black 0.75pt solid; WIDTH: 11%; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt" rowspan="4" colspan="2">
+                <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">NUMBER OF</div>
+                <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">SHARES</div>
+                <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">BENEFICIALLY</div>
+                <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">OWNED BY</div>
+                <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">EACH</div>
+                <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">REPORTING</div>
+                <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">PERSON WITH</div>
+              </td>
+              <td valign="top" style="BORDER-BOTTOM: black 2px solid; TEXT-ALIGN: center; MARGIN-LEFT: 0pt; BORDER-LEFT: black 0.75pt solid; WIDTH: 5%; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt">
+                <div style="font-weight: bold; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">5</div>
+              </td>
+              <td valign="top" align="left" style="FONT-FAMILY: 'Times New Roman', Times, serif; BORDER-RIGHT: black 0.75pt solid; BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 84%">
+                <div>SOLE VOTING POWER</div>
+                <div>&#160;</div>
+                <div>---</div>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" style="BORDER-BOTTOM: black 2px solid; TEXT-ALIGN: center; MARGIN-LEFT: 0pt; BORDER-LEFT: black 0.75pt solid; WIDTH: 5%; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt">
+                <div style="font-weight: bold; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">6</div>
+              </td>
+              <td valign="top" align="left" style="FONT-FAMILY: 'Times New Roman', Times, serif; BORDER-RIGHT: black 0.75pt solid; BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 84%">
+                <div>SHARED VOTING POWER</div>
+                <div>
+                  <div style="text-align: left; line-height: 1.25;">&#160;</div>
+                  <div style="text-align: left; line-height: 1.25;">
+                    <div style="line-height: 1.25;">
+                      <div style="line-height: 1.25;">
+                        <div style="line-height: 1.25;">
+                          <div style="line-height: 1.25;">
+                            <div style="line-height: 1.25;">
+                              <div style="line-height: 1.25;">
+                                <div style="line-height: 1.25;">
+                                  <div style="line-height: 1.25; font-family: 'Times New Roman', serif;">3,606,511.12 (*)</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" style="BORDER-BOTTOM: black 2px solid; TEXT-ALIGN: center; MARGIN-LEFT: 0pt; BORDER-LEFT: black 0.75pt solid; WIDTH: 5%; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt">
+                <div style="font-weight: bold; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">7</div>
+              </td>
+              <td valign="top" align="left" style="FONT-FAMILY: 'Times New Roman', Times, serif; BORDER-RIGHT: black 0.75pt solid; BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 84%">
+                <div>SOLE DISPOSITIVE POWER</div>
+                <div>&#160;</div>
+                <div>---</div>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" style="BORDER-BOTTOM: black 2px solid; TEXT-ALIGN: center; MARGIN-LEFT: 0pt; BORDER-LEFT: black 0.75pt solid; WIDTH: 5%; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt">
+                <div style="font-weight: bold; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">8</div>
+              </td>
+              <td valign="top" align="left" style="FONT-FAMILY: 'Times New Roman', Times, serif; BORDER-RIGHT: black 0.75pt solid; BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 84%">
+                <div>SHARED DISPOSITIVE POWER</div>
+                <div>&#160;</div>
+                <div>
+                  <div style="text-align: left; line-height: 1.25;">
+                    <div style="line-height: 1.25;">
+                      <div style="line-height: 1.25;">
+                        <div style="line-height: 1.25;">
+                          <div style="line-height: 1.25;">
+                            <div style="line-height: 1.25;">
+                              <div style="line-height: 1.25;">
+                                <div style="line-height: 1.25;">
+                                  <div style="line-height: 1.25;">
+                                    <div style="line-height: 1.25; font-family: 'Times New Roman', serif;">3,606,511.12 (*)</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" style="BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 5%">
+                <div style="font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: -5.4pt; text-indent: 0pt;">9</div>
+              </td>
+              <td valign="top" align="left" style="FONT-FAMILY: 'Times New Roman', Times, serif; BORDER-RIGHT: black 0.75pt solid; BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 95%" colspan="3">
+                <div>AGGREGATE AMOUNT BENEFICIALLY OWNED BY EACH REPORTING PERSON</div>
+                <div>&#160;</div>
+                <div>
+                  <div style="text-align: left; line-height: 1.25;">
+                    <div style="line-height: 1.25;">
+                      <div style="line-height: 1.25;">
+                        <div style="line-height: 1.25;">
+                          <div style="line-height: 1.25;">
+                            <div style="line-height: 1.25;">
+                              <div style="line-height: 1.25;">
+                                <div style="line-height: 1.25;">
+                                  <div style="line-height: 1.25;">
+                                    <div style="line-height: 1.25;">
+                                      <div style="line-height: 1.25;">
+                                        <div style="line-height: 1.25; font-family: 'Times New Roman', serif;">3,606,511.12 (*)</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" style="BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 5%">
+                <div style="font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: -5.4pt; text-indent: 0pt;">10</div>
+              </td>
+              <td valign="top" align="left" style="font-family: 'Times New Roman',Times,serif; border-right: 0.75pt solid black; border-bottom: 2px solid black; border-left: 0.75pt solid black; width: 95%; text-align: left;" colspan="3">
+                <div>CHECK IF THE AGGREGATE AMOUNT IN ROW (9) EXCLUDES CERTAIN SHARES (See instructions)</div>
+                <div>&#160;</div>
+                <div>&#9744;</div>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" style="BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 5%">
+                <div style="font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: -5.4pt; text-indent: 0pt;">11</div>
+              </td>
+              <td valign="top" align="left" style="FONT-FAMILY: 'Times New Roman', Times, serif; BORDER-RIGHT: black 0.75pt solid; BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 95%" colspan="3">
+                <div>PERCENT OF CLASS REPRESENTED BY AMOUNT IN ROW 9</div>
+                <div>&#160;</div>
+                <div>
+                  <div style="text-align: left; line-height: 1.25;">
+                    <div style="line-height: 1.25;">
+                      <div style="line-height: 1.25;">
+                        <div style="line-height: 1.25;">
+                          <div style="line-height: 1.25;">
+                            <div style="line-height: 1.25;">
+                              <div style="line-height: 1.25;">
+                                <div style="line-height: 1.25; font-family: 'Times New Roman', serif;">8.05% (*)(**)</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" style="BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 5%">
+                <div style="font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: -5.4pt; text-indent: 0pt;">12</div>
+              </td>
+              <td valign="top" align="left" style="FONT-FAMILY: 'Times New Roman', Times, serif; BORDER-RIGHT: black 0.75pt solid; BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 0.75pt solid; WIDTH: 95%" colspan="3">
+                <div>TYPE OF REPORTING PERSON&#160;&#160;&#160;(See instructions)</div>
+                <div>&#160;</div>
+                <div>CO</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">
+        <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">&#160;</div>
+        <div style="DISPLAY: block; TEXT-INDENT: 0pt">
+          <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">
+            <div style="line-height: 1.25;">
+              <div style="line-height: 1.25;">
+                <div style="line-height: 1.25;">
+                  <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">(*) The beneficial ownership of the securities reported herein is described in Item 4(a).</div>
+                </div>
+                <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+                </div>
+                <div style="line-height: 1.25;">
+                  <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">(**) Based on 44,819,958 Ordinary Shares outstanding as of December 31, 2022 (as reported on Bloomberg LP).</div>
+                </div>
+                <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt">
+        <div style="PAGE-BREAK-AFTER: always; WIDTH: 100%">
+          <div style="text-align: center; width: 100%;">2<br>
+          </div>
+          <div style="TEXT-ALIGN: center; WIDTH: 100%">
+            <hr noshade="noshade" size="3" style="COLOR: black"> </div>
+        </div>
+        <div>&#160;</div>
+      </div>
+      <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;"><br>
+        <font style="display: inline;"><font style="FONT-WEIGHT: bold; DISPLAY: inline">Item 1.</font> (a)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;<font style="TEXT-DECORATION: underline; DISPLAY: inline">Name of Issuer</font>:</font></div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt">&#160;</div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt">
+        <div style="margin-left: 81pt; display: block; margin-right: 0pt; text-indent: 0pt;">Kamada Ltd.</div>
+        <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+        </div>
+        <div>
+          <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+              <tr valign="top">
+                <td style="WIDTH: 81pt">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(b)</div>
+                </td>
+                <td>
+                  <div style="text-align: left;"><font style="TEXT-DECORATION: underline; DISPLAY: inline">Address of Issuer's Principal Executive Offices</font>:</div>
+                </td>
+              </tr>
+
+          </table>
+        </div>
+        <div style="DISPLAY: block; TEXT-INDENT: 0pt">
+          <div style="margin-left: 78pt; line-height: 1.25;"><br>
+            &#160;2 Holtzman St., Science Park, P.O. Box 4081, Rehovot 7670402, Israel</div>
+        </div>
+        &#160; </div>
+      <div>
+        <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr valign="top">
+              <td style="WIDTH: 81pt">
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;"><font style="FONT-WEIGHT: bold; DISPLAY: inline">Item 2.</font> (a)</div>
+              </td>
+              <td>
+                <div style="text-align: left;"><font style="TEXT-DECORATION: underline; DISPLAY: inline">Name of Person Filing</font>:</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div> </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"></div>
+      <div>
+        <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr valign="top">
+              <td style="WIDTH: 78pt">&#160;</td>
+              <td>
+                <div style="text-align: left;">The Phoenix Holdings Ltd.</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt">
+        <div style="text-align: justify; margin-left: 78pt; line-height: 1.25;">The securities reported herein are beneficially owned by various direct or indirect, majority or wholly-owned subsidiaries of the Phoenix Holdings Ltd. (the "Subsidiaries").&#160;
+          The Subsidiaries manage their own funds and/or the funds of others, including for holders of exchange-traded notes or various insurance policies, members of pension or provident funds, unit holders of mutual funds, and portfolio management
+          clients.&#160; Each of the Subsidiaries operates under independent management and makes its own independent voting and investment decisions. </div>
+        <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+        </div>
+      </div>
+      <div>
+        <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr valign="top">
+              <td style="WIDTH: 45.8pt">&#160;</td>
+              <td style="WIDTH: 36pt">
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;">(b)</div>
+              </td>
+              <td>
+                <div style="text-align: left;"><font style="TEXT-DECORATION: underline; DISPLAY: inline">Address of Principal Business Office</font>:</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div style="margin-left: 81pt; margin-right: 0pt; text-indent: 0pt;">The address of the Phoenix Holdings Ltd. is Derech Hashalom 53, Givataim, 53454, Israel.&#160;</div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div>
+        <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr valign="top">
+              <td style="WIDTH: 45.8pt">&#160;</td>
+              <td style="WIDTH: 36pt">
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;">(c)</div>
+              </td>
+              <td>
+                <div style="text-align: left;"><font style="TEXT-DECORATION: underline; DISPLAY: inline">Citizenship</font>:</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div> </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"></div>
+      <div>
+        <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr valign="top">
+              <td style="WIDTH: 78pt">&#160;</td>
+              <td>
+                <div style="text-align: left;">The Phoenix Holdings Ltd. - Israel</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div>
+        <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr valign="top">
+              <td style="WIDTH: 45.8pt">&#160;</td>
+              <td style="WIDTH: 36pt">
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;">(d)</div>
+              </td>
+              <td>
+                <div style="text-align: left;"><font style="TEXT-DECORATION: underline; DISPLAY: inline">Title of Class of Securities</font>:</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="display: block; text-indent: 0pt;">&#160;</div>
+      <div style="margin-left: 81pt; display: block; text-indent: 0pt;">Ordinary Shares, par value NIS 1.00 each</div>
+      <br>
+      <div>
+        <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr valign="top">
+              <td style="WIDTH: 45.75pt">&#160;</td>
+              <td style="WIDTH: 36pt">
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;">(e)</div>
+              </td>
+              <td>
+                <div style="text-align: left;"><font style="TEXT-DECORATION: underline; DISPLAY: inline">CUSIP Number</font>:</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div style="margin-left: 81pt; display: block; margin-right: 0pt; text-indent: 0pt;">M6240T109</div>
+      <div style="MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt">
+        <div>&#160;</div>
+        <div style="PAGE-BREAK-AFTER: always; WIDTH: 100%">
+          <div style="text-align: center; width: 100%;">3<br>
+          </div>
+          <div style="TEXT-ALIGN: center; WIDTH: 100%">
+            <hr noshade="noshade" size="3" style="COLOR: black"> </div>
+        </div>
+        <div>&#160;</div>
+      </div>
+      <div>
+        <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr valign="top">
+              <td style="WIDTH: 81pt">
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;"><font style="FONT-WEIGHT: bold; DISPLAY: inline">Item 3</font>.</div>
+              </td>
+              <td>
+                <div style="text-align: left; margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;">Not applicable.</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div>
+        <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr valign="top">
+              <td style="WIDTH: 81pt">
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;"><font style="FONT-WEIGHT: bold; DISPLAY: inline">Item 4</font>.</div>
+              </td>
+              <td>
+                <div style="text-align: left;"><font style="TEXT-DECORATION: underline; DISPLAY: inline">Ownership</font>:</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div>
+        <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr valign="top">
+              <td style="WIDTH: 42.55pt">&#160;</td>
+              <td style="WIDTH: 36pt">
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;">(a)</div>
+              </td>
+              <td>
+                <div style="text-align: left;"><font style="TEXT-DECORATION: underline; DISPLAY: inline">Amount beneficially owned</font>:</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div>
+        <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr valign="top">
+              <td style="WIDTH: 78pt">&#160;</td>
+              <td>
+                <div style="text-align: left;">See row 9 of cover page of each reporting person.</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt">
+        <div>&#160;</div>
+        <div>
+          <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+              <tr valign="top">
+                <td style="WIDTH: 78pt">&#160;</td>
+                <td>
+                  <div style="text-align: justify;">Each of the Subsidiaries operates under independent management and makes its own independent voting and investment decisions.&#160;&#160;Neither the filing of this Schedule 13G nor any of its contents shall be
+                    deemed to constitute an admission by either the Filing Persons or Subsidiaries that a group exists for purposes of Section 13(d) of the Securities Exchange Act of 1934 or for any other purpose, and each reporting person disclaims the
+                    existence of any such group.&#160;&#160;In addition, each of the Filing Persons and Subsidiaries disclaims any beneficial ownership of the securities covered by this report in excess of their actual pecuniary interest therein.<font style="display: inline;">&#160;</font>This Statement shall not be construed as an admission by the Filing Persons or Subsidiaries that they are the beneficial owners of any of the Ordinary Shares covered by this Statement.</div>
+                </td>
+              </tr>
+
+          </table>
+        </div>
+      </div>
+      <div style="line-height: 1.25;">
+        <div style="text-indent: 0pt; margin-left: 78pt; line-height: 1.25;"><br>
+        </div>
+        <div style="line-height: 1.25; font-family: 'Times New Roman',Times,serif;">
+          <div style="text-indent: -35.45pt; margin-left: 78pt; line-height: 1.25; font-family: 'Times New Roman', Times, serif;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; As of December 31, 2022, the securities reported herein were held as follows:</div>
+          <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+          </div>
+          <div style="line-height: 1.25;">
+            <table cellspacing="0" cellpadding="0" align="right" style="font-family: 'Times New Roman',Times,serif; font-size: 10pt; text-align: left; color: rgb(0, 0, 0); width: 90%;" id="z945f8a395d574bbba55e53a2606e86e9" class="cfttable">
+
+                <tr>
+                  <td valign="bottom" style="vertical-align: top; padding-bottom: 2px; width: 76%;">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; padding-bottom: 2px; width: 1%;" colspan="1" class="cftguttercell">&#160;</td>
+                  <td style="vertical-align: bottom; border-bottom: 2px solid rgb(0, 0, 0); text-align: center;" colspan="2">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif; font-weight: bold;">Ordinary Shares</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; padding-bottom: 2px; width: 1%;" colspan="1" class="cftfncell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; padding-bottom: 2px; width: 1%;" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: top; border-bottom: 2px solid rgb(0, 0, 0);" colspan="2">
+                    <div style="text-align: center; line-height: 1.25; font-family: 'Times New Roman',serif; font-weight: bold;">Percentage of total Ordinary Shares outstanding</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; padding-bottom: 2px; width: 1%;" colspan="1" class="cftfncell">&#160;</td>
+                </tr>
+                <tr>
+                  <td valign="bottom" style="vertical-align: top; width: 76%; background-color: rgb(204, 238, 255);">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">Excellence "nostro" accounts</div>
+                  </td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%; background-color: rgb(204, 238, 255);" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">--</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftfncell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%; background-color: rgb(204, 238, 255);" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">--</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftfncell">&#160;</td>
+                </tr>
+                <tr>
+                  <td valign="bottom" style="vertical-align: top; width: 76%;">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">Excellence provident funds</div>
+                  </td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%;" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">--</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftfncell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%;" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">--</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftfncell">&#160;</td>
+                </tr>
+                <tr>
+                  <td valign="bottom" style="vertical-align: top; width: 76%; background-color: rgb(204, 238, 255);">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">Excellence trust funds</div>
+                  </td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%; background-color: rgb(204, 238, 255);" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">164,525</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftfncell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%; background-color: rgb(204, 238, 255);" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">0.37</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftfncell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">%</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="bottom" style="vertical-align: top; width: 76%;">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">Excellence ETF's</div>
+                  </td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%;" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">--</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftfncell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%;" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">--</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftfncell">&#160;</td>
+                </tr>
+                <tr>
+                  <td valign="bottom" style="vertical-align: top; width: 76%; background-color: rgb(204, 238, 255);">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">The Phoenix "nostro" accounts</div>
+                  </td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%; background-color: rgb(204, 238, 255);" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">--</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftfncell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%; background-color: rgb(204, 238, 255);" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">--</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftfncell">&#160;</td>
+                </tr>
+                <tr>
+                  <td valign="bottom" style="vertical-align: top; width: 76%;">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">The Phoenix pension and provident funds</div>
+                  </td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%;" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">--</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftfncell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%;" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">--</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftfncell">&#160;</td>
+                </tr>
+                <tr>
+                  <td valign="bottom" style="vertical-align: top; width: 76%; background-color: rgb(204, 238, 255);">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">Linked insurance policies of Phoenix</div>
+                  </td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%; background-color: rgb(204, 238, 255);" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">--</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftfncell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%; background-color: rgb(204, 238, 255);" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">--</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftfncell">&#160;</td>
+                </tr>
+                <tr>
+                  <td valign="bottom" style="vertical-align: top; width: 76%;">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">Partnership for Israeli shares (1)</div>
+                  </td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%;" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">3,213,919</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftfncell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%;" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">7.17</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftfncell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">%</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="bottom" style="vertical-align: top; width: 76%; background-color: rgb(204, 238, 255);">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">Partnership for investing in shares indexes (1)</div>
+                  </td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%; background-color: rgb(204, 238, 255);" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">228,067.12</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftfncell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%; background-color: rgb(204, 238, 255);" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">0.51</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftfncell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">%</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="bottom" style="vertical-align: top; width: 76%;">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">Partnership for international shares (1)</div>
+                  </td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%;" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">--</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftfncell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%;" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">--</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%;" colspan="1" class="cftfncell">&#160;</td>
+                </tr>
+                <tr>
+                  <td valign="bottom" style="vertical-align: top; width: 76%; background-color: rgb(204, 238, 255);">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">Halman - Aldubi Provident and Pension Funds Ltd.</div>
+                  </td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%; background-color: rgb(204, 238, 255);" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">--</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftfncell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftguttercell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftcurrcell">&#160;</td>
+                  <td valign="bottom" style="vertical-align: bottom; text-align: right; width: 9%; background-color: rgb(204, 238, 255);" colspan="1" class="cftnumcell">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;">--</div>
+                  </td>
+                  <td valign="bottom" nowrap="nowrap" style="vertical-align: bottom; width: 1%; background-color: rgb(204, 238, 255);" colspan="1" class="cftfncell">&#160;</td>
+                </tr>
+
+            </table>
+          </div>
+          <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+          </div>
+          <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+          </div>
+          <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+          </div>
+          <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+          </div>
+          <br style="clear: both;">
+        </div>
+      </div>
+      <div style="clear: both;">
+        <div style="margin: 0px 0px 0px 81pt; line-height: 1.25; text-align: justify;"> <br>
+        </div>
+        <div style="margin: 0px 0px 0px 81pt; line-height: 1.25; text-align: justify;">(1) All ownership rights in this partnership belong to companies that are part of Phoenix Group. The amount of ownership rights held by such companies in the partnership
+          changes frequently according to a mechanism provided in the partnership agreement</div>
+      </div>
+      <div style="clear: both;"> <br>
+      </div>
+      <div style="TEXT-ALIGN: center"> </div>
+      <div>
+        <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr valign="top">
+              <td style="WIDTH: 42.55pt">&#160;</td>
+              <td style="WIDTH: 36pt">
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;">(b)</div>
+              </td>
+              <td>
+                <div style="text-align: left;"><font style="TEXT-DECORATION: underline; DISPLAY: inline">Percent of class</font>:</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div>
+        <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr valign="top">
+              <td style="WIDTH: 78pt">&#160;</td>
+              <td>
+                <div style="text-align: left;">See row 11 of cover page of each reporting person</div>
+              </td>
+            </tr>
+
+        </table>
+        <div> <br>
+        </div>
+      </div>
+      <div style="MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt">
+        <div>&#160;</div>
+        <div style="PAGE-BREAK-AFTER: always; WIDTH: 100%">
+          <div style="text-align: center; width: 100%;">4<br>
+          </div>
+          <div style="TEXT-ALIGN: center; WIDTH: 100%">
+            <hr noshade="noshade" size="3" style="COLOR: black"> </div>
+        </div>
+        <div>&#160;</div>
+      </div>
+      <div>
+        <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+        </div>
+        <div>
+          <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+              <tr valign="top">
+                <td style="WIDTH: 42.55pt">&#160;</td>
+                <td style="WIDTH: 36pt">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;">(c)</div>
+                </td>
+                <td>
+                  <div style="text-align: left;"><font style="TEXT-DECORATION: underline; DISPLAY: inline">Number of shares as to which such person has</font>:</div>
+                </td>
+              </tr>
+
+          </table>
+        </div>
+        <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+        </div>
+        <div>
+          <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+              <tr valign="top">
+                <td style="WIDTH: 85.25pt">&#160;</td>
+                <td style="WIDTH: 36pt">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;">(i)</div>
+                </td>
+                <td>
+                  <div style="text-align: left;">Sole power to vote or to direct the vote:</div>
+                  <div style="text-align: left;">&#160;</div>
+                  <div style="text-align: left;">See row 5 of cover page of each reporting person</div>
+                </td>
+              </tr>
+
+          </table>
+        </div>
+        <div>&#160;</div>
+        <div>
+          <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+              <tr valign="top">
+                <td style="WIDTH: 85.25pt">&#160;</td>
+                <td style="WIDTH: 36pt">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;">(ii)</div>
+                </td>
+                <td>
+                  <div style="text-align: left;">Shared power to vote or to direct the vote:</div>
+                  <div style="TEXT-ALIGN: left">&#160;</div>
+                  <div style="text-align: left; margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;">See row 6 of cover page of each reporting person and note in Item 4(a) above</div>
+                </td>
+              </tr>
+
+          </table>
+        </div>
+        <div>&#160;</div>
+      </div>
+      <div>
+        <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr valign="top">
+              <td style="WIDTH: 85.25pt">&#160;</td>
+              <td style="WIDTH: 36pt">
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;">(iii)</div>
+              </td>
+              <td>
+                <div style="text-align: left;">Sole power to dispose or to direct the disposition of:</div>
+                <div style="TEXT-ALIGN: left">&#160;</div>
+                <div style="text-align: left; margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;">See row 7 of cover page of each reporting person</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div>&#160;</div>
+      <div>
+        <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr valign="top">
+              <td style="WIDTH: 85.25pt">&#160;</td>
+              <td style="WIDTH: 36pt">
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;">(iv)</div>
+              </td>
+              <td>
+                <div style="text-align: left;">Shared power to dispose or to direct the disposition of:</div>
+                <div style="TEXT-ALIGN: left">&#160;</div>
+                <div style="text-align: left; margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;">See row 8 of cover page of each reporting person and note in Item 4(a) above</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div>&#160;</div>
+      <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">
+        <div>
+          <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+              <tr valign="top">
+                <td style="WIDTH: 81pt">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;"><font style="FONT-WEIGHT: bold; DISPLAY: inline">Item 5</font>.</div>
+                </td>
+                <td>
+                  <div style="text-align: left;"><font style="TEXT-DECORATION: underline; DISPLAY: inline">Ownership of Five Percent or Less of a Class</font>:</div>
+                </td>
+              </tr>
+
+          </table>
+        </div>
+        <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+        </div>
+        <div style="margin-left: 81pt; display: block; margin-right: 0pt; text-indent: 0pt;">
+          <div style="text-align: justify; line-height: 1.25; font-family: 'Times New Roman',Times,serif;">
+            <div style="line-height: 1.25;">Not applicable.</div>
+          </div>
+          <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+          </div>
+        </div>
+        <div>
+          <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+              <tr valign="top">
+                <td style="WIDTH: 81pt">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;"><font style="FONT-WEIGHT: bold; DISPLAY: inline">Item 6</font>.</div>
+                </td>
+                <td>
+                  <div style="text-align: left;"><font style="TEXT-DECORATION: underline; DISPLAY: inline">Ownership of More than Five Percent on Behalf of Another</font>:</div>
+                </td>
+              </tr>
+
+          </table>
+        </div>
+        <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+        </div>
+        <div style="margin-left: 81pt; display: block; margin-right: 0pt; text-indent: 0pt;">Not applicable.</div>
+        <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+        </div>
+        <div>
+          <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+              <tr valign="top">
+                <td style="WIDTH: 81pt">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;"><font style="FONT-WEIGHT: bold; DISPLAY: inline">Item 7</font>.</div>
+                </td>
+                <td>
+                  <div style="text-align: left;"><font style="TEXT-DECORATION: underline; DISPLAY: inline">Identification and Classification of the Subsidiary Which Acquired the Security Being Reported on by the Parent Holding Company or Control Person</font>:</div>
+                </td>
+              </tr>
+
+          </table>
+        </div>
+        <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+        </div>
+        <div style="margin-left: 81pt; display: block; margin-right: 0pt; text-indent: 0pt;">Not applicable.</div>
+        <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+        </div>
+        <div>
+          <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+              <tr valign="top">
+                <td style="WIDTH: 81pt">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;"><font style="FONT-WEIGHT: bold; DISPLAY: inline">Item 8</font>.</div>
+                </td>
+                <td>
+                  <div style="text-align: left;"><font style="TEXT-DECORATION: underline; DISPLAY: inline">Identification and Classification of Members of the Group</font>:</div>
+                </td>
+              </tr>
+
+          </table>
+        </div>
+        <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+        </div>
+        <div style="margin-left: 81pt; display: block; margin-right: 0pt; text-indent: 0pt;">Not applicable.</div>
+        <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+        </div>
+        <div>
+          <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+              <tr valign="top">
+                <td style="WIDTH: 81pt">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;"><font style="FONT-WEIGHT: bold; DISPLAY: inline">Item 9</font>.</div>
+                </td>
+                <td>
+                  <div style="text-align: left;"><font style="TEXT-DECORATION: underline; DISPLAY: inline">Notice of Dissolution of Group</font>:</div>
+                </td>
+              </tr>
+
+          </table>
+        </div>
+        <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+        </div>
+        <div style="margin-left: 81pt; display: block; margin-right: 0pt; text-indent: 0pt;">Not applicable.</div>
+      </div>
+      <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">&#160;</div>
+      <div style="MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt">
+        <div>&#160;</div>
+        <div style="PAGE-BREAK-AFTER: always; WIDTH: 100%">
+          <div style="text-align: center; width: 100%;">5<br>
+          </div>
+          <div style="TEXT-ALIGN: center; WIDTH: 100%">
+            <hr noshade="noshade" size="3" style="COLOR: black"> </div>
+        </div>
+        <div>&#160;</div>
+      </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt">&#160;</div>
+      <div>
+        <table cellspacing="0" cellpadding="0" border="0" align="center" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr valign="top">
+              <td style="WIDTH: 81pt">
+                <div style="font-weight: bold; margin-left: 0pt; margin-right: 0pt; text-indent: 0pt;">Item 10.</div>
+              </td>
+              <td>
+                <div style="text-align: left;"><font style="TEXT-DECORATION: underline; DISPLAY: inline">Certification</font>:</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 36pt; text-align: justify;">By signing below I certify that, to the best of my knowledge and belief, the securities referred to above were not acquired and are not held for
+        the purpose of or with the effect of changing or influencing the control of the issuer of the securities and were not acquired and are not held in connection with or as a participant in any transaction having that purpose or effect.</div>
+      <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 36pt;">&#160;</div>
+      <div style="MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt">
+        <div style="text-align: center;">&#160;6</div>
+        <div style="PAGE-BREAK-AFTER: always; WIDTH: 100%">
+          <div style="TEXT-ALIGN: center; WIDTH: 100%">
+            <hr noshade="noshade" size="3" style="COLOR: black"> </div>
+        </div>
+        <div>&#160;</div>
+      </div>
+      <div style="font-weight: bold; text-align: center; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">SIGNATURE</div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 36pt;">After reasonable inquiry and to the best of my knowledge and belief, I certify that the information set forth in this statement is true, complete and correct.</div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">
+        <div style="line-height: 1.25;">
+          <div style="line-height: 1.25;">
+            <div style="line-height: 1.25; font-family: 'Times New Roman',Times,serif;">
+              <div style="line-height: 1.25; font-family: 'Times New Roman', Times, serif;">February 14, 2023</div>
+              <div style="line-height: 1.25">&#160;</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div> </div>
+      <div> </div>
+      <div>
+        <table cellspacing="0" cellpadding="0" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr>
+              <td valign="top" style="width: 32%;">&#160; </td>
+              <td valign="top" style="width: 3%;">&#160; </td>
+              <td valign="top" align="left" style="WIDTH: 45%">
+                <div style="font-weight: bold; text-align: left; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">The Phoenix Holdings Ltd.</div>
+                <div style="DISPLAY: block; TEXT-INDENT: 0pt">&#160;</div>
+                <div style="TEXT-ALIGN: left; MARGIN-LEFT: 0pt; DISPLAY: block; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt"><u><font style="display: inline;">/s/ Eli Schwartz</font></u></div>
+                <div style="TEXT-ALIGN: left; MARGIN-LEFT: 0pt; DISPLAY: block; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt">
+                  <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">By: <font style="font-family: 'Times New Roman', Times, serif;">Eli Schwartz</font>*</div>
+                  <font style="display: inline;">Title: </font><font style="font-family: 'Times New Roman', Times, serif;">Executive Vice President - </font>Chief Financial Officer</div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div>
+        <table cellspacing="0" cellpadding="0" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr>
+              <td valign="top" style="width: 32%;">&#160; </td>
+              <td valign="top" style="width: 3%;">&#160; </td>
+              <td valign="top" align="left" style="WIDTH: 45%">
+                <div style="display: block; text-indent: 0pt;"><u><font style="display: inline;">/s/ </font>Haggai Schreiber</u></div>
+                <div style="TEXT-ALIGN: left; MARGIN-LEFT: 0pt; DISPLAY: block; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt">
+                  <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">By: Haggai Schreiber*
+                    <div style="line-height: 1.25; font-family: 'Times New Roman', Times, serif;">Title: Executive Vice President - Chief Investment Officer</div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+
+        </table>
+      </div>
+      <div style="DISPLAY: block; TEXT-INDENT: 0pt"><br>
+      </div>
+      <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">
+        <div style="margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">
+          <div style="line-height: 1.25;">* Signature duly authorized by resolution of the Board of Directors, notice of which is attached as Exhibit 1 to this Schedule 13G.</div>
+          <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+          </div>
+        </div>
+      </div>
+      <div style="MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt">
+        <div style="PAGE-BREAK-AFTER: always; WIDTH: 100%">
+          <div style="text-align: center; width: 100%;">7<br>
+          </div>
+          <div style="TEXT-ALIGN: center; WIDTH: 100%">
+            <hr noshade="noshade" size="3" style="COLOR: black"> </div>
+        </div>
+        <div>&#160;</div>
+      </div>
+      <div style="font-weight: bold; display: block; text-indent: 0pt;">&#160;</div>
+      <div style="display: block; text-indent: 0pt;">
+        <table cellspacing="0" cellpadding="0" border="0" style="FONT-SIZE: 10pt; FONT-FAMILY: times new roman; WIDTH: 100%">
+
+            <tr>
+              <td valign="top" style="width: 10%;">
+                <div style="font-weight: bold; text-align: justify; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">EXHIBIT NO.</div>
+              </td>
+              <td valign="top" style="WIDTH: 90%">
+                <div style="font-weight: bold; text-align: justify; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;">DESCRIPTION</div>
+              </td>
+              <td valign="top" style="width: 0%;">&#160; </td>
+            </tr>
+            <tr>
+              <td valign="top" style="width: 10%;">&#160; </td>
+              <td valign="top" style="width: 90%;">&#160; </td>
+              <td valign="top" style="width: 0%;">&#160; </td>
+            </tr>
+            <tr>
+              <td valign="top" style="width: 10%;">
+                <div style="text-align: justify; margin-left: 0pt; display: block; margin-right: 0pt; text-indent: 0pt;"><a href="https://www.sec.gov/Archives/edgar/data/1567529/000117891322000393/exhibit_1.htm">Exhibit 1</a></div>
+              </td>
+              <td valign="top" style="WIDTH: 90%">
+                <div>
+                  <div style="text-align: left; line-height: 1.25; font-family: 'Times New Roman',Times,serif;">
+                    <div style="line-height: 1.25; font-family: 'Times New Roman',serif;"><a href="https://www.sec.gov/Archives/edgar/data/1567529/000117891322000393/exhibit_1.htm">Notice of resolution of the Board of Directors of the Phoenix Holdings
+                        Ltd., dated as of December 12, 2019 (incorporated herein by reference to Exhibit 1 to the Schedule 13G filed on February 7, 2022).</a></div>
+                  </div>
+                </div>
+              </td>
+              <td valign="top" style="width: 0%;">&#160; </td>
+            </tr>
+
+        </table>
+      </div>
+      <div><br>
+      </div>
+      <div style="text-align: center;">8<br>
+        <hr align="center" style="border: none; border-bottom: 4px solid black; border-top: 1px solid black; height: 10px; color: #ffffff; background-color: #ffffff; margin-left: auto; margin-right: auto;"></div>
+      <br>
+      <div style="TEXT-ALIGN: center; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt; TEXT-INDENT: 0pt"> </div>
+    </div>
+  </div>
+</body>
+</html>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

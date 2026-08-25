@@ -1,0 +1,20 @@
+{
+  "accession": "0001178913-16-004529",
+  "form": "20-F",
+  "filingDate": "2016-02-25",
+  "reportDate": "2015-12-31",
+  "tier": 1,
+  "tierLabel": "MAJOR",
+  "category": "annual_report",
+  "summary": "Annual report with audited financials and MD&A",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": true,
+    "fileCount": 17,
+    "exhibitCount": 0
+  },
+  "tags": [
+    "financials",
+    "annual"
+  ]
+}

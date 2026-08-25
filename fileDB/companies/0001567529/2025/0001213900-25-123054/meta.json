@@ -1,0 +1,19 @@
+{
+  "accession": "0001213900-25-123054",
+  "form": "6-K",
+  "filingDate": "2025-12-18",
+  "reportDate": "2025-12-18",
+  "tier": 1,
+  "tierLabel": "MAJOR",
+  "category": "business_deal",
+  "summary": "KAMADA ANNOUNCES A $10-$14 MILLION EXTENSION OF CANADIAN SUPPLY TENDER",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": [
+    "business"
+  ]
+}

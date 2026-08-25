@@ -1,0 +1,24 @@
+SERVICE AGREEMENT
+
+This Service Agreement ("Agreement") is entered into as of March 1, 2024,
+between Alpha LLC ("Provider") and Beta Corp ("Client").
+
+1. SERVICES
+   Provider agrees to deliver software consulting services as described in Schedule A.
+
+2. TERM
+   Start Date: March 1, 2024
+   End Date: August 31, 2024
+
+3. COMPENSATION
+   Client shall pay Provider $15,000 per month, due on the 1st of each month.
+
+4. CONFIDENTIALITY
+   Both parties agree to keep all proprietary information confidential.
+
+5. GOVERNING LAW
+   This Agreement shall be governed by the laws of the State of Delaware.
+
+Signed:
+Alpha LLC: ________________________  Date: __________
+Beta Corp: ________________________  Date: __________

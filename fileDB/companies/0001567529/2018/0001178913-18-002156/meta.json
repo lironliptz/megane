@@ -1,0 +1,19 @@
+{
+  "accession": "0001178913-18-002156",
+  "form": "6-K",
+  "filingDate": "2018-07-26",
+  "reportDate": "2018-07-26",
+  "tier": 1,
+  "tierLabel": "MAJOR",
+  "category": "business_deal",
+  "summary": "6-K",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 7,
+    "exhibitCount": 0
+  },
+  "tags": [
+    "business"
+  ]
+}

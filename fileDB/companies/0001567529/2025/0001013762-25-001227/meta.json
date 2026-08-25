@@ -1,0 +1,19 @@
+{
+  "accession": "0001013762-25-001227",
+  "form": "6-K",
+  "filingDate": "2025-03-24",
+  "reportDate": "2025-03-24",
+  "tier": 2,
+  "tierLabel": "MODERATE",
+  "category": "corporate_action",
+  "summary": "6-K",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 7,
+    "exhibitCount": 0
+  },
+  "tags": [
+    "dividend"
+  ]
+}

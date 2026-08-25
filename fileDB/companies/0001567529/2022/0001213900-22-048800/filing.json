@@ -1,0 +1,18 @@
+{
+  "accessionNumber": "0001213900-22-048800",
+  "filingDate": "2022-08-17",
+  "reportDate": "2022-06-30",
+  "acceptanceDateTime": "2022-08-17T11:00:51.000Z",
+  "act": "34",
+  "form": "6-K",
+  "fileNumber": "001-35948",
+  "filmNumber": "221172077",
+  "items": "",
+  "core_type": "XBRL",
+  "size": 3084418,
+  "isXBRL": 1,
+  "isInlineXBRL": 1,
+  "isXBRLNumeric": null,
+  "primaryDocument": "ea163532-6k_kamada.htm",
+  "primaryDocDescription": "REPORT OF FOREIGN PRIVATE ISSUER"
+}

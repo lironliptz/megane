@@ -1,0 +1,4 @@
+The following text was produced by an AI but may contain extra commentary or formatting
+around the JSON object. Extract the JSON object and return it alone, with no other text.
+If there are multiple JSON objects, return the largest one.
+If no valid JSON object is present, return an empty JSON object: {}

@@ -1,0 +1,895 @@
+<SEC-DOCUMENT>0001178913-16-004994.txt : 20160406
+<SEC-HEADER>0001178913-16-004994.hdr.sgml : 20160406
+<ACCEPTANCE-DATETIME>20160406065523
+ACCESSION NUMBER:		0001178913-16-004994
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		3
+CONFORMED PERIOD OF REPORT:	20160406
+FILED AS OF DATE:		20160406
+DATE AS OF CHANGE:		20160406
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		161556515
+
+	BUSINESS ADDRESS:	
+		STREET 1:		7 SAPIR ST. WEIZMANN SCIENCE PARK
+		CITY:			NESS ZIONA
+		STATE:			L3
+		ZIP:			74140
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		7 SAPIR ST. WEIZMANN SCIENCE PARK
+		CITY:			NESS ZIONA
+		STATE:			L3
+		ZIP:			74140
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>zk1618313.htm
+<DESCRIPTION>6-K
+<TEXT>
+<html>
+<head>
+    <title>zk1618313.htm</title>
+    <!--Licensed to: zk global-->
+    <!--Document Created using EDGARizer 2020 5.5.2.0-->
+    <!--Copyright 1995 - 2015 Summit Financial Printing. All rights reserved.-->
+</head>
+<body bgcolor="#ffffff" style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">
+<div>
+<hr style="MARGIN-TOP: -5px; COLOR: #000000" noshade size="4">
+<hr style="MARGIN-TOP: -10px; COLOR: #000000" noshade size="1">
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">UNITED STATES</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 14pt; FONT-WEIGHT: bold">SECURITIES AND EXCHANGE COMMISSION</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Washington, D.C. 20549</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 14pt; FONT-WEIGHT: bold">FORM 6-K</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Report of Foreign Private Issuer</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Pursuant to Rule 13a-16 or 15d-16</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">of the Securities Exchange Act of 1934</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">For the Month of April, 2016</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Commission File Number 001-35948</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 16pt; FONT-WEIGHT: bold">Kamada Ltd.</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">(Translation of registrant&#8217;s name into English)</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">7 Sapir St.</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Kiryat Weizmann Science Park</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">P.O Box 4081</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Ness Ziona 74140</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Israel</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">&#160;(Address of principal executive offices)</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Indicate by check mark whether the registrant files or will file annual reports under cover Form 20-F or Form 40-F.</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Form 20-F <font style="DISPLAY: inline;" face="Wingdings 2, serif">T</font>&#160;&#160;&#160;Form 40-F <font style="DISPLAY: inline;" face="Wingdings">&#168;</font></font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ____</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7): ____</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Indicate by check mark whether the registrant by furnishing the information contained in this Form is also thereby furnishing the information to the Commission pursuant to Rule 12g3-2(b) under the Securities Exchange Act of 1934.</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Yes <font style="DISPLAY: inline;" face="Wingdings">&#168;</font>&#160;&#160;&#160;No <font style="DISPLAY: inline;" face="Wingdings 2, serif">T</font></font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">If &#8220;Yes&#8221; is marked, indicate below the file number assigned to the registrant in connection with Rule 12g3-2(b): 82-____</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">This Form 6-K is being incorporated by reference into the Registrant&#8217;s Form S-8 Registration Statement File No. 333-192720.</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div id="PGBRK" style="TEXT-INDENT: 0pt; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt">
+<div id="FTR">
+<div id="GLFTR" style="WIDTH: 100%" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+</div>
+
+<div id="PN" style="PAGE-BREAK-AFTER: always; WIDTH: 100%">
+<div style="TEXT-ALIGN: center; WIDTH: 100%"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+
+<div style="TEXT-ALIGN: center; WIDTH: 100%">
+<hr style="COLOR: black" noshade size="3">
+</div>
+</div>
+
+<div id="HDR">
+<div id="GLHDR" style="WIDTH: 100%" align="right"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+</div>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">The following exhibit is attached:</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div>
+<table align="center" border="0" cellpadding="0" cellspacing="0" id="hangingindent" width="100%" style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt; FONT-SIZE: 10pt; FONT-FAMILY: times new roman">
+<tr valign="top">
+<td style="WIDTH: 36pt">
+<div style="TEXT-INDENT: 0pt; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">99.1</font></div>
+</td>
+<td>
+<div align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">News Release: Kamada Announces Initiation of Phase 2 Clinical Trial with Intravenous Alpha-1 Antitrypsin for the Prevention of Lung Transplant Rejection</font></div>
+</td>
+</tr></table>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div id="PGBRK" style="TEXT-INDENT: 0pt; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt">
+<div id="FTR">
+<div id="GLFTR" style="WIDTH: 100%" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+</div>
+
+<div id="PN" style="PAGE-BREAK-AFTER: always; WIDTH: 100%">
+<div style="TEXT-ALIGN: center; WIDTH: 100%"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+
+<div style="TEXT-ALIGN: center; WIDTH: 100%">
+<hr style="COLOR: black" noshade size="3">
+</div>
+</div>
+
+<div id="HDR">
+<div id="GLHDR" style="WIDTH: 100%" align="right"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+</div>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-ALIGN: center; TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">SIGNATURE</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: -9pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: -9pt" align="left">&#160;</div>
+
+<div>
+<table cellpadding="0" cellspacing="0" width="100%" style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt; FONT-SIZE: 10pt; FONT-FAMILY: times new roman">
+<tr>
+<td align="left" valign="top" width="50%">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">Date: April 6, 2016</font></div>
+</td>
+<td align="left" valign="top" width="50%">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">KAMADA LTD.</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+</td>
+</tr><tr>
+<td valign="top" width="50%"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160; </font></td>
+<td align="left" valign="top" width="50%">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt; TEXT-DECORATION: underline">By:&#160;&#160;<font style="DISPLAY: inline">/s/ Gil Efron</font></font></div>
+</td>
+</tr><tr>
+<td valign="top" width="50%"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160; </font></td>
+<td align="left" valign="top" width="50%">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">Gil Efron</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">Deputy Chief Executive Officer and Chief Financial Officer</font></div>
+</td>
+</tr></table>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div id="PGBRK" style="TEXT-INDENT: 0pt; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt">
+<div id="FTR">
+<div id="GLFTR" style="WIDTH: 100%" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+</div>
+
+<div id="PN" style="PAGE-BREAK-AFTER: always; WIDTH: 100%">
+<div style="TEXT-ALIGN: center; WIDTH: 100%"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+
+<div style="TEXT-ALIGN: center; WIDTH: 100%">
+<hr style="COLOR: black" noshade size="3">
+</div>
+</div>
+
+<div id="HDR">
+<div id="GLHDR" style="WIDTH: 100%" align="right"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+</div>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; TEXT-DECORATION: underline">EXHIBIT INDEX</font></font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div>
+<table cellpadding="0" cellspacing="0" width="100%" style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt; FONT-SIZE: 10pt; FONT-FAMILY: times new roman">
+<tr>
+<td valign="top" width="8%" style="PADDING-BOTTOM: 2px">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt; TEXT-DECORATION: underline"><font style="DISPLAY: inline">EXHIBIT NO.</font></font></div>
+</td>
+<td valign="top" width="75%" style="TEXT-ALIGN: left; TEXT-INDENT: 0pt; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt">
+<div style="TEXT-ALIGN: left; TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt; TEXT-DECORATION: underline"><font style="DISPLAY: inline">DESCRIPTION</font></font></div>
+</td>
+</tr><tr>
+<td valign="top" width="8%"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160; </font></td>
+<td valign="top" width="75%"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160; </font></td>
+</tr><tr>
+<td valign="top" width="8%" style="TEXT-ALIGN: center">
+<div style="TEXT-ALIGN: center; TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">99.1</font></div>
+</td>
+<td align="left" valign="top" width="75%">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt">News Release: Kamada Announces Initiation of Phase 2 Clinical Trial with Intravenous Alpha-1 Antitrypsin for the Prevention of Lung Transplant Rejection</font></div>
+</td>
+</tr></table>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="right">&#160;</div>
+
+<div>
+<hr style="MARGIN-TOP: -5px; COLOR: #000000" noshade size="1">
+<hr style="MARGIN-TOP: -13px; COLOR: #000000" noshade size="4">
+</div>
+</body>
+</html>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>exhibit_99-1.htm
+<DESCRIPTION>EXHIBIT 99.1
+<TEXT>
+<html>
+<head>
+    <title>exhibit_99-1.htm</title>
+    <!--Licensed to: zk global-->
+    <!--Document Created using EDGARizer 2020 5.5.2.0-->
+    <!--Copyright 1995 - 2015 Summit Financial Printing. All rights reserved.-->
+</head>
+<body bgcolor="#ffffff" style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">
+<div>
+<hr style="MARGIN-TOP: -5px; COLOR: #000000" noshade size="4">
+<hr style="MARGIN-TOP: -10px; COLOR: #000000" noshade size="1">
+</div>
+
+<div style="TEXT-ALIGN: right; TEXT-INDENT: 0pt; DISPLAY: block"><font style="FONT-WEIGHT: bold; TEXT-DECORATION: underline">Exhibit 99.1</font></div>
+
+<div style="TEXT-ALIGN: right; TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">
+<div style="TEXT-ALIGN: left; TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt">
+<div align="center">
+<table bgcolor="white" cellpadding="0" cellspacing="0" width="100%" style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt; FONT-SIZE: 10pt; FONT-FAMILY: times new roman">
+<tr>
+<td width="50%">
+<div style="TEXT-ALIGN: left; TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 17pt; FONT-WEIGHT: bold">News Release</font></font></div>
+</td>
+<td width="50%" style="TEXT-ALIGN: right"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160;<img src="kamada.jpg" alt=""></font></td>
+</tr></table>
+</div>
+</div>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Kamada Announces Initiation of Phase 2 Clinical Trial with Intravenous Alpha-1 </font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Antitrypsin for the Prevention of Lung Transplant Rejection</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center"><font style="FONT-STYLE: italic; DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">First Clinical Trial Designed to Prevent Lung Transplant Rejection</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="center">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-WEIGHT: bold">NESS ZIONA, Israel (April 6, 2016) &#8211; Kamada Ltd. (NASDAQ and TASE: KMDA), </font>a plasma-derived protein therapeutics company focused on orphan indications, announces of the initiation of a Phase 2 clinical trial with its proprietary Alpha-1 Antitrypsin (AAT) for the prevention of lung transplant rejection. The study is being conducted in collaboration with Baxalta Incorporated (NYSE: BXLT), which has distribution rights to the Company's intravenous (IV) AAT for all indications in the U.S., Canada, Australia and New Zealand.</font></div>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">&#8220;Lung transplantation can be a life-saving procedure for those with end-stage lung diseases. Unfortunately, long term graft and patient survival are limited by both acute and chronic allograft rejection, with a median survival of just over six years<font style="DISPLAY: inline; FONT-FAMILY: Times New Roman">.</font><font style="FONT-SIZE: 70%; VERTICAL-ALIGN: text-top"><a href="#ref.ID0EBC">1</a></font>&#160;&#160;Fully one-third of all lung transplant recipients experience acute rejection in the first year and 40% will develop chronic rejection within the first five years. As such, I am pleased to be leading this trial to assess the potential of IV AAT in the prevention of lung transplant rejection," stated Prof. Mordechai R. Kramer, M.D., Director of the Institute of Pulmonary Medicine, Rabin Medical Center - Beilinson Hospital, a renowned expert in pulmonary care and a top specialist in his field.&#160;&#160;&#8220;Current treatment options, such as immunosuppressants, have limited efficacy and can have significant adverse side effects and co-morbidities. Preclinical data published in <font style="FONT-STYLE: italic; DISPLAY: inline">Blood</font> suggest that IV AAT has an immunomodulatory and anti-inflammatory mechanism of action that would support its efficacy in the prevention of lung transplant rejection.&#8221;</font></div>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">&#160;</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">The Phase 2 trial is a randomized, open-label, single-site study of 30 lung transplant recipients to evaluate the safety and efficacy of IV AAT&#160;&#160;on top of standard-of-care (SOC) versus SOC.&#160;&#160;The study is randomized 2:1 with 20 patients in the treatment group receiving IV AAT treatment every other day for 14 days, then once every two weeks until week eight, followed thereafter by monthly treatments. The 10 patients in the control group will be treated with SOC, which includes systemic corticosteroids and immunosuppressants.&#160;&#160;Following one year of AAT treatment, there will be a one-year follow-up.</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">The primary endpoints of the study include safety and tolerability, the incidence of acute lung transplant rejection and changes in Forced Expiratory Volume (FEV<font style="DISPLAY: inline; FONT-SIZE: 70%; VERTICAL-ALIGN: sub">1</font>) from baseline and overall effect (a measure of Bronchiolitis Obliterans (chronic rejection). Additional endpoints measured will include various inflammatory biomarkers and functional capacity.</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left">
+<div>
+<hr style="COLOR: black" align="left" noshade size="1" width="10%">
+</div>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 70%; VERTICAL-ALIGN: text-top">1</font> 1. Yusen RD, Christie JD, Edwards LB, et al. The Registry of the International Society for Heart and Lung Transplantation: thirtieth adult lung and heart-lung transplant report--2013; focus theme: age. International Society for Heart and Lung Transplantation. J Heart Lung Transplant 2013;32:965-78</font></div>
+
+<div id="PGBRK" style="TEXT-INDENT: 0pt; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt">
+<div id="FTR">
+<div id="GLFTR" style="WIDTH: 100%" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+</div>
+
+<div id="PN" style="PAGE-BREAK-AFTER: always; WIDTH: 100%">
+<div style="TEXT-ALIGN: center; WIDTH: 100%"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+
+<div style="TEXT-ALIGN: center; WIDTH: 100%">
+<hr style="COLOR: black" noshade size="3">
+</div>
+</div>
+
+<div id="HDR">
+<div id="GLHDR" style="WIDTH: 100%" align="right"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+</div>
+</div>
+
+<br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">The study is being conducted at Rabin Medical Center - Beilinson Hospital in Israel and is being led by principal investigator, Prof. Kramer. Dr. Kramer completed several fellowships in the U.S. in pulmonary care and lung transplantation, and has published many articles in leading scientific publications.</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">&#8220;We are very excited to be advancing this Phase 2 study of our IV AAT to prevent lung transplant rejection, especially since our AAT has been found to have anti-inflammatory, tissue-protective, immunomodulatory and anti-apoptotic properties in direct or indirect consequence of its underlying anti-protease capabilities. These properties may attenuate inflammation by lowering levels of pro-inflammatory mediators such as cytokines, chemokines and proteases that are associated with organ transplantation rejection,&#8221; noted Eran Schenker, M.D., Medical Director of Kamada.</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">&#8220;This is an important milestone for both Baxalta and Kamada, as well as for the transplant community,&#8221; said John Davis, M.D., M.P.H., Baxalta&#8217;s Vice President, Clinical Research and Global Therapeutic Area Head-Immunology. &#8220;Acute rejection is a significant problem in lung transplantation, and AAT has the potential to prevent acute injury and prolong allograft lung survival.&#160; Baxalta is committed to developing and expanding access to treatments for patients with immune-mediated conditions, with the goal of reducing the burden for patients worldwide.&#8221;</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify">&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">&#8220;<font style="DISPLAY: inline; FONT-FAMILY: Times New Roman">The Lung Transplant Foundation is very</font> excited <font style="DISPLAY: inline; FONT-FAMILY: Times New Roman">for</font> the potential of <font style="DISPLAY: inline; FONT-FAMILY: Times New Roman">this </font>IV AAT <font style="DISPLAY: inline; FONT-FAMILY: Times New Roman">study being led by Dr. Kramer as it is the first clinical trial designed </font>to prevent lung transplant rejection. Our patient population is truly excited by pre-clinical and early data that support its promise to improve the post lung transplant experience and long term outcomes,&#8221; said Jeffrey R. Goldstein, President and Founding Member of the Lung Transplant Foundation, a non-profit patient advocacy group focused on lung transplant recipients. &#8220;The Lung Transplant Foundation will work closely with Kamada to enhance awareness of the trial and the potential benefits of this promising therapy throughout our community.&#160;&#160;We look forward to the completion of this important study and, hopefully, to its positive outcomes, which would be transformational for lung transplant patients.&#8221;</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">&#8220;Given the favorable safety profile of our IV AAT, there is a strong rationale to support its development in this indication&#160;and an increased likelihood of efficacy for this potentially life-threatening complication,&#8221; noted Amir London, Chief Executive Officer of Kamada. &#8220;There is a significant unmet need in preventing lung transplant rejection and a significant market opportunity estimated at about $400 million per year. Lung transplantation is an entry point for potential other solid organ transplantation that represent an even bigger market opportunity.&#8221;</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Kamada&#8217;s proprietary, highly-purified, liquid form of human AAT demonstrated positive interim results in a Phase 1/2 clinical trial to treat steroid-refractory Graft-versus-Host-Disease (GvHD) conducted in collaboration with Baxalta at the Fred Hutchinson Cancer Research Center in Seattle and presented at the American Society of Hematology (ASH) meeting (December 2014).&#160;&#160;Based on those data, updated interim results (January 2016), preclinical data published in Blood (September 2014), and a similar mechanism of action, Kamada and Baxalta look forward to the findings of this trial.</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">About Kamada</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">Kamada Ltd. is focused on plasma-derived protein therapeutics for orphan indications, and has a commercial product portfolio and a robust late-stage product pipeline. The Company uses its proprietary platform technology and know-how for the extraction and purification of proteins from human plasma to produce Alpha-1 Antitrypsin (AAT) in a highly-purified, liquid form, as well as other plasma-derived Immune globulins.&#160;&#160;AAT is a protein derived from human plasma with known and newly-discovered therapeutic roles given its immunomodulatory, anti-inflammatory, tissue-protective and antimicrobial properties. The Company&#8217;s flagship product is Glassia&#174;, the first and only liquid, ready-to-use, intravenous plasma-derived AAT product approved by the U.S. Food and Drug Administration. Kamada markets Glassia in the U.S. through a strategic partnership with Baxalta.&#160;&#160;In addition to Glassia, Kamada has a product line of seven other pharmaceutical products administered by injection or infusion<font style="DISPLAY: inline; FONT-FAMILY: Times New Roman">,</font> that are marketed through distributors in more than 15 countries, including Israel, Russia, Brazil, India and other countries in Latin America and Asia. Kamada has five late-stage plasma-derived protein products in development, including an inhaled formulation of AAT for the treatment of AAT deficiency that its MAA was submitted to the EMA after completing a pivotal Phase 2/3 clinical trials in Europe and is in Phase 2 clinical trials in the U.S. and its intravenous AAT to treat type-1 diabetes, GvHD and to prevent lung transplant rejection. Kamada also leverages its expertise and presence in the plasma-derived protein therapeutics market by distributing more than 10 complementary products in Israel that are manufactured by third parties.</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block"><br>
+</div>
+
+<div id="PGBRK" style="TEXT-INDENT: 0pt; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt">
+<div id="FTR">
+<div id="GLFTR" style="WIDTH: 100%" align="left"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+</div>
+
+<div id="PN" style="PAGE-BREAK-AFTER: always; WIDTH: 100%">
+<div style="TEXT-ALIGN: center; WIDTH: 100%"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+
+<div style="TEXT-ALIGN: center; WIDTH: 100%">
+<hr style="COLOR: black" noshade size="3">
+</div>
+</div>
+
+<div id="HDR">
+<div id="GLHDR" style="WIDTH: 100%" align="right"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 8pt">&#160; </font></div>
+</div>
+</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">&#160;</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Cautionary Note Regarding Forward-Looking Statements</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">This release includes forward-looking statements within the meaning of Section 27A of the U.S. Securities Act of 1933, as amended, Section 21E of the U.S. Securities Exchange Act of 1934, as amended, and the safe harbor provisions of the U.S. Private Securities Litigation Reform Act of 1995.&#160;&#160;Forward-looking statements are statements that are not historical facts, such as statements regarding assumptions and results related to financial results forecast, commercial results, timing and results of clinical trials and EMA and U.S. FDA authorizations.&#160;&#160;Forward-looking statements are based on Kamada&#8217;s current knowledge and its present beliefs and expectations regarding possible future events and are subject to risks, uncertainties and assumptions.&#160;&#160;Actual results and the timing of events could differ materially from those anticipated in these forward-looking statements as a result of several factors including, but not limited to, unexpected results of clinical trials, delays or denial in the U.S. FDA or the EMA approval process, additional competition in the AATD market or further regulatory delays.&#160;&#160;The forward-looking statements made herein speak only as of the date of this announcement and Kamada undertakes no obligation to update publicly such forward-looking statements to reflect subsequent events or circumstances, except as otherwise required by law.</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block">&#160;</div>
+
+<div align="center">
+<table bgcolor="white" cellpadding="0" cellspacing="0" width="100%" style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt; FONT-SIZE: 10pt; FONT-FAMILY: times new roman">
+<tr>
+<td valign="top" width="50%">
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; FONT-FAMILY: times new roman; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Contacts:</font></font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt">Gil Efron</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt">CFO</font></div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt"><font style="DISPLAY: inline; TEXT-DECORATION: underline">ir@kamada.com</font></font></div>
+</td>
+<td width="50%">
+<div><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt">&#160;</font></div>
+
+<div><font style="FONT-FAMILY: times new roman; FONT-SIZE: 10pt">Anne Marie Fields</font></div>
+
+<div>LHA</div>
+
+<div>212-838-3777</div>
+
+<div><font style="DISPLAY: inline; TEXT-DECORATION: underline">afields@lhai.com</font></div>
+</td>
+</tr></table>
+</div>
+
+<div>&#160;</div>
+
+<div style="TEXT-INDENT: 0pt; DISPLAY: block; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt" align="justify"><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font style="DISPLAY: inline; FONT-FAMILY: Times New Roman; FONT-SIZE: 10pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><br>
+</div>
+
+<div>
+<hr style="MARGIN-TOP: -5px; COLOR: #000000" noshade size="1">
+<hr style="MARGIN-TOP: -13px; COLOR: #000000" noshade size="4">
+</div>
+</body>
+</html>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>GRAPHIC
+<SEQUENCE>3
+<FILENAME>kamada.jpg
+<TEXT>
+begin 644 kamada.jpg
+M_]C_X  02D9)1@ ! 0$ 8 !@  #_X0!F17AI9@  34T *@    @ ! $:  4
+M   !    /@$;  4    !    1@$H  ,    !  (   $Q  (    0    3@
+M      !@     0   &     !4&%I;G0N3D54('8U+C P /_; $,  0$! 0$!
+M 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$!
+M 0$! 0$! 0$! 0$! ?_; $,! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$!
+M 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! ?_  !$( $0
+M_@,!(@ "$0$#$0'_Q  ?   !!0$! 0$! 0           0(#! 4&!P@)"@O_
+MQ "U$  " 0,# @0#!04$!    7T! @, !!$%$B$Q008346$'(G$4,H&1H0@C
+M0K'!%5+1\"0S8G*""0H6%Q@9&B4F)R@I*C0U-C<X.3I#1$5&1TA)2E-45597
+M6%E:8V1E9F=H:6IS='5V=WAY>H.$A8:'B(F*DI.4E9:7F)F:HJ.DI::GJ*FJ
+MLK.TM;:WN+FZPL/$Q<;'R,G*TM/4U=;7V-G:X>+CY.7FY^CIZO'R\_3U]O?X
+M^?K_Q  ? 0 # 0$! 0$! 0$!         0(#! 4&!P@)"@O_Q "U$0 " 0($
+M! ,$!P4$!  ! G<  0(#$00%(3$&$D%1!V%Q$R(R@0@40I&AL<$)(S-2\!5B
+M<M$*%B0TX27Q%Q@9&B8G*"DJ-38W.#DZ0T1%1D=(24I35%565UA96F-D969G
+M:&EJ<W1U=G=X>7J"@X2%AH>(B8J2DY25EI>8F9JBHZ2EIJ>HJ:JRL[2UMK>X
+MN;K"P\3%QL?(R<K2T]35UM?8V=KBX^3EYN?HZ>KR\_3U]O?X^?K_V@ , P$
+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
+MSY90FKVY%?PZ.:<.1X*K\$2XU=3+:G$%#B"E6EPIF?M\/B*>#K82K1IQ^O\
+M(Z->-6-2=_>C4IWC?G:7"?!KQQ#X$^)'AC7IKE(]-6^^P:RAD BGTC4XI+&]
+MBG 8;H52<3,#WB4]JR_B9IFE:-X\\4V6B7MI?Z*NK7-QI5W92"6VDL+MOM-L
+M$D4D$QQRB-\=&4CK7O$?[3?BC6&&GZ7\(_A6U[=,(;<V/A&&:Y$K\)Y2%&5G
+MS]T,,$\&OIS]GW]CC6_%&M)\5/C%8V4%I/<#5+/PC9PQ0K+)N#HVI6L2K#9V
+MR$#;:(A+*#D[37CYIQ-AN&J^*XAXCP]+)ZDLMC@Z6 HYEA\?BLUJ4JSKX94J
+M%*A3E&=!U<1#VTI^SC"L_:<J@F;Y'P7C.,\-@>$N#\77XAI0SB>8U\VQ&2XO
+M*L#D-+$8:GAL8Z^*KXFO&<,2J&%J_5Z</:RJ89>R4I5)(]&_83^"$W@[PS=_
+M$KQ#9/!KOBJ!(-&BGCV2VF@Y$CNR.-ZO?2K$ZD[2JQ$<[J]6_: ^-OB/X0?$
+M/X,:>NK>'M+\">.=6U/3O%4^IZ!J&KZK;K8V_GQ/IDNGW >$S-B-@;2?:,M7
+MU/"D=O%'!!&D4,*+'%$B[4CC0!410, !5   KP'XH_"GQ;XZ^)GPE\<:1XAT
+M#2M+^&>HWFHSZ5J&FWUU>:N^HPFWN%CN8+B.&#RX]I@WQL!)N+Y7 K^75Q'A
+MN(^+\;GG$RHO"8K#9I_L]6\J=%++<32RO#4)?5\4J=6GB/JRI5WAYQA6O7J1
+MMSG]RPX0Q/!_ &7<,<'/$+&X'%Y+?%T.6%;$SEG."K9WCL5!8O!.K2KX3ZXZ
+M^&CBH3GA[86E.Z@>$:A^U5>:KX[^,6FZ)XY\,Z9\-O GPQ3Q3;>)I?!>LSZK
+MI6K3K-&\][%=7%G)?6EJR+/Y*6D2LJE6F .X>TW_ .TW\-/"W]FZ3XAUZYO[
+M\)X9T[5-<TW29QI<.M^)[&6ZTBWF0&5K6XU2.VN+B&WW2"-496;@9XOXD?L[
+M^.?&WC/XN>(=.\7>%-.TSXI_#*3X9R6=YH^J3WVEV5S;30W&H+-!=QP2W&^=
+MFB7RU15"ALG)KY8UWX3?&'2?B5KFMZ=H4>MZQX?N_AW8^&[*_P##>MS^#M<N
+M/#EM<:4_B&&XL]1AM(0FGW-Q*?[2M[FXMI0 9&\Q<?383*^!\\I4(PQ5+!O#
+MY9A*E3"TZU"A6EBWALIPTUB<;+*:'M)O%5,=+$UUS8>#A&NZ*@INK\GCLY\1
+M^'*N)E4P5?'K%YQC:5+&U<-B,5AX8*.,SK%P>#RZ&=XKV=+ZE2RV&%PS<<5-
+M59X58EU)05#Z&_9V_:9MO$6LZ]X,\>ZY>W?B34?B5XMT#PK<2:7+;:=]@TV\
+MN#I^EFY$8B6[%FL0"NQ9WSG!.*[V[^)GCOXB_&OQS\(?A[K.C>$],^&NB:+=
+M^)O$&H:2^L:A?ZQXACGN;"STV,75O':V]I;VTGVMG28R.RJ"O6N+\'_LS^/?
+M#]QH%Y=^,/"<SV'Q5U7XF:C##H^J*9$UB9KJ;2+1VNR%E@GE=5N'!C9%7Y,U
+MWOC?X+>+=.^(^M_&SX+:_I&B>/M=\.1Z+XA\.^)[2YNO"'BLZ:CG2)[L:?+;
+MWMIJ%N7:!+I9#&(I&,BMC%>;CY\&RSG'5LNKX*G+&997AE\\12E7RG!9Q#&X
+M:-.K5H2P%.%*AB,NAB84E*AB*6'Q52%>H^76GZ^64^/X\/Y;A\VP^8U8X#.<
+M+5S.&$K0PV>9AD%3+\5.K0H8F&9U:E?%87-:F$G7Y,3A,1BL)2JX>BFVH5>?
+M^&7[2\D?B'Q/\+_C*+'2_B%X3\;VO@6#4]%LYX]#\67.IVMU>Z'<V,)><VEU
+MJ%I93E[9IF FBDP>BUV][^U1\(+'PG?^,Y-7OIM)TO4]>TO48[?3[F2[LI_#
+M%U-::[+=1",BWM].DMIVGEE*C9$Q7)XKY>^&'PJ\=?$CPSJNH^(=*UOX:_'S
+M2OC)H7Q-\6^(?%.EO?>%-?U;0HM5T^UM_"\MI+ UUH0M;YVMX\+- 5C>5WW&
+MK&K?L2>/=5\+:[X6E^+&FBS\3:MX^U/6D32=2MHIY/'E[?7US<8M;Q'EN;*2
+M^*0PS%K-DB0O%NW$]N,R7@#^U*D,QS-974IXG!4L;A\%4JU<')QPSEF.*RYX
+M;!8R@L#C*KIU<O2Q+Y:<W%PI1?+3\W <0>*']CT:F4Y/+.:-7"9A5R_%9A2H
+MTL?!3QD(95@\VCB\QP.(EF.!H*K0S1RPB4ZU/G]I5G>=7T?5/CIJ.E>*?CG-
+M<^/+/2O"&C:3\%-6\$ZO=Z*^J6FF+X\DUYKN&6T@D@EN!?K8VT*223*L#,&(
+MX*MZ"G[6?PMM]1\6Z;J\^KZ</!GB.P\*ZIJD^E74>FR:IJ%M;36S)-Y9CABG
+MDN4BC\Q]H./FP03XI?\ [)/Q-U#2O&FC3_$CPBUGXV\,_#7PWJ!_X1_51+$G
+MPRO+NYTJ[A/VS ENUNY(KE6^3&"F,''6_$#X5ZUX<\+?'==2W>-=#^--QHD-
+MOX8\/:3<'7+#Q1+I.F:"FH)>32O##IUJ=/\ [06XV>;;8 <L3FL:N$X&Q=3#
+M8:.+6*JU/[.PU-9?)X&5X8?AC XBLYU<KA"=>IRYWB90Q%6.&E4HNMST9XF4
+MI]-#'>)&!HXO%2P$L'0I?VIBZLLSBLQC^\Q?&&8X7#QA1SFI.GA:7/P]@XSP
+MM">*C2Q"H<F(A@XQI^E?%;XV3Z9\$OBK\1OAG<V%QK'P\TS6YE.MZ;->:8^J
+M:':/=7-E+ D]JTZ@JL3M%. C,.37R!XI_:G^,$.CZXD^K:*UEHEK\)_$;^-?
+M"WAJ^TRTC?Q?]L?6/!,L-[-?1WUZB11,MU:.3&@PRC>IKZPU3X#WMS^S-=?
+MG1-:M;'4-:\)3:%JOB+68+F^:>\U>V:+5]3N8X)HYI;Z59F 8R;?.C4N"N14
+M?B_X'^*_$WP:\#_#2#Q#X7L-:\,WWA>ZU76QHUX=/U./PTGE)]GLH[A9HY[F
+M)8P7GDD56#$#! K#),=P9EZC2Q.%P6.C+B2M1AB,=2;Q%#**:RZ=+'U)1P-9
+MSI57A\;2IX6,TX/&.5:G6C!)]'$>6>(.:RE7PF,S'+9QX1P]>>%RZNHX3$Y]
+M5EFE.MED(2S'#JE6H+%X"K4QDH.-18!1H5J$IN2VX/VH_A1<>'+_ ,10WVK.
+MNF:M=Z)>:2ND7IUB/4-/@:ZO@;,0[DBM[1&O'E?:@MAOST%4=0_:W^"NG:UX
+M:\/2:YJ%SJWBK0[/Q)IEK8Z1J%XRZ+?2O#!?71M[>18(A)&ZR,Y 0J0V.,^2
+M>*_V6OB7XGN]?N!\1_#NDV_B3QC?>)-2L],TK6;03V5UH?\ 8D%D]Q%?I.9H
+M%5;MP&%O=2 Q3QM"=HW_ (7_ +-_CWX>>+M*\27'C7PMK$&E_#.3X<QP'1-2
+MANF@\^YNK>]\TW1C&R>9!(FS+QAL-O((QEEOAY3PE7$?VIB*^(5*K5I8"&,Q
+M%.3J.@G2PSQ4\DE!^SKIIR]FO:PDKS@VU#>&;^*M3&X?"/)<)A\*Z]"C7S.I
+M@<-5BJ,<3:OBE@X<0PJIU<*TU3]JW1G&5J<[1=7H(OVU_@+.;98-<U69[^RU
+MF^TR.+1-1E;5(O#UP;?6EL=EN1,VG';+=$'9%$RLS#-=QJ7[2WPGTN/P5/<:
+MU<-:>/1X9.BWL5C<26<9\8R6\/AQ;ZX$?EVSZG-=VT4".P8O,NX*#D?/7A[]
+MDWXC>'X? %O#X^\'.GP_\,_%3P]82#0-6$UU_P +6E@DU.YG?[;UTX0!;-%
+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
+%HH __]D!
+
+end
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

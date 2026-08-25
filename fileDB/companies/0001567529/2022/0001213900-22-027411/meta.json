@@ -1,0 +1,17 @@
+{
+  "accession": "0001213900-22-027411",
+  "form": "6-K",
+  "filingDate": "2022-05-17",
+  "reportDate": "2022-05-17",
+  "tier": 2,
+  "tierLabel": "MODERATE",
+  "category": "current_report",
+  "summary": "6-K",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 7,
+    "exhibitCount": 0
+  },
+  "tags": []
+}

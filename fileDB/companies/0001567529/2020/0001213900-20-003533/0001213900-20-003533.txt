@@ -1,0 +1,1158 @@
+<SEC-DOCUMENT>0001213900-20-003533.txt : 20200213
+<SEC-HEADER>0001213900-20-003533.hdr.sgml : 20200213
+<ACCEPTANCE-DATETIME>20200213144116
+ACCESSION NUMBER:		0001213900-20-003533
+CONFORMED SUBMISSION TYPE:	SC 13G/A
+PUBLIC DOCUMENT COUNT:		2
+FILED AS OF DATE:		20200213
+DATE AS OF CHANGE:		20200213
+GROUP MEMBERS:		DAMAR CHEMICALS INC.
+GROUP MEMBERS:		NICOLAS RODOLFO HAHN
+GROUP MEMBERS:		TAMAR HAHN
+
+SUBJECT COMPANY:	
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		SC 13G/A
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	005-87516
+		FILM NUMBER:		20609321
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+
+FILED BY:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Hahn Jonathan
+		CENTRAL INDEX KEY:			0001600511
+
+	FILING VALUES:
+		FORM TYPE:		SC 13G/A
+
+	MAIL ADDRESS:	
+		STREET 1:		ENCARNACION EZCURRA 365, PISO 3
+		CITY:			BUENOS AIRES
+		STATE:			C1
+		ZIP:			C1107CLA
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>SC 13G/A
+<SEQUENCE>1
+<FILENAME>sc13g0220a6damar_kamadaltd.htm
+<DESCRIPTION>AMENDMENT NO.6 TO SCHEDULE 13G
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="margin: 0"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 2pt solid; border-bottom: Black 1pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="margin: 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>UNITED STATES</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>SECURITIES AND EXCHANGE COMMISSION</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>Washington, D.C. 20549</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>SCHEDULE 13G</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>Under the Securities Exchange Act of
+1934</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Amendment No. 6)*</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B><U>Kamada Ltd.</U></B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Name of Issuer)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><U>Ordinary Shares, par value NIS 1.0 per
+share</U></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Title of Class of Securities)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><U>M6240T 109<BR>
+</U>(CUSIP Number)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><U>December 31, 2019</U></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Date of Event Which Requires Filing of
+this Statement)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Check the appropriate box to designate
+the rule pursuant to which this Schedule is filed:</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; width: 100%"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in; text-align: left">&#9744;</TD><TD>Rule 13d-1(b)</TD>
+</TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; width: 100%"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in; text-align: left">&#9744;</TD><TD>Rule 13d-1(c)</TD>
+</TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; width: 100%"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in; text-align: left">&#9746;</TD><TD>Rule 13d-1(d)</TD>
+</TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">*The remainder of this cover page shall
+be filled out for a reporting person&rsquo;s initial filing on this form with respect to the subject class of securities, and for
+any subsequent amendment containing information which would alter the disclosures provided in a prior cover page.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The information required in the remainder
+of this cover page shall not be deemed to be &ldquo;filed&rdquo; for the purpose of Section 18 of the Securities Exchange Act of
+1934 (&ldquo;Act&rdquo;) or otherwise subject to the liabilities of that section of the Act but shall be subject to all other provisions
+of the Act (however, see the Notes).</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1pt solid; border-bottom: Black 2pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+
+<!-- Field: Page; Sequence: 1; Options: NewSection; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt">Page <!-- Field: Sequence; Type: Arabic; Name: PageNo -->1<!-- Field: /Sequence --> of 9&nbsp;</P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">CUSIP No. M6240T 109 &nbsp;
+&nbsp;</P>
+
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-top: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; width: 4%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>1</B></P></TD>
+    <TD STYLE="border: Black 1.5pt solid; width: 96%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">NAME OF REPORTING PERSON: Damar Chemicals Inc.</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">I.R.S. IDENTIFICATION NO. OF ABOVE PERSON (ENTITIES ONLY): Not
+        applicable.</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>2</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">CHECK THE APPROPRIATE BOX IF A MEMBER OF A GROUP (see instructions):&#9;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">(a) &#9744;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">(b) &#9744;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>3</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SEC USE ONLY</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>4</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">CITIZENSHIP OR PLACE OF ORGANIZATION: Panama</P></TD></TR>
+</TABLE>
+
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<TR STYLE="vertical-align: top">
+    <TD ROWSPAN="4" STYLE="border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; width: 16%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>NUMBER OF SHARES BENEFICIALLY OWNED BY
+        EACH REPORTING PERSON WITH</B></P></TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; width: 4%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>5</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; width: 80%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SOLE VOTING POWER: -0- Ordinary Shares</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>6</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SHARED VOTING POWER: 1,908,318 Ordinary Shares*</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>7</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SOLE DISPOSITIVE POWER: -0- Ordinary Shares</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>8</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SHARED DISPOSITIVE POWER: 1,908,318 Ordinary Shares*</P></TD></TR>
+</TABLE>
+
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; width: 4%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>9</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; width: 96%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">AGGREGATE AMOUNT BENEFICIALLY OWNED BY EACH REPORTING
+PERSON: 1,908,318 Ordinary Shares*</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>10</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">CHECK BOX IF THE AGGREGATE AMOUNT IN ROW (9) EXCLUDES CERTAIN
+        SHARES (see instructions)&#9;</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>11</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">PERCENT OF CLASS REPRESENTED BY AMOUNT IN ROW (9): 4.29%**</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>12</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">TYPE OF REPORTING PERSON: CO</P></TD></TR>
+</TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in; text-align: justify">&nbsp;&nbsp;</P>
+
+<!-- Field: Rule-Page --><DIV STYLE="width: 25%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in; text-align: justify"></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; width: 100%"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in; text-align: left">*</TD><TD STYLE="text-align: justify">Damar Chemicals Inc., a company registered in Panama (&ldquo;Damar&rdquo;),
+directly holds 1,908,318 ordinary shares of the Issuer. Damar is wholly-owned by Sinara Financing S.A., which is jointly owned
+by Mr. Jonathan Hann, Ms. Tamar Hahn, Mr. Nicolas Hahn and the Fundacion Martinez.</TD>
+</TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; width: 100%"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in; text-align: left">**</TD><TD STYLE="text-align: justify">Calculated based on 44,523,450 ordinary shares of the Issuer
+outstanding as of February 11, 2020.</TD>
+</TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in; text-align: justify">&nbsp;</P>
+
+<!-- Field: Page; Sequence: 2; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt">Page <!-- Field: Sequence; Type: Arabic; Name: PageNo -->2<!-- Field: /Sequence --> of 9&nbsp;</P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in; text-align: justify"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: left; margin-top: 0pt; margin-bottom: 0pt">CUSIP No. M6240T 109 &nbsp; &nbsp;</P>
+
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-top: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; width: 4%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>1</B></P></TD>
+    <TD STYLE="border: Black 1.5pt solid; width: 96%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">NAME OF REPORTING PERSON: Jonathan Hahn</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 121.65pt 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">I.R.S. IDENTIFICATION NO. OF ABOVE PERSON (ENTITIES ONLY): Not
+        applicable.</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>2</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">CHECK THE APPROPRIATE BOX IF A MEMBER OF A GROUP (see instructions):<BR>
+        (a) &#9744;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">(b) &#9744;</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>3</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SEC USE ONLY</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>4</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">CITIZENSHIP OR PLACE OF ORGANIZATION: Argentinian</P></TD></TR>
+</TABLE>
+
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<TR STYLE="vertical-align: top">
+    <TD ROWSPAN="4" STYLE="border-bottom: Black 1.5pt solid; width: 16%; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>NUMBER OF SHARES BENEFICIALLY OWNED BY
+        EACH REPORTING PERSON WITH</B></P></TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; width: 4%; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>5</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; width: 80%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SOLE VOTING POWER: 156,433 Ordinary Shares*</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>6</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SHARED VOTING POWER: 1,908,318 Ordinary Shares*</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>7</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SOLE DISPOSITIVE POWER: 156,433 Ordinary Shares*</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>8</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SHARED DISPOSITIVE POWER: 1,908,318 Ordinary Shares*</P></TD></TR>
+</TABLE>
+
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; width: 4%; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>9</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; width: 96%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">AGGREGATE AMOUNT BENEFICIALLY OWNED BY EACH REPORTING PERSON:
+        2,064,751 Ordinary Shares*</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>10</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">CHECK BOX IF THE AGGREGATE AMOUNT IN ROW (9) EXCLUDES CERTAIN
+        SHARES (see instructions)&#9;</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>11</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">PERCENT OF CLASS REPRESENTED BY AMOUNT IN ROW (9): 4.63%**</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>12</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">TYPE OF REPORTING PERSON: IN</P></TD></TR>
+</TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in; text-align: justify">&nbsp;</P>
+
+<!-- Field: Rule-Page --><DIV STYLE="width: 25%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in; text-align: justify"></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; width: 100%"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in; text-align: left">*</TD><TD STYLE="text-align: justify">Mr. Jonathan Hahn directly holds 119,558 ordinary shares
+of the Issuer and options to purchase 36,875 ordinary shares of the Issuer currently exercisable or exercisable within 60 days
+of the date hereof. In addition, Mr. Hahn holds 25% of the shares of Sinara Financing S.A., which holds 100% of the shares of
+Damar Chemicals Inc. (&ldquo;Damar&rdquo;). Damar directly holds 1,908,318 of the Issuer&rsquo;s shares.</TD>
+</TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in 0pt 35.7pt; text-align: justify; text-indent: -28.5pt">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; width: 100%"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in; text-align: left">**</TD><TD STYLE="text-align: justify">Calculated based on 44,523,450 ordinary shares of the Issuer
+outstanding as of February 11, 2020.</TD>
+</TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in 0pt 35.7pt; text-align: justify; text-indent: -28.5pt">.</P>
+
+
+<!-- Field: Page; Sequence: 3; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt">Page <!-- Field: Sequence; Type: Arabic; Name: PageNo -->3<!-- Field: /Sequence --> of 9&nbsp;</P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">CUSIP No. M6240T 109</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-top: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; width: 4%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>1</B></P></TD>
+    <TD STYLE="border: Black 1.5pt solid; width: 96%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">NAME OF REPORTING PERSON: Tamar Hahn</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 121.65pt 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">I.R.S. IDENTIFICATION NO. OF ABOVE PERSON (ENTITIES ONLY): Not
+        applicable.</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>2</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">CHECK THE APPROPRIATE BOX IF A MEMBER OF A GROUP (see instructions):<BR>
+        (a) &#9744;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">(b) &#9744;</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>3</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SEC USE ONLY</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>4</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">CITIZENSHIP OR PLACE OF ORGANIZATION: Israeli</P></TD></TR>
+</TABLE>
+
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<TR STYLE="vertical-align: top">
+    <TD ROWSPAN="4" STYLE="border-bottom: Black 1.5pt solid; width: 16%; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>NUMBER OF SHARES BENEFICIALLY OWNED BY
+        EACH REPORTING PERSON WITH</B></P></TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; width: 4%; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>5</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; width: 80%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SOLE VOTING POWER: 94,040 Ordinary Shares</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>6</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SHARED VOTING POWER: 1,908,318 Ordinary Shares*</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>7</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SOLE DISPOSITIVE POWER: 94,040 Ordinary Shares</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>8</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SHARED DISPOSITIVE POWER: 1,908,318 Ordinary Shares*</P></TD></TR>
+</TABLE>
+
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; width: 4%; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>9</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; width: 96%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">AGGREGATE AMOUNT BENEFICIALLY OWNED BY EACH REPORTING PERSON:
+        2,002,358 Ordinary Shares*</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>10</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">CHECK BOX IF THE AGGREGATE AMOUNT IN ROW (9) EXCLUDES CERTAIN
+        SHARES (see instructions)&#9;</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>11</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">PERCENT OF CLASS REPRESENTED BY AMOUNT IN ROW (9): 4.50%**</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>12</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">TYPE OF REPORTING PERSON: IN</P></TD></TR>
+</TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in; text-align: justify">&nbsp;</P>
+
+<!-- Field: Rule-Page --><DIV STYLE="width: 25%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in; text-align: justify"></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; width: 100%"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in; text-align: left">*</TD><TD STYLE="text-align: justify">Ms. Tamar Hahn holds directly 94,040 ordinary shares of
+the Issuer. In addition, Ms. Hahn holds 25% of the shares of Sinara Financing S.A., which holds 100% of the shares of Damar Chemicals
+Inc. (&ldquo;Damar&rdquo;). Damar directly holds 1,908,318 of the Issuer&rsquo;s shares.</TD>
+</TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in 0pt 35.7pt; text-align: justify; text-indent: -28.5pt">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; width: 100%"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in; text-align: left">**</TD><TD>Calculated based on 44,523,450 ordinary shares of the Issuer
+outstanding as of February 11, 2020.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+
+
+
+
+
+
+<!-- Field: Page; Sequence: 4; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt">Page <!-- Field: Sequence; Type: Arabic; Name: PageNo -->4<!-- Field: /Sequence --> of 9&nbsp;</P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in 0pt 35.7pt; text-align: justify; text-indent: -28.5pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">CUSIP No. M6240T 109</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in; text-align: justify">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-top: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; width: 4%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>1</B></P></TD>
+    <TD STYLE="border: Black 1.5pt solid; width: 96%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">NAME OF REPORTING PERSON: Nicolas Rodolfo Hahn</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 121.65pt 0pt 0; text-indent: 160.9pt">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">I.R.S. IDENTIFICATION NO. OF ABOVE PERSON (ENTITIES ONLY): Not
+        applicable.</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>2</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">CHECK THE APPROPRIATE BOX IF A MEMBER OF A GROUP (see instructions):<BR>
+        (a) &#9744;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">(b) &#9744;</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>3</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SEC USE ONLY</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>4</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">CITIZENSHIP OR PLACE OF ORGANIZATION: Argentinian</P></TD></TR>
+</TABLE>
+
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<TR STYLE="vertical-align: top">
+    <TD ROWSPAN="4" STYLE="border-bottom: Black 1.5pt solid; width: 16%; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>NUMBER OF SHARES BENEFICIALLY OWNED BY
+        EACH REPORTING PERSON WITH</B></P></TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; width: 4%; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>5</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; width: 80%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SOLE VOTING POWER: 94,041 Ordinary Shares</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>6</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SHARED VOTING POWER: 1,908,318 Ordinary Shares*</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>7</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SOLE DISPOSITIVE POWER: 94,041 Ordinary Shares</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>8</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">SHARED DISPOSITIVE POWER: 1,908,318 Ordinary Shares*</P></TD></TR>
+</TABLE>
+
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; width: 4%; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>9</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; width: 96%; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">AGGREGATE AMOUNT BENEFICIALLY OWNED BY EACH REPORTING PERSON:
+        2,002,359 Ordinary Shares*</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>10</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">CHECK BOX IF THE AGGREGATE AMOUNT IN ROW (9) EXCLUDES CERTAIN
+        SHARES (see instructions)&#9;</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>11</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">PERCENT OF CLASS REPRESENTED BY AMOUNT IN ROW (9): 4.50%**</P></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt; border-left: Black 1.5pt solid">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><B>12</B></P></TD>
+    <TD STYLE="border-right: Black 1.5pt solid; border-bottom: Black 1.5pt solid; border-left: Black 1.5pt solid; padding-right: 6pt; padding-left: 6pt">
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">TYPE OF REPORTING PERSON: IN</P></TD></TR>
+</TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in; text-align: justify">&nbsp;&nbsp;</P>
+
+<!-- Field: Rule-Page --><DIV STYLE="width: 25%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in; text-align: justify"></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; width: 100%"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in; text-align: left">*</TD><TD STYLE="text-align: justify">Mr. Nicolas Rodolfo Hahn holds directly 94,041 ordinary
+shares of the Issuer. In addition, Mr. Hahn holds 25% of the shares of Sinara Financing S.A, which holds 100% of the shares of
+Damar Chemicals Inc. (&ldquo;Damar&rdquo;). Damar directly holds 1,908,318 of the Issuer&rsquo;s shares.</TD>
+</TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in 0pt 35.7pt; text-align: justify; text-indent: -28.5pt">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; width: 100%"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in; text-align: left">**</TD><TD STYLE="text-align: justify">Calculated based on 44,523,450 ordinary shares of the Issuer
+outstanding as of February 11, 2020.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+
+<!-- Field: Page; Sequence: 5; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt">Page <!-- Field: Sequence; Type: Arabic; Name: PageNo -->5<!-- Field: /Sequence --> of 9&nbsp;</P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.1in; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left">CUSIP No. M6240T 109</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 0.15in; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left"><B>Item 1.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 0.15in; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; width: 100%"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">(a)</TD><TD>Name of Issuer: Kamada Ltd.</TD>
+</TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 0.5in; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in">(b)</TD><TD STYLE="text-align: justify; padding-right: 0.4in">Address of Issuer&rsquo;s Principal Executive Offices:</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 1.25in; text-align: justify; text-indent: -0.5in">2 Holzman
+St., Science Park,</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 1.25in; text-align: justify; text-indent: -0.5in">P.O.
+Box 4081,</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 1.25in; text-align: justify; text-indent: -0.5in">Rehovot,
+7670402, Israel</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 0.15in; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left"><B>Item 2.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 0.15in; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in">(a)</TD><TD STYLE="text-align: justify; padding-right: 0.4in">Name of Person Filing:</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 1.25in; text-align: justify; text-indent: -0.5in">Damar
+Chemicals Inc.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 1.25in; text-align: justify; text-indent: -0.5in">Jonathan
+Hahn</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 1.25in; text-align: justify; text-indent: -0.5in">Tamar
+Hahn</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0in 1.25in; text-align: justify; text-indent: -0.5in">Nicolas
+Rodolfo Hahn</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 1.65in; text-align: justify; text-indent: -0.5in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 1.25in; text-align: justify; text-indent: -0.5in">I.R.S.
+Identification No. of above person (entities only): N/A</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 0.5in; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in">(b)</TD><TD STYLE="text-align: justify; padding-right: 0.4in">Address of Principal Business Office or, if none, Residence: Encarnaci&oacute;n
+Ezcurra 365, Piso 3, C1107CLA, Buenos Aires, Argentina</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 1.65in; text-align: justify; text-indent: -0.5in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in">(c)</TD><TD STYLE="text-align: justify; padding-right: 0.4in">Citizenship: Argentinean</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 1in; text-align: justify; text-indent: -0.5in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in">(d)</TD><TD STYLE="text-align: justify; padding-right: 0.4in">Title of Class of Securities: Ordinary Shares, par value NIS 1.0 per share
+(&ldquo;Ordinary Shares&rdquo;)</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 0.15in; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in">(e)</TD><TD STYLE="text-align: justify; padding-right: 0.4in">CUSIP Number: M6240T 109</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 0.15in; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; width: 100%"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.75in; text-align: left"><B>Item 3.</B></TD><TD>Not applicable</TD>
+</TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 0.15in; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; width: 100%"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.75in; text-align: left"><B>Item 4.</B></TD><TD><B>Ownership</B></TD>
+</TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 0.15in; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: justify; margin-top: 0pt; margin-bottom: 0pt">Provide the following information regarding the aggregate
+number and percentage of the class of securities of the issuer identified in Item 1.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.15in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in">(a)</TD><TD STYLE="text-align: justify">Amount beneficially owned:</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 1in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.75in">Damar Chemicals Inc. 1,908,318 Ordinary Shares</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.75in">Jonathan Hahn 2,064,751 Ordinary Shares</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.75in">Tamar Hahn 2,002,358 Ordinary Shares</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.75in">Nicolas Rodolfo Hahn 2,002,359 Ordinary Shares</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 1in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.4in"></TD><TD STYLE="width: 0.25in">(b)</TD><TD STYLE="text-align: justify">Percent of class:</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.65in; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.75in">Damar Chemicals Inc. 4.29%*</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.75in">Jonathan Hahn 4.63%*</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.75in">Tamar Hahn 4.50%*</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.75in">Nicolas Rodolfo Hahn 4.50%*</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 1in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.4in"></TD><TD STYLE="width: 0.25in">(c)</TD><TD STYLE="text-align: justify">Number of shares as to which person has:</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 28.35pt">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.75in"></TD><TD STYLE="width: 0.5in">(i)</TD><TD>Sole power to vote or to direct the vote: See Item 5 of each cover page.</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 1.5in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.75in"></TD><TD STYLE="width: 0.5in">(ii)</TD><TD>Shared power to vote or to direct the vote: See Item 6 of each cover page.</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 79.65pt">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.75in"></TD><TD STYLE="width: 0.5in">(iii)</TD><TD>Sole power to dispose or to direct the disposition of: See Item 7 of each cover page.</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 79.65pt">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.75in"></TD><TD STYLE="width: 0.5in">(iv)</TD><TD>Shared power to dispose or to direct the disposition of: See Item 8 of each cover page.</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 56.7pt">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; width: 100%"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in; text-align: left">*</TD><TD>Calculated based on 44,523,450ordinary shares of the Issuer
+outstanding as of February 11, 2020.</TD>
+</TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 56.7pt">&nbsp;</P>
+
+
+<!-- Field: Page; Sequence: 6; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt">Page <!-- Field: Sequence; Type: Arabic; Name: PageNo -->6<!-- Field: /Sequence --> of 9&nbsp;</P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 56.7pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: left; margin-top: 0pt; margin-bottom: 0pt">CUSIP No. M6240T 109</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 0.15in; text-align: justify"><B>&nbsp;</B></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.75in"><B>Item 5.</B></TD><TD STYLE="text-align: justify"><B>Ownership of Five Percent or Less of a Class</B></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 1.15in; text-align: justify; text-indent: -1in">&nbsp;</P>
+
+<P STYLE="text-align: justify; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0in">If this statement is being filed to report the fact
+that as of the date hereof the reporting person has ceased to be the beneficial owner of more than five percent of the class of
+securities, check the following &#9744;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 1in; text-align: justify; text-indent: -1in"><B>&nbsp;</B></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.75in"><B>Item 6.</B></TD><TD STYLE="text-align: justify"><B>Ownership of More than Five Percent on Behalf of Another Person</B></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.75in; text-align: justify">Not applicable.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.75in"><B>Item 7.</B></TD><TD STYLE="text-align: justify"><B>Identification and Classification of the Subsidiary Which Acquired the Security Being Reported
+on By the Parent Holding Company</B></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 82.75pt; text-align: justify; text-indent: -1in"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in; text-align: justify; text-indent: 0.25in">Not applicable.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.75in"><B>Item 8.</B></TD><TD STYLE="text-align: justify"><B>Identification and Classification of Members of the Group</B></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="text-indent: -0.25in; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 1in; text-align: justify">Not applicable.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.75in"><B>Item 9.</B></TD><TD STYLE="text-align: justify"><B>Notice of Dissolution of Group</B></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="text-indent: -0.25in; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 1in; text-align: justify">Not applicable.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.75in"><B>Item 10.</B></TD><TD STYLE="text-align: justify"><B>Certification </B></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="text-indent: -0.25in; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 1in; text-align: justify">Not applicable.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 1in; text-align: justify">&nbsp;</P>
+
+
+<!-- Field: Page; Sequence: 7; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt">Page <!-- Field: Sequence; Type: Arabic; Name: PageNo -->7<!-- Field: /Sequence --> of 9&nbsp;</P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: left">CUSIP No. M6240T 109</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 0.15in; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>SIGNATURES</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">After reasonable inquiry
+and to the best of our knowledge and belief, we certify that the information set forth in this statement is true, complete and
+correct.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 3in; text-indent: -3in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Date: February 13, 2020&#9;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-size: 10pt"><B>Damar Chemicals Inc.</B></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-size: 10pt">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="border-bottom: Black 1.5pt solid; font-size: 10pt">/s/ Jonathan Hahn </TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt; width: 60%">&nbsp;</TD>
+    <TD STYLE="font-size: 10pt; width: 5%">By:</TD>
+    <TD STYLE="font-size: 10pt; width: 35%">Jonathan Hahn</TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD STYLE="font-size: 10pt">Title:</TD>
+    <TD STYLE="font-size: 10pt">Holder Power of Attorney</TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-size: 10pt">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-size: 10pt"><B>Jonathan Hahn</B></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="border-bottom: Black 1.5pt solid; font-size: 10pt">/s/ Jonathan Hahn</TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-size: 10pt">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-size: 10pt"><B>Tamar Hahn </B></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="border-bottom: Black 1.5pt solid; font-size: 10pt">/s/ Tamar Hahn</TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-size: 10pt">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-size: 10pt"><B>Nicolas Rodolfo Hahn </B></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="border-bottom: Black 1.5pt solid; font-size: 10pt">/s/ Nicolas Rodolfo Hahn </TD></TR>
+</TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 3in">&nbsp;</P>
+
+
+<!-- Field: Page; Sequence: 8; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt">Page <!-- Field: Sequence; Type: Arabic; Name: PageNo -->8<!-- Field: /Sequence --> of 9&nbsp;</P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.4in 0pt 0; text-align: justify">CUSIP No. M6240T 109</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; white-space: nowrap; width: 8%; font-size: 10pt"><B>EXHIBIT NO.</B></TD>
+    <TD STYLE="padding-bottom: 1.5pt; width: 2%; font-size: 10pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; width: 90%; font-size: 10pt"><B>DESCRIPTION</B></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="white-space: nowrap; font-size: 10pt">&nbsp;</TD>
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD STYLE="font-size: 10pt">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: top; background-color: rgb(204,238,255)">
+    <TD STYLE="white-space: nowrap; font-size: 10pt">Exhibit 99.1</TD>
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD STYLE="font-size: 10pt"><A HREF="sc13g0220a6ex99-1damar_kama.htm">Joint Filing Agreement, dated February 13, 2020</A></TD></TR>
+</TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+
+
+
+<P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">Page 9 of 9</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right"></P>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>sc13g0220a6ex99-1damar_kama.htm
+<DESCRIPTION>JOINT FILING AGREEMENT, DATED FEBRUARY 13, 2020
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="margin: 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right"><B>EXHIBIT 99.1</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">JOINT FILING AGREEMENT</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: justify; margin: 0pt 0; text-indent: 0.5in">Pursuant to Rule 13d-1(k)(1) under the Securities
+Exchange Act of 1934, as amended, the undersigned hereby agree that only one statement containing the information required by Schedule
+13G need be filed with respect to the ownership by each of the undersigned of shares of Kamada Ltd. In accordance with Rule 13d-1(k)(1),
+the undersigned hereby agree to the joint filing with each other on behalf of each of them of such a statement on Schedule 13G
+and any amendments thereto with respect to Ordinary Shares, par value NIS 1.0 per share, of Kamada Ltd. beneficially owned by each
+of them.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Date: February 13, 2020</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-size: 10pt"><B>Damar Chemicals Inc.</B></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-size: 10pt">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="border-bottom: Black 1.5pt solid; font-size: 10pt">/s/ Jonathan Hahn</TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt; width: 60%">&nbsp;</TD>
+    <TD STYLE="font-size: 10pt; width: 5%">By:</TD>
+    <TD STYLE="font-size: 10pt; width: 35%">Jonathan Hahn</TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD STYLE="font-size: 10pt">Title:</TD>
+    <TD STYLE="font-size: 10pt">Holder Power of Attorney</TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-size: 10pt">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-size: 10pt"><B>Jonathan Hahn</B></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="border-bottom: Black 1.5pt solid; font-size: 10pt">/s/ Jonathan Hahn</TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-size: 10pt">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-size: 10pt"><B>Tamar Hahn</B></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="border-bottom: Black 1.5pt solid; font-size: 10pt">/s/ Tamar Hahn</TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-size: 10pt">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-size: 10pt"><B>Nicolas Rodolfo Hahn</B></TD></TR>
+<TR STYLE="vertical-align: top">
+    <TD STYLE="font-size: 10pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="border-bottom: Black 1.5pt solid; font-size: 10pt">/s/ Nicolas Rodolfo Hahn</TD></TR>
+</TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 3in">&nbsp;&nbsp;</P>
+
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

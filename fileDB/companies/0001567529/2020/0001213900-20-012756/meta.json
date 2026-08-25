@@ -1,0 +1,19 @@
+{
+  "accession": "0001213900-20-012756",
+  "form": "6-K",
+  "filingDate": "2020-05-18",
+  "reportDate": "2020-05-18",
+  "tier": 1,
+  "tierLabel": "MAJOR",
+  "category": "quarterly_results",
+  "summary": "PRESS RELEASE: KAMADA REPORTS FIRST QUARTER 2020 FINANCIAL RESULTS AND HIGHLIGHTS RECENT CORPORATE PROGRESS",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": true,
+    "fileCount": 9,
+    "exhibitCount": 2
+  },
+  "tags": [
+    "financials"
+  ]
+}

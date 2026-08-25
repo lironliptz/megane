@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <title>megane — Document insights</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="app-layout">
+
+  <header class="app-header">
+    <span class="logo">megane</span>
+    <nav>
+      <a href="/">Analyze</a>
+      <a href="/admin" id="admin-link" style="display:none">Admin</a>
+    </nav>
+    <div class="header-right">
+      <span id="header-email" style="color:var(--text-muted);font-size:.85rem"></span>
+      <button class="btn btn-ghost" onclick="logout()">Sign out</button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="hero card hero-card">
+      <h1 class="hero-title">Turn any file into insight</h1>
+      <p class="hero-lead">
+        After sign-in, drop a document below. We extract text, send it to the model, and show
+        <strong>metadata</strong>, an <strong>explanation</strong>, and <strong>charts</strong> when the content has numbers or categories to visualize.
+      </p>
+    </section>
+
+    <div id="error-msg" class="error-msg"></div>
+
+    <div class="card">
+      <h2>Upload</h2>
+      <p class="card-hint">PDF, Word, Excel, images, DWG/DXF, plain text, CSV, JSON, Markdown</p>
+      <div id="model-picker-row" class="model-picker" style="display:none">
+        <label class="model-picker-label" for="llm-model-select">Gemini model</label>
+        <select id="llm-model-select" class="model-picker-select" aria-label="Gemini model"></select>
+      </div>
+      <div class="drop-zone" id="drop-zone">
+        <div class="drop-icon">&#128196;</div>
+        <strong>Drag &amp; drop files here</strong>
+        <p>or click to browse</p>
+        <input type="file" id="file-input" multiple style="display:none"
+          accept=".pdf,.docx,.doc,.xlsx,.xls,.jpg,.jpeg,.png,.gif,.webp,.dwg,.dxf,.txt,.md,.markdown,.csv,.json">
+      </div>
+      <div id="upload-progress" class="upload-progress"></div>
+    </div>
+
+    <div class="card">
+      <h2>Recent uploads</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Filename</th>
+              <th>Model</th>
+              <th>Status</th>
+              <th>Size</th>
+              <th>Uploaded</th>
+              <th>Processing time</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="files-tbody">
+            <tr><td colspan="8" class="cell-muted">Loading…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <div class="modal-overlay" id="result-modal">
+    <div class="modal modal-wide">
+      <button type="button" class="modal-close" onclick="closeModal()" aria-label="Close">&times;</button>
+      <h3 id="modal-title">Analysis</h3>
+      <div id="modal-body" class="result-body"></div>
+    </div>
+  </div>
+
+  <script src="/static/js/chart.umd.min.js"></script>
+  <script src="/static/js/app.js"></script>
+  <script src="/static/js/analyze.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "accession": "0001213900-26-001958",
+  "form": "6-K",
+  "filingDate": "2026-01-07",
+  "reportDate": "2026-01-07",
+  "tier": 2,
+  "tierLabel": "MODERATE",
+  "category": "current_report",
+  "summary": "KAMADA PROVIDES 2026 ANNUAL GUIDANCE OF $200 - $205 MILLION IN REVENUES AND $50 - $53 MILLION OF ADJUSTED EBITDA, REPRESENTING DOUBLE-DIGIT GROWTH AND AFFIRMS 2025 FINANCIAL GUIDANCE",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 30,
+    "exhibitCount": 2
+  },
+  "tags": []
+}

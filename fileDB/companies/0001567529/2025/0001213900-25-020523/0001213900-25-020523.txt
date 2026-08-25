@@ -1,0 +1,332 @@
+<SEC-DOCUMENT>0001213900-25-020523.txt : 20250305
+<SEC-HEADER>0001213900-25-020523.hdr.sgml : 20250305
+<ACCEPTANCE-DATETIME>20250305124658
+ACCESSION NUMBER:		0001213900-25-020523
+CONFORMED SUBMISSION TYPE:	SCHEDULE 13G/A
+PUBLIC DOCUMENT COUNT:		2
+FILED AS OF DATE:		20250305
+DATE AS OF CHANGE:		20250305
+
+SUBJECT COMPANY:	
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		ORGANIZATION NAME:           	03 Life Sciences
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		SCHEDULE 13G/A
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	005-87516
+		FILM NUMBER:		25709749
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+
+FILED BY:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Gov Financial Holdings Ltd.
+		CENTRAL INDEX KEY:			0001434863
+		ORGANIZATION NAME:           	
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		SCHEDULE 13G/A
+
+	BUSINESS ADDRESS:	
+		STREET 1:		27 YOAV ST.
+		CITY:			TEL AVIV
+		STATE:			L3
+		ZIP:			69081
+		BUSINESS PHONE:		97299701800
+
+	MAIL ADDRESS:	
+		STREET 1:		27 YOAV ST.
+		CITY:			TEL AVIV
+		STATE:			L3
+		ZIP:			69081
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>SCHEDULE 13G/A
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?><edgarSubmission xmlns="http://www.sec.gov/edgar/schedule13g" xmlns:com="http://www.sec.gov/edgar/common">
+  <headerData>
+    <submissionType>SCHEDULE 13G/A</submissionType>
+    <filerInfo>
+      <filer>
+        <filerCredentials>
+          <!-- Field: Pseudo-Tag; ID: Name; Data: Gov Financial Holdings Ltd. -->
+          <cik>0001434863</cik>
+          <ccc>XXXXXXXX</ccc>
+        </filerCredentials>
+      </filer>
+      <liveTestFlag>LIVE</liveTestFlag>
+
+
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPageHeader>
+      <amendmentNo>8</amendmentNo>
+      <securitiesClassTitle>Ordinary Shares, par value NIS 1.0 per share</securitiesClassTitle>
+      <eventDateRequiresFilingThisStatement>12/31/2024</eventDateRequiresFilingThisStatement>
+      <issuerInfo>
+        <issuerCik>0001567529</issuerCik>
+        <issuerName>Kamada Ltd.</issuerName>
+        <issuerCusip>M6240T109</issuerCusip>
+        <issuerPrincipalExecutiveOfficeAddress>
+          <com:street1>2 Holzman St., Science Park</com:street1>
+          <com:street2>P.O. Box 4081</com:street2>
+          <com:city>Rehovot</com:city>
+          <com:stateOrCountry>L3</com:stateOrCountry>
+          <com:zipCode>7670402</com:zipCode>
+        </issuerPrincipalExecutiveOfficeAddress>
+      </issuerInfo>
+      <designateRulesPursuantThisScheduleFiled>
+        <designateRulePursuantThisScheduleFiled>Rule 13d-1(d)</designateRulePursuantThisScheduleFiled>
+      </designateRulesPursuantThisScheduleFiled>
+    </coverPageHeader>
+    <coverPageHeaderReportingPersonDetails>
+
+
+      <reportingPersonName>Gov Financial Holdings Ltd.</reportingPersonName>
+      <citizenshipOrOrganization>L3</citizenshipOrOrganization>
+      <reportingPersonBeneficiallyOwnedNumberOfShares>
+        <soleVotingPower>0.00</soleVotingPower>
+        <sharedVotingPower>1455459.00</sharedVotingPower>
+        <soleDispositivePower>0.00</soleDispositivePower>
+        <sharedDispositivePower>1455459.00</sharedDispositivePower>
+      </reportingPersonBeneficiallyOwnedNumberOfShares>
+      <reportingPersonBeneficiallyOwnedAggregateNumberOfShares>1455459.00</reportingPersonBeneficiallyOwnedAggregateNumberOfShares>
+      <aggregateAmountExcludesCertainSharesFlag>N</aggregateAmountExcludesCertainSharesFlag>
+      <classPercent>2.53</classPercent>
+      <typeOfReportingPerson>CO</typeOfReportingPerson>
+      <comments>* Gov Financial Holdings Ltd. ("Gov") is wholly-owned by Mr. Leon Recanati, who exercises sole voting and investment power over the shares held by Gov.
+
+** Calculated based on 57,505,031 ordinary shares of the Issuer outstanding as of December 31, 2024.</comments>
+    </coverPageHeaderReportingPersonDetails>
+    <coverPageHeaderReportingPersonDetails>
+
+      <reportingPersonName>Insight Capital Ltd.</reportingPersonName>
+      <citizenshipOrOrganization>L3</citizenshipOrOrganization>
+      <reportingPersonBeneficiallyOwnedNumberOfShares>
+        <soleVotingPower>0.00</soleVotingPower>
+        <sharedVotingPower>1346335.00</sharedVotingPower>
+        <soleDispositivePower>0.00</soleDispositivePower>
+        <sharedDispositivePower>1346335.00</sharedDispositivePower>
+      </reportingPersonBeneficiallyOwnedNumberOfShares>
+      <reportingPersonBeneficiallyOwnedAggregateNumberOfShares>1346335.00</reportingPersonBeneficiallyOwnedAggregateNumberOfShares>
+      <aggregateAmountExcludesCertainSharesFlag>N</aggregateAmountExcludesCertainSharesFlag>
+      <classPercent>2.34</classPercent>
+      <typeOfReportingPerson>CO</typeOfReportingPerson>
+      <comments>* Insight Capital Ltd. ("Insight") is wholly-owned by Mr. Leon Recanati, who exercises sole voting and investment power over the shares held by Insight.
+
+** Calculated based on 57,505,031 ordinary shares of the Issuer outstanding as of December 31, 2024.</comments>
+    </coverPageHeaderReportingPersonDetails>
+    <coverPageHeaderReportingPersonDetails>
+
+      <reportingPersonName>Leon Recanati</reportingPersonName>
+      <citizenshipOrOrganization>L3</citizenshipOrOrganization>
+      <reportingPersonBeneficiallyOwnedNumberOfShares>
+        <soleVotingPower>687645.00</soleVotingPower>
+        <sharedVotingPower>2801794.00</sharedVotingPower>
+        <soleDispositivePower>687645.00</soleDispositivePower>
+        <sharedDispositivePower>2801794.00</sharedDispositivePower>
+      </reportingPersonBeneficiallyOwnedNumberOfShares>
+      <reportingPersonBeneficiallyOwnedAggregateNumberOfShares>3489439.00</reportingPersonBeneficiallyOwnedAggregateNumberOfShares>
+      <aggregateAmountExcludesCertainSharesFlag>N</aggregateAmountExcludesCertainSharesFlag>
+      <classPercent>6.07</classPercent>
+      <typeOfReportingPerson>IN</typeOfReportingPerson>
+      <comments>* Mr. Recanati directly holds 631,145 ordinary shares of the Issuer and options to purchase 56,500 ordinary shares of the Issuer currently exercisable or exercisable within 60 days of December 31, 2024. In addition, Mr. Recanati beneficially owns 1,455,459 ordinary shares of the Issuer through Gov and 1,346,335 ordinary shares of the Issuer through Insight, both of which are wholly-owned by Mr. Leon Recanati.
+
+** Calculated based on 57,505,031 ordinary shares of the Issuer outstanding as of December 31, 2024.</comments>
+    </coverPageHeaderReportingPersonDetails>
+    <items>
+      <item1>
+        <issuerName>Kamada Ltd.</issuerName>
+        <issuerPrincipalExecutiveOfficeAddress>2 Holzman St., Science Park, P.O. Box 4081, Rehovot, 7670402, Israel</issuerPrincipalExecutiveOfficeAddress>
+      </item1>
+      <item2>
+        <filingPersonName>Gov Financial Holdings Ltd.
+Insight Capital Ltd.
+Leon Recanati</filingPersonName>
+        <principalBusinessOfficeOrResidenceAddress>27 Yoav St. 69081, Israel</principalBusinessOfficeOrResidenceAddress>
+        <citizenship>Israel</citizenship>
+      </item2>
+      <item3>
+        <notApplicableFlag>Y</notApplicableFlag>
+      </item3>
+      <item4>
+        <amountBeneficiallyOwned>Gov Financial Holdings Ltd. 1,455,459 Ordinary Shares
+Insight Capital Ltd. 1,346,335
+Leon Recanati 3,489,439 Ordinary Shares</amountBeneficiallyOwned>
+        <classPercent>Gov Financial Holdings Ltd. 2.53%*
+Insight Capital Ltd. 2.34%*
+Leon Recanati 6.07%*
+
+* Calculated based on 57,505,031 ordinary shares of the Issuer outstanding as of December 31, 2024.</classPercent>
+        <numberOfSharesPersonHas>
+          <solePowerOrDirectToVote>See Item 5 of each cover page.</solePowerOrDirectToVote>
+          <sharedPowerOrDirectToVote>See Item 6 of each cover page.</sharedPowerOrDirectToVote>
+          <solePowerOrDirectToDispose>See Item 7 of each cover page.</solePowerOrDirectToDispose>
+          <sharedPowerOrDirectToDispose>See Item 8 of each cover page.
+
+* Calculations are based on 57,505,031 Ordinary Shares of the Issuer outstanding as of December 31, 2024.</sharedPowerOrDirectToDispose>
+        </numberOfSharesPersonHas>
+      </item4>
+      <item5>
+        <notApplicableFlag>Y</notApplicableFlag>
+      </item5>
+      <item6>
+        <notApplicableFlag>Y</notApplicableFlag>
+      </item6>
+      <item7>
+        <notApplicableFlag>Y</notApplicableFlag>
+      </item7>
+      <item8>
+        <notApplicableFlag>Y</notApplicableFlag>
+      </item8>
+      <item9>
+        <notApplicableFlag>Y</notApplicableFlag>
+      </item9>
+      <item10>
+        <notApplicableFlag>Y</notApplicableFlag>
+      </item10>
+    </items>
+    <exhibitInfo>Exhibit 99.1 Joint Filing Agreement, dated March 5, 2025</exhibitInfo>
+    <signatureInformation>
+      <reportingPersonName>Gov Financial Holdings Ltd.</reportingPersonName>
+      <signatureDetails>
+        <signature>/s/ Leon Recanati</signature>
+        <title>Leon Recanati/Chairman and CEO</title>
+        <date>03/05/2025</date>
+      </signatureDetails>
+    </signatureInformation>
+    <signatureInformation>
+      <reportingPersonName>Insight Capital Ltd.</reportingPersonName>
+      <signatureDetails>
+        <signature>/s/ Leon Recanati</signature>
+        <title>Leon Recanati/Chairman and CEO</title>
+        <date>03/05/2025</date>
+      </signatureDetails>
+    </signatureInformation>
+    <signatureInformation>
+      <reportingPersonName>Leon Recanati</reportingPersonName>
+      <signatureDetails>
+        <signature>/s/ Leon Recanati</signature>
+        <title>Leon Recanati</title>
+        <date>03/05/2025</date>
+      </signatureDetails>
+    </signatureInformation>
+  </formData>
+
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>ea023166901ex99-1_kamada.htm
+<DESCRIPTION>JOINT FILING AGREEMENT, DATED MARCH 5, 2025
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right"><B>Exhibit 99.1</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>JOINT FILING AGREEMENT</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 27pt">Pursuant to Rule 13d-1(k)(1)
+under the Securities Exchange Act of 1934, as amended, the undersigned hereby agree that only one statement containing the information
+required by Schedule 13G need be filed with respect to the ownership by each of the undersigned of shares of Kamada Ltd. In accordance
+with Rule 13d-1(k)(1), the undersigned hereby agree to the joint filing with each other on behalf of each of them of such a statement
+on Schedule 13G and any amendments thereto with respect to Ordinary Shares, par value NIS 1.0 per share, of Kamada Ltd. beneficially owned
+by each of them.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 27pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Date: March 5, 2025</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="border-bottom: black 1.5pt solid"><FONT STYLE="font-size: 10pt">/s/ Leon Recanati</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="width: 60%">&nbsp;</TD>
+    <TD STYLE="width: 5%"><FONT STYLE="font-size: 10pt">By:</FONT></TD>
+    <TD STYLE="width: 35%"><FONT STYLE="font-size: 10pt">Gov Financial Holdings Ltd.</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD><FONT STYLE="font-size: 10pt">Name:&nbsp;</FONT></TD>
+    <TD><FONT STYLE="font-size: 10pt">Leon Recanati</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD><FONT STYLE="font-size: 10pt">Title:</FONT></TD>
+    <TD><FONT STYLE="font-size: 10pt">Chairman and CEO</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="border-bottom: black 1.5pt solid"><FONT STYLE="font-size: 10pt">/s/ Leon Recanati</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD><FONT STYLE="font-size: 10pt">By:</FONT></TD>
+    <TD><FONT STYLE="font-size: 10pt">Insight Capital Ltd.</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD><FONT STYLE="font-size: 10pt">Name:&nbsp;</FONT></TD>
+    <TD><FONT STYLE="font-size: 10pt">Leon Recanati</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD><FONT STYLE="font-size: 10pt">Title:</FONT></TD>
+    <TD><FONT STYLE="font-size: 10pt">Chairman and CEO</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="border-bottom: black 1.5pt solid"><FONT STYLE="font-size: 10pt">/s/ Leon Recanati</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD><FONT STYLE="font-size: 10pt">By:</FONT></TD>
+    <TD><FONT STYLE="font-size: 10pt">Leon Recanati</FONT></TD></TR>
+  </TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;&nbsp;</P>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

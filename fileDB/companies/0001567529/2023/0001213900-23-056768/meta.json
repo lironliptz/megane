@@ -1,0 +1,19 @@
+{
+  "accession": "0001213900-23-056768",
+  "form": "6-K",
+  "filingDate": "2023-07-13",
+  "reportDate": "2023-07-13",
+  "tier": 2,
+  "tierLabel": "MODERATE",
+  "category": "governance",
+  "summary": "NOTICE AND PROXY STATEMENT FOR EXTRAORDINARY GENERAL MEETING OF SHAREHOLDERS TO BE HELD ON AUGUST 29, 2023",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": [
+    "governance"
+  ]
+}

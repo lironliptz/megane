@@ -1,0 +1,18 @@
+{
+  "accessionNumber": "0001213900-23-042535",
+  "filingDate": "2023-05-24",
+  "reportDate": "2023-03-31",
+  "acceptanceDateTime": "2023-05-24T12:00:38.000Z",
+  "act": "34",
+  "form": "6-K",
+  "fileNumber": "001-35948",
+  "filmNumber": "23950645",
+  "items": "",
+  "core_type": "XBRL",
+  "size": 6882221,
+  "isXBRL": 1,
+  "isInlineXBRL": 1,
+  "isXBRLNumeric": null,
+  "primaryDocument": "ea178529-6k_kamadaltd.htm",
+  "primaryDocDescription": "REPORT OF FOREIGN PRIVATE ISSUER"
+}

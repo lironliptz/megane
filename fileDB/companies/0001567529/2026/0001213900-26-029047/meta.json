@@ -1,0 +1,19 @@
+{
+  "accession": "0001213900-26-029047",
+  "form": "6-K",
+  "filingDate": "2026-03-17",
+  "reportDate": "2026-03-17",
+  "tier": 2,
+  "tierLabel": "MODERATE",
+  "category": "admin_update",
+  "summary": "Dividend payment date change",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 7,
+    "exhibitCount": 0
+  },
+  "tags": [
+    "dividend"
+  ]
+}

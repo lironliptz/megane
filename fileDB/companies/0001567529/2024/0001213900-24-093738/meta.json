@@ -1,0 +1,17 @@
+{
+  "accession": "0001213900-24-093738",
+  "form": "6-K",
+  "filingDate": "2024-11-04",
+  "reportDate": "2024-11-04",
+  "tier": 3,
+  "tierLabel": "MINOR",
+  "category": "investor_relations",
+  "summary": "6-K",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 7,
+    "exhibitCount": 0
+  },
+  "tags": []
+}

@@ -1,0 +1,276 @@
+<SEC-DOCUMENT>0001178913-19-001920.txt : 20190830
+<SEC-HEADER>0001178913-19-001920.hdr.sgml : 20190830
+<ACCEPTANCE-DATETIME>20190718075734
+<PRIVATE-TO-PUBLIC>
+ACCESSION NUMBER:		0001178913-19-001920
+CONFORMED SUBMISSION TYPE:	CORRESP
+PUBLIC DOCUMENT COUNT:		1
+FILED AS OF DATE:		20190718
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		CORRESP
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>CORRESP
+<SEQUENCE>1
+<FILENAME>filename1.htm
+<TEXT>
+<html>
+  <head>
+    <title></title>
+    <!-- Licensed to: ZKG
+         Document created using EDGARfilings PROfile 6.0.0.0
+         Copyright 1995 - 2019 Broadridge -->
+  </head>
+<body style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; text-align: left; color: #000000;" bgcolor="#ffffff">
+  <div>
+    <hr style="border: none; border-bottom: 1px solid black; border-top: 4px solid black; height: 10px; color: #ffffff; background-color: #ffffff; text-align: center; margin-left: auto; margin-right: auto;" align="center">
+    <div> <br>
+    </div>
+    <div>
+      <div style="line-height: 1.25;">July 19, 2019</div>
+      <div style="line-height: 1.25">&#160; <br>
+      </div>
+      <div style="background-color: #FFFFFF; line-height: 1.25;">
+        <div style="line-height: 1.25; font-style: italic; font-weight: bold;">Via EDGAR</div>
+      </div>
+      <div style="background-color: #FFFFFF; line-height: 1.25;">
+        <div style="line-height: 1.25">&#160;</div>
+        <div style="line-height: 1.25;">Securities and Exchange Commission</div>
+      </div>
+      <div style="background-color: #FFFFFF; line-height: 1.25;">
+        <div style="line-height: 1.25;">Division of Corporation Finance</div>
+        <div style="line-height: 1.25;">Washington, D.C. 20549</div>
+      </div>
+      <div style="line-height: 1.25">
+        <div style="line-height: 1.25">&#160;</div>
+        <div style="line-height: 1.25">
+          <table id="z629a008648904465b456af139ee4f8f1" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; color: #000000; width: 100%;" border="0" cellpadding="0" cellspacing="0">
+
+              <tr>
+                <td style="width: 5%;">
+                  <div>Attn:</div>
+                </td>
+                <td style="width: 95%; font-weight: normal;">
+                  <div>Keira Nakada and Mary Mast, Staff Accountants</div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 5%;">
+                  <div>&#160;</div>
+                </td>
+                <td style="width: 95%;">
+                  <div>&#160;</div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 5%; font-weight: bold;">
+                  <div>Re:</div>
+                </td>
+                <td style="width: 95%; font-weight: bold;">
+                  <div>Kamada, Ltd.</div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 5%;">
+                  <div>&#160;</div>
+                </td>
+                <td style="width: 95%; font-weight: bold;">
+                  <div>Form&#160;20-F&#160;for Fiscal Year Ended February&#160;31, 2018</div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 5%;">
+                  <div>&#160;</div>
+                </td>
+                <td style="width: 95%;">
+                  <div>
+                    <div style="text-align: left; line-height: 1.25; font-family: 'Times New Roman',Times,serif; font-weight: bold;">Filed February 27, 2019</div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 5%;">
+                  <div>&#160;</div>
+                </td>
+                <td style="width: 95%;">
+                  <div>
+                    <div style="text-align: left; line-height: 1.25; font-family: 'Times New Roman',Times,serif; font-weight: bold;">File&#160;No.&#160;001-35948</div>
+                  </div>
+                </td>
+              </tr>
+
+          </table>
+        </div>
+        &#160;</div>
+      <div style="background-color: #FFFFFF; line-height: 1.25;">
+        <div style="line-height: 1.25;">Dear Mses.&#160;Nakada and Mast,</div>
+      </div>
+      <div style="background-color: #FFFFFF; line-height: 1.25;">
+        <div style="line-height: 1.25">&#160;</div>
+        <div style="line-height: 1.25;">On behalf of Kamada, Ltd. (the &#8220;Company&#8221;), this letter is being filed in response to comment received from the staff (the &#8220;Staff&#8221;) of
+          the Division of Corporation Finance of the Securities and Exchange Commission by letter dated July&#160;8, 2019 (the &#8220;Letter&#8221;) with respect to the Company&#8217;s Form&#160;20-F&#160;for fiscal year ended December 31, 2018 (the &#8220;Form&#160;20-F&#8221;)&#160;.</div>
+      </div>
+      <div style="background-color: #FFFFFF; line-height: 1.25;">
+        <div style="line-height: 1.25">&#160;</div>
+        <div style="line-height: 1.25;"><font style="background-color: #FFFFFF;">For your convenience, our response below immediately follows the Staff's italicized comment,
+            which has been reproduced from the Letter.</font></div>
+      </div>
+      <div style="background-color: #FFFFFF; line-height: 1.25;">
+        <div style="line-height: 1.25">&#160;</div>
+        <div style="line-height: 1.25; font-style: italic;"><u>Form 20-F for the Fiscal Year Ended December 31, 2018</u></div>
+        <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+        </div>
+      </div>
+      <div style="background-color: #FFFFFF; line-height: 1.25;">
+        <div style="line-height: 1.25; font-style: italic;">Note 2: Significant Accounting Policies<br>
+          j. Revenue Recognition, page F-12</div>
+      </div>
+      <div style="background-color: #FFFFFF; line-height: 1.25;">
+        <div style="line-height: 1.25">&#160;</div>
+        <div style="line-height: 1.25; font-style: italic;">You state that you do not recognize revenue until it can be reliably measured. Since IFRS 15 requires revenues to
+          be recognized when an entity satisfies its performance obligation at the estimated transaction price, unless a significant reversal in the amount of cumulative revenue recognized is probable, please tell us how your accounting policy complies
+          with IFRS 15. In addition, please clarify for us how you account for agreements which contain multiple performance obligations such as the Takeda agreement.</div>
+        <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+        </div>
+      </div>
+      <div style="line-height: 1.25;"><u>Response:</u></div>
+      <div style="background-color: #FFFFFF; line-height: 1.25;">
+        <div style="line-height: 1.25">&#160;</div>
+        <div style="line-height: 1.25;">The Company adopted IFRS 15, <font style="font-style: italic;">Revenue
+            from Contracts with Customers</font> (&#8220;IFRS 15&#8221;) and has applied that accounting standard as of January 1, 2018 for all of its contracts with customers. In drafting its Annual Report on Form 20-F for the fiscal year ended December 31, 2018 (the &#8220;2018 20-F&#8221;), the Company inadvertently utilized terminology from the previous accounting standard, IAS 18, <font style="font-style: italic;">Revenue </font>with respect to the determination of transaction price in Note 2(j) of the financial notes in the 2018 20-f. Notwithstanding the usage of the wrong terminology, as noted
+          elsewhere in the 2018 20-F, the correct accounting, using IFRS 15, was applied by the Company with respect to the relevant fiscal periods set forth in the 2018 20-F.</div>
+        <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+        </div>
+      </div>
+      <div style="line-height: 1.25;">The Company determines the transaction price in its contracts with customers in accordance with IFRS 15.47-72. Revenues are recognized at an amount that reflects the consideration to which the Company expects it will be entitled in exchange for transferring goods or services to a customer. When
+        consideration promised in a contract is variable (e.g. certain milestone payments or volume rebates), the Company estimates the amount of consideration to which it will be entitled in accordance with IFRS 15.53. In accordance with IFRS 15.56, the
+        Company includes the estimated variable consideration in the transaction price only to the extent it is highly probable that a significant reversal in the amount of cumulative revenue recognized will not occur when the uncertainty is resolved.</div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="line-height: 1.25; font-style: italic;">Suggested changes to the Company's disclosure in its Annual Report on Form 20-F for fiscal year ending December 31,
+        2019 (the &#8220;2019 20-F&#8221;).</div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div id="DSPFPageBreakArea" style="clear: both; margin-top: 10pt; margin-bottom: 10pt;">
+        <div id="DSPFPageBreak" style="page-break-after: always;">
+          <hr style="border-width: 0px; clear: both; margin: 4px 0px; width: 100%; height: 2px; color: #000000; background-color: #000000;" noshade="noshade"></div>
+      </div>
+      <div style="line-height: 1.25;">The Company intends to update Note 2(j) of the financial notes and related disclosure in its 2019 20-F to better reflect the accounting
+        policy it applies with respect to the determination of the transaction price as described above and to align the disclosures with the wording of IFRS 15.</div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="line-height: 1.25;">The Company will remove from the 2019 20-F the following sentence:</div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="line-height: 1.25; font-style: italic;">&#8220;Revenues are recognized in profit or loss when the revenues can be measured reliably, it is probable that the
+        economic benefits associated with the transaction will flow to the Company and the costs incurred or to be incurred in respect of the transaction can be measured reliably.&#8221;</div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="line-height: 1.25;">In lieu thereof, the Company intends to revise Note 2(j) as follows:</div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="text-align: justify; line-height: 1.25; font-style: italic;">The Company recognizes revenue when the customer obtains control over the promised goods or services. Revenues are
+        recognized at an amount that reflects the consideration to which an entity expects to be entitled in exchange for transferring goods or services to a customer. The Company includes variable consideration, such as milestone payments or volume
+        rebates, in the transaction price only when it is highly probable that its inclusion will not result in a significant revenue reversal in the future when the uncertainty has been subsequently resolved.</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25; font-style: italic;">Accounting for multiple performance obligations</div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="line-height: 1.25;">The Company identifies the goods and services it promises in its contracts with customers in accordance with IFRS 15.24-25, and analyzes
+        whether each good or service promised is distinct in accordance with IFRS 15.27-30. The Company further groups a series of distinct goods or services to a single performance obligation in accordance with IFRS 15.22(b). The Company's conclusion
+        depends on the specific facts and circumstances pertaining to a contract.</div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="line-height: 1.25;">As for its agreement with Takeda, the Company identified the following performance obligations in the contract:</div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="line-height: 1.25;">
+        <div>
+          <table style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; width: 100%; text-align: left; color: #000000;" class="DSPFListTable" id="z279ba9b6e49b40838c86e0cbf2a71053" cellpadding="0" cellspacing="0">
+
+              <tr>
+                <td style="width: 18pt;"><br>
+                </td>
+                <td style="width: 18pt; vertical-align: top; align: right;">a.</td>
+                <td style="width: auto; vertical-align: top;">
+                  <div>The grant of a license to Takeda for distribution of one of the Company's products in certain territories and the supply of predetermined minimum quantities.</div>
+                </td>
+              </tr>
+
+          </table>
+        </div>
+      </div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="line-height: 1.25;">
+        <div>
+          <table style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; width: 100%; text-align: left; color: #000000;" class="DSPFListTable" id="zc831727f09134a3e9ea8a3098a93bc5a" cellpadding="0" cellspacing="0">
+
+              <tr>
+                <td style="width: 18pt;"><br>
+                </td>
+                <td style="width: 18pt; vertical-align: top; align: right;">b.</td>
+                <td style="width: auto; vertical-align: top;">
+                  <div>The grant of a license to Takeda for the use of the Company's knowledge and patents, and the provision of consulting services to Takeda with respect to the
+                    transfer of technology.</div>
+                </td>
+              </tr>
+
+          </table>
+        </div>
+      </div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="line-height: 1.25;">
+        <div>
+          <table style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; width: 100%; text-align: left; color: #000000;" class="DSPFListTable" id="z3ea70941ce714ac6af4538a34b67dd93" cellpadding="0" cellspacing="0">
+
+              <tr>
+                <td style="width: 18pt;"><br>
+                </td>
+                <td style="width: 18pt; vertical-align: top; align: right;">c.</td>
+                <td style="width: auto; vertical-align: top;">
+                  <div>The supply of a predetermined quantity of the Company's product for the purpose of clinical trials performed by Takeda.</div>
+                </td>
+              </tr>
+
+          </table>
+        </div>
+      </div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="text-align: justify; line-height: 1.25;">The Company allocates the transaction price to each performance obligation identified in accordance with IFRS 15.73-86. Transaction price is allocated to performance obligations on a relative stand-alone selling price basis. Certain amounts of variable consideration are allocated to one or
+          more, but not all, performance obligations (or distinct goods or services) when the terms of the variable payment specifically relate to the Company's effort to deliver a specific performance obligation (or distinct good or service); and
+          allocating this consideration entirely to this deliverable depicts the amount to which the Company expects it will be entitled in exchange for transferring the deliverable to the customer.</div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="line-height: 1.25;">The Company acknowledges that it and its management are responsible for the accuracy and adequacy of the Company&#8217;s disclosures,
+        notwithstanding any review, comments, action or absence of action by the Staff.</div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="line-height: 1.25;">Sincerely,</div>
+      <div style="line-height: 1.25"><br>
+      </div>
+      <div style="line-height: 1.25;">Amir London<br>
+        Chief Executive Officer</div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="line-height: 1.25">
+        <hr style="border: none; border-bottom: 4px solid black; border-top: 1px solid black; height: 10px; color: #ffffff; background-color: #ffffff; text-align: center; margin-left: auto; margin-right: auto;" align="center"> </div>
+    </div>
+  </div>
+</body>
+</html>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

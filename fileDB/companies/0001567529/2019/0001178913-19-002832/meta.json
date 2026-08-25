@@ -1,0 +1,19 @@
+{
+  "accession": "0001178913-19-002832",
+  "form": "6-K",
+  "filingDate": "2019-11-26",
+  "reportDate": "2019-11-26",
+  "tier": 2,
+  "tierLabel": "MODERATE",
+  "category": "governance",
+  "summary": "EXHIBIT 99.1",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": [
+    "governance"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "accessionNumber": "9999999995-17-001804",
+  "filingDate": "2017-07-13",
+  "reportDate": "",
+  "acceptanceDateTime": "2017-07-14T04:15:13.000Z",
+  "act": "33",
+  "form": "EFFECT",
+  "fileNumber": "333-214816",
+  "filmNumber": "17964427",
+  "items": "F-3,,2017-07-13 16:00:00",
+  "core_type": "EFFECT",
+  "size": 1658,
+  "isXBRL": 0,
+  "isInlineXBRL": 0,
+  "isXBRLNumeric": null,
+  "primaryDocument": "xslEFFECTX01/primary_doc.xml",
+  "primaryDocDescription": ""
+}

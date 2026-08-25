@@ -1,0 +1,17 @@
+{
+  "accession": "0001213900-20-007327",
+  "form": "6-K",
+  "filingDate": "2020-03-25",
+  "reportDate": "2020-03-25",
+  "tier": 2,
+  "tierLabel": "MODERATE",
+  "category": "current_report",
+  "summary": "NOTICE OF RESULTS OF THE EXTRAORDINARY GENERAL MEETING OF SHAREHOLDERS HELD ON MARCH 25, 2020",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": []
+}

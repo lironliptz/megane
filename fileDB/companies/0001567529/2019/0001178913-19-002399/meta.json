@@ -1,0 +1,17 @@
+{
+  "accession": "0001178913-19-002399",
+  "form": "6-K",
+  "filingDate": "2019-09-24",
+  "reportDate": "2019-09-24",
+  "tier": 3,
+  "tierLabel": "MINOR",
+  "category": "investor_relations",
+  "summary": "EXHIBIT 99.1",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": []
+}

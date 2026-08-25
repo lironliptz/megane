@@ -1,0 +1,1 @@
+Follow the system instructions. Use the filename and MIME hints together with the extracted body to classify the file and describe its metadata accurately.

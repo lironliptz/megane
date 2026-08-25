@@ -1,0 +1,1089 @@
+<SEC-DOCUMENT>0001213900-23-093276.txt : 20231206
+<SEC-HEADER>0001213900-23-093276.hdr.sgml : 20231206
+<ACCEPTANCE-DATETIME>20231206070004
+ACCESSION NUMBER:		0001213900-23-093276
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		3
+CONFORMED PERIOD OF REPORT:	20231206
+FILED AS OF DATE:		20231206
+DATE AS OF CHANGE:		20231206
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		231468387
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>ea189600-6k_kamada.htm
+<DESCRIPTION>REPORT OF FOREIGN PRIVATE ISSUER
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 2pt solid; border-bottom: Black 1pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>UNITED STATES</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>SECURITIES AND EXCHANGE COMMISSION</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Washington, D.C. 20549</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>FORM 6-K</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Report of Foreign Private Issuer</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Pursuant to Rule 13a-16 or 15d-16</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>of the Securities Exchange Act of 1934</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">For the Month of December 2023</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">Commission File Number 001-35948</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Kamada Ltd.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">(Translation of registrant&rsquo;s name into English)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>2 Holzman Street<BR>
+Science Park, P.O. Box 4081<BR>
+Rehovot 7670402<BR>
+Israel<BR>
+</B>(Address of principal executive offices)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: left">Indicate by check mark whether the registrant
+files or will file annual reports under cover Form 20-F or Form 40-F.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">Form 20-F &#9746;&nbsp;&nbsp;&nbsp;Form 40-F &#9744;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 9pt"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>This Form 6-K is being incorporated by reference
+into the Registrant&rsquo;s Form S-8 Registration Statements, File Nos. <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891313003548/zk1314048.htm">333-192720</A>, <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891315003362/zk1517560.htm">333-207933</A>, <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891317000388/zk1719386.htm">333-215983</A>, <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891318000396/zk1821132.htm">333-222891</A>, <A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000117891319002187/zk1923409.htm">333-233267</A> and
+<A HREF="http://www.sec.gov/Archives/edgar/data/1567529/000121390022035395/ea161899-s8_kamadaltd.htm">333-265866</A>.</B></P>
+
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1pt solid; border-bottom: Black 2pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<!-- Field: Page; Sequence: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt">&nbsp;</P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">The following exhibit is attached:</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR STYLE="vertical-align: top; background-color: rgb(204,238,255)">
+    <TD STYLE="width: 9%"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.1</FONT></TD>
+    <TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 90%; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><A HREF="ea189600ex99-1_kamada.htm">Kamada Announces its Largest Commercial Agreement; A Strategic Engagement with Kedrion for U.S. Distribution of KEDRAB&reg; including $180 Million of Revenues Over First Four Years</A></FONT></TD></TR>
+  <TR STYLE="vertical-align: top; background-color: White">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.2</FONT></TD>
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><A HREF="ea189600ex99-2_kamada.htm">Memorandum of Understanding, dated as of December 4, 2023, by and between Kamada Ltd. and Kedrion Biopharma Inc.</A></FONT></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in; text-align: justify; text-indent: -0.5in">&nbsp;</P>
+
+<!-- Field: Page; Sequence: 2; Options: NewSection; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->1<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>SIGNATURE</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Pursuant to the requirements of the Securities
+Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="padding: 0pt; text-indent: 0pt"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Date: December 6, 2023</FONT></TD>
+    <TD COLSPAN="2" STYLE="padding: 0pt; text-indent: 0pt"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>KAMADA LTD.</B></FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="padding: 0pt; text-indent: 0pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="padding: 0pt; text-indent: 0pt">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="padding: 0pt; width: 60%; text-indent: 0pt">&nbsp;</TD>
+    <TD STYLE="padding: 0pt; width: 4%; text-indent: 0pt"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">By: </FONT></TD>
+    <TD STYLE="padding: 0pt; width: 36%; border-bottom: black 1.5pt solid; text-indent: 0pt"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">/s/ Nir Livneh</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="padding: 0pt; text-indent: 0pt">&nbsp;</TD>
+    <TD STYLE="padding: 0pt; text-indent: 0pt">&nbsp;</TD>
+    <TD STYLE="padding: 0pt; text-indent: 0pt">
+    <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Nir Livneh</P>
+    <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Vice President General Counsel and<BR>
+    Corporate Secretary</P></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<!-- Field: Page; Sequence: 3; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->2<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><U>EXHIBIT INDEX</U></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; width: 9%"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">EXHIBIT&nbsp;NO.</FONT></TD>
+    <TD STYLE="padding-bottom: 1.5pt; width: 1%">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; width: 90%"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">DESCRIPTION</FONT></TD></TR>
+  <TR STYLE="vertical-align: top; background-color: rgb(204,238,255)">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.1</FONT></TD>
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><A HREF="ea189600ex99-1_kamada.htm">Kamada Announces its Largest Commercial Agreement; A Strategic Engagement with Kedrion for U.S. Distribution of KEDRAB&reg; including $180 Million of Revenues Over First Four Years</A></FONT></TD></TR>
+  <TR STYLE="vertical-align: top; background-color: White">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.2</FONT></TD>
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><A HREF="ea189600ex99-2_kamada.htm">Memorandum of Understanding, dated as of December 4, 2023, by and between Kamada Ltd. and Kedrion Biopharma Inc.</A></FONT></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">3</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>ea189600ex99-1_kamada.htm
+<DESCRIPTION>KAMADA ANNOUNCES ITS LARGEST COMMERCIAL AGREEMENT; A STRATEGIC ENGAGEMENT WITH KEDRION FOR U.S. DISTRIBUTION OF KEDRAB INCLUDING $180 MILLION OF REVENUES OVER FIRST FOUR YEARS
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right"><B>Exhibit 99.1</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>Kamada Announces its Largest Commercial Agreement;
+A Strategic Engagement with Kedrion for U.S. Distribution of KEDRAB&reg; including $180 Million of Revenues Over First Four Years </B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.25in; text-align: justify; text-indent: -0.25in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in">&#9679;</TD><TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif"><I>Largest Commercial Agreement in Kamada&rsquo;s
+History Becomes Effective in January 2024 and Includes $180 Million of Revenues to Kamada Over the First Four Years of the Eight Year
+Term</I></FONT></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.25in; text-align: justify; text-indent: -0.25in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in">&#9679;</TD><TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif"><I>Financial Terms Reflect KEDRAB&reg;&rsquo;s Significant
+U.S Market Share and Continued Growth Through the Eight Year Term </I></FONT></TD></TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in">&#9679;</TD><TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif"><I>Agreement Includes Potential Expansion of
+Kedrion&rsquo;s Distribution of KEDRAB in Additional Territories Beyond the U.S.</I></FONT></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.25in; text-align: justify; text-indent: -0.25in">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0"></TD><TD STYLE="width: 0.25in">&#9679;</TD><TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif"><I>Kamada to Host a Conference Call and Live
+Webcast Today at 8:30 AM ET</I></FONT></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.25in; text-align: justify; text-indent: -0.25in"><I>&nbsp;</I></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Rehovot, Israel, and Hoboken, NJ &ndash; December
+6, 2023 &ndash;</B> Kamada Ltd. (NASDAQ: KMDA; TASE: KMDA.TA), a commercial stage global biopharmaceutical company with a portfolio of
+marketed products indicated for rare and serious conditions and a leader in the specialty plasma-derived field, today announced the execution
+of a binding memorandum of understanding with Kedrion for the amendment and extension of the KEDRAB&reg; U.S. distribution agreement between
+the parties. Within the first four years of the eight-year term, which begins in January 2024, Kedrion will purchase minimum quantities
+of KEDRAB with revenues to Kamada of approximately $180 million.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">This agreement is the largest commercial agreement
+secured by Kamada to date, and its financial terms reflect the significant U.S market share of KEDRAB and continued growth through the
+eight-year term, as well as the potential expansion of KEDRAB distribution by Kedrion to other territories beyond the U.S. In addition,
+the parties will collaborate to expand distribution of Kedrion products by Kamada in Israel.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&ldquo;We are thrilled to secure this strategic
+agreement with Kedrion as it represents our largest commercial agreement since Kamada&rsquo;s inception,&rdquo; said Amir London, CEO of Kamada.
+&ldquo;Based on Kedrion&rsquo;s extensive market coverage and on-going success in marketing KEDRAB in the U.S., as well as the significant
+market share growth achieved to date, we are confident that the continuation of this partnership maximizes the future growth and value
+potential of this important product. Moreover, this agreement most effectively maximizes our U.S. business by allowing us to focus our
+own internal sales efforts on the commercialization of our other specialized FDA-approved IgG products, primarily in transplant centers,
+while Kedrion continues to promote KEDRAB in numerous hospitals and medical centers across the U.S.&rdquo;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&ldquo;We are excited about our extended partnership
+with Kamada, a significant step in our commitment to hyperimmune therapies,&rdquo; said Ugo Di Francesco, CEO of Kedrion Biopharma. &ldquo;This
+collaboration emphasizes Kedrion&rsquo;s dedication to providing KEDRAB to U.S. patients, and we look forward to maximizing the success of the
+product and exploring opportunities for further expansion, delivering essential medical solutions where they are needed most.&rdquo;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><FONT STYLE="background-color: white">During 2022,
+Kamada generated approximately $16 million in revenues from sales of KEDRAB to Kedrion for distribution in the U.S. market. Kamada expects
+a substantial increase in sales of the product to Kedrion for full-year 2023. </FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Conference Call</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Kamada management will host an investment community
+conference call today, December 6, 2023, at 8:30am Eastern Time to discuss this announcement and answer questions. Shareholders and other
+interested parties may participate in the conference call by dialing 1-877-407-0792 (from within the U.S.), 1 809-406-247 (from Israel),
+or 1 201-689-8263 (International) and entering the conference identification number: 13743014. The call will also be webcast live on
+the Internet at: https://viavid.webcasts.com/starthere.jsp?ei=1647140&amp;tp_key=4c9e223e0b</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B></B></P>
+
+<!-- Field: Page; Sequence: 1; Value: 2 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>About KEDRAB&reg;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">KEDRAB&reg; [Rabies Immune Globulin (Human)] is
+a human rabies immune globulin (HRIG) indicated for passive, transient post-exposure prophylaxis (PEP) of rabies infection in persons
+of all ages when given immediately after contact with a rabid or possibly rabid animal.&nbsp;KEDRAB&nbsp;should be administered concurrently
+with a full course of rabies vaccine.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">KEDRAB was approved by the FDA in August, 2017.
+<FONT STYLE="background-color: #FEFEFE">KEDRAB is supplied in single-dose vials containing 2 mL or 10 mL of ready-to-use </FONT>solution
+<FONT STYLE="background-color: #FEFEFE">with a nominal potency of 150 IU/mL.</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Important Safety Information:</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; background-color: white"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in">&#9679;</TD><TD STYLE="text-align: justify">Severe hypersensitivity reactions, including anaphylaxis, may occur with KEDRAB. IgA deficient patients
+with antibodies against IgA are at greater risk. Have epinephrine available immediately to treat any acute severe hypersensitivity reactions.</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in; text-align: justify; text-indent: -0.25in; background-color: white">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; background-color: white"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in">&#9679;</TD><TD STYLE="text-align: justify">KEDRAB administration may interfere with the development of an immune response to live attenuated virus
+vaccines. If feasible, delay immunization with measles vaccine for 4 months, and other live attenuated virus vaccines for 3 months, after
+KEDRAB administration.</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in; text-align: justify; text-indent: -0.25in; background-color: white">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; background-color: white"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in">&#9679;</TD><TD STYLE="text-align: justify">A transient rise of the various passively transferred antibodies in the patient&rsquo;s blood may result
+in misleading positive results of serologic tests after KEDRAB administration. Passive transmission of antibodies to erythrocyte antigens,
+e.g., A, B, and D, may interfere with serologic tests for red cell antibodies such as the antiglobulin test (Coombs&rsquo; test).</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in; text-align: justify; text-indent: -0.25in; background-color: white">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" WIDTH="100%" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; background-color: white"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in">&#9679;</TD><TD STYLE="text-align: justify">KEDRAB is made from human plasma donors and may carry a risk of transmitting infectious agents, e.g.,
+viruses, the variant Creutzfeld-Jacob disease (vCJD) agent and, theoretically, the Creutzfeldt-Jakob disease (CJD) agent.</TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Please see KEDRAB <U>full prescribing Information</U>&nbsp;for
+complete prescribing details. You are encouraged to report negative side effects of prescription drugs to the FDA. Visit www.fda.gov/medwatch,
+or call 1-800-FDA-1088.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>About Kamada</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Kamada Ltd. (the &ldquo;Company&rdquo;) is a
+commercial stage global biopharmaceutical company with a portfolio of marketed products indicated for rare and serious conditions and
+a leader in the specialty plasma-derived field, focused on diseases of limited treatment alternatives. The Company is also advancing
+an innovative development pipeline targeting areas of significant unmet medical need. The Company&rsquo;s strategy is focused on driving
+profitable growth from its significant commercial catalysts as well as its manufacturing and development expertise in the plasma-derived
+and biopharmaceutical fields. The Company&rsquo;s commercial products portfolio includes six FDA approved plasma-derived biopharmaceutical
+products: CYTOGAM&reg;, KEDRAB&reg;, WINRHO SDF&reg;, VARIZIG&reg;, HEPAGAM B&reg; and GLASSIA&reg;, as well as KAMRAB&reg;, KAMRHO (D)&reg;
+and two types of equine-based anti-snake venom (ASV) products. The Company distributes its commercial products portfolio directly, and
+through strategic partners or third-party distributors in more than 30 countries, including the U.S., Canada, Israel, Russia, Argentina,
+Brazil, India, Australia and other countries in Latin America, Europe, Middle East, and Asia. The Company leverages its expertise and
+presence in the Israeli market to distribute, for use in Israel, more than 25 pharmaceutical products that are supplied by international
+manufacturers. During recent years the Company added eleven biosimilar products to its Israeli distribution portfolio, which, subject
+to the European Medicines Agency (EMA) and the Israeli Ministry of Health approvals, are expected to be launched in Israel through 2028.
+The Company owns an FDA licensed plasma collection center in Beaumont, Texas, which currently specializes in the collection of hyper-immune
+plasma used in the manufacture of KAMRHO (D). In addition to the Company&rsquo;s commercial operation, it invests in research and development
+of new product candidates. The Company&rsquo;s leading investigational product is an inhaled AAT for the treatment of AAT deficiency,
+for which it is continuing to progress the InnovAATe clinical trial, a randomized, double-blind, placebo-controlled, pivotal Phase 3
+trial. <B>FIMI Opportunity Funds</B>, the leading private equity firm in Israel, is the Company&rsquo;s controlling shareholder, beneficially
+owning approximately 38% of the outstanding ordinary shares.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></P>
+
+<!-- Field: Page; Sequence: 2; Options: NewSection; Value: 2 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="font: normal 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->2<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Cautionary Note Regarding Forward-Looking Statements</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">This release includes forward-looking statements
+within the meaning of Section 21E of the U.S. Securities Exchange Act of 1934, as amended, and the safe harbor provisions of the U.S.
+Private Securities Litigation Reform Act of 1995. Forward-looking statements are statements that are not historical facts, including statements
+regarding: (1) projected $180 million revenues from the agreement in the first four years, (2) expectation for continued growth through
+the eight year term, (3) potential expansion of KEDRAB distribution by Kedrion to other territories beyond the U.S., (4) potential collaboration
+to expend distribution of Kedrion products by Kamada in Israel, (5) confidence that the continuation of the Kedrion partnership maximizes
+the future growth and value potential of KEDRAB. (6) belief that this partnership maximizes Kamada&rsquo;s U.S. business, and (7) anticipated
+substantial increase in sales of KEDRAB to Kedrion for full year 2023. Forward-looking statements are based on Kamada&rsquo;s current
+knowledge and its present beliefs and expectations regarding possible future events and are subject to risks, uncertainties and assumptions.
+Actual results and the timing of events could differ materially from those anticipated in these forward-looking statements as a result
+of several factors including, but not limited to, the evolving nature of the conflicts in the middle east and the impact of such conflicts
+in Israel, the Middle East and the rest of the world, the impact of conflicts on market conditions and the general economic, industry
+and political conditions in Israel, the U.S. and globally, continued demand for KEDRAB in the U.S. and globally, availability of sufficient
+raw materials required to maintain manufacturing plans, continued utilization of Kamada&rsquo;s Israeli manufacturing site, continuation
+of inbound and outbound international delivery routes, and other risks detailed in Kamada&rsquo;s filings with the U.S. Securities and
+Exchange Commission (the &ldquo;SEC&rdquo;) including those discussed in its most recent Annual Report on Form 20-F and in any subsequent
+reports on Form 6-K, each of which is on file or furnished with the SEC and available at the SEC&rsquo;s website at www.sec.gov. The forward-looking
+statements made herein speak only as of the date of this announcement and Kamada undertakes no obligation to update publicly such forward-looking
+statements to reflect subsequent events or circumstances, except as otherwise required by law.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>CONTACTS:</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Chaime Orlev</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Chief Financial Officer</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">IR@kamada.com</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Brian Ritchie</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">LifeSci Advisors, LLC</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">212-915-2578</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">britchie@LifeSciAdvisors.com</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">3</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.2
+<SEQUENCE>3
+<FILENAME>ea189600ex99-2_kamada.htm
+<DESCRIPTION>MEMORANDUM OF UNDERSTANDING, DATED AS OF DECEMBER 4, 2023, BY AND BETWEEN KAMADA LTD. AND KEDRION BIOPHARMA INC.
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right"><B>Exhibit 99.2</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.15in 0pt 35.3pt; text-align: center"><B><U>[CERTAIN INFORMATION HAS
+BEEN EXCLUDED BECAUSE IT IS BOTH (I) NOT MATERIAL AND (II) WOULD BE COMPETITIVELY HARMFUL IF PUBLICLY DISCLOSED]</U></B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.15in 0pt 35.3pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.15in 0pt 35.3pt; text-align: center"><B><U>Memorandum of Understanding</U></B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0.15in 0pt 35.3pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.25in; text-align: justify">This binding memorandum of understanding
+(the <B>&ldquo;MOU&rdquo;</B>) is made and entered into on December 4<SUP>th</SUP>, 2023 (the &ldquo;<B>MOU Effective Date</B>&rdquo;)
+by and between <B>Kamada Ltd.</B> a company organized under the laws of the State of Israel, with its principal office in 2 Holzman Street,
+Weizmann Science Park, Rehovot 7670402, Israel (&ldquo;<B>Kamada</B>&rdquo; or &ldquo;<B>Supplier</B>&rdquo;), and <B>Kedrion Biopharma
+Inc.</B>, with its principal office at 400 Kelby Street, 11th Floor, Fort Lee, New Jersey 07024, United States of America (&ldquo;<B>KBI</B>&rdquo;
+or &ldquo;<B>Distributor</B>&rdquo;), for the purposes only of Sections 1, 2, 3, 5, 6, 7, 8 and 9, and <B>Kedrion S.pA.</B>, a company
+incorporated under the laws of Italy with its registered office at 55051 Castelvecchio Pascoli, Barga (LU) (&ldquo;<B>Kedrion Italy</B>&rdquo;),
+for the purposes only of Sections 4, 8 and 9. Each of Kamada, KBI and Kedrion Italy shall be referred herein after as a &ldquo;<B>Party</B>&rdquo;
+and together as the &ldquo;<B>Parties</B>&rdquo;. Capitalized terms herein that are not otherwise defined shall have the meanings attributed
+to them in the Distribution Agreement (as defined below).</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 21.3pt; text-align: justify">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="width: 0.25in">&nbsp;</TD>
+    <TD STYLE="width: 12%; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>WHEREAS</B></FONT></TD>
+    <TD STYLE="width: 2%">&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Kamada and Kedrion Italy entered into a Distribution Agreement dated July 18, 2011, with respect to the Territory of the United States of America, which was later amended (the Distribution Agreement, and all of its amendments collectively referred to as the &ldquo;<B>Distribution Agreement</B>&rdquo;), which was assigned by Kedrion Italy to KBI on March 8, 2017, and which assignment took effect retroactively as of July 23, 2016; and </FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify">&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>WHEREAS</B></FONT></TD>
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Kamada and Kedrion Italy entered into a distribution agreement as of May 31, 2021, with respect to distribution of certain products, including without limitation, [REDACTED], in the territory of Israel and Palestine (the &ldquo;[REDACTED] <B>Distribution Agreement</B>&rdquo;); and </FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify">&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify">&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>WHEREAS</B></FONT></TD>
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">The Parties wish to amend and supplement the Distribution Agreement and the [REDACTED] Distribution Agreement (collectively referred to as the &ldquo;<B>Agreements</B>&rdquo;), and set forth other commercial understandings and agreements, which they wish to set forth in writing as binding commitments. </FONT></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.3in; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify"><B>NOW THEREFORE</B>, in consideration
+of the mutual covenants, undertakings and conditions set forth below, the receipt and sufficiency of which are hereby acknowledged, the
+Parties hereby agree as follows.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.3in; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in; text-align: left">1.</TD><TD STYLE="text-align: justify"><B><U>Scope</U></B></TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.25in; text-align: justify">The Parties have agreed to amend and
+supplement the Agreements in order to extend their current activities, as set forth in this MOU. Each Party represents and warrants that
+it has the full right, power, and authority to enter into this MOU and each agreement, document, and instrument to be executed and delivered
+by the Parties pursuant to this MOU and to carry out the transactions contemplated hereby and thereby. No waiver or consent of any person
+is required in connection with the execution, delivery, and performance by the Parties of this MOU and each agreement, document and instrument
+to be executed and delivered by the Parties pursuant to this MOU. It is understood and agreed that this binding MOU shall set forth the
+understandings and commitments between the Parties reached thus far and shall serve as a basis for the Detailed Agreements (as defined
+below in Section &lrm;0&lrm;5).</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.3in; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in; text-align: left">2.</TD><TD STYLE="text-align: justify"><B><U>Amendment of the Distribution Agreement</U></B></TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.25in; text-align: justify">The Parties agree as follows:</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.3in; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">2.1.</TD><TD STYLE="text-align: justify">Section 13.1 of the Distribution Agreement shall be amended
+so that the Term of the Distribution Agreement which commenced on the Effective Date of the Distribution Agreement shall continue until
+December 31<SUP>st</SUP>, 2031, unless KBI provides no later than December 31<SUP>st</SUP>, 2030 a written notice that it wishes to extend
+the Distribution Agreement for an additional Extended Term (i.e., a two-year extension), in which case the Distribution Agreement shall
+be extended until December 31<SUP>st</SUP>, 2033.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"></P>
+
+<!-- Field: Page; Sequence: 1; Options: NewSection -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">2.2.</TD><TD STYLE="text-align: justify">The Purchase Prices as set for in paragraph 1 of Exhibit
+E of the Distribution Agreement (as replaced pursuant to the Second Addendum of the Distribution Agreement dated October 11<SUP>th</SUP>,
+2018) shall be amended as follows:</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.5in; text-align: justify">Commencing as of January 1<SUP>st</SUP>,
+2024, and for the duration of the Term of the Distribution Agreement and the Extended Term (if entered into effect on January 1<SUP>st</SUP>,
+2032), the sale price of vials of KEDRAB from Kamada to KBI shall be as follows:</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 49.5pt; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="padding: 0pt; width: 0.5in; text-indent: 0pt"></TD><TD STYLE="padding: 0pt; width: 0.25in; text-align: left; text-indent: 0pt">2.2.1.&nbsp;</TD><TD STYLE="padding: 0pt; text-align: justify; text-indent: 0pt">For annual sales from Kamada to KBI of up to [REDACTED] of
+the Net Price per ml (as such term is defined in Exhibit E of the Distribution Agreement (as amended as by the Second Addendum));</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">2.2.2.&nbsp;</TD><TD STYLE="text-align: justify">For annual sales of the next [REDACTED] of Net Price per ml;</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">2.2.3.&nbsp;</TD><TD STYLE="text-align: justify">For annual sales of any quantities above [REDACTED] annual
+sales: [REDACTED] of Net Price per ml.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.5in; text-align: justify">Example for the avoidance of doubt:
+For annual supply of [REDACTED]of KEDRAB by Kamada to KBI, the average transfer price will be equal to [REDACTED].</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 49.7pt; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in">2.3.</TD><TD STYLE="text-align: justify">Save for supply interruptions which render Kamada unable to supply, it is agreed that KBI shall be obligated
+to acquire from Kamada, or pay (&ldquo;take or pay&rdquo;) the equivalent amount in respect of, the following minimum annual quantities
+of KEDRAB during fiscal years 2024-2027 (the &ldquo;<B>Minimum Purchase Commitment</B>&rdquo;):</TD></TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">(i)</TD><TD STYLE="text-align: justify">Year 2024 = [REDACTED]</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">(ii)</TD><TD STYLE="text-align: justify">Year 2025 = [REDACTED]</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">(iii)</TD><TD STYLE="text-align: justify">Year 2026 = [REDACTED]</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">(iv)</TD><TD STYLE="text-align: justify">Year 2027 = [REDACTED]</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.5in; text-align: justify">The distribution of the above quantities
+between the 2ml and 10ml vial presentations and the supply schedule throughout the year will be discussed and agreed between the parties,
+as part of the on-going supply chain mechanism.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 49.7pt; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">2.4.</TD><TD STYLE="text-align: justify">Kamada will have the right, in [REDACTED] the supply of up
+to [REDACTED] (in other words[REDACTED]supply of up to an [REDACTED]) provided that any such [REDACTED] quantity will not affect KBI&rsquo;s
+ability to meet its sales requirements. However, in no event will KBI&rsquo;s total Minimum Purchase Commitment [REDACTED], unless otherwise
+agreed by the Parties in writing.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.5in; text-align: justify">In the event Kamada [REDACTED] under
+this clause, the payment terms of such [REDACTED] will be amended in such a way that the payment due from [REDACTED]. Example for the
+avoidance of doubt: If Kamada is supposed to [REDACTED], but Kamada exercises its right to [REDACTED], the payment for such quantity will
+be [REDACTED], in accordance with the payment terms as shall be agreed in the Detailed Agreement.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 49.7pt; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">2.5.</TD><TD STYLE="text-align: justify">Minimum purchase commitment per year for 2028 onwards shall
+be [REDACTED]. The &ldquo;Market Share&rdquo; definition in the Distribution Agreement shall be deleted.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">2.6.</TD><TD STYLE="text-align: justify">For the avoidance of doubt &ndash; KBI&rsquo;s noncompliance
+with its Minimum Purchase Commitment (during the entire Term, including the Extended Term, if applicable) shall be a material breach
+of the terms of the Distribution Agreement.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">2.7.</TD><TD STYLE="text-align: justify">The parties agree to negotiate in good faith the inclusion
+of [REDACTED] as part of the territories covered under the Distribution Agreement</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">2.8.</TD><TD STYLE="text-align: justify">Section [REDACTED] of the Distribution Agreement shall be
+amended to clarify that the [REDACTED] obligations of KBI include also the commitment, of it and its affiliated entities, not to [REDACTED];
+provided, however that nothing in this Section or in the Detailed Agreement shall prohibit any of KBI&rsquo;s affiliated entities from
+[REDACTED] in order to comply with any applicable laws or contractual obligations.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">2.9.</TD><TD STYLE="text-align: justify">Section 4.G of the Revised Exhibit E to the Distribution
+Agreement (as added in the October 11, 20218 Second Addendum to the Distribution Agreement) is hereby deleted in its entirety.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.27in; text-align: center">2.10.&nbsp;</TD><TD STYLE="text-align: justify">Payment terms &ndash; Unless otherwise noted below, all invoices
+shall be due and payable within [REDACTED] calendar days of the date of such invoice.</TD>
+</TR><TR STYLE="vertical-align: top; text-align: justify">
+<TD>&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: justify">&nbsp;</TD></TR>
+     <TR STYLE="vertical-align: top; text-align: justify">
+<TD>&nbsp;</TD><TD STYLE="text-align: center">&nbsp;</TD><TD STYLE="text-align: justify">KBI shall have the right to cause to
+be issued from an American financial institution an autonomous and irrevocable L/C in favor of Supplier, guaranteeing the payment of each
+applicable invoice in accordance with the following terms: (a) the L/C will be in a form acceptable by the parties, (b) the L/C will be
+provided to Supplier no later than [REDACTED] days from the invoice date issued by Supplier, (c) the L/C will be in a sufficient amount
+to cover each outstanding invoice amount, and (d) the L/C shall be valid for a period of not less than [REDACTED] days from the date of
+the Supplier&rsquo;s corresponding invoice.</TD></TR>
+     </TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.5in; text-align: justify"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.5in; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.5in; text-align: justify"></P>
+
+<!-- Field: Page; Sequence: 2; Options: NewSection; Value: 2 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->2<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.5in; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.27in; text-align: left"></TD><TD STYLE="text-align: justify">Notwithstanding anything to the contrary, the following payment
+terms will be applicable for any invoice issued by Supplier to KBI in each of the calendar months of February, May, August and November
+(the &ldquo;<B>Mid-Quarter Months</B>&rdquo;) of each year:</TD>
+</TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 49.7pt; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">(i)</TD><TD STYLE="text-align: justify">Invoices dated between the 1<SUP>st</SUP> day and the 15<SUP>th
+</SUP>day of any of the Mid Quarter Months, issued by Supplier to KBI, may be settled by KBI by either: (a) causing to issue an L/C pursuant
+to the terms above; or (b) affect a payment in the form of a wire transfer to be made within [REDACTED] days of the applicable invoice
+date (the &ldquo;<B>Prompt Payment</B>&rdquo;); and</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">(ii)</TD><TD STYLE="text-align: justify">Invoices dated between the 16<SUP>th</SUP> day and the end
+of each of the Mid Quarter Months, issued by Supplier to KBI, will be settled by KBI in the form of a Prompt Payment (as defined above)</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.5in; text-align: justify">Prompt Payments (as defined above)
+will entitle KBI for a [REDACTED] prompt pay discount of the paid invoice amount.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.5in; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.5in; text-align: justify">Examples for the avoidance of doubt:</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 63.35pt; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">&#9679;</TD><TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif">Supplier
+issues [REDACTED] invoice on February 13<SUP>th</SUP>. KBI may settle such invoice by either issuing a L/C (pursuant to the terms above)
+[REDACTED] to be delivered to Kamada no later than March 13<SUP>th</SUP>, or otherwise wire, to Supplier&rsquo;s bank account, [REDACTED]
+no later than March 13<SUP>th</SUP>.</FONT></TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">&#9679;</TD><TD STYLE="text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif">Supplier
+issues [REDACTED] invoice on August 20<SUP>th</SUP>. KBI will settle such invoice by a wire, to Supplier&rsquo;s bank account, [REDACTED]no
+later than September 20<SUP>th</SUP>.</FONT></TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">2.11.&nbsp;</TD><TD STYLE="text-align: justify">Delivery of the Product (as defined in the Distribution Agreement)
+by Kamada will be made [REDACTED].</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">2.12.&nbsp;</TD><TD STYLE="text-align: justify">In addition, the Parties shall discuss in good faith the
+inclusion of the following terms in the Definitive Agreement:</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">2.12.1.&nbsp;</TD><TD STYLE="text-align: justify">Reporting mechanism &ndash; KBI shall provide quarterly reports
+to Kamada to promote transparency in order to enable the Parties to properly plan forecasting and inventory. Quarterly reports shall
+include [REDACTED]</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">2.12.2.&nbsp;</TD><TD STYLE="text-align: justify">Section 5.4 of the Distribution Agreement shall be amended
+so that KBI shall provide a non-binding [REDACTED] forecast to be provided on an annual basis on July 1<SUP>st</SUP> of each year (other
+than for 2024, for which such forecast shall be provided on January 1<SUP>st</SUP>, 2024).</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">2.12.3.&nbsp;</TD><TD STYLE="text-align: justify">Without derogating from KBI&rsquo;s Minimum Purchase Commitment,
+throughout the Term and Extended Term thereafter, KBI will provide rolling [REDACTED] forecasts to be updated and submitted to Kamada
+on a quarterly basis to be confirmed by Kamada in order to coordinate the Product shipments.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">2.12.4.</TD><TD STYLE="text-align: justify">KBI shall, at all times, maintain sufficient stock levels
+of the Product for its sales forecast and market demand.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">2.13.</TD><TD STYLE="text-align: justify">Section 3.2.5 of the Distribution Agreement shall be deleted
+in its entirety.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in; text-align: left">3.</TD><TD STYLE="text-align: justify"><B><U>2023 Supply</U></B></TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.25in; text-align: justify">Without derogating from the Distribution
+Agreement or this MOU, the Parties agree that the 2023 annual supply of KEDRAB to KBI shall total [REDACTED].</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.3in; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in; text-align: left">4.</TD><TD STYLE="text-align: justify"><B><U>Amendment of the </U></B>[REDACTED] <B><U>Distribution
+Agreement</U></B></TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">4.1.</TD><TD STYLE="text-align: justify">Annex F of the [REDACTED] Distribution Agreement shall be
+amended to include Kedrion Italy&rsquo;s sale commitment so that Kamada shall have an option to purchase from Kedrion Italy and Kedrion
+Italy will be committed to supply to Kamada [REDACTED] for distribution by Kamada in the Territory as shall be defined in the Detailed
+Agreement, as follows:</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">&#9679;</TD><TD STYLE="text-align: justify">Kamada may exercise its option to purchase up to [REDACTED]of
+[REDACTED] in year 2024;</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.5in"></TD><TD STYLE="width: 0.25in; text-align: left">&#9679;</TD><TD STYLE="text-align: justify">Kamada may exercise its option to purchase up to [REDACTED]
+of [REDACTED] per year commencing January 1<SUP>st</SUP>, 2025, until end of the Term or the Extended Term (if applicable).</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">4.2.</TD><TD STYLE="text-align: justify">The Parties shall negotiate and agree in good faith on forecast
+and orders mechanism for Kamada to exercise its option to purchase the [REDACTED], which shall be included in the Detailed Agreements.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">4.3.</TD><TD STYLE="text-align: justify">Annex E of the [REDACTED] Distribution Agreement shall be
+amended so that the price for [REDACTED] shall be the higher of [REDACTED] (&ldquo;[REDACTED]&rdquo;).</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"></P>
+
+<!-- Field: Page; Sequence: 3; Value: 2 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->3<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">4.4.</TD><TD STYLE="text-align: justify">The Parties will conduct a purchase price reconciliation
+once a year, no later than 45 days following the end of each calendar year. If the price paid by Kamada for [REDACTED] is higher than
+the Floor Price, then the calculated difference, between the average sale price per [REDACTED] and the Floor Price, will be multiplied
+by the total [REDACTED] of [REDACTED] sold by Kedrion Italy to Kamada during such period, and will be charged by Kedrion Italy to Kamada.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">4.5.</TD><TD STYLE="text-align: justify">Commencing on April 2024, Kamada shall report to Kedrion
+Italy of the average net in market sales price per [REDACTED] of the product during the previous quarter.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">4.6.</TD><TD STYLE="text-align: justify">The term of the [REDACTED] Distribution Agreement shall be
+linked to the Term of the Distribution Agreement, including the Extended Term (if applicable).</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">4.7.</TD><TD STYLE="text-align: justify">The Parties shall negotiate and agree in good faith on adding
+additional territories beyond the current scope of Israel and Palestine, which shall be included in the Detailed Agreements.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in; text-align: left">5.</TD><TD STYLE="text-align: justify"><B><U>Detailed Agreement</U></B></TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.25in; text-align: justify">The Parties agree to enter into detailed
+agreements to be negotiated between the Parties in good faith within a period of [REDACTED] days following execution of this MOU, to include
+all matters covered herein and any additional matters as further may be agreed between the Parties (the &ldquo;<B>Detailed Agreements</B>&rdquo;),
+until such time as the Detailed Agreements are agreed and entered into, the terms of this MOU shall be binding upon the Parties. The Parties
+may extend the negotiation period beyond the mentioned [REDACTED] days, upon mutual written agreement. The terms of this MOU shall amend
+and supplement the Agreements, and the rest of the provisions of the Agreements that were not amended (as applicable) by this MOU shall
+continue to apply and remain in full force and effect, <I>mutatis mutandis</I>, with respect to the amendments and supplemental agreed
+terms set forth herein.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 22.5pt; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in; text-align: left">6.</TD><TD STYLE="text-align: justify"><B><U>Term and Termination</U></B></TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.25in; text-align: justify">This MOU shall become effective as
+of the Effective Date and shall remain in full force and effect until the earlier of the entry into the Detailed Agreements, which will
+replace this MOU; or the termination and/or expiration of all of the Agreements.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 22.5pt; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.25in; text-align: justify">It is hereby clarified that if any
+Detailed Agreement shall be executed before any other Detailed Agreement, the terms of this MOU which pertain to such Detailed Agreement
+shall not be effective, while the other sections of this MOU shall continue to be in effect until the applicable Detailed Agreement shall
+be executed.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 22.5pt; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in; text-align: left">7.</TD><TD STYLE="text-align: justify"><B><U>Confidentiality</U></B></TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">7.1.</TD><TD STYLE="text-align: justify">All the information related to the Products disclosed between
+the Parties, the terms and existence of this MOU, including regarding prices, customer and market information, is to be considered &ldquo;Confidential
+Information&rdquo; as defined by the Distribution Agreement and subject to the provisions in Section 8 of the Distribution Agreement,
+which are incorporated herein by reference.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in"></TD><TD STYLE="width: 0.25in; text-align: left">7.2.</TD><TD STYLE="text-align: justify">Except to the extent required by applicable law or by the
+rules or policies of any securities regulatory authority (including any stock exchange), no Party shall make or allow to be made any
+disclosure or public announcement concerning the existence of discussions about, or regarding the proposed terms of the transactions
+contemplated hereby without the prior written consent of the other Party as to the format and content of such disclosure. Notwithstanding,
+it is agreed that immediately after the Parties have signed this MOU, Kamada shall, in consultation with KBI prepare and issue a press
+release relating to the execution of this MOU and the material terms hereof.</TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in; text-align: left">8.</TD><TD STYLE="text-align: justify"><B><U>Acknowledgment of Securities Law Restrictions</U></B></TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.25in; text-align: justify">KBI and Kedrion Italy (together &ldquo;<B>Kedrion</B>&rdquo;)
+hereby acknowledges that it is aware (and that prior to their receipt of any Confidential Information of Kamada), that Kedrion, its affiliates
+and subsidiaries, and all of its and their officers, employees, consultants, agents and advisors (collectively &ldquo;<B>Representatives</B>&rdquo;)
+who are apprised of a possible transaction involving Kamada have been or will be advised) that the United States, Israeli other applicable
+securities laws prohibit any person who has material, non-public information and/or inside information about a company obtained directly
+or indirectly from that company, from purchasing or selling securities of such company or from communicating such information to any other
+person under circumstances in which it is reasonably foreseeable that such person is likely to purchase or sell such securities. In addition,
+Kedrion hereby acknowledges Kamada&rsquo;s securities are registered with the SEC under the Exchange Act and are publicly traded on the
+Nasdaq Stock Exchange and Tel Aviv Stock Exchange. Accordingly, Kedrion hereby agrees that so long as it possesses material, non-public
+information of Kamada and/or insider information, Kedrion shall not, and shall endeavor to cause its Representatives not to, directly
+or indirectly, purchase or sell, in any way, shape or form (including, but not limited to, pursuant to a &ldquo;hedging&rdquo; transaction
+(whether or not such transaction involves the actual exchange of securities) or &ldquo;short selling&rdquo;), directly or indirectly,
+any of Kamada&rsquo;s securities.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.3in; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.3in; text-align: justify"></P>
+
+<!-- Field: Page; Sequence: 4; Value: 2 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->4<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.3in; text-align: justify">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><TR STYLE="vertical-align: top; text-align: justify">
+<TD STYLE="width: 0.25in; text-align: left">9.</TD><TD STYLE="text-align: justify"><B><U>Choice of Law</U></B></TD>
+</TR></TABLE>
+
+<P STYLE="margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0.25in; text-align: justify">The provisions of this MOU shall be
+governed by, and construed exclusively under the laws of, the State of New York, USA, without regard to its conflict of laws principles.
+Any claim shall be subject to the dispute resolution provisions set forth in Section 19 of the Distribution Agreement.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.3in; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 10.85pt 0pt 0; text-align: center"><I>[Signature page to follow]</I></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 10.85pt 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">5</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0pt; margin-bottom: 0pt; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

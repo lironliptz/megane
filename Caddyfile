@@ -1,0 +1,13 @@
+# Caddy reverse proxy → app container (PORT from .env, default 8080).
+# Set CADDY_DOMAIN in .env:
+#   :80                          — HTTP to EC2 public IP (no TLS)
+#   app.example.com              — HTTPS via Let's Encrypt (DNS → this host)
+#   localhost                    — local dev
+
+{
+	email {$CADDY_ACME_EMAIL}
+}
+
+{$CADDY_DOMAIN} {
+	reverse_proxy app:{$PORT:8080}
+}

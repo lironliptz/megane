@@ -1,0 +1,19 @@
+{
+  "accession": "0001213900-26-036822",
+  "form": "6-K",
+  "filingDate": "2026-03-31",
+  "reportDate": "2026-03-31",
+  "tier": 2,
+  "tierLabel": "MODERATE",
+  "category": "corporate_action",
+  "summary": "KAMADA UPDATES ON WITHHOLDING TAX PROCEDURES ON PREVIOUSLY ANNOUNCED CASH DIVIDEND TO SHAREHOLDERS",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": [
+    "dividend"
+  ]
+}

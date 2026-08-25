@@ -1,0 +1,19 @@
+{
+  "accession": "0001213900-21-007921",
+  "form": "6-K",
+  "filingDate": "2021-02-10",
+  "reportDate": "2021-02-10",
+  "tier": 1,
+  "tierLabel": "MAJOR",
+  "category": "quarterly_results",
+  "summary": "6-K",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": true,
+    "fileCount": 7,
+    "exhibitCount": 0
+  },
+  "tags": [
+    "financials"
+  ]
+}

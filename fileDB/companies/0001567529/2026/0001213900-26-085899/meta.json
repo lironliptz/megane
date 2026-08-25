@@ -1,0 +1,19 @@
+{
+  "accession": "0001213900-26-085899",
+  "form": "4",
+  "filingDate": "2026-08-06",
+  "reportDate": "2026-08-05",
+  "tier": 3,
+  "tierLabel": "MINOR",
+  "category": "insider_trade",
+  "summary": "Insider transaction: Tsur David (insider) \u2014 code A, 30000 shares",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 7,
+    "exhibitCount": 0
+  },
+  "tags": [
+    "insider"
+  ]
+}

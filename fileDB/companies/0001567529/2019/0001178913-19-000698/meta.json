@@ -1,0 +1,20 @@
+{
+  "accession": "0001178913-19-000698",
+  "form": "20-F",
+  "filingDate": "2019-02-27",
+  "reportDate": "2018-12-31",
+  "tier": 1,
+  "tierLabel": "MAJOR",
+  "category": "annual_report",
+  "summary": "Annual report with audited financials and MD&A",
+  "signals": {
+    "isXBRL": true,
+    "hasFinancials": true,
+    "fileCount": 8,
+    "exhibitCount": 0
+  },
+  "tags": [
+    "financials",
+    "xbrl"
+  ]
+}

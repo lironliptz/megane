@@ -1,0 +1,19 @@
+{
+  "accession": "0001213900-23-040643",
+  "form": "6-K",
+  "filingDate": "2023-05-17",
+  "reportDate": "2023-05-17",
+  "tier": 3,
+  "tierLabel": "MINOR",
+  "category": "earnings_preview",
+  "summary": "6-K",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 7,
+    "exhibitCount": 0
+  },
+  "tags": [
+    "financials"
+  ]
+}

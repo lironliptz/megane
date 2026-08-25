@@ -1,0 +1,17 @@
+{
+  "accession": "0001178913-16-007022",
+  "form": "6-K/A",
+  "filingDate": "2016-11-25",
+  "reportDate": "2016-11-25",
+  "tier": 3,
+  "tierLabel": "MINOR",
+  "category": "unknown",
+  "summary": "EXHIBIT 99.1",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": []
+}

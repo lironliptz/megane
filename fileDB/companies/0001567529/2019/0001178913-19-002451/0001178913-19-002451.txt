@@ -1,0 +1,185 @@
+<SEC-DOCUMENT>0001178913-19-002451.txt : 20191002
+<SEC-HEADER>0001178913-19-002451.hdr.sgml : 20191002
+<ACCEPTANCE-DATETIME>20191002070025
+ACCESSION NUMBER:		0001178913-19-002451
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20191002
+FILED AS OF DATE:		20191002
+DATE AS OF CHANGE:		20191002
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		191130740
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>zk1923522.htm
+<DESCRIPTION>6-K
+<TEXT>
+<html>
+  <head>
+    <title></title>
+    <!-- Licensed to: company
+         Document created using EDGARfilings PROfile 6.3.0.0
+         Copyright 1995 - 2019 Broadridge -->
+  </head>
+<body bgcolor="#ffffff" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; text-align: left; color: #000000;">
+  <div>
+    <hr align="center" style="border: none; border-bottom: 1px solid black; border-top: 4px solid black; height: 10px; color: #ffffff; background-color: #ffffff; text-align: center; margin-left: auto; margin-right: auto;">
+    <div>
+      <div id="DSPFPageHeader">
+        <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+        </div>
+      </div>
+      <div style="text-align: center; line-height: 1.25; font-family: 'Times New Roman',Times,serif; font-size: 14pt; font-weight: bold; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-style: normal; font-variant: normal; text-transform: none;">UNITED STATES</div>
+      <div style="text-align: center; line-height: 1.25; font-family: 'Times New Roman',Times,serif; font-size: 14pt; font-weight: bold; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-style: normal; font-variant: normal; text-transform: none;">SECURITIES AND EXCHANGE COMMISSION</div>
+      <div style="text-align: center; line-height: 1.25; font-weight: bold;">Washington, D.C. 20549</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="text-align: center; line-height: 1.25; font-family: 'Times New Roman',Times,serif; font-size: 14pt; font-weight: bold; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-style: normal; font-variant: normal; text-transform: none;">FORM 6-K</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="text-align: center; line-height: 1.25; font-weight: bold;">Report of Foreign Private Issuer</div>
+      <div style="text-align: center; line-height: 1.25; font-weight: bold;">Pursuant to Rule 13a-16 or 15d-16</div>
+      <div style="text-align: center; line-height: 1.25; font-weight: bold;">of the Securities Exchange Act of 1934</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="text-align: center; line-height: 1.25;">For the Month of October 2019</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="text-align: center; line-height: 1.25;">Commission File Number 001-35948</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="text-align: center; line-height: 1.25; font-family: 'Times New Roman',Times,serif; font-size: 16pt; font-weight: bold; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-style: normal; font-variant: normal; text-transform: none;">Kamada Ltd.</div>
+      <div style="text-align: center; line-height: 1.25;">(Translation of registrant&#8217;s name into English)</div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="text-align: center; line-height: 1.25;"><font style="font-weight: bold;">2 Holzman Street</font><br>
+        <font style="font-weight: bold;">Science Park, P.O. Box 4081</font><br>
+        <font style="font-weight: bold;">Rehovot 7670402</font><br>
+        <font style="font-weight: bold;">Israel</font><br>
+        &#160;(Address of principal executive offices)</div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="line-height: 1.25;">Indicate by check mark whether the registrant files or will file annual reports under cover Form 20-F or Form 40-F.</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="text-align: center; line-height: 1.25;">Form 20-F &#9746;<font style="width: 9pt; font-size: 1px; display: inline-block;" class="HorizontalTab"> </font>Form 40-F &#9744;</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25;">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ____</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25;">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7): ____</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25;">Indicate by check mark whether the registrant by furnishing the information contained in this Form is also thereby furnishing the
+        information to the Commission pursuant to Rule 12g3-2(b) under the Securities Exchange Act of 1934.</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="text-align: center; line-height: 1.25;">Yes &#9744;<font style="width: 9pt; font-size: 1px; display: inline-block;" class="HorizontalTab"> </font>No &#9746;</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25;">If &#8220;Yes&#8221; is marked, indicate below the file number assigned to the registrant in connection with Rule 12g3-2(b): 82&#8209;____</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25; font-weight: bold;">This Form 6-K is being incorporated by reference into the Registrant&#8217;s Form S-8 Registration Statements File No.
+        333-192720, 333-207933, 333-215983, 333-222891 and 333-233267, and the Registrant&#8217;s Form F-3 Registration Statement, as amended, File No. 333-214816.</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="clear: both; margin-top: 10pt; margin-bottom: 10pt;" id="DSPFPageBreakArea">
+        <div style="page-break-after: always;" id="DSPFPageBreak">
+          <hr noshade="noshade" style="border-width: 0px; clear: both; margin: 4px 0px; width: 100%; height: 2px; color: #000000; background-color: #000000;"></div>
+      </div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="text-align: center; line-height: 1.25; font-family: 'Times New Roman',Times,serif; font-size: 12pt; font-weight: bold; background-color: rgb(250, 250, 250); color: rgb(0, 0, 0); font-style: normal; font-variant: normal; text-transform: none;">Kamada Delays 2019 Annual General Meeting of Shareholders</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="text-align: justify; line-height: 1.25;">Kamada Ltd. (NASDAQ and TASE: KMDA), a plasma-derived protein therapeutics company, announced today that its 2019 Annual General
+        Meeting of Shareholders, which was scheduled to take place on Monday, November 4, 2019 at 2:00 p.m. Israel time, has been delayed.&#160; Shareholders will be notified of the exact date, time and location of the rescheduled 2019 Annual General Meeting,
+        as well as the new record date, at a later date.</div>
+      <div style="background-color: #FFFFFF; line-height: 1.25;">
+        <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+        </div>
+      </div>
+      <div style="text-align: justify; line-height: 1.25;">Kamada&#8217;s Board of Directors has elected to delay the Annual General Meeting to allow additional time to communicate with Brosh Capital
+        Partners about the proposal it submitted for the meeting.</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="clear: both; margin-top: 10pt; margin-bottom: 10pt;" id="DSPFPageBreakArea">
+        <div style="page-break-after: always;" id="DSPFPageBreak">
+          <hr noshade="noshade" style="border-width: 0px; clear: both; margin: 4px 0px; width: 100%; height: 2px; color: #000000; background-color: #000000;"></div>
+      </div>
+      <div style="line-height: 1.25">&#160;</div>
+      <div style="text-align: center; text-indent: -36pt; margin-left: 36pt; line-height: 1.25; font-weight: bold;">SIGNATURE</div>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25;">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its
+        behalf by the undersigned hereunto duly authorized.</div>
+      <div style="line-height: 1.25;"> <br>
+      </div>
+      <table cellspacing="0" cellpadding="0" border="0" id="zb1dee471cc744ca495f8b87db9245f58" style="font-family: 'Times New Roman',Times,serif; font-size: 10pt; width: 100%; text-align: left; color: rgb(0, 0, 0);">
+
+          <tr>
+            <td style="width: 50%; vertical-align: top;">
+              <div style="line-height: 1.25; font-family: 'Times New Roman', Times, serif;">Date: October 2, 2019</div>
+            </td>
+            <td style="width: 50%; vertical-align: top;">
+              <div style="line-height: 1.25; font-family: 'Times New Roman', Times, serif; font-weight: bold;">KAMADA LTD.</div>
+              <div style="line-height: 1.25;"><font style="line-height: 1.25;">&#160;</font></div>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 50%; vertical-align: top;">&#160;</td>
+            <td style="width: 50%; vertical-align: top;">
+              <div style="line-height: 1.25; font-family: 'Times New Roman', Times, serif;">By:&#160; <u>/s/ Orna Naveh</u></div>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 50%; vertical-align: top;"><br>
+            </td>
+            <td style="width: 50%; vertical-align: top;">
+              <div style="line-height: 1.25; font-family: 'Times New Roman', Times, serif;">Orna Naveh<br>
+                General Counsel and Corporate Secretary</div>
+            </td>
+          </tr>
+
+      </table>
+      <div style="line-height: 1.25;"><br style="line-height: 1.25;">
+      </div>
+      <div style="line-height: 1.25;">
+        <hr align="center" style="border: none; border-bottom: 4px solid black; border-top: 1px solid black; height: 10px; color: #ffffff; background-color: #ffffff; text-align: center; margin-left: auto; margin-right: auto;"></div>
+    </div>
+    <div> <br>
+    </div>
+  </div>
+</body>
+</html>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

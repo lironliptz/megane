@@ -1,0 +1,18 @@
+{
+  "accessionNumber": "9999999997-17-005477",
+  "filingDate": "2017-04-14",
+  "reportDate": "",
+  "acceptanceDateTime": "2017-04-11T20:22:40.000Z",
+  "act": "34",
+  "form": "CT ORDER",
+  "fileNumber": "001-35948",
+  "filmNumber": "17756136",
+  "items": "20170411,20170414",
+  "core_type": "CT ORDER",
+  "size": 10960,
+  "isXBRL": 0,
+  "isInlineXBRL": 0,
+  "isXBRLNumeric": null,
+  "primaryDocument": "filename1.pdf",
+  "primaryDocDescription": ""
+}

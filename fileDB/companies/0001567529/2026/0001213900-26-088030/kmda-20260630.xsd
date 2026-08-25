@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="ASCII"?>
+<!-- XBRL document created with Praxa -->
+<!-- Copyright (c) 2026 Praxa LLC. All Rights Reserved.-->
+<!-- Creation Date: 2026-08-12T10:03:14.7926+00:00 -->
+<xs:schema targetNamespace="http://kamada.com/20260630" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:kmda="http://kamada.com/20260630" xmlns:dei="http://xbrl.sec.gov/dei/2025" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:ifrs-full="https://xbrl.ifrs.org/taxonomy/2025-03-27/ifrs-full" xmlns:dtr-2022="http://www.xbrl.org/dtr/type/2022-03-31" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:dtr="http://www.xbrl.org/dtr/type/2024-01-31" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2022-03-31" xmlns:country="http://xbrl.sec.gov/country/2025" xmlns:srt="http://fasb.org/srt/2025">
+  <xs:import namespace="http://xbrl.sec.gov/dei/2025" schemaLocation="https://xbrl.sec.gov/dei/2025/dei-2025.xsd" />
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <xs:import namespace="https://xbrl.ifrs.org/taxonomy/2025-03-27/ifrs-full" schemaLocation="https://xbrl.ifrs.org/taxonomy/2025-03-27/full_ifrs/full_ifrs-cor_2025-03-27.xsd" />
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2022-03-31" schemaLocation="https://www.xbrl.org/dtr/type/2022-03-31/types.xsd" />
+  <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2024-01-31" schemaLocation="https://www.xbrl.org/dtr/type/2024-01-31/types.xsd" />
+  <xs:import namespace="http://xbrl.sec.gov/country/2025" schemaLocation="https://xbrl.sec.gov/country/2025/country-2025.xsd" />
+  <xs:import namespace="http://fasb.org/srt/2025" schemaLocation="https://xbrl.fasb.org/srt/2025/elts/srt-2025.xsd" />
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kmda-20260630_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:title="Presentation link" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kmda-20260630_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:title="Label link" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kmda-20260630_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:title="Definition link" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kmda-20260630_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:title="Calculation link" xlink:type="simple" />
+      <link:roleType roleURI="http://kamada.com/20260630/role/DocumentAndEntityInformation" id="DocumentAndEntityInformation">
+        <link:definition>995300 - Document - Document And Entity Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/CondensedConsolidatedInterimStatementsofFinancialPositionUnaudited" id="CondensedConsolidatedInterimStatementsofFinancialPositionUnaudited">
+        <link:definition>995301 - Statement - Condensed Consolidated Interim Statements of Financial Position (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/CondensedConsolidatedInterimStatementsofProfitorLossandOtherComprehensiveIncomeUnaudited" id="CondensedConsolidatedInterimStatementsofProfitorLossandOtherComprehensiveIncomeUnaudited">
+        <link:definition>995302 - Statement - Condensed Consolidated Interim Statements of Profit or Loss and Other Comprehensive Income (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/CondensedConsolidatedInterimStatementsofChangesInEquityUnaudited" id="CondensedConsolidatedInterimStatementsofChangesInEquityUnaudited">
+        <link:definition>995303 - Statement - Condensed Consolidated Interim Statements of Changes In Equity (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/CondensedConsolidatedInterimStatementsofChangesInEquityParentheticalsUnaudited" id="CondensedConsolidatedInterimStatementsofChangesInEquityParentheticalsUnaudited">
+        <link:definition>995304 - Statement - Condensed Consolidated Interim Statements of Changes In Equity (Parentheticals) (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/CondensedConsolidatedInterimStatementsofCashFlowsUnaudited" id="CondensedConsolidatedInterimStatementsofCashFlowsUnaudited">
+        <link:definition>995305 - Statement - Condensed Consolidated Interim Statements of Cash Flows (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/General" id="General">
+        <link:definition>995306 - Disclosure - General</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/MaterialAccountingPolicies" id="MaterialAccountingPolicies">
+        <link:definition>995307 - Disclosure - Material Accounting Policies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/SignificantEventsintheReportingPeriod" id="SignificantEventsintheReportingPeriod">
+        <link:definition>995308 - Disclosure - Significant Events in the Reporting Period</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/OperatingSegments" id="OperatingSegments">
+        <link:definition>995309 - Disclosure - Operating Segments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/FinancialInstruments" id="FinancialInstruments">
+        <link:definition>995310 - Disclosure - Financial Instruments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/SubsequentEvents" id="SubsequentEvents">
+        <link:definition>995311 - Disclosure - Subsequent Events</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/AccountingPoliciesbyPolicyPolicies" id="AccountingPoliciesbyPolicyPolicies">
+        <link:definition>996312 - Disclosure - Accounting Policies, by Policy (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/OperatingSegmentsTables" id="OperatingSegmentsTables">
+        <link:definition>996313 - Disclosure - Operating Segments (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/FinancialInstrumentsTables" id="FinancialInstrumentsTables">
+        <link:definition>996314 - Disclosure - Financial Instruments (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/GeneralDetails" id="GeneralDetails">
+        <link:definition>996315 - Disclosure - General (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/SignificantEventsintheReportingPeriodDetails" id="SignificantEventsintheReportingPeriodDetails">
+        <link:definition>996316 - Disclosure - Significant Events in the Reporting Period (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/OperatingSegmentsDetails" id="OperatingSegmentsDetails">
+        <link:definition>996317 - Disclosure - Operating Segments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/OperatingSegmentsScheduleofReportingonOperatingSegmentsDetails" id="OperatingSegmentsScheduleofReportingonOperatingSegmentsDetails">
+        <link:definition>996318 - Disclosure - Operating Segments - Schedule of Reporting on Operating Segments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/OperatingSegmentsScheduleofReportingonOperatingSegmentsbyGeographicRegionDetails" id="OperatingSegmentsScheduleofReportingonOperatingSegmentsbyGeographicRegionDetails">
+        <link:definition>996319 - Disclosure - Operating Segments - Schedule of Reporting on Operating Segments by Geographic Region (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/FinancialInstrumentsScheduleofFinancialAssetsLiabilitiesMeasuredatFairValueDetails" id="FinancialInstrumentsScheduleofFinancialAssetsLiabilitiesMeasuredatFairValueDetails">
+        <link:definition>996320 - Disclosure - Financial Instruments - Schedule of Financial Assets (Liabilities) Measured at Fair Value (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://kamada.com/20260630/role/SubsequentEventsDetails" id="SubsequentEventsDetails">
+        <link:definition>996321 - Disclosure - Subsequent Events (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="kmda_DocumentAndEntityInformationAbstract" name="DocumentAndEntityInformationAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_NonCurrentContingentConsideration" name="NonCurrentContingentConsideration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" abstract="false" xbrli:balance="credit" />
+  <xs:element id="kmda_CondensedConsolidatedInterimStatementsOfChangesInEquityAbstract" name="CondensedConsolidatedInterimStatementsOfChangesInEquityAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_ItemsThatWillNotBeReclassifiedToProfitOrLossInSubsequentPeriodsAbstract" name="ItemsThatWillNotBeReclassifiedToProfitOrLossInSubsequentPeriodsAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_FinancialInstrumentsScheduleofFinancialAssetsLiabilitiesMeasuredatFairValueDetailsTable" name="FinancialInstrumentsScheduleofFinancialAssetsLiabilitiesMeasuredatFairValueDetailsTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_OtherCountriesMember" name="OtherCountriesMember" type="dtr:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_ProprietaryProductsMember" name="ProprietaryProductsMember" type="dtr:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_GeneralDetailsTable" name="GeneralDetailsTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_FIMIOpportunityFundsMember" name="FIMIOpportunityFundsMember" type="dtr:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_NetSalesPercentage" name="NetSalesPercentage" type="dtr:percentItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="false" />
+  <xs:element id="kmda_OwnershipPercentage" name="OwnershipPercentage" type="dtr:percentItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="false" />
+  <xs:element id="kmda_SpecialCashDividend" name="SpecialCashDividend" type="dtr:perShareItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" abstract="false" />
+  <xs:element id="kmda_CommonStockAmountingTotal" name="CommonStockAmountingTotal" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" abstract="false" xbrli:balance="debit" />
+  <xs:element id="kmda_DistributionMember" name="DistributionMember" type="dtr:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_PurchaseOfPropertyAndEquipment" name="PurchaseOfPropertyAndEquipment" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="false" xbrli:balance="debit" />
+  <xs:element id="kmda_RightofuseAssetRecognizedWithCorrespondingLeaseLiability" name="RightofuseAssetRecognizedWithCorrespondingLeaseLiability" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="false" xbrli:balance="credit" />
+  <xs:element id="kmda_SignificantNonCashTransactionsAbstract" name="SignificantNonCashTransactionsAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_NumberOfOperatingSegment" name="NumberOfOperatingSegment" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="false" />
+  <xs:element id="kmda_ChangesInAssetAndLiabilityItemsAbstract" name="ChangesInAssetAndLiabilityItemsAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_RevaluationOfLongtermLiabilities" name="RevaluationOfLongtermLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="false" xbrli:balance="debit" />
+  <xs:element id="kmda_AdditionalPaidinCapitalDuringPeriodValueIncomeTaxImpactAssociatedWithIssuanceOfShares" name="AdditionalPaidinCapitalDuringPeriodValueIncomeTaxImpactAssociatedWithIssuanceOfShares" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="false" xbrli:balance="credit" />
+  <xs:element id="kmda_ExerciseAndForfeitureOfSharebasedPaymentIntoShares" name="ExerciseAndForfeitureOfSharebasedPaymentIntoShares" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="false" xbrli:balance="credit" />
+  <xs:element id="kmda_StatementsTable" name="StatementsTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_StatementsLineItems" name="StatementsLineItems" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_CashDividendDeclared" name="CashDividendDeclared" type="dtr:perShareItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="false" />
+  <xs:element id="kmda_FinanceIncomeReceivedPaidClassifiedAsOperatingActivities" name="FinanceIncomeReceivedPaidClassifiedAsOperatingActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="false" xbrli:balance="debit" />
+  <xs:element id="kmda_CashReceivedPaidDuringThePeriodForAbstract" name="CashReceivedPaidDuringThePeriodForAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_EuropeOneMember" name="EuropeOneMember" type="dtr:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_ForthcomingRequirementsPolicyTextBlock" name="ForthcomingRequirementsPolicyTextBlock" type="dtr:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="false" />
+  <xs:element id="kmda_VestPeriod" name="VestPeriod" type="xbrli:durationItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="false" />
+  <xs:element id="kmda_SubsequentEventsMember" name="SubsequentEventsMember" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_ScheduleOfFinancialAssetsLiabilitiesMeasuredAtFairValueAbstract" name="ScheduleOfFinancialAssetsLiabilitiesMeasuredAtFairValueAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_ScheduleOfReportingOnOperatingSegmentsAbstract" name="ScheduleOfReportingOnOperatingSegmentsAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_OperatingSegmentsScheduleOfReportingOnOperatingSegmentsTable" name="OperatingSegmentsScheduleOfReportingOnOperatingSegmentsTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_ProprietaryProductMember" name="ProprietaryProductMember" type="dtr:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_DistributionsMember" name="DistributionsMember" type="dtr:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_UnallocatedCorporateExpenses" name="UnallocatedCorporateExpenses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="false" xbrli:balance="debit" />
+  <xs:element id="kmda_ScheduleOfReportingOnOperatingSegmentsByGeographicRegionAbstract" name="ScheduleOfReportingOnOperatingSegmentsByGeographicRegionAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_OperatingSegmentsScheduleOfReportingOnOperatingSegmentsByGeographicRegionTable" name="OperatingSegmentsScheduleOfReportingOnOperatingSegmentsByGeographicRegionTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_OtherForeignCountriesOneMember" name="OtherForeignCountriesOneMember" type="dtr:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="true" />
+  <xs:element id="kmda_DescriptionOfOtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements" name="DescriptionOfOtherAccountingPoliciesRelevantToUnderstandingOfFinancialStatements" type="dtr:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" abstract="false" />
+</xs:schema>

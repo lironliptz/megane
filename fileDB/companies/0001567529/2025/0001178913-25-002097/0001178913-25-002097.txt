@@ -1,0 +1,208 @@
+<SEC-DOCUMENT>0001178913-25-002097.txt : 20250605
+<SEC-HEADER>0001178913-25-002097.hdr.sgml : 20250605
+<ACCEPTANCE-DATETIME>20250605145900
+ACCESSION NUMBER:		0001178913-25-002097
+CONFORMED SUBMISSION TYPE:	SCHEDULE 13G/A
+PUBLIC DOCUMENT COUNT:		1
+FILED AS OF DATE:		20250605
+DATE AS OF CHANGE:		20250605
+
+SUBJECT COMPANY:	
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		ORGANIZATION NAME:           	03 Life Sciences
+		EIN:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		SCHEDULE 13G/A
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	005-87516
+		FILM NUMBER:		251026759
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+
+FILED BY:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Phoenix Financial Ltd.
+		CENTRAL INDEX KEY:			0001679543
+		ORGANIZATION NAME:           	
+		EIN:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		SCHEDULE 13G/A
+
+	BUSINESS ADDRESS:	
+		STREET 1:		53 DERECH HA'SHALOM ST.
+		CITY:			GIVATAYIM
+		STATE:			L3
+		ZIP:			53454
+		BUSINESS PHONE:		972-3-733-2997
+
+	MAIL ADDRESS:	
+		STREET 1:		53 DERECH HA'SHALOM ST.
+		CITY:			GIVATAYIM
+		STATE:			L3
+		ZIP:			53454
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Phoenix Holdings Ltd.
+		DATE OF NAME CHANGE:	20160713
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>SCHEDULE 13G/A
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?><edgarSubmission xmlns="http://www.sec.gov/edgar/schedule13g" xmlns:com="http://www.sec.gov/edgar/common">
+<headerData>
+<submissionType>SCHEDULE 13G/A</submissionType>
+<previousAccessionNumber>0001178913-17-002509</previousAccessionNumber>
+<filerInfo>
+<filer>
+<filerCredentials>
+<cik>0001679543</cik>
+<ccc>XXXXXXXX</ccc>
+</filerCredentials>
+</filer>
+<liveTestFlag>LIVE</liveTestFlag>
+
+
+
+</filerInfo>
+</headerData>
+<formData>
+<coverPageHeader>
+<amendmentNo>18</amendmentNo>
+<securitiesClassTitle>Ordinary Shares, par value NIS 1.00 each</securitiesClassTitle>
+<eventDateRequiresFilingThisStatement>03/31/2025</eventDateRequiresFilingThisStatement>
+<issuerInfo>
+<issuerCik>0001567529</issuerCik>
+<issuerName>KAMADA LTD</issuerName>
+<issuerCusip>M6240T109</issuerCusip>
+<issuerPrincipalExecutiveOfficeAddress>
+<com:street1>2 Holtzman St., Science Park, P.O. Box 4</com:street1>
+<com:city>Rehovot</com:city>
+<com:stateOrCountry>L3</com:stateOrCountry>
+<com:zipCode>7670402</com:zipCode>
+</issuerPrincipalExecutiveOfficeAddress>
+</issuerInfo>
+<designateRulesPursuantThisScheduleFiled>
+<designateRulePursuantThisScheduleFiled>Rule 13d-1(c)</designateRulePursuantThisScheduleFiled>
+</designateRulesPursuantThisScheduleFiled>
+</coverPageHeader>
+<coverPageHeaderReportingPersonDetails>
+
+<reportingPersonName>Phoenix Financial Ltd.</reportingPersonName>
+<memberGroup>b</memberGroup>
+<citizenshipOrOrganization>L3</citizenshipOrOrganization>
+<reportingPersonBeneficiallyOwnedNumberOfShares>
+<soleVotingPower>0</soleVotingPower>
+<sharedVotingPower>3994538.98</sharedVotingPower>
+<soleDispositivePower>0</soleDispositivePower>
+<sharedDispositivePower>3994538.98</sharedDispositivePower>
+</reportingPersonBeneficiallyOwnedNumberOfShares>
+<reportingPersonBeneficiallyOwnedAggregateNumberOfShares>6.95</reportingPersonBeneficiallyOwnedAggregateNumberOfShares>
+<aggregateAmountExcludesCertainSharesFlag>N</aggregateAmountExcludesCertainSharesFlag>
+<typeOfReportingPerson>CO</typeOfReportingPerson>
+<comments>With regard to rows (6), (8), (9) and (11), the beneficial ownership of the securities reported herein is described in Item 4(a).&#13;
+&#13;
+Row (11) is Based on 57,505,031 Ordinary Shares outstanding as of March 5, 2025 (as reported by the issuer in its form 20-F filed with the Securities and Exchange Commission on March 5, 2025).</comments>
+</coverPageHeaderReportingPersonDetails>
+<items>
+<item1>
+<issuerName>KAMADA LTD</issuerName>
+<issuerPrincipalExecutiveOfficeAddress>2 Holtzman St., Science Park, P.O. Box 4, Rehovot, Israel, 7670402</issuerPrincipalExecutiveOfficeAddress>
+</item1>
+<item2>
+<filingPersonName>Phoenix Financial Ltd.&#13;
+&#13;
+The securities reported herein are beneficially owned by various direct or indirect, majority or wholly-owned subsidiaries of Phoenix Financial Ltd. (the "Subsidiaries"). The Subsidiaries manage their own funds and/or the funds of others, including for holders of exchange-traded notes or various insurance policies, members of pension or provident funds, unit holders of mutual funds, and portfolio management clients. Each of the Subsidiaries operates under independent management and makes its own independent voting and investment decisions.</filingPersonName>
+<principalBusinessOfficeOrResidenceAddress>The address of the Phoenix Financial Ltd. is Derech Hashalom 53, Givataim, 53454, Israel.</principalBusinessOfficeOrResidenceAddress>
+<citizenship>Phoenix Financial Ltd. - Israel</citizenship>
+</item2>
+<item3>
+<notApplicableFlag>Y</notApplicableFlag>
+</item3>
+<item4>
+<amountBeneficiallyOwned>See row 9 of cover page of each reporting person.&#13;
+&#13;
+Each of the Subsidiaries operates under independent management and makes its own independent voting and investment decisions. Neither the filing of this Schedule 13G nor any of its contents shall be deemed to constitute an admission by either the Filing Persons or Subsidiaries that a group exists for purposes of Section 13(d) of the Securities Exchange Act of 1934 or for any other purpose, and each reporting person disclaims the existence of any such group. In addition, each of the Filing Persons and Subsidiaries disclaims any beneficial ownership of the securities covered by this report in excess of their actual pecuniary interest therein. This Statement shall not be construed as an admission by the Filing Persons or Subsidiaries that they are the beneficial owners of any of the Ordinary Shares covered by this Statement.&#13;
+&#13;
+As of March 31, 2025, the securities reported herein were held as follows:&#13;
+&#13;
+193,449.86 ordinary shares (representing 0.34% of the total ordinary shares outstanding) beneficially owned by The Phoenix Investments House - trust funds.&#13;
+&#13;
+3,613,052 ordinary shares (representing 6.28% of the total ordinary shares outstanding) beneficially owned by Partnership for Israeli shares (1).&#13;
+&#13;
+188,037.12 ordinary shares (representing 0.33% of the total ordinary shares outstanding) beneficially owned by Partnership for investing in shares indexes (1).&#13;
+&#13;
+(1) All ownership rights in this partnership belong to companies that are part of Phoenix Group. The amount of ownership rights held by such companies in the partnership changes frequently according to a mechanism provided in the partnership agreement.</amountBeneficiallyOwned>
+<classPercent>See row 11 of cover page of each reporting person</classPercent>
+<numberOfSharesPersonHas>
+<solePowerOrDirectToVote>See row 5 of cover page of each reporting person</solePowerOrDirectToVote>
+<sharedPowerOrDirectToVote>See row 6 of cover page of each reporting person and note in Item 4(a) above</sharedPowerOrDirectToVote>
+<solePowerOrDirectToDispose>See row 7 of cover page of each reporting person</solePowerOrDirectToDispose>
+<sharedPowerOrDirectToDispose>See row 8 of cover page of each reporting person and note in Item 4(a) above</sharedPowerOrDirectToDispose>
+</numberOfSharesPersonHas>
+</item4>
+<item5>
+<notApplicableFlag>Y</notApplicableFlag>
+</item5>
+<item6>
+<notApplicableFlag>Y</notApplicableFlag>
+</item6>
+<item7>
+<notApplicableFlag>Y</notApplicableFlag>
+</item7>
+<item8>
+<notApplicableFlag>Y</notApplicableFlag>
+</item8>
+<item9>
+<notApplicableFlag>Y</notApplicableFlag>
+</item9>
+<item10>
+<notApplicableFlag>N</notApplicableFlag>
+<certifications>By signing below I certify that, to the best of my knowledge and belief, the securities referred to above were not acquired and are not held for the purpose of or with the effect of changing or influencing the control of the issuer of the securities and were not acquired and are not held in connection with or as a participant in any transaction having that purpose or effect, other than activities solely in connection with a nomination under ?? 240.14a-11.</certifications>
+</item10>
+</items>
+<exhibitInfo>Exhibit 1 - Notice of resolution of the Board of Directors of Phoenix Financial Ltd., dated as of December 12, 2019 (incorporated herein by reference to Exhibit 1 to the Schedule 13G filed on February 7, 2022).</exhibitInfo>
+<signatureInformation>
+<reportingPersonName>Phoenix Financial Ltd.</reportingPersonName>
+<signatureDetails>
+<signature>/s/ Eli Schwartz</signature>
+<title>Vice President - Chief Financial Officer</title>
+<date>06/05/2025</date>
+</signatureDetails>
+<signatureDetails>
+<signature>/s/ Haggai Schreiber</signature>
+<title>Executive Vice President - Chief Investment Officer</title>
+<date>06/05/2025</date>
+</signatureDetails>
+</signatureInformation>
+<signatureComments>Signature duly authorized by resolution of the Board of Directors, notice of which is attached as Exhibit 1 to this Schedule 13G.</signatureComments>
+</formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

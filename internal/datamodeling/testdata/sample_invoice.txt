@@ -1,0 +1,21 @@
+INVOICE
+
+Vendor: Acme Corp
+Invoice Number: INV-2024-001
+Invoice Date: 2024-01-15
+Due Date: 2024-02-15
+
+Bill To:
+  Customer: Widget Inc
+  Address: 123 Main St, Springfield, IL 62701
+
+Line Items:
+  1. Widget A   x10   $9.99   $99.90
+  2. Widget B   x5    $19.99  $99.95
+  3. Shipping                 $12.00
+
+Subtotal: $199.85
+Tax (8%): $15.99
+Total Due: $215.84
+
+Payment Terms: Net 30

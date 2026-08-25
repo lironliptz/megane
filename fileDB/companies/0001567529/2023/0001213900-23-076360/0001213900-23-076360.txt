@@ -1,0 +1,267 @@
+<SEC-DOCUMENT>0001213900-23-076360.txt : 20231013
+<SEC-HEADER>0001213900-23-076360.hdr.sgml : 20231013
+<ACCEPTANCE-DATETIME>20230913160124
+<PRIVATE-TO-PUBLIC>
+ACCESSION NUMBER:		0001213900-23-076360
+CONFORMED SUBMISSION TYPE:	CORRESP
+PUBLIC DOCUMENT COUNT:		2
+FILED AS OF DATE:		20230913
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		CORRESP
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>CORRESP
+<SEQUENCE>1
+<FILENAME>filename1.htm
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="margin: 0"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-right: 0; margin-left: 0"><IMG SRC="image_001.jpg" ALT="">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-right: 0; margin-left: 0">September 13, 2023</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-right: 0; margin-left: 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-right: 0; margin-left: 0"><B><I><U>VIA EDGAR</U></I></B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0">United States Securities and Exchange Commission</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0">Division of Corporation Finance</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0">100 F. Street, N.E.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0">Washington, D.C. 20549</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0"></P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%">
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="width: 0.5in; font-size: 10pt"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>Re:</B></FONT></TD>
+    <TD STYLE="text-align: justify; font-size: 10pt"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>Kamada
+    Ltd. (the &ldquo;Company&rdquo;)</B></FONT></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0"></P>
+
+
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in"><B>Registration Statement on Form F-3</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in"><B>File No. 333-274443</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-right: 0; margin-left: 0">Ladies and Gentlemen:</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-right: 0; margin-left: 0">In accordance with Rule 461 under the Securities
+Act of 1933, as amended, the undersigned respectfully requests that the effective date for the Registration Statement referred to above
+be accelerated so that it will be declared effective at 4:00 p.m., Eastern Time, on September 13, 2023, or as soon thereafter as is practicable.</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; border-collapse: collapse">
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD COLSPAN="2"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Very truly yours,</FONT></TD>
+    </TR>
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="width: 60%">&nbsp;</TD>
+    <TD STYLE="width: 5%">&nbsp;</TD>
+    <TD STYLE="width: 35%">&nbsp;</TD>
+    </TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    </TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD COLSPAN="2"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Kamada Ltd.</FONT></TD>
+    </TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    </TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    </TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">By:</FONT></TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">/s/ Amir London</FONT></TD>
+    </TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Name:</FONT></TD>
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Amir London</FONT></TD>
+    </TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Title:</FONT></TD>
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Chief Executive Officer</FONT></TD>
+    </TR>
+  </TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 292.3pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 292.3pt"></P>
+
+<!-- Field: Page; Sequence: 1; Options: Last -->
+    <DIV STYLE="margin-top: 6pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 292.3pt"></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 292.3pt">&nbsp;</P>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>GRAPHIC
+<SEQUENCE>2
+<FILENAME>image_001.jpg
+<DESCRIPTION>GRAPHIC
+<TEXT>
+begin 644 image_001.jpg
+M_]C_X  02D9)1@ ! 0$ 8 !@  #_VP!#  @&!@<&!0@'!P<)"0@*#!0-# L+
+M#!D2$P\4'1H?'AT:'!P@)"XG("(L(QP<*#<I+# Q-#0T'R<Y/3@R/"XS-#+_
+MVP!# 0@)"0P+#!@-#1@R(1PA,C(R,C(R,C(R,C(R,C(R,C(R,C(R,C(R,C(R
+M,C(R,C(R,C(R,C(R,C(R,C(R,C(R,C+_P  1" !, /,# 2(  A$! Q$!_\0
+M'P   04! 0$! 0$           $" P0%!@<("0H+_\0 M1   @$# P($ P4%
+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
+MMG[ZR-G/US6=*I%4Y0G?6WWHUKT9NM"K3MI>]^J?3;YFS11T&**YCN"BBB@
+MHHHH @O;.#4+.6TN4WPRKM8?Y[UYG<:(WAEKZVOFN?[.NU51<VT:L2 <[3GI
+M_6O4Z:Z+(A1U#*1@AAD&NK#XF5*ZW3.#%X*&(M+:2V?Z/R/(+&?PWIM[%>6U
+M_JJS1'*DP(1^(S3+EO#%Y=RW,U[JAEE<NV($ R3D\9KT:Z\&:#=/O:P5&_Z9
+M,5'Y XI+;P9H-J^];!7/_35BP_(G%>C]>H_%>5_E_D>-_9>)^"T.7Y_E<XNU
+MT4^)!8V=@UT=-M-V;FYC52 3DJN.O]*]+LK.#3[**TMDVQ1+M4?U/O4R(L:!
+M$4*H& JC %.KSL1B95;+9+^M3V<)@H8>\MY/KZ=%Y%#6PIT+4-^,"WD//;Y3
+MBL4+*9O#OGK:A"WR;"<G]TQ[^^#]<5T[HLB%'4,IZAAD&F&V@.W,,9V?=^4?
+M+]*BG5Y8V_K:QK5H.I+FOV_!W.5AUNZ@LK:&W6V5W25D!)(=UEV[>6X&,G.:
+ML6]Y-8WUR4>(QRZJ(9$*X)+1IR#GCGM]:TKW0H+R;=E%B,1B,1B5E )R2N?N
+MD^OL/2KL=E;11HBP1X3&,J">. <^OO6LJM.VBWW.>&'K<VLMMOP,V_<-XCLX
+M+O LG@<H&/RO-D<'L?ER1GW]*I?:WTS4+XVS*+ 7%LGS_<1G;$@4YXP"I] 3
+M72211S(4E170]589!JM:Z7:6<,D$,9^SN?\ 4L=R+] >@]JB-6*C9K^N_J:S
+MH3<KQ?6]^NVWH85SXFEBL9Y$EMC+$\X4 9WK&P'K@<'GG/H*22Y1-2G9/*82
+M:G;CKTW0K@C!_P#K5TGV6W( ^SQ8!) V#J>#1]EM\Y^SQ=0?N#M35:FMHDO#
+MU9?%(YVVU>^@T^VFDFCN%>XE@D.P[E;<PC'!Z9 'XBKOB $: #<>6THEASCY
+M03YB@XST[CZ5I262/-$ZD(B2&1T51B1NQ/TZU-)%',NV6-77KAAD5+JQYE)(
+MM4)\DH2E>ZL<T]E/;:C8<PP/->R/"@^<0KY+ @=.I&<#C)H3Q-*\6GR,]NIF
+M$)E3T#N5)R3TXXQGWQ72M#&S*S1H2OW25''TIGV2VP!]GBX&!\@X&<_SI^VB
+M_C5R?JTXM^SE;^O^',,ZMJ M9+CS;3:+W[*B^6>GFE,D[NN*2+6KQ;A%FDMV
+M3[3/;L0A'W$+!NI],$5O?9H-NWR(]N[=C8,9]?K0+: $$01@@[@0@X/K2]I3
+M_E'["K=>_P#F<Y!XE>0,KRVX#31(LV,*BNA;<1GID8&<=1FK"ZO=OJ0LXY;1
+MC'Y>YW;;YRMG+(,GITXSR#6U]DM@C(+>+8PP5V#!'I3O(AWH_E)N081MHRH]
+M!Z4W4I](A&C6TO/\_P"OZML<M+XBN;C39#'-!',=.FG.P99)$.,=?3\L59DU
+M;['>7$A>%_W5JIG&< .[J6(SC Z_CUK?%K;JS,((@6SN(0<YZYH%K;@$""(
+MKL("#E?3Z4_:T^D1+#UMW/7YF%=Z[)9R11B\M9R#&7*K@,KR;,YW8&/;/(YP
+M*K0ZDVGB40"/R&O9O,90&*_. #MR.,D@D<C(KI?LMN0H^SQ84;5&P<#T%*+6
+MW!!$$0(.X80<'UI*K32MR@Z%5N_-Z;DM%%%<QW!1110 4444 %%%% !1110
+M4444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1
+)110 4444 ?_9
+
+end
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

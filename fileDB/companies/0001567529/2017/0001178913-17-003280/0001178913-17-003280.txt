@@ -1,0 +1,2454 @@
+<SEC-DOCUMENT>0001178913-17-003280.txt : 20171130
+<SEC-HEADER>0001178913-17-003280.hdr.sgml : 20171130
+<ACCEPTANCE-DATETIME>20171130100216
+ACCESSION NUMBER:		0001178913-17-003280
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		3
+CONFORMED PERIOD OF REPORT:	20171130
+FILED AS OF DATE:		20171130
+DATE AS OF CHANGE:		20171130
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		171230136
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>zk1720848.htm
+<DESCRIPTION>6-K
+<TEXT>
+<html>
+<head>
+<title></title>
+<!--Licensed to: ZKG
+    Document created using EDGARfilings PROfile 4.3.3.0
+    Copyright 1995 - 2017 Summit Financial Printing, LLC.  All rights reserved.-->
+</head>
+<body style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif" bgcolor="#ffffff" text="#000000">
+<div>
+<hr style="BORDER-TOP: black 4px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 1px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+<br style="LINE-HEIGHT: 1.25">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">UNITED STATES</div>
+
+<div style="FONT-SIZE: 14pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">SECURITIES AND EXCHANGE COMMISSION</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Washington, D.C. 20549</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 14pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">FORM 6-K</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Report of Foreign Private Issuer</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Pursuant to Rule 13a-16 or 15d-16</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">of the Securities Exchange Act of 1934</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">For the Month of November, 2017</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Commission File Number 001-35948</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 16pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Kamada Ltd.</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">(Translation of registrant&#8217;s name into English)</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">2 Holzman Street</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Science Park, P.O. Box 4081</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Rehovot 7670402</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Israel</font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font> &#160;(Address of principal executive offices)</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Indicate by check mark whether the registrant files or will file annual reports under cover Form 20-F or Form 40-F.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Form 20-F <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Wingdings 2', serif">T</font>&#160;&#160; Form 40-F <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">&#9744;</font></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ____</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7): ____</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Indicate by check mark whether the registrant by furnishing the information contained in this Form is also thereby furnishing the information to the Commission pursuant to Rule 12g3-2(b) under the Securities Exchange Act of 1934.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Yes <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">&#9744;</font>&#160;&#160; No <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Wingdings 2', serif">T</font></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">If &#8220;Yes&#8221; is marked, indicate below the file number assigned to the registrant in connection with Rule 12g3-2(b): 82&#8209;____</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">This Form 6-K is being incorporated by reference into the Registrant's Form S-8 Registration Statements, File Nos. 333-192720, 333-207933 and 333-215983,&#160;and the Registrant's Form F-3 Registration Statement, as amended, File No. 333-214816.</div>
+
+<div style="LINE-HEIGHT: 1.25; BACKGROUND-COLOR: #ffffff">
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">The following exhibits are attached:</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z0ce7afdc49084f7884ce7c299188b573" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 36pt; align: right">99.1</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Notice of Results of the Annual General Meeting of Shareholders, held on November 30, 2017</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z4e1a6e92971040cea2c07df8d92b3d4a" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 36pt; align: right">99.2</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Amended and Restated Compensation Policy for Executive Officers and Directors</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">SIGNATURE</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="LINE-HEIGHT: 1.25">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</div>
+
+<table id="z2cac64057bf84bbea2705171b23cc7fb" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="VERTICAL-ALIGN: top; WIDTH: 49.4%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Date:&#160; November 30, 2017</div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 32.58%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">KAMADA LTD.</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">&#160;</div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 18.02%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">&#160;</div>
+</td>
+</tr>
+
+<tr>
+<td style="VERTICAL-ALIGN: top; WIDTH: 49.4%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">&#160;</div>
+</td>
+<td style="VERTICAL-ALIGN: top; BORDER-BOTTOM: #000000 2px solid; WIDTH: 32.58%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">By:&#160;&#160; /s/ Gil Efron </div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 18.02%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">&#160;</div>
+</td>
+</tr>
+
+<tr>
+<td style="VERTICAL-ALIGN: top; WIDTH: 49.4%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">&#160;</div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 32.58%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Gil Efron<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font> Deputy Chief Executive Officer and Chief Financial Officer</div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 18.02%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">&#160;</div>
+</td>
+</tr>
+</table>
+
+<div style="LINE-HEIGHT: 1.25; BACKGROUND-COLOR: #ffffff">
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25"><u>EXHIBIT INDEX</u></div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+ &#160;</div>
+</div>
+
+<table id="z1031828dd78841c0aca8c70f5ba3dccb" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="VERTICAL-ALIGN: top; WIDTH: 9.62%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">EXHIBIT NO.</div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 90.38%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">DESCRIPTION</div>
+</td>
+</tr>
+
+<tr>
+<td style="VERTICAL-ALIGN: top; WIDTH: 9.62%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt"><a href="exhibit_99-1.htm">99.1</a></div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 90.38%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt"><a href="exhibit_99-1.htm">Notice of Results of the Annual General Meeting of Shareholders, held on November 30, 2017</a></div>
+</td>
+</tr>
+
+<tr>
+<td style="VERTICAL-ALIGN: top; WIDTH: 9.62%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt"><a href="exhibit_99-2.htm">99.2</a></div>
+</td>
+<td style="VERTICAL-ALIGN: top; WIDTH: 90.38%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt"><a href="exhibit_99-2.htm">Amended and Restated Compensation Policy for Executive Officers and Directors</a></div>
+</td>
+</tr>
+</table>
+
+<div style="LINE-HEIGHT: 1.25; BACKGROUND-COLOR: #ffffff">
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="LINE-HEIGHT: 1.25">
+<hr style="BORDER-TOP: black 1px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 4px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+</div>
+</div>
+</body>
+</html>
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>exhibit_99-1.htm
+<DESCRIPTION>EXHIBIT 99.1
+<TEXT>
+<html>
+<head>
+<title></title>
+<!--Licensed to: ZKG
+    Document created using EDGARfilings PROfile 4.3.3.0
+    Copyright 1995 - 2017 Summit Financial Printing, LLC.  All rights reserved.-->
+</head>
+<body style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif" bgcolor="#ffffff" text="#000000">
+<div>
+<hr style="BORDER-TOP: black 4px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 1px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+<div style="TEXT-ALIGN: right; FONT: bold 10pt/1.25 'Times New Roman', Times, serif; MARGIN-RIGHT: 0.75pt"><u>EXHIBIT 99.1</u></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">KAMADA LTD.</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">2 Holzman Street<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font>Weizmann Science Park<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font>P.O. Box 4081<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font> Rehovot 7670402, Israel</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><br>
+</font><font style="FONT-WEIGHT: bold">Notice of Results of the Annual General Meeting of Shareholders, held on November 30, 2017</font></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Kamada Ltd. (the "<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Company</font>") today announced that all of the proposals submitted for shareholders' approval were duly approved at its <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Annual General Meeting of Shareholders held on November 30, 2017</font> in Rehovot, Israel (the "<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Meeting</font>").&#160; Accordingly, at the Meeting, shareholders of the Company approved the following:</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z9974d7f8bff24e4b9706c8bae0cac116" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 18pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">1.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The election of the following directors to serve as members of the Company&#8217;s Board of Directors until the next annual general meeting of shareholders:</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Mr. Leon Recanati</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Dr. Michael Berelowitz</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Mr. Jonathan Hahn</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Dr. Abraham Havron</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Mr. Asaf Frumerman</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Prof. Itzhak Krinsky</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Ms. Gwen A. Melincoff</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25; MARGIN-RIGHT: 0.75pt">Mr. Shmuel (Milky) Rubinstein</div>
+
+<div style="font-size: 10pt; font-family: 'Times New Roman', Times, serif; text-align: justify; line-height: 1.25; margin-right: 0.75pt;">Mr. David Tsur</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z4fd5ab91526340a6ba55e8aab0c35b20" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 18pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">2.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The Company entering into an indemnification and exculpation agreement with each of: Ms. Gwen A. Melincoff and Messrs. Asaf Frumerman, Itzhak Krinsky and Shmuel (Milky) Rubinstein, as detailed in the Proxy Statement filed by the Company on November 13, 2017 (the "<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Proxy Statement</font>").</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z615b3626ecb94c6e9fe61fe787b5b99d" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 18pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">3.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The grant of options to each of the Company&#8217;s currently serving directors, other than Mr. Saadia Ozeri, as detailed in the Proxy Statement.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z45b303844a0d4a319d5bee2064b43b42" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 18pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">4.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The grant of options and restricted shares to Mr. Amir London, the Company&#8217;s Chief Executive Officer, as detailed in the Proxy Statement.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z306a2c6b8c324f05a17ca10a401d606e" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 18pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">5.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">An amendment to the Company&#8217;s Compensation Policy for Executive Officers and Directors, with respect to the maximum aggregate annual premium payable for directors&#8217; and officers&#8217; liability insurance, as detailed in the Proxy Statement.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z5b75c1f85c274e0f9321e91b61ec51a0" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 18pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">6.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Ratification and approval of the reappointment of Kost Forer Gabbay &amp; Kasierer, a member of Ernst &amp; Young Global, as the Company&#8217;s independent registered public accountants for the year ending December 31, 2017 and for such additional period until the next annual general meeting.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="LINE-HEIGHT: 1.25">
+<hr style="BORDER-TOP: black 1px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 4px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+<br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+</div>
+</body>
+</html>
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.2
+<SEQUENCE>3
+<FILENAME>exhibit_99-2.htm
+<DESCRIPTION>EXHIBIT 99.2
+<TEXT>
+<html>
+<head>
+<title></title>
+<!--Licensed to: ZKG
+    Document created using EDGARfilings PROfile 4.3.3.0
+    Copyright 1995 - 2017 Summit Financial Printing, LLC.  All rights reserved.-->
+</head>
+<body style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif" bgcolor="#ffffff" text="#000000">
+<div>
+<hr style="BORDER-TOP: black 4px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 1px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+<br>
+<div id="DSPFPageHeader">
+<div style="TEXT-ALIGN: right; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-VARIANT: normal; FONT-WEIGHT: bold; FONT-STYLE: normal"><u>EXHIBIT 99.2</u></font><br style="LINE-HEIGHT: 1.25">
+</div>
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">KAMADA LTD.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25">COMPENSATION POLICY FOR EXECUTIVE OFFICERS AND DIRECTORS</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z1e6366bb3f1e4de9a638ca6ddb873b06" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 17.85pt; align: right">1.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">OBJECTIVES OF THE POLICY</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">This document is designed to determine, describe and detail the policy of Kamada Ltd. (the &#8220;<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Company</font>&#8221;) with respect to the compensation of the Company's office holders, the amount of the compensation, its components and the method for determining compensation.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">The Company&#8217;s compensation policy and its publication are designed to enhance the level of transparency of the Company&#8217;s activities relating to the compensation of office holders and to improve the ability of the shareholders to express their opinion and influence the Company's compensation policy for officer and directors.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">This document shall apply to the Company's office holders:&#160; the chief executive officer, members of the Company's executive management, each person fulfilling such positions even if his title is different, and directors.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">This document does not grant any rights whatsoever to an office holder.&#160; Each of the Company's office holders shall be entitled to compensation only in accordance with his respective employment contract approved by the compensation committee, the board of directors (and the shareholders, to the extent required).</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">This document determines (among other things) the maximum values for the various components of compensation.&#160; Awarding compensation to an office holder in an amount that is less than the amounts specified in this document shall not be deemed to be a deviation from the provisions of this compensation policy and shall not require the approval of the shareholders that is required by law in the event of deviation from the terms of the compensation policy.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">Except with respect to the terms of service and employment of office holders that were approved prior to the date of approval of this compensation policy, any deviation or exception from this compensation policy (excluding, as described above, awarding compensation which is less than the compensation stated in this policy) shall be subject to the approval of the Company&#8217;s compensation committee, board of directors and the shareholders, to the extent required by law.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<!--PROfilePageNumberReset%Num%2%%%-->
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">This compensation policy shall apply to the terms of service and employment of office holders that are approved following the date of approval of this compensation policy.&#160; This compensation policy does not derogate from existing contractual obligations, as of the date of approval of this compensation policy, between the Company and its office holders.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">The policy is drafted in the masculine solely for convenience and applies to both men and women, without distinction.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">In this policy, the Company's &#8220;competent organizations&#8221; are the compensation committee and the board of directors, and with respect to the compensation of the Company's chief executive officer, directors and controlling shareholders, also the shareholders, to the extent required by law.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z28968b21a0ae4b2db7bc9d711ec27388" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 18pt; align: right">2.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">GENERAL BACKGROUND</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="zd1856927041242c8b8f9c45d86bf2ac8" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 17.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 21.55pt; align: right">2.1.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">PURPOSE OF THE COMPENSATION POLICY FOR OFFICE HOLDERS</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 36pt; LINE-HEIGHT: 1.25">This compensation policy for office holders is designed to assist in achieving the Company's objectives and work plans with a long-term view, taking into account, among other things, the Company&#8217;s risks management policy and to ensure that:</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z269f77f3c9fb4acbb7ac2000604a9413" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 36pt; align: right">2.1.1.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The interests of the Company&#8217;s office holders shall be as close as possible to and aligned with those of the Company and the shareholders;</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="zcd014d3908fe420082bab6d0a0f2160e" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 36pt; align: right">2.1.2.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The Company may recruit and retain senior officers capable of leading the Company to further business success and able to handle future challenges;</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z7f53d57b25a143529ef84b5a8aa4738f" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 36pt; align: right">2.1.3.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Office holders shall have motivation to attain a high level of business achievements without taking unreasonable risks;</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="zaeab8472789f404ab615d4cfa736fc64" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 36pt; align: right">2.1.4.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Office holders shall be compensated for achieving the Company's strategic targets; and</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z4934f31af669476fa843139057a7a376" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 36pt; align: right">2.1.5.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">An appropriate balance shall be established between the various compensation components &#8211; fixed vs. variable compensation, quantitative and measurable components vs. discretionary components, short-term vs. long-term components, compensation in cash vs. equity-based compensation and benefits and perquisites.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">2</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z73ae0b64971d4404b0c8a84912bfec56" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 17.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 21.55pt; align: right">2.2.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">PRIMARY BODIES INVOLVED IN DETERMINING THE COMPENSATION POLICY FOR OFFICE HOLDERS</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 75.4pt; LINE-HEIGHT: 1.25; TEXT-INDENT: -36pt">The parties involved in determining the Company's compensation policy are:</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z3977c5da4edb400caaf58e9acb7162c0" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 39.4pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Compensation committee of the board of directors &#8211; makes recommendations to the board of directors regarding the approval of the compensation policy for office holders and any extensions and updates to the policy to the extent required; approves the terms of service and employment of office holders; and may determine to exempt a transaction from shareholder approval (in the event that the compensation committee believes that bringing the transaction to the approval of the shareholders could jeopardize an arrangement with a candidate for chief executive officer).</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z51feeafad21449a7aa1b8a2d877925af" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 39.4pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Board of directors &#8211; approves the compensation policy for office holders; periodically reviews the compensation policy and is responsible for updating it as and when necessary.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="zd09b537575154c478f46ba834fc9bdb3" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 39.4pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Shareholders &#8211; approves the compensation policy, to the extent approval is required by law.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="zc3cf18f934da4da8ba58beaffa1be556" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 17.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 21.55pt; align: right">2.3.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">BUSINESS ENVIRONMENT AND ITS IMPACT ON COMPENSATION OF OFFICE HOLDERS</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 39.4pt; LINE-HEIGHT: 1.25">As a Company engaged in the development of biological based drugs (biopharmaceuticals), the Company competes with other companies in the same and related fields to recruit and retain managers and leading professionals.&#160; As at the date of writing this document (July 2013), no shortage of highly talented management personnel with expertise in the Company's specific field of business has been experienced; however, since it is a growing area with several companies joining each year, the Company's management personnel could be a target for recruitment by rival companies alongside a shortage which could develop over the following years.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 36pt; LINE-HEIGHT: 1.25">The Company's compensation policy was designed, among other things, to ensure the Company's ability to recruit and retain the highly talented management personnel it requires to continue to develop its business and business success, all in accordance with and subject to the objectives of the compensation policy set forth in Section 2.1, including the promotion of the Company's goals in the long-term.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">3</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z2241c47f9c9847afbe19e4469c456a94" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 18pt; align: right">3.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">OFFICER&#8217;S COMPENSATION IN VIEW OF COMPANY VALUES AND BUSINESS STRATEGY</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="zbf7688c2182445e3a5a5c37a6e30ab1a" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 17.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 21.55pt; align: right">3.1.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">COMPENSATION ACCORDING TO THE OFFICER&#8217;S CHARACTERISTICS AND EXPERIENCE</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 39.4pt; LINE-HEIGHT: 1.25">Officer compensation shall take into account the officer&#8217;s education, skills, expertise, professional experience and achievements, as well as the characteristics of the position which he is intended to fulfill and the responsibilities of the position.&#160; It is clarified, however, that the foregoing shall not constitute threshold conditions for purposes of fulfilling a specific position in the Company (because at times prior experience in a position and the relevant field are equivalent to or prevail over formal education in the field), and all of the foregoing characteristics shall be taken into account in the examination of the suitability of a candidate for a particular position. Without derogating from the foregoing, an office&#8217;s compensation shall be determined, for each of the various compensation components, according to the foregoing parameters, the nature of the position and the areas of responsibility, while preserving an appropriate balance between the various compensation components set out in this document.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="ze9ccf73d300641b58144d89976d62b52" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 17.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 21.55pt; align: right">3.2.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">RATIO BETWEEN OFFICER COMPENSATION AND COMPENSATION OF OTHER COMPANY EMPLOYEES</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 39.4pt; LINE-HEIGHT: 1.25">The Company aims to compensate its office holders for their contribution to its business success over time, taking into account the extensive responsibility and authority imposed upon them.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 39.4pt; LINE-HEIGHT: 1.25">Nevertheless, since the Company employs a relatively small number of employees most of whom have unique professional expertise, the Company attaches importance to the creation of appropriate compensation for all of its employees and in preserving reasonable gaps between the overall compensation of officers and the compensation of the other Company employees.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 39.4pt; LINE-HEIGHT: 1.25">The compensation committee and the board of directors have examined the ratio between the terms of service and employment of officers and the average and median salary of the other Company employees and contractors, and the ratio between the terms of service and employment of officers and the average and median cost of employment of the other Company employees and contractors.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 39.4pt; LINE-HEIGHT: 1.25">The compensation committee and the board of directors believe that the ratio is appropriate and reasonable taking into account the nature of the Company, its size, value, scale of activity in the various fields, the mixture of manpower and its field of activity and that it does not adversely impact labor relations within the Company.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">4</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="zaa76ff84a5e848b29966ee474e505136" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 17.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 21.55pt; align: right">3.3.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">RELATIONSHIP BETWEEN THE COMPANY'S BUSINESS RESULTS AND OFFICER COMPENSATION</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 39.4pt; LINE-HEIGHT: 1.25">The Company's policy is that the overall compensation for officers should be considerably influenced by its business results as well as the individual contribution, responsibility and professional expertise of each officer to the achievement of these results.&#160; The higher the management position, the influence of the business results and the individual contribution to the achievement of these results on the executive&#8217;s compensation shall increase.&#160; For this purpose, the higher the management position, the weight of the variable compensation that is performance based in relation to the overall compensation shall increase, all as specified in Section 4.2 below.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z27c7f33ab3c94423b66641f29f06d962" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 18pt; align: right">4.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">PRIMARY CONCEPTS OF THE COMPENSATION POLICY</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z5d71c30ad2d946b39631eba13ba92ac8" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 17.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 21.55pt; align: right">4.1.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">OVERALL COMPENSATION CONCEPT</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 39.4pt; LINE-HEIGHT: 1.25">The Company's compensation committee and board of directors believe that the overall compensation of each employee and in particular of officers should be comprised of a number of different components, such that each element rewards the employee for a different element of his contribution to the Company, thus achieving the objectives of the Company's compensation policy:</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z376ec810bb2544dcb6b99dec8ecbcc45" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 39.4pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Base salary &#8211; designed to partially reward the employee for the time he devotes to the performance of his role and the daily performance of his tasks.&#160; The base salary takes into account, on the one part, the employee's skills (such as experience, know-how, expertise accumulated in the field of business, education, professional qualifications etc.) and, on the other part, the requirements of the role and the responsibility and authority it carries.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">5</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="ze16090636e8c46e4bcec61215286147f" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 39.4pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Benefits and perquisites &#8211; some of which are mandatory according to law (such as pension, severance pay, vacation days, sick leave, recuperation pay, etc.), some of which are common market practice (such as health insurance, insurance for loss of earning capacity, further education funds, which have certain tax benefits for the employee and the Company) and others are designed to compensate the employee for expenses incurred in fulfilling the position (such as a company car, travel expenses, phone, etc.).</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="zc2d211dbd6f04aeb9ae91774678319a2" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 39.4pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Variable performance based awards (e.g. annual bonus) &#8211; designed to reward the officer for his achievements and contribution to attaining the Company's goals during the course of the period for which the variable compensation is paid and to supplement the base salary.&#160; The weight of variable performance based compensation in relation to the overall compensation shall increase the higher the officer&#8217;s management position.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="zb33cd7f59d9d41ca8493f4027302065c" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 39.4pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Equity-based compensation &#8211; designed to link long-term shareholder returns and the compensation of officers and employees of the Company.&#160; Equity-based compensation creates a correlation between the interests of employees and officers and the interests of the Company&#8217;s shareholders and assists in creating motivation and in retaining the key personnel in the Company.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">6</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z9877f4aa06c84227a19833507ef5ffb8" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 17.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 21.55pt; align: right">4.2.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">RATIO BETWEEN COMPENSATION COMPONENTS</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 39.4pt; LINE-HEIGHT: 1.25">The ratio required between the components of an officer&#8217;s compensation package is set forth in the following table<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">:</font></div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<table id="z6a59fd020ad44fe0ac78fae69926eca6" style="FONT-SIZE: 10pt; BORDER-TOP: medium none; FONT-FAMILY: 'Times New Roman', Times, serif; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td style="BORDER-TOP: #000000 2px solid; BORDER-RIGHT: medium none; VERTICAL-ALIGN: top; BORDER-BOTTOM: medium none; BORDER-LEFT: #000000 2px solid; WIDTH: 37.5%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; BACKGROUND-COLOR: #ffffff"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">RANK</font></div>
+</td>
+<td style="BORDER-TOP: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; VERTICAL-ALIGN: top; BORDER-BOTTOM: medium none; BORDER-LEFT: #000000 2px solid; WIDTH: 62.5%">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold; TEXT-ALIGN: center; LINE-HEIGHT: 1.25; BACKGROUND-COLOR: #ffffff"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">BASE SALARY TO VARIABLE COMPENSATION (BOTH PERFORMANCE AND EQUITY BASED)</font></div>
+</td>
+</tr>
+
+<tr>
+<td style="BORDER-TOP: #000000 2px solid; BORDER-RIGHT: medium none; VERTICAL-ALIGN: top; BORDER-BOTTOM: medium none; BORDER-LEFT: #000000 2px solid; WIDTH: 37.5%; BACKGROUND-COLOR: #ffffff">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">Chief Executive Officer and Deputy Chief Executive Officer</font></div>
+</td>
+<td style="BORDER-TOP: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; VERTICAL-ALIGN: top; BORDER-BOTTOM: medium none; BORDER-LEFT: #000000 2px solid; WIDTH: 62.5%; BACKGROUND-COLOR: #ffffff">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">up to 1:2</font></div>
+</td>
+</tr>
+
+<tr>
+<td style="BORDER-TOP: #000000 2px solid; BORDER-RIGHT: medium none; VERTICAL-ALIGN: top; BORDER-BOTTOM: #000000 2px solid; BORDER-LEFT: #000000 2px solid; WIDTH: 37.5%; BACKGROUND-COLOR: #ffffff">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">Vice President</font></div>
+</td>
+<td style="BORDER-TOP: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; VERTICAL-ALIGN: top; BORDER-BOTTOM: #000000 2px solid; BORDER-LEFT: #000000 2px solid; WIDTH: 62.5%; BACKGROUND-COLOR: #ffffff">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: center; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">up to 1:1</font></div>
+</td>
+</tr>
+</table>
+
+<div style="TEXT-ALIGN: justify; MARGIN-LEFT: 36pt; LINE-HEIGHT: 1.25; TEXT-INDENT: -36pt">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="zb3d550992f774cf49cc2647f25b43d9e" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 18pt; align: right">5.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">COMPENSATION COMPONENTS</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="ze4efee7555134e708bd43c29084c7831" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 17.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 21.55pt; align: right">5.1.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">BASE SALARY</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="zbadc97a638d74bac9ec556263f01fc94" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 36pt; align: right">&#160; 5.1.1.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Determination of the base salary for officers</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">The base salary for an officer shall be determined during the course of the negotiations for his employment in the Company, which shall be conducted by the person who shall directly supervise the officer (for the chief executive officer &#8211; the chairman of the board of directors or whoever is appointed on his behalf for such purpose, for a vice president &#8211; the Company's chief executive officer or whoever is appointed on his behalf for such purpose).&#160; The officer&#8217;s intended supervisor may determine the base salary based on a range to be determined and approved in advance for such purpose in accordance with the provisions prescribed in this policy.</font></div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">The salary to be determined, within the foregoing range, shall express the skills of the candidate (including, among other things, his education, professional experience and expertise) and his suitability to the intended position as well as also the acceptable salary conditions in the relevant market and the Company's financial capability at the time of recruitment.</font></div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">7</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">The Company believes that the emphasis of its compensation policy should be on&#160; performance based compensation and therefore, the Company's policy is to determine a base salary which is close to the median salary in the relevant market for similar positions, alongside variable performance based compensation and long-term compensation components that will bring the officer&#8217;s overall compensation to a level which will allow the Company to recruit and retain the highly talented management personnel it requires for continuation of its success.</font></div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">Because officers hold a management position within the meaning of the Hours of Work and Rest Law, such law shall not apply to officers and they shall not be entitled to compensation for overtime work or work on the day of rest.</font></div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z4a8e0f6e1fb649d795165ecb15ea72be" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 54pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 54pt; align: right">5.1.1.1.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff"><u>Market comparison (benchmark)</u></font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">To determine the salary for the recruitment of a new officer, a comparison shall be made of the acceptable salary in the market for similar positions in companies similar to the Company.&#160; For purposes of the foregoing comparative studies, companies meeting the maximum number as possible of the following characteristics shall be selected:</font></div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z61eebff856ab490fb1b06c9fa383c605" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">Companies in the field of bio-tech, pharmaceuticals, medical devices and other related fields;</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="zdabb27a6408b4566a589ddec9b8ba682" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">Public companies whose shares are traded either on the Tel Aviv Stock Exchange or the NASDAQ Stock Market;</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z8b3f9d52d75845dc8a9a61eafab5af48" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">Companies of a similar size in the following financial dimensions:&#160; shareholder equity, balance sheet, sales turnover, operating profit and net profit;</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z868becf3cea34740936d76d8df12f9b6" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">Companies having substantial international activity.</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">8</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">The comparative study shall address all the components of the compensation package and shall include (to the extent the information is available):</font></div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="ze7fbf9cda0704d53b0326a0a88f33b3d" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">the acceptable range of base salaries for similar positions (including the split within the range);</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="ze06da7033c424a8e959740632f0c5b8c" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">the acceptable range for annual bonuses;</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z6079da7aa54a47cd87d4246325c6315a" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">the acceptable range for equity-based compensation; and</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="ze719ed23d9b742bcbcf304924f4b5a77" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">the benefits and perquisites that are acceptable in the market.</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="zb85498d7c5d54d0d87904b08645d3cec" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 54pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 54pt; align: right">5.1.1.2.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff"><u>Internal comparison</u></font><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff"> &#8211; in determining the salary for the recruitment of a new officer, the following considerations shall be taken into account, as well as their potential impact on the Company&#8217;s labor relations as a whole and within the management team:</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z3bc58393abae451b809af2f56c0626d6" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">The gap between the proposed salary of the officer and the salary of the other officers in the Company.</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z85805f9824de4f4da67151bf07e42d33" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">The ratio between the proposed salary of the officer and the salary of the other employees of the Company.</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z329135147b45421d918d404101c82090" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">If there are officers with similar positions in the Company &#8211; the gap between the proposed salary of the officer and the salary of the officers with similar positions.</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z39def69890234c7782086136e23b2391" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 54pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 54pt; align: right">5.1.1.3.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">To the extent necessary, the Company may employ an officer outside of Israel.&#160; In such instance, the salary shall be determined in a process adjusted to the country where such officer is employed.&#160; In the event that the salary of officers who are candidates for employment abroad deviate from this policy, the salary shall be brought before the Company's competent organs for approval, prior to the execution of a binding employment contract.</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="za71f4ed6016c45c98a1b518a042bab7e" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 54pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 54pt; align: right">5.1.1.4.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff"><u>Director compensation</u></font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25">The <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">compensation</font> of directors of the Company (including external directors and others) who are not <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">employed</font> in another position in the Company shall be determined pursuant to the Companies Regulations (Rule Regarding the Compensation and Expenses of an External Director), 5760 &#8211; 2000 (the &#8220;<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Compensation Regulations</font>&#8221;) and shall not exceed the maximum compensation permitted under the Compensation Regulations, among other things taking into account their definition as financial experts.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">9</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25">Compensation to directors who are employed in another position in the Company shall be determined in accordance with the Company&#8217;s customary compensation for similar positions, subject to the provisions of this compensation policy.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25">The Company may award directors equity-based compensation pursuant to the provisions of Section 5.2.2 below, subject to the provisions of the Compensation Regulations.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25">Directors shall be entitled only to such compensation that has been expressly provided for in this document.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z89ca2e468b234410a2d90c0fbc6c98a5" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 36pt; align: right">5.1.2.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Periodical review and update of salary</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25">In order to retain officers, the officers' base salary shall be reviewed annually during the course of the <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">first</font> quarter of each year, taking into consideration the challenges of the given year and the following year, the complexity of the officers&#8217; roles, their scope and importance to the Company's performance, all based upon the Company's resources and in comparison to the acceptable salary for similar roles in the relevant market.&#160; To the extent necessary, a proposal regarding an increase to all or any of the officers' salaries shall be prepared and brought before the Company's relevant organs for approval.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z52980ba059ed465899d0b64f6bd71aae" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 53.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 54.15pt; align: right">5.1.2.1.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><u>Linkage</u></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">The officers' salary shall not be linked to any index apart from the statutory cost of living increase.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">10</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="zebcc677ba0ac41f9a2be9b97ba3dc169" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 17.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 21.55pt; align: right">5.2.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">VARIABLE COMPENSATION</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 75.4pt; LINE-HEIGHT: 1.25; TEXT-INDENT: -36pt">Variable compensation components are intended to achieve several objectives:</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="zab59bd1e989241b7b4c7498ba81ddb7d" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 39.4pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">To link part of the officers&#8217; compensation to the achievement of business goals and targets which, in the long-term, bring maximum value to the Company and create a joint interest between the officers, the Company and its shareholders.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z47c3fab2673e4a54be4d6ca954e4b65a" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 39.4pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Increase the officers' motivation to attain the Company's long-term goals.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z466f1867226143aeb79e9b2073d4c4c6" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 39.4pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Correlating some of the Company's payroll costs with its performance and enhancing its financial and operational flexibility.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="ze7b928e754b6444bb53227acf7d968bd" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 36pt; align: right">5.2.1.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Annual bonus</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25">The Company's officers shall be entitled to an annual bonus, based upon the <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">annual</font> bonuses plan which shall be brought before the compensation committee and the board of directors for approval.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="zcd7e9c72f3aa486cb1d3cb87aedd94d6" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 53.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 54.15pt; align: right">5.2.1.1.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><u>Principles</u></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">Annual</font> bonuses for officers shall be calculated according to the annual bonus plan, to the extent it is approved by the Company's competent organs.&#160; The annual bonus plan shall be <font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">comprised</font> of the following provisions:</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z6af3361ee8a0441ea1f934f13b1e11d0" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">Payment thresholds based on one or more quantitative financial measure(s) of Company performance during the year for which the bonus is paid (such as revenue, gross profit, EBITDA, operating profit or net profit).&#160; The compensation committee shall determine the measure from the list and according to the Company's objectives for the bonus year.&#160; In addition, the compensation committee shall determine a substitute measure which may be used as a payment threshold according to the board of directors resolution during the course of the bonus year where, due to circumstances which could not have been anticipated and which are not in the control of the Company's board of directors, the Company would not succeed in meeting the primary threshold(s).</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">11</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z90f14501c71243248d67b3d83b6199f8" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">Determining the target bonus for each officer &#8211; a target bonus is the bonus paid when 100% of the targets have been met &#8211; in terms of a salary multiplier.&#160; A target bonus shall be identical for each officer of a particular rank and shall not exceed, in percentages, the rate set forth in Section 4.2;</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="za1c8c98b0a2d497e913e38b8c068a380" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">Determining the maximum bonus (in terms of a salary multiplier) which shall be paid to an officer upon attaining considerably higher results than the targets that were determined;</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="zafa47b8453e94dcaa6983df250d626fd" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">The measures according to which the bonus shall be calculated for each officer and their relative weights, in accordance with Section 5.2.1.2 below;</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="za275de2f0dc74b668677b6ccd123cf34" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">The targets for each measure, for the bonus year.</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z2bfc3f36e07f4a86865c01b4b2b993da" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 54pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 54pt; align: right">5.2.1.2.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><u>Determining the bonus plan measures and targets</u></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">Personal targets and measures shall be determined for each officer, according to which the officer's performance shall be measured.&#160; A weight shall be assigned to each measure for determining the annual bonus for each officer, and the bonus paid to the officer shall be determined in accordance with the weighted percentage of meeting the targets, as described below.&#160; There shall be three main categories of</font> performance measures for each officer:</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="zdf7e67a6338c4ee5a89b03cfed19177e" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">Company measures &#8211; economic or strategic measures, which may be measured quantitatively, in relation to the Company's performance (sales turnover, operating profit, percentage of operating profit, EBITDA, net profit, obtaining approval from the authorities in the target markets, etc.).&#160; These measures shall be the same for all Company officers and the extent of meeting their targets shall determine 80% of the total bonus for the Company's chief executive officer and 40% of the total bonus for vice presidents.</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">12</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 126pt; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">Personal measures &#8211; quantifiable and measurable key performance indicators (KPIs) shall be determined for each officer separately, in accordance with his position. The extent of meeting these measures shall determine a further 40% of the total bonus of a vice president.&#160; No personal measures shall be determined for the chief executive officer.</font></div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z180cadb11f0743cc85f44751c7823ca0" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">Managerial appraisal (the Company's chief executive officer or the chairman of the board of directors, as the case may be) &#8211; an evaluation of each officer&#8217;s performance in terms that are not measurable but which have a contribution to the Company's long-term performance.&#160; The managerial appraisal shall determine up to 20% of the officer's total bonus.&#160; At the beginning of each year, qualitative measures shall be determined on the basis of which the appraisal of each officer shall be made.</font></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">The targets in the personal and managerial measures of each officer shall be </font>determined<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff"> in accordance with the work plan targets for the bonus year.</font></div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="zbe0562bcb4054d25b0e9db7840344041" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 54pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 54pt; align: right">5.2.1.3.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><u>Determination of the bonus budget</u></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">The total annual budget for the bonuses of Company's officers shall be determined according to the sum of the maximum bonuses of all officers.&#160; After the Company has achieved a net profit for two consecutive years, a maximum total annual bonus budget shall be determined, in terms of a percentage of the Company's operating profit (or the net profit/ gross profit / EBITDA / other measure or any combination thereof, according to the resolution of the Company's compensation committee and board of directors), unless otherwise determined in the Company&#8217;s annual budget&#160; approved by the board of directors (e.g., if the Company has operating losses as a result of an increase in research and development costs, partnerships or M&amp;A). In years where the Company does not meet the minimum percentage of the target determined by the Company, as determined by the compensation committee from time to time, no bonuses shall be paid to officers.</font></div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">13</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z1a697952a1e64ca0aae8b9aaf9231a21" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 54pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 54pt; align: right">5.2.1.4.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><u>Bonus calculation mechanism</u></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">The bonus for each officer shall be determined according to the extent that the officer has met the targets determined for him for the bonus year.&#160; The weighted percentage of meeting the targets of each officer shall be translated into a bonus percentage according to the "payment line" formula determined in the bonus plan for officers, which shall be multiplied by the target bonus (the personal bonus) of the officer for the purpose of calculating the actual bonus.&#160; The maximum target bonus for vice presidents shall be eight times the base monthly salary, for the deputy chief executive officer, nine times the base monthly salary and for the chief executive officer, ten times the base monthly salary.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">The &#8220;payment line&#8221; shall determine:</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="zb2bb509beb14480ba074288f2c8cb123" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 126pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The minimum percentage of meeting targets (the lower performance threshold) up to which the officer shall not be paid any bonus whatsoever; the minimum percentage is 70%.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z0586a849fca047ad8a4ddd58c8d9e929" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 126pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The percentage of the target bonus which shall be paid in achieving the lower performance threshold;</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z9828633842b449f69b1c307608ec3203" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 126pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">A maximum percentage of the target bonus (the bonus ceiling) which shall be paid upon achieving a considerably higher level of performance than the targets; the maximum percentage is 150% of the target bonus.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z070a0c7844b04defa544542ba19b9cbb" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 126pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The level of performance where the personal bonus ceiling shall be paid.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">Calculation of the target bonus percentage for each level of performance between the above-mentioned points shall be made by a linear method.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">14</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="ze968f75209f14ef98aa6e2ee62b82694" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 54pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 54pt; align: right">5.2.1.5.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><u>The approval process for the actual bonus</u></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">At the end of each year, the extent of meeting targets by each of the officers shall be calculated.&#160; The percentage of meeting targets of the officer shall be translated into a percentage of the target bonus according to the payment line formula.&#160; The actual bonus to be paid shall be calculated by multiplying the target bonus percentage by the target bonus.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">The compensation committee and the board of directors shall be entitled to reduce an officer's annual bonus at their discretion taking into account the following factors:</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="ze31216d035064d6ca64f13dd9e56cae6" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The amount of the officer's contribution to the Company's business development beyond the specific responsibility;</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="za7f1180389e348a1b84bd320a70e4c19" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The quality and speed of the officer's response to crises and unanticipated events;</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z9e63e432312347a49b7d4aaed0b640ca" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The officer's contribution to the promotion of the Company within his field of expertise or outside such field.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="zaa0d504a33a54194a9473d95c08e7567" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The officer&#8217;s overall management, motivating employees and leadership.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">The annual bonuses approved by the compensation committee and the board of directors shall be paid to the officers together with the first monthly salary that is paid after the approval of the annual bonuses by the board of directors.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">If annual bonuses have been paid to officers on the basis of financial measures which at a later stage transpire to be erroneous and are restated in the financial statements, the officer shall refund the surplus bonuses sums, within one year from the date of the Company's notice with respect thereto, linked to the consumer price index, and if the officer has received less, the Company shall pay the missing bonus amounts together with the next monthly salary.&#160; The Company, by written notice to the officer 60 days in advance, may set-off all or part of the surplus bonuses sums from the bonuses owing to the officer in respect of the following years.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">15</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="zc2ad8f46c04b452b903f274ba17976fa" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 36pt; align: right">5.2.2.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Special bonus</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">The Company's compensation committee and the board of directors shall be authorized to award any of the Company's officers a one-time special bonus of up to a gross amount of NIS 500,000 (in addition to the annual bonus) </font>in recognition of a significant achievement or for completion of an assignment<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">, such as completion of a major transaction or achieving a major milestone with material effect over the Company's business. Such bonus is individual for any of the Chief Executive Officer, Deputy Chief Executive Officer or Vice Presidents and should be approved by the Company&#8217;s compensation committee and board of directors.</font></div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z8de6b3151d04444b8bfa418b902837c6" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 36pt; align: right">5.2.3.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Equity-Based Compensation</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">The Company's compensation committee and board of directors believe, in accordance with common practices of public companies in the market, that as part of the officers' total compensation package it is appropriate to offer a component of equity-based compensation, the purpose of which is to establish a joint interest between the officers and the Company's shareholders.&#160; By virtue of the long-term nature of equity-based compensation plans, they support the Company's ability to retain senior managers in their position for the long term and are in the interest of the Company and its shareholders.</font></div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25"><font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; BACKGROUND-COLOR: #ffffff">In view of the advantages of equity-based compensation plans, the Company shall offer its officers participation in an equity-based compensation plan according to the provision set forth below:</font></div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="zf8b7586184804c85aa37dfbef2bc222c" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 54pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 54pt; align: right">5.2.3.1.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><u>Equity-based compensation plan</u></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">Subject to the approval of the Company's competent organs in accordance with law, the Company shall offer officers and directors, participation in an equity-based company plan, which may include options to purchase shares or restricted share awards or a combination of both (herein described collectively as "<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Awards</font>"). The equity-based compensation plan shall be defined and implemented so that it conforms to the requirements of Section 102 of the Income Tax Ordinance in the capital gains track, to the extent possible.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">16</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">The equity-based compensation plan to be approved shall include the following:</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="zf9b09778e1284714a505ae9fc89e1673" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The maximum number of securities to be granted and the dilution percentage arising from the grants;</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z9c337dfa60954f18b7e82cb86118f8f6" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The method of allocating the grant among the various offerees and also a reserve for grants to office holders who may join the Company during the course of the term of the plan;</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="ze53d5fe6041f4f6ea976e298e31a6f62" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The Awards shall vest over a minimum period of four years and not more than 25% of the Awards shall vest in each of such years. The minimum vesting period for the first portion of the grant shall not be less than one year from the date of grant;</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="zccfe8dcd29bd44c2b839f78f80fd251d" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">With respect to options, the exercise price of each option shall be equal to the higher of (i) the average closing price of the Company&#8217;s ordinary shares on the Tel Aviv Stock Exchange<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">&#160;</font>during the 30 trading days prior to the date of the option grant plus 5%; and (ii) the closing price of the Company&#8217;s ordinary shares on the Tel Aviv Stock Exchange on the date of the option grant;</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="za34ce129fb4641e0bf8113244da9a437" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The expiration date of the options - up to 10 years from the date of grant; and</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="zf84d46eebefa4bfca1f0159f5d53f64f" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Terms upon termination of employment or service (due to dismissal, resignation, death or disability) and change of control.&#160; The terms in the event of a change of control shall include, among others:&#160; a definition of a change in control resulting in full acceleration of Awards that have not yet vested as of the date of the change of control.&#160; Upon leaving the Company, the compensation committee shall be entitled, at its discretion, to approve the acceleration of Awards.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">17</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z1936c89df2ff4551a841842074849020" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 54pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 54pt; align: right">5.2.3.2.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><u>Grants</u></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">In accordance with the approval of the compensation committee and the board of directors, Awards shall be granted to officers of the Company in accordance with the terms of the approved equity-based compensation plan.&#160; To the extent that an approved plan includes several grants, the future grants shall be made in accordance with the provisions of the plan and on such dates as prescribed in the plan.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">When a new officer joins the Company during the course of a plan, the joining officer shall be granted an Award out of the reserve determined in the plan.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">The Awards granted shall be deposited with a trustee in accordance with the provisions of Section 102 of the Income Tax Ordinance.&#160; The trustee shall report to the offerees about the number of Awards it holds on their behalf, their exercise dates in the case of options and any other details they require in connection with the grant.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">The considerations for the allocation of the Awards among the various offerees shall include:</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z01d8d99baebc4685a28ec2729383101b" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The officer's contribution to the Company's success;</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z1c1d33469c674fd2a91371c000f7fc4e" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The officer's ability to influence the Company's future and performance;</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="z2af05883a4aa4769846b2dc3f28afded" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The amount of the other compensation components to which the officer is entitled;</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: justify; LINE-HEIGHT: 1.25">
+<table id="ze9d8b51e8c204e3a9a26512672f49e03" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 108pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: Symbol, serif; VERTICAL-ALIGN: top; WIDTH: 18pt; align: right">&#183;</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: justify; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The scope of the officer's responsibility and tasks.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">18</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z4d02334d28b347498c89ce3a1e3b8faf" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 53.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 54.15pt; align: right">5.2.3.3.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif"><u>Exercise of Options</u></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">Upon vesting of each portion of an officer's options, the vested options held by the trustee may be exercised into Company shares.&#160; The trustee shall act pursuant to the officers' instructions and shall perform for them all the acts required for the exercise of the options into shares and/or cash.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="zfd87c3a7d12c495ea18790623569e2c9" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 53.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 54.15pt; align: right">5.2.3.4.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Maximum Value of Equity-Based Compensation.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: left; MARGIN-LEFT: 108pt; LINE-HEIGHT: 1.25">The maximum value of equity-based compensation for all officers shall be fifteen monthly base salaries.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z6fc82e420e67411ebbbad01f0701c95d" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 17.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 21.55pt; align: right">5.3.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">ADDITIONAL BENEFITS AND PERQUISITES</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="zd6bcec9629a342e29cebfac9b2f4f1a3" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 36pt; align: right">5.3.1.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Pension</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">The Company shall allocate payments to a pension fund (or several pension funds) or a pension agent, all in accordance with the officer's selection in writing and pursuant to the applicable statutory provisions.&#160; The allocations shall be made out of the officer's base salary only and shall not be comprised of any other compensation components whatsoever.&#160; The Company's allocations to pension funds shall be conditional upon the appropriate contribution from the officer's salary to the pension.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">The Company shall insure officers for loss of earning capacity as part of their participation in a pension fund or as an additional policy for office holders that have manager insurance.&#160; The Company's allocations to insurance for loss of earning capacity shall not exceed 2.5% of the officer's base salary.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">Officers who are recruited by the Company after the publication of this policy shall sign the general consent form of the Israeli Minister of Labor pursuant to Section 14 of the Severance Pay Law and the Company shall allocate the officers' severance pay into the pension fund / manager&#8217;s insurance in accordance with officer&#8217;s election.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">19</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z4d699481a9544a6c8e499f7419c0c391" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 36pt; align: right">5.3.2.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Further Education Fund</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">Each month the Company shall allocate 7.5% of the officer's base salary and shall deduct a further 2.5% of his base salary to a further education fund at the officer's selection.&#160; The allocation and deduction from the officer's salary to a further education fund shall be made up to maximum amount permitted under the Income Tax Regulations.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z21f6c4fdd1e74a62a9366879487cdf94" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 36pt; align: right">5.3.3.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Vehicle</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">The Company shall provide officers with a vehicle for their personal use, in accordance with the Company's practice, and the Company shall pay the cost of maintaining the vehicle.&#160; The officer shall pay any tax applicable under any law on the value of the use of the vehicle placed at his disposal by the Company.&#160; The Company shall calculate such tax and shall deduct it from the officer's salary.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z5345007c03964ab3a77e6e2d15f82f92" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 36pt; align: right">5.3.4.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Mobile Phone</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">The Company shall provide an officer with a mobile phone for his use, the type of which shall be at the Company's discretion, and the payment for the cost of use of the phone and the device shall be paid by the Company.&#160; The officer shall pay any tax which is likely to be levied on him due to the use of the mobile telephone at the Company's expense.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z082eb2d7fb3640ce9f559093f43ec0f4" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 36pt; align: right">5.3.5.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Meals</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">The officer shall be entitled to participate in a payment arrangement for meals during working hours as determined in the Company's policy with respect to all of the Company's employees.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z8f56f57151cb470fad71bf7a896088f9" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 36pt; align: right">5.3.6.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Annual Vacation</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">An officer shall be entitled to annual vacation in the number of days determined in the annual vacation tables and in accordance with the Company's policy (or pursuant to the Annual Vacation Law if no such tables have been defined in the Company's policy).</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">20</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="za4a495bb2d7a4bf4aa0bb06fd9568167" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 36pt; align: right">5.3.7.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Sick Leave</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">An officer shall be entitled to be absent from work on account of illness pursuant to the provisions of the Sick Pay Law and in accordance with the Company's policy.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z799f73d5f8ec443b8cd7d0e534371678" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 36pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 36pt; align: right">5.3.8.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Recuperation Pay</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 72pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">An officer shall be entitled to recuperation pay pursuant to the Recuperation Pay Law.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z9bd7b755185a4b788d977879b66d3f2a" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 18pt; align: right">6.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">TERMINATION OF OFFICE CONDITIONS</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="zaa9826dabb0249918894697e4f734c0d" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 17.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 21.55pt; align: right">6.1.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">ADVANCE NOTICE</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 36pt; LINE-HEIGHT: 1.25; TEXT-INDENT: 0pt">An officer shall be entitled to an advance notice period, as determined by the compensation committee or in accordance with the existing agreements and no more than four months.&#160; During the course of the advance notice period, the officer shall be required to continue to fulfill his position, unless the chief executive officer decides to release him from this obligation, and he shall be entitled to the continuation of all the terms of office and employment without change with respect to such period.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z76d1ff6051a24a35a6358dd5414ea43a" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 17.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 21.55pt; align: right">6.2.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">RETIREMENT AND TERMINATION AWARDS</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 36pt; LINE-HEIGHT: 1.25">As a general rule, no retirement and termination awards shall be determined in the officers' personal employment agreements.&#160; The board of directors, at the chief executive officer&#8217;s recommendation, may approve the offer to an officer who has been employed by the Company for at least three years, a retirement award in an amount not exceeding twice the officer's base monthly salary.&#160; When an officer has been employed by the Company for five years or more, the board of directors may approve a retirement or termination award which may not exceed four times the officer's base monthly salary.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z0b8b3b136f4d42f88353d77dbdf52789" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 17.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 21.55pt; align: right">6.3.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">NON-COMPETITION</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 36pt; LINE-HEIGHT: 1.25">Officers shall undertake in writing, at the time they enter into an employment agreement with the Company, to refrain from competing with the Company for a period which is not less than the advance notice period plus the retirement or termination award period to which they shall be entitled after their retirement from the Company.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 36pt; LINE-HEIGHT: 1.25">Officers who are employed in the Company at the date of publication of the policy and who have not signed a non-competition agreement shall sign an agreement as above-mentioned as a condition for payment of any retirement or termination award.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">21</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="zde2e657ea8044c4fadc235aff247af36" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 17.85pt; align: right">7.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">EXCULPATION, INDEMNITY AND OFFICERS' INSURANCE</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 17.85pt; LINE-HEIGHT: 1.25">Office holders shall be covered by directors' and officers' liability insurance which the Company shall acquire, from time to time (the "<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Policy</font>"), subject to the Israeli Companies Law, 1999 (the &#8220;<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Companies Law</font>&#8221;), the Israeli Companies Law Regulations (Reliefs Regarding Transaction with Interested Parties), 2000 (the &#8220;<font style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">Companies Regulations</font>&#8221;) and any other applicable law or regulation.&#160; Subject to the provisions of the Companies Law, the Companies Regulations and any other applicable law or regulation, the acquisition, extension, renewal or replacement of the Policy may be approved solely by the Company&#8217;s compensation committee provided that (i) the liability coverage does not exceed $30,000,000 (for each claim and in the aggregate) and the aggregate annual premium does not exceed $400,000, and the side "A" directors and officers liability coverage does not exceed $5,000,000 (for each claim and in the aggregate) and its aggregate annual premium does not exceed $30,000; and (ii) the Policy is on market terms and shall not have a material impact on the profitability of the Company, its assets or liabilities.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 17.85pt; LINE-HEIGHT: 1.25">The Company awards, and shall continue to award, indemnification undertakings to directors and officers, subject to the approvals required in accordance with the provisions of the Companies Law.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; TEXT-ALIGN: justify; MARGIN-LEFT: 17.85pt; LINE-HEIGHT: 1.25">Subject to the provisions of the Companies Law, the Company shall be entitled to exculpate in advance an office holder of the Company from liability, in whole or in part, for damages resulting from a breach of a duty of care towards the Company, subject to the approvals required in accordance with the Companies Law; provided, however, that the Company may not exempt an office holder for an action or transaction in which a controlling shareholder (as such term is defined in the Companies Law) or any other office holder (including an office holder who is not the office holder the Company has undertaken to exempt) has a personal interest (as such term is defined in the Companies Law).</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div id="DSPFPageBreakArea" style="MARGIN-BOTTOM: 10pt; CLEAR: both; MARGIN-TOP: 10pt">
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">22</font></div>
+
+<div id="DSPFPageBreak" style="PAGE-BREAK-AFTER: always">
+<hr style="BORDER-LEFT-WIDTH: 0px; HEIGHT: 2px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; CLEAR: both; MARGIN: 4px 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 100%; BACKGROUND-COLOR: #000000" noshade="noshade">
+</div>
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="z6fefe13a9f964c31a776145ec11e23d0" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; WIDTH: 17.85pt; align: right">8.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: bold">MAINTENANCE OF THE COMPENSATION POLICY</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="zf2b6032b62ae439689db8238a2f279af" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 17.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 21.55pt; align: right">8.1.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">The Company&#8217;s Vice President, Human Resources shall be responsible for maintaining the compensation policy updated.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table id="za41ad47d7df74dbab59971d1454e6915" class="DSPFListTable" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; WIDTH: 100%" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 17.85pt"></td>
+<td style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top; WIDTH: 21.55pt; align: right">8.2.</td>
+<td style="VERTICAL-ALIGN: top; TEXT-ALIGN: left; WIDTH: auto">
+<div style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif">Updates to the compensation policy shall be approved by the compensation committee, the board of directors and the shareholders pursuant to the requirements of the Companies Law.</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+</div>
+
+<div id="DSPFPageNumberArea" style="TEXT-ALIGN: center"><font id="DSPFPageNumber" style="FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-WEIGHT: normal; FONT-STYLE: normal">23 </font>
+
+<hr style="BORDER-TOP: black 1px solid; HEIGHT: 10px; BORDER-RIGHT: medium none; BORDER-BOTTOM: black 4px solid; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN-LEFT: auto; BORDER-LEFT: medium none; BACKGROUND-COLOR: #ffffff; MARGIN-RIGHT: auto" align="center">
+</div>
+</body>
+</html>
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

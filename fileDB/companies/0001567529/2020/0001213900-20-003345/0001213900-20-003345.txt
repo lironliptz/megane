@@ -1,0 +1,1676 @@
+<SEC-DOCUMENT>0001213900-20-003345.txt : 20200212
+<SEC-HEADER>0001213900-20-003345.hdr.sgml : 20200212
+<ACCEPTANCE-DATETIME>20200212070029
+ACCESSION NUMBER:		0001213900-20-003345
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20200212
+FILED AS OF DATE:		20200212
+DATE AS OF CHANGE:		20200212
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		20599684
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>f6k021220_kamadaltd.htm
+<DESCRIPTION>REPORT OF FOREIGN PRIVATE ISSUER
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0; margin-bottom: 0; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 2pt solid; border-bottom: Black 1pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0; margin-bottom: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>UNITED
+STATES</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; text-align: center"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>SECURITIES
+AND EXCHANGE COMMISSION</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; text-align: center"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>Washington,
+D.C. 20549</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0; margin-bottom: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>&nbsp;</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; text-align: center"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>FORM
+6-K</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0; margin-bottom: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; text-align: center"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>Report
+of Foreign Private Issuer</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; text-align: center"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>Pursuant
+to Rule 13a-16 or 15d-16</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; text-align: center"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>of
+the Securities Exchange Act of 1934</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0; margin-bottom: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; text-align: center"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">For
+the Month of February 2020</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; text-align: center"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; text-align: center"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Commission
+File Number 001-35948</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; text-align: center"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; text-align: center"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>Kamada
+Ltd.</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; text-align: center"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">(Translation
+of registrant&rsquo;s name into English)</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; text-align: center"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>2
+Holzman Street<BR>
+Science Park, P.O. Box 4081<BR>
+Rehovot 7670402<BR>
+Israel<BR>
+</B> (Address of principal executive offices)</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Indicate
+by check mark whether the registrant files or will file annual reports under cover Form 20-F or Form 40-F.</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Form
+20-F &#9746;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Form 40-F &#9744;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-indent: 9pt"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="text-align: justify; font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Indicate
+by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ____</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-indent: 9pt"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="text-align: justify; font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Indicate
+by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7): ____</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-indent: 9pt"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="text-align: justify; font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Indicate
+by check mark whether the registrant by furnishing the information contained in this Form is also thereby furnishing the information
+to the Commission pursuant to Rule 12g3-2(b) under the Securities Exchange Act of 1934.</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-indent: 9pt"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Yes
+&#9744;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No &#9746;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-indent: 9pt"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="text-align: justify; font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">If
+&ldquo;Yes&rdquo; is marked, indicate below the file number assigned to the registrant in connection with Rule 12g3-2(b): 82-____</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify; text-indent: -0.5in"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>This
+Form 6-K is being incorporated by reference into the Registrant's Form S-8 Registration Statements, File Nos. 333-192720, 333-207933,
+333-215983, 333-222891 and 333-233267,&nbsp;and the Registrant's Form F-3 Registration Statement, as amended, File No. 333-214816.</B></FONT></P>
+
+
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0; margin-bottom: 0; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1pt solid; border-bottom: Black 2pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white"></P>
+
+<!-- Field: Page; Sequence: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">The
+following exhibit is attached:</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; width: 100%"><TR STYLE="vertical-align: top; text-align: justify; background-color: rgb(204,238,255)">
+<TD STYLE="width: 7%; text-align: left"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.1</FONT></TD><TD STYLE="text-align: justify; width: 93%"><A HREF="f6k021220ex99-1_kamada.htm"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Press Release: Kamada Reports Financial Results for Fourth Quarter and Fiscal Year 2019</FONT></A></TD>
+</TR>
+</TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0"></P>
+
+<!-- Field: Page; Sequence: 2; Options: NewSection; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->1<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; text-align: center; background-color: white"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>SIGNATURE</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Pursuant
+to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf
+by the undersigned hereunto duly authorized.</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%">
+<TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-indent: 0"><P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Date:
+                                         February 12, 2020</FONT></P></TD>
+    <TD COLSPAN="2" STYLE="font-family: Times New Roman, Times, Serif"><P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>KAMADA
+                    LTD.</B></FONT></P>
+
+</TD>
+    </TR>
+<TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-indent: 0; width: 60%"><FONT STYLE="font-family: Times New Roman, Times, Serif">&nbsp;</FONT></TD>
+    <TD STYLE="font-family: Times New Roman, Times, Serif; width: 4%"><FONT STYLE="font-family: Times New Roman, Times, Serif">&nbsp;</FONT></TD>
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-indent: 0; width: 36%"><FONT STYLE="font-family: Times New Roman, Times, Serif">&nbsp;</FONT></TD></TR>
+<TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></TD>
+    <TD STYLE="font-family: Times New Roman, Times, Serif"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">By:</FONT></TD>
+    <TD STYLE="border-bottom: black 1.5pt solid; font: 10pt Times New Roman, Times, Serif; padding: 0; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">/s/
+    Orna Naveh</FONT></TD>
+    </TR>
+<TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></TD>
+    <TD STYLE="font-family: Times New Roman, Times, Serif"><FONT STYLE="font-family: Times New Roman, Times, Serif">&nbsp;</FONT></TD>
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-indent: 0"><P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Orna
+                                         Naveh</FONT></P>
+        <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">General
+        Counsel and Corporate Secretary</FONT></P></TD>
+    </TR>
+</TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white"></P>
+
+<!-- Field: Page; Sequence: 3; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->2<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+
+
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; background-color: white"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><U>EXHIBIT
+INDEX</U></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%">
+<TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <TD STYLE="border-bottom: Black 1.5pt solid; font: 10pt Times New Roman, Times, Serif; padding-top: 0; padding-right: 0; padding-left: 0; width: 9%; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">EXHIBIT&nbsp;NO.</FONT></TD>
+    <TD STYLE="padding-bottom: 1.5pt; width: 1%">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; font: 10pt Times New Roman, Times, Serif; padding-top: 0; padding-right: 0; padding-left: 0; width: 90%; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">DESCRIPTION</FONT></TD></TR>
+<TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></TD>
+    <TD>&nbsp;</TD>
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></TD></TR>
+<TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top; background-color: rgb(204,238,255)">
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.1</FONT></TD>
+    <TD>&nbsp;</TD>
+    <TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-indent: 0"><A HREF="f6k021220ex99-1_kamada.htm"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Kamada Reports Financial Results for Fourth Quarter and Fiscal Year 2019</FONT></A></TD></TR>
+</TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white; text-indent: 0.5in"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white; text-indent: 0.5in"><FONT STYLE="font: 10pt Times New Roman, Times, Serif">&nbsp;</FONT></P>
+
+<P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0; margin-bottom: 0; background-color: white"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">3</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white; text-indent: 0.5in"><FONT STYLE="font: 10pt Times New Roman, Times, Serif"></FONT></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0; margin-bottom: 0; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white; text-indent: 0.5in"><FONT STYLE="font: 10pt Times New Roman, Times, Serif">&nbsp;</FONT></P>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>f6k021220ex99-1_kamada.htm
+<DESCRIPTION>KAMADA REPORTS FINANCIAL RESULTS FOR FOURTH QUARTER AND FISCAL YEAR 2019
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="text-align: right; font: 10pt Times New Roman, Times, Serif; margin: 0"><B>Exhibit 99.1</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0; margin-bottom: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>Kamada
+Reports Financial Results for Fourth Quarter and Fiscal Year 2019</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><I>&nbsp;</I></FONT></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><I>Total
+                                         Revenues for Fiscal 2019 were $127.2 million, up 11% as Compared to 2018</I></FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><I>Gross
+                                         Profit for Fiscal 2019 was $49.7 Million, up 20% as Compared to 2018</I></FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><I>Adjusted
+                                         EBITDA for Fiscal 2019 was $28.5 Million, up 19% as Compared to 2018</I></FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><I>As
+                                         of December 31, 2019, the Company had Cash, Cash Equivalents, and Short-Term Investments
+                                         of $73.9 million</I></FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><I>Reiterating
+                                         Full-Year 2020 Total Revenue Guidance of $132 Million to $137 Million</I></FONT></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.5in; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><I>&nbsp;</I></FONT></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><I>Total
+                                         Revenues for Fourth Quarter of 2019 were $32.1 Million </I></FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><I>Gross
+                                         Profit for Fourth Quarter of 2019 was $12.1 Million</I></FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><I>Adjusted
+                                         EBITDA for Fourth Quarter of 2019 was $6.8 Million </I></FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><I>Comparing
+                                         fourth quarter year-over-year, it is notable that the Company&rsquo;s fourth quarter
+                                         2018 financial results significantly increased by expediting shipments that were delayed
+                                         from the third quarter of 2018 due to the then labor strike in our manufacturing plant</I></FONT></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><I>&nbsp;</I></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>REHOVOT,
+Israel &ndash; February 12, 2020</B> -- Kamada Ltd. (NASDAQ: KMDA; TASE: KMDA.TA), a plasma-derived biopharmaceutical company,
+today announced financial results for the three months and 12 months ended December 31, 2019.</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&ldquo;We
+are very pleased with the overall performance delivered by our business throughout 2019,&rdquo; said Amir London, Kamada&rsquo;s
+Chief Executive Officer. &ldquo;For full-year 2019, total revenues were $127.2 million, representing an 11% increase over full-year
+2018. Total revenues for fiscal 2019 were in-line with 2019 expected revenues of between $126.5 million and $127.5 million. Based
+on our positive outlook for 2020, which includes anticipated increased sales of our Proprietary Products portfolio in international
+markets, growth in our Distribution Products segment in Israel, and sales growth of KEDRAB<SUP>&reg;</SUP>, <FONT STYLE="background-color: white">our
+anti-rabies IgG product</FONT>, <FONT STYLE="background-color: white">we anticipate total revenues to be in the range of $132
+million to $137 million for fiscal 2020.</FONT>&rdquo;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&ldquo;Our
+overall gross profit for the fourth quarter and full-year 2019 was $12.1 million and $49.7 million, respectively,&rdquo; continued
+Mr. London. &ldquo;<FONT STYLE="background-color: white">Adjusted EBITDA for the fourth quarter and full-year 2019 was $6.8 million
+and $28.5 million, respectively. Our cash, cash equivalents and short-term investments were $73.9 million as of December 31, 2019,
+an increase of $23.3 million compared to the end of 2018. In addition, the recent $25 million private placement investment made
+by the FIMI Opportunity Fund will support the continued execution of our business development strategy, which is focused on identifying
+new product opportunities for our manufacturing plant and seeking complementary products via licensing and acquisition.&rdquo;</FONT></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&ldquo;Looking
+further ahead, while the planned transition of GLASSIA<SUP>&reg;</SUP> manufacturing to Takeda during 2021 is expected to significantly
+decrease our revenue and profitability in 2021 and 2022, our organic growth, as well as the expected <FONT STYLE="background-color: white">future
+royalty payments from Takeda and</FONT> our continued business development efforts, are expected to result in resumed revenue
+and profitability growth beginning in 2023<FONT STYLE="background-color: white">,&rdquo; continued Mr. London. &ldquo;As recently
+</FONT>announced, <FONT STYLE="background-color: white">we entered into two important transactions in the fourth quarter of 2019
+which will contribute to our future growth. First, we executed an agreement with Alvotech to commercialize in Israel a portfolio
+of six biosimilar product candidates, upon receipt of regulatory approval from the Israeli Ministry of Health; the first of these
+products is expected to be launched in Israel in 2022. Second, we signed a binding term sheet for a 12-year contract manufacturing
+agreement with an undisclosed partner to manufacture an FDA approved and commercialized specialty hyper-immune globulin product.
+We intend to finalize this agreement during 2020 and anticipate commencing commercial manufacturing in early 2023. We expect the
+new product to contribute approximately $8 million to $10 million to our annual revenues, with an estimated gross margin similar
+to the average gross margins of our Proprietary Products segment.&rdquo;</FONT></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"></P>
+
+<!-- Field: Page; Sequence: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&ldquo;Lastly,
+our clinical development pipeline continued to advance in the fourth quarter, as we randomized the first patient in our Phase
+3 InnovAATe clinical trial in Europe. InnovAATe is a randomized, double-blind, placebo-controlled, pivotal Phase 3 trial designed
+to assess the efficacy and safety of our inhaled AAT product in patients with AAT Deficiency and moderate lung disease that will
+be conducted in Europe and the U.S. In addition, during 2020, we expect to announce results from <FONT STYLE="background-color: white">a
+proof-of-concept clinical trial of our IV-AAT </FONT>as preemptive therapy for patients at high-risk for the development of steroid-refractory
+acute GvHD, as well as top-line data from our phase 2 trial of IV-AAT for the prevention of lung transplant rejection,&rdquo;
+concluded Mr. London.</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>Financial
+Highlights for the Three Months Ended December 31, 2019</B></FONT></P>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Total
+                                         revenues were $32.1 million in the fourth quarter of 2019, a 33% decrease from the $48.2
+                                         million recorded in the fourth quarter of 2018. As a reminder, Kamada&rsquo;s fourth
+                                         quarter 2018 financial results significantly increased due to <FONT STYLE="background-color: white">the
+                                         release and shipments of GLASSIA lots to the U.S. that were delayed from the third quarter
+                                         of 2018 due to the then labor strike in the Company&rsquo;s manufacturing facility.</FONT></FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#9679;</FONT></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Revenues
+                                         from the Proprietary Products segment in the fourth quarter of 2019 were $25.2 million,
+                                         a 42% decrease from the $43.1 million reported in the fourth quarter of 2018</FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#9679;</FONT></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Revenues
+                                         from the Distribution segment were $6.9 million in the fourth quarter of 2019, a 36%
+                                         increase from the $5.1 million recorded in the fourth quarter of 2018</FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Gross
+                                         profit was $12.1 million in the fourth quarter of 2019, a 43% decrease from the $21.3
+                                         million reported in the fourth quarter of 2018. Gross margin was 38%, compared to 44%
+                                         in the fourth quarter of 2018.</FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Operating
+                                         expenses, including R&amp;D, Sales &amp; Marketing, G&amp;A, and Other expenses, totaled
+                                         $6.6 million in the fourth quarter of 2019, as compared to $5.9 million in the fourth
+                                         quarter of 2018 </FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Net
+                                         income was $5.4 million, or $0.13 per share, in the fourth quarter of 2019, as compared
+                                         to net income of $17.7 million, or $0.44 per share, in the fourth quarter of 2018</FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Adjusted
+                                         EBITDA, as detailed in the tables below, was $6.8 million in the fourth quarter of 2019,
+                                         as compared to $16.5 million in the fourth quarter of 2018</FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Cash
+                                         provided by operating activities was $8.6 million in the fourth quarter of 2019, as compared
+                                         to cash provided by operating activities of $6.4 million in the fourth quarter of 2018</FONT></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>&nbsp;</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>Financial
+Highlights for the Year Ended December 31, 2019</B></FONT></P>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Total
+                                         revenues were $127.2 million in the year ended December 31, 2019, an 11% increase from
+                                         the $114.5 million recorded in 2018</FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Revenues
+                                         from the Proprietary Products segment for the year ended December 31, 2019, were $97.7
+                                         million, an 8% increase from the $90.8 million reported in 2018</FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Revenues
+                                         from the Distribution segment were $29.5 million in the year ended December 31, 2019,
+                                         a 25% increase from the $23.7 million recorded in 2018 </FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Gross
+                                         profit was $49.7 million in the year ended December 31, 2019, a 20% increase from the
+                                         $41.5 million reported in 2018. Gross margin increased to 39% from 36% in 2018.</FONT></TD></TR></TABLE>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<P STYLE="margin-top: 0; margin-bottom: 0"></P>
+
+<!-- Field: Page; Sequence: 2; Options: NewSection; Value: 2 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->2<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Gross
+                                         profit from the Proprietary Products segment was $45.3 million in the year ended December
+                                         31, 2019, compared to $38.0 million reported in 2018. Gross margin increased to 46% from
+                                         42% in 2018. </FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">As
+                                         previously communicated, during 2020, Kamada expects a change in product sales mix, <FONT STYLE="background-color: white">as
+                                         well as reduced plant utilization, which are anticipated to result in an overall decrease
+                                         in the </FONT>Proprietary <FONT STYLE="background-color: white">Products segment&rsquo;s
+                                         full-year gross margins of approximately three to five percentage points as compared
+                                         to 2019.</FONT></FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Operating
+                                         expenses, including R&amp;D, Sales &amp; Marketing and G&amp;A, and Other expenses, totaled
+                                         $26.9 million in the year ended December 31, 2019, as compared to $22.2 million in the
+                                         year ended December 31, 2018. This increase was primarily driven by increased R&amp;D
+                                         expenses specifically related to the initiation of the Company&rsquo;s pivotal Phase
+                                         3 InnovAATe clinical trial. As previously communicated, <FONT STYLE="background-color: white">due
+                                         to the planned acceleration in 2020 of this clinical study, Kamada expects an approximately
+                                         20% to 25% increase in R&amp;D expenses in 2020, as compared to 2019. Such increase is
+                                         higher than previously reported due to the delay of certain activities originally planned
+                                         for 2019 which are currently expected to take place in early 2020. </FONT></FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Net
+                                         income was $22.2 million, or $0.55 per share, in the year ended December 31, 2019, as
+                                         compared to net income of $22.3 million, or $0.55 per share, in 2018</FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Adjusted
+                                         EBITDA, as detailed in the tables below, was $28.5 million in the year ended December
+                                         31, 2019, as compared to $23.9 million in 2018</FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Cash
+                                         provided by operating activities was $27.6 million in the year ended December 31, 2019,
+                                         as compared to cash provided by operating activities of $10.5 million in 2018</FONT></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.25in; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>Balance
+Sheet Highlights</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">As
+of December 31, 2019, the Company had cash, cash equivalents, and short-term investments of $73.9 million, as compared to $50.6
+million at December 31, 2018. This does not include the net proceeds generated from the $25 million private placement closed with
+FIMI Opportunity Fund in February 2020.</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>Recent
+Corporate Highlights</B></FONT></P>
+
+<P STYLE="margin-top: 0; margin-bottom: 0">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#9679;</FONT></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt; background-color: white">Entered
+                                         into an agreement with Alvotech, a global biopharmaceutical company, to commercialize
+                                         Alvotech&rsquo;s portfolio of six biosimilar product candidates in Israel, upon receipt
+                                         of regulatory approval from the Israeli Ministry of Health</FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Signed
+                                         a binding term sheet for a 12-year contract manufacturing agreement with an undisclosed
+                                         partner to manufacture a U.S. FDA approved and commercialized specialty hyper-immune
+                                         globulin product</FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Randomized
+                                         the first patient in Europe into the pivotal Phase 3 InnovAATe clinical trial evaluating
+                                         the safety and efficacy of the Company&rsquo;s proprietary inhaled Alpha-1 Antitrypsin
+                                         therapy for the treatment of Alpha-1 Antitrypsin Deficiency</FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Closed
+                                         a $25 million private placement with FIMI Opportunity Fund</FONT></TD></TR></TABLE>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="font: 10pt Times New Roman, Times, Serif; vertical-align: top">
+<TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0; text-indent: 0"></TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; width: 0.25in; text-indent: 0">&#9679;</TD><TD STYLE="font: 10pt Times New Roman, Times, Serif; padding: 0; text-align: justify; text-indent: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Promoted
+                                         Ms. Hanni Neheman as Vice President of Sales and Marketing. Ms. Neheman has more than
+                                         20 years of experience in marketing and sales in the pharmaceutical industry and for
+                                         the past five years has served as Kamada&rsquo;s Head of Israeli Business Operations.
+                                         </FONT></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>Conference
+Call</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Kamada
+management will host an investment community conference call on Wednesday, February 12 at 8:30am Eastern Time to discuss these
+results and answer questions. Shareholders and other interested parties may participate in the conference call by dialing 877-407-0792
+(from within the U.S.), 1809 406 247 (from Israel), or 201-689-8263 (International) and entering the conference identification
+number: 13698675. The call will also be webcast live on the Internet on the Company&rsquo;s website at www.kamada.com.</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"></P>
+
+<!-- Field: Page; Sequence: 3; Value: 2 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->3<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>&nbsp;</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>About
+Kamada</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Kamada
+Ltd. is focused on plasma-derived protein therapeutics for orphan indications, and has a commercial product portfolio and a late-stage
+product pipeline. The Company uses its proprietary platform technology and know-how for the extraction and purification of proteins
+from human plasma to produce Alpha-1 Antitrypsin (AAT) in a highly-purified, liquid form, as well as other plasma-derived Immune
+globulins. AAT is a protein derived from human plasma with known and newly-discovered therapeutic roles given its immunomodulatory,
+anti-inflammatory, tissue-protective and antimicrobial properties. The Company&rsquo;s flagship product is GLASSIA&reg;, the first
+liquid, ready-to-use, intravenous plasma-derived AAT product approved by the U.S. Food and Drug Administration. Kamada markets
+GLASSIA&reg; in the U.S. through a strategic partnership with Takeda Pharmaceuticals Company Limited and in other counties through
+local distributors. Kamada&rsquo;s second leading product is KAMRAB, a rabies immune globulin (Human) for Post-Exposure Prophylaxis
+against rabies infection. KAMRAB is FDA approved and is being marketed in the U.S. under the brand name KEDRAB<SUP>&reg;</SUP>
+and through a strategic partnership with Kedrion S.p.A. In addition to GLASSIA and KEDRAB, Kamada has a product line of four other
+plasma-derived pharmaceutical products administered by injection or infusion, that are marketed through distributors in more than
+15 countries, including Israel, Russia, Brazil, India and other countries in Latin America and Asia. Kamada has late-stage products
+in development, including an inhaled formulation of AAT for the treatment of AAT deficiency, and in addition, its intravenous
+AAT is in development for other indications, such as GvHD, prevention of lung transplant rejection and type-1 diabetes. Kamada
+also leverages its expertise and presence in the plasma-derived protein therapeutics market by distributing more than 20 complementary
+products in Israel that are manufactured by third parties.</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>Cautionary
+Note Regarding Forward-Looking Statements</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">This
+release includes forward-looking statements within the meaning of Section 21E of the U.S. Securities Exchange Act of 1934, as
+amended, and the safe harbor provisions of the U.S. Private Securities Litigation Reform Act of 1995. Forward-looking statements
+are statements that are not historical facts, including statements regarding 1) the total revenues to be in the range of $132
+million to $137 million for fiscal 2020; 2) anticipated significant decrease in revenue and profitability during the years 2021
+and 2022, 3) expectation that Kamada&rsquo;s organic internal growth, expected future royalty payments from Takeda and continued
+business development efforts will result in Kamada resuming revenue and profitability growth beginning in 2023; 4) expectation
+that the first of Alvotech products will launch in Israel in 2022; 5) expectation of finalizing the agreement with a partner relating
+to a hyper-immune globulin product during 2020, anticipated commencement of commercial manufacturing in early 2023 for such product
+and such product contributing approximately $8 million to $10 million to Kamada&rsquo;s annual revenues with estimated gross margin
+level similar to the average gross margins of its proprietary products segment; 6) expectation to announce, during 2020, results
+from <FONT STYLE="background-color: white">a proof-of-concept clinical trial </FONT>as preemptive therapy for patients at high-risk
+for the development of steroid-refractory acute GvHD and our phase2 trial of IV-AAT for prevention of lung transplant rejection;
+7) expectation that due to a change in sales mix and reduced plant utilization, Propriety Products segment&rsquo;s full-year gross
+margins will decrease approximately three to five percentage points as compared to 2019; and 8) expectation that R&amp;D expenses
+will increase approximately 20% to 25% as compared to 2019. Forward-looking statements are based on Kamada&rsquo;s current knowledge
+and its present beliefs and expectations regarding possible future events and are subject to risks, uncertainties and assumptions.
+Actual results and the timing of events could differ materially from those anticipated in these forward-looking statements as
+a result of several factors including, but not limited to, availability of new product opportunities for Kamada&rsquo;s manufacturing
+plant at terms and conditions acceptable to Kamada, availability of complementary products for Kamada to license or acquire at
+terms and conditions acceptable to Kamada, status of Kamada&rsquo;s proposed Inhaled AAT phase 3 clinical study, unexpected results
+of other ongoing clinical studies, delays of clinical studies including the Phase 3 study as a result of inability to recruit
+patients, commercial success of KEDRAB, the Alvotech products and the hyper-immune globulin product, Kamada&rsquo;s ability to
+manage operating expenses, additional competition in the markets that Kamada competes, regulatory delays, prevailing market conditions,
+corporate events associated with our partners and the impact of general economic, industry or political conditions in the U.S.,
+Israel or otherwise. The forward-looking statements made herein speak only as of the date of this announcement and Kamada undertakes
+no obligation to update publicly such forward-looking statements to reflect subsequent events or circumstances, except as otherwise
+required by law.</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>CONTACTS:</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Chaime
+Orlev</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Chief
+Financial Officer</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">IR@kamada.com</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Bob
+Yedid</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">LifeSci
+Advisors, LLC</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">646-597-6989</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Bob@LifeSciAdvisors.com</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"></P>
+
+<!-- Field: Page; Sequence: 4; Value: 2 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->4<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&nbsp;</P>
+
+
+
+
+<P STYLE="border-bottom: Black 1.5pt solid; font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>CONSOLIDATED
+BALANCE SHEETS</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="border-collapse: collapse; width: 100%; font: 10pt Times New Roman, Times, Serif">
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">As of December 31,</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2019</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2018</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD STYLE="text-align: center"></TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">U.S. Dollars in thousands</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD STYLE="text-align: center">Assets</TD><TD STYLE="font-weight: bold">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center">&nbsp;</TD><TD STYLE="font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD><U>Current Assets</U></TD><TD>&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD>&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="width: 76%; text-align: left">Cash and cash equivalents</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">42,662</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">18,093</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Short-term investments</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">31,245</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">32,499</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left">Trade receivables, net</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">23,210</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">27,674</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Other accounts&nbsp;&nbsp;receivables</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">3,272</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">3,308</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-bottom: 1.5pt">Inventories</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">43,173</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">29,316</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Total Current Assets</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">143,562</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">110,890</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-decoration: underline; text-align: left">Non-Current Assets</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left">Property, plant and equipment, net</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">28,572</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">25,004</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Other long term assets</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">352</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">174</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Deferred taxes</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">1,311</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">2,048</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Total Non-Current Assets</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">30,235</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">27,226</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Total Assets</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">$</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">173,797</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">$</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">138,116</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: center">Liabilities</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-decoration: underline; text-align: left">Current Liabilities</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left">Current maturities of bank loans and&nbsp;&nbsp;leases</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">$</TD><TD STYLE="text-align: right">1,509</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">$</TD><TD STYLE="text-align: right">562</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Trade payables</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">24,830</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">17,285</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left">Other accounts payables</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">5,811</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">5,261</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Deferred revenues</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">589</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">461</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Total Current Liabilities</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">32,739</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">23,569</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: right">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-decoration: underline; text-align: left">Non-Current Liabilities</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Bank loans and leases</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">4,238</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">716</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left">Deferred revenues</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">232</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">668</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Employee benefit liabilities, net</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">1,269</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">787</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Total Non-Current Liabilities</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">5,739</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">2,171</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-decoration: underline; text-align: center">Shareholder's Equity</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD>Ordinary shares</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">10,425</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">10,409</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left">Additional paid in capital net</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">180,819</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">179,147</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Capital reserve due to translation to presentation currency</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(3,490</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(3,490</TD><TD STYLE="text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left">Capital reserve from hedges</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">8</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(57</TD><TD STYLE="text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Capital reserve from securities measured at fair value through other comprehensive income</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">145</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">34</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left">Capital reserve from share-based payments</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">8,844</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">9,353</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Capital reserve from employee benefits</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(359</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">4</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Accumulated deficit</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(61,073</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(83,024</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Total Shareholder&rsquo;s Equity</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">135,319</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">112,376</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Total Liabilities and Shareholder&rsquo;s Equity</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">$</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">173,797</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">$</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">138,116</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+</TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"></P>
+
+<!-- Field: Page; Sequence: 5; Value: 2 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->5<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"></P>
+
+
+
+
+<P STYLE="border-bottom: Black 1.5pt solid; font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>CONSOLIDATED
+STATEMENTS OF COMPREHENSIVE INCOME </B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="border-collapse: collapse; width: 100%; font: 10pt Times New Roman, Times, Serif">
+<TR STYLE="vertical-align: bottom">
+    <TD STYLE="padding-left: 10pt; text-align: center; text-indent: -10pt">&nbsp;</TD><TD STYLE="text-align: center; font-weight: bold">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center">For the year ended</TD><TD STYLE="text-align: center; font-weight: bold">&nbsp;</TD><TD STYLE="text-align: center; font-weight: bold">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center">Three months period ended</TD><TD STYLE="text-align: center; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD STYLE="padding-left: 10pt; padding-bottom: 1.5pt; text-align: center; text-indent: -10pt">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt; text-align: center; font-weight: bold">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="border-bottom: Black 1.5pt solid; font-weight: bold; text-align: center">December 31,</TD><TD STYLE="padding-bottom: 1.5pt; text-align: center; font-weight: bold">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt; text-align: center; font-weight: bold">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="border-bottom: Black 1.5pt solid; font-weight: bold; text-align: center">December 31,</TD><TD STYLE="padding-bottom: 1.5pt; text-align: center; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD STYLE="padding-left: 10pt; text-align: center; text-indent: -10pt">&nbsp;</TD><TD STYLE="text-align: center; font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="border-bottom: Black 1.5pt solid; font-weight: bold; text-align: center">2019</TD><TD STYLE="text-align: center; padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="text-align: center; font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="border-bottom: Black 1.5pt solid; font-weight: bold; text-align: center">2018</TD><TD STYLE="text-align: center; padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="text-align: center; font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="border-bottom: Black 1.5pt solid; font-weight: bold; text-align: center">2019</TD><TD STYLE="text-align: center; padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="text-align: center; font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="border-bottom: Black 1.5pt solid; font-weight: bold; text-align: center">2018</TD><TD STYLE="text-align: center; padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD STYLE="padding-left: 10pt; text-align: center; text-indent: -10pt">&nbsp;</TD><TD STYLE="text-align: center; font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="14" STYLE="border-bottom: Black 1.5pt solid; font-weight: bold; text-align: center">U.S. Dollars in thousands, other than per share information</TD><TD STYLE="text-align: center; padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD STYLE="padding-left: 10pt; text-indent: -10pt">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD>&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; width: 52%; text-align: left; text-indent: -10pt">Revenues from proprietary products</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">97,696</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">90,784</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">25,175</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">43,138</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-align: left; padding-bottom: 1.5pt; text-indent: -10pt">Revenues from distribution</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">29,491</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">23,685</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">6,896</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">5,073</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-indent: -10pt">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-align: left; padding-bottom: 1.5pt; text-indent: -10pt">Total revenues</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">127,187</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">114,469</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">32,071</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">48,211</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-indent: -10pt">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-align: left; text-indent: -10pt">Cost of revenues from proprietary products</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">52,425</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">52,796</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">14,013</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">22,290</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-align: left; padding-bottom: 1.5pt; text-indent: -10pt">Cost of revenues from distribution</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">25,025</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">20,201</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">5,969</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">4,665</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-indent: -10pt">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-align: left; padding-bottom: 1.5pt; text-indent: -10pt">Total cost of revenues</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">77,450</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">72,997</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">19,982</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">26,955</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-indent: -10pt">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-align: left; padding-bottom: 1.5pt; text-indent: -10pt">Gross profit</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">49,737</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">41,472</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">12,089</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">21,256</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-indent: -10pt">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-align: left; text-indent: -10pt">Research and development expenses</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">13,059</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">9,747</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">3,329</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">2,573</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-align: left; text-indent: -10pt">Selling and marketing expenses</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">4,370</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">3,630</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">929</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">906</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-align: left; text-indent: -10pt">General and administrative expenses</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">9,194</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">8,525</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">2,343</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">2,393</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-align: left; padding-bottom: 1.5pt; text-indent: -10pt">Other expenses and (incomes)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">330</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">311</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">3</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">-</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-align: left; text-indent: -10pt">Operating income</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">22,784</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">19,259</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">5,485</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">15,384</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-indent: -10pt">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-align: left; text-indent: -10pt">Financial income</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">1,146</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">830</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">259</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">202</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-align: left; text-indent: -10pt">Financial expenses</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(293</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(172</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(76</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(27</TD><TD STYLE="text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-align: left; text-indent: -10pt">Income (expense) in respect of securities measured at fair value, net</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(5</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(178</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(2</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(26</TD><TD STYLE="text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-align: left; padding-bottom: 1.5pt; text-indent: -10pt">Income (expense) in respect of currency exchange differences and derivatives instruments, net</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(651</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">602</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(148</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">268</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-align: left; text-indent: -10pt">&nbsp;Income before taxes</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">22,981</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">20,341</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">5,518</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">15,801</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-align: left; padding-bottom: 1.5pt; text-indent: -10pt">Taxes on income</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">730</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(1,955</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">156</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(1,944</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-indent: -10pt">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-align: left; padding-bottom: 1.5pt; text-indent: -10pt">Net Income</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">$</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">22,251</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">$</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">22,296</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">$</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">5,362</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">$</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">17,745</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-indent: -10pt">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-align: left; text-indent: -10pt">Other Comprehensive Income (loss) :</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-align: left; text-indent: -10pt">Items that may be reclassified to profit or loss in subsequent periods:</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-align: left; text-indent: -10pt">Gain from securities measured at fair value through other comprehensive income</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">143</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">51</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">11</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">52</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-align: left; text-indent: -10pt">Gain (loss) on cash flow hedges</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">92</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(176</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(7</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(88</TD><TD STYLE="text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-align: left; text-indent: -10pt">Net amounts transferred to the statement of profit or loss for cash flow hedges</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(23</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">70</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(3</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">36</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-align: left; text-indent: -10pt">Items that will not be reclassified to profit or loss in subsequent periods:</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-align: left; text-indent: -10pt">Actuarial gain (loss) from defined benefit plans</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(388</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">340</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(388</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">340</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-align: left; padding-bottom: 1.5pt; text-indent: -10pt">Deferred taxes</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(11</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(9</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">22</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(9</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-align: left; padding-bottom: 4pt; text-indent: -10pt">Total comprehensive income</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">22,064</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">22,572</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">4,997</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">18,076</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-indent: -10pt">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; text-decoration: underline; text-align: left; text-indent: -10pt">Income per share attributable to equity holders of the Company:</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; padding-bottom: 4pt; text-indent: -10pt">Basic income per share</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">0.55</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">0.55</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">0.13</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">0.44</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-left: 10pt; padding-bottom: 4pt; text-indent: -10pt">Diluted income per share</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">0.55</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">0.55</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">0.13</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">0.44</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD></TR>
+</TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0"></P>
+
+<!-- Field: Page; Sequence: 6; Value: 2 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->6<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0">&nbsp;</P>
+
+
+
+
+<P STYLE="border-bottom: Black 1.5pt solid; font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>CONSOLIDATED
+STATEMENTS OF CASH FLOWS</B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="border-collapse: collapse; width: 100%; font: 10pt Times New Roman, Times, Serif">
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center">For the year ended</TD><TD STYLE="font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center">Three months period ended</TD><TD STYLE="font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">December 31,</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">December 31,</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2019</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2018</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2019</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2018</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="14" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">U.S. Dollars in thousands</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD><U>Cash Flows from Operating Activities</U></TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="width: 52%; text-align: left">Net income</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">22,251</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">22,296</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">5,362</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">17,745</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-left: 10pt; text-align: left; text-indent: -10pt">Adjustments to reconcile net income to net cash provided by (used in) operating activities:</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Adjustments to the profit or loss items:</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left">Depreciation and impairment</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">4,519</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">3,703</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">1,140</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">889</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Financial income, net</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(197</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(1,082</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(33</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(417</TD><TD STYLE="text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left">Cost of share-based payment</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">1,163</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">948</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">176</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">269</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Taxes on income</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">730</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(1,955</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">156</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(1,944</TD><TD STYLE="text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left">Loss (gain) from sale of property and equipment</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(2</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">55</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">-</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(15</TD><TD STYLE="text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Change in employee benefit liabilities, net</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">94</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(16</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(3</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">93</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">6,307</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">1,653</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">1,436</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(1,125</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Changes in asset and liability items:</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Decrease (increase)&nbsp;&nbsp;in trade receivables, net</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">5,117</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">2,311</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">709</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(13,035</TD><TD STYLE="text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left">Increase in other accounts receivables</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(214</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(1,336</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(1,418</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(1,157</TD><TD STYLE="text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Increase in inventories</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(13,857</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(8,246</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(9,142</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(382</TD><TD STYLE="text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left">Decrease (increase) in deferred expenses</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">399</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">235</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">66</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(287</TD><TD STYLE="text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Increase (decrease) in trade payables</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">6,259</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(1,116</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">10,844</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">5,278</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left">Increase (decrease) in other accounts payables</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">863</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(658</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">484</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">459</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Decrease in deferred revenues</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(283</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(5,256</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(62</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(1,396</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(1,716</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(14,066</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">1,481</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(10,520</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Cash received (paid) during the period for:</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Interest paid</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(243</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(54</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(61</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(12</TD><TD STYLE="text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left">Interest received</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">1,106</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">739</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">552</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">288</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Taxes paid</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(134</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(22</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(109</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(5</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">729</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">663</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">382</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">271</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-decoration: underline; text-align: left; padding-bottom: 1.5pt">Net cash provided by operating activities</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">$</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">27,571</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">$</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">10,546</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">$</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">8,661</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">$</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">6,371</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+</TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"></P>
+
+<!-- Field: Page; Sequence: 7; Value: 2 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->7<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font: 10pt Times New Roman, Times, Serif"><B>CONSOLIDATED
+STATEMENTS OF CASH FLOWS</B></FONT></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0; margin-bottom: 0; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="border-collapse: collapse; width: 100%; font: 10pt Times New Roman, Times, Serif">
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center">For the year ended</TD><TD STYLE="font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center">Three months period ended</TD><TD STYLE="font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">December 31,</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">December 31,</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2019</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2018</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2019</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2018</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="14" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">U.S. Dollars in thousands</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD><U>Cash Flows from Investing Activities</U></TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD COLSPAN="2">&nbsp;</TD><TD>&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="width: 52%; text-align: left">Proceeds of investment in short term investments, net</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">1,727</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">(2,322</TD><TD STYLE="width: 1%; text-align: left">)</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">7,887</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">(575</TD><TD STYLE="width: 1%; text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Purchase of property and equipment and intangible assets</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(2,300</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(2,884</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(812</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(851</TD><TD STYLE="text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Proceeds from sale of property and equipment</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">9</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">30</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">-</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">15</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Net cash provided by (used in) investing activities</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(564</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(5,176</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">7,075</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(1,411</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-decoration: underline; text-align: left">Cash Flows from Financing Activities</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD>Proceeds from exercise of share base payments</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">16</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">9</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">4</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">3</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Repayment of long-term loans and leases</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(1,546</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(596</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(399</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(146</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Net cash used in financing activities</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(1,530</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(587</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(395</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(143</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD>&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left; padding-bottom: 1.5pt">Exchange differences on balances of cash and cash equivalent</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(908</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">629</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">(128</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">)</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">405</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Increase in cash and cash equivalents</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">24,569</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">5,412</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">15,213</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">5,222</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-decoration: underline; text-align: left; padding-bottom: 1.5pt">Cash and cash equivalents at the beginning of the period</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">18,093</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">12,681</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">27,449</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">12,871</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-decoration: underline; text-align: left; padding-bottom: 4pt">Cash and cash equivalents at the end of the period</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">42,662</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">18,093</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">42,662</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">18,093</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-decoration: underline; text-align: left">Significant non-cash transactions</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">&nbsp;</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left; padding-bottom: 4pt">Purchase of property and equipment through leases</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">5,035</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">-</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">51</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">-</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left; padding-bottom: 4pt">Purchase of property and equipment</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">992</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">720</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">992</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">720</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD></TR>
+</TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"></P>
+
+<!-- Field: Page; Sequence: 8; Value: 2 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->8<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="page-break-before: always; margin-top: 6pt; margin-bottom: 12pt"><P STYLE="margin: 0pt">&nbsp;</P></DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify">&nbsp;</P>
+
+
+
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B><U>ADJUSTED
+EBITDA</U></B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><FONT STYLE="font: 10pt Times New Roman, Times, Serif">&nbsp;</FONT></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="border-collapse: collapse; width: 100%; font: 10pt Times New Roman, Times, Serif">
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center">For the year ended</TD><TD STYLE="font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center">Three months period ended</TD><TD STYLE="font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">December 31,</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">December 31,</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2019</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2018</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2019</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2018</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="14" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">U.S. Dollars in thousands</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="width: 52%; text-align: left">Net income (loss)</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">22,251</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">22,296</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">5,362</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">17,745</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Taxes on income</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">730</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(1,955</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">156</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(1,944</TD><TD STYLE="text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left">Financial income, net</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(197</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(1,082</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(33</TD><TD STYLE="text-align: left">)</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">(417</TD><TD STYLE="text-align: left">)</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left">Depreciation and amortization expense</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">4,519</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">3,703</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">1,140</TD><TD STYLE="text-align: left">&nbsp;</TD><TD>&nbsp;</TD>
+    <TD STYLE="text-align: left">&nbsp;</TD><TD STYLE="text-align: right">889</TD><TD STYLE="text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="padding-bottom: 1.5pt">Cost of share&nbsp;&nbsp;- based payments</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">1,163</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">948</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">176</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">269</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="text-align: left; padding-bottom: 4pt">Adjusted EBITDA</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">28,466</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">23,910</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">6,801</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">16,542</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD></TR>
+</TABLE>
+
+
+<P STYLE="margin: 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B><U>ADJUSTED
+NET INCOME</U></B></FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="border-collapse: collapse; width: 100%; font: 10pt Times New Roman, Times, Serif">
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center">For the year ended</TD><TD STYLE="font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center">Three months period ended</TD><TD STYLE="font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">December 31,</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="6" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">December 31,</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2019</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2018</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2019</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="2" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">2018</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom">
+    <TD>&nbsp;</TD><TD STYLE="font-weight: bold; padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD COLSPAN="14" STYLE="font-weight: bold; text-align: center; border-bottom: Black 1.5pt solid">U.S. Dollars in thousands</TD><TD STYLE="padding-bottom: 1.5pt; font-weight: bold">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="width: 52%; text-align: left">Net income (loss)</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">22,251</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">22,296</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">5,362</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD><TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 1%; text-align: left">$</TD><TD STYLE="width: 9%; text-align: right">17,745</TD><TD STYLE="width: 1%; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: White">
+    <TD STYLE="padding-bottom: 1.5pt">Cost of share&nbsp;&nbsp;- based payments</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">1,163</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">948</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">176</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 1.5pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 1.5pt solid; text-align: left">&nbsp;</TD><TD STYLE="border-bottom: Black 1.5pt solid; text-align: right">269</TD><TD STYLE="padding-bottom: 1.5pt; text-align: left">&nbsp;</TD></TR>
+<TR STYLE="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <TD STYLE="text-align: left; padding-bottom: 4pt">Adjusted net income</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">23,414</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">23,244</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">5,538</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD><TD STYLE="padding-bottom: 4pt">&nbsp;</TD>
+    <TD STYLE="border-bottom: Black 4pt double; text-align: left">$</TD><TD STYLE="border-bottom: Black 4pt double; text-align: right">18,014</TD><TD STYLE="padding-bottom: 4pt; text-align: left">&nbsp;</TD></TR>
+</TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">&nbsp;</FONT></P>
+
+
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0; margin-bottom: 0"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">9</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font: 10pt Times New Roman, Times, Serif"></FONT></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0; margin-bottom: 0; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0"><FONT STYLE="font: 10pt Times New Roman, Times, Serif">&nbsp;</FONT></P>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

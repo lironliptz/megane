@@ -1,0 +1,33 @@
+# Keep Cursor indexing light; avoid pulling secrets and bulky paths into context.
+
+# Secrets & real env
+.env
+.env.*
+!.env.example
+
+# Uploads & DB files (large / sensitive)
+projects/
+*.db
+*.db-shm
+*.db-wal
+
+# Repository metadata (huge, rarely useful for edits)
+.git/
+
+# Built binary & test caches
+jump-starter
+*.exe
+*.test
+vendor/
+
+# Coverage & profiles
+coverage.*
+*.out
+*.prof
+
+# Logs
+*.log
+logs/
+
+# OS clutter
+.DS_Store

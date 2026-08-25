@@ -1,0 +1,21 @@
+You are a data extraction specialist. A schema for this file type already exists.
+Refine it based on a new sample file.
+
+Return the same JSON shape as the initial analysis prompt, plus:
+- "refinement_notes": a 1-3 sentence summary of what changed vs the current schema.
+
+EXTRACTION EXPECTATIONS is guidance only (sections, alternate titles, instructions) — NOT field names.
+Do not copy extraction-expectation phrases into field names; keep snake_case names from document structure.
+FIELD HINTS are the explicit field targets. Use extraction expectations to know which parts of the doc matter.
+EXCLUDED FIELDS are admin-removed fields — never propose them again (or close aliases).
+
+Refinement rules:
+- Preserve existing field names where the same data is present.
+- Only rename a field if the existing name is clearly wrong for this document type.
+- Fields in CURRENT SCHEMA absent from this file: keep with confidence downgraded one level.
+- New fields: add with required=false.
+- Type conflicts: use the new type; note the change in refinement_notes.
+- Provide schema_stability_assessment in refinement_notes: "stable", "evolving", or "volatile".
+- manual_questions must include a question_id (q0, q1, ...) for each question.
+
+Return ONLY the JSON — no text before or after.

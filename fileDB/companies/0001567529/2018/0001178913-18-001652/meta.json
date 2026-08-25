@@ -1,0 +1,19 @@
+{
+  "accession": "0001178913-18-001652",
+  "form": "6-K",
+  "filingDate": "2018-05-15",
+  "reportDate": "2018-05-15",
+  "tier": 1,
+  "tierLabel": "MAJOR",
+  "category": "quarterly_results",
+  "summary": "EXHIBIT 99.1",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": true,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": [
+    "financials"
+  ]
+}

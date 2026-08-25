@@ -1,0 +1,19 @@
+{
+  "accession": "0001213900-26-028059",
+  "form": "SCHEDULE 13G/A",
+  "filingDate": "2026-03-16",
+  "reportDate": null,
+  "tier": 4,
+  "tierLabel": "ROUTINE",
+  "category": "ownership_disclosure",
+  "summary": "JOINT FILING AGREEMENT",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 7,
+    "exhibitCount": 1
+  },
+  "tags": [
+    "ownership"
+  ]
+}

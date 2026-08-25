@@ -1,0 +1,17 @@
+{
+  "accession": "0001213900-23-085652",
+  "form": "6-K/A",
+  "filingDate": "2023-11-13",
+  "reportDate": "2023-11-13",
+  "tier": 3,
+  "tierLabel": "MINOR",
+  "category": "unknown",
+  "summary": "6-K/A",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 7,
+    "exhibitCount": 0
+  },
+  "tags": []
+}

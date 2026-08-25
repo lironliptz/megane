@@ -1,0 +1,19 @@
+{
+  "accession": "0001213900-22-069883",
+  "form": "6-K",
+  "filingDate": "2022-11-08",
+  "reportDate": "2022-11-08",
+  "tier": 2,
+  "tierLabel": "MODERATE",
+  "category": "governance",
+  "summary": "NOTICE AND PROXY STATEMENT FOR THE ANNUAL GENERAL MEETING OF SHAREHOLDERS TO BE HELD ON DECEMBER 22, 2022",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": [
+    "governance"
+  ]
+}

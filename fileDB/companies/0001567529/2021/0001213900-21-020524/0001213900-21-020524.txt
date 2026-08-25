@@ -1,0 +1,425 @@
+<SEC-DOCUMENT>0001213900-21-020524.txt : 20210407
+<SEC-HEADER>0001213900-21-020524.hdr.sgml : 20210407
+<ACCEPTANCE-DATETIME>20210407070118
+ACCESSION NUMBER:		0001213900-21-020524
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20210407
+FILED AS OF DATE:		20210407
+DATE AS OF CHANGE:		20210407
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		21810666
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		2 HOLTZMAN ST., SCIENCE PARK
+		CITY:			REHOVOT
+		STATE:			L3
+		ZIP:			7670402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>ea139172-6k_kamadaltd.htm
+<DESCRIPTION>REPORT OF FOREIGN PRIVATE ISSUER
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0; margin-bottom: 0; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 2pt solid; border-bottom: Black 1pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>UNITED STATES</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>SECURITIES AND EXCHANGE COMMISSION</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Washington, D.C. 20549</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>FORM 6-K</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Report of Foreign Private Issuer</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Pursuant to Rule 13a-16 or 15d-16</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>of the Securities Exchange Act of 1934</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">For the Month of March 2021</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">Commission File Number 001-35948</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Kamada Ltd.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">(Translation of registrant&rsquo;s name into English)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>2 Holzman Street<BR>
+Science Park, P.O. Box 4081<BR>
+Rehovot 7670402<BR>
+Israel<BR>
+</B>(Address of principal executive offices)</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Indicate by check mark whether the registrant files or will file annual
+reports under cover Form 20-F or Form 40-F.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">Form 20-F <FONT STYLE="font-family: Times New Roman, Times, Serif">&#9746;</FONT>
+Form 40-F <FONT STYLE="font-family: Times New Roman, Times, Serif">&#9744;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Indicate by check mark if the registrant is submitting
+the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ____</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Indicate by check mark if the registrant is submitting
+the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7): ____</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Indicate by check mark whether the registrant
+by furnishing the information contained in this Form is also thereby furnishing the information to the Commission pursuant to Rule 12g3-2(b)
+under the Securities Exchange Act of 1934.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">Yes <FONT STYLE="font-family: Times New Roman, Times, Serif">&#9744;</FONT>
+No <FONT STYLE="font-family: Times New Roman, Times, Serif">&#9746;</FONT></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 9pt">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">If &ldquo;Yes&rdquo; is marked, indicate below the file number assigned
+to the registrant in connection with Rule 12g3-2(b): 82-____</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 0.5in; text-align: justify; text-indent: -0.5in">&nbsp;&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>This Form 6-K is being incorporated by reference
+into the Registrant's Form S-8 Registration Statements, File Nos. 333-192720, 333-207933, 333-215983, 333-222891 and 333-233267.</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0; margin-bottom: 0; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1pt solid; border-bottom: Black 2pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></P>
+
+<!-- Field: Page; Sequence: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt">&nbsp;</P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt">&nbsp;</DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></P>
+
+
+
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; background-color: white">The following exhibit is attached:</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; background-color: white">&nbsp;</P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; background-color: white"><TR STYLE="vertical-align: top; background-color: rgb(204,238,255)">
+<TD STYLE="width: 0.5in">99.1</TD><TD STYLE="text-align: justify"><A HREF="ea139172ex99-1_kamadaltd.htm">Kamada Announces Amendment to GLASSIA&reg; License Agreement with Takeda&nbsp;</A></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></P>
+
+<!-- Field: Page; Sequence: 2; Options: NewSection; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->1<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt">&nbsp;</DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center; background-color: white"><B>SIGNATURE</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white">Pursuant to the requirements
+of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto
+duly authorized.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; background-color: white">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%">
+  <TR STYLE="vertical-align: top">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">Date: April 7, 2021</FONT></TD>
+    <TD COLSPAN="2"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt"><B>KAMADA LTD.</B></FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif">&nbsp;</FONT></TD>
+    <TD COLSPAN="2"><FONT STYLE="font-family: Times New Roman, Times, Serif">&nbsp;</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="width: 60%; padding-bottom: 1.5pt"><FONT STYLE="font-family: Times New Roman, Times, Serif">&nbsp;</FONT></TD>
+    <TD STYLE="width: 4%; padding-bottom: 1.5pt"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">By: </FONT></TD>
+    <TD STYLE="width: 36%; border-bottom: black 1.5pt solid"><FONT STYLE="font-family: Times New Roman, Times, Serif; font-size: 10pt">/s/
+    Yifat Philip</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif">&nbsp;</FONT></TD>
+    <TD><P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><FONT STYLE="font-family: Times New Roman, Times, Serif">&nbsp;</FONT></P></TD>
+    <TD><P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><FONT STYLE="font-family: Times New Roman, Times, Serif">Yifat
+        Philip</FONT></P>
+    <P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></P></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif">&nbsp;</FONT></TD>
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif">&nbsp;</FONT></TD>
+    <TD><FONT STYLE="font-family: Times New Roman, Times, Serif">Vice President General Counsel and Corporate Secretary</FONT></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; background-color: white"></P>
+
+<!-- Field: Page; Sequence: 3; Value: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->2<!-- Field: /Sequence --></P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt">&nbsp;</DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="text-align: center; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center; background-color: white"><U>EXHIBIT INDEX</U></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center; background-color: white">&nbsp;</P>
+
+<TABLE CELLSPACING="0" CELLPADDING="0" STYLE="font: 10pt Times New Roman, Times, Serif; width: 100%">
+  <TR STYLE="vertical-align: top">
+    <TD STYLE="width: 10%; border-bottom: black 1.5pt solid"><FONT STYLE="font-size: 10pt">EXHIBIT&nbsp;NO.</FONT></TD>
+    <TD STYLE="width: 1%">&nbsp;</TD>
+    <TD STYLE="width: 89%; border-bottom: black 1.5pt solid"><FONT STYLE="font-size: 10pt">DESCRIPTION</FONT></TD></TR>
+  <TR STYLE="vertical-align: top">
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR STYLE="vertical-align: top; background-color: rgb(204,238,255)">
+    <TD><FONT STYLE="font-size: 10pt">99.1</FONT></TD>
+    <TD>&nbsp;</TD>
+    <TD STYLE="text-align: justify"><A HREF="ea139172ex99-1_kamadaltd.htm">Kamada Announces Amendment to GLASSIA&reg; License Agreement with Takeda</A></TD></TR>
+  </TABLE>
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center; background-color: white">3</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center; background-color: white"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0; margin-bottom: 0; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right"></P>
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>ea139172ex99-1_kamadaltd.htm
+<DESCRIPTION>KAMADA ANNOUNCES AMENDMENT TO GLASSIA LICENSE AGREEMENT WITH TAKEDA
+<TEXT>
+<HTML>
+<HEAD>
+     <TITLE></TITLE>
+</HEAD>
+<BODY STYLE="font: 10pt Times New Roman, Times, Serif">
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right"><B>Exhibit 99.1</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: right">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><B>Kamada Announces Amendment to GLASSIA&reg; License
+Agreement with Takeda </B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<TABLE CELLPADDING="0" CELLSPACING="0" STYLE="width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt"><TR STYLE="vertical-align: top">
+<TD STYLE="width: 22.3pt"><FONT STYLE="font-family: Times New Roman, Times, Serif">&#9679;</FONT></TD><TD STYLE="text-align: justify"><I>Following the Completion of the Transition of GLASSIA Manufacturing, Kamada will Transfer the Product&rsquo;s
+US Biologics License Application (BLA) to Takeda; Expected to Occur by End of 2021</I></TD></TR>
+<TR STYLE="vertical-align: top">
+<TD STYLE="width: 22.3pt"><FONT STYLE="font-family: Times New Roman, Times, Serif">&#9679;</FONT></TD><TD STYLE="text-align: justify"><I>Kamada to Receive from Takeda a Payment of $2 Million for the BLA Transfer </I></TD></TR>
+<TR STYLE="vertical-align: top">
+<TD STYLE="width: 22.3pt"><FONT STYLE="font-family: Times New Roman, Times, Serif">&#9679;</FONT></TD><TD STYLE="text-align: justify"><I>Final Sales-Based Milestone Payment of $5 Million Due to Kamada under the License Agreement was Accelerated</I></TD></TR>
+<TR STYLE="vertical-align: top">
+<TD STYLE="width: 22.3pt"><FONT STYLE="font-family: Times New Roman, Times, Serif">&#9679;</FONT></TD><TD STYLE="text-align: justify"><I>No Other Material Changes to the GLASSIA License Agreement Between Kamada and Takeda</I></TD></TR>
+<TR STYLE="vertical-align: top">
+<TD STYLE="width: 22.3pt"><FONT STYLE="font-family: Times New Roman, Times, Serif">&#9679;</FONT></TD><TD STYLE="text-align: justify"><I>Kamada Continues to Distribute GLASSIA Outside of Takeda&rsquo;s Territories and Invests in the Alpha-1
+Antitrypsin Deficiency Field Through Continued Development of the Inhaled AAT Product, Currently in a Phase III Clinical Study</I></TD></TR></TABLE>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 26.6pt; text-align: justify"><I>&nbsp;</I></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>REHOVOT, Israel &ndash; April 7, 2021</B> --
+Kamada Ltd. (NASDAQ: KMDA; TASE: KMDA.TA), a plasma-derived biopharmaceutical company, today announced an amendment to the GLASSIA&reg;
+[Alpha<SUB>1</SUB>-Proteinase Inhibitor (Human)] license agreement with Takeda. Pursuant to the amendment, upon completion of the transition
+of GLASSIA manufacturing to Takeda, expected by the end of 2021, Kamada will transfer to Takeda the GLASSIA U.S. Biologics License Application
+(BLA). In consideration for the BLA transfer, Kamada will receive a $2 million payment from Takeda. In addition, the payment by Takeda
+of the final sales-based milestone of $5 million due to Kamada under the license agreement was accelerated and the Company anticipates
+it will be able to recognize this milestone during 2021. The parties have agreed to continue to share product related information and
+data following the BLA transfer. There are no other material changes to the existing GLASSIA license agreement.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&ldquo;Based on the planned transition of GLASSIA
+manufacturing to Takeda later this year, and its continued distribution of the product in the U.S., the transfer of the BLA to Takeda
+is a prudent next step,&rdquo; said Amir London, Kamada&rsquo;s Chief Executive Officer. &ldquo;Kamada, as the product's innovator, continues
+the registration and distribution of GLASSIA in countries, outside of the named territories of the U.S., Canada, Australia and New Zealand
+retained by Takeda, and invests in the Alpha-1 Antitrypsin Deficiency field through continued development of our proprietary Inhaled AAT
+product for which we are currently conducting the InnovAATe clinical trial, a randomized, double-blind, placebo-controlled, pivotal Phase
+3 study.&rdquo;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">GLASSIA was developed by Kamada, and the product&rsquo;s
+BLA was approved by the U.S. Food and Drug Administration in 2010 as the first liquid, ready-to-use, intravenous plasma-derived augmentation
+therapy to treat Alpha-1 Antitrypsin deficiency.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">As previously reported, Kamada expects to receive
+approximately $25 million in product revenues from the supply of GLASSIA to Takeda in 2021, and based on the agreement with Takeda, upon
+the initiation of sales of GLASSIA manufactured by Takeda, Kamada will receive royalty payments at a rate of 12% of net sales through
+August 2025 and at a rate of 6% thereafter until 2040, with a minimum of $5 million annually for each of the years from 2022 to 2040.
+Although the transition of the agreement to its royalties phase will result in a reduction of Kamada&rsquo;s revenue from Takeda, based
+on current GLASSIA sales in the U.S. and forecasted future growth, Kamada anticipates receiving royalties from Takeda in the range of
+$10 million to $20 million per year from 2022 to 2040.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white"></P>
+
+<!-- Field: Page; Sequence: 1 -->
+    <DIV STYLE="margin-top: 12pt; margin-bottom: 6pt; border-bottom: Black 1.5pt solid"><P STYLE="text-align: center; margin-top: 0pt; margin-bottom: 0pt">&nbsp;</P></DIV>
+    <DIV STYLE="break-before: page; margin-top: 6pt; margin-bottom: 12pt">&nbsp;</DIV>
+    <!-- Field: /Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>About Kamada</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Kamada Ltd. (the &ldquo;Company&rdquo;) is a global
+specialty plasma-derived biopharmaceutical company with a diverse portfolio of marketed products, a robust development pipeline and industry-leading
+manufacturing capabilities. The Company&rsquo;s strategy is focused on driving profitable growth from its current commercial products,
+its plasma-derived development pipeline and its manufacturing expertise, while evolving into a vertically integrated plasma-derived company.
+The Company&rsquo;s two leading commercial products are GLASSIA&reg; and KEDRRAB&reg;. GLASSIA was the first liquid, ready-to-use, intravenous
+plasma-derived AAT product approved by the FDA. The Company markets GLASSIA in the U.S. through a strategic partnership with Takeda Pharmaceuticals
+Company Limited (&quot;Takeda&quot;) and in other countries through local distributors. Pursuant to an agreement with Takeda, the Company
+will continue to produce GLASSIA for Takeda through 2021 and Takeda will initiate its own production of GLASSIA for the U.S. market in
+2021, at which point Takeda will commence payment of royalties to the Company until 2040. KEDRAB is an FDA approved anti-rabies immune
+globulin (Human) for post-exposure prophylaxis treatment. KEDRAB is being marketed in the U.S. through a strategic partnership with Kedrion
+S.p.A. The Company has additional four plasma-derived products administered by injection or infusion, that are marketed through distributors
+in more than 15 countries, including Israel, Russia, Brazil, Argentina, India and other countries in Latin America and Asia. The Company
+has two leading development programs; a plasma-derived hyperimmune immunoglobulin (IgG) product as a potential treatment for coronavirus
+disease (COVID-19) and an inhaled AAT for the treatment of AAT deficiency for which the Company is currently conducting the InnovAATe
+clinical trial, a randomized, double-blind, placebo-controlled, pivotal Phase 3 trial. The Company leverages its expertise and presence
+in the Israeli pharmaceutical market to distribute in Israel more than 20 products that are manufactured by third parties and have recently
+added nine biosimilar products to its Israeli distribution portfolio, which, subject to EMA and the Israeli MOH approvals, are expected
+to be launched in Israel between the years 2022 and 2025. FIMI Opportunity Fund, the leading private equity investor in Israel, is the
+Company&rsquo;s lead shareholder, beneficially owning approximately 21% of the outstanding ordinary shares.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>Cautionary Note Regarding Forward-Looking Statements</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">This release includes forward-looking statements
+within the meaning of Section 21E of the U.S. Securities Exchange Act of 1934, as amended, and the safe harbor provisions of the U.S.
+Private Securities Litigation Reform Act of 1995. Forward-looking statements are statements that are not historical facts, including statements
+regarding: (1) the transfer of the BLA to Takeda to occur by the end of 2021; (2) Kamada&rsquo;s anticipation to be able to recognize
+the $5 million sales milestone during 2021; (3) the parties&rsquo; agreement to share product related information and data following the
+BLA transfer; (4) statements regarding Kamada&rsquo;s continued registration and distribution of GLASSIA outside Takeda&rsquo;s territories,
+and investment in the Alpha-1 Antitrypsin Deficiency field through development of the Inhaled AAT product, currently in a Phase III clinical
+study; (5) Kamada&rsquo;s expectation of approximately $25 million in product revenues from the supply of GLASSIA to Takeda in 2021; and
+(6) Kamada&rsquo;s expectation of receiving royalties from Takeda in the range of $10 million to $20 million per year from 2022 to 2040.
+Forward-looking statements are based on Kamada&rsquo;s current knowledge and its present beliefs and expectations regarding possible future
+events and are subject to risks, uncertainties and assumptions. Actual results and the timing of events could differ materially from those
+anticipated in these forward-looking statements as a result of several factors including, but not limited to, market demand for GLASSIA
+which affects royalties derived from GLASSIA by Kamada, delay or denial in the U.S. FDA approval process for Inhaled AAT products; Kamada&rsquo;s
+ability to conduct clinical trials in light of restrictions during the COVID-19 pandemic, Kamada&rsquo;s ability to manage operating expenses,
+additional competition in the markets that Kamada competes, regulatory delays, prevailing market conditions and the impact of general
+economic, industry or political conditions in the U.S., Israel or otherwise. The forward-looking statements made herein speak only as
+of the date of this announcement and Kamada undertakes no obligation to update publicly such forward-looking statements to reflect subsequent
+events or circumstances, except as otherwise required by law.</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><B>CONTACTS:</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Chaime Orlev</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Chief Financial Officer</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">IR@kamada.com</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Bob Yedid</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">LifeSci Advisors, LLC</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">646-597-6989</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Bob@LifeSciAdvisors.com</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><B>&nbsp;</B></P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"></P>
+
+<!-- Field: Rule-Page --><DIV STYLE="margin-top: 0; margin-bottom: 0; width: 100%"><DIV STYLE="font-size: 1pt; border-top: Black 1.5pt solid">&nbsp;</DIV></DIV><!-- Field: /Rule-Page -->
+
+<P STYLE="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&nbsp;</P>
+
+
+</BODY>
+</HTML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

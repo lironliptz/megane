@@ -1,0 +1,504 @@
+<SEC-DOCUMENT>0001178913-16-005895.txt : 20160720
+<SEC-HEADER>0001178913-16-005895.hdr.sgml : 20160720
+<ACCEPTANCE-DATETIME>20160720065019
+ACCESSION NUMBER:		0001178913-16-005895
+CONFORMED SUBMISSION TYPE:	6-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20160720
+FILED AS OF DATE:		20160720
+DATE AS OF CHANGE:		20160720
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KAMADA LTD
+		CENTRAL INDEX KEY:			0001567529
+		STANDARD INDUSTRIAL CLASSIFICATION:	PHARMACEUTICAL PREPARATIONS [2834]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			L3
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		6-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-35948
+		FILM NUMBER:		161774562
+
+	BUSINESS ADDRESS:	
+		STREET 1:		7 SAPIR ST. WEIZMANN SCIENCE PARK
+		CITY:			NESS ZIONA
+		STATE:			L3
+		ZIP:			74140
+		BUSINESS PHONE:		97289406472
+
+	MAIL ADDRESS:	
+		STREET 1:		7 SAPIR ST. WEIZMANN SCIENCE PARK
+		CITY:			NESS ZIONA
+		STATE:			L3
+		ZIP:			74140
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>6-K
+<SEQUENCE>1
+<FILENAME>zk1618734.htm
+<DESCRIPTION>6-K
+<TEXT>
+<html>
+<head>
+<title></title>
+<!--Licensed to: ZKG
+    Document created using EDGARfilings PROfile 4.1.0.0
+    Copyright 1995 - 2016 Summit Financial Printing, LLC.  All rights reserved.-->
+</head>
+<body style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" bgcolor="#ffffff" text="#000000">
+<div>
+<hr style="BORDER-BOTTOM: black 1px solid; TEXT-ALIGN: center; BACKGROUND-COLOR: #ffffff; HEIGHT: 10px; COLOR: #ffffff; MARGIN-LEFT: auto; BORDER-TOP: black 4px solid; MARGIN-RIGHT: auto" align="center">
+</div>
+
+<div id="DSPFPageHeader">
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+</div>
+
+<div style="text-align: center; line-height: 1.25; font-variant: normal; font-style: normal; font-family: 'Times New Roman', Times, serif; font-size: 14pt; font-weight: bold;">UNITED STATES</div>
+
+<div style="text-align: center; line-height: 1.25; font-variant: normal; font-style: normal; font-family: 'Times New Roman', Times, serif; font-size: 14pt; font-weight: bold;">SECURITIES AND EXCHANGE COMMISSION</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Washington, D.C. 20549</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="text-align: center; line-height: 1.25; font-variant: normal; font-style: normal; font-family: 'Times New Roman', Times, serif; font-size: 14pt; font-weight: bold;">FORM 6-K</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Report of Foreign Private Issuer</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Pursuant to Rule 13a-16 or 15d-16</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">of the Securities Exchange Act of 1934</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">For the Month of July, 2016</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Commission File Number 001-35948</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="text-align: center; line-height: 1.25; font-variant: normal; font-style: normal; font-family: 'Times New Roman', Times, serif; font-size: 16pt; font-weight: bold;">Kamada Ltd.</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">(Translation of registrant&#8217;s name into English)</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">7 Sapir St.</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><br>
+</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Kiryat Weizmann Science Park</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><br>
+</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">P.O Box 4081</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><br>
+</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Ness Ziona 74140</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><br>
+</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Israel</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><br>
+</font> &#160;(Address of principal executive offices)</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Indicate by check mark whether the registrant files or will file annual reports under cover Form 20-F or Form 40-F.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Form 20-F <font style="FONT-FAMILY: 'Wingdings 2', serif; FONT-SIZE: 10pt">T</font>&#160;&#160; Form 40-F <font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">&#9744;</font></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1): ____</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7): ____</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Indicate by check mark whether the registrant by furnishing the information contained in this Form is also thereby furnishing the information to the Commission pursuant to Rule 12g3-2(b) under the Securities Exchange Act of 1934.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Yes <font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">&#9744;</font>&#160;&#160; No <font style="FONT-FAMILY: 'Wingdings 2', serif; FONT-SIZE: 10pt">T</font></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">If &#8220;Yes&#8221; is marked, indicate below the file number assigned to the registrant in connection with Rule 12g3-2(b): 82&#8209;____</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">This Form 6-K is being incorporated by reference into the Registrant&#8217;s Form S-8 Registration Statement File No. 333-192720.</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="MARGIN-TOP: 10pt; MARGIN-BOTTOM: 10pt; CLEAR: both" id="DSPFPageBreakArea">
+<div style="PAGE-BREAK-AFTER: always" id="DSPFPageBreak">
+<hr style="BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: #000000; MARGIN: 4px 0px; WIDTH: 100%; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 2px; COLOR: #000000; CLEAR: both; BORDER-LEFT-WIDTH: 0px" noshade="noshade">
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">The following exhibit is attached:</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25"><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">99.1</font><font style="WIDTH: 36pt; DISPLAY: inline-block; FONT-SIZE: 1px" id="TRGRRTFtoHTMLTab">&#160;</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Notice of 2016 Annual General Meeting of Shareholders to be held on August 30, 2016</font></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="MARGIN-TOP: 10pt; MARGIN-BOTTOM: 10pt; CLEAR: both" id="DSPFPageBreakArea">
+<div style="PAGE-BREAK-AFTER: always" id="DSPFPageBreak">
+<hr style="BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: #000000; MARGIN: 4px 0px; WIDTH: 100%; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 2px; COLOR: #000000; CLEAR: both; BORDER-LEFT-WIDTH: 0px" noshade="noshade">
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; TEXT-INDENT: -36pt; FONT-FAMILY: 'Times New Roman', Times, serif; MARGIN-LEFT: 36pt; FONT-SIZE: 10pt; FONT-WEIGHT: bold">SIGNATURE</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.</div>
+
+<table style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 100%; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none" id="zb21e14f8d83c43809cd5f6bff28211be" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 50%; VERTICAL-ALIGN: top; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Date: July 20, 2016</div>
+</td>
+<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 50%; VERTICAL-ALIGN: top; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">KAMADA LTD.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+</td>
+</tr>
+
+<tr>
+<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 50%; VERTICAL-ALIGN: top; BORDER-TOP: medium none; BORDER-RIGHT: medium none">&#160;</td>
+<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 50%; VERTICAL-ALIGN: top; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">By:&#160; <font style="FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: normal"><u>/s/ Gil Efron</u></font></div>
+</td>
+</tr>
+
+<tr>
+<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 50%; VERTICAL-ALIGN: top; BORDER-TOP: medium none; BORDER-RIGHT: medium none">&#160;</td>
+<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 50%; VERTICAL-ALIGN: top; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Gil Efron</font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><br>
+</font> Deputy Chief Executive Officer and Chief Financial Officer</div>
+</td>
+</tr>
+</table>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="MARGIN-TOP: 10pt; MARGIN-BOTTOM: 10pt; CLEAR: both" id="DSPFPageBreakArea">
+<div style="PAGE-BREAK-AFTER: always" id="DSPFPageBreak">
+<hr style="BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: #000000; MARGIN: 4px 0px; WIDTH: 100%; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 2px; COLOR: #000000; CLEAR: both; BORDER-LEFT-WIDTH: 0px" noshade="noshade">
+</div>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><u>EXHIBIT INDEX</u></div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<table style="WIDTH: 100%; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" id="z604437e029d04b68878b97ef718f706f" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 10%; VERTICAL-ALIGN: top">
+<div style="text-align: center; line-height: 1.25; font-variant: normal; font-style: normal; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: normal;"><u>EXHIBIT NO.</u></div>
+</td>
+<td style="WIDTH: 90%; FONT-FAMILY: 'Times New Roman', Times, serif; VERTICAL-ALIGN: top">
+<div style="FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: normal"><u>DESCRIPTION</u></div>
+</td>
+</tr>
+
+<tr style="HEIGHT: 16px">
+<td style="WIDTH: 10%; VERTICAL-ALIGN: top">&#160;</td>
+<td style="WIDTH: 90%; VERTICAL-ALIGN: top">&#160;</td>
+</tr>
+
+<tr>
+<td style="WIDTH: 10%; VERTICAL-ALIGN: top">
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25">99.1</div>
+</td>
+<td style="WIDTH: 90%; VERTICAL-ALIGN: top">
+<div style="LINE-HEIGHT: 1.25">Notice of 2016 Annual General Meeting of Shareholders to be held on August 30, 2016</div>
+</td>
+</tr>
+</table>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="LINE-HEIGHT: 1.25">
+<hr style="BORDER-BOTTOM: black 4px solid; TEXT-ALIGN: center; BACKGROUND-COLOR: #ffffff; HEIGHT: 10px; COLOR: #ffffff; MARGIN-LEFT: auto; BORDER-TOP: black 1px solid; MARGIN-RIGHT: auto" align="center">
+</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+ &#160;</div>
+</body>
+</html>
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>exhibit_99-1.htm
+<DESCRIPTION>EXHIBIT 99.1
+<TEXT>
+<html>
+<head>
+<title></title>
+<!--Licensed to: ZKG
+    Document created using EDGARfilings PROfile 4.1.0.0
+    Copyright 1995 - 2016 Summit Financial Printing, LLC.  All rights reserved.-->
+</head>
+<body style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" bgcolor="#ffffff" text="#000000">
+<div>
+<hr style="BORDER-BOTTOM: black 1px solid; TEXT-ALIGN: center; BACKGROUND-COLOR: #ffffff; HEIGHT: 10px; COLOR: #ffffff; MARGIN-LEFT: auto; BORDER-TOP: black 4px solid; MARGIN-RIGHT: auto" align="center">
+</div>
+
+<div style="text-align: right; line-height: 1.25; font-variant: normal; font-style: normal; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;"><u>EXHIBIT 99.1</u></div>
+
+<div>&#160;</div>
+
+<div>
+<div id="DSPFPageHeader"></div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">KAMADA LTD.</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">7 Sapir Street<font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><br>
+</font>Kiryat Weizmann Science Park<font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><br>
+</font>P.O Box 4081<font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><br>
+</font> Ness Ziona 74140, Israel</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">_____________________</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">NOTICE OF 2016 ANNUAL GENERAL MEETING OF SHAREHOLDERS</div>
+
+<div style="LINE-HEIGHT: 1.25"><br style="LINE-HEIGHT: 1.25">
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Dear Shareholder:</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; TEXT-INDENT: 36pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">We cordially invite you to attend the 2016 Annual General Meeting of Shareholders of Kamada Ltd. (the &#8220;Meeting&#8221;) to be held at our offices at 7 Sapir Street, Kiryat Weizmann Science Park, Ness Ziona, Israel, on Tuesday, August 30, 2016, at 2:00 p.m. (Israel time), for the following purposes:</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table style="WIDTH: 100%; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" id="zcc58852b236d49ac8e3eb9f6238ac8dc" class="DSPFListTable" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 35.7pt"></td>
+<td style="WIDTH: 17.85pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top; align: right">1.</td>
+<td style="TEXT-ALIGN: left; WIDTH: auto; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top">To elect five directors to serve as members of our Board of Directors until our next annual general meeting of shareholders and in accordance with our Articles of Association.</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table style="WIDTH: 100%; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" id="z2598058a48254559ada755aa62d384f0" class="DSPFListTable" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 35.7pt"></td>
+<td style="WIDTH: 17.85pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top; align: right">2.</td>
+<td style="TEXT-ALIGN: left; WIDTH: auto; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top">To elect Mr. Avraham Berger as an outside director, within the meaning of the Israeli Companies Law, 1999 (the &#8220;Israeli Companies Law&#8221;), for an initial three-year term.</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table style="WIDTH: 100%; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" id="z779665070f2d4414bde5b81d9ce3de3a" class="DSPFListTable" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 35.7pt"></td>
+<td style="WIDTH: 17.85pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top; align: right">3.</td>
+<td style="TEXT-ALIGN: left; WIDTH: auto; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top">To ratify and approve our entering into an indemnification and exculpation agreement with each of Dr. Michael Berelowitz and Mr. Saadia Ozeri and, subject to approval of Proposal 2, to approve our entering into an indemnification and exculpation agreement with Mr. Avraham Berger.</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table style="WIDTH: 100%; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" id="z4db47919957b44c2b60943857f3afcce" class="DSPFListTable" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 35.7pt"></td>
+<td style="WIDTH: 17.85pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top; align: right">4.</td>
+<td style="TEXT-ALIGN: left; WIDTH: auto; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top">To approve the grant of options to each of our directors, other than the outside directors.</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table style="WIDTH: 100%; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" id="z8716b68f80b14ae7af23221aa97c06f8" class="DSPFListTable" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 35.7pt"></td>
+<td style="WIDTH: 17.85pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top; align: right">5.</td>
+<td style="TEXT-ALIGN: left; WIDTH: auto; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top">Subject to approval of Proposals 2 and 4, to approve the grant of options to our outside directors.</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table style="WIDTH: 100%; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" id="z5b9f4eeb41074a08a4d9b076c70a6fd7" class="DSPFListTable" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 35.7pt"></td>
+<td style="WIDTH: 17.85pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top; align: right">6.</td>
+<td style="TEXT-ALIGN: left; WIDTH: auto; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top">To approve amended compensation and the grant of options and, subject to approval of Proposal 8, restricted shares to Mr. Amir London, our Chief Executive Officer.</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table style="WIDTH: 100%; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" id="z95aefdef0df143c993aa0412dea73246" class="DSPFListTable" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 35.7pt"></td>
+<td style="WIDTH: 17.85pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top; align: right">7.</td>
+<td style="TEXT-ALIGN: left; WIDTH: auto; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top">To approve certain amendments to our Articles of Association related to the service of outside directors on our Board of Directors and to approve and adopt an English language version of the amended Articles of Association as our governing Articles of Association.</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table style="WIDTH: 100%; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" id="za30326a667fe4506a054fee857cef81d" class="DSPFListTable" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 35.7pt"></td>
+<td style="WIDTH: 17.85pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top; align: right">8.</td>
+<td style="TEXT-ALIGN: left; WIDTH: auto; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top">To approve an amended and restated Compensation Policy for Executive Officers and Directors.</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table style="WIDTH: 100%; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" id="z8fae5729e94145a8a3f099a8752f34bd" class="DSPFListTable" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 35.7pt"></td>
+<td style="WIDTH: 17.85pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top; align: right">9.</td>
+<td style="TEXT-ALIGN: left; WIDTH: auto; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top">To ratify and approve the reappointment of Kost Forer Gabbay &amp; Kasierer, a member of Ernst &amp; Young Global, as our independent registered public accountants for the year ending December 31, 2016 and for such additional period until our next annual general meeting.</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25">
+<table style="WIDTH: 100%; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt" id="z386e1a28992d4ed895f922c5280f3e06" class="DSPFListTable" cellspacing="0" cellpadding="0">
+<tr>
+<td style="WIDTH: 35.7pt"></td>
+<td style="WIDTH: 17.85pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top; align: right">10.</td>
+<td style="TEXT-ALIGN: left; WIDTH: auto; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; VERTICAL-ALIGN: top">To review and discuss our consolidated financial statements for the year ended December 31, 2015.</td>
+</tr>
+</table>
+</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; TEXT-INDENT: 36pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Shareholders of record at the close of business on July 21, 2016, are entitled to notice of and to vote at the Meeting.&#160; You can vote either by mailing in your proxy or in person by attending the Meeting.&#160; If voting by proxy, we will generally not be able to include your vote in the tally of ordinary shares voted at the Meeting unless your proxy is received by our transfer agent or at our registered office in Israel at least 48 hours prior to the appointed time of the Meeting.&#160; If you attend the Meeting, you may vote in person and your proxy will not be used.&#160; If you are a beneficial owner of shares registered in the name of your broker, bank, trustee or nominee and you wish to vote in person at the Meeting, you must first obtain a &#8220;legal proxy&#8221; from your broker, bank, trustee or nominee that holds your shares giving you the right to vote the shares at the Meeting.&#160; If you are a beneficial owner of shares registered in the name of a member of the Tel Aviv Stock Exchange and wish to vote, either by proxy or in person by attending the Meeting, you must deliver to us a proof of ownership in accordance with the Israeli Companies Law and the Israeli Companies Regulations (Proof of Ownership of Shares for Voting at General Meetings), 2000.&#160; Detailed proxy voting instructions will be provided both in the Proxy Statement and the proxy card.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="MARGIN-TOP: 10pt; MARGIN-BOTTOM: 10pt; CLEAR: both" id="DSPFPageBreakArea">
+<div style="PAGE-BREAK-AFTER: always" id="DSPFPageBreak">
+<hr style="BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: #000000; MARGIN: 4px 0px; WIDTH: 100%; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 2px; COLOR: #000000; CLEAR: both; BORDER-LEFT-WIDTH: 0px" noshade="noshade">
+</div>
+</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; TEXT-INDENT: 36pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Shareholders may review the full version of the proposed resolutions in the Proxy Statement as well as the accompanying proxy card, on, or about, July 26, 2016, via the website of the U.S. Securities and Exchange Commission at <font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><u>www.sec.gov</u></font> or via the Israel Securities Authority&#8217;s electronic filing system at <font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><u>http://www.magna.isa.gov.il</u></font> or the website of the Tel Aviv Stock Exchange Ltd. at <font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><u>http://maya.tase.co.il</u></font>, and also at our offices during regular business hours (7 Sapir Street, Kiryat Weizmann Science Park, Ness Ziona, Israel; Tel: +972-8-9406472 (phone)).&#160; Our company&#8217;s representative is Mr. Nir Livneh (7 Sapir Street, Kiryat Weizmann Science Park, Ness Ziona, Israel; Tel: +972-72-2748242).</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Quorum</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; TEXT-INDENT: 36pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">The presence, in person or by proxy, of two or more shareholders holding or representing, in the aggregate, at least twenty-five percent of our company&#8217;s voting rights will constitute a quorum at the Meeting.&#160; No business will be considered or determined at the Meeting unless the requisite quorum is present within half an hour from the time designated for the Meeting.&#160; If within half an hour from the time designated for the Meeting a quorum is not present, the Meeting will stand adjourned to the same day in the following week, at the same time and place.&#160; Any number of shareholders present, in person or by proxy, will constitute a quorum at the adjourned meeting.&#160; This notice will serve as notice of such reconvened meeting if no quorum is present at the original date and time and no further notice of the reconvened meeting will be given to shareholders.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">Vote Required for Approval of the Proposals</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; TEXT-INDENT: 36pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">Each ordinary share entitles the holder to one vote.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; TEXT-INDENT: 36pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><u>With respect to Proposals 1, 3-5, 7 and 9</u></font>:&#160; The affirmative vote of the holders of a majority of the ordinary shares represented at the Meeting, in person or by proxy, entitled to vote and voting on the matter, is required to approve each such proposal.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; TEXT-INDENT: 36pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><u>With respect to Proposal 2</u></font>:&#160; The affirmative vote of the holders of a majority of the ordinary shares represented at the Meeting, in person or by proxy, entitled to vote and voting on the matter, is required to approve the proposal, provided that either: (i) the shares voting in favor of the election of the outside director (excluding abstentions) include at least a majority of the shares voted by shareholders who are not controlling shareholders and shareholders who do not have a personal interest in the election of the outside director (excluding a personal interest that does not result from the shareholder&#8217;s relationship with the controlling shareholder), or (ii) the total number of shares voted against the election of the outside director by shareholders who are not controlling shareholders and shareholders who do not have a personal interest in the matter (excluding a personal interest that does not result from the shareholder&#8217;s relationship with the controlling shareholder), does not exceed two-percent of our outstanding voting rights.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; TEXT-INDENT: 36pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt"><u>With respect to Proposals 6 and 8</u></font>:<font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">&#160;</font> The affirmative vote of the holders of a majority of the ordinary shares represented at the Meeting, in person or by proxy, entitled to vote and voting on the matter, is required to approve each such proposal, provided that either: (i) the shares voting in favor of the proposal (excluding abstentions) include at least a majority of the shares voted by shareholders who are not controlling shareholders and shareholders who do not have a personal interest in the proposal, or (ii) the total number of shares voted against the proposal by shareholders who are not controlling shareholders and shareholders who do not have a personal interest in the proposal does not exceed two-percent of our outstanding voting rights. </div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; TEXT-INDENT: 36pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">We are unaware of any shareholder that would be deemed to be a controlling shareholder of our company as of the current time for purposes of Proposals 2, 6 and 8.&#160; <font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold">A shareholder who signs and returns a proxy card will be deemed to be confirming that such shareholder, and any related party of such shareholder, is not a controlling shareholder for purposes of Proposals 2, 6 and 8.&#160; If you believe that you, or a related party of yours, may be deemed to be a controlling shareholder and you wish to participate in the vote on any of Proposals 2, 6 and 8, you should contact our Director of Legal Affairs, Nir Livneh, at </font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold"><u>nirl@kamada.com</u></font><font style="FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold"> or +972-72-2748242.</font></div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: left; LINE-HEIGHT: 1.25; TEXT-INDENT: 36pt; FONT-FAMILY: 'Times New Roman', Times, serif; FONT-SIZE: 10pt">The Israeli Companies Law requires that each shareholder voting on Proposals 2, 6 and 8 indicate on the proxy card, or, if voting in person at the Meeting, inform us prior to voting on the matter at the Meeting, whether or not the shareholder has a personal interest in each such proposal.&#160; Otherwise, the shareholder is not eligible to vote on the proposals and his or her vote will not be counted for the purposes of the proposals.&#160; Under the Israeli Companies Law, a &#8220;personal interest&#8221; of a shareholder in an act or transaction of a company (i) includes a personal interest of (a) any spouse, sibling, parent, grandparent or descendant of the shareholder, any descendant, sibling or parent of a spouse of the shareholder and the spouse of any of the foregoing; and (b) a company with respect to which the shareholder (or any of the foregoing relatives of the shareholder) serves as a director or chief executive officer, owns at least 5% of the outstanding shares or voting rights or has the right to appoint one or more directors or the chief executive officer; and (ii) excludes a personal interest arising solely from the ownership of shares.&#160; Under the Israeli Companies Law, in the case of a person voting by proxy, &#8220;personal interest&#8221; includes the personal interest of either the proxy holder or the shareholder granting the proxy, whether or not the proxy holder has discretion how to vote.</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="LINE-HEIGHT: 1.25">July 20, 2016</div>
+
+<div style="LINE-HEIGHT: 1.25">&#160;</div>
+
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 1.25">- 2 -</div>
+</div>
+
+<div>
+<hr style="BORDER-BOTTOM: black 4px solid; TEXT-ALIGN: center; BACKGROUND-COLOR: #ffffff; HEIGHT: 10px; COLOR: #ffffff; MARGIN-LEFT: auto; BORDER-TOP: black 1px solid; MARGIN-RIGHT: auto" align="center">
+</div>
+</body>
+</html>
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

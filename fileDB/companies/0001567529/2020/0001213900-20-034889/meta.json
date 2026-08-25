@@ -1,0 +1,19 @@
+{
+  "accession": "0001213900-20-034889",
+  "form": "6-K",
+  "filingDate": "2020-11-04",
+  "reportDate": "2020-11-04",
+  "tier": 3,
+  "tierLabel": "MINOR",
+  "category": "earnings_preview",
+  "summary": "KAMADA TO ANNOUNCE THIRD QUARTER ENDED SEPTEMBER 30, 2020 FINANCIAL RESULTS AND HOST CONFERENCE CALL ON NOVEMBER 11, 2020",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": [
+    "financials"
+  ]
+}

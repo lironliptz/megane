@@ -1,0 +1,17 @@
+{
+  "accession": "0001178913-16-006747",
+  "form": "6-K",
+  "filingDate": "2016-11-02",
+  "reportDate": "2016-11-02",
+  "tier": 2,
+  "tierLabel": "MODERATE",
+  "category": "current_report",
+  "summary": "EXHIBIT 99.1",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 8,
+    "exhibitCount": 1
+  },
+  "tags": []
+}

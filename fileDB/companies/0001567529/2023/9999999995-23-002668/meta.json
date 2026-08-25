@@ -1,0 +1,17 @@
+{
+  "accession": "9999999995-23-002668",
+  "form": "EFFECT",
+  "filingDate": "2023-09-14",
+  "reportDate": null,
+  "tier": 3,
+  "tierLabel": "MINOR",
+  "category": "unknown",
+  "summary": "EFFECT",
+  "signals": {
+    "isXBRL": false,
+    "hasFinancials": false,
+    "fileCount": 7,
+    "exhibitCount": 0
+  },
+  "tags": []
+}
