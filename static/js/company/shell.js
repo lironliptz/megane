@@ -11,8 +11,8 @@
 
 requireAuth();
 
-const TAB_NAMES = ['timeline', 'general', 'filings', 'events'];
-const DEFAULT_TAB = 'timeline';
+const TAB_NAMES = ['general', 'timeline', 'filings', 'events'];
+const DEFAULT_TAB = 'general';
 
 const cik = decodeURIComponent(window.location.pathname.split('/').pop() || '');
 

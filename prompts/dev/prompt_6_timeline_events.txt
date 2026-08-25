@@ -1,0 +1,345 @@
+=== prompt ===
+Improve **Timeline event markers and drill-down** on the company page (`#timeline` tab).
+
+Builds on prompt 3 (timeline API + Chart.js) and prompt 5 (FE tokens). **All server code is Go**;
+frontend is plain HTML/JS in `static/js/company/tab-timeline.js`.
+
+This prompt does **not** replace the Special events tab (`#events`) — that tab is a curated list.
+This prompt is about how filings appear **on the price chart** and what happens when you click them.
+
+
+## Problem (current behavior)
+
+Today (`tab-timeline.js`):
+
+- Event markers are **scatter points pinned to the stock price** on each filing date
+  (`y = adjClose` at the snapped trading day).
+- **Hover tooltip** shows date · form · category · truncated summary (~140 chars) — keep this;
+  it is sufficient for scan mode.
+- **Click** does nothing on the chart (Special events cards jump to `#timeline` only).
+
+User feedback:
+
+1. Markers should sit on a **shared horizontal event lane** (same Y for all events), **not** on the
+   price line — the price series and filing events are different semantics.
+2. **Click** an event → open a **detail panel/modal** with full context (summary, category, links).
+3. For **quarterly results** (`quarterly_results`, and ideally `annual_report`): surface **key
+   numbers on or near the chart** — revenue, net income, EPS, or whatever is available.
+4. Propose and prioritize **other event overlays** worth showing above/on the chart.
+
+
+## Goal
+
+| Priority | Deliverable |
+|----------|-------------|
+| **P0** | Event lane (fixed Y) + click → modal with full filing info |
+| **P1** | Financial callouts for `quarterly_results` / `annual_report` when data exists |
+| **P2** | Optional chart overlays (labels, vertical guides, fiscal bands) — design only unless trivial |
+
+Ship P0 end-to-end first; P1 may require a small API extension.
+
+
+---
+
+## P0 — Event lane (Y-axis placement)
+
+### Design
+
+Treat the chart as **two layers**:
+
+```
+┌─ price area (main y-axis) ─────────────────────────────────────────┐
+│  ~~~ adjusted close line + light fill ~~~                           │
+│                                                                     │
+│  ·  ·    ·        ·   ← event lane (single horizontal row)         │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+- **Price line** stays on the left `y` scale (adjusted close).
+- **All event markers** share one **constant Y** on a dedicated lane — visually near the **bottom**
+  of the chart (≈ 8–12% band above the x-axis), not at `min(price)` (which moves with zoom/window).
+- Markers remain **scatter datasets** (one per weight: major / medium / minor) — no annotation
+  plugin (not vendored; see prompt 3 LLD §7.4).
+
+### Chart.js implementation (recommended)
+
+Add a second y-axis the user never sees:
+
+```javascript
+scales: {
+  y: { /* price — unchanged */ },
+  yEvents: {
+    type: 'linear',
+    display: false,
+    min: 0,
+    max: 1,
+    grid: { display: false },
+  },
+  x: { type: 'category', /* unchanged */ },
+}
+```
+
+Each scatter dataset: `yAxisID: 'yEvents'`, every point `y: 0.5` (or `0.45`).
+
+**Same-day collisions:** when multiple events snap to the same trading day, offset **x** slightly
+using Chart.js category index + fractional pseudo-labels is fragile. Prefer:
+
+- **Stack vertically within the lane:** `y: 0.35`, `0.5`, `0.65` for up to 3 same-day events; or
+- **Widen hit target** and show a “+N filings” tooltip; click opens modal listing all N.
+
+Measured: same-day duplicates are rare in the 2Y window but possible (e.g. 6-K + 4 on one day).
+
+**Non-trading-day snap:** keep existing forward snap to next trading day (`snapIndex` in
+`tab-timeline.js`).
+
+**Events-only mode** (no prices): lane still renders; hide price dataset; yEvents axis fills the
+chart height.
+
+### Visual weight (unchanged rules)
+
+Server `weight` from `companyview.WeightFor(category)` — major triangle, medium rect, minor
+circle. Colors stay tier-distinct (not `--accent` — that is the price line).
+
+
+---
+
+## P0 — Click → event detail modal
+
+### Interaction
+
+| Action | Behavior |
+|--------|----------|
+| **Hover** | Keep current canvas tooltip (minimal). No change required unless truncating more. |
+| **Click** scatter point | Open `#timeline-event-modal` with full event detail. |
+| **Escape / backdrop / Close** | Dismiss modal. |
+| **“View in filings”** | Switch to `#filings` tab; pre-filter year = filing year (optional P0.1). |
+
+Do **not** navigate away from Timeline on click — modal is in-context drill-down.
+
+### Modal content (all dynamic fields via `escHtml()`)
+
+Reuse existing modal chrome from `static/css/style.css` (`.modal-overlay`, `.modal`).
+
+Suggested layout:
+
+```
+┌─ 2024-02-15 · 6-K ──────────────────────────────── × ┐
+│ [quarterly results chip]  MAJOR                       │
+│ Reported quarterly financial results                   │  ← why (if present)
+│ ─────────────────────────────────────────────────────  │
+│ {full summary — not truncated}                         │
+│ Accession 0001567529-24-000123                         │
+│ Tags: …                                                │
+│ [ Open on SEC EDGAR ]  [ View filings tab ]            │
+└────────────────────────────────────────────────────────┘
+```
+
+**SEC link:** `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik}&type=&dateb=&owner=exclude&count=40`
+or direct accession URL if accession is on file:
+`https://www.sec.gov/Archives/edgar/data/{cikNumeric}/{accessionNoDashes}/{accession}-index.htm`
+(build from `event.accessionNumber` + company CIK).
+
+Wire in `static/company.html`:
+
+```html
+<div class="modal-overlay" id="timeline-event-modal" hidden>
+  <div class="modal" role="dialog" aria-labelledby="timeline-event-modal-title">
+    <button type="button" class="modal-close" aria-label="Close">&times;</button>
+    <h3 id="timeline-event-modal-title"></h3>
+    <div id="timeline-event-modal-body"></div>
+  </div>
+</div>
+```
+
+Handler lives in `tab-timeline.js` (or small `timeline-event-modal.js` if file grows).
+
+Chart.js click: `options.onClick` → find nearest scatter point with `ev` in `raw` → populate modal.
+
+**Accessibility:** trap focus in modal while open; restore focus to chart on close.
+
+
+---
+
+## P1 — Financial highlights on the chart
+
+### What we have today
+
+`meta.json` (prompt 2 schema) per filing:
+
+- `summary` — free-text, often mentions revenue/EPS in prose
+- `signals.hasFinancials`, `signals.isXBRL`
+- `reportDate` (optional)
+- **No structured** `revenue`, `netIncome`, `eps` fields in the corpus today
+
+Timeline API `Event` struct (`internal/companyview/timeline.go`) mirrors filing row fields:
+`summary`, `category`, `form`, `tags`, `why` — no numeric facts yet.
+
+### Phased data strategy
+
+| Phase | Source | Effort | Notes |
+|-------|--------|--------|-------|
+| **P1a** | Parse `summary` heuristics | Low | Regex for `$NNN million`, `revenue of`, `EPS`, `%` — best-effort, nullable |
+| **P1b** | Extend `Event` JSON | Medium | Add optional `highlights` block from server |
+| **P1c** | XBRL facts from filing bundle | Heavy | When `isXBRL` and facts file exists under `fileDB/.../accession/` |
+| **P1d** | Ingest-time extraction (LLM/rules) | Future | New field on `meta.json` at build_meta time — out of scope here |
+
+**Recommend:** ship **P1a + P1b** together — server attaches `highlights` when parse succeeds;
+client shows callout when present.
+
+### Proposed `highlights` shape (optional on `Event`)
+
+```json
+{
+  "filingDate": "2024-02-15",
+  "category": "quarterly_results",
+  "summary": "…",
+  "highlights": {
+    "period": "Q3 2023",
+    "currency": "USD",
+    "metrics": [
+      { "label": "Revenue", "value": "42.1M", "delta": "+8% YoY" },
+      { "label": "Net income", "value": "3.2M" },
+      { "label": "EPS", "value": "0.11" }
+    ],
+    "source": "summary_parse"
+  }
+}
+```
+
+Server: `internal/companyview/highlights.go` — pure functions, table-tested; called from
+`BuildEvents` when `category` is `quarterly_results` or `annual_report` and `summary` non-empty.
+
+Do **not** block P0 on P1 — modal can show “Financial highlights unavailable” until P1 lands.
+
+### On-chart display (P1 UI)
+
+For events with `highlights.metrics`:
+
+1. **Modal** — full metrics table (primary).
+2. **Chart callout** (choose one for MVP):
+   - **Option A (recommended):** short **label above marker** on the event lane only for
+     `quarterly_results` / `annual_report`: e.g. `Rev $42.1M` — Chart.js datalabels plugin is
+     **not** bundled; implement with a custom **afterDraw** plugin in `tab-timeline.js` (~40 lines)
+     or second invisible scatter with `pointStyle: false` + manual canvas text (keep readable at
+     1280px).
+   - **Option B:** only show numbers in modal; chart stays markers-only (acceptable if callout
+     work slips).
+
+Limit to **major** financial events in the visible window (≤ ~8 labels) to avoid clutter; hide
+labels when zoom would overlap (simple collision: skip label if previous label within N px).
+
+
+---
+
+## P2 — Other overlays (prioritized backlog)
+
+Suggest showing on or above the chart, in priority order:
+
+| # | Overlay | Categories | Value | Complexity |
+|---|---------|------------|-------|------------|
+| 1 | **Vertical guide** on filing date through price line | major + quarterly | Links price move to filing | Low — line segment in afterDraw |
+| 2 | **Short text label** on event lane | `quarterly_results`, `regulatory_clinical`, `business_deal` | “Q3”, “FDA”, “Deal” | Medium — collision logic |
+| 3 | **Fiscal quarter bands** (shaded x regions) | all | Context for seasonality | Medium — needs fiscal year end from identity |
+| 4 | **Volume spike marker** | price dataset | Unusual volume on event day | Low — compare to 20d avg |
+| 5 | **Price change since prior event** | major | “−12% since last earnings” | Medium |
+| 6 | **Deal / regulatory extracted field** | `business_deal`, `regulatory_clinical` | Counterparty, phase | Depends on summary parse |
+| 7 | **Insider cluster** | `insider_trade` | Optional lane toggle | Low priority — noisy |
+
+Document chosen items in LLD; implement only #1–2 if time after P0+P1.
+
+
+---
+
+## API changes (P1 only)
+
+Extend `companyview.Event`:
+
+```go
+type EventHighlight struct {
+    Period   string            `json:"period,omitempty"`
+    Currency string            `json:"currency,omitempty"`
+    Metrics  []HighlightMetric `json:"metrics,omitempty"`
+    Source   string            `json:"source,omitempty"` // summary_parse | xbrl | manual
+}
+
+type HighlightMetric struct {
+    Label string `json:"label"`
+    Value string `json:"value"`
+    Delta string `json:"delta,omitempty"`
+}
+
+// Event.Highlights *EventHighlight `json:"highlights,omitempty"`
+```
+
+No new endpoint — still `GET /api/companies/:cik/timeline`. Highlights computed in `BuildEvents`.
+
+Tests: `internal/companyview/highlights_test.go` with real Kamada summary snippets.
+
+
+---
+
+## Files to touch
+
+| File | P0 | P1 |
+|------|----|----|
+| `static/js/company/tab-timeline.js` | Event lane y-axis, onClick → modal | afterDraw labels, highlights render |
+| `static/company.html` | `#timeline-event-modal` markup | — |
+| `static/css/style.css` | `.timeline-event-modal-*`, lane spacing tokens | callout typography |
+| `internal/companyview/timeline.go` | — | attach Highlights |
+| `internal/companyview/highlights.go` | — | new |
+| `internal/companyview/highlights_test.go` | — | new |
+
+Do **not** fork Chart.js or add npm deps. Canvas plugins inline in `tab-timeline.js` only.
+
+
+---
+
+## Acceptance criteria
+
+### P0
+
+- [ ] Event markers render on a **single horizontal lane** (not on the price Y value)
+- [ ] Price line + area fill unchanged (prompt 5 / user request)
+- [ ] Hover tooltip unchanged (minimal)
+- [ ] Click marker opens modal with full summary, category, form, tier, why, accession, SEC link
+- [ ] Modal uses `escHtml()` for all filing text; keyboard dismiss works
+- [ ] Same-day events handled without overlapping unreadable markers
+- [ ] Events-only chart (no ticker/prices) still shows event lane
+
+### P1
+
+- [ ] `quarterly_results` and `annual_report` events may include `highlights` in timeline JSON
+- [ ] Modal shows metrics table when `highlights` present
+- [ ] At least one on-chart callout OR documented deferral to modal-only with reason
+- [ ] Parser tests cover ≥3 real summary patterns from Kamada corpus
+- [ ] `make test` passes
+
+### Non-goals
+
+- Replacing hover with click-only
+- LLM summarization at click time
+- Full XBRL browser in this prompt
+- Changing Special events tab behavior (except optional “open same modal” reuse)
+
+
+---
+
+## Implementation order
+
+1. P0 event lane (dual y-axis) + verify markers align on one row
+2. P0 modal HTML + click handler + SEC link
+3. Manual smoke: Kamada CIK `0001567529`, 2Y window, click quarterly marker
+4. P1 `highlights.go` + API field + modal metrics
+5. P1 chart callouts (or document modal-only if label collision too noisy)
+6. Optional: extract shared `openEventModal(ev)` for `#events` tab card clicks
+
+
+---
+
+## References
+
+- `prompts/dev/prompt_3_company_view.txt` — timeline tab spec
+- `prompts/dev/prompt_3_company_view-lld.md` §7.4 — Chart.js constraints
+- `internal/companyview/classify.go` — category → weight / why
+- `docs/design/megane-fe-direction.md` — chart tokens (`--chart-price`)
+- `static/js/company/tab-timeline.js` — current implementation

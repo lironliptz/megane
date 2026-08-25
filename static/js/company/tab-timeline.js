@@ -5,8 +5,11 @@
  *
  *  - The x-axis is a CATEGORY axis, not a time axis. Chart.js 4 needs a date
  *    adapter for `type: 'time'` and none is bundled (only the stub that throws),
- *    so labels are the server's YYYY-MM-DD strings and markers are positioned by
- *    index into those labels.
+ *    so labels are the server's YYYY-MM-DD strings. Event markers use object
+ *    notation ({x, y}) and MUST set x to one of those date strings — the
+ *    category scale resolves object data by matching x against `labels`
+ *    (CategoryScale.parse), not by array index. A numeric index there was a
+ *    real bug: every marker collapsed toward the same position.
  *  - Event markers are three extra scatter DATASETS (one per weight) rather than
  *    an annotation plugin, which is likewise not vendored. Separate datasets make
  *    the lane toggle a `hidden` flag and give tooltips for free.
@@ -66,6 +69,22 @@
     }
   }
 
+  function cssVar(name, fallback) {
+    const v = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+    return v || fallback;
+  }
+
+  function hexToRgba(hex, alpha) {
+    if (!hex || hex.charAt(0) !== '#') return 'rgba(37, 99, 235, ' + alpha + ')';
+    let h = hex.slice(1);
+    if (h.length === 3) h = h.split('').map(function (c) { return c + c; }).join('');
+    if (h.length !== 6) return 'rgba(37, 99, 235, ' + alpha + ')';
+    const r = parseInt(h.slice(0, 2), 16);
+    const g = parseInt(h.slice(2, 4), 16);
+    const b = parseInt(h.slice(4, 6), 16);
+    return 'rgba(' + r + ',' + g + ',' + b + ',' + alpha + ')';
+  }
+
   function render() {
     if (!current) return;
 
@@ -89,16 +108,18 @@
       return true;
     });
 
+    const priceColor = cssVar('--chart-price', '#2563eb');
     const datasets = [{
       type: 'line',
       label: current.ticker ? current.ticker + ' close' : 'Price',
       data: series,
-      borderColor: '#7ac0f5',
-      backgroundColor: 'rgba(122,192,245,.15)',
+      borderColor: priceColor,
+      backgroundColor: hexToRgba(priceColor, 0.18),
       borderWidth: 2,
       pointRadius: 0,
       tension: 0,
       spanGaps: true,
+      fill: 'start',
       order: 10,
     }];
 
@@ -108,7 +129,12 @@
         if (e.weight !== w.key) return;
         const i = snapIndex(e.filingDate);
         if (i < 0 || series[i] == null) return;
-        pts.push({ x: i, y: series[i], ev: e });
+        // x must be the category LABEL (the date string), not the array index —
+        // Chart.js's category scale resolves object-notation points by matching
+        // `x` against `labels` (CategoryScale.parse: `labels[e]===x`); a numeric
+        // index never equality-matches a date string, so every point fell through
+        // to a mismatched-type lookup and collapsed toward the same position.
+        pts.push({ x: labels[i], y: series[i], ev: e });
       });
       datasets.push({
         type: 'scatter',

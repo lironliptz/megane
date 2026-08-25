@@ -51,7 +51,7 @@ else stays quiet and terminal-dense.
 └───────────────────────────────────────────────────────────────────────────┘
 ┌─ company header (compact, no marketing hero) ────────────────────────────┐
 │ KAMADA LTD  [KMDA]     CIK … · Nasdaq · Pharmaceutical Preparations      │
-│ Timeline | General | Filings | Events    ← underline active tab         │
+│ General | Timeline | Filings | Special events    ← underline active tab  │
 └───────────────────────────────────────────────────────────────────────────┘
 ┌─ tab panel (layout-wide, min-height fixed) ───────────────────────────────┐
 │ [1Y] [2Y] [5Y] [All]                                                      │

@@ -4,28 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <title>megane — Company</title>
   <link rel="stylesheet" href="/static/css/style.css">
 </head>
-<body class="app-layout company-page">
+<body class="app-layout layout-compact company-page">
 
+  <!-- app-header -->
   <header class="app-header">
-    <span class="logo">megane</span>
+    <a class="logo-lockup" href="/companies" aria-label="megane home">
+      <img class="logo-mark" src="/static/img/megane-mark.svg" width="24" height="24" alt="">
+      <span class="logo">megane</span>
+    </a>
     <nav>
-      <a href="/companies">Companies</a>
+      <a href="/companies" class="nav-active">Companies</a>
       <a href="/">Analyze</a>
       <a href="/admin" id="admin-link" style="display:none">Admin</a>
     </nav>
     <div class="header-right">
-      <span id="header-email" style="color:var(--text-muted);font-size:.85rem"></span>
+      <span id="header-email" style="color:var(--text-muted);font-size:.8125rem"></span>
       <button class="btn btn-ghost" onclick="logout()">Sign out</button>
     </div>
   </header>
 
-  <main class="main-content">
+  <main class="main-content layout-wide">
     <div id="error-msg" class="error-msg"></div>
 
-    <section class="hero card hero-card">
+    <section class="card company-header-strip">
       <div class="company-title">
         <h1 id="company-name">Loading…</h1>
         <span id="company-tickers"></span>
@@ -34,8 +41,8 @@
     </section>
 
     <div class="tabs company-tabs" role="tablist" aria-label="Company sections">
-      <button class="tab-btn active" role="tab" id="tabbtn-timeline" aria-controls="tab-timeline" aria-selected="true">Timeline</button>
-      <button class="tab-btn" role="tab" id="tabbtn-general" aria-controls="tab-general" aria-selected="false" tabindex="-1">General</button>
+      <button class="tab-btn active" role="tab" id="tabbtn-general" aria-controls="tab-general" aria-selected="true">General</button>
+      <button class="tab-btn" role="tab" id="tabbtn-timeline" aria-controls="tab-timeline" aria-selected="false" tabindex="-1">Timeline</button>
       <button class="tab-btn" role="tab" id="tabbtn-filings" aria-controls="tab-filings" aria-selected="false" tabindex="-1">Filings</button>
       <button class="tab-btn" role="tab" id="tabbtn-events" aria-controls="tab-events" aria-selected="false" tabindex="-1">Special events</button>
     </div>
@@ -43,7 +50,7 @@
     <!-- Tab panels scroll inside this container; the page shell does not. -->
     <div class="tab-container">
 
-      <div class="tab-panel" role="tabpanel" id="tab-general" aria-labelledby="tabbtn-general">
+      <div class="tab-panel active" role="tabpanel" id="tab-general" aria-labelledby="tabbtn-general">
         <div class="card" id="identity-card">
           <h2>Identity</h2>
           <div class="meta-grid" id="identity-grid"></div>
@@ -68,7 +75,7 @@
         </div>
       </div>
 
-      <div class="tab-panel active" role="tabpanel" id="tab-timeline" aria-labelledby="tabbtn-timeline">
+      <div class="tab-panel" role="tabpanel" id="tab-timeline" aria-labelledby="tabbtn-timeline">
         <div class="card" id="timeline-panel-body">
           <h2>Price &amp; filing timeline</h2>
           <div class="timeline-controls">
@@ -129,6 +136,12 @@
         <div class="card">
           <h2>Special events</h2>
           <p class="card-hint" id="events-count">The filings that move the story — earnings, deals, regulatory milestones, corporate actions.</p>
+          <div class="filings-filters events-filters">
+            <label class="timeline-lane-label" for="events-year-jump">Jump to year</label>
+            <select id="events-year-jump" aria-label="Jump to year">
+              <option value="">All years</option>
+            </select>
+          </div>
           <div id="events-list"></div>
         </div>
       </div>

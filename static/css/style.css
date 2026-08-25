@@ -1074,6 +1074,10 @@ html[dir="rtl"] pre {
   min-width: 8rem;
 }
 
+.events-filters {
+  margin-bottom: .75rem;
+}
+
 .filing-summary-cell {
   max-width: 42ch;
   color: var(--text-muted);
@@ -1099,23 +1103,6 @@ html[dir="rtl"] pre {
 
 .tab-panel-shell {
   min-height: 60vh;
-}
-
-.timeline-chart-wrap {
-  min-height: 420px;
-  width: 100%;
-  position: relative;
-}
-
-.timeline-chart-wrap canvas {
-  width: 100% !important;
-  max-height: min(520px, 58vh);
-}
-
-@media (max-width: 640px) {
-  .timeline-chart-wrap {
-    min-height: 360px;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1147,9 +1134,23 @@ body.company-page .main-content {
 }
 
 body.company-page .main-content > .error-msg,
-body.company-page .main-content > .hero-card,
+body.company-page .main-content > .company-header-strip,
 body.company-page .main-content > .company-tabs {
   flex-shrink: 0;
+}
+
+body.company-page .company-header-strip {
+  margin-bottom: 0;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+body.company-page .company-tabs {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0 .25rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: none;
 }
 
 body.company-page .tab-container {
@@ -1157,6 +1158,25 @@ body.company-page .tab-container {
   min-height: 0;
   position: relative;
   overflow: hidden;
+  border: 1px solid var(--border);
+  border-top: none;
+  border-radius: 0 0 var(--radius) var(--radius);
+  background: var(--bg);
+}
+
+body.company-page .tab-panel .card {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 0;
+}
+
+body.company-page .tab-panel .card + .card {
+  border-top: 1px solid var(--border);
+}
+
+body.company-page .tab-panel .card:last-child {
+  margin-bottom: 0;
 }
 
 body.company-page .tab-panel {
@@ -1207,8 +1227,20 @@ body.company-page .tab-panel.active {
 
 .timeline-chart-wrap {
   position: relative;
-  height: clamp(320px, 46vh, 560px);
   width: 100%;
+  min-height: 420px;
+  height: clamp(320px, 46vh, 560px);
+}
+
+.timeline-chart-wrap canvas {
+  width: 100% !important;
+  max-height: min(520px, 58vh);
+}
+
+@media (max-width: 640px) {
+  .timeline-chart-wrap {
+    min-height: 360px;
+  }
 }
 
 .timeline-status-error {
