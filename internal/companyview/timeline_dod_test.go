@@ -2,6 +2,7 @@ package companyview
 
 import (
 	"os"
+	"strings"
 	"testing"
 
 	"megane/internal/filedb"
@@ -26,7 +27,12 @@ func TestTimelineDefinitionOfDone(t *testing.T) {
 	events := BuildEvents(rows, Window{From: "2000-01-01", To: "2100-01-01"}, FilterAll)
 
 	byDate := map[string]Event{}
+	byAccession := map[string]Event{}
 	for _, e := range events {
+		byAccession[e.AccessionNumber] = e
+		// Several filings can share a date -- an annual report and the press
+		// release announcing it are filed the same day -- so date lookups are
+		// only used where the date is unambiguous.
 		if _, seen := byDate[e.FilingDate]; !seen || e.Highlights != nil {
 			byDate[e.FilingDate] = e
 		}
@@ -78,6 +84,54 @@ func TestTimelineDefinitionOfDone(t *testing.T) {
 		if e.Category == "governance" && e.Highlights != nil {
 			t.Errorf("governance event %s has highlights: %+v", e.FilingDate, e.Highlights)
 		}
+	}
+
+	// --- prompt 9: gap-filled from SEC Company Facts ------------------------
+	// 2024-08-14 has no local XBRL bundle unpacked; before prompt 9 it showed
+	// "Financial highlights unavailable."
+	if api, ok := byDate["2024-08-14"]; ok && api.Highlights != nil {
+		gotAPI := map[string]string{}
+		for _, m := range api.Highlights.Metrics {
+			gotAPI[m.Label] = m.Value
+		}
+		for label, w := range map[string]string{
+			"Total revenues":            "$42.5M (+13.4% YoY)",
+			"Basic EPS":                 "$0.08 (+100.0% YoY)",
+			"Net income":                "$4.4M (+144.3% YoY)",
+			"Cash and cash equivalents": "$56.5M (vs 2023-12-31: $55.6M)",
+		} {
+			if gotAPI[label] != w {
+				t.Errorf("2024-08-14 %q = %q, want %q", label, gotAPI[label], w)
+			}
+		}
+		t.Logf("2024-08-14 metrics: %+v", api.Highlights.Metrics)
+	} else {
+		t.Log("2024-08-14: no gap-fill present; run edgar-financials --fill-gaps")
+	}
+
+	// The filing SEC's own feed reports at one thousandth must never render as
+	// thousands of dollars.
+	if bad, ok := byDate["2023-11-13"]; ok && bad.Highlights != nil {
+		for _, m := range bad.Highlights.Metrics {
+			if m.Label != "Total revenues" {
+				continue
+			}
+			if !strings.Contains(m.Value, "$37.9M") {
+				t.Errorf("2023-11-13 revenue = %q, want $37.9M (never $37.9K)", m.Value)
+			}
+		}
+		t.Logf("2023-11-13 metrics: %+v", bad.Highlights.Metrics)
+	}
+
+	// A results filing with no XBRL anywhere keeps the existing empty state.
+	// Addressed by accession: this 6-K press release shares its filing date with
+	// the 20-F it announces, which legitimately does carry figures.
+	if none, ok := byAccession["0001213900-24-020275"]; ok {
+		if len(highlightMetrics(none)) != 0 {
+			t.Errorf("0001213900-24-020275 (no XBRL) should have no metrics, got %+v", highlightMetrics(none))
+		}
+	} else {
+		t.Log("0001213900-24-020275 not in the timeline window")
 	}
 
 	t.Logf("2025-11-10 metrics: %+v", q3.Highlights.Metrics)

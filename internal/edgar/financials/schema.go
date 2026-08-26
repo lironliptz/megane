@@ -38,6 +38,12 @@ const (
 	SourceRendered    = "rendered_html"
 	SourceBoth        = "both"
 	SourceAdjudicated = "llm_adjudicated"
+	// SourceCompanyFacts marks a line gap-filled from SEC's Company Facts API.
+	SourceCompanyFacts = "sec_companyfacts"
+	// SourceNone marks an artifact recording that no source holds facts for this
+	// accession: its statements are empty and nothing is publishable. It exists so
+	// an absent figure is diagnosable rather than merely missing.
+	SourceNone = "none"
 )
 
 // Unit values. Facts in any other unit (for example the NIS-denominated facts in

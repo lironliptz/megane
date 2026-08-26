@@ -1,0 +1,283 @@
+=== prompt ===
+**Gap-fill financial extraction** when on-disk XBRL / rendered reports are missing —
+using **SEC Company Facts API** as a second source alongside prompt 8's local extractor.
+
+This is a **processing gap, not a collection gap.** The numbers were filed and accepted on
+EDGAR; our corpus often holds only `{accession}-xbrl.zip` (inline XBRL inside the primary
+HTML) without the downstream **Financial Report** bundle (`FilingSummary.xml`, `R*.htm`,
+extracted `*_htm.xml`). Prompt 8's `FindInstance()` then finds nothing and writes no
+`financials.json` — even though SEC's aggregate API already has the facts.
+
+**Canonical detail:** `prompt_9_extra_source_for_financial_reports-hld.md` (source choice,
+gap audit, verification) and `-lld.md` (client, mapping, ingest). **This idea file is the
+product spec;** implement from the HLD when they disagree.
+
+Builds on **prompt 8** (`internal/edgar/financials`, `financials.json`, `cmd/edgar-financials`,
+`BuildHighlights`). Does **not** replace prompt 8's local two-source verification when local
+XBRL exists — **adds** a network path for accessions where local extraction cannot run.
+
+No LLM on the happy path. Same governing rule as prompt 8: **withholding beats guessing.**
+
+
+---
+
+## Problem (measured on Kamada CIK `0001567529`)
+
+### What prompt 8 covers today
+
+| Slice | Count |
+|-------|-------|
+| Accessions with `meta.json` | 381 |
+| `quarterly_results` + `annual_report` (qualifying) | 66 |
+| Local XBRL instance discoverable (`FindInstance`) | **15** |
+| `financials.json` written by `edgar-financials` | **15** |
+
+Prompt 8 is **correct for those 15** — values match HLD §3.2. The gap is the other
+**~51 qualifying accessions** that never get a local instance path.
+
+### Example: Q2 2024 (`0001213900-24-068559`)
+
+Live index: `sec.gov/Archives/edgar/data/1567529/000121390024068559/`
+
+On disk in `fileDB` today:
+
+- `{accession}-xbrl.zip` only — **not unpacked**
+- **No** `FilingSummary.xml`, **no** `R*.htm`, **no** `*_htm.xml`
+
+Unzipping the SEC bundle shows **complete inline XBRL**, not a separate classic instance:
+
+```
+kmda-20240630.xsd
+kmda-20240630_cal.xml   kmda-20240630_def.xml
+kmda-20240630_lab.xml   kmda-20240630_pre.xml
+ea0210382-6k_kamada.htm   ← facts tagged inline (ix:*) in primary HTML
+```
+
+There is **no standalone `{ticker}-{date}.xml` instance** — facts live in **Inline XBRL** inside
+the filing HTML. SEC's EDGAR system **optionally** generates the friendly Financial Report
+viewer (`FilingSummary.xml` + `R*.htm` + extracted instance) as a **downstream step**.
+
+Comparing to Q3 2025 (`0001213900-25-107836`), which **did** get the full viewer treatment:
+**that downstream generation does not run for every 6-K** a foreign private issuer files.
+Prompt 8 only reads what landed unpacked in `fileDB`, so when EDGAR skips viewer generation
+(and our fetch never unpacks the zip), extraction finds nothing — **even though the filing
+was accepted with valid XBRL.**
+
+Same pattern confirmed for **Q3 2024** (`0001213900-24-097126`): missing locally, present in
+SEC's aggregate feed.
+
+### Coverage target
+
+For each company in `fileDB`, every accession classified **`quarterly_results`** or
+**`annual_report`** should either:
+
+1. Have a **`financials.json`** with publishable headline metrics (revenue, EPS, net income,
+   cash where applicable), **or**
+2. Have an explicit **skip / withhold record** with a diagnosable reason — never a silent hole
+   on the Timeline modal for a results filing the user expects to be complete.
+
+
+---
+
+## Source decision — SEC Company Facts API (primary for this prompt)
+
+Rather than first building a full **inline-XBRL-from-zip** parser (large surface area), add
+SEC's **canonical structured aggregate**:
+
+```
+GET https://data.sec.gov/api/xbrl/companyfacts/CIK{padded10}.json
+```
+
+Example: `https://data.sec.gov/api/xbrl/companyfacts/CIK0001567529.json`
+
+**Measured (live, 2026-08):**
+
+| Check | Result |
+|-------|--------|
+| Both "missing" Kamada accessions (`24-068559` Q2'24, `24-097126` Q3'24) | **Present** with real revenue figures keyed by `accn` |
+| Revenue history depth | Back to **2015** for this CIK |
+| Shape | `{ "facts": { "ifrs-full": { "Revenue": { "units": { "USD": [ { "accn", "end", "val", "form", "fy", "fp", ... } ] } } } } }` (US-GAAP namespace for US filers) |
+| Per-filing instance parse required | **No** — SEC already normalized facts across all filings |
+
+**Why this over zip-unpack + inline parse first:**
+
+| Approach | Pros | Cons |
+|----------|------|------|
+| **Company Facts API** | One fetch per CIK; accession-keyed facts; sidesteps viewer bundle / zip layout; SEC-maintained | Network; rate limits; requires `User-Agent`; IFRS vs US-GAAP namespace mapping |
+| Unpack `*-xbrl.zip` + parse inline HTML | Fully offline after fetch | New parser; per-filing zip handling; duplicates SEC's normalization work |
+| Wait for EDGAR viewer files | None — passive | **Non-deterministic** — viewer may never appear for some 6-Ks |
+
+**Decision:** Implement **Company Facts as a second source** in `internal/edgar/financials`.
+Keep prompt 8's local path when `FindInstance()` succeeds. **Prefer local when both exist**
+(local + rendered corroboration is stricter). Use Company Facts only to **gap-fill** accessions
+where local extraction returns nil / error **or** as override when local exists but fails
+verification (future — out of scope v1).
+
+**Rejected for v1:** LLM reading filing prose as primary source (prompt 8 D6 adjudication only).
+
+### SEC API requirements
+
+- **`User-Agent` header mandatory** — include app name + contact email (see
+  https://www.sec.gov/os/webmaster-faq#code-support ). Reuse / extend
+  `MARKET_DATA_USER_AGENT` pattern or add `SEC_EDGAR_USER_AGENT` in `.env.example`.
+- **Rate limit:** be polite — cache `companyfacts/{CIK}.json` on disk; do not refetch per
+  accession.
+- **No API key** for `data.sec.gov` public endpoints.
+
+
+---
+
+## Objective
+
+1. **`internal/edgar/financials/companyfacts.go`** — HTTP client + parser mapping SEC JSON →
+   same canonical **`FilingFinancials`** shape prompt 8 uses (no second on-disk schema).
+2. **Gap-fill pass** in `ExtractAll` / new `FillGaps` — for each qualifying accession **without**
+   a trusted local `financials.json`, select facts by **`accn` == accession number** and
+   period matching `meta.json` filing date / form.
+3. **`cmd/edgar-financials` extensions** — flags to fetch Company Facts, report gaps, write
+   gap-filled files. Run **alongside** existing local extraction (local first, API second).
+4. **On-disk cache** — `fileDB/companies/{cik}/.sec/companyfacts.json` (or similar) with
+   `fetchedAt` — refresh policy env-configurable (default: 7 days).
+5. **Coverage report** — list qualifying accessions missing publishable revenue (or all four
+   headline metrics), before and after gap-fill.
+
+### Headline metrics (unchanged from prompt 8)
+
+Map from Company Facts concepts using the same **`elements.go` alias ranks** (IFRS-full for
+Kamada, US-GAAP for domestic issuers):
+
+| Key | Typical concepts |
+|-----|------------------|
+| `total_revenues` | `Revenue`, `Revenues`, … |
+| `eps_basic` | `BasicEarningsLossPerShare`, … |
+| `net_income` | `ProfitLoss`, `NetIncomeLoss`, … |
+| `cash` | `CashAndCashEquivalents`, … |
+
+Set `financials.json` `"source": "sec_companyfacts"` (new enum value) when API-sourced.
+Run **subset of prompt 8 detectors** that apply without rendered HTML (decimals/scale, unit,
+period match). **Do not publish** API values that fail sanity checks.
+
+### Wire / UI
+
+- **Same** `financials.json` beside `meta.json` — `filedb.LoadFinancials` unchanged.
+- **Same** `BuildHighlights` / Timeline modal — no frontend change.
+- Timeline user sees **complete quarterly/yearly highlights** for every results filing where
+  SEC has facts, not only the 15 with local viewer bundles.
+
+
+---
+
+## Gap analysis workflow (product)
+
+New subcommand or flags on `edgar-financials`:
+
+```bash
+# 1. Local extraction (prompt 8 — unchanged)
+go run ./cmd/edgar-financials --root ./fileDB --cik 0001567529 --report
+
+# 2. Show qualifying accessions still missing financials.json
+go run ./cmd/edgar-financials --root ./fileDB --cik 0001567529 --gaps
+
+# 3. Fetch Company Facts once per CIK, gap-fill, re-report
+go run ./cmd/edgar-financials --root ./fileDB --cik 0001567529 --companyfacts --fill-gaps --report
+```
+
+**Acceptance for Kamada:** after `--fill-gaps`, **every** `quarterly_results` and
+`annual_report` accession from **2020 onward** (or every accession SEC's feed keys by `accn`)
+has `financials.json` with at least **revenue** publishable — except filings explicitly
+withheld by verification (document reason in `Line.Notes`).
+
+Target improvement vs today: **15 → ~23+** `financials.json` files for Kamada (exact count
+to be measured in HLD audit — includes Q2/Q3 2024 and other zip-only quarters).
+
+
+---
+
+## Architecture (high level)
+
+```
+cmd/edgar-financials
+  └─ ExtractAll (local)          ← prompt 8, unchanged priority
+  └─ FillGapsFromCompanyFacts   ← NEW
+       └─ companyfacts.Client.Fetch(cik) → cache on disk
+       └─ for each qualifying accession without financials.json:
+            └─ MapFacts(accession, period) → FilingFinancials
+            └─ verify.API subset
+            └─ Write financials.json  (source=sec_companyfacts)
+
+filedb.scan → LoadFinancials (unchanged)
+companyview.BuildHighlights (unchanged)
+```
+
+**Conflict rule:** if `financials.json` already exists from local extraction (`source:
+xbrl_instance` / `rendered_html`), **do not overwrite** unless `--all` + explicit
+`--prefer-companyfacts` (out of scope v1 — local wins).
+
+
+---
+
+## Relationship to other prompts
+
+| Prompt | Role |
+|--------|------|
+| **8** | Local XBRL + rendered corroboration — **keep**; best quality when viewer bundle exists |
+| **6** | Timeline modal consumes `Event.highlights` — no change |
+| **2** | Future `cmd/edgar` unpack should still pull `*-xbrl.zip`; optional future: local inline parse reduces API dependence |
+| **This prompt** | SEC Company Facts client + gap-fill so **quarterly/yearly coverage is complete** |
+
+If prompt 8 HLD says "366/381 will never have financials.json" — **revise that statement**
+for qualifying categories once this prompt ships: absence should mean "SEC has no facts for
+this accession", not "we never looked beyond local disk".
+
+
+---
+
+## Acceptance criteria
+
+- [ ] `companyfacts.go` fetches and parses `CIK0001567529.json`; respects SEC `User-Agent`
+- [ ] Cached copy under `fileDB/companies/{cik}/.sec/` — second run uses cache (no HTTP)
+- [ ] `0001213900-24-068559` and `0001213900-24-097126` produce `financials.json` via API path
+- [ ] Published revenue matches SEC feed spot-check (within formatting tolerance)
+- [ ] Local-only accessions (e.g. `25-107836`) **unchanged** when re-run without `--all`
+- [ ] `--gaps` lists qualifying accessions missing publishable revenue before fill
+- [ ] `--report` after `--fill-gaps` shows increased coverage; suspect/withheld count documented
+- [ ] `make test` / `go test ./internal/edgar/financials/...` includes fixture JSON tests (no live network in CI)
+- [ ] `.env.example` documents `SEC_EDGAR_USER_AGENT` (or shared UA var)
+
+
+---
+
+## Out of scope (v1)
+
+- Full **inline-XBRL parser** from `{accession}-xbrl.zip` (defer — Company Facts first)
+- Replacing prompt 8 local path entirely
+- LLM as primary number source
+- Fetching at Timeline page load (batch / CLI only, same as prompt 8)
+- Multi-CIK production cron (manual / CI harness OK)
+- Segment breakdown from Company Facts (P1 stretch — revenue/EPS/NI/cash only v1)
+- Currency conversion
+
+
+---
+
+## Implementation order
+
+1. Read prompt 8 HLD/LLD + `internal/edgar/financials/*` (especially `schema.go`, `elements.go`, `extract.go`)
+2. HLD: measure exact Kamada gap list (`--gaps` spec), Company Facts concept mapping for IFRS
+3. LLD: `companyfacts.go`, cache path, `MapAccession`, API verification subset
+4. Fixture: trimmed `companyfacts_CIK0001567529.json` snippet for `24-068559` + `24-097126`
+5. Implement client + mapper + tests (httptest, no live SEC in CI)
+6. Wire `FillGaps` into `cmd/edgar-financials`
+7. Smoke: live fetch Kamada, `--fill-gaps --report`, verify Timeline modal on Q2'24 event
+8. `prompt_9_*-implementation.md` as-built notes
+
+
+---
+
+## References
+
+- SEC Company Facts API: https://www.sec.gov/edgar/sec-api-documentation
+- Example entity: https://data.sec.gov/api/xbrl/companyfacts/CIK0001567529.json
+- Prompt 8: `prompts/dev/prompt_8_extracting_info_from_filings-{txt,hld,lld,implementation}.md`
+- Shipped extractor: `internal/edgar/financials/`, `cmd/edgar-financials/main.go`
+- SEC fair access: https://www.sec.gov/os/webmaster-faq#code-support

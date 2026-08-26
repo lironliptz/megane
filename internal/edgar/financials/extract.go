@@ -25,6 +25,10 @@ type Options struct {
 	DryRun bool // compute everything, write nothing
 	LLM    Adjudicator
 	Now    func() time.Time
+	// WriteNoFacts records an explicit "no XBRL was filed" artifact for
+	// qualifying accessions that no source can fill, so a maintainer asking why
+	// a results filing shows no figures gets an answer instead of an absence.
+	WriteNoFacts bool
 }
 
 func (o Options) now() time.Time {
@@ -55,8 +59,10 @@ type Report struct {
 }
 
 type metaJSON struct {
-	Accession string `json:"accession"`
-	Category  string `json:"category"`
+	Accession  string `json:"accession"`
+	Category   string `json:"category"`
+	Form       string `json:"form"`
+	FilingDate string `json:"filingDate"`
 }
 
 // ExtractAccession extracts one accession without the cross-filing chain check,

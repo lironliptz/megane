@@ -120,6 +120,11 @@
           <p id="timeline-status" class="muted"></p>
           <div class="timeline-chart-wrap">
             <canvas id="timeline-chart"></canvas>
+            <label class="timeline-volume-scale" id="tl-volume-log-wrap" hidden>
+              <input type="checkbox" id="tl-volume-log" aria-describedby="tl-volume-log-hint">
+              <span>Log volume</span>
+            </label>
+            <span class="visually-hidden" id="tl-volume-log-hint">Use logarithmic scale for the volume axis</span>
           </div>
         </div>
       </div>

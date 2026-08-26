@@ -336,9 +336,16 @@ confirm column 1 is the prior **year-end**, not the prior-year quarter. Cash emi
 
 ### D8 — Absence is normal; `summary_parse` stays
 
-366/381 accessions will never have a `financials.json`. `BuildHighlights` becomes a
+Most accessions will never have a `financials.json` from *this* path. `BuildHighlights` becomes a
 two-source resolver: financials when present and trusted, else the existing growth-%
 regex, else `nil`. Prompt 6's `highlights.go` is **extended, not replaced**.
+
+> **Revised by prompt 9.** This section originally read "366/381 accessions will never have
+> a `financials.json`", which conflated "local XBRL is absent" with "no figures exist".
+> Prompt 9 adds SEC Company Facts as a gap-fill source and writes explicit no-facts records
+> for the remainder, so for the two qualifying categories every accession now carries an
+> artifact: locally extracted, gap-filled, or an explicit record that no source holds facts
+> for it.
 
 ### D9 — `BuildHighlights` stays pure; IO moves outward
 

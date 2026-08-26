@@ -12,8 +12,9 @@
  *    real bug: every marker collapsed toward the same position.
  *  - Price uses `y` (left, adjusted close); volume uses `yVolume` (right, share
  *    count) — separate scales and vertical bands, never mixed on one axis.
- *  - A layout plugin shrinks each scale's pixel range: price/events top ~83%,
- *    volume bars bottom ~17%.
+ *  - A layout plugin shrinks each scale's pixel range: price/events on top,
+ *    volume bars in a bottom strip (~17% linear, ~33% when log). Log mode uses a
+ *    custom log map inside that band (1·2.5·10·20·50 ticks; axis max strictly above data max, ≤10×).
  *  - Event markers are three extra scatter DATASETS (one per weight) rather than
  *    an annotation plugin, which is likewise not vendored. Separate datasets give
  *    per-weight styling and tooltips for free; the event-type filter (prompt 7)
@@ -42,6 +43,25 @@
   const FILTER_KEY = 'megane.timelineEventFilter.v1';
   let filterChecked = null;   // "form|category" -> bool; null until first buildFilterTree
   let filterOpen = false;
+
+  const VOLUME_SCALE_KEY = 'megane.timelineVolumeLog.v1';
+  let volumeLogScale = false;
+
+  function loadVolumeScalePref() {
+    try {
+      return localStorage.getItem(VOLUME_SCALE_KEY) === '1';
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function saveVolumeScalePref() {
+    try {
+      localStorage.setItem(VOLUME_SCALE_KEY, volumeLogScale ? '1' : '0');
+    } catch (e) {
+      // storage blocked — preference lasts this session only
+    }
+  }
 
   function filterLeafKey(e) { return e.form + '|' + e.category; }
 
@@ -98,6 +118,12 @@
     if (!filterChecked) return true;   // tree not built yet (first render): show everything
     const v = filterChecked[filterLeafKey(e)];
     return v === undefined ? true : v;
+  }
+
+  // Financial-results lane (prompt 10): every quarterly/annual public report
+  // gets its own top-of-chart row, never the general lane too (no duplicates).
+  function isFinancialReport(e) {
+    return e.category === 'quarterly_results' || e.category === 'annual_report';
   }
 
   function updateFilterBadge(tree) {
@@ -315,18 +341,117 @@
     return String(v);
   }
 
-  // Bottom ~17% of the chart area — volume uses yVolume (share count), not price.
-  const VOLUME_BAND_RATIO = 0.17;
+  function formatVolumeAxis(n) {
+    const v = Number(n) || 0;
+    if (v >= 1e6) {
+      const m = v / 1e6;
+      if (Math.abs(m - 2.5) < 1e-6) return '2.5M';
+      return (Math.abs(m - Math.round(m)) < 1e-6 ? String(Math.round(m)) : String(m)) + 'M';
+    }
+    if (v >= 1e3) {
+      const k = v / 1e3;
+      if (Math.abs(k - 2.5) < 1e-6) return '2.5K';
+      return (Math.abs(k - Math.round(k)) < 1e-6 ? String(Math.round(k)) : String(k)) + 'K';
+    }
+    return String(Math.round(v));
+  }
+
+  // Volume strip: linear ~17%; log uses the bottom third of the chart.
+  const VOLUME_BAND_RATIO_LINEAR = 0.17;
+  const VOLUME_LOG_BAND_RATIO = 1 / 3;
   const VOLUME_BAND_GAP = 5;
+  // Log axis: 1 · 2.5 · 10 · 20 · 50 per decade (1K, 2.5K, 10K …); never above 500M.
+  const VOLUME_LOG_STEP_MULTS = [1, 2.5, 10, 20, 50];
+  const VOLUME_LOG_AXIS_MAX_MULTIPLIER = 10;
+  const VOLUME_LOG_TICK_CAP = 500e6;
+
+  function volumeBandRatio() {
+    return volumeLogScale ? VOLUME_LOG_BAND_RATIO : VOLUME_BAND_RATIO_LINEAR;
+  }
 
   function hasVolumeData(volumes) {
     return volumes && volumes.some(function (v) { return v > 0; });
   }
 
-  function volumeMax(volumes) {
+  function volumeDataMax(volumes) {
     let maxVol = 0;
     volumes.forEach(function (v) { if (v > maxVol) maxVol = v; });
+    return maxVol;
+  }
+
+  function volumeMax(volumes) {
+    const maxVol = volumeDataMax(volumes);
     return maxVol > 0 ? maxVol * 1.05 : 1;
+  }
+
+  function volumeMinPositive(volumes) {
+    let minVol = Infinity;
+    volumes.forEach(function (v) {
+      if (v > 0 && v < minVol) minVol = v;
+    });
+    return minVol < Infinity ? minVol * 0.85 : 1;
+  }
+
+  function volumeLogLadder(maxCeiling) {
+    const seen = {};
+    const out = [];
+    for (let p = 0; p <= 8; p++) {
+      const decade = Math.pow(10, p);
+      VOLUME_LOG_STEP_MULTS.forEach(function (m) {
+        const v = m * decade;
+        if (v < 1 || v > maxCeiling || v > VOLUME_LOG_TICK_CAP) return;
+        const key = String(v);
+        if (seen[key]) return;
+        seen[key] = true;
+        out.push(v);
+      });
+    }
+    return out.sort(function (a, b) { return a - b; });
+  }
+
+  // Axis top is the next ladder step strictly above data max, capped at 10× max.
+  function volumeLogAxisBounds(volumes) {
+    const dataMin = volumeMinPositive(volumes);
+    const dataMax = volumeDataMax(volumes);
+    const cap = Math.min(
+      Math.max(dataMax * VOLUME_LOG_AXIS_MAX_MULTIPLIER, dataMax || 1),
+      VOLUME_LOG_TICK_CAP
+    );
+    const ladder = volumeLogLadder(cap);
+
+    let axisMin = ladder[0] || 1;
+    for (let i = 0; i < ladder.length; i++) {
+      if (ladder[i] <= dataMin) axisMin = ladder[i];
+      else break;
+    }
+
+    let axisMax = null;
+    for (let i = 0; i < ladder.length; i++) {
+      if (ladder[i] > dataMax) {
+        axisMax = ladder[i];
+        break;
+      }
+    }
+    if (!axisMax || axisMax > cap) {
+      const above = ladder.filter(function (v) { return v > dataMax && v <= cap; });
+      axisMax = above.length ? above[0] : (ladder.filter(function (v) { return v <= cap; }).pop() || cap);
+    }
+
+    const ticks = ladder.filter(function (v) {
+      return v >= axisMin && v <= axisMax;
+    });
+
+    return { min: axisMin, max: axisMax, ticks: ticks, dataMax: dataMax };
+  }
+
+  // Shared log → pixel mapping for bars and hand-drawn axis labels (volume band only).
+  function volumeLogPixelY(value, layout, bounds) {
+    const lo = Math.log(bounds.min);
+    const hi = Math.log(bounds.max);
+    const span = hi - lo || 1;
+    const v = Math.max(Number(value) || 0, bounds.min);
+    const t = (Math.log(v) - lo) / span;
+    return layout.bottom - t * (layout.bottom - layout.top);
   }
 
   // Splits chartArea vertically: price + events on y / yEvents (top), volume on
@@ -349,7 +474,7 @@
     }
 
     const areaH = area.bottom - area.top;
-    const band = Math.round(areaH * VOLUME_BAND_RATIO);
+    const band = Math.round(areaH * volumeBandRatio());
     const priceBottom = area.bottom - band - VOLUME_BAND_GAP;
     const volTop = priceBottom + VOLUME_BAND_GAP;
 
@@ -362,8 +487,13 @@
     // yVolume: 0 at bottom of chart, max at top of volume strip only — not the price pane.
     chart.scales.yVolume.top = volTop;
     chart.scales.yVolume.bottom = area.bottom;
+    chart.scales.yVolume.height = area.bottom - volTop;
 
-    chart._volLayout = { top: volTop, bottom: area.bottom, band: band };
+    chart._volLayout = {
+      top: volTop,
+      bottom: area.bottom,
+      band: band,
+    };
 
     chart.data.datasets.forEach(function (ds) {
       if (ds.yAxisID === 'yVolume') {
@@ -377,14 +507,16 @@
   // Bar elements are laid out before scale bands exist — re-map y/base in the volume strip.
   function refitVolumeBars(chart) {
     const scale = chart.scales.yVolume;
-    if (!scale || !chart._volLayout) return;
+    const layout = chart._volLayout;
+    const bounds = chart._volLogAxis;
+    if (!scale || !layout) return;
     chart.data.datasets.forEach(function (ds, i) {
       if (ds.yAxisID !== 'yVolume') return;
       const meta = chart.getDatasetMeta(i);
       if (!meta || !meta.data) return;
       meta.data.forEach(function (bar, idx) {
         const vol = Number(ds.data[idx]) || 0;
-        bar.base = scale.getPixelForValue(0);
+        bar.base = layout.bottom;
         if (vol <= 0) {
           bar.y = bar.base;
           bar.height = 0;
@@ -392,10 +524,48 @@
           return;
         }
         bar.skip = false;
-        bar.y = scale.getPixelForValue(vol);
+        if (volumeLogScale && bounds) {
+          bar.y = volumeLogPixelY(vol, layout, bounds);
+        } else {
+          bar.base = scale.bottom;
+          bar.y = scale.getPixelForValue(vol);
+        }
         bar.height = bar.base - bar.y;
       });
     });
+  }
+
+  function drawVolumeLogAxisLabels(chart) {
+    const bounds = chart._volLogAxis;
+    const layout = chart._volLayout;
+    if (!volumeLogScale || !bounds || !layout || !bounds.ticks.length) return;
+    applySplitLayout(chart);
+    const c2d = chart.ctx;
+    const volumeColor = cssVar('--chart-volume', '#94a3b8');
+    const labelX = chart.width - 6;
+    const minGap = 13;
+    const placed = [];
+    bounds.ticks.forEach(function (v, i) {
+      const y = volumeLogPixelY(v, layout, bounds);
+      if (y < layout.top - 2 || y > layout.bottom + 2) return;
+      const last = placed.length ? placed[placed.length - 1] : null;
+      const isEdge = i === 0 || i === bounds.ticks.length - 1;
+      if (last && !isEdge && Math.abs(y - last.y) < minGap) return;
+      if (last && isEdge && Math.abs(y - last.y) < minGap * 0.6) {
+        placed[placed.length - 1] = { v: v, y: y };
+        return;
+      }
+      placed.push({ v: v, y: y });
+    });
+    c2d.save();
+    c2d.font = '11px "IBM Plex Sans", sans-serif';
+    c2d.fillStyle = volumeColor;
+    c2d.textAlign = 'right';
+    c2d.textBaseline = 'middle';
+    placed.forEach(function (item) {
+      c2d.fillText(formatVolumeAxis(item.v), labelX, item.y);
+    });
+    c2d.restore();
   }
 
   const volumeLanePlugin = {
@@ -421,6 +591,9 @@
       c2d.lineTo(area.right, layout.top - VOLUME_BAND_GAP * 0.5);
       c2d.stroke();
       c2d.restore();
+    },
+    afterDraw: function (chart) {
+      drawVolumeLogAxisLabels(chart);
     },
   };
   Chart.register(volumeLanePlugin);
@@ -493,6 +666,89 @@
   };
   Chart.register(periodStripesPlugin);
 
+  // ---- financial-lane on-chart callouts (prompt 10 P1) -------------------
+  const CALLOUT_MAX_LABELED = 12;   // idea file's ">12 visible financial markers" threshold
+  const CALLOUT_MIN_GAP_PX = 80;
+
+  // Priority waterfall for the ONE line shown per marker (a second line is
+  // P2, design-only, not built here). "Major financial events only" (the
+  // idea file's other suggested downgrade) would be a no-op — every
+  // quarterly_results/annual_report event is already WeightMajor
+  // (classify.go's categoryRules) — so revenue-only is the downgrade that
+  // actually reduces label count; see prompt_10 LLD §3.6.
+  function calloutFor(ev) {
+    const h = ev.highlights;
+    if (!h || !h.metrics || !h.metrics.length) return null;
+    const pick = function (re) {
+      for (let i = 0; i < h.metrics.length; i++) if (re.test(h.metrics[i].label)) return h.metrics[i];
+      return null;
+    };
+    const rev = pick(/revenue/i);
+    if (rev) return shortCallout('Rev', rev.value, true);
+    const eps = pick(/eps/i);
+    if (eps) return shortCallout('EPS', eps.value, false);
+    const ni = pick(/net income/i);
+    if (ni) return shortCallout('NI', ni.value, false);
+    return null;
+  }
+
+  // "$47.0M (+12.6% YoY)" -> "Rev $47.0M +13%" — strip the metric's own
+  // label, keep the figure and a rounded YoY sign+percent when present.
+  function shortCallout(prefix, value, isRevenue) {
+    const amt = /\$[\d.,]+[BMK]?/.exec(value);
+    if (!amt) return null;
+    const pct = /([+-]\d+(?:\.\d+)?)%/.exec(value);
+    let text = prefix + ' ' + amt[0];
+    if (pct) {
+      // Math.round() drops a "+" sign for a positive input (JS never prints
+      // one for a positive number) — re-add it explicitly so "+12.6%" still
+      // reads as "+13%", not a bare "13%" indistinguishable from "no sign".
+      const rounded = Math.round(parseFloat(pct[1]));
+      text += ' ' + (rounded >= 0 ? '+' : '') + rounded + '%';
+    }
+    return { text: text, isRevenue: isRevenue };
+  }
+
+  const financialCalloutPlugin = {
+    id: 'financialCallouts',
+    afterDatasetsDraw: function (chart) {
+      const candidates = [];
+      chart.data.datasets.forEach(function (ds, di) {
+        if (!ds.financialLane) return;
+        const meta = chart.getDatasetMeta(di);
+        (ds.data || []).forEach(function (pt, idx) {
+          if (!pt || !pt.ev) return;
+          const c = calloutFor(pt.ev);
+          if (!c) return;
+          const el0 = meta.data[idx];
+          if (!el0) return;
+          // Real rendered pixel position (post-stagger, post-applySplitLayout),
+          // not a recomputed getPixelForValue — tracks the actual marker.
+          candidates.push({ x: el0.x, y: el0.y, text: c.text, isRevenue: c.isRevenue });
+        });
+      });
+      if (!candidates.length) return;
+      candidates.sort(function (a, b) { return a.x - b.x; });   // chronological, left to right
+
+      const revenueOnly = candidates.length > CALLOUT_MAX_LABELED;
+      const c2d = chart.ctx;
+      c2d.save();
+      c2d.font = '11px "IBM Plex Sans", sans-serif';
+      c2d.fillStyle = cssVar('--text', '#0f172a');
+      c2d.textAlign = 'center';
+      c2d.textBaseline = 'bottom';
+      let lastX = -Infinity;
+      candidates.forEach(function (cnd) {
+        if (revenueOnly && !cnd.isRevenue) return;
+        if (cnd.x - lastX < CALLOUT_MIN_GAP_PX) return;   // skip the later (lower-priority) label
+        c2d.fillText(cnd.text, cnd.x, cnd.y - 8);
+        lastX = cnd.x;
+      });
+      c2d.restore();
+    },
+  };
+  Chart.register(financialCalloutPlugin);
+
   function render() {
     if (!current) return;
 
@@ -535,6 +791,11 @@
       });
     }
     const visible = current.events.filter(eventVisible);
+    // Financial-results lane (prompt 10): quarterly/annual reports get their
+    // own top row and are excluded from the general lane's datasets below —
+    // never both, per the idea file's "no duplicates" requirement.
+    const financialEvents = visible.filter(isFinancialReport);
+    const generalEvents = visible.filter(function (e) { return !isFinancialReport(e); });
 
     const priceColor = cssVar('--chart-price', '#2563eb');
     const volumeColor = cssVar('--chart-volume', '#94a3b8');
@@ -570,22 +831,29 @@
       });
     }
 
-    // Events use the hidden `yEvents` axis (0 = bottom, 1 = top) — not price.
-    // Same-day markers get small vertical offsets only; cap total spread so a
-    // busy day stays a tight cluster at the top, not spread down the chart.
-    const EVENT_LANE_Y = 0.965;
-    const EVENT_LANE_MAX_SPREAD = 0.08;
-    const EVENT_LANE_STEP = 0.018;
+    // Two disjoint Y-bands on the shared hidden `yEvents` axis (0 = bottom,
+    // 1 = top — the axis is not reversed). Financial reports get the top
+    // band (where the single general lane used to sit); general events move
+    // to a bottom band (prompt 10 HLD D1 — a real repositioning, not just an
+    // addition). Same-day markers within a lane get small vertical offsets,
+    // capped so a busy day stays a tight cluster, not spread across the pane.
+    const GENERAL_LANE_BASE_Y = 0.13;
+    const GENERAL_LANE_MAX_SPREAD = 0.10;
+    const GENERAL_LANE_STEP = 0.018;
 
-    function eventLaneY(slot, count) {
-      if (count <= 1) return EVENT_LANE_Y;
-      const step = Math.min(EVENT_LANE_STEP, EVENT_LANE_MAX_SPREAD / (count - 1));
-      return EVENT_LANE_Y - slot * step;
+    const FINANCIAL_LANE_BASE_Y = 0.98;
+    const FINANCIAL_LANE_MAX_SPREAD = 0.08;
+    const FINANCIAL_LANE_STEP = 0.015;
+
+    function laneY(base, maxSpread, step, slot, count) {
+      if (count <= 1) return base;
+      const s = Math.min(step, maxSpread / (count - 1));
+      return base - slot * s;
     }
 
     const weightRank = { major: 0, medium: 1, minor: 2 };
     const groups = {};   // label -> [{e, i}]
-    visible.forEach(function (e) {
+    generalEvents.forEach(function (e) {
       const i = snapIndex(e.filingDate);
       if (i < 0 || series[i] == null) return;
       (groups[labels[i]] = groups[labels[i]] || []).push({ e: e, i: i });
@@ -602,7 +870,7 @@
         const g = groups[label];
         g.forEach(function (item, slot) {
           if (item.e.weight !== w.key) return;
-          const y = eventLaneY(slot, g.length);
+          const y = laneY(GENERAL_LANE_BASE_Y, GENERAL_LANE_MAX_SPREAD, GENERAL_LANE_STEP, slot, g.length);
           // x must be the category LABEL (the date string), not the array index —
           // Chart.js's category scale resolves object-notation points by matching
           // `x` against `labels` (CategoryScale.parse: `labels[e]===x`).
@@ -622,6 +890,50 @@
         showLine: false,
         yAxisID: 'yEvents',
         order: 1,
+      });
+    });
+
+    // Financial lane: one dataset per cadence (quarterly / annual), square
+    // markers, cadence-specific color — never mixed into the WEIGHTS datasets
+    // above, so a financial report can never render twice.
+    const FINANCIAL_CADENCES = [
+      { key: 'annual_report', label: 'Annual report', color: cssVar('--chart-financial-a', '#1e3a8a') },
+      { key: 'quarterly_results', label: 'Quarterly report', color: cssVar('--chart-financial-q', '#3b82f6') },
+    ];
+    const finGroups = {};   // label -> [{e, i}]; annual sorted ahead of quarterly on a same-day tie
+    financialEvents.forEach(function (e) {
+      const i = snapIndex(e.filingDate);
+      if (i < 0 || series[i] == null) return;
+      (finGroups[labels[i]] = finGroups[labels[i]] || []).push({ e: e, i: i });
+    });
+    Object.keys(finGroups).forEach(function (label) {
+      finGroups[label].sort(function (a, b) {
+        return (a.e.category === 'annual_report' ? 0 : 1) - (b.e.category === 'annual_report' ? 0 : 1);
+      });
+    });
+    FINANCIAL_CADENCES.forEach(function (c) {
+      const pts = [];
+      Object.keys(finGroups).forEach(function (label) {
+        const g = finGroups[label];
+        g.forEach(function (item, slot) {
+          if (item.e.category !== c.key) return;
+          const y = laneY(FINANCIAL_LANE_BASE_Y, FINANCIAL_LANE_MAX_SPREAD, FINANCIAL_LANE_STEP, slot, g.length);
+          pts.push({ x: label, y: y, ev: item.e });
+        });
+      });
+      datasets.push({
+        type: 'scatter',
+        label: c.label,   // Chart.js legend entry text: "Quarterly report" / "Annual report"
+        data: pts,
+        backgroundColor: c.color,
+        borderColor: c.color,
+        pointRadius: 6,
+        pointHoverRadius: 9,
+        pointStyle: 'rect',
+        showLine: false,
+        yAxisID: 'yEvents',
+        order: 1,
+        financialLane: true,   // custom flag; Chart.js ignores it, financialCalloutPlugin reads it
       });
     });
 
@@ -652,20 +964,23 @@
       },
     };
 
+    let volLogAxis = null;
     if (showVolume) {
+      volLogAxis = volumeLogScale ? volumeLogAxisBounds(volumes) : null;
       scales.yVolume = {
-        type: 'linear',
+        type: volumeLogScale ? 'logarithmic' : 'linear',
         position: 'right',
-        min: 0,
-        max: volumeMax(volumes),
-        beginAtZero: true,
+        min: volumeLogScale ? volLogAxis.min : 0,
+        max: volumeLogScale ? volLogAxis.max : volumeMax(volumes),
+        beginAtZero: !volumeLogScale,
         title: {
-          display: true,
-          text: 'Volume',
+          display: !volumeLogScale,
+          text: volumeLogScale ? 'Volume (log)' : 'Volume',
           color: volumeColor,
           padding: { top: 2, bottom: 0 },
         },
         ticks: {
+          display: !volumeLogScale,
           maxTicksLimit: 3,
           color: volumeColor,
           padding: 2,
@@ -728,6 +1043,10 @@
       },
     });
 
+    if (showVolume && volumeLogScale && volLogAxis) {
+      chart._volLogAxis = volLogAxis;
+    }
+
     // Status line: which half of the data, if any, is missing.
     if (!current.ticker) {
       setStatus('No ticker on file for this company — showing filing events only.');
@@ -746,6 +1065,11 @@
 
     renderFilterTree(tree);
     updateFilterBadge(tree);
+
+    const volScaleWrap = el('tl-volume-log-wrap');
+    const volLogInput = el('tl-volume-log');
+    if (volScaleWrap) volScaleWrap.hidden = !showVolume;
+    if (volLogInput) volLogInput.checked = volumeLogScale;
   }
 
   /* ------------------------------------------------------------ event modal */
@@ -907,11 +1231,21 @@
       closeEventModal();
       if (filterOpen) setFilterOpen(false);
     });
+
+    const volLogInput = el('tl-volume-log');
+    if (volLogInput) {
+      volLogInput.addEventListener('change', function () {
+        volumeLogScale = volLogInput.checked;
+        saveVolumeScalePref();
+        render();
+      });
+    }
   }
 
   CompanyTabs.register('timeline', {
     init: function (c) {
       ctx = c;
+      volumeLogScale = loadVolumeScalePref();
       initRangeSliders();
       wireControls();
       load();

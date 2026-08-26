@@ -35,6 +35,8 @@
   --chart-event-minor: var(--border);
   --chart-period-a: rgba(15, 23, 42, 0.025);
   --chart-period-b: rgba(15, 23, 42, 0.055);
+  --chart-financial-q: #3b82f6;
+  --chart-financial-a: #1e3a8a;
   --focus-ring: 0 0 0 3px rgba(37, 99, 235, .18);
 }
 
@@ -1403,6 +1405,43 @@ body.company-page .tab-panel.active {
 .timeline-chart-wrap canvas {
   width: 100% !important;
   max-height: min(680px, 62vh);
+}
+
+.timeline-volume-scale {
+  position: absolute;
+  right: 0.65rem;
+  bottom: 0.5rem;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 0.25rem 0.45rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  user-select: none;
+}
+
+.timeline-volume-scale input {
+  margin: 0;
+  accent-color: var(--accent);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 @media (max-width: 640px) {
