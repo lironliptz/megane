@@ -1,68 +1,102 @@
-# LLD: Financial-Results Lane on the Timeline Chart
+# LLD: Financial-Results Lane and Metrics on the Timeline Chart
 
-Implements `prompt_10_timeline_events_financial.txt` under the contract in
-`prompt_10_timeline_events_financial-hld.md` (D1–D7). Triage: **STANDARD**.
+Implements `prompt_10_timeline_events_financial.txt` under
+`prompt_10_timeline_events_financial-hld.md` (D1–D8, as-built + follow-ups F1–F3).
+Triage: **STANDARD**.
+
+---
 
 ## 1. Scope
 
-**In (P0):** partition financial events out of the general lane; two-band `yEvents` layout
-(financial top, general bottom — a real repositioning, see HLD §2); square markers, cadence
-colors, per-cadence legend entries.
-**In (P1):** `afterDatasetsDraw` callout plugin — one short revenue/EPS/net-income line above
-a financial marker, collision-aware, with a >12-marker downgrade.
-**Out:** everything the HLD's §5 lists (P2 second-line callout, candlesticks, server field).
+| In scope (shipped) | Out of scope |
+|--------------------|--------------|
+| Partition financial vs general events (HLD D2) | Server `HighlightHeadline` field (HLD D7) |
+| Dual `yEvents` marker bands (D1) | Text callout plugin (D6 — explicitly removed) |
+| Cadence-colored square markers, radius 4 (D3) | Dedicated metrics pane (HLD F1 — follow-up) |
+| `yRevenue` revenue bars + net-income dots (D4) | Split two-row legend (HLD F2 — follow-up) |
+| Filter parity, modal click path (D5) | EPS / cash metric series (future) |
 
-## 2. Current state
+---
 
-See HLD §2 for the corrected premise (general lane is already near the top today, this
-design moves it to the bottom). Real anchors in `static/js/company/tab-timeline.js`:
+## 2. As-built layout (`applySplitLayout`)
 
-- `EVENT_LANE_Y`/`_MAX_SPREAD`/`_STEP` and `eventLaneY()` — lines 731–739.
-- `weightRank` grouping + `WEIGHTS.forEach` dataset build — lines 741–781.
-- `visible` (prompt-7-filtered events) — line 692.
-- Plugin registration precedent (`volumeLanePlugin` line 581, `periodStripesPlugin` line 649)
-  — the callout plugin follows the same `Chart.register(...)` pattern at module scope.
-- `cssVar()` (line 314) and `openEventModal`/`renderHighlights` (lines 931–960) are reused
-  unmodified.
+Vertical split when `yVolume` exists (`volumeLanePlugin`):
 
-## 3. File-by-file changes
+| Band | Fraction of `chartArea` | Scales pinned |
+|------|-------------------------|---------------|
+| Price + events + metrics | top `100% − band − gap` | `y`, `yEvents`, `yRevenue` |
+| Volume | bottom `band` (~17% linear, ~33% log) | `yVolume` |
 
-### 3.1 `static/css/style.css` — two new tokens
+```text
+areaH = chartArea.bottom − chartArea.top
+band  = round(areaH × volumeBandRatio())     // 0.17 or 0.33
+priceBottom = area.bottom − band − VOLUME_BAND_GAP   // 5px
+volTop      = priceBottom + VOLUME_BAND_GAP
 
-In `:root`, next to `--chart-volume` (line 33):
-
-```css
---chart-financial-q: #3b82f6;   /* quarterly_results */
---chart-financial-a: #1e3a8a;   /* annual_report */
+y.top = yEvents.top = yRevenue.top = area.top
+y.bottom = yEvents.bottom = yRevenue.bottom = priceBottom
+yVolume.top = volTop;  yVolume.bottom = area.bottom
 ```
 
-### 3.2 `tab-timeline.js` — partition helper
+Clip per dataset:
 
-Near `eventVisible()` (line 117):
+| `yAxisID` | Clip |
+|-----------|------|
+| `yVolume` | bottom band only |
+| `y`, `yRevenue` | exclude volume band (`bottom: band + gap`) |
+
+When no volume dataset, all scales use full `chartArea`.
+
+---
+
+## 3. File-by-file changes (as-built)
+
+### 3.1 `static/css/style.css`
+
+In `:root` (alongside `--chart-price` / `--chart-volume`):
+
+```css
+--chart-financial-q: #3b82f6;
+--chart-financial-a: #1e3a8a;
+--chart-revenue: #059669;
+--chart-net-income: #7c3aed;
+```
+
+### 3.2 `tab-timeline.js` — helpers (near `eventVisible`)
 
 ```javascript
 function isFinancialReport(e) {
   return e.category === 'quarterly_results' || e.category === 'annual_report';
 }
+
+function parseDollarAmount(str) { /* $47.0M / $5.3M / $120K → number */ }
+
+function findMetricAmount(ev, labelRe) { /* first matching highlights.metrics label */ }
+
+function findMetricDisplay(ev, labelRe) { /* full { label, value } for tooltips */ }
 ```
 
-### 3.3 `tab-timeline.js` — replace the single-lane block (lines 728–781)
+`parseDollarAmount` uses `/\$([\d,.]+)\s*([BMK])?/i` and multiplies by 1e3 / 1e6 / 1e9.
+Returns `null` on mismatch — **no bar is drawn** (withholding beats guessing).
 
-Replace `EVENT_LANE_Y`/`_MAX_SPREAD`/`_STEP`/`eventLaneY` with two parameterized bands and a
-generalized stagger function:
+### 3.3 Partition (in `render()`)
 
 ```javascript
-// Two disjoint Y-bands on the shared hidden yEvents axis (min 0, max 1, not
-// reversed — high Y renders near the TOP of the price pane). Financial stays
-// near the top (where the single general lane used to sit); general moves to
-// the bottom band, per prompt_10 HLD D1/§2.
-const GENERAL_LANE_BASE_Y = 0.13;
-const GENERAL_LANE_MAX_SPREAD = 0.10;   // band ~0.02–0.14
+const visible = current.events.filter(eventVisible);
+const financialEvents = visible.filter(isFinancialReport);
+const generalEvents = visible.filter(function (e) { return !isFinancialReport(e); });
+```
+
+### 3.4 Marker lanes — `yEvents` constants (as-built)
+
+```javascript
+const GENERAL_LANE_BASE_Y = 0.90;
+const GENERAL_LANE_MAX_SPREAD = 0.08;
 const GENERAL_LANE_STEP = 0.018;
 
 const FINANCIAL_LANE_BASE_Y = 0.98;
-const FINANCIAL_LANE_MAX_SPREAD = 0.08; // band ~0.90–0.98
-const FINANCIAL_LANE_STEP = 0.015;
+const FINANCIAL_LANE_MAX_SPREAD = 0.05;
+const FINANCIAL_LANE_STEP = 0.012;
 
 function laneY(base, maxSpread, step, slot, count) {
   if (count <= 1) return base;
@@ -71,215 +105,226 @@ function laneY(base, maxSpread, step, slot, count) {
 }
 ```
 
-Partition right where `visible` is built (line 692):
+**History:** early draft used `GENERAL_LANE_BASE_Y = 0.13` (bottom band) — markers were
+clipped / invisible; reverted to **0.90** per review.
+
+General lane: existing `WEIGHTS.forEach` loop on `generalEvents`, `laneY(GENERAL_…)`.
+
+Financial lane: `FINANCIAL_CADENCES` loop (annual + quarterly datasets), `pointRadius: 4`,
+`pointStyle: 'rect'`, colors from CSS vars.
+
+### 3.5 Financial metrics — `yRevenue` datasets
+
+Built after marker datasets when any publishable amount exists:
 
 ```javascript
-const visible = current.events.filter(eventVisible);
-const financialEvents = visible.filter(isFinancialReport);
-const generalEvents = visible.filter(function (e) { return !isFinancialReport(e); });
-```
+const revenueBars = labels.map(function () { return null; });
+const finMetricEvents = labels.map(function () { return null; });
+let finScaleMax = 0;
 
-The existing `weightRank`/grouping loop (lines 741–752) now runs on `generalEvents` instead
-of `visible` — one-word change (`visible.forEach` → `generalEvents.forEach`) — and
-`WEIGHTS.forEach`'s dataset push (lines 754–781) uses `laneY(GENERAL_LANE_BASE_Y,
-GENERAL_LANE_MAX_SPREAD, GENERAL_LANE_STEP, slot, g.length)` in place of `eventLaneY(slot,
-g.length)`. Dense-day radius reduction (`dense`, minor-only) is unchanged — it's a general-
-lane concern.
-
-### 3.4 `tab-timeline.js` — financial lane datasets
-
-New block, same shape as the `WEIGHTS.forEach` loop, right after it:
-
-```javascript
-const FINANCIAL_CADENCES = [
-  { key: 'annual_report', label: 'Annual report', color: cssVar('--chart-financial-a', '#1e3a8a') },
-  { key: 'quarterly_results', label: 'Quarterly report', color: cssVar('--chart-financial-q', '#3b82f6') },
-];
-const finGroups = {};   // label -> [{e, i}], annual sorted ahead of quarterly on a same-day tie
 financialEvents.forEach(function (e) {
   const i = snapIndex(e.filingDate);
   if (i < 0 || series[i] == null) return;
-  (finGroups[labels[i]] = finGroups[labels[i]] || []).push({ e: e, i: i });
-});
-Object.keys(finGroups).forEach(function (label) {
-  finGroups[label].sort(function (a, b) {
-    return (a.e.category === 'annual_report' ? 0 : 1) - (b.e.category === 'annual_report' ? 0 : 1);
-  });
-});
-FINANCIAL_CADENCES.forEach(function (c) {
-  const pts = [];
-  Object.keys(finGroups).forEach(function (label) {
-    const g = finGroups[label];
-    g.forEach(function (item, slot) {
-      if (item.e.category !== c.key) return;
-      const y = laneY(FINANCIAL_LANE_BASE_Y, FINANCIAL_LANE_MAX_SPREAD, FINANCIAL_LANE_STEP, slot, g.length);
-      pts.push({ x: label, y: y, ev: item.e });
-    });
-  });
-  datasets.push({
-    type: 'scatter',
-    label: c.label,             // Chart.js legend entry text — "Quarterly report" / "Annual report"
-    data: pts,
-    backgroundColor: c.color,
-    borderColor: c.color,
-    pointRadius: 6,
-    pointHoverRadius: 9,
-    pointStyle: 'rect',
-    showLine: false,
-    yAxisID: 'yEvents',
-    order: 1,
-    financialLane: true,        // custom flag the callout plugin (§3.6) reads; Chart.js ignores it
-  });
+  const rev = findMetricAmount(e, /revenue/i);
+  if (rev != null) {
+    revenueBars[i] = rev;
+    finMetricEvents[i] = e;
+    if (rev > finScaleMax) finScaleMax = rev;
+  }
+  const ni = findMetricAmount(e, /net income/i);
+  if (ni != null) {
+    netIncomePts.push({ x: labels[i], y: ni, ev: e });
+    if (ni > finScaleMax) finScaleMax = ni;
+  }
 });
 ```
 
-`snapIndex`/`labels`/`series` are the same closures the general lane already uses — no
-duplication of the non-trading-day snap logic (HLD didn't call out a separate decision for
-this because there isn't one: it's the same date-alignment problem prompt 6 already solved).
-
-### 3.5 `tab-timeline.js` — legend
-
-No markup change. Chart.js's existing `legend: { position: 'bottom', labels: { usePointStyle:
-true, boxWidth: 8 } }` (line ~853) auto-adds one entry per dataset with a `label`, so the two
-new datasets appear automatically once pushed. Verify at 1280px per HLD §6's legend-growth
-risk; if entries wrap awkwardly, that's a `boxWidth`/font-size CSS tweak, not a logic change.
-
-### 3.6 `tab-timeline.js` — P1 callout plugin
-
-New constants + functions near the other plugins (after `periodStripesPlugin`
-registration, line 649):
+**Revenue bar dataset:**
 
 ```javascript
-const CALLOUT_MAX_LABELED = 12;   // idea file's ">12 visible financial markers" threshold
-const CALLOUT_MIN_GAP_PX = 80;
-
-// Priority waterfall for the ONE line shown per marker (not multiple lines —
-// P1 MVP is one line; a second line is P2, design-only). "Major financial
-// events only" (the idea file's other suggested downgrade) is rejected here:
-// every quarterly_results/annual_report event is already WeightMajor
-// (classify.go's categoryRules), so that filter would be a no-op. Revenue-
-// only is the only downgrade that actually reduces label count.
-function calloutFor(ev) {
-  const h = ev.highlights;
-  if (!h || !h.metrics || !h.metrics.length) return null;
-  const pick = function (re) {
-    for (let i = 0; i < h.metrics.length; i++) if (re.test(h.metrics[i].label)) return h.metrics[i];
-    return null;
-  };
-  const rev = pick(/revenue/i);
-  if (rev) return shortCallout('Rev', rev.value, true);
-  const eps = pick(/eps/i);
-  if (eps) return shortCallout('EPS', eps.value, false);
-  const ni = pick(/net income/i);
-  if (ni) return shortCallout('NI', ni.value, false);
-  return null;
+{
+  type: 'bar',
+  label: 'Revenue',
+  data: revenueBars,
+  yAxisID: 'yRevenue',
+  backgroundColor: hexToRgba(revenueColor, 0.55),
+  borderColor: revenueColor,
+  barPercentage: 0.55,
+  order: 3,
+  financialMetric: true,   // click routing
 }
-
-// "$47.0M (+12.6% YoY)" -> "Rev $47.0M +13%" (strip the metric's own label —
-// "Total revenues" etc. — keep the figure and a rounded YoY sign+percent).
-function shortCallout(prefix, value, isRevenue) {
-  const amt = /\$[\d.,]+[BMK]?/.exec(value);
-  if (!amt) return null;
-  const pct = /([+-]\d+(?:\.\d+)?)%/.exec(value);
-  let text = prefix + ' ' + amt[0];
-  if (pct) text += ' ' + Math.round(parseFloat(pct[1])) + '%';
-  return { text: text, isRevenue: isRevenue };
-}
-
-const financialCalloutPlugin = {
-  id: 'financialCallouts',
-  afterDatasetsDraw: function (chart) {
-    const candidates = [];
-    chart.data.datasets.forEach(function (ds, di) {
-      if (!ds.financialLane) return;
-      const meta = chart.getDatasetMeta(di);
-      (ds.data || []).forEach(function (pt, idx) {
-        if (!pt || !pt.ev) return;
-        const c = calloutFor(pt.ev);
-        if (!c) return;
-        const el = meta.data[idx];
-        if (!el) return;
-        candidates.push({ x: el.x, y: el.y, text: c.text, isRevenue: c.isRevenue });
-      });
-    });
-    if (!candidates.length) return;
-    candidates.sort(function (a, b) { return a.x - b.x; });   // chronological, left to right
-
-    const revenueOnly = candidates.length > CALLOUT_MAX_LABELED;
-    const c2d = chart.ctx;
-    c2d.save();
-    c2d.font = '11px "IBM Plex Sans", sans-serif';
-    c2d.fillStyle = cssVar('--text', '#0f172a');
-    c2d.textAlign = 'center';
-    c2d.textBaseline = 'bottom';
-    let lastX = -Infinity;
-    candidates.forEach(function (cnd) {
-      if (revenueOnly && !cnd.isRevenue) return;
-      if (cnd.x - lastX < CALLOUT_MIN_GAP_PX) return;   // skip the lower-priority (later, since
-      c2d.fillText(cnd.text, cnd.x, cnd.y - 8);          // sorted) label on overlap
-      lastX = cnd.x;
-    });
-    c2d.restore();
-  },
-};
-Chart.register(financialCalloutPlugin);
 ```
 
-Uses `chart.getDatasetMeta(di).data[idx]` for pixel position — the *actual* rendered point
-(post-stagger, post-`applySplitLayout`), not a recomputed `getPixelForValue`, so labels track
-the real marker even when `applySplitLayout` has resized the price/events band around the
-volume strip.
+**Net income scatter** (only if any points):
 
-## 4. Tests
+```javascript
+{
+  type: 'scatter',
+  label: 'Net income',
+  data: netIncomePts,       // { x: label, y: ni, ev: e }
+  yAxisID: 'yRevenue',
+  pointRadius: 4,
+  pointStyle: 'circle',
+  order: 2,
+}
+```
 
-The idea file itself calls this **"Tests (light)"** — manual smoke, no existing frontend
-harness for this module (same gap prompts 6/7 already documented; not reopened here). Manual
-smoke plan:
+**Scale** (only when `finScaleMax > 0`):
 
-- Kamada `0001567529`, 2Y preset: blue/dark-blue squares along the top; every other category
-  (governance, insider_trade, business_deal, ...) only on the bottom lane; no category
-  appears on both.
-- Same-day collision: none expected in-corpus for two financial filings, but the stagger
-  math is exercised by any general-lane multi-filing day (e.g. `2026-04-09`'s 17-marker day
-  from prompt 6) — confirms the bottom band still separates markers now that its base moved
-  from `0.965` to `0.13`.
-- Toggle the prompt-7 filter's `6-K → quarterly_results` leaf off: top-lane blue squares
-  disappear; dark-blue annual squares unaffected.
-- `2025-11-10` (Q3 2025, known-good revenue highlight from prompt 8's corpus audit): shows a
-  `Rev $47.0M +13%`-style callout above its square.
-- `All` preset (66 accessions in view): confirms the `>12` downgrade actually engages —
-  non-revenue callouts (EPS/NI) disappear, revenue-only labels remain, spaced ≥80px.
-- Click a financial square: modal opens with the full metrics grid, unchanged from prompt 8.
-- Volume strip + its log-scale checkbox: no visual/functional change (regression check per
-  HLD §7's done-when).
+```javascript
+scales.yRevenue = {
+  type: 'linear',
+  position: 'right',
+  min: 0,
+  max: finScaleMax * 1.08,
+  title: { display: true, text: 'Reported ($)', color: revenueColor },
+  ticks: { maxTicksLimit: 5, callback: function (v) { return formatVolume(v); } },
+  grid: { display: false, drawOnChartArea: false },
+};
+```
 
-## 5. Build order
+After chart construction: `chart._finMetricEvents = finMetricEvents` (parallel to `labels`).
 
-1. CSS tokens (§3.1) — no visible effect alone, safe first commit.
-2. Partition + two-band general-lane relocation (§3.2, §3.3) — verify the general lane alone
-   still renders correctly at its new bottom position before adding anything financial.
-3. Financial lane datasets (§3.4) — verify squares appear, colors correct, no duplicates on
-   the general lane.
-4. Legend check (§3.5) at 1280px.
-5. Callout plugin (§3.6) — verify on `2025-11-10` first, then the `All`-preset downgrade.
-6. Manual smoke (§4) end to end.
+### 3.6 `applySplitLayout` — `yRevenue` hooks
 
-## 6. Risks
+Inside the volume-present branch (and the no-volume early-return branch), set
+`yRevenue.top`, `.bottom`, `.height` to match `y` / `yEvents`. Extend clip loop:
 
-- **General-lane repositioning (HLD §2) is the one part of this LLD most likely to look
-  "wrong" on first render** — build order step 2 isolates it so it's debugged before the
-  financial lane adds visual noise on top.
-- **`chart.getDatasetMeta` timing**: `afterDatasetsDraw` is guaranteed to run after Chart.js
-  has laid out every dataset element for this frame, so `meta.data[idx]` is safe to read
-  here — confirmed against Chart.js's documented plugin hook ordering, not just assumed.
-- **Revenue-value regex (`shortCallout`) is tuned to `HighlightsFromFinancials`'s current
-  format** (`"$47.0M (+12.6% YoY)"`) — if prompt 8/9's formatter ever changes `ValueFmt`
-  shape, this regex silently stops matching (returns `null`, falls through to no callout,
-  never a garbled one) rather than breaking loudly. Acceptable per D6/D7's "withholding
-  beats guessing" philosophy already established in prompt 8.
+```javascript
+} else if (ds.yAxisID === 'y' || ds.yAxisID === 'yRevenue') {
+  ds.clip = { top: 0, left: 0, right: 0, bottom: band + VOLUME_BAND_GAP };
+}
+```
 
-## 7. Done when
+### 3.7 Click and tooltip
 
-Same as the HLD §7 / idea file's Definition of Done: two visually distinct lanes, no
-duplicate rendering, filter parity across both, a real revenue callout on `2025-11-10`, an
-unchanged modal, and no volume-strip regression.
+**`onClick`:**
+
+```javascript
+if (pt && pt.ev) { openEventModal(pt.ev); return; }
+if (ds.financialMetric && chart._finMetricEvents) {
+  const ev = chart._finMetricEvents[el0.index];
+  if (ev) openEventModal(ev);
+}
+```
+
+**Tooltip `label` callback** — add branch for `ds.yAxisID === 'yRevenue'`:
+
+- Scatter with `item.raw.ev` → net-income metric display string.
+- Bar → `Revenue: ` + `formatVolume(item.parsed.y)`.
+
+### 3.8 Legend (as-built)
+
+Single Chart.js bottom legend (`usePointStyle: true`, `boxWidth: 8`). Auto-includes new
+datasets. **Follow-up F2** splits into two rows — not implemented.
+
+### 3.9 Removed — do not re-add
+
+| Artifact | Reason |
+|----------|--------|
+| `financialCalloutPlugin` / `calloutFor` / `shortCallout` | Replaced by D4 bar/dot geometry |
+| `financialLane: true` flag | Was callout-only |
+| `EVENT_LANE_Y = 0.965` single constant | Replaced by dual-band `laneY` |
+
+---
+
+## 4. Label vocabulary (client regex targets)
+
+From `HighlightsFromFinancials` (`internal/companyview/highlights.go`), `MetricRank` order:
+
+| Key | Display label | Used on chart |
+|-----|---------------|---------------|
+| `total_revenues` | Total revenues | Revenue bar (`/revenue/i`) |
+| `eps_basic` | Basic EPS | — (modal only) |
+| `net_income` | Net income | Net-income dot |
+| `cash_and_equivalents` | Cash and cash equivalents | — (modal only) |
+
+YoY and prior strings stay inside `value`; bars use numeric height only (not YoY text).
+
+---
+
+## 5. Tests
+
+No frontend unit harness (same gap as prompts 6/7). Manual smoke on Kamada `0001567529`:
+
+| # | Check |
+|---|--------|
+| 1 | **2Y:** blue/dark-blue squares top band; triangles/dots/circles on general band **below**; never both for same filing |
+| 2 | **Filter:** uncheck `6-K → quarterly_results` → squares gone; annual squares remain |
+| 3 | **`2025-11-10`:** green revenue bar + purple net-income dot; **no** floating `Rev $…` text |
+| 4 | **Click** bar or square → modal metrics; `source: financials` |
+| 5 | **Gap-filled** `2024-08-14` (if in window): bar height matches modal revenue |
+| 6 | **Withheld** filing (e.g. mis-tagged Q1 2024 if in window): square only, no bar |
+| 7 | **Volume regression:** linear + log toggle; markers and revenue bars still visible |
+| 8 | **All preset:** bars readable; no right-axis label pile-up with log-volume labels |
+
+Backend regression: `go test ./internal/companyview/ -run TimelineDefinitionOfDone` unchanged.
+
+---
+
+## 6. Build order (as-built — already landed)
+
+1. CSS tokens (§3.1)
+2. Partition + dual marker bands (§3.3–3.4) — verify general lane visible before metrics
+3. `yRevenue` datasets + scale (§3.5) + layout hooks (§3.6)
+4. Click/tooltip (§3.7)
+5. Manual smoke (§5)
+
+---
+
+## 7. Follow-up LLD sketch (HLD F1–F3)
+
+### F1 — Metrics pane split
+
+Extend `applySplitLayout`:
+
+```javascript
+const FIN_METRICS_RATIO = 1 / 4;   // metrics band = ¼ of price pane → price : metrics = 3 : 1
+// or FIN_METRICS_RATIO = 1/3 of total price+metrics if interpreted as "⅓ of stock graph"
+
+metricsBottom = area.top + round((priceBottom - area.top) * FIN_METRICS_RATIO);
+yRevenue.top = area.top;
+yRevenue.bottom = metricsBottom;
+
+y.top = yEvents.top = metricsBottom + GAP;
+y.bottom = yEvents.bottom = priceBottom;
+```
+
+- Increase `barPercentage` to **~0.75**.
+- Draw a divider line (same pattern as volume divider in `volumeLanePlugin`).
+- Financial / general **marker bands unchanged relative to price sub-pane** (still top of `yEvents` range within `metricsBottom…priceBottom`).
+
+### F2 — Split legend
+
+Option A — filter `generateLabels` into two Chart.js legends (requires plugin or v4 multi-legend config).
+
+Option B — HTML under `#timeline-chart`:
+
+```html
+<div class="timeline-legend timeline-legend-fin">…</div>
+<div class="timeline-legend timeline-legend-stock">…</div>
+```
+
+Populate from dataset metadata on each `render()`.
+
+### F3 — Lane proximity
+
+After F1, set `GENERAL_LANE_BASE_Y = 0.93` (tune in smoke); keep `FINANCIAL_LANE_BASE_Y = 0.98`.
+
+---
+
+## 8. Done when
+
+Matches HLD §7 as-built acceptance. Follow-ups F1–F3 are **not** required for prompt 10
+closure; track as a separate small PR.
+
+---
+
+## 9. Risks (LLD-specific)
+
+| Risk | Note |
+|------|------|
+| `yRevenue` + `yVolume` both `position: 'right'` | OK while pixel ranges disjoint; F1 increases separation |
+| Sparse bar array on category axis | Chart.js skips nulls; bar width follows `barPercentage` |
+| `finMetricEvents[i]` drift if `labels` window changes | Rebuilt every `render()`; no stale state |
+| Re-adding text callouts | Conflicts with D6 — reject in review |

@@ -1,190 +1,233 @@
-# HLD: Financial-Results Lane on the Timeline Chart
+# HLD: Financial-Results Lane and Metrics on the Timeline Chart
 
 Implements `prompts/dev/prompt_10_timeline_events_financial.txt`. Builds on prompt 6 (event
-lane + modal), prompt 7 (client-side filter, period stripes), prompt 8 (`financials.json`,
-`BuildHighlights`), prompt 9 (gap-fill to 66/66 accessions), and the volume-strip work
-(`yVolume`, `applySplitLayout`) that landed alongside prompt 7.
+lane + modal), prompt 7 (client filter, period stripes), prompt 8 (`financials.json`,
+`BuildHighlights`), prompt 9 (gap-fill to **66/66** qualifying accessions), and the volume
+strip (`yVolume`, `applySplitLayout`, log-volume toggle).
 
-Triage: **STANDARD** — no DB/API change for P0–P1, single file (`tab-timeline.js`) carries
-almost all of the work, but it's real canvas/layout logic (a second staggered lane plus a
-collision-aware label plugin), not pure wiring.
+Triage: **STANDARD** — no DB or API change; almost all work lives in `tab-timeline.js` plus
+a few CSS tokens. Layout spans three vertical concerns (financial metrics, price + event
+lanes, volume).
+
+---
 
 ## 1. Objective
 
-Give every `quarterly_results`/`annual_report` filing its own square marker on a dedicated
-top lane, visually separate from the general event lane, and (P1) paint a short revenue
-callout above it when `Event.highlights` has a publishable figure — so an analyst can scan
-"when did we report?" independently of "what else happened?".
+On the company Timeline tab, make quarterly and annual public reports **visually distinct**
+from other filings and plot **publishable headline figures** (revenue, net income) as chart
+geometry — bars and dots on a dollar scale — so an analyst can compare reported fundamentals
+against price and volume over time, not only after opening the modal.
 
-## 2. Current state — correcting the idea file's own premise
+| Priority | Deliverable | Status |
+|----------|-------------|--------|
+| **P0** | Top **financial marker lane** (blue / dark-blue squares); general events on a **separate** lane below; no duplicate markers | **Shipped** |
+| **P0** | Prompt-7 filter applies to both lanes | **Shipped** |
+| **P1** | **Metric series** on chart (`yRevenue`) — revenue bars + net-income dots from `Event.highlights` | **Shipped** (own metrics pane as of F1) |
+| **P1b** (F1) | Dedicated **financial-metrics pane** above the price line (¼ of the pre-split price pane), wider bars, right scale | **Shipped** |
+| **P2** (F2) | Split legend (financial vs stock/volume rows) | **Shipped** |
+| (F3) | Lane proximity — general lane raised toward financial (`0.90 → 0.93`) | **Shipped** |
 
-The idea file's "Problem" table says events sit in "one scatter lane near the **bottom** of
-the price pane (`EVENT_LANE_Y ≈ 0.965`)". That description is stale against the as-built
-code (`static/js/company/tab-timeline.js:731-739`):
+---
 
-```javascript
-const EVENT_LANE_Y = 0.965;   // yEvents axis: min 0, max 1, NOT reversed
+## 2. Current state (as-built)
+
+### 2.1 What the chart shows today
+
+```
+┌─ price pane (y, yEvents, yRevenue share this band) ──────────────────────┐
+│  ■ ■ ■  ← financial markers (yEvents ~0.93–0.98), radius 4              │
+│  · ▲ ·  ← general markers   (yEvents ~0.82–0.90)                         │
+│  ~~~ adjusted close (y, left) ~~~                                        │
+│  ▌ ▌    ← revenue bars (yRevenue, right, green) at report dates only     │
+│  ●      ← net-income dots (yRevenue, purple)                             │
+├─ divider ────────────────────────────────────────────────────────────────┤
+│  volume bars (yVolume, bottom ~17% linear / ~33% log)                    │
+└──────────────────────────────────────────────────────────────────────────┘
 ```
 
-On a non-reversed Chart.js linear y-scale, pixel-top corresponds to the axis **max**, so
-`Y = 0.965` already renders **near the top** of the price pane, not the bottom. (`yEvents`
-itself is confined to the top ~83% of chart height by `applySplitLayout` — the volume strip
-occupies the bottom ~17% on its own `yVolume` scale, added since prompt 6.) The idea file's
-own diagram (general lane drawn at the bottom, financial lane above it) is the actual intent,
-so this HLD implements that intent, but the mechanism is a **real repositioning of the
-existing general lane downward**, not just an addition:
+- **`yEvents`** (hidden, 0 = bottom of price pane, 1 = top): marker lanes only — not dollar values.
+- **`yRevenue`** (visible, right, `"Reported ($)"`): sparse **revenue bars** + **net-income scatter** at snapped trading-day indices; values parsed client-side from `highlights.metrics` (no new API field).
+- **`yVolume`**: unchanged from prompt 4; layout plugin shrinks the price pane when volume is present.
 
-| Lane | Today | This design |
-|---|---|---|
-| General (major/medium/minor) | `Y ≈ 0.965` (top) | `Y ≈ 0.08` band (bottom) |
-| Financial (new) | doesn't exist — financials render in the general "major" dataset | `Y ≈ 0.95` band (top) |
+### 2.2 Correcting common misconceptions
 
-`quarterly_results`/`annual_report` already carry `Weight = WeightMajor`
-(`internal/companyview/classify.go`'s `categoryRules`), so today they render in the general
-lane's major (triangle) dataset, competing for the same Y slots as `business_deal`,
-`regulatory_clinical`, and `annual_guidance` — exactly the idea file's complaint #1.
+| Claim | Reality |
+|-------|---------|
+| Old single lane was "at the bottom" | On a non-reversed `yEvents` scale, **`Y = 0.965` is near the top** of the price pane. Prompt 10 **added** a financial band above and moved general markers **down** to ~0.82–0.90 so both are visible. |
+| Bottom band at `Y ≈ 0.13` | **Rejected in practice** — markers clipped against the volume divider and were hard to see. As-built general lane uses **`GENERAL_LANE_BASE_Y = 0.90`**. |
+| Text callouts above squares (`Rev $47M`) | **Rejected** — user feedback: figures must be **bars/dots on a scale**, comparable to price and volume, not canvas labels. The `financialCalloutPlugin` approach in early LLD drafts was removed. |
+| Server needs `HighlightHeadline` | **No** — `HighlightsFromFinancials` already emits stable `label`/`value` pairs; client regex-picks revenue and net income. |
 
-`Event.Highlights` (`internal/companyview/timeline.go:49`) and `Event.Highlights.Source`
-(`"financials" | "summary_parse"`, `internal/companyview/highlights.go:15`) are already on
-the wire — confirmed no server change is needed for P0/P1, matching the idea file's own
-"None required" call.
+### 2.3 Data on the wire (unchanged)
+
+`GET /api/companies/:cik/timeline` → `events[].highlights`:
+
+```json
+{
+  "source": "financials",
+  "metrics": [
+    { "label": "Total revenues", "value": "$47.0M (+12.6% YoY)" },
+    { "label": "Net income", "value": "$5.3M (+37.1% YoY)" }
+  ]
+}
+```
+
+Only metrics that passed `Line.Publishable()` in prompt 8/9 appear. Withheld or absent
+highlights → square marker still renders; no bar/dot; modal may show "Financial highlights unavailable."
+
+---
 
 ## 3. Architecture decisions
 
-### D1 — Two independent Y-bands on the existing hidden `yEvents` axis
+### D1 — Two marker bands on the existing hidden `yEvents` axis
 
-No new Chart.js scale. Two disjoint bands on `yEvents` (`min:0, max:1`, unchanged):
+No second event scale. As-built constants:
 
-| Lane | Band | Base Y | Categories |
-|---|---|---|---|
-| Financial | `0.90–0.98` | `0.95` | `quarterly_results`, `annual_report` only |
-| General | `0.02–0.14` | `0.08` | everything else |
+| Lane | Base Y | Spread | Categories |
+|------|--------|--------|--------------|
+| Financial | `0.98` | `0.05` | `quarterly_results`, `annual_report` |
+| General | `0.90` | `0.08` | all other visible categories |
 
-Each lane reuses prompt 6's per-day stagger (`eventLaneY(slot, count)`) independently, with
-its own base/step/spread constants — a busy financial day (e.g. Q2 6-K + 20-F same date)
-spreads within `0.90–0.98`; a busy general day spreads within `0.02–0.14`. The two bands
-never overlap, so a mixed day (a 6-K quarterly report plus a governance filing) always shows
-a square above and a dot below, per the idea file's example.
+Each lane uses the same stagger helper (`laneY(base, maxSpread, step, slot, count)`) as prompt 6.
+Financial squares sit **above** general markers; bands do not overlap.
 
-### D2 — Financial events are excluded from the general lane's dataset build, not just filtered
+**Follow-up:** nudge general lane slightly closer to financial (`~0.92` base) once the dedicated metrics pane (§8) frees vertical space.
 
-`isFinancialReport(ev)` (`ev.category === 'quarterly_results' || ev.category ===
-'annual_report'`) partitions `visible` into two arrays **before** the existing
-`WEIGHTS.forEach` grouping loop runs. The general lane's major/medium/minor datasets are
-built from the non-financial partition only — this is what prevents the "no duplicates"
-requirement from becoming a rendering bug (a financial event is never eligible for a
-major-weight triangle once excluded upstream).
+### D2 — Partition before the general-lane dataset build
 
-### D3 — Financial lane is two scatter datasets (cadence = dataset), not one
+`isFinancialReport(ev)` splits `visible` into `financialEvents` and `generalEvents`.
+The `WEIGHTS.forEach` loop runs on **`generalEvents` only** — financial filings never appear as major triangles.
 
-One dataset per cadence, matching the existing `WEIGHTS` pattern (one dataset per weight)
-rather than per-point `pointStyle`/color overrides — same reasoning prompt 6 used: separate
-datasets give per-cadence legend entries and tooltip labels for free, and Chart.js's legend
-already auto-generates one entry per dataset (no separate HTML key needed for P0 — extends
-the existing bottom legend `usePointStyle` row instead of introducing prompt_10's optional
-"small HTML key" alternative).
+### D3 — Financial markers: two scatter datasets (cadence = dataset)
 
-| Dataset | `pointStyle` | Color token | Fallback |
-|---|---|---|---|
-| Quarterly | `'rect'` | `--chart-financial-q` | `#3b82f6` |
-| Annual | `'rect'` | `--chart-financial-a` | `#1e3a8a` |
+| Dataset | Style | Token | Radius |
+|---------|-------|-------|--------|
+| Quarterly report | `'rect'` | `--chart-financial-q` | **4** |
+| Annual report | `'rect'` | `--chart-financial-a` | **4** |
 
-Radius 6 (between general's medium=5 and major=7, per the idea file's "match or slightly
-larger than major markers").
+Chart.js legend picks up one entry per dataset (`usePointStyle: true`).
 
-### D4 — `eventVisible()` (prompt 7 filter) gates both lanes from one predicate
+### D4 — Financial **metrics** use a new `yRevenue` scale (P1)
 
-No change to `buildFilterTree`/`eventVisible` — they already operate on `event.form` +
-`event.category` pairs pulled from whatever's in `current.events`, which includes financial
-categories today. The only change is **where** the filtered result is partitioned (D2). One
-filter tree continues to cover every category across both lanes, per the idea file's
-"Interaction with prompt 7" section.
+Separate from `yEvents` (markers) and `y` (price):
 
-### D5 — Click/modal path is unchanged
+- **Revenue:** `type: 'bar'`, sparse array aligned to price `labels` (null except report days), `barPercentage: 0.55`, green (`--chart-revenue`).
+- **Net income:** `type: 'scatter'`, circle dots, purple (`--chart-net-income`), same axis.
+- **Scale:** linear, `position: 'right'`, `min: 0`, `max: max(revenue, netIncome) × 1.08`, ticks via `formatVolume()`.
+- **Layout:** `applySplitLayout` sets `yRevenue.top/bottom` equal to the **price pane** (same as `y` / `yEvents`), not the volume strip. Revenue datasets clip with the price line (exclude volume band).
 
-`onClick` already resolves `elements[0]` to whichever dataset/point Chart.js's `nearest`
-interaction picked, reads `pt.ev`, and calls `openEventModal(ev)`
-(`tab-timeline.js:844-850`). A financial-lane point's `ev` is a normal `Event` object with
-the same shape as a general-lane point's — no branching needed. `renderHighlights` already
-renders `ev.highlights.metrics` or "Financial highlights unavailable." (`tab-timeline.js:931-941`)
-regardless of which lane the click came from.
+Parsing: `parseDollarAmount()` on `$47.0M`-style strings from `highlights.metrics`; `findMetricAmount(ev, /revenue/i)`.
 
-### D6 — On-chart callouts (P1): a fourth canvas plugin, same family as the other three
+**Why overlay in the price pane (as-built):** fastest path to comparable geometry without a fourth layout band. **Limitation:** revenue bars share vertical space with the price line — readable but crowded on long windows.
 
-`tab-timeline.js` already registers three module-scope `Chart.register(...)` plugins
-(`volumeLanePlugin`, `periodStripesPlugin`, and the layout logic inside them) using
-`beforeDatasetsDraw`/`afterDraw` hooks that read `chart.data`/`chart.scales` at draw time,
-never a stale closure. The callout plugin (`financialCalloutPlugin`, `afterDatasetsDraw`)
-follows the identical shape: walk the financial lane's rendered points (via
-`chart.getDatasetMeta`, so it uses the *actual* pixel positions Chart.js computed, including
-the D1 stagger), pick a metric to print per the idea file's priority table (revenue → EPS →
-net income, first `label` match by regex), and skip a label within 80px of the previous one
-(idea file's collision rule, applied left-to-right in x order since the x-axis is
-chronological). Text only (`fillText`), no HTML — matches D5's precedent that canvas text
-never carries injectable content.
+### D5 — Interaction unchanged
 
-**Deferred to the LLD, per the idea file's own "pick one rule, document in LLD" note:** the
-exact `>12 visible financial markers` downgrade rule (revenue-only vs. major-events-only).
-Both are cheap to compute from the same partitioned array D2 already produces; the LLD picks
-one based on which reads better in the 5Y/All presets where marker counts are highest.
+- **Click** square, dot, or revenue bar → `#timeline-event-modal` via `pt.ev` or `chart._finMetricEvents[index]`.
+- **Tooltips:** revenue bar → `Revenue: …`; net-income dot → full metric line; filing markers → form / summary as before.
+- **`eventVisible()`** gates both lanes; no filter-tree changes.
 
-### D7 — No `HighlightHeadline` server field for P0/P1
+### D6 — No text callout plugin
 
-The idea file offers this as an optional escape hatch "if client matching is too brittle".
-Client-side regex matching (`/revenue/i`, `/eps/i`, `/net income/i` against
-`highlights.metrics[].label`) is straightforward against the label vocabulary
-`HighlightsFromFinancials` already emits (`internal/companyview/highlights.go`'s
-`MetricRank`-ordered `Display` strings: "Total revenues", "Basic EPS", "Net income", ...) —
-no server round-trip needed. Revisit only if the LLD's implementation finds the regex
-genuinely fragile against real corpus label text.
+On-chart numbers are **only** bar/dot positions on `yRevenue`. Do not reintroduce `fillText` metric labels above markers — they do not share a scale with price or volume and were explicitly rejected in review.
+
+### D7 — No server change for P0–P1
+
+`BuildHighlights(category, summary, r.Financials)` in `internal/companyview/timeline.go` already attaches highlights. Revisit `HighlightHeadline` only if client label matching proves fragile against future formatter changes.
+
+### D8 — Volume strip independence (regression guard)
+
+Financial lanes and `yRevenue` live in the price pane only. Volume log mode (~33% band) and custom log axis labels must not alter marker or revenue layout beyond `applySplitLayout`'s `priceBottom` shrink.
+
+---
 
 ## 4. What this touches
 
 | File | Change |
-|---|---|
-| `static/js/company/tab-timeline.js` | Partition `visible` (D2); two-lane Y bands (D1); financial scatter datasets (D3); callout plugin (D6) |
-| `static/css/style.css` | `--chart-financial-q`, `--chart-financial-a` tokens next to `--chart-price`/`--chart-volume` (`:root`, line ~32) |
-| `static/company.html` | None required for P0 — legend is Chart.js-generated (D3). Only touched if the LLD's collision rule needs a UI toggle. |
+|------|--------|
+| `static/js/company/tab-timeline.js` | Partition, dual `yEvents` bands, financial scatter datasets, `yRevenue` + bar/scatter metrics, `applySplitLayout` hooks, helpers (`parseDollarAmount`, …) |
+| `static/css/style.css` | `--chart-financial-q`, `--chart-financial-a`, `--chart-revenue`, `--chart-net-income` |
 
-Not touched: `internal/companyview/*`, `internal/edgar/financials/*`, any Go file, any
-migration, any route.
+Not touched: Go backend, routes, DB, `financials.json` extraction.
+
+---
 
 ## 5. Out of scope
 
-- Replacing `financials.json` extraction (prompts 8–9) — this prompt only *displays* what's
-  already on the wire.
-- Candlesticks, secondary price scales, embedding full income statements on the chart.
-- Moving financial markers onto the price line itself (rejected already in prompt 6).
-- LLM-generated on-chart numbers.
-- P2 (second-line EPS/net-income callout) — design-only per the idea file; not built here
-  unless the LLD finds it trivial once P1's plugin exists.
+- Replacing prompts 8–9 extraction.
+- Candlesticks, full income-statement embed, LLM on-chart numbers.
+- Moving report squares onto the price line (rejected in prompt 6).
+- EPS as a third metric series (easy add later on `yRevenue`).
+
+---
 
 ## 6. Risks
 
-- **Repositioning the general lane (D1) is a visible behavior change**, not additive — every
-  non-financial marker moves from top to bottom of the price pane. Flagged explicitly in §2;
-  the LLD's manual smoke must confirm this reads better, not just "different."
-- **Dense financial windows** (an `All`-range view spanning 66 accessions) is the real stress
-  case for D6's collision logic — untested until the LLD's implementation runs against the
-  live Kamada corpus at the `All` preset.
-- **Legend growth**: adding two more auto-generated Chart.js legend entries (now up to 7:
-  price, volume, major/medium/minor, quarterly, annual) may need `boxWidth`/wrapping
-  attention at narrow viewport widths — a CSS-only concern, not deferred to the LLD's
-  judgment call.
+| Risk | Mitigation |
+|------|------------|
+| **Crowded price pane** — price line + bars + two marker bands | Follow-up §8: dedicated metrics pane above price |
+| **Right-axis clutter** — `yRevenue` + `yVolume` both right | Volume ticks confined to bottom band; log volume uses hand-drawn labels |
+| **Legend length** — up to ~9 entries | Follow-up: two-row legend (§8) |
+| **Regex parse drift** if `ValueFmt` changes | Silent omit (no bar); modal still shows full metrics |
 
-## 7. Done when
+---
 
-Same as the idea file's Definition of Done: on `/companies/0001567529#timeline`, preset 2Y,
-blue/dark-blue squares sit along the top of the price chart on each quarterly/annual filing
-date while every other filing renders only on the bottom lane; toggling the prompt-7 filter
-shows/hides financial squares with their category checkbox; the `2025-11-10` Q3 marker shows
-a revenue callout on the chart; the modal still shows the full metrics table and a working
-SEC link; the volume strip and its log-scale toggle are unaffected.
+## 7. Done when (as-built acceptance)
 
-## 8. Deliverables
+On `/companies/0001567529#timeline`, preset **2Y**:
 
-- Updated `tab-timeline.js` (two-lane split, financial datasets, callout plugin)
-- `--chart-financial-q`/`-a` tokens in `style.css`
-- `prompt_10_timeline_events_financial-lld.md` — exact stagger constants, callout plugin
-  pseudocode, the `>12` downgrade rule, manual-smoke plan (no frontend test harness exists
-  for this module, same gap prompts 6/7 already noted)
+1. Blue / dark-blue **squares** (radius 4) on the **top** marker band for each quarterly/annual filing; other categories only on the **general** band below.
+2. Prompt-7 filter hides/shows financial squares with their category checkbox; no duplicate markers.
+3. **`2025-11-10`** shows a **green revenue bar** and (when present) purple **net-income dot** on the right dollar scale — not a text callout.
+4. Click bar or square → modal with full metrics grid; SEC link works.
+5. Volume strip + log-volume checkbox unchanged.
+
+---
+
+## 8. Follow-up refinements (F1–F3 — shipped)
+
+Captured from product review, implemented as a follow-on slice after the P0/P1 as-built
+stabilized. See `prompt_10_timeline_events_financial-implementation.md` for the as-built
+detail and heavy-level verification evidence.
+
+### F1 — Dedicated financial-metrics pane
+
+Split the **price pane** vertically (extend `applySplitLayout`):
+
+```
+┌─ financial metrics pane (~25% of former price height) ─── yRevenue only ─┐
+│  ▌▌▌▌  wider revenue bars (barPercentage ~0.75), right $ scale            │
+├─ divider ──────────────────────────────────────────────────────────────────┤
+│  ■ financial markers  (yEvents top band — **stay as today**)               │
+│  · general markers    (yEvents — slightly closer to financial, ~0.92)      │
+│  ~~~ price line (y) ~~~                                                    │
+├─ volume strip ─────────────────────────────────────────────────────────────┤
+```
+
+- Metrics pane height ≈ **⅓ of the stock (price) pane** before split — i.e. metrics : price ≈ 1 : 3.
+- Wider bars because reports are ~quarterly, not daily.
+- Report **squares remain on the price sub-pane** at the top of that sub-pane (current behavior relative to price, not absolute canvas top).
+
+### F2 — Split legend (two rows)
+
+| Row | Entries |
+|-----|---------|
+| Financial | Quarterly report, Annual report, Revenue, Net income |
+| Stock / volume | Price, Volume, Major / Moderate / Routine filings |
+
+Implement via Chart.js `legend.labels.generateLabels` filter or a small HTML legend under the canvas — LLD follow-up picks whichever avoids fighting Chart.js defaults.
+
+### F3 — Lane proximity
+
+After F1, raise `GENERAL_LANE_BASE_Y` toward `0.92–0.94` so general markers sit closer to financial squares without overlapping.
+
+---
+
+## 9. Deliverables
+
+| Doc / code | Role |
+|------------|------|
+| `prompt_10_timeline_events_financial-lld.md` | As-built constants, dataset shapes, layout hooks, smoke plan, F1–F3 sketch |
+| `static/js/company/tab-timeline.js` | Implementation |
+| `static/css/style.css` | Chart tokens |
+
+Optional later: `prompt_10_timeline_events_financial-implementation.md` after F1 ships (same pattern as prompt 8/9).

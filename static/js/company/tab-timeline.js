@@ -1,5 +1,12 @@
 /**
- * tab-timeline.js — price line, volume strip, and filing-event markers.
+ * tab-timeline.js — stock chart (price + volume + general filing markers) and
+ * a separate, smaller financial chart (reported revenue) stacked above it.
+ *
+ * Two independent Chart.js instances on two <canvas> elements, not two scales
+ * sharing one canvas — the earlier single-canvas "financial lane + yRevenue
+ * overlay" design was scrapped: financial figures must never render on the
+ * stock chart at all, and the two charts must read as visually separate,
+ * not as bands of one chart.
  *
  * Chart.js notes that are load-bearing here:
  *
@@ -12,16 +19,20 @@
  *    real bug: every marker collapsed toward the same position.
  *  - Price uses `y` (left, adjusted close); volume uses `yVolume` (right, share
  *    count) — separate scales and vertical bands, never mixed on one axis.
- *  - A layout plugin shrinks each scale's pixel range: price/events on top,
- *    volume bars in a bottom strip (~17% linear, ~33% when log). Log mode uses a
- *    custom log map inside that band (1·2.5·10·20·50 ticks; axis max strictly above data max, ≤10×).
- *  - Event markers are three extra scatter DATASETS (one per weight) rather than
- *    an annotation plugin, which is likewise not vendored. Separate datasets give
- *    per-weight styling and tooltips for free; the event-type filter (prompt 7)
- *    works one level below that, by excluding events from `visible` before the
- *    per-weight groups are built at all.
- *  - Chart.js cannot measure a canvas inside display:none, so a chart built while
- *    the tab is hidden renders 0x0 until resize() runs on show().
+ *  - A layout plugin (`applySplitLayout`) splits the stock canvas into two
+ *    bands: price + events (top) and volume (bottom, ~17% linear / ~33% log).
+ *    With no volume data the price/events band is the full chart, unclipped.
+ *  - Event markers use the hidden `yEvents` axis — two lanes: financial
+ *    reports (top, blue squares) and general filings (below, by weight).
+ *    Revenue dollar amounts are NOT on this canvas — only on the financial
+ *    graph above (renderFinancialChart).
+ *  - **Both charts share the same `labels` array and an identical fixed
+ *    y-axis pixel width (`afterFit`)** so their category positions land at
+ *    the same x pixel — this is what makes "same x-axis" true across two
+ *    independent Chart.js layouts, not just "same date range."
+ *  - Chart.js cannot measure a canvas inside display:none, so a chart built
+ *    while the tab is hidden renders 0x0 until resize() runs on show() —
+ *    true for both canvases.
  */
 
 (function () {
@@ -34,6 +45,7 @@
 
   let ctx = null;
   let chart = null;
+  let finChart = null;  // separate financial graph above the stock chart
   let current = null;     // last timeline payload
   let preset = '2Y';
   let loading = false;
@@ -124,6 +136,30 @@
   // gets its own top-of-chart row, never the general lane too (no duplicates).
   function isFinancialReport(e) {
     return e.category === 'quarterly_results' || e.category === 'annual_report';
+  }
+
+  function parseDollarAmount(str) {
+    if (!str) return null;
+    const m = /\$([\d,.]+)\s*([BMK])?/i.exec(String(str));
+    if (!m) return null;
+    let n = parseFloat(m[1].replace(/,/g, ''));
+    if (isNaN(n)) return null;
+    const u = (m[2] || '').toUpperCase();
+    if (u === 'B') n *= 1e9;
+    else if (u === 'M') n *= 1e6;
+    else if (u === 'K') n *= 1e3;
+    return n;
+  }
+
+  function findMetricAmount(ev, labelRe) {
+    const h = ev.highlights;
+    if (!h || !h.metrics) return null;
+    for (let i = 0; i < h.metrics.length; i++) {
+      if (labelRe.test(h.metrics[i].label)) {
+        return parseDollarAmount(h.metrics[i].value);
+      }
+    }
+    return null;
   }
 
   function updateFilterBadge(tree) {
@@ -356,6 +392,22 @@
     return String(Math.round(v));
   }
 
+  function formatMoney(n) {
+    const v = Number(n) || 0;
+    if (v >= 1e9) return '$' + (v / 1e9).toFixed(1) + 'B';
+    if (v >= 1e6) return '$' + (v / 1e6).toFixed(1) + 'M';
+    if (v >= 1e3) return '$' + (v / 1e3).toFixed(0) + 'K';
+    return '$' + String(Math.round(v));
+  }
+
+  // Both charts pin every vertical axis to the same pixel width so their
+  // plot areas start and end at identical x positions — this is what makes
+  // "same x-axis" true across two independent Chart.js instances.
+  const FIN_AXIS_W = 64;
+  function fitAxisWidth(scale) {
+    scale.width = FIN_AXIS_W;
+  }
+
   // Volume strip: linear ~17%; log uses the bottom third of the chart.
   const VOLUME_BAND_RATIO_LINEAR = 0.17;
   const VOLUME_LOG_BAND_RATIO = 1 / 3;
@@ -454,8 +506,11 @@
     return layout.bottom - t * (layout.bottom - layout.top);
   }
 
-  // Splits chartArea vertically: price + events on y / yEvents (top), volume on
-  // yVolume (bottom). Each scale keeps its own min/max — never mixed.
+  // Splits chartArea vertically into up to three stacked bands, top to bottom:
+  // price + events (top) and volume (bottom). Each scale keeps its own
+  // min/max — never mixed. With no volume data, price/events is the full
+  // chart, unclipped. No financial content lives on this canvas at all —
+  // see the separate financial chart below.
   function applySplitLayout(chart) {
     const area = chart.chartArea;
     if (!area || area.bottom <= area.top) return;
@@ -480,25 +535,18 @@
 
     chart.scales.y.top = area.top;
     chart.scales.y.bottom = priceBottom;
-
     chart.scales.yEvents.top = area.top;
     chart.scales.yEvents.bottom = priceBottom;
 
-    // yVolume: 0 at bottom of chart, max at top of volume strip only — not the price pane.
     chart.scales.yVolume.top = volTop;
     chart.scales.yVolume.bottom = area.bottom;
     chart.scales.yVolume.height = area.bottom - volTop;
-
-    chart._volLayout = {
-      top: volTop,
-      bottom: area.bottom,
-      band: band,
-    };
+    chart._volLayout = { top: volTop, bottom: area.bottom, band: band };
 
     chart.data.datasets.forEach(function (ds) {
       if (ds.yAxisID === 'yVolume') {
         ds.clip = { top: areaH - band, left: 0, right: 0, bottom: 0 };
-      } else if (ds.yAxisID === 'y') {
+      } else if (ds.yAxisID === 'y' || ds.yAxisID === 'yEvents') {
         ds.clip = { top: 0, left: 0, right: 0, bottom: band + VOLUME_BAND_GAP };
       }
     });
@@ -579,16 +627,16 @@
     beforeDatasetsDraw: function (chart) {
       applySplitLayout(chart);
       refitVolumeBars(chart);
-      const layout = chart._volLayout;
-      if (!layout) return;
+      const volLayout = chart._volLayout;
+      if (!volLayout) return;
       const area = chart.chartArea;
       const c2d = chart.ctx;
       c2d.save();
       c2d.strokeStyle = cssVar('--border', '#d3d3d3');
       c2d.lineWidth = 1;
       c2d.beginPath();
-      c2d.moveTo(area.left, layout.top - VOLUME_BAND_GAP * 0.5);
-      c2d.lineTo(area.right, layout.top - VOLUME_BAND_GAP * 0.5);
+      c2d.moveTo(area.left, volLayout.top - VOLUME_BAND_GAP * 0.5);
+      c2d.lineTo(area.right, volLayout.top - VOLUME_BAND_GAP * 0.5);
       c2d.stroke();
       c2d.restore();
     },
@@ -652,6 +700,11 @@
       const area = chart.chartArea;
       const xScale = chart.scales.x;
       const c2d = chart.ctx;
+      // Stripes only behind price + events — not the volume band.
+      const volLayout = chart._volLayout;
+      const stripeTop = area.top;
+      const stripeBottom = volLayout ? volLayout.top - VOLUME_BAND_GAP : area.bottom;
+      if (stripeBottom <= stripeTop) return;
       c2d.save();
       for (let i = 0; i < boundaries.length - 1; i++) {
         c2d.fillStyle = (i % 2 === 0)
@@ -659,95 +712,161 @@
           : cssVar('--chart-period-b', 'rgba(15, 23, 42, 0.055)');
         const x0 = xScale.getPixelForValue(boundaries[i]);
         const x1 = xScale.getPixelForValue(boundaries[i + 1]);
-        c2d.fillRect(x0, area.top, x1 - x0, area.bottom - area.top);
+        c2d.fillRect(x0, stripeTop, x1 - x0, stripeBottom - stripeTop);
       }
       c2d.restore();
     },
   };
   Chart.register(periodStripesPlugin);
 
-  // ---- financial-lane on-chart callouts (prompt 10 P1) -------------------
-  const CALLOUT_MAX_LABELED = 12;   // idea file's ">12 visible financial markers" threshold
-  const CALLOUT_MIN_GAP_PX = 80;
-
-  // Priority waterfall for the ONE line shown per marker (a second line is
-  // P2, design-only, not built here). "Major financial events only" (the
-  // idea file's other suggested downgrade) would be a no-op — every
-  // quarterly_results/annual_report event is already WeightMajor
-  // (classify.go's categoryRules) — so revenue-only is the downgrade that
-  // actually reduces label count; see prompt_10 LLD §3.6.
-  function calloutFor(ev) {
-    const h = ev.highlights;
-    if (!h || !h.metrics || !h.metrics.length) return null;
-    const pick = function (re) {
-      for (let i = 0; i < h.metrics.length; i++) if (re.test(h.metrics[i].label)) return h.metrics[i];
-      return null;
-    };
-    const rev = pick(/revenue/i);
-    if (rev) return shortCallout('Rev', rev.value, true);
-    const eps = pick(/eps/i);
-    if (eps) return shortCallout('EPS', eps.value, false);
-    const ni = pick(/net income/i);
-    if (ni) return shortCallout('NI', ni.value, false);
-    return null;
+  // Custom legend rows below the charts (the canvases' own legends are off):
+  // tl-legend-stock lists the stock chart's datasets, tl-legend-fin is filled
+  // by renderFinancialChart. Swatch colors come from our own cssVar/WEIGHTS
+  // constants; labels are escaped like any other inserted text.
+  function renderChartLegend(datasets) {
+    const host = el('tl-legend-stock');
+    if (!host) return;
+    let html = '';
+    datasets.forEach(function (ds) {
+      let swatch = 'timeline-legend-swatch-square';
+      let color = ds.borderColor || ds.backgroundColor;
+      if (ds.type === 'line') {
+        swatch = 'timeline-legend-swatch-line';
+        color = ds.borderColor;
+      } else if (ds.type === 'scatter') {
+        swatch = ds.pointStyle === 'triangle' ? 'timeline-legend-swatch-triangle'
+          : ds.pointStyle === 'circle' ? 'timeline-legend-swatch-circle'
+          : 'timeline-legend-swatch-square';
+        color = ds.backgroundColor;
+      }
+      if (!color || !ds.label) return;
+      html += '<span class="timeline-legend-item">' +
+        '<span class="timeline-legend-swatch ' + swatch + '" style="color:' + color + '"></span>' +
+        escHtml(ds.label) + '</span>';
+    });
+    host.innerHTML = html;
   }
 
-  // "$47.0M (+12.6% YoY)" -> "Rev $47.0M +13%" — strip the metric's own
-  // label, keep the figure and a rounded YoY sign+percent when present.
-  function shortCallout(prefix, value, isRevenue) {
-    const amt = /\$[\d.,]+[BMK]?/.exec(value);
-    if (!amt) return null;
-    const pct = /([+-]\d+(?:\.\d+)?)%/.exec(value);
-    let text = prefix + ' ' + amt[0];
-    if (pct) {
-      // Math.round() drops a "+" sign for a positive input (JS never prints
-      // one for a positive number) — re-add it explicitly so "+12.6%" still
-      // reads as "+13%", not a bare "13%" indistinguishable from "no sign".
-      const rounded = Math.round(parseFloat(pct[1]));
-      text += ' ' + (rounded >= 0 ? '+' : '') + rounded + '%';
+  // Financial graph (prompt 10): separate chart ABOVE the stock chart, ~1/3
+  // its height (CSS), one Revenue bar per quarterly/annual report. Shares the
+  // stock chart's category labels and pins its axes to the same pixel width
+  // (fitAxisWidth) so category positions land on the same x pixels. Bars use
+  // barPercentage 5 (Chart.js multiplies categoryPercentage × barPercentage
+  // with no clamp), so each bar spans five trading-day slots — the default
+  // 0.9 × 0.8 footprint would be a hairline at 2Y+ windows.
+  function renderFinancialChart(labels, financialEvents, snapIndex, showVolume) {
+    const wrap = el('tl-financial-wrap');
+    const canvas = el('timeline-chart-financial');
+    const legendHost = el('tl-legend-fin');
+    if (finChart) { finChart.destroy(); finChart = null; }
+    if (!wrap || !canvas) return;
+
+    // One bar per trading-day label; on a same-day collision keep the
+    // larger figure (annual report filed alongside a quarterly).
+    const byLabel = {};
+    financialEvents.forEach(function (ev) {
+      const revenue = findMetricAmount(ev, /revenue/i);
+      if (revenue == null) return;
+      const i = snapIndex(ev.filingDate);
+      if (i < 0) return;
+      const label = labels[i];
+      if (!byLabel[label] || byLabel[label].y < revenue) {
+        byLabel[label] = { x: label, y: revenue, ev: ev };
+      }
+    });
+    const pts = Object.keys(byLabel).map(function (k) { return byLabel[k]; });
+
+    if (!pts.length) {
+      wrap.hidden = true;
+      if (legendHost) legendHost.innerHTML = '';
+      return;
     }
-    return { text: text, isRevenue: isRevenue };
+    wrap.hidden = false;
+
+    const finColor = cssVar('--chart-financial-q', '#3b82f6');
+    const scales = {
+      x: { type: 'category', ticks: { display: false }, grid: { display: false } },
+      yRev: {
+        type: 'linear',
+        position: 'left',
+        beginAtZero: true,
+        afterFit: fitAxisWidth,
+        title: { display: true, text: 'Revenue', color: finColor },
+        ticks: {
+          maxTicksLimit: 4,
+          color: finColor,
+          callback: function (v) { return formatMoney(v); },
+        },
+        grid: { drawOnChartArea: true },
+      },
+    };
+    if (showVolume) {
+      // Invisible right axis reserving the same width as the stock chart's
+      // volume axis, so both plot areas end at the same x pixel. display is
+      // NOT false (a display:false scale takes no layout space) — instead
+      // every drawn part is turned off individually.
+      scales.yRevPad = {
+        type: 'linear',
+        position: 'right',
+        afterFit: fitAxisWidth,
+        border: { display: false },
+        ticks: { display: false },
+        grid: { display: false, drawOnChartArea: false },
+      };
+    }
+
+    finChart = new Chart(canvas.getContext('2d'), {
+      type: 'bar',
+      data: {
+        labels: labels,
+        datasets: [{
+          label: 'Revenue',
+          data: pts,
+          backgroundColor: hexToRgba(finColor, 0.85),
+          hoverBackgroundColor: finColor,
+          borderWidth: 0,
+          barPercentage: 5,
+          categoryPercentage: 1,
+          yAxisID: 'yRev',
+        }],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'nearest', intersect: true },
+        onClick: function (evt, elements) {
+          if (!elements.length) return;
+          const el0 = elements[0];
+          const pt = finChart.data.datasets[el0.datasetIndex].data[el0.index];
+          if (pt && pt.ev) openEventModal(pt.ev);
+        },
+        scales: scales,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              title: function (items) {
+                const it = items[0];
+                return (it && it.raw && it.raw.ev) ? it.raw.ev.filingDate : '';
+              },
+              label: function (item) {
+                const ev = item.raw && item.raw.ev;
+                const out = ['Revenue: ' + formatMoney(item.parsed.y)];
+                if (ev) out.push(ev.form + ' · ' + String(ev.category || '').replace(/_/g, ' '));
+                return out;
+              },
+            },
+          },
+        },
+      },
+    });
+
+    if (legendHost) {
+      legendHost.innerHTML = '<span class="timeline-legend-item">' +
+        '<span class="timeline-legend-swatch timeline-legend-swatch-square" style="color:' +
+        finColor + '"></span>Revenue (reported)</span>';
+    }
   }
-
-  const financialCalloutPlugin = {
-    id: 'financialCallouts',
-    afterDatasetsDraw: function (chart) {
-      const candidates = [];
-      chart.data.datasets.forEach(function (ds, di) {
-        if (!ds.financialLane) return;
-        const meta = chart.getDatasetMeta(di);
-        (ds.data || []).forEach(function (pt, idx) {
-          if (!pt || !pt.ev) return;
-          const c = calloutFor(pt.ev);
-          if (!c) return;
-          const el0 = meta.data[idx];
-          if (!el0) return;
-          // Real rendered pixel position (post-stagger, post-applySplitLayout),
-          // not a recomputed getPixelForValue — tracks the actual marker.
-          candidates.push({ x: el0.x, y: el0.y, text: c.text, isRevenue: c.isRevenue });
-        });
-      });
-      if (!candidates.length) return;
-      candidates.sort(function (a, b) { return a.x - b.x; });   // chronological, left to right
-
-      const revenueOnly = candidates.length > CALLOUT_MAX_LABELED;
-      const c2d = chart.ctx;
-      c2d.save();
-      c2d.font = '11px "IBM Plex Sans", sans-serif';
-      c2d.fillStyle = cssVar('--text', '#0f172a');
-      c2d.textAlign = 'center';
-      c2d.textBaseline = 'bottom';
-      let lastX = -Infinity;
-      candidates.forEach(function (cnd) {
-        if (revenueOnly && !cnd.isRevenue) return;
-        if (cnd.x - lastX < CALLOUT_MIN_GAP_PX) return;   // skip the later (lower-priority) label
-        c2d.fillText(cnd.text, cnd.x, cnd.y - 8);
-        lastX = cnd.x;
-      });
-      c2d.restore();
-    },
-  };
-  Chart.register(financialCalloutPlugin);
 
   function render() {
     if (!current) return;
@@ -791,9 +910,6 @@
       });
     }
     const visible = current.events.filter(eventVisible);
-    // Financial-results lane (prompt 10): quarterly/annual reports get their
-    // own top row and are excluded from the general lane's datasets below —
-    // never both, per the idea file's "no duplicates" requirement.
     const financialEvents = visible.filter(isFinancialReport);
     const generalEvents = visible.filter(function (e) { return !isFinancialReport(e); });
 
@@ -831,25 +947,67 @@
       });
     }
 
-    // Two disjoint Y-bands on the shared hidden `yEvents` axis (0 = bottom,
-    // 1 = top — the axis is not reversed). Financial reports get the top
-    // band (where the single general lane used to sit); general events move
-    // to a bottom band (prompt 10 HLD D1 — a real repositioning, not just an
-    // addition). Same-day markers within a lane get small vertical offsets,
-    // capped so a busy day stays a tight cluster, not spread across the pane.
-    const GENERAL_LANE_BASE_Y = 0.13;
-    const GENERAL_LANE_MAX_SPREAD = 0.10;
-    const GENERAL_LANE_STEP = 0.018;
-
+    // Two marker lanes on the hidden `yEvents` axis (0 = bottom, 1 = top):
+    // financial reports (top, squares) and general filings (below, by weight).
     const FINANCIAL_LANE_BASE_Y = 0.98;
-    const FINANCIAL_LANE_MAX_SPREAD = 0.08;
-    const FINANCIAL_LANE_STEP = 0.015;
+    const FINANCIAL_LANE_MAX_SPREAD = 0.05;
+    const FINANCIAL_LANE_STEP = 0.012;
+
+    const GENERAL_LANE_BASE_Y = 0.93;
+    const GENERAL_LANE_MAX_SPREAD = 0.08;
+    const GENERAL_LANE_STEP = 0.018;
 
     function laneY(base, maxSpread, step, slot, count) {
       if (count <= 1) return base;
       const s = Math.min(step, maxSpread / (count - 1));
       return base - slot * s;
     }
+
+    const finColorQ = cssVar('--chart-financial-q', '#3b82f6');
+    const finColorA = cssVar('--chart-financial-a', '#1e3a8a');
+    const FINANCIAL_CADENCES = [
+      { key: 'quarterly_results', label: 'Quarterly report', color: finColorQ },
+      { key: 'annual_report', label: 'Annual report', color: finColorA },
+    ];
+
+    const finGroups = {};
+    financialEvents.forEach(function (e) {
+      const i = snapIndex(e.filingDate);
+      if (i < 0) return;
+      (finGroups[labels[i]] = finGroups[labels[i]] || []).push({ e: e, i: i });
+    });
+    Object.keys(finGroups).forEach(function (label) {
+      finGroups[label].sort(function (a, b) {
+        return a.e.category.localeCompare(b.e.category);
+      });
+    });
+
+    FINANCIAL_CADENCES.forEach(function (cad) {
+      const pts = [];
+      Object.keys(finGroups).forEach(function (label) {
+        const g = finGroups[label];
+        g.forEach(function (item, slot) {
+          if (item.e.category !== cad.key) return;
+          const y = laneY(FINANCIAL_LANE_BASE_Y, FINANCIAL_LANE_MAX_SPREAD,
+            FINANCIAL_LANE_STEP, slot, g.length);
+          pts.push({ x: label, y: y, ev: item.e, dayCount: g.length });
+        });
+      });
+      if (!pts.length) return;
+      datasets.push({
+        type: 'scatter',
+        label: cad.label,
+        data: pts,
+        backgroundColor: cad.color,
+        borderColor: cad.color,
+        pointRadius: 5,
+        pointHoverRadius: 8,
+        pointStyle: 'rect',
+        showLine: false,
+        yAxisID: 'yEvents',
+        order: 0,
+      });
+    });
 
     const weightRank = { major: 0, medium: 1, minor: 2 };
     const groups = {};   // label -> [{e, i}]
@@ -893,54 +1051,13 @@
       });
     });
 
-    // Financial lane: one dataset per cadence (quarterly / annual), square
-    // markers, cadence-specific color — never mixed into the WEIGHTS datasets
-    // above, so a financial report can never render twice.
-    const FINANCIAL_CADENCES = [
-      { key: 'annual_report', label: 'Annual report', color: cssVar('--chart-financial-a', '#1e3a8a') },
-      { key: 'quarterly_results', label: 'Quarterly report', color: cssVar('--chart-financial-q', '#3b82f6') },
-    ];
-    const finGroups = {};   // label -> [{e, i}]; annual sorted ahead of quarterly on a same-day tie
-    financialEvents.forEach(function (e) {
-      const i = snapIndex(e.filingDate);
-      if (i < 0 || series[i] == null) return;
-      (finGroups[labels[i]] = finGroups[labels[i]] || []).push({ e: e, i: i });
-    });
-    Object.keys(finGroups).forEach(function (label) {
-      finGroups[label].sort(function (a, b) {
-        return (a.e.category === 'annual_report' ? 0 : 1) - (b.e.category === 'annual_report' ? 0 : 1);
-      });
-    });
-    FINANCIAL_CADENCES.forEach(function (c) {
-      const pts = [];
-      Object.keys(finGroups).forEach(function (label) {
-        const g = finGroups[label];
-        g.forEach(function (item, slot) {
-          if (item.e.category !== c.key) return;
-          const y = laneY(FINANCIAL_LANE_BASE_Y, FINANCIAL_LANE_MAX_SPREAD, FINANCIAL_LANE_STEP, slot, g.length);
-          pts.push({ x: label, y: y, ev: item.e });
-        });
-      });
-      datasets.push({
-        type: 'scatter',
-        label: c.label,   // Chart.js legend entry text: "Quarterly report" / "Annual report"
-        data: pts,
-        backgroundColor: c.color,
-        borderColor: c.color,
-        pointRadius: 6,
-        pointHoverRadius: 9,
-        pointStyle: 'rect',
-        showLine: false,
-        yAxisID: 'yEvents',
-        order: 1,
-        financialLane: true,   // custom flag; Chart.js ignores it, financialCalloutPlugin reads it
-      });
-    });
-
     const canvas = el('timeline-chart');
     if (chart) { chart.destroy(); chart = null; }
 
     if (!labels.length && !visible.length) {
+      if (finChart) { finChart.destroy(); finChart = null; }
+      const finWrap = el('tl-financial-wrap');
+      if (finWrap) finWrap.hidden = true;
       setStatus('No filings or prices in this window.');
       return;
     }
@@ -950,6 +1067,7 @@
       y: {
         type: 'linear',
         position: 'left',
+        afterFit: fitAxisWidth,
         title: { display: true, text: 'Adjusted close', color: priceColor },
         ticks: { maxTicksLimit: 6, color: priceColor },
         grid: { drawOnChartArea: true },
@@ -970,6 +1088,7 @@
       scales.yVolume = {
         type: volumeLogScale ? 'logarithmic' : 'linear',
         position: 'right',
+        afterFit: fitAxisWidth,
         min: volumeLogScale ? volLogAxis.min : 0,
         max: volumeLogScale ? volLogAxis.max : volumeMax(volumes),
         beginAtZero: !volumeLogScale,
@@ -1007,10 +1126,7 @@
         },
         scales: scales,
         plugins: {
-          legend: {
-            position: 'bottom',
-            labels: { usePointStyle: true, boxWidth: 8 },
-          },
+          legend: { position: 'bottom', labels: { usePointStyle: true, boxWidth: 8 } },
           tooltip: {
             callbacks: {
               // Canvas-rendered text: no HTML, no injection surface. Summaries
@@ -1047,6 +1163,8 @@
       chart._volLogAxis = volLogAxis;
     }
 
+    renderFinancialChart(labels, financialEvents, snapIndex, showVolume);
+
     // Status line: which half of the data, if any, is missing.
     if (!current.ticker) {
       setStatus('No ticker on file for this company — showing filing events only.');
@@ -1065,6 +1183,7 @@
 
     renderFilterTree(tree);
     updateFilterBadge(tree);
+    renderChartLegend(datasets);
 
     const volScaleWrap = el('tl-volume-log-wrap');
     const volLogInput = el('tl-volume-log');
@@ -1253,6 +1372,7 @@
     show: function () {
       // Chart.js cannot size a canvas inside display:none.
       if (chart) chart.resize();
+      if (finChart) finChart.resize();
     },
   });
 })();

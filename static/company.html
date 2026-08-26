@@ -118,6 +118,11 @@
             <span class="pager-status" id="timeline-counts"></span>
           </div>
           <p id="timeline-status" class="muted"></p>
+          <div class="timeline-financial" id="tl-financial-wrap" hidden>
+            <div class="timeline-chart-wrap timeline-chart-wrap-financial">
+              <canvas id="timeline-chart-financial"></canvas>
+            </div>
+          </div>
           <div class="timeline-chart-wrap">
             <canvas id="timeline-chart"></canvas>
             <label class="timeline-volume-scale" id="tl-volume-log-wrap" hidden>
@@ -125,6 +130,10 @@
               <span>Log volume</span>
             </label>
             <span class="visually-hidden" id="tl-volume-log-hint">Use logarithmic scale for the volume axis</span>
+          </div>
+          <div class="timeline-legend-rows">
+            <div class="timeline-legend" id="tl-legend-fin"></div>
+            <div class="timeline-legend" id="tl-legend-stock"></div>
           </div>
         </div>
       </div>
