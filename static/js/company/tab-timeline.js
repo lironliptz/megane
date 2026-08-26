@@ -1,5 +1,5 @@
 /**
- * tab-timeline.js — price line with filing-event markers.
+ * tab-timeline.js — price line, volume strip, and filing-event markers.
  *
  * Chart.js notes that are load-bearing here:
  *
@@ -10,9 +10,15 @@
  *    category scale resolves object data by matching x against `labels`
  *    (CategoryScale.parse), not by array index. A numeric index there was a
  *    real bug: every marker collapsed toward the same position.
+ *  - Price uses `y` (left, adjusted close); volume uses `yVolume` (right, share
+ *    count) — separate scales and vertical bands, never mixed on one axis.
+ *  - A layout plugin shrinks each scale's pixel range: price/events top ~83%,
+ *    volume bars bottom ~17%.
  *  - Event markers are three extra scatter DATASETS (one per weight) rather than
- *    an annotation plugin, which is likewise not vendored. Separate datasets make
- *    the lane toggle a `hidden` flag and give tooltips for free.
+ *    an annotation plugin, which is likewise not vendored. Separate datasets give
+ *    per-weight styling and tooltips for free; the event-type filter (prompt 7)
+ *    works one level below that, by excluding events from `visible` before the
+ *    per-weight groups are built at all.
  *  - Chart.js cannot measure a canvas inside display:none, so a chart built while
  *    the tab is hidden renders 0x0 until resize() runs on show().
  */
@@ -28,11 +34,238 @@
   let ctx = null;
   let chart = null;
   let current = null;     // last timeline payload
-  let lane = 'all';       // all | major | financials
   let preset = '2Y';
   let loading = false;
+  let rangeSyncing = false;
+
+  // ---- event type filter (prompt 7) ----------------------------------
+  const FILTER_KEY = 'megane.timelineEventFilter.v1';
+  let filterChecked = null;   // "form|category" -> bool; null until first buildFilterTree
+  let filterOpen = false;
+
+  function filterLeafKey(e) { return e.form + '|' + e.category; }
+
+  // Groups the loaded window's events into Form -> category, counts included.
+  // Only pairs actually present in `events` appear — never the full classifier
+  // vocabulary (prompt 7 idea file, "only show pairs that exist").
+  function buildFilterTree(events) {
+    const byForm = {};
+    events.forEach(function (e) {
+      const f = byForm[e.form] || (byForm[e.form] = { count: 0, cats: {} });
+      f.count++;
+      f.cats[e.category] = (f.cats[e.category] || 0) + 1;
+    });
+    return Object.keys(byForm)
+      .map(function (form) { return { form: form, count: byForm[form].count, cats: byForm[form].cats }; })
+      .sort(function (a, b) { return b.count - a.count || a.form.localeCompare(b.form); });
+  }
+
+  function loadStoredFilter() {
+    try {
+      const raw = localStorage.getItem(FILTER_KEY);
+      if (!raw) return {};
+      const parsed = JSON.parse(raw);
+      return (parsed && parsed.version === 1 && parsed.checked) || {};
+    } catch (e) {
+      return {};   // corrupt/blocked storage: fall back to defaults
+    }
+  }
+
+  function saveFilter() {
+    try {
+      localStorage.setItem(FILTER_KEY, JSON.stringify({ version: 1, checked: filterChecked }));
+    } catch (e) {
+      // storage full/blocked (e.g. private mode): filter still works this session
+    }
+  }
+
+  // Merges stored choices onto the tree built from THIS window's events.
+  // Unseen leaves default to true (visible) — new categories opt in
+  // automatically unless the user explicitly unchecked them before.
+  function mergeFilterState(tree) {
+    const stored = loadStoredFilter();
+    const next = {};
+    tree.forEach(function (f) {
+      Object.keys(f.cats).forEach(function (cat) {
+        const key = f.form + '|' + cat;
+        next[key] = key in stored ? !!stored[key] : true;
+      });
+    });
+    filterChecked = next;
+  }
+
+  function eventVisible(e) {
+    if (!filterChecked) return true;   // tree not built yet (first render): show everything
+    const v = filterChecked[filterLeafKey(e)];
+    return v === undefined ? true : v;
+  }
+
+  function updateFilterBadge(tree) {
+    let total = 0;
+    let checked = 0;
+    tree.forEach(function (f) {
+      Object.keys(f.cats).forEach(function (cat) {
+        total++;
+        if (filterChecked[f.form + '|' + cat]) checked++;
+      });
+    });
+    const badge = el('tl-filter-badge');
+    if (badge) badge.textContent = checked + ' / ' + total;
+    const btn = el('tl-filter-btn');
+    if (btn) btn.classList.toggle('active', checked < total);
+  }
+
+  // form/category are classifier-controlled strings, not filing prose, but
+  // escHtml costs nothing and keeps the "no unescaped filing text" rule
+  // uniform across the panel.
+  function renderFilterTree(tree) {
+    let html = '';
+    tree.forEach(function (f) {
+      const cats = Object.keys(f.cats).sort();
+      const allOn = cats.every(function (c) { return filterChecked[f.form + '|' + c]; });
+      html += '<div class="tl-filter-form">';
+      html += '<label><input type="checkbox" data-form="' + escHtml(f.form) + '"' +
+        (allOn ? ' checked' : '') + '> ' + escHtml(f.form) + ' (' + f.count + ')</label>';
+      cats.forEach(function (cat) {
+        const key = f.form + '|' + cat;
+        html += '<label class="tl-filter-cat"><input type="checkbox" data-key="' +
+          escHtml(key) + '"' + (filterChecked[key] ? ' checked' : '') + '> ' +
+          escHtml(cat.replace(/_/g, ' ')) + ' (' + f.cats[cat] + ')</label>';
+      });
+      html += '</div>';
+    });
+    const host = el('tl-filter-tree');
+    if (host) host.innerHTML = html;
+  }
+
+  function setFilterOpen(open) {
+    filterOpen = open;
+    const panel = el('tl-filter-panel');
+    const btn = el('tl-filter-btn');
+    if (panel) panel.hidden = !open;
+    if (btn) btn.setAttribute('aria-expanded', String(open));
+  }
 
   function el(id) { return document.getElementById(id); }
+
+  function parseDay(dateStr) {
+    return Math.floor(new Date(dateStr + 'T00:00:00Z').getTime() / 86400000);
+  }
+
+  function formatDay(dayNum) {
+    return new Date(dayNum * 86400000).toISOString().slice(0, 10);
+  }
+
+  function coverageBounds() {
+    const cov = ctx.detail.coverage || {};
+    const lo = cov.earliestFilingDate || '';
+    const hi = cov.latestFilingDate || '';
+    if (!lo || !hi || lo > hi) return null;
+    return { lo: lo, hi: hi, minDay: parseDay(lo), maxDay: parseDay(hi) };
+  }
+
+  function clearPresetActive() {
+    Object.keys(PRESETS).forEach(function (p) {
+      const ob = el('tl-preset-' + p);
+      if (ob) ob.classList.remove('active');
+    });
+  }
+
+  function setPresetActive(p) {
+    Object.keys(PRESETS).forEach(function (o) {
+      const ob = el('tl-preset-' + o);
+      if (ob) ob.classList.toggle('active', o === p);
+    });
+    preset = p;
+  }
+
+  function updateRangeLabels(fromDay, toDay) {
+    const fromLabel = el('tl-range-from-label');
+    const toLabel = el('tl-range-to-label');
+    if (fromLabel) fromLabel.textContent = formatDay(fromDay);
+    if (toLabel) toLabel.textContent = formatDay(toDay);
+  }
+
+  function readRangeDays() {
+    const fromInput = el('tl-range-from');
+    const toInput = el('tl-range-to');
+    if (!fromInput || !toInput) return null;
+    let fromDay = +fromInput.value;
+    let toDay = +toInput.value;
+    if (fromDay > toDay) {
+      const tmp = fromDay;
+      fromDay = toDay;
+      toDay = tmp;
+    }
+    return { fromDay: fromDay, toDay: toDay };
+  }
+
+  function setRangeDays(fromDay, toDay, opts) {
+    opts = opts || {};
+    const bounds = coverageBounds();
+    if (!bounds) return;
+    fromDay = Math.max(bounds.minDay, Math.min(fromDay, bounds.maxDay));
+    toDay = Math.max(bounds.minDay, Math.min(toDay, bounds.maxDay));
+    if (fromDay > toDay) {
+      if (opts.moved === 'from') toDay = fromDay;
+      else fromDay = toDay;
+    }
+
+    const fromInput = el('tl-range-from');
+    const toInput = el('tl-range-to');
+    if (!fromInput || !toInput) return;
+
+    rangeSyncing = true;
+    fromInput.value = String(fromDay);
+    toInput.value = String(toDay);
+    rangeSyncing = false;
+    updateRangeLabels(fromDay, toDay);
+  }
+
+  function rangeForPreset(p) {
+    const bounds = coverageBounds();
+    if (!bounds) return null;
+    let fromDay = bounds.minDay;
+    const toDay = bounds.maxDay;
+    if (p !== 'All') {
+      const years = PRESETS[p];
+      const d = new Date(formatDay(toDay) + 'T00:00:00Z');
+      d.setUTCFullYear(d.getUTCFullYear() - years);
+      fromDay = Math.max(bounds.minDay, parseDay(d.toISOString().slice(0, 10)));
+    }
+    return { fromDay: fromDay, toDay: toDay };
+  }
+
+  function initRangeSliders() {
+    const wrap = el('tl-range-wrap');
+    const bounds = coverageBounds();
+    const fromInput = el('tl-range-from');
+    const toInput = el('tl-range-to');
+    if (!wrap || !bounds || !fromInput || !toInput) {
+      if (wrap) wrap.hidden = true;
+      return;
+    }
+
+    wrap.hidden = false;
+    fromInput.min = toInput.min = String(bounds.minDay);
+    fromInput.max = toInput.max = String(bounds.maxDay);
+
+    const initial = rangeForPreset(preset) || bounds;
+    setRangeDays(initial.fromDay, initial.toDay);
+  }
+
+  function windowParams() {
+    const days = readRangeDays();
+    if (days) {
+      return 'from=' + encodeURIComponent(formatDay(days.fromDay)) +
+        '&to=' + encodeURIComponent(formatDay(days.toDay));
+    }
+    const cov = ctx.detail.coverage || {};
+    const to = cov.latestFilingDate || '';
+    if (!to) return '';
+    return 'from=' + encodeURIComponent(cov.earliestFilingDate || to) +
+      '&to=' + encodeURIComponent(to);
+  }
 
   function setStatus(msg, isError) {
     const box = el('timeline-status');
@@ -40,17 +273,6 @@
     box.textContent = msg || '';
     box.style.display = msg ? 'block' : 'none';
     box.classList.toggle('timeline-status-error', !!isError);
-  }
-
-  function windowParams() {
-    const years = PRESETS[preset];
-    const cov = ctx.detail.coverage || {};
-    const to = cov.latestFilingDate || '';
-    if (!years) return to ? 'from=' + encodeURIComponent(cov.earliestFilingDate || '') + '&to=' + encodeURIComponent(to) : '';
-    if (!to) return '';
-    const d = new Date(to + 'T00:00:00Z');
-    d.setUTCFullYear(d.getUTCFullYear() - years);
-    return 'from=' + d.toISOString().slice(0, 10) + '&to=' + encodeURIComponent(to);
   }
 
   async function load() {
@@ -85,11 +307,203 @@
     return 'rgba(' + r + ',' + g + ',' + b + ',' + alpha + ')';
   }
 
+  function formatVolume(n) {
+    const v = Number(n) || 0;
+    if (v >= 1e9) return (v / 1e9).toFixed(1) + 'B';
+    if (v >= 1e6) return (v / 1e6).toFixed(1) + 'M';
+    if (v >= 1e3) return (v / 1e3).toFixed(0) + 'K';
+    return String(v);
+  }
+
+  // Bottom ~17% of the chart area — volume uses yVolume (share count), not price.
+  const VOLUME_BAND_RATIO = 0.17;
+  const VOLUME_BAND_GAP = 5;
+
+  function hasVolumeData(volumes) {
+    return volumes && volumes.some(function (v) { return v > 0; });
+  }
+
+  function volumeMax(volumes) {
+    let maxVol = 0;
+    volumes.forEach(function (v) { if (v > maxVol) maxVol = v; });
+    return maxVol > 0 ? maxVol * 1.05 : 1;
+  }
+
+  // Splits chartArea vertically: price + events on y / yEvents (top), volume on
+  // yVolume (bottom). Each scale keeps its own min/max — never mixed.
+  function applySplitLayout(chart) {
+    const area = chart.chartArea;
+    if (!area || area.bottom <= area.top) return;
+
+    if (!chart.scales.yVolume) {
+      chart._volLayout = null;
+      if (chart.scales.y) {
+        chart.scales.y.top = area.top;
+        chart.scales.y.bottom = area.bottom;
+      }
+      if (chart.scales.yEvents) {
+        chart.scales.yEvents.top = area.top;
+        chart.scales.yEvents.bottom = area.bottom;
+      }
+      return;
+    }
+
+    const areaH = area.bottom - area.top;
+    const band = Math.round(areaH * VOLUME_BAND_RATIO);
+    const priceBottom = area.bottom - band - VOLUME_BAND_GAP;
+    const volTop = priceBottom + VOLUME_BAND_GAP;
+
+    chart.scales.y.top = area.top;
+    chart.scales.y.bottom = priceBottom;
+
+    chart.scales.yEvents.top = area.top;
+    chart.scales.yEvents.bottom = priceBottom;
+
+    // yVolume: 0 at bottom of chart, max at top of volume strip only — not the price pane.
+    chart.scales.yVolume.top = volTop;
+    chart.scales.yVolume.bottom = area.bottom;
+
+    chart._volLayout = { top: volTop, bottom: area.bottom, band: band };
+
+    chart.data.datasets.forEach(function (ds) {
+      if (ds.yAxisID === 'yVolume') {
+        ds.clip = { top: areaH - band, left: 0, right: 0, bottom: 0 };
+      } else if (ds.yAxisID === 'y') {
+        ds.clip = { top: 0, left: 0, right: 0, bottom: band + VOLUME_BAND_GAP };
+      }
+    });
+  }
+
+  // Bar elements are laid out before scale bands exist — re-map y/base in the volume strip.
+  function refitVolumeBars(chart) {
+    const scale = chart.scales.yVolume;
+    if (!scale || !chart._volLayout) return;
+    chart.data.datasets.forEach(function (ds, i) {
+      if (ds.yAxisID !== 'yVolume') return;
+      const meta = chart.getDatasetMeta(i);
+      if (!meta || !meta.data) return;
+      meta.data.forEach(function (bar, idx) {
+        const vol = Number(ds.data[idx]) || 0;
+        bar.base = scale.getPixelForValue(0);
+        if (vol <= 0) {
+          bar.y = bar.base;
+          bar.height = 0;
+          bar.skip = true;
+          return;
+        }
+        bar.skip = false;
+        bar.y = scale.getPixelForValue(vol);
+        bar.height = bar.base - bar.y;
+      });
+    });
+  }
+
+  const volumeLanePlugin = {
+    id: 'volumeLane',
+    beforeDraw: function (chart) {
+      applySplitLayout(chart);
+    },
+    afterLayout: function (chart) {
+      applySplitLayout(chart);
+    },
+    beforeDatasetsDraw: function (chart) {
+      applySplitLayout(chart);
+      refitVolumeBars(chart);
+      const layout = chart._volLayout;
+      if (!layout) return;
+      const area = chart.chartArea;
+      const c2d = chart.ctx;
+      c2d.save();
+      c2d.strokeStyle = cssVar('--border', '#d3d3d3');
+      c2d.lineWidth = 1;
+      c2d.beginPath();
+      c2d.moveTo(area.left, layout.top - VOLUME_BAND_GAP * 0.5);
+      c2d.lineTo(area.right, layout.top - VOLUME_BAND_GAP * 0.5);
+      c2d.stroke();
+      c2d.restore();
+    },
+  };
+  Chart.register(volumeLanePlugin);
+
+  // ---- period stripes (prompt 7 P1) -----------------------------------
+  // Returns an array of strictly-increasing INDEXES into `labels` marking
+  // calendar-period starts, snapped forward to the first trading-day label
+  // on/after each boundary (same snap philosophy as snapIndex in render()),
+  // always including index 0 and the last index so bands cover the full
+  // chart width.
+  function periodBoundaries(labels, yearly) {
+    if (!labels.length) return [];
+    const firstDate = new Date(labels[0] + 'T00:00:00Z');
+    const lastDate = new Date(labels[labels.length - 1] + 'T00:00:00Z');
+    const starts = [];
+    if (yearly) {
+      for (let y = firstDate.getUTCFullYear(); y <= lastDate.getUTCFullYear(); y++) {
+        starts.push(y + '-01-01');
+      }
+    } else {
+      let y = firstDate.getUTCFullYear();
+      let m = firstDate.getUTCMonth();
+      const endY = lastDate.getUTCFullYear();
+      const endM = lastDate.getUTCMonth();
+      while (y < endY || (y === endY && m <= endM)) {
+        starts.push(y + '-' + String(m + 1).padStart(2, '0') + '-01');
+        m++;
+        if (m > 11) { m = 0; y++; }
+      }
+    }
+    const idx = [0];
+    starts.forEach(function (d) {
+      for (let i = 0; i < labels.length; i++) {
+        if (labels[i] >= d) {
+          if (idx[idx.length - 1] !== i) idx.push(i);
+          break;
+        }
+      }
+    });
+    if (idx[idx.length - 1] !== labels.length - 1) idx.push(labels.length - 1);
+    return idx;
+  }
+
+  // Very subtle month/year bands behind price + events, so long windows are
+  // easier to scan. Reads `chart.data.labels` at draw time (not a module-scope
+  // `labels` closure) so it stays correct across chart rebuilds in render().
+  const periodStripesPlugin = {
+    id: 'periodStripes',
+    beforeDatasetsDraw: function (chart) {
+      const chartLabels = chart.data.labels;
+      if (!chartLabels || chartLabels.length < 2) return;   // no prices: skip stripes
+      const spanDays = parseDay(chartLabels[chartLabels.length - 1]) - parseDay(chartLabels[0]);
+      const yearly = spanDays > 730;   // > 2 years
+      const boundaries = periodBoundaries(chartLabels, yearly);
+      if (boundaries.length < 2) return;
+      const area = chart.chartArea;
+      const xScale = chart.scales.x;
+      const c2d = chart.ctx;
+      c2d.save();
+      for (let i = 0; i < boundaries.length - 1; i++) {
+        c2d.fillStyle = (i % 2 === 0)
+          ? cssVar('--chart-period-a', 'rgba(15, 23, 42, 0.025)')
+          : cssVar('--chart-period-b', 'rgba(15, 23, 42, 0.055)');
+        const x0 = xScale.getPixelForValue(boundaries[i]);
+        const x1 = xScale.getPixelForValue(boundaries[i + 1]);
+        c2d.fillRect(x0, area.top, x1 - x0, area.bottom - area.top);
+      }
+      c2d.restore();
+    },
+  };
+  Chart.register(periodStripesPlugin);
+
   function render() {
     if (!current) return;
 
+    if (current.window && current.window.from && current.window.to) {
+      setRangeDays(parseDay(current.window.from), parseDay(current.window.to));
+    }
+
     const labels = current.prices.map(function (p) { return p.date; });
     const series = current.prices.map(function (p) { return p.adjClose || p.close; });
+    const volumes = current.prices.map(function (p) { return p.volume || 0; });
+    const showVolume = hasVolumeData(volumes);
 
     // A filing can land on a non-trading day (measured: 1 of 294 — Good Friday).
     // Snap forward to the next trading day so a filing never appears to precede
@@ -102,17 +516,34 @@
       return -1;
     }
 
-    const visible = current.events.filter(function (e) {
-      if (lane === 'major') return e.weight === 'major';
-      if (lane === 'financials') return !!e.why;   // curated events carry why text
-      return true;
-    });
+    const tree = buildFilterTree(current.events);
+    if (!filterChecked) {
+      mergeFilterState(tree);   // first load: merge stored choices + defaults
+    } else {
+      // A later render (e.g. widening the preset from 2Y to All) can surface
+      // leaves never seen before. Same rule as the first-load merge: default
+      // to visible. Without this, eventVisible() (which already treats an
+      // unknown leaf as visible) would disagree with the badge/checkboxes
+      // (which read filterChecked[key] directly and treat undefined as
+      // unchecked) — found via the verification harness's widen-mid-session
+      // case, not called out in the LLD.
+      tree.forEach(function (f) {
+        Object.keys(f.cats).forEach(function (cat) {
+          const key = f.form + '|' + cat;
+          if (!(key in filterChecked)) filterChecked[key] = true;
+        });
+      });
+    }
+    const visible = current.events.filter(eventVisible);
 
     const priceColor = cssVar('--chart-price', '#2563eb');
+    const volumeColor = cssVar('--chart-volume', '#94a3b8');
     const datasets = [{
       type: 'line',
       label: current.ticker ? current.ticker + ' close' : 'Price',
       data: series,
+      yAxisID: 'y',
+      xAxisID: 'x',
       borderColor: priceColor,
       backgroundColor: hexToRgba(priceColor, 0.18),
       borderWidth: 2,
@@ -123,29 +554,73 @@
       order: 10,
     }];
 
+    if (showVolume) {
+      datasets.push({
+        type: 'bar',
+        label: 'Volume',
+        data: volumes,
+        yAxisID: 'yVolume',
+        xAxisID: 'x',
+        backgroundColor: hexToRgba(volumeColor, 0.82),
+        hoverBackgroundColor: hexToRgba(volumeColor, 0.95),
+        borderWidth: 0,
+        barPercentage: 0.82,
+        categoryPercentage: 1,
+        order: 5,
+      });
+    }
+
+    // Events use the hidden `yEvents` axis (0 = bottom, 1 = top) — not price.
+    // Same-day markers get small vertical offsets only; cap total spread so a
+    // busy day stays a tight cluster at the top, not spread down the chart.
+    const EVENT_LANE_Y = 0.965;
+    const EVENT_LANE_MAX_SPREAD = 0.08;
+    const EVENT_LANE_STEP = 0.018;
+
+    function eventLaneY(slot, count) {
+      if (count <= 1) return EVENT_LANE_Y;
+      const step = Math.min(EVENT_LANE_STEP, EVENT_LANE_MAX_SPREAD / (count - 1));
+      return EVENT_LANE_Y - slot * step;
+    }
+
+    const weightRank = { major: 0, medium: 1, minor: 2 };
+    const groups = {};   // label -> [{e, i}]
+    visible.forEach(function (e) {
+      const i = snapIndex(e.filingDate);
+      if (i < 0 || series[i] == null) return;
+      (groups[labels[i]] = groups[labels[i]] || []).push({ e: e, i: i });
+    });
+    Object.keys(groups).forEach(function (label) {
+      groups[label].sort(function (a, b) {
+        return weightRank[a.e.weight] - weightRank[b.e.weight];
+      });
+    });
+
     WEIGHTS.forEach(function (w) {
       const pts = [];
-      visible.forEach(function (e) {
-        if (e.weight !== w.key) return;
-        const i = snapIndex(e.filingDate);
-        if (i < 0 || series[i] == null) return;
-        // x must be the category LABEL (the date string), not the array index —
-        // Chart.js's category scale resolves object-notation points by matching
-        // `x` against `labels` (CategoryScale.parse: `labels[e]===x`); a numeric
-        // index never equality-matches a date string, so every point fell through
-        // to a mismatched-type lookup and collapsed toward the same position.
-        pts.push({ x: labels[i], y: series[i], ev: e });
+      Object.keys(groups).forEach(function (label) {
+        const g = groups[label];
+        g.forEach(function (item, slot) {
+          if (item.e.weight !== w.key) return;
+          const y = eventLaneY(slot, g.length);
+          // x must be the category LABEL (the date string), not the array index —
+          // Chart.js's category scale resolves object-notation points by matching
+          // `x` against `labels` (CategoryScale.parse: `labels[e]===x`).
+          pts.push({ x: label, y: y, ev: item.e, dayCount: g.length });
+        });
       });
+      const dense = pts.some(function (p) { return p.dayCount > 5; });
       datasets.push({
         type: 'scatter',
         label: w.label + ' filings',
         data: pts,
         backgroundColor: w.color,
         borderColor: w.color,
-        pointRadius: w.radius,
+        pointRadius: (w.key === 'minor' && dense) ? Math.max(w.radius - 2, 2) : w.radius,
         pointHoverRadius: w.radius + 3,
         pointStyle: w.style,
         showLine: false,
+        yAxisID: 'yEvents',
         order: 1,
       });
     });
@@ -158,19 +633,69 @@
       return;
     }
 
+    const scales = {
+      x: { type: 'category', ticks: { maxTicksLimit: 10, autoSkip: true }, grid: { display: false } },
+      y: {
+        type: 'linear',
+        position: 'left',
+        title: { display: true, text: 'Adjusted close', color: priceColor },
+        ticks: { maxTicksLimit: 6, color: priceColor },
+        grid: { drawOnChartArea: true },
+      },
+      yEvents: {
+        type: 'linear',
+        display: false,
+        min: 0,
+        max: 1,
+        reverse: false,
+        grid: { display: false },
+      },
+    };
+
+    if (showVolume) {
+      scales.yVolume = {
+        type: 'linear',
+        position: 'right',
+        min: 0,
+        max: volumeMax(volumes),
+        beginAtZero: true,
+        title: {
+          display: true,
+          text: 'Volume',
+          color: volumeColor,
+          padding: { top: 2, bottom: 0 },
+        },
+        ticks: {
+          maxTicksLimit: 3,
+          color: volumeColor,
+          padding: 2,
+          callback: function (val) { return formatVolume(val); },
+        },
+        grid: { display: false, drawOnChartArea: false },
+      };
+    }
+
     chart = new Chart(canvas.getContext('2d'), {
       data: { labels: labels, datasets: datasets },
       options: {
         responsive: true,
         maintainAspectRatio: false,
         interaction: { mode: 'nearest', intersect: true },
-        scales: {
-          // Category axis: Chart.js 4 has no bundled date adapter.
-          x: { type: 'category', ticks: { maxTicksLimit: 10, autoSkip: true }, grid: { display: false } },
-          y: { title: { display: true, text: 'Adjusted close' } },
+        // interaction.mode 'nearest' already resolves elements[0] to the
+        // closest point, so a dense day's markers stay individually clickable.
+        onClick: function (evt, elements) {
+          if (!elements.length) return;
+          const el0 = elements[0];
+          const ds = chart.data.datasets[el0.datasetIndex];
+          const pt = ds.data[el0.index];
+          if (pt && pt.ev) openEventModal(pt.ev);
         },
+        scales: scales,
         plugins: {
-          legend: { position: 'bottom', labels: { usePointStyle: true, boxWidth: 8 } },
+          legend: {
+            position: 'bottom',
+            labels: { usePointStyle: true, boxWidth: 8 },
+          },
           tooltip: {
             callbacks: {
               // Canvas-rendered text: no HTML, no injection surface. Summaries
@@ -182,14 +707,20 @@
               },
               label: function (item) {
                 const ev = item.raw && item.raw.ev;
-                if (!ev) return 'Close: ' + Number(item.parsed.y).toFixed(2);
-                const out = [ev.form + ' · ' + String(ev.category || '').replace(/_/g, ' ')];
-                if (ev.tierLabel) out.push(ev.tierLabel);
-                if (ev.summary) {
-                  const s = String(ev.summary);
-                  out.push(s.length > 140 ? s.slice(0, 140) + '…' : s);
+                if (ev) {
+                  const out = [ev.form + ' · ' + String(ev.category || '').replace(/_/g, ' ')];
+                  if (ev.tierLabel) out.push(ev.tierLabel);
+                  if (ev.summary) {
+                    const s = String(ev.summary);
+                    out.push(s.length > 140 ? s.slice(0, 140) + '…' : s);
+                  }
+                  return out;
                 }
-                return out;
+                const ds = chart.data.datasets[item.datasetIndex];
+                if (ds.yAxisID === 'yVolume') {
+                  return 'Volume: ' + formatVolume(item.parsed.y);
+                }
+                return 'Close: ' + Number(item.parsed.y).toFixed(2);
               },
             },
           },
@@ -212,6 +743,58 @@
       counts.textContent = current.prices.length + ' trading days · ' +
         visible.length + ' of ' + current.events.length + ' filings shown';
     }
+
+    renderFilterTree(tree);
+    updateFilterBadge(tree);
+  }
+
+  /* ------------------------------------------------------------ event modal */
+
+  // EDGAR's canonical index URL: unpadded CIK, undashed accession in the path,
+  // dashed accession in the filename.
+  function secFilingUrl(cik, accession) {
+    const cikNum = String(Number(cik));
+    const noDash = String(accession).replace(/-/g, '');
+    return 'https://www.sec.gov/Archives/edgar/data/' + cikNum + '/' + noDash +
+      '/' + accession + '-index.htm';
+  }
+
+  // Highlights are best-effort (only ~4 of 66 financial-results summaries carry
+  // a parseable figure), so "unavailable" is a normal outcome, not an error.
+  function renderHighlights(h) {
+    if (!h || !h.metrics || !h.metrics.length) {
+      return '<p class="muted">Financial highlights unavailable.</p>';
+    }
+    let html = '<div class="meta-grid">';
+    h.metrics.forEach(function (m) {
+      html += ctx.metaItem(m.label, m.value + (m.delta ? ' (' + m.delta + ')' : ''));
+    });
+    html += '</div>';
+    return html;
+  }
+
+  function openEventModal(ev) {
+    const overlay = el('timeline-event-modal');
+    if (!overlay) return;
+    el('timeline-event-modal-title').textContent = ev.filingDate + ' \u00b7 ' + ev.form;
+
+    const w = WEIGHTS.filter(function (x) { return x.key === ev.weight; })[0];
+    let html = '<span class="badge">' + escHtml(w ? w.label : ev.weight) + '</span> ';
+    html += '<strong>' + escHtml(String(ev.category || '').replace(/_/g, ' ')) + '</strong>';
+    if (ev.tierLabel) html += ' <span class="badge">' + escHtml(ev.tierLabel) + '</span>';
+    if (ev.why) html += '<p class="muted">' + escHtml(ev.why) + '</p>';
+    html += '<p>' + escHtml(ev.summary || '\u2014') + '</p>';
+    html += renderHighlights(ev.highlights);
+    html += '<p><code>' + escHtml(ev.accessionNumber) + '</code></p>';
+    html += '<p><a href="' + secFilingUrl(ctx.cik, ev.accessionNumber) +
+      '" target="_blank" rel="noopener" class="btn btn-ghost">Open on SEC EDGAR</a></p>';
+    el('timeline-event-modal-body').innerHTML = html;
+    overlay.classList.add('open');
+  }
+
+  function closeEventModal() {
+    const overlay = el('timeline-event-modal');
+    if (overlay) overlay.classList.remove('open');
   }
 
   function wireControls() {
@@ -219,27 +802,117 @@
       const b = el('tl-preset-' + p);
       if (!b) return;
       b.addEventListener('click', function () {
-        preset = p;
-        Object.keys(PRESETS).forEach(function (o) {
-          const ob = el('tl-preset-' + o);
-          if (ob) ob.classList.toggle('active', o === p);
-        });
+        const span = rangeForPreset(p);
+        if (span) setRangeDays(span.fromDay, span.toDay);
+        setPresetActive(p);
         load();
       });
     });
 
-    const laneSel = el('tl-lane');
-    if (laneSel) {
-      laneSel.addEventListener('change', function () {
-        lane = laneSel.value;
+    ['from', 'to'].forEach(function (which) {
+      const input = el('tl-range-' + which);
+      if (!input) return;
+      input.addEventListener('input', function () {
+        if (rangeSyncing) return;
+        const fromInput = el('tl-range-from');
+        const toInput = el('tl-range-to');
+        let fromDay = +fromInput.value;
+        let toDay = +toInput.value;
+        if (fromDay > toDay) {
+          if (which === 'from') toDay = fromDay;
+          else fromDay = toDay;
+        }
+        rangeSyncing = true;
+        fromInput.value = String(fromDay);
+        toInput.value = String(toDay);
+        rangeSyncing = false;
+        updateRangeLabels(fromDay, toDay);
+      });
+      input.addEventListener('change', function () {
+        if (rangeSyncing) return;
+        clearPresetActive();
+        preset = 'custom';
+        load();
+      });
+    });
+
+    // Event type filter: checkbox toggles are live (re-render on every
+    // change, no Apply button); one delegated listener covers both the
+    // per-form parent checkbox and per-category leaf checkboxes.
+    const filterTreeHost = el('tl-filter-tree');
+    if (filterTreeHost) {
+      filterTreeHost.addEventListener('change', function (e) {
+        const t = e.target;
+        if (!filterChecked) return;
+        if (t.dataset.key) {
+          filterChecked[t.dataset.key] = t.checked;
+        } else if (t.dataset.form) {
+          Object.keys(filterChecked).forEach(function (k) {
+            if (k.indexOf(t.dataset.form + '|') === 0) filterChecked[k] = t.checked;
+          });
+        } else {
+          return;
+        }
+        saveFilter();
         render();   // client-side only; no request
       });
     }
+
+    const filterBtn = el('tl-filter-btn');
+    if (filterBtn) filterBtn.addEventListener('click', function () { setFilterOpen(!filterOpen); });
+
+    const filterCloseBtn = el('tl-filter-close');
+    if (filterCloseBtn) filterCloseBtn.addEventListener('click', function () { setFilterOpen(false); });
+
+    const filterAllBtn = el('tl-filter-all');
+    if (filterAllBtn) {
+      filterAllBtn.addEventListener('click', function () {
+        if (!filterChecked) return;
+        Object.keys(filterChecked).forEach(function (k) { filterChecked[k] = true; });
+        saveFilter();
+        render();
+      });
+    }
+
+    const filterNoneBtn = el('tl-filter-none');
+    if (filterNoneBtn) {
+      filterNoneBtn.addEventListener('click', function () {
+        if (!filterChecked) return;
+        Object.keys(filterChecked).forEach(function (k) { filterChecked[k] = false; });
+        saveFilter();
+        render();
+      });
+    }
+
+    document.addEventListener('click', function (e) {
+      if (!filterOpen) return;
+      const panel = el('tl-filter-panel');
+      const btn = el('tl-filter-btn');
+      if ((panel && panel.contains(e.target)) || (btn && btn.contains(e.target))) return;
+      setFilterOpen(false);
+    });
+
+    // Modal dismissal: backdrop click uses the same target check as
+    // analyze.js, plus Escape. No focus-trap (no precedent in this codebase).
+    const overlay = el('timeline-event-modal');
+    if (overlay) {
+      overlay.addEventListener('click', function (e) {
+        if (e.target === e.currentTarget) closeEventModal();
+      });
+      const closeBtn = el('timeline-event-modal-close');
+      if (closeBtn) closeBtn.addEventListener('click', closeEventModal);
+    }
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== 'Escape') return;
+      closeEventModal();
+      if (filterOpen) setFilterOpen(false);
+    });
   }
 
   CompanyTabs.register('timeline', {
     init: function (c) {
       ctx = c;
+      initRangeSliders();
       wireControls();
       load();
     },

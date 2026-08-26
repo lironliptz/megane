@@ -74,7 +74,7 @@ func newTimelineRouter(t *testing.T, store filedb.CompanyStore, provider marketd
 	}
 	t.Cleanup(func() { _ = database.Close() })
 
-	svc := companyview.NewService(store, database, provider, companyview.Config{FetchTimeout: time.Second})
+	svc := companyview.NewService(store, database, provider, nil, companyview.Config{FetchTimeout: time.Second})
 	gin.SetMode(gin.TestMode)
 	r := gin.New()
 	h := &CompanyHandler{Store: store, Timeline: svc}

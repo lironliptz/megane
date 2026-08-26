@@ -167,10 +167,78 @@ func TestGMTOffsetShiftsCalendarDate(t *testing.T) {
 }
 
 func TestProviderName(t *testing.T) {
-	if got := NewYahooProvider(nil).Name(); got != "yahoo" {
+	if got := NewYahooProvider(nil, "").Name(); got != "yahoo" {
 		t.Errorf("Name() = %q", got)
 	}
 	if NewFromEnv("").Name() != "yahoo" || NewFromEnv("YAHOO").Name() != "yahoo" {
 		t.Error("NewFromEnv should default to yahoo")
+	}
+}
+
+func TestNewYahooProviderDefaultsUserAgent(t *testing.T) {
+	p := NewYahooProvider(nil, "")
+	if p.UserAgent != yahooUserAgent {
+		t.Errorf("UserAgent = %q, want default %q", p.UserAgent, yahooUserAgent)
+	}
+	custom := NewYahooProvider(nil, "custom-ua/1.0")
+	if custom.UserAgent != "custom-ua/1.0" {
+		t.Errorf("UserAgent = %q, want override", custom.UserAgent)
+	}
+}
+
+func TestDailyBarsExposesFirstTradeDate(t *testing.T) {
+	// 1370007000 = 2013-05-31 09:30 America/New_York (measured KMDA listing).
+	body := strings.Replace(happyBody, `"gmtoffset":-14400}`,
+		`"gmtoffset":-14400,"firstTradeDate":1370007000}`, 1)
+	p, _ := newTestProvider(t, 200, "application/json", body)
+	q, err := p.DailyBars(context.Background(), "KMDA", time.Unix(0, 0), time.Unix(1, 0))
+	if err != nil {
+		t.Fatalf("DailyBars: %v", err)
+	}
+	if q.FirstTradeDate != "2013-05-31" {
+		t.Errorf("FirstTradeDate = %q, want 2013-05-31", q.FirstTradeDate)
+	}
+}
+
+func TestDailyBarsFirstTradeDateAbsent(t *testing.T) {
+	p, _ := newTestProvider(t, 200, "application/json", happyBody) // no firstTradeDate field
+	q, err := p.DailyBars(context.Background(), "KMDA", time.Unix(0, 0), time.Unix(1, 0))
+	if err != nil {
+		t.Fatalf("DailyBars: %v", err)
+	}
+	if q.FirstTradeDate != "" {
+		t.Errorf("FirstTradeDate = %q, want empty when the provider omits it", q.FirstTradeDate)
+	}
+}
+
+// Measured live: a window entirely before a symbol's listing date answers
+// HTTP 400 with this exact error shape — the chunk walker's expected stop
+// condition, not a failure to surface to the user.
+func TestDailyBarsTerminalBadRequestBeforeListing(t *testing.T) {
+	body := `{"chart":{"result":null,"error":{"code":"Bad Request","description":"Data doesn't exist for startDate = 1262304000, endDate = 1293840000"}}}`
+	p, _ := newTestProvider(t, 400, "application/json", body)
+	_, err := p.DailyBars(context.Background(), "KMDA", time.Unix(0, 0), time.Unix(1, 0))
+	if !errors.Is(err, ErrNoDataForRange) {
+		t.Fatalf("err = %v, want ErrNoDataForRange", err)
+	}
+}
+
+// Measured live: an unauthenticated/over-rate 429 answers with a PLAIN TEXT
+// body ("Edge: Too Many Requests"), not JSON — the guard must trigger on
+// status code alone, before any JSON parse is attempted.
+func TestDailyBarsRateLimited(t *testing.T) {
+	p, _ := newTestProvider(t, 429, "text/plain", "Edge: Too Many Requests")
+	_, err := p.DailyBars(context.Background(), "KMDA", time.Unix(0, 0), time.Unix(1, 0))
+	if !errors.Is(err, ErrRateLimited) {
+		t.Fatalf("err = %v, want ErrRateLimited", err)
+	}
+}
+
+func TestDailyBarsRateLimitedWithJSONBody(t *testing.T) {
+	// Some 429s may carry a JSON body instead — status code still governs.
+	p, _ := newTestProvider(t, 429, "application/json", `{"error":"rate limited"}`)
+	_, err := p.DailyBars(context.Background(), "KMDA", time.Unix(0, 0), time.Unix(1, 0))
+	if !errors.Is(err, ErrRateLimited) {
+		t.Fatalf("err = %v, want ErrRateLimited", err)
 	}
 }

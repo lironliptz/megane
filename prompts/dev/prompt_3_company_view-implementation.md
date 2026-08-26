@@ -188,15 +188,19 @@ Note: starting the server applies v32/v33 to whatever `DB_PATH` points at. They 
 
 ## Follow-ups
 
-1. **A concurrent external edit changed the default tab while I was working — please confirm which
-   you want.** At 22:56 `static/js/company/shell.js` and `static/company.html` were modified
-   (not by me) to reorder the tabs so **General** is first and default. That contradicts the idea
-   file ("default `#timeline` once Timeline ships") and the DoD ("lands on Timeline"), so I restored
-   Timeline-first. The edit is backed up at
-   `…/scratchpad/{shell.js,company.html}.external-edit`. To re-apply intentionally: set
-   `TAB_NAMES = ['general','timeline','filings','events']` and `DEFAULT_TAB = 'general'` in
-   `shell.js:14-15`, and move the `active`/`aria-selected="true"` to the General button and panel in
-   `company.html`. Everything else works unchanged either way.
+1. **Default tab is General — confirmed intentional (resolved 2026-08-26).** While this work was
+   in flight, `static/js/company/shell.js` and `static/company.html` were edited outside this
+   session to make **General** the first and default tab. I restored Timeline-first at the time,
+   per the design; the change was re-applied and the user has since confirmed it is deliberate.
+   The tree now ships `TAB_NAMES = ['general','timeline','filings','events']` and
+   `DEFAULT_TAB = 'general'` (`shell.js:14-15`), with the matching `active`/`aria-selected="true"`
+   on the General button and panel — self-consistent, so arrow-key order matches visual order.
+
+   **This supersedes the "lands on Timeline" wording in the design's Definition of Done** (idea
+   file, HLD §10, LLD §14) and the corresponding row in the DoD table above. Everything else in
+   that DoD still holds: Timeline remains reachable by click and by `#timeline`, and every tab
+   deep-links and survives a reload. No code change is outstanding.
+
 2. **`generated/*/route_snippet.go` still breaks `go test ./...`** — three files that are code
    snippets, not valid Go, present at `HEAD`. Carried over from the prompt-1 report; renaming them
    to `.go.txt` is the one-line fix.

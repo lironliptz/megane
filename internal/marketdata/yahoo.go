@@ -7,6 +7,7 @@ import (
 	"io"
 	"net/http"
 	"net/url"
+	"os"
 	"strings"
 	"time"
 )
@@ -22,7 +23,7 @@ const (
 
 // YahooProvider reads daily bars from Yahoo's v8 chart endpoint.
 //
-// Three behaviors here are load-bearing, each traceable to a measured failure:
+// Four behaviors here are load-bearing, each traceable to a measured failure:
 //
 //  1. It always sends period1/period2 and never `range=`. Measured:
 //     `range=max&interval=1d` silently returns MONTHLY bars
@@ -30,17 +31,29 @@ const (
 //  2. It asserts meta.dataGranularity == "1d" and discards the batch otherwise.
 //  3. It validates the response shape before trusting it, so a 200 carrying
 //     HTML surfaces as an error rather than as an empty result set.
+//  4. It distinguishes a rate limit (HTTP 429 — retryable) from a terminal
+//     "no data before your symbol's listing date" (HTTP 400 + chart.error —
+//     the chunk walker's expected stop condition, measured live: a window
+//     entirely before KMDA's 2013-05-31 listing returns exactly this).
 type YahooProvider struct {
 	BaseURL string
 	Client  *http.Client
+	// UserAgent overrides the default. Yahoo returns HTTP 429 for the stock
+	// Go User-Agent, so this must never be empty in practice — NewYahooProvider
+	// falls back to yahooUserAgent when the caller passes "".
+	UserAgent string
 }
 
-// NewYahooProvider returns a provider with sane defaults. client may be nil.
-func NewYahooProvider(client *http.Client) *YahooProvider {
+// NewYahooProvider returns a provider with sane defaults. client may be nil;
+// userAgent "" falls back to the package default.
+func NewYahooProvider(client *http.Client, userAgent string) *YahooProvider {
 	if client == nil {
 		client = &http.Client{Timeout: yahooTimeout}
 	}
-	return &YahooProvider{BaseURL: yahooBaseURL, Client: client}
+	if strings.TrimSpace(userAgent) == "" {
+		userAgent = yahooUserAgent
+	}
+	return &YahooProvider{BaseURL: yahooBaseURL, Client: client, UserAgent: userAgent}
 }
 
 // Name is what lands in stock_prices.source.
@@ -57,6 +70,9 @@ type yahooResp struct {
 				ExchangeName    string `json:"exchangeName"`
 				DataGranularity string `json:"dataGranularity"`
 				GMTOffset       int64  `json:"gmtoffset"`
+				// FirstTradeDate is 0 when absent (older Yahoo error responses
+				// carry no meta at all); guarded before use below.
+				FirstTradeDate int64 `json:"firstTradeDate"`
 			} `json:"meta"`
 			Timestamp  []int64 `json:"timestamp"`
 			Indicators struct {
@@ -96,7 +112,11 @@ func (p *YahooProvider) DailyBars(ctx context.Context, symbol string, from, to t
 	if err != nil {
 		return nil, fmt.Errorf("%w: building request: %v", ErrBadResponse, err)
 	}
-	req.Header.Set("User-Agent", yahooUserAgent)
+	ua := p.UserAgent
+	if strings.TrimSpace(ua) == "" {
+		ua = yahooUserAgent
+	}
+	req.Header.Set("User-Agent", ua)
 	req.Header.Set("Accept", "application/json")
 
 	resp, err := p.Client.Do(req)
@@ -104,6 +124,13 @@ func (p *YahooProvider) DailyBars(ctx context.Context, symbol string, from, to t
 		return nil, fmt.Errorf("marketdata: yahoo request failed: %w", err)
 	}
 	defer resp.Body.Close()
+
+	// Guard before reading/parsing the body: a 429 body is not guaranteed to be
+	// JSON (measured: an unauthenticated 429 answers with plain text "Edge: Too
+	// Many Requests"), so this must be checked on status code alone.
+	if resp.StatusCode == http.StatusTooManyRequests {
+		return nil, fmt.Errorf("%w: HTTP 429", ErrRateLimited)
+	}
 
 	body, err := io.ReadAll(io.LimitReader(resp.Body, maxResponseSize))
 	if err != nil {
@@ -122,12 +149,18 @@ func (p *YahooProvider) DailyBars(ctx context.Context, symbol string, from, to t
 	}
 
 	if parsed.Chart.Error != nil {
-		if resp.StatusCode == http.StatusNotFound ||
-			strings.EqualFold(parsed.Chart.Error.Code, "Not Found") {
+		switch {
+		case resp.StatusCode == http.StatusNotFound || strings.EqualFold(parsed.Chart.Error.Code, "Not Found"):
 			return nil, fmt.Errorf("%w: %s", ErrSymbolNotFound, parsed.Chart.Error.Description)
+		case resp.StatusCode == http.StatusBadRequest:
+			// Measured: a window entirely before a symbol's listing date
+			// answers HTTP 400 + this error shape — the chunk walker's
+			// expected stop condition, not a failure.
+			return nil, fmt.Errorf("%w: %s", ErrNoDataForRange, parsed.Chart.Error.Description)
+		default:
+			return nil, fmt.Errorf("marketdata: yahoo error %s: %s",
+				parsed.Chart.Error.Code, parsed.Chart.Error.Description)
 		}
-		return nil, fmt.Errorf("marketdata: yahoo error %s: %s",
-			parsed.Chart.Error.Code, parsed.Chart.Error.Description)
 	}
 	if resp.StatusCode != http.StatusOK {
 		return nil, fmt.Errorf("marketdata: yahoo status %d", resp.StatusCode)
@@ -160,6 +193,10 @@ func (p *YahooProvider) DailyBars(ctx context.Context, symbol string, from, to t
 		Currency: r.Meta.Currency,
 		Exchange: r.Meta.ExchangeName,
 		Bars:     make([]Bar, 0, len(r.Timestamp)),
+	}
+	if r.Meta.FirstTradeDate != 0 {
+		// Same exchange-local conversion as each bar's date, below.
+		out.FirstTradeDate = time.Unix(r.Meta.FirstTradeDate+r.Meta.GMTOffset, 0).UTC().Format("2006-01-02")
 	}
 	for i, ts := range r.Timestamp {
 		c := at(quote.Close, i)
@@ -216,14 +253,33 @@ func snippet(b []byte) string {
 	return s
 }
 
-// NewFromEnv selects a provider implementation by name, defaulting to Yahoo.
+// NewFromEnv selects the primary provider implementation by name, defaulting
+// to Yahoo. MARKET_DATA_USER_AGENT (if set) overrides the built-in Yahoo
+// User-Agent; MARKET_DATA_API_KEY is the Tiingo key when name is "tiingo".
 func NewFromEnv(name string) PriceProvider {
+	ua := os.Getenv("MARKET_DATA_USER_AGENT")
 	switch strings.ToLower(strings.TrimSpace(name)) {
+	case "tiingo":
+		return NewTiingoProvider(os.Getenv("MARKET_DATA_API_KEY"), nil)
 	case "", "yahoo":
-		return NewYahooProvider(nil)
+		return NewYahooProvider(nil, ua)
 	default:
 		// Unknown value: fall back rather than failing startup, and let the
 		// caller log it.
-		return NewYahooProvider(nil)
+		return NewYahooProvider(nil, ua)
 	}
+}
+
+// NewFallbackFromEnv returns the keyed fallback provider (Tiingo) when
+// MARKET_DATA_API_KEY is set, or nil when it is not — a nil fallback simply
+// means the chunk walker has no secondary provider to try. Kept separate
+// from NewFromEnv so "primary is Yahoo, fallback is Tiingo" (the common
+// case) does not require MARKET_DATA_PROVIDER=tiingo, which would make
+// Tiingo primary instead.
+func NewFallbackFromEnv() PriceProvider {
+	key := strings.TrimSpace(os.Getenv("MARKET_DATA_API_KEY"))
+	if key == "" {
+		return nil
+	}
+	return NewTiingoProvider(key, nil)
 }

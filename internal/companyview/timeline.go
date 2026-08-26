@@ -44,6 +44,9 @@ type Event struct {
 	AccessionNumber string   `json:"accessionNumber"`
 	Weight          Weight   `json:"weight"`
 	Why             string   `json:"why,omitempty"`
+	// Highlights is a best-effort financial callout parsed from Summary; nil
+	// when nothing could be extracted. Additive and optional, like Why.
+	Highlights *EventHighlight `json:"highlights,omitempty"`
 }
 
 // PricePoint is one trading day as shipped to the chart. OHLC is stored but not
@@ -164,6 +167,7 @@ func BuildEvents(rows []filedb.FilingRow, w Window, filter string) []Event {
 			AccessionNumber: r.AccessionNumber,
 			Weight:          weight,
 			Why:             WhyItMatters(r.Category),
+			Highlights:      BuildHighlights(r.Category, r.Summary, r.Financials),
 		})
 	}
 	return out

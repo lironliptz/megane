@@ -1,215 +1,248 @@
 === prompt ===
-Given a company already in the system (CIK + tickers from `submissions.json`,
-via `internal/filedb`), fetch and cache its **daily stock price history, 10
-years back**, from a free external source — this prompt owns the market-data
-provider integration and the storage schema. It does not own the Timeline
-chart UI or the `GET /api/companies/:cik/timeline` endpoint — see
-"Relationship to prompt_3" below.
+Fetch and cache **daily stock price history + volume** for companies already in the system
+(CIK + tickers from `submissions.json` / `internal/filedb`).
 
-Builds on prompt 1 (`internal/filedb` — CIK, `identity.tickers[0]`) and feeds
-prompt 3 (Timeline tab). No LLM involved.
+This prompt owns the **market-data provider**, **SQLite storage**, and the **wire contract**
+for price bars fed to the Timeline tab. It does **not** own Chart.js rendering — but it
+**must** supply **adjusted close and volume** for every trading day so prompt 3 can plot
+price and volume side by side.
 
+**Canonical detail:** `prompts/dev/prompt_4_stock_data-hld.md` (provider audit, chunking,
+schema) and `prompt_4_stock_data-lld.md` (file-by-file). **This file supersedes its own
+earlier Stooq + 10-year-cap draft** — implement from the HLD when they disagree.
+
+Builds on prompt 1 (`filedb` — `identity.tickers[0]`) and feeds prompt 3 (Timeline API).
+No LLM involved.
+
+
+---
 
 ## Goal
 
-1. A small provider package that fetches daily OHLCV history for a ticker
-   from a free source, no API key required for the primary path.
-2. A SQLite table + query methods, following this repo's existing `internal/db`
-   conventions (not a new storage package).
-3. A backfill/refresh strategy: full 10-year history on first request, cheap
-   incremental top-ups afterward — never re-fetch what's already cached.
+1. **`internal/marketdata`** — fetch daily OHLCV from Yahoo (primary) with Tiingo fallback;
+   polite **chunked** backfill of **full available history** (not capped at 10 years).
+2. **`internal/db/stock_prices`** — store **adjusted close** and **volume** per
+   `(cik, trade_date)`; idempotent upsert; incremental refresh.
+3. **Timeline contract** — `GET /api/companies/:cik/timeline` returns `prices[]` where each
+   point includes **`close`/`adjClose` and `volume`** so the UI can show trading activity
+   alongside the price line.
 
 
-## Source decision
+---
 
-**Primary: [Stooq](https://stooq.com)** — free, no signup, no API key.
+## Product requirement — volume alongside price
 
-```
-GET https://stooq.com/q/d/l/?s={ticker}.us&i=d
-```
+> Alongside the stock value, we need **volume** as well.
 
-Returns CSV (`Date,Open,High,Low,Close,Volume`) with the **full available
-daily history in one request** — often 20+ years for US-listed names, so a
-10-year backfill is one HTTP call, not a paginated loop. No documented rate
-limit, but no formal SLA either — this app should be a polite, cache-first
-client (fetch once, never repeat a query for dates already in the DB).
+Interpretation for this prompt (data layer):
 
-**Fallback: Yahoo Finance's unofficial chart API** — also free, no key:
+| Layer | Requirement |
+|-------|-------------|
+| **Provider fetch** | Every `DailyBar` must include `Volume int64` when the source provides it (Yahoo `quote.volume`, Tiingo `volume`). Do not drop volume to simplify the schema. |
+| **SQLite** | `stock_prices.volume INTEGER NOT NULL DEFAULT 0` — store zero when the provider sends null/missing for a bar, but log once per fetch if volume is systematically absent. |
+| **Timeline API** | `PricePoint` includes `"volume": 102400` on each row (already sketched in prompt 3). **Not optional for chart use** — omit from JSON only when the entire series has no volume data (provider failure), not per-row laziness. |
+| **UI (prompt 3 / 7)** | Render volume in the chart real estate — e.g. **volume bars** in a lower band of the same chart area, or a second y-axis series. **Out of scope here**, but blocked if this prompt fails to persist volume. |
 
-```
-GET https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?range=10y&interval=1d
-```
-
-JSON, and — important — includes `indicators.adjclose` (split/dividend
-adjusted close) alongside raw close. Use this as the fallback when Stooq
-returns no rows for a ticker (thin OTC names, some foreign ADRs), and see
-the adjusted-close note below for why it may end up preferred over Stooq
-even as a non-fallback source.
-
-**Deliberately not used**: Polygon.io (free tier caps history at 2 years —
-fails the "10 years back" requirement outright), Marketstack (100
-req/**month**, thin free-tier history), IEX Cloud (service sunset in 2024).
-Tiingo/Alpha Vantage/FMP are documented, keyed alternatives — worth keeping
-in mind if Stooq/Yahoo reliability becomes a real problem in production, but
-not needed for MVP; do not add a second keyed provider speculatively.
-
-### Adjusted-close note
-
-Over a 2-year window an unadjusted close is a minor wrinkle; over **10
-years** it's much more likely to cross a stock split, and an unadjusted
-series will show a fake cliff on the chart at the split date. Stooq's CSV
-does not clearly document whether `Close` is split-adjusted. Decision:
-**prefer Yahoo's `adjclose` as the stored `close` value** when available;
-fall back to Stooq's raw `Close` only when Yahoo has no data for that
-ticker. Document which was used per row (see schema `source` column) so a
-future correction pass can identify rows that need re-fetching.
+**Acceptance:** For Kamada `KMDA`, a spot-check of cached rows shows non-zero volume on
+typical trading days; timeline JSON includes volume on the same dates as `close`.
 
 
-## Storage — extend `internal/db`, do not add a new storage package
+---
 
-This repo's convention (see `internal/db/{status.go,crawler_stats.go,
-pipeline_llm.go}`) is: one `db` package, one shared `*DB` (wraps `*sql.DB`),
-domain-specific query methods split into their own file within that same
-package — not a separate package per subsystem. Stock prices follow that
-pattern: new file `internal/db/stock_prices.go`, no new package for storage.
+## Source decision (HLD audit — do not revert to Stooq)
 
-Also: prompt 3's draft said "append to `internal/db/migrations.sql`" — that
-file is a stale reference copy. The actual, live migration mechanism is
-appending an entry to the `versionedMigrations` slice in `internal/db/db.go`
-(applied via the `schema_migrations` table on `Open()`). This prompt's
-migration entry is the corrected version of prompt 3's sketch:
+| Provider | Role | Notes |
+|----------|------|-------|
+| **Yahoo Finance chart API** | **Primary** | Free, no key; **`adjclose`** + **`quote.volume`**; requires `User-Agent`; 429 → backoff |
+| **Tiingo EOD** | **Fallback** | Keyed (`MARKET_DATA_API_KEY`); `adjClose` + volume |
+| **Stooq** | **Removed** | Live audit: bot-check HTML, not CSV — unusable from `net/http` |
+
+**History depth:** fetch **all available daily history** in **5-year chunks** (env-configurable),
+not a single `range=10y` call and not a hard 10-year ceiling. Store everything returned;
+Timeline **All** preset spans cached coverage.
+
+See HLD §2 audit (KMDA: 2,513 bars in one 10y probe; full backfill uses `period1`/`period2`
+chunks and `meta.firstTradeDate` stop condition per LLD).
+
+
+---
+
+## Storage — `internal/db` (not a new package)
+
+Append to `versionedMigrations` in `internal/db/db.go` ( **`migrations.sql` is stale** ):
 
 ```go
 {32, `CREATE TABLE IF NOT EXISTS stock_prices (
-    cik        TEXT     NOT NULL,
-    trade_date TEXT     NOT NULL,   -- YYYY-MM-DD
-    open       REAL,
-    high       REAL,
-    low        REAL,
-    close      REAL     NOT NULL,   -- adjusted close when source provided one; see `source`
-    volume     INTEGER,
-    currency   TEXT     NOT NULL DEFAULT 'USD',
-    source     TEXT     NOT NULL,   -- 'stooq' | 'yahoo'
-    fetched_at DATETIME NOT NULL,
+    cik          TEXT     NOT NULL,
+    trade_date   TEXT     NOT NULL,   -- YYYY-MM-DD
+    open         REAL,
+    high         REAL,
+    low          REAL,
+    close        REAL     NOT NULL,   -- adjusted close (canonical chart price)
+    raw_close    REAL,                -- unadjusted when source provides it
+    volume       INTEGER NOT NULL DEFAULT 0,
+    currency     TEXT     NOT NULL DEFAULT 'USD',
+    source       TEXT     NOT NULL,   -- yahoo | tiingo
+    fetched_at   DATETIME NOT NULL,
     PRIMARY KEY (cik, trade_date)
 )`},
-{33, `CREATE INDEX IF NOT EXISTS idx_stock_prices_cik_date ON stock_prices(cik, trade_date)`},
 ```
 
-`internal/db/stock_prices.go` methods (mirrors the shape of existing
-`(d *DB) Get.../ (d *DB) Upsert...` methods elsewhere in the package):
+Methods in `internal/db/stock_prices.go`:
 
 ```go
 func (d *DB) UpsertStockPrices(cik string, rows []StockPrice) error
-func (d *DB) StockPrices(cik string, from, to string) ([]StockPrice, error)
+func (d *DB) StockPrices(cik, from, to string) ([]StockPrice, error)
 func (d *DB) StockPriceCoverage(cik string) (earliest, latest string, count int, err error)
 ```
 
-`StockPrice` struct fields match the table columns 1:1 (`TradeDate, Open,
-High, Low, Close, Volume, Currency, Source, FetchedAt`).
+`StockPrice` struct: `TradeDate`, OHLC, `Close`, `RawClose *float64`, **`Volume int64`**, `Currency`, `Source`, `FetchedAt`.
 
+
+---
 
 ## Provider package — `internal/marketdata`
 
-New package, small and flat — no subpackages, mirroring how `internal/llm`
-already holds multiple backend implementations (`gemini.go`-equivalent,
-`openai.go`, `local.go`) behind one `Client` interface. This is the same
-"don't overdesign" call made on the EDGAR port (prompt 2's HLD/LLD): the
-amount of logic here (two HTTP fetchers + CSV/JSON parsing) does not
-justify more than 2–3 files.
+Flat package (mirrors `internal/llm`):
 
 ```
 internal/marketdata/
-  provider.go   # Provider interface, ticker resolution, fetch orchestration
-  stooq.go      # Stooq CSV client
-  yahoo.go      # Yahoo chart-API client (fallback)
+  provider.go   # DailyBar, Provider interface, HTTP client + UA
+  yahoo.go      # period1/period2 chunks, adjclose + volume parse
+  tiingo.go     # keyed fallback, same shape
+  backfill.go   # EnsureCoverage, RefreshIfStale, chunk walker
 ```
 
 ```go
 type DailyBar struct {
-    Date   string  // YYYY-MM-DD
+    Date     string
     Open, High, Low, Close float64
-    Volume int64
-    Source string  // "stooq" | "yahoo"
+    RawClose *float64
+    Volume   int64   // required field — map from provider; 0 if truly absent
+    Source   string  // yahoo | tiingo
 }
 
 type Provider interface {
-    // DailyHistory returns daily bars for ticker, oldest first, best-effort
-    // full available history (Stooq) — callers slice to the window they need.
-    DailyHistory(ctx context.Context, ticker string) ([]DailyBar, error)
+    DailyRange(ctx context.Context, ticker, from, to string) ([]DailyBar, error)
 }
 ```
 
-Ticker resolution: primary = `identity.tickers[0]` from `internal/filedb`
-(already resolved there — this package takes a plain ticker string, it does
-not know about CIKs or `submissions.json`). Symbol mapping quirks (Stooq's
-`.us` suffix, exchange suffixes for non-US listings) live in `stooq.go`, not
-leaked into the `Provider` interface.
+**Adjusted close:** Yahoo `indicators.adjclose` → stored `close`; raw `quote.close` → `raw_close`.
+**Volume:** Yahoo `indicators.quote[0].volume[i]` aligned with `timestamp[i]`; Tiingo `volume` /
+`adjVolume` per LLD.
+
+Ticker resolution: caller passes `identity.tickers[0]` — this package does not know CIK.
 
 
-## Backfill / refresh strategy
+---
 
-1. First request for a CIK with no `stock_prices` rows: fetch full history
-   from the provider (Stooq primary, Yahoo fallback) in one call, `UpsertStockPrices`
-   the whole result. This naturally covers "10 years back" — Stooq/Yahoo
-   return more than 10 years for most tickers; store all of it, let callers
-   window it.
-2. Subsequent requests: check `StockPriceCoverage(cik)` — if `latest` is
-   already within one trading day of today, serve from DB only, no fetch.
-   If stale, fetch only from `latest+1` forward (Yahoo supports a `period1`/
-   `period2` range; Stooq's endpoint has a `d1`/`d2` range form too) and
-   upsert the delta — do not re-fetch the full 10 years on every visit.
-3. No background/scheduled refresh in this prompt — refresh is triggered by
-   the next read that finds stale coverage (matches prompt 3's "lazy, on
-   Timeline visit" model). A cron-based pre-warm is future work, not MVP.
+## Backfill / refresh
 
+1. **First Timeline visit** (empty `stock_prices` for CIK): chunked full history backward until
+   `firstTradeDate` (Yahoo) or provider error; upsert after each chunk (crash-safe).
+2. **Later visits:** if `latest` within one trading day of today → DB only. Else delta-fetch
+   `[latest+1, today]` and upsert.
+3. **No cron** in this prompt — lazy refresh on read (prompt 3 handler calls
+   `RefreshIfStale` / `EnsureCoverage`).
 
-## Relationship to prompt 3
-
-Prompt 3 ("Timeline" tab) already sketched a `stock_prices` table and a
-lazy-fetch flow behind `GET /api/companies/:cik/timeline`. This prompt is
-the canonical owner of that table's schema and the fetch/cache mechanics
-(`internal/db/stock_prices.go` + `internal/marketdata`); prompt 3's handler
-becomes a thin caller: check coverage, call `internal/marketdata` if stale,
-read `internal/db.StockPrices` for the response window, build the chart
-JSON. Prompt 3 should be read as consuming this prompt's output, not
-re-deriving the schema — if prompt 3's LLD is written first, reconcile its
-migration entry against this one rather than shipping two competing
-`CREATE TABLE stock_prices` statements.
-
-
-## Env (`.env.example`)
+Env (`.env.example`):
 
 ```
-MARKET_DATA_PROVIDER=stooq   # stooq | yahoo (fallback is automatic; this picks the primary)
+MARKET_DATA_PROVIDER=yahoo          # yahoo | tiingo
+MARKET_DATA_API_KEY=                # Tiingo fallback only
+MARKET_DATA_USER_AGENT=megane/1.0   # mandatory for Yahoo
+MARKET_DATA_CHUNK_YEARS=5
+MARKET_DATA_CHUNK_DELAY=400ms
 ```
 
-No API key needed for either provider — do not add a `MARKET_DATA_API_KEY`
-placeholder unless a keyed provider (Tiingo etc.) actually gets added later.
 
+---
+
+## Timeline API contract (prompt 3 consumer)
+
+After refresh, handler reads `StockPrices(cik, window.from, window.to)` and maps to:
+
+```json
+"prices": [
+  { "date": "2024-01-02", "close": 4.12, "adjClose": 4.37, "volume": 102400 }
+],
+"priceCoverage": {
+  "earliest": "2013-05-31",
+  "latest": "2026-08-25",
+  "source": "yahoo"
+}
+```
+
+Rules:
+
+- **`volume`** populated from DB for every bar in range when provider supplied it.
+- **`priceCoverage`** reflects **cached DB** span, not the requested window.
+- Provider failures → `priceCoverage: null` + note; events still returned (prompt 3 D7).
+
+Prompt 3 UI should use **`adjClose ?? close`** for the price line and **`volume`** for a
+companion series (bars or secondary axis) in the enlarged chart area (prompt 5 / recent CSS).
+
+
+---
+
+## Relationship to other prompts
+
+| Prompt | Role |
+|--------|------|
+| **1** | `filedb` supplies CIK + ticker |
+| **3** | Timeline handler + chart; consumes this table; renders volume visually |
+| **6–7** | Event lane / filters — unrelated to OHLCV fetch |
+| **HLD / LLD** | Authoritative provider + chunking + file list |
+
+If prompt 3's LLD still says `stock_prices` without `volume` or Stooq-primary, **reconcile
+against this prompt and the HLD**.
+
+
+---
 
 ## Acceptance criteria
 
-- [ ] `internal/marketdata.Provider` fetches ≥10 years of daily bars for
-      `KMDA` (Kamada, CIK `0001567529`) from Stooq
-- [ ] Yahoo fallback exercised (unit test with a ticker Stooq returns empty
-      for, or a mocked empty-Stooq-response case)
-- [ ] `stock_prices` migration applied via `versionedMigrations` in
-      `internal/db/db.go` (not `migrations.sql`)
-- [ ] `UpsertStockPrices` is idempotent — re-running the same fetch does not
-      duplicate or error on the `(cik, trade_date)` primary key
-- [ ] `StockPriceCoverage` correctly reports gaps so a caller can decide
-      full-backfill vs incremental-top-up
-- [ ] Table-driven test: given existing coverage through date X, the
-      refresh path requests only `[X+1, today]`, not the full range
+- [ ] Yahoo primary fetches daily bars for `KMDA` with **non-zero volume** on typical days
+- [ ] Tiingo fallback path tested (mock or live with key)
+- [ ] Migration v32+ applied via `versionedMigrations` in `db.go`
+- [ ] `UpsertStockPrices` idempotent on `(cik, trade_date)`; **volume** column populated
+- [ ] Chunked backfill stores **>10 years** when provider offers it (Kamada ≥ full listing history)
+- [ ] Incremental refresh fetches only `[latest+1, today]`, not full re-backfill
+- [ ] Timeline API returns `volume` on each `prices[]` element for a window with cached data
 - [ ] `make test` passes
 
 
+---
+
 ## Out of scope
 
-- The `GET /api/companies/:cik/timeline` endpoint and Chart.js UI (prompt 3)
-- Intraday/real-time quotes, options, indices
-- A second keyed provider (Tiingo/Alpha Vantage/FMP) — only add if
-  Stooq+Yahoo prove unreliable in practice
-- Scheduled/cron pre-warming of all companies' price history
-- Currency conversion (store `currency` as reported by the source; no FX)
+- Chart.js volume rendering (prompt 3 UI)
+- Intraday quotes, options, indices
+- Stooq / headless browser
+- Cron pre-warm across all companies
+- FX conversion (`currency` stored as reported)
+- Re-backfill on split drift (document as future `force` refresh)
+
+
+---
+
+## Implementation order
+
+1. Read **HLD + LLD**; confirm next free migration id in `db.go`
+2. `stock_prices` migration + `stock_prices.go` (include **volume**)
+3. `yahoo.go` — parse adjclose **and volume**; table tests with fixture JSON
+4. `backfill.go` chunk walker + upsert
+5. `tiingo.go` fallback
+6. Wire `companyview` service / timeline handler to map **Volume** through
+7. Smoke: `curl` timeline for `0001567529` — verify `volume` in JSON
+8. Prompt 3 UI: volume bars in chart (separate task if not already done)
+
+
+---
+
+## References
+
+- `prompts/dev/prompt_4_stock_data-hld.md` — provider audit, D1–D11
+- `prompts/dev/prompt_4_stock_data-lld.md` — file-by-file
+- `internal/companyview/timeline.go` — `PricePoint.Volume`
+- `prompts/dev/prompt_3_company_view.txt` — Timeline endpoint consumer

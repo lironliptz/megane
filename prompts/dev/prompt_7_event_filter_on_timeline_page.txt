@@ -1,0 +1,286 @@
+=== prompt ===
+Add a **granular event-type filter** and **subtle period gridlines** to the Timeline tab
+(`#timeline` on `/companies/:cik`).
+
+Builds on prompt 3 (timeline API), prompt 5 (FE tokens), and prompt 6 (event lane, modal,
+top-of-chart markers). **Frontend-first** — filtering is client-side on the loaded
+`timeline.events` payload unless persistence needs a small API (see below).
+
+This prompt **replaces** the coarse `#tl-lane` dropdown (`All events` / `Major only` /
+`Financials & key events`) with a richer filter control. Remove `#tl-lane` when the new
+filter ships.
+
+
+## Goal
+
+| Priority | Deliverable |
+|----------|-------------|
+| **P0** | Filter icon + popover with two-level checkboxes (Form → category); badge `n / m`; persist selection |
+| **P0** | Client-side filter applied to chart markers (price line unchanged) |
+| **P1** | Subtle vertical period stripes on the chart (monthly vs yearly by window width) |
+| **P2** | Optional server-side prefs per user (cross-device) — only if localStorage is insufficient |
+
+
+---
+
+## Problem (current behavior)
+
+- Timeline has a single `<select id="tl-lane">` with three server-aligned presets
+  (`all` | `major` | `financials`) — too coarse for analysts who want e.g. “6-K earnings only,
+  hide insider Form 4s”.
+- No persistence: every visit resets to defaults.
+- Chart x-axis has no period guides — hard to scan long windows.
+
+
+---
+
+## P0 — Event filter UI
+
+### Control chrome
+
+Place a **compact filter button** in `.timeline-controls` (where `#tl-lane` is today):
+
+```
+[ funnel icon ]  12 / 18
+```
+
+| State | UI |
+|-------|-----|
+| **Closed (default)** | Icon button only + numeric badge **`selected / total`** |
+| **Open** | Popover panel anchored to the button (not full-screen modal) |
+
+- Use an inline SVG funnel/filter icon (single color `--text-muted`, `--accent` when panel open
+  or when filter is not “all selected”).
+- Badge: **`selected`** = count of **checked leaf options** (category checkboxes that are on);
+  **`total`** = count of **leaf options present** in the current filter tree (see below).
+- When all leaves are checked, badge may show `18 / 18` or shorten to `All` — pick one and stay
+  consistent (recommend **`18 / 18`** so the control always reads the same).
+
+### Popover panel
+
+```
+┌─ Event types ──────────────────────────────── × ┐
+│ [ Select all ]  [ Clear all ]                  │
+│                                                │
+│ ▼ 6-K (142)                                    │
+│    ☑ Quarterly results                         │
+│    ☑ Business deal                             │
+│    ☐ Insider trade                             │
+│    …                                           │
+│ ▼ 20-F (11)                                    │
+│    ☑ Annual report                             │
+│ ▼ 4 (89)                                       │
+│    ☐ Insider trade                             │
+│ …                                              │
+└────────────────────────────────────────────────┘
+```
+
+**Two levels (required):**
+
+| Level | Source field | Label in UI |
+|-------|----------------|-------------|
+| **1 — Form** | `event.form` | SEC form code (`6-K`, `20-F`, `4`, `8-K`, …) |
+| **2 — Sub-type** | `event.category` | Human label from `category.replace(/_/g, ' ')` (same as chips elsewhere) |
+
+Rules:
+
+- Tree is built from **`current.events`** in the loaded timeline window (after
+  `GET /api/companies/:cik/timeline?from=&to=`). Counts in parentheses = filings in window.
+- **Parent checkbox (Form):** tri-state optional; minimum = checking/unchecking all children.
+  Unchecking a form hides every category under it.
+- **Child checkbox (category):** filters `event.category` within that form.
+- Only show form/category **pairs that exist** in the current payload — do not list all 19 forms
+  from the classifier if absent in window.
+- Sort forms by count desc, then name; categories alphabetically under each form.
+- **Apply on close** or live on toggle — recommend **live** (re-`render()` chart on change, no
+  extra Apply button). Closing popover only hides UI; selection already applied.
+- Dismiss: click outside, Escape, or × button. Focus trap not required (small popover).
+
+### Filter logic (client-side)
+
+After fetch, before building scatter datasets:
+
+```javascript
+function eventVisible(e, filter) {
+  const key = e.form + '\0' + e.category;
+  if (!filter.categories[key]) return false;  // unchecked leaf
+  return true;
+}
+```
+
+Persist keys as `{ form, category }` or composite `"6-K|quarterly_results"`.
+
+**Price line is never filtered** — only event scatter datasets.
+
+Replace `lane` / `#tl-lane` logic in `tab-timeline.js` entirely.
+
+### Persistence
+
+Selection must survive **reload and next visit** for the same user.
+
+| Option | Recommendation |
+|--------|------------------|
+| **localStorage** | **P0 default** — key `megane.timelineEventFilter.v1`, JSON map of checked leaves. No backend work; matches existing auth token storage in `app.js`. |
+| **Cookie** | Avoid — size limits, not used elsewhere in megane. |
+| **Server per user** | **P2** — new `user_preferences` row or JSON column; only if product requires cross-browser sync. |
+
+Stored shape (example):
+
+```json
+{
+  "version": 1,
+  "checked": {
+    "6-K|quarterly_results": true,
+    "6-K|insider_trade": false,
+    "4|insider_trade": false
+  }
+}
+```
+
+**Merge on load:**
+
+1. Build tree from `current.events`.
+2. For each leaf, default **`true`** (show) if no stored entry.
+3. New categories appearing in a later window inherit default **true** unless user previously
+   used “Clear all” (stored explicit falses).
+
+**Scope:** preference is **global per browser** (not per CIK) — hiding `insider_trade` should
+apply to every company. Document in UI tooltip: “Saved on this device.”
+
+Optional P2: `PUT /api/users/me/preferences` with `{ "timelineEventFilter": { … } }`.
+
+
+---
+
+## P1 — Vertical period stripes
+
+Add **very subtle** vertical bands behind the price/event chart to help the eye segment time.
+
+| Window span (`to − from`) | Stripe period |
+|---------------------------|---------------|
+| **≤ 2 years** | **Month** — band at each calendar month boundary |
+| **> 2 years** | **Year** — band at each calendar year boundary |
+
+Implementation (no new deps):
+
+- Chart.js **`afterDraw`** plugin inline in `tab-timeline.js` (same pattern as prompt 6
+  callouts).
+- For each period boundary, find the **first trading-day label** in `labels[]` with date ≥
+  boundary; convert to pixel x via `chart.scales.x.getPixelForValue(index)`.
+- Draw `fillRect` between consecutive boundaries with alternating fills:
+  - `--chart-period-a: rgba(15, 23, 42, 0.025)`
+  - `--chart-period-b: rgba(15, 23, 42, 0.055)`
+  (add to `:root` in `style.css`; keep barely visible on `--surface`).
+- Draw **behind** datasets (`beforeDatasetsDraw` hook if available, else `afterDraw` with
+  globalCompositeOperation careful ordering — prefer **`beforeDatasetsDraw`**).
+- Stripes span full chart height (price + event lane).
+- **No labels** on stripes in P1 — visual only.
+
+Edge cases:
+
+- Category x-axis: boundaries between trading days may fall mid-week — snap stripe to first
+  label on/after month/year start (same philosophy as event `snapIndex`).
+- Empty price series but events present: still draw stripes from event date labels if labels
+  are built from prices only today — if labels empty, skip stripes.
+
+
+---
+
+## Files to touch
+
+| File | Changes |
+|------|---------|
+| `static/company.html` | Remove `#tl-lane`; add `#tl-event-filter` button + `#tl-event-filter-panel` popover |
+| `static/js/company/tab-timeline.js` | Filter tree, persistence, apply filter, period stripes plugin |
+| `static/css/style.css` | `.timeline-event-filter*`, popover, badge, `--chart-period-a/b` |
+| `static/img/` or inline SVG | Funnel/filter icon (16×16) |
+
+**Not required for P0:** Go API changes, DB migration.
+
+**Optional P2:** `internal/db/user_preferences.go`, handler on `/api/users/me/preferences`.
+
+
+---
+
+## UX / accessibility
+
+- Filter button: `aria-expanded`, `aria-controls="tl-event-filter-panel"`.
+- Panel: `role="dialog"` or `role="region"` with `aria-label="Filter event types"`.
+- All dynamic counts/labels via existing text nodes — no `innerHTML` with unescaped filing text
+  in the filter tree (form codes and category keys are safe; still use `escHtml` for summaries
+  if any appear).
+- Keyboard: Escape closes panel; Tab order through checkboxes.
+
+
+---
+
+## Relationship to other prompts
+
+| Prompt | Interaction |
+|--------|-------------|
+| **3** | Timeline API unchanged for P0; optional `filter` query param remains for backward compat but UI stops using `#tl-lane` presets |
+| **6** | Event lane Y placement and modal unchanged; filter only affects which events become scatter points |
+| **5** | Popover uses existing tokens (compact, flat border, `--accent` focus) |
+
+**Do not** filter the Special events tab (`#events`) in this prompt — optional follow-up to share
+the same `localStorage` key.
+
+
+---
+
+## Acceptance criteria
+
+### P0 — Filter
+
+- [ ] Filter icon + `n / m` badge visible in timeline controls; `#tl-lane` removed
+- [ ] Popover lists Form → category tree from current timeline events with counts
+- [ ] Unchecking hides matching markers immediately; price line unchanged
+- [ ] Parent form toggle affects all its categories
+- [ ] Selection persisted in `localStorage` and restored on reload (same browser)
+- [ ] New categories default to visible unless explicitly unchecked
+
+### P1 — Stripes
+
+- [ ] Windows ≤ 2y show monthly vertical bands; longer windows show yearly bands
+- [ ] Stripes are subtle (do not overpower price line or event markers)
+- [ ] Stripes align to calendar boundaries snapped to trading-day labels
+
+### Quality
+
+- [ ] `escHtml` on any user-facing filing prose if shown in panel
+- [ ] Manual smoke: Kamada `0001567529`, 2Y window — uncheck `4 / insider_trade`, confirm
+  cluster on `2026-04-09` disappears; re-enable persists after refresh
+
+
+---
+
+## Out of scope
+
+- Filtering price series or hiding trading days
+- Server-side filter query params for each category (client-side is enough for ≤ ~100 events/window)
+- Per-company saved filters (global device pref only in P0)
+- Export / share filter presets
+- Replacing Chart.js category axis with time axis
+
+
+---
+
+## Implementation order
+
+1. Build filter tree helper + client filter function; wire into `render()` (keep `#tl-lane` temporarily)
+2. Add popover HTML/CSS + icon badge
+3. localStorage read/write + merge defaults
+4. Remove `#tl-lane`; update counts in `#timeline-counts` to reflect filtered visible events
+5. P1: `beforeDatasetsDraw` period stripes + CSS vars
+6. Manual smoke at 1Y, 2Y, 5Y, All presets with filter persistence
+
+
+---
+
+## References
+
+- `static/js/company/tab-timeline.js` — `lane`, `visible`, range slider, chart build
+- `internal/companyview/classify.go` — `category` values (sub-types)
+- `internal/companyview/timeline.go` — `Event.form`, `Event.category`
+- `prompts/dev/prompt_3_company_view-lld.md` §7.4 — Chart.js constraints
+- `docs/design/megane-fe-direction.md` — chart tokens

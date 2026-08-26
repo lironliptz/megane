@@ -30,8 +30,11 @@
   --modal-max-width: min(94vw, 880px);
   --modal-wide-max-width: min(98vw, 1520px);
   --chart-price: var(--accent);
+  --chart-volume: #94a3b8;
   --chart-event-major: var(--accent);
   --chart-event-minor: var(--border);
+  --chart-period-a: rgba(15, 23, 42, 0.025);
+  --chart-period-b: rgba(15, 23, 42, 0.055);
   --focus-ring: 0 0 0 3px rgba(37, 99, 235, .18);
 }
 
@@ -1225,21 +1228,187 @@ body.company-page .tab-panel.active {
   letter-spacing: .06em;
 }
 
+.timeline-event-filter {
+  position: relative;
+}
+
+.timeline-event-filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+.timeline-event-filter-btn svg {
+  color: var(--text-muted);
+}
+
+.timeline-event-filter-btn.active,
+.timeline-event-filter-btn.active svg {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.timeline-event-filter-panel {
+  position: absolute;
+  top: calc(100% + .35rem);
+  left: 0;
+  z-index: 50;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: .75rem;
+  width: min(90vw, 340px);
+  max-height: 60vh;
+  overflow-y: auto;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, .14);
+}
+
+.timeline-event-filter-actions {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-bottom: .5rem;
+}
+
+.timeline-event-filter-actions .modal-close {
+  margin-left: auto;
+}
+
+.tl-filter-form {
+  margin-bottom: .5rem;
+  font-weight: 600;
+  font-size: .82rem;
+}
+
+.tl-filter-form label {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+.tl-filter-cat {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  margin-left: 1.1rem;
+  font-weight: 400;
+  font-size: .8rem;
+  color: var(--text-muted);
+}
+
+.timeline-range {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  flex: 1 1 16rem;
+  min-width: min(100%, 280px);
+}
+
+.timeline-range-readout {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  font-size: .78rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.timeline-range-readout time {
+  font-weight: 600;
+}
+
+.timeline-range-sep {
+  color: var(--text-muted);
+  font-size: .85rem;
+}
+
+.timeline-range-sliders {
+  position: relative;
+  flex: 1 1 8rem;
+  min-width: 6rem;
+  height: 1.25rem;
+}
+
+.timeline-range-sliders input[type="range"] {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1.25rem;
+  margin: 0;
+  pointer-events: none;
+  background: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.timeline-range-sliders input[type="range"]::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 2px;
+  background: var(--border);
+}
+
+.timeline-range-sliders input[type="range"]::-moz-range-track {
+  height: 4px;
+  border-radius: 2px;
+  background: var(--border);
+}
+
+.timeline-range-sliders input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  pointer-events: auto;
+  width: 14px;
+  height: 14px;
+  margin-top: -5px;
+  border-radius: 50%;
+  border: 2px solid var(--surface);
+  background: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+  cursor: grab;
+}
+
+.timeline-range-sliders input[type="range"]::-moz-range-thumb {
+  pointer-events: auto;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid var(--surface);
+  background: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+  cursor: grab;
+}
+
+.timeline-range-sliders input[type="range"]:focus-visible::-webkit-slider-thumb {
+  box-shadow: var(--focus-ring);
+}
+
+.timeline-range-sliders input[type="range"]:focus-visible::-moz-range-thumb {
+  box-shadow: var(--focus-ring);
+}
+
+@media (max-width: 900px) {
+  .timeline-range {
+    flex: 1 1 100%;
+    order: 3;
+  }
+}
+
 .timeline-chart-wrap {
   position: relative;
   width: 100%;
-  min-height: 420px;
-  height: clamp(320px, 46vh, 560px);
+  min-height: 520px;
+  height: clamp(420px, 58vh, 720px);
 }
 
 .timeline-chart-wrap canvas {
   width: 100% !important;
-  max-height: min(520px, 58vh);
+  max-height: min(680px, 62vh);
 }
 
 @media (max-width: 640px) {
   .timeline-chart-wrap {
-    min-height: 360px;
+    min-height: 400px;
+    height: clamp(360px, 50vh, 560px);
   }
 }
 

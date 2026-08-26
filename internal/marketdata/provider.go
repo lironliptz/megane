@@ -30,11 +30,19 @@ type Quote struct {
 	Currency string
 	Exchange string
 	Bars     []Bar
+	// FirstTradeDate is the earliest date the provider has data for this
+	// symbol (YYYY-MM-DD, exchange-local), or "" when the provider does not
+	// expose it. The chunk walker (backfill.go) prefers this as its stop
+	// condition over walking until a terminal error.
+	FirstTradeDate string
 }
 
 // Provider failures. Callers distinguish these because they mean very different
-// things: a missing symbol is permanent, a bad response is transient, and bad
-// granularity means the provider silently gave us the wrong resolution.
+// things: a missing symbol is permanent, a bad response is transient, bad
+// granularity means the provider silently gave us the wrong resolution, a
+// rate limit is retryable, and "no data for range" is the expected terminal
+// condition a chunked backfill walks into once it passes a symbol's listing
+// date.
 var (
 	// ErrSymbolNotFound means the provider has no such symbol (delisted, typo).
 	ErrSymbolNotFound = errors.New("marketdata: symbol not found")
@@ -44,6 +52,14 @@ var (
 	// ErrBadResponse means the payload was not the shape we expect — including a
 	// 200 carrying HTML, which must never parse as "zero bars".
 	ErrBadResponse = errors.New("marketdata: unexpected response shape")
+	// ErrRateLimited means the provider throttled this request (HTTP 429 or
+	// equivalent). Retryable with backoff.
+	ErrRateLimited = errors.New("marketdata: provider rate-limited the request")
+	// ErrNoDataForRange means the provider has no data at all in the
+	// requested window — a valid symbol, just nothing before its listing
+	// date. Not retryable and not a failure: it is the chunk walker's
+	// expected end-of-history signal.
+	ErrNoDataForRange = errors.New("marketdata: no data for requested range")
 )
 
 // PriceProvider fetches daily OHLC bars for a symbol.

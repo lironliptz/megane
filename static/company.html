@@ -85,12 +85,36 @@
               <button type="button" class="btn btn-ghost" id="tl-preset-5Y">5Y</button>
               <button type="button" class="btn btn-ghost" id="tl-preset-All">All</button>
             </div>
-            <label class="timeline-lane-label" for="tl-lane">Show</label>
-            <select id="tl-lane" aria-label="Which filings to show">
-              <option value="all">All events</option>
-              <option value="major">Major only</option>
-              <option value="financials">Financials &amp; key events</option>
-            </select>
+            <div class="timeline-range" id="tl-range-wrap">
+              <span class="timeline-lane-label">Period</span>
+              <div class="timeline-range-readout" aria-live="polite">
+                <time id="tl-range-from-label">—</time>
+                <span class="timeline-range-sep" aria-hidden="true">↔</span>
+                <time id="tl-range-to-label">—</time>
+              </div>
+              <div class="timeline-range-sliders">
+                <input type="range" id="tl-range-from" aria-label="Range start date">
+                <input type="range" id="tl-range-to" aria-label="Range end date">
+              </div>
+            </div>
+            <div class="timeline-event-filter">
+              <button type="button" class="btn btn-ghost timeline-event-filter-btn"
+                id="tl-filter-btn" aria-expanded="false" aria-controls="tl-filter-panel">
+                <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true">
+                  <path d="M1 2h14l-5 6v5l-4 2v-7z" fill="none" stroke="currentColor" stroke-width="1.4"/>
+                </svg>
+                <span id="tl-filter-badge">0 / 0</span>
+              </button>
+              <div class="timeline-event-filter-panel" id="tl-filter-panel"
+                role="region" aria-label="Filter event types" hidden>
+                <div class="timeline-event-filter-actions">
+                  <button type="button" class="btn btn-ghost" id="tl-filter-all">Select all</button>
+                  <button type="button" class="btn btn-ghost" id="tl-filter-none">Clear all</button>
+                  <button type="button" class="modal-close" id="tl-filter-close" aria-label="Close">&times;</button>
+                </div>
+                <div id="tl-filter-tree"></div>
+              </div>
+            </div>
             <span class="pager-status" id="timeline-counts"></span>
           </div>
           <p id="timeline-status" class="muted"></p>
@@ -148,6 +172,14 @@
 
     </div>
   </main>
+
+  <div class="modal-overlay" id="timeline-event-modal">
+    <div class="modal">
+      <button type="button" class="modal-close" id="timeline-event-modal-close" aria-label="Close">&times;</button>
+      <h3 id="timeline-event-modal-title"></h3>
+      <div id="timeline-event-modal-body"></div>
+    </div>
+  </div>
 
   <script src="/static/js/app.js"></script>
   <script src="/static/js/chart.umd.min.js"></script>

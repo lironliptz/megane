@@ -1,0 +1,1834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xbrl
+  xmlns="http://www.xbrl.org/2003/instance"
+  xmlns:country="http://xbrl.sec.gov/country/2023"
+  xmlns:dei="http://xbrl.sec.gov/dei/2023"
+  xmlns:ifrs-full="https://xbrl.ifrs.org/taxonomy/2023-03-23/ifrs-full"
+  xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+  xmlns:kmda="http://kamadaltd.com/20240331"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:utr="http://www.xbrl.org/2009/utr"
+  xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<context id="c0">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c1">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+        </entity>
+        <period>
+            <instant>2024-03-31</instant>
+        </period>
+    </context>
+<context id="c2">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+        </entity>
+        <period>
+            <instant>2023-03-31</instant>
+        </period>
+    </context>
+<context id="c3">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+        </entity>
+        <period>
+            <instant>2023-12-31</instant>
+        </period>
+    </context>
+<context id="c4">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c5">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c6">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:IssuedCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-12-31</instant>
+        </period>
+    </context>
+<context id="c7">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:AdditionalPaidinCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-12-31</instant>
+        </period>
+    </context>
+<context id="c8">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-12-31</instant>
+        </period>
+    </context>
+<context id="c9">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfCashFlowHedgesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-12-31</instant>
+        </period>
+    </context>
+<context id="c10">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfSharebasedPaymentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-12-31</instant>
+        </period>
+    </context>
+<context id="c11">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfRemeasurementsOfDefinedBenefitPlansMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-12-31</instant>
+        </period>
+    </context>
+<context id="c12">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-12-31</instant>
+        </period>
+    </context>
+<context id="c13">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:IssuedCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c14">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:AdditionalPaidinCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c15">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c16">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfCashFlowHedgesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c17">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfSharebasedPaymentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c18">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfRemeasurementsOfDefinedBenefitPlansMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c19">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c20">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:IssuedCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-03-31</instant>
+        </period>
+    </context>
+<context id="c21">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:AdditionalPaidinCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-03-31</instant>
+        </period>
+    </context>
+<context id="c22">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-03-31</instant>
+        </period>
+    </context>
+<context id="c23">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfCashFlowHedgesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-03-31</instant>
+        </period>
+    </context>
+<context id="c24">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfSharebasedPaymentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-03-31</instant>
+        </period>
+    </context>
+<context id="c25">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfRemeasurementsOfDefinedBenefitPlansMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-03-31</instant>
+        </period>
+    </context>
+<context id="c26">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-03-31</instant>
+        </period>
+    </context>
+<context id="c27">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:IssuedCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+<context id="c28">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:AdditionalPaidinCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+<context id="c29">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+<context id="c30">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfCashFlowHedgesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+<context id="c31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfSharebasedPaymentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+<context id="c32">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfRemeasurementsOfDefinedBenefitPlansMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+<context id="c33">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+<context id="c34">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+<context id="c35">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:IssuedCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c36">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:AdditionalPaidinCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c37">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c38">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfCashFlowHedgesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c39">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfSharebasedPaymentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c40">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfRemeasurementsOfDefinedBenefitPlansMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c41">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c42">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:IssuedCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-03-31</instant>
+        </period>
+    </context>
+<context id="c43">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:AdditionalPaidinCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-03-31</instant>
+        </period>
+    </context>
+<context id="c44">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-03-31</instant>
+        </period>
+    </context>
+<context id="c45">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfCashFlowHedgesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-03-31</instant>
+        </period>
+    </context>
+<context id="c46">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfSharebasedPaymentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-03-31</instant>
+        </period>
+    </context>
+<context id="c47">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfRemeasurementsOfDefinedBenefitPlansMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-03-31</instant>
+        </period>
+    </context>
+<context id="c48">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-03-31</instant>
+        </period>
+    </context>
+<context id="c49">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:IssuedCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c50">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:AdditionalPaidinCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c51">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c52">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfCashFlowHedgesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c53">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfSharebasedPaymentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c54">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:ReserveOfRemeasurementsOfDefinedBenefitPlansMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c55">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c56">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:CategoriesOfRelatedPartiesAxis">kmda:TakedaPharmaceuticalsCompanyLimitedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-03-31</instant>
+        </period>
+    </context>
+<context id="c57">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:CategoriesOfRelatedPartiesAxis">kmda:BoardOfDirectorsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-02-29</instant>
+        </period>
+    </context>
+<context id="c58">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:TypesOfSharebasedPaymentArrangementsAxis">kmda:IsraeliShareOptionPlanMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-02-29</instant>
+        </period>
+    </context>
+<context id="c59">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:TypesOfSharebasedPaymentArrangementsAxis">kmda:IsraeliShareOptionPlanMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-02-29</startDate>
+            <endDate>2024-02-29</endDate>
+        </period>
+    </context>
+<context id="c60">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+        </entity>
+        <period>
+            <instant>2024-02-29</instant>
+        </period>
+    </context>
+<context id="c61">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+        </entity>
+        <period>
+            <startDate>2024-02-29</startDate>
+            <endDate>2024-02-29</endDate>
+        </period>
+    </context>
+<context id="c62">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ProductsAndServicesAxis">kmda:ProprietaryProductsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c63">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ProductsAndServicesAxis">kmda:DistributionMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c64">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ProductsAndServicesAxis">kmda:ProprietaryProductsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c65">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ProductsAndServicesAxis">kmda:DistributionMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c66">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ProductsAndServicesAxis">kmda:ProprietaryProductsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c67">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:ProductsAndServicesAxis">kmda:DistributionMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c68">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:USAAndNorthAmericaMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c69">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:USAAndNorthAmericaMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c70">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:USAAndNorthAmericaMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c71">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:IL</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c72">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:IL</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c73">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:IL</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c74">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:CA</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c75">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:CA</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c76">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:CA</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c77">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:EuropeOneMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c78">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:EuropeOneMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c79">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:EuropeOneMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c80">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesTwoMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c81">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesTwoMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c82">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesTwoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c83">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesOneMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c84">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesOneMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c85">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesOneMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c86">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c87">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2024-01-01</startDate>
+            <endDate>2024-03-31</endDate>
+        </period>
+    </context>
+<context id="c88">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:USAAndNorthAmericaMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c89">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:USAAndNorthAmericaMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c90">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:USAAndNorthAmericaMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c91">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:IL</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c92">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:IL</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c93">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:IL</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c94">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:CA</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c95">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:CA</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c96">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:CA</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c97">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:EuropeOneMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c98">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:EuropeOneMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c99">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:EuropeOneMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c100">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesTwoMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c101">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesTwoMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c102">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesTwoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c103">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesOneMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c104">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesOneMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c105">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesOneMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c106">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherCountriesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c107">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherCountriesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c108">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherCountriesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c109">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c110">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-03-31</endDate>
+        </period>
+    </context>
+<context id="c111">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:USAAndNorthAmericaMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c112">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:USAAndNorthAmericaMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c113">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:USAAndNorthAmericaMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c114">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:IL</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c115">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:IL</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c116">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:IL</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c117">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:CA</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c118">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:CA</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c119">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">country:CA</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c120">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:EuropeOneMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c121">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:EuropeOneMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c122">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:EuropeOneMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c123">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesTwoMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c124">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesTwoMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c125">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesTwoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c126">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesOneMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c127">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesOneMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c128">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherForeignCountriesOneMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c129">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherCountriesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c130">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherCountriesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c131">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:GeographicalAreasAxis">kmda:OtherCountriesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c132">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:ReportableSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c133">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:SegmentsAxis">ifrs-full:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+<context id="c134">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:LevelsOfFairValueHierarchyAxis">ifrs-full:Level1OfFairValueHierarchyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-03-31</instant>
+        </period>
+    </context>
+<context id="c135">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:LevelsOfFairValueHierarchyAxis">ifrs-full:Level2OfFairValueHierarchyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-03-31</instant>
+        </period>
+    </context>
+<context id="c136">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:LevelsOfFairValueHierarchyAxis">ifrs-full:Level3OfFairValueHierarchyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-03-31</instant>
+        </period>
+    </context>
+<context id="c137">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:LevelsOfFairValueHierarchyAxis">ifrs-full:Level1OfFairValueHierarchyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-03-31</instant>
+        </period>
+    </context>
+<context id="c138">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:LevelsOfFairValueHierarchyAxis">ifrs-full:Level2OfFairValueHierarchyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-03-31</instant>
+        </period>
+    </context>
+<context id="c139">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:LevelsOfFairValueHierarchyAxis">ifrs-full:Level3OfFairValueHierarchyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-03-31</instant>
+        </period>
+    </context>
+<context id="c140">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:LevelsOfFairValueHierarchyAxis">ifrs-full:Level1OfFairValueHierarchyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-12-31</instant>
+        </period>
+    </context>
+<context id="c141">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:LevelsOfFairValueHierarchyAxis">ifrs-full:Level2OfFairValueHierarchyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-12-31</instant>
+        </period>
+    </context>
+<context id="c142">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:LevelsOfFairValueHierarchyAxis">ifrs-full:Level3OfFairValueHierarchyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-12-31</instant>
+        </period>
+    </context>
+<context id="c143">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001567529</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ifrs-full:NonadjustingEventsAfterReportingPeriodAxis">kmda:SubsequentEventsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2024-05-02</instant>
+        </period>
+    </context>
+<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+<unit id="usdPershares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+<unit id="pure">
+        <measure>pure</measure>
+    </unit>
+<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+<unit id="ilsPershares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:ILS</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+<unit id="sqm">
+        <measure>utr:sqm</measure>
+    </unit>
+<dei:DocumentType contextRef="c0" id="ixv-415">6-K</dei:DocumentType>
+<dei:DocumentFiscalYearFocus contextRef="c0" id="ixv-416">2024</dei:DocumentFiscalYearFocus>
+<dei:EntityFileNumber contextRef="c0" id="ixv-417">001-35948</dei:EntityFileNumber>
+<dei:EntityRegistrantName contextRef="c0" id="ixv-61">Kamada Ltd.</dei:EntityRegistrantName>
+<ifrs-full:CashAndCashEquivalents contextRef="c1" decimals="0" id="ixv-5351" unitRef="usd">48194</ifrs-full:CashAndCashEquivalents>
+<ifrs-full:CashAndCashEquivalents contextRef="c2" decimals="0" id="ixv-5352" unitRef="usd">27121</ifrs-full:CashAndCashEquivalents>
+<ifrs-full:CashAndCashEquivalents contextRef="c3" decimals="0" id="ixv-5353" unitRef="usd">55641</ifrs-full:CashAndCashEquivalents>
+<ifrs-full:Assets contextRef="c1" decimals="0" id="ixv-5381" unitRef="usd">343174</ifrs-full:Assets>
+<ifrs-full:Assets contextRef="c2" decimals="0" id="ixv-5382" unitRef="usd">316795</ifrs-full:Assets>
+<ifrs-full:Assets contextRef="c3" decimals="0" id="ixv-5383" unitRef="usd">354907</ifrs-full:Assets>
+<ifrs-full:Revenue contextRef="c0" decimals="0" id="ixv-5452" unitRef="usd">37736</ifrs-full:Revenue>
+<ifrs-full:Revenue contextRef="c4" decimals="0" id="ixv-5453" unitRef="usd">30710</ifrs-full:Revenue>
+<ifrs-full:Revenue contextRef="c5" decimals="0" id="ixv-5454" unitRef="usd">142519</ifrs-full:Revenue>
+<ifrs-full:CostOfSales contextRef="c0" decimals="0" id="ixv-5461" unitRef="usd">20985</ifrs-full:CostOfSales>
+<ifrs-full:CostOfSales contextRef="c4" decimals="0" id="ixv-5462" unitRef="usd">18871</ifrs-full:CostOfSales>
+<ifrs-full:CostOfSales contextRef="c5" decimals="0" id="ixv-5463" unitRef="usd">87029</ifrs-full:CostOfSales>
+<ifrs-full:GrossProfit contextRef="c0" decimals="0" id="ixv-5464" unitRef="usd">16751</ifrs-full:GrossProfit>
+<ifrs-full:GrossProfit contextRef="c4" decimals="0" id="ixv-5465" unitRef="usd">11839</ifrs-full:GrossProfit>
+<ifrs-full:GrossProfit contextRef="c5" decimals="0" id="ixv-5466" unitRef="usd">55490</ifrs-full:GrossProfit>
+<ifrs-full:ProfitLossFromOperatingActivities contextRef="c0" decimals="0" id="ixv-5478" unitRef="usd">4039</ifrs-full:ProfitLossFromOperatingActivities>
+<ifrs-full:ProfitLossFromOperatingActivities contextRef="c4" decimals="0" id="ixv-5479" unitRef="usd">289</ifrs-full:ProfitLossFromOperatingActivities>
+<ifrs-full:ProfitLossFromOperatingActivities contextRef="c5" decimals="0" id="ixv-5480" unitRef="usd">10064</ifrs-full:ProfitLossFromOperatingActivities>
+<ifrs-full:ProfitLoss contextRef="c0" decimals="0" id="ixv-5499" unitRef="usd">2365</ifrs-full:ProfitLoss>
+<ifrs-full:ProfitLoss contextRef="c4" decimals="0" id="ixv-5500" unitRef="usd">-1809</ifrs-full:ProfitLoss>
+<ifrs-full:ProfitLoss contextRef="c5" decimals="0" id="ixv-5501" unitRef="usd">8284</ifrs-full:ProfitLoss>
+<ifrs-full:BasicEarningsLossPerShare
+      contextRef="c0"
+      decimals="2"
+      id="ixv-5514"
+      unitRef="usdPershares">0.04</ifrs-full:BasicEarningsLossPerShare>
+<ifrs-full:BasicEarningsLossPerShare
+      contextRef="c4"
+      decimals="2"
+      id="ixv-5515"
+      unitRef="usdPershares">-0.04</ifrs-full:BasicEarningsLossPerShare>
+<ifrs-full:BasicEarningsLossPerShare
+      contextRef="c5"
+      decimals="2"
+      id="ixv-5516"
+      unitRef="usdPershares">0.17</ifrs-full:BasicEarningsLossPerShare>
+<ifrs-full:DilutedEarningsLossPerShare
+      contextRef="c0"
+      decimals="2"
+      id="ixv-5517"
+      unitRef="usdPershares">0.04</ifrs-full:DilutedEarningsLossPerShare>
+<ifrs-full:DilutedEarningsLossPerShare
+      contextRef="c4"
+      decimals="2"
+      id="ixv-5518"
+      unitRef="usdPershares">-0.04</ifrs-full:DilutedEarningsLossPerShare>
+<ifrs-full:DilutedEarningsLossPerShare
+      contextRef="c5"
+      decimals="2"
+      id="ixv-5519"
+      unitRef="usdPershares">0.15</ifrs-full:DilutedEarningsLossPerShare>
+<ifrs-full:ProfitLoss contextRef="c19" decimals="0" id="ixv-5528" unitRef="usd">2365</ifrs-full:ProfitLoss>
+<ifrs-full:ProfitLoss contextRef="c0" decimals="0" id="ixv-5529" unitRef="usd">2365</ifrs-full:ProfitLoss>
+<ifrs-full:ProfitLoss contextRef="c41" decimals="0" id="ixv-5559" unitRef="usd">-1809</ifrs-full:ProfitLoss>
+<ifrs-full:ProfitLoss contextRef="c4" decimals="0" id="ixv-5560" unitRef="usd">-1809</ifrs-full:ProfitLoss>
+<ifrs-full:ProfitLoss contextRef="c55" decimals="0" id="ixv-5590" unitRef="usd">8284</ifrs-full:ProfitLoss>
+<ifrs-full:ProfitLoss contextRef="c5" decimals="0" id="ixv-5591" unitRef="usd">8284</ifrs-full:ProfitLoss>
+<ifrs-full:CashFlowsFromUsedInOperatingActivities contextRef="c0" decimals="0" id="ixv-5674" unitRef="usd">1020</ifrs-full:CashFlowsFromUsedInOperatingActivities>
+<ifrs-full:CashFlowsFromUsedInOperatingActivities contextRef="c4" decimals="0" id="ixv-5675" unitRef="usd">-2851</ifrs-full:CashFlowsFromUsedInOperatingActivities>
+<ifrs-full:CashFlowsFromUsedInOperatingActivities contextRef="c5" decimals="0" id="ixv-5676" unitRef="usd">4315</ifrs-full:CashFlowsFromUsedInOperatingActivities>
+<ifrs-full:Revenue contextRef="c62" decimals="0" id="ixv-5731" unitRef="usd">33758</ifrs-full:Revenue>
+<ifrs-full:Revenue contextRef="c63" decimals="0" id="ixv-5732" unitRef="usd">3978</ifrs-full:Revenue>
+<ifrs-full:Revenue contextRef="c0" decimals="0" id="ixv-5733" unitRef="usd">37736</ifrs-full:Revenue>
+<ifrs-full:GrossProfit contextRef="c62" decimals="0" id="ixv-5734" unitRef="usd">16138</ifrs-full:GrossProfit>
+<ifrs-full:GrossProfit contextRef="c63" decimals="0" id="ixv-5735" unitRef="usd">613</ifrs-full:GrossProfit>
+<ifrs-full:GrossProfit contextRef="c0" decimals="0" id="ixv-5736" unitRef="usd">16751</ifrs-full:GrossProfit>
+<ifrs-full:Revenue contextRef="c64" decimals="0" id="ixv-5740" unitRef="usd">24061</ifrs-full:Revenue>
+<ifrs-full:Revenue contextRef="c65" decimals="0" id="ixv-5741" unitRef="usd">6649</ifrs-full:Revenue>
+<ifrs-full:Revenue contextRef="c4" decimals="0" id="ixv-5742" unitRef="usd">30710</ifrs-full:Revenue>
+<ifrs-full:GrossProfit contextRef="c64" decimals="0" id="ixv-5743" unitRef="usd">10837</ifrs-full:GrossProfit>
+<ifrs-full:GrossProfit contextRef="c65" decimals="0" id="ixv-5744" unitRef="usd">1002</ifrs-full:GrossProfit>
+<ifrs-full:GrossProfit contextRef="c4" decimals="0" id="ixv-5745" unitRef="usd">11839</ifrs-full:GrossProfit>
+<ifrs-full:Revenue contextRef="c66" decimals="0" id="ixv-5749" unitRef="usd">115458</ifrs-full:Revenue>
+<ifrs-full:Revenue contextRef="c67" decimals="0" id="ixv-5750" unitRef="usd">27061</ifrs-full:Revenue>
+<ifrs-full:Revenue contextRef="c5" decimals="0" id="ixv-5751" unitRef="usd">142519</ifrs-full:Revenue>
+<ifrs-full:GrossProfit contextRef="c66" decimals="0" id="ixv-5752" unitRef="usd">52116</ifrs-full:GrossProfit>
+<ifrs-full:GrossProfit contextRef="c67" decimals="0" id="ixv-5753" unitRef="usd">3374</ifrs-full:GrossProfit>
+<ifrs-full:GrossProfit contextRef="c5" decimals="0" id="ixv-5754" unitRef="usd">55490</ifrs-full:GrossProfit>
+<dei:AmendmentFlag contextRef="c0" id="ixv-5928">false</dei:AmendmentFlag>
+<dei:CurrentFiscalYearEndDate contextRef="c0" id="ixv-5929">--12-31</dei:CurrentFiscalYearEndDate>
+<dei:DocumentFiscalPeriodFocus contextRef="c0" id="ixv-5930">Q1</dei:DocumentFiscalPeriodFocus>
+<dei:DocumentPeriodEndDate contextRef="c0" id="ixv-5931">2024-03-31</dei:DocumentPeriodEndDate>
+<dei:EntityCentralIndexKey contextRef="c0" id="ixv-5932">0001567529</dei:EntityCentralIndexKey>
+</xbrl>

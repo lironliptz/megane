@@ -130,12 +130,18 @@ func main() {
 	slog.Info("company file store configured", "dir", fileDBDir)
 
 	// Market data for the company timeline. Construction performs no I/O; the
-	// first fetch happens when a user opens the Timeline tab.
+	// first fetch happens when a user opens the Timeline tab. The fallback
+	// (Tiingo) is nil unless MARKET_DATA_API_KEY is set — a chunk the primary
+	// cannot serve then just has nothing to fall back to.
 	priceProvider := marketdata.NewFromEnv(os.Getenv("MARKET_DATA_PROVIDER"))
-	timelineSvc := companyview.NewService(companyStore, database, priceProvider, companyview.Config{
+	fallbackProvider := marketdata.NewFallbackFromEnv()
+	timelineSvc := companyview.NewService(companyStore, database, priceProvider, fallbackProvider, companyview.Config{
 		FetchOnOpen: getEnv("STOCK_FETCH_ON_COMPANY_OPEN", "false") == "true",
+		ChunkYears:  getEnvInt("MARKET_DATA_CHUNK_YEARS", marketdata.DefaultChunkYears),
+		ChunkDelay:  getEnvDuration("MARKET_DATA_CHUNK_DELAY", marketdata.DefaultChunkDelay),
 	})
-	slog.Info("market data provider configured", "provider", priceProvider.Name())
+	slog.Info("market data provider configured", "provider", priceProvider.Name(),
+		"fallback", fallbackProvider != nil)
 
 	router := handlers.NewRouter(ctx, database, pipe, projectsDir, llmRouteCfg, prompts,
 		handlers.CompanyDeps{Store: companyStore, Timeline: timelineSvc})
@@ -164,6 +170,32 @@ func getEnv(key, defaultVal string) string {
 		return v
 	}
 	return defaultVal
+}
+
+func getEnvInt(key string, defaultVal int) int {
+	v := strings.TrimSpace(os.Getenv(key))
+	if v == "" {
+		return defaultVal
+	}
+	n, err := strconv.Atoi(v)
+	if err != nil || n <= 0 {
+		slog.Warn("invalid env value, using default", "key", key, "value", v, "default", defaultVal)
+		return defaultVal
+	}
+	return n
+}
+
+func getEnvDuration(key string, defaultVal time.Duration) time.Duration {
+	v := strings.TrimSpace(os.Getenv(key))
+	if v == "" {
+		return defaultVal
+	}
+	d, err := time.ParseDuration(v)
+	if err != nil || d <= 0 {
+		slog.Warn("invalid env value, using default", "key", key, "value", v, "default", defaultVal)
+		return defaultVal
+	}
+	return d
 }
 
 func seedAdmin(database *db.DB) {

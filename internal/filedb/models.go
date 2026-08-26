@@ -6,6 +6,8 @@
 // interface; handlers, JSON shapes, and the UI are unchanged by that swap.
 package filedb
 
+import "megane/internal/edgar/financials"
+
 // CompanySummary is the row shape returned by search and list operations.
 type CompanySummary struct {
 	CIK       string   `json:"cik"`
@@ -84,6 +86,12 @@ type FilingRow struct {
 	Tags            []string `json:"tags,omitempty"`
 	HasFinancials   bool     `json:"hasFinancials"`
 	ExhibitCount    int      `json:"exhibitCount"`
+
+	// Financials holds extracted statement figures when the accession shipped
+	// XBRL and financials.json was built for it; nil for the great majority of
+	// filings. Excluded from JSON: FilingRow is serialized by the filings API,
+	// and this payload is only for the timeline event builder.
+	Financials *financials.FilingFinancials `json:"-"`
 }
 
 // FilingFilter narrows a ListFilings call. The zero value means "no filter".

@@ -2,7 +2,9 @@ package filedb
 
 import (
 	"encoding/json"
+
 	"log/slog"
+	"megane/internal/edgar/financials"
 	"os"
 	"path/filepath"
 	"sort"
@@ -117,6 +119,14 @@ func readAccession(dir string, year int) (FilingRow, bool) {
 	if acc == "" {
 		acc = filepath.Base(dir)
 	}
+
+	// financials.json is optional and absent for most accessions. A read or
+	// parse failure is tolerated exactly like a bad meta.json: warn, leave the
+	// field nil, keep the row.
+	fin, err := financials.Load(dir)
+	if err != nil {
+		slog.Warn("filedb: ignoring unreadable financials.json", "dir", dir, "err", err)
+	}
 	row := FilingRow{
 		AccessionNumber: acc,
 		FilingDate:      fj.FilingDate,
@@ -124,6 +134,7 @@ func readAccession(dir string, year int) (FilingRow, bool) {
 		Form:            fj.Form,
 		Year:            year,
 		Category:        CategoryUnknown,
+		Financials:      fin,
 	}
 
 	var mj metaJSON

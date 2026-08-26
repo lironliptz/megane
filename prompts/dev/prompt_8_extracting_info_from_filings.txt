@@ -1,0 +1,409 @@
+=== prompt ===
+**Deep financial extraction** from on-disk SEC filings — after prompt 2's `meta.json`
+(classification, headline summary, tags).
+
+Goal: deterministic parsing of **rendered financial HTML** (`R*.htm`) into structured
+numbers that feed the Timeline event modal and chart callouts (prompt 6). Prefer **no LLM**
+for the happy path; add an optional LLM fallback only when parsing confidence is low.
+
+**Stack:** Go in `internal/edgar/` (ingest) + `internal/companyview/` (read path for API).
+**Storage:** JSON beside each accession in `fileDB/` (same phase-1 pattern as `meta.json`).
+
+
+---
+
+## Context — what exists today
+
+| Layer | Today |
+|-------|--------|
+| **Ingest** | `build_meta.py` / future `internal/edgar/meta` → `meta.json` (tier, category, summary, `signals.isXBRL`) |
+| **Summary** | Press-release **headline** from EX-99 title or form fallback — often **no dollar figures** (prompt 6 HLD audit: 0/8 Kamada samples had `$NNN million`) |
+| **Timeline highlights** | `companyview.BuildHighlights` — regex on summary for growth **%** only (`source: summary_parse`) |
+| **Filing body** | `fileDB/companies/{cik}/{year}/{accession}/` contains `*.htm` including SEC **inline-XBRL rendered reports** `R1.htm` … `R20.htm` |
+
+Prompt 6 scoped **P1c** as XBRL/body extraction. This prompt defines **P1c properly**:
+**`R*.htm` plain HTML tables** — human-readable labels, no XBRL taxonomy parser required.
+
+
+---
+
+## Why `R*.htm` (measured takeaway)
+
+For Kamada quarterly 6-K filings, the pragmatic extraction target is **`R*.htm`**:
+
+| File | Typical content |
+|------|-----------------|
+| `R2.htm` | Balance sheet — cash, total assets, liabilities |
+| `R3.htm` | Income statement — revenue, gross profit, operating income, net income, EPS |
+| `R5.htm` | Cash flows — operating cash flow, net income reconciliation |
+| `R20.htm` | Segment breakdown — revenue by line of business |
+| `R1.htm`, `R4.htm`, … | Entity info, comprehensive income, equity — lower priority |
+
+Example numbers available in one filing (Q3'25 style columns):
+
+- **R3:** Total revenues $47.0M (Q3'25) vs $41.7M (Q3'24); gross profit $19.8M (42%);
+  operating income $7.8M; net income $5.3M; basic EPS $0.09
+- **R2:** Cash and equivalents $72.0M vs $78.4M prior year-end
+- **R5:** Operating cash flow (headline row)
+- **R20:** Proprietary Products $39.5M vs Distribution $7.5M
+
+These are **plain HTML tables** with row labels in the first column and period columns
+(3-month / 9-month / YTD, current vs prior year). Parsing is **label + column selection +
+amount normalization** — not traversing XBRL fact graphs.
+
+
+---
+
+## Objective
+
+1. Define a **canonical JSON schema** for extracted filing financials (`financials.json`).
+2. Ship a **deterministic extractor** for `R2`, `R3`, `R5`, `R20` (priority order).
+3. Wire ingest (`edgar-meta` batch) and read path (timeline `Event.highlights`).
+4. Document **LLM fallback** criteria (Gemini flash-lite or local model) — optional phase,
+   never the default.
+
+### What to show on the Timeline (ranked)
+
+When a `quarterly_results` / `annual_report` marker is clicked or hovered:
+
+| Rank | Metric | Source row (typical label) |
+|------|--------|----------------------------|
+| 1 | **Revenue + YoY %** | R3 "Total revenues" / "Revenues" — current vs prior-year same column |
+| 2 | **EPS (basic)** | R3 "Basic earnings per share" |
+| 3 | **Net income** | R3 "Net income" |
+| 4 | **Cash & equivalents** | R2 "Cash and cash equivalents" |
+| 5 | *(stretch)* **Gross margin %** | derived: gross profit ÷ revenue |
+| 6 | *(stretch)* **Segment split** | R20 top segments — modal only, not chart callout |
+
+Map into existing `EventHighlight.Metrics[]` for the modal; chart callouts (prompt 6 P1)
+use ranks 1–4 only.
+
+
+---
+
+## Output schema — `financials.json`
+
+Written next to `meta.json`:
+
+```
+fileDB/companies/{cik}/{year}/{accession}/financials.json
+```
+
+```json
+{
+  "version": 1,
+  "source": "rendered_html",
+  "extractedAt": "2026-08-26T12:00:00Z",
+  "currency": "USD",
+  "period": {
+    "endDate": "2025-09-30",
+    "label": "Q3 2025",
+    "duration": "P3M"
+  },
+  "statements": {
+    "income": [
+      {
+        "key": "total_revenues",
+        "display": "Total revenues",
+        "value": 47000000,
+        "valueFmt": "$47.0M",
+        "unit": "USD",
+        "priorValue": 41700000,
+        "yoyPct": 12.7,
+        "file": "R3.htm",
+        "confidence": "high"
+      },
+      {
+        "key": "eps_basic",
+        "display": "Basic EPS",
+        "value": 0.09,
+        "valueFmt": "$0.09",
+        "unit": "USD/sh",
+        "priorValue": 0.08,
+        "yoyPct": 12.5,
+        "file": "R3.htm",
+        "confidence": "high"
+      }
+    ],
+    "balance": [
+      {
+        "key": "cash_and_equivalents",
+        "display": "Cash and cash equivalents",
+        "value": 72000000,
+        "valueFmt": "$72.0M",
+        "unit": "USD",
+        "file": "R2.htm",
+        "confidence": "high"
+      }
+    ],
+    "cashFlow": [],
+    "segments": [
+      {
+        "name": "Proprietary Products",
+        "value": 39500000,
+        "valueFmt": "$39.5M",
+        "file": "R20.htm"
+      }
+    ]
+  },
+  "parseNotes": []
+}
+```
+
+### Go types (mirror JSON)
+
+```go
+type FilingFinancials struct {
+    Version     int              `json:"version"`
+    Source      string           `json:"source"` // rendered_html | llm_fallback
+    ExtractedAt time.Time        `json:"extractedAt"`
+    Currency    string           `json:"currency,omitempty"`
+    Period      FinancialPeriod  `json:"period"`
+    Statements  StatementSets    `json:"statements"`
+    ParseNotes  []string         `json:"parseNotes,omitempty"`
+}
+
+type FinancialPeriod struct {
+    EndDate  string `json:"endDate,omitempty"`
+    Label    string `json:"label,omitempty"`
+    Duration string `json:"duration,omitempty"` // P3M | P9M | P1Y
+}
+
+type StatementSets struct {
+    Income   []FinancialLine `json:"income,omitempty"`
+    Balance  []FinancialLine `json:"balance,omitempty"`
+    CashFlow []FinancialLine `json:"cashFlow,omitempty"`
+    Segments []SegmentLine   `json:"segments,omitempty"`
+}
+
+type FinancialLine struct {
+    Key         string   `json:"key"`
+    Display     string   `json:"display"`
+    Value       float64  `json:"value"`
+    ValueFmt    string   `json:"valueFmt"`
+    Unit        string   `json:"unit"`
+    PriorValue  *float64 `json:"priorValue,omitempty"`
+    YoYPct      *float64 `json:"yoyPct,omitempty"`
+    File        string   `json:"file,omitempty"`
+    Confidence  string   `json:"confidence"` // high | medium | low
+}
+```
+
+**Version field** allows future schema bumps without breaking readers.
+
+
+---
+
+## Deterministic extraction algorithm
+
+### P0 pipeline (per accession folder)
+
+```
+1. Skip if category ∉ {quarterly_results, annual_report} OR signals.hasFinancials == false
+2. Glob R*.htm in accession dir (case-insensitive); index by basename R2.htm, R3.htm, …
+3. For each target file (R3 → R2 → R5 → R20):
+   a. Read HTML (UTF-8, ignore errors — same tolerance as build_meta)
+   b. Strip scripts/styles; locate <table> rows
+   c. For each canonical metric (see label dictionary), fuzzy-match row label in col 0
+   d. Detect period columns from header row(s): prefer "Three months ended" current year
+      over "Nine months" / "Year ended" for quarterly_results 6-K
+   e. Parse numeric cell: ($47,023), 47.0, 47,023,000, em dash → nil
+   f. Normalize to float + display format ($47.0M, $0.09)
+   g. If prior-year column present on same row → priorValue + yoyPct
+4. If ≥1 high-confidence income row → write financials.json; else skip file (no write)
+5. Idempotent: skip if financials.json exists unless `--all` (same as meta batch)
+```
+
+### Label dictionary (canonical keys → aliases)
+
+Maintain in `internal/edgar/financials/labels.go` — table-tested:
+
+| `key` | Match aliases (case-insensitive, normalize whitespace) |
+|-------|--------------------------------------------------------|
+| `total_revenues` | total revenues, revenues, net sales, total net revenues |
+| `gross_profit` | gross profit |
+| `operating_income` | operating income, income from operations |
+| `net_income` | net income, net earnings |
+| `eps_basic` | basic earnings (loss) per share, basic eps |
+| `eps_diluted` | diluted earnings (loss) per share |
+| `cash_and_equivalents` | cash and cash equivalents, cash and short-term investments |
+| `total_assets` | total assets |
+| `operating_cash_flow` | net cash provided by operating activities |
+
+Fuzzy match: normalize label → lowercase, collapse spaces, strip punctuation; accept if
+alias is substring of row text or Levenshtein ≤ 2 for short labels.
+
+### Column selection heuristics
+
+| Filing kind | Prefer column header containing |
+|-------------|----------------------------------|
+| `quarterly_results` + 6-K | `three months ended` + latest year in header |
+| `annual_report` + 20-F | `year ended` + latest fiscal year |
+| Ambiguous (multiple 3M columns) | rightmost numeric column with a parseable amount |
+
+Store chosen column text in `parseNotes` when ambiguous.
+
+### Amount parsing
+
+- Strip `$`, commas, `USD`, `US$`
+- Parentheses `(123)` → negative
+- Suffix `M` / `B` in cell or header → multiply (rare in R tables; handle if seen)
+- `—`, `-`, empty → skip metric
+- Format for display: `valueFmt` uses SI shorthand ≥ 1M → `$47.0M`, EPS → 2 decimals
+
+### Confidence scoring
+
+| Level | When |
+|-------|------|
+| **high** | Label exact alias match + numeric parse + expected column |
+| **medium** | Fuzzy label + numeric parse |
+| **low** | Conflicting columns or partial row — **do not write** unless LLM fallback enabled |
+
+### Robustness requirements
+
+- **Missing R files** — skip that statement set; still write partial `financials.json` if
+  income parse succeeded.
+- **Non-USD** — store `currency` from table header or `meta` if detectable; do not convert.
+- **20-F vs 6-K** — same parser; column heuristic differs (annual vs quarter).
+- **Re-run safe** — `financials.json` overwritten only with `--all` or when missing.
+- **No network** — read only local `fileDB` files.
+- **Byte stability** — sort keys in JSON output for diff-friendly regressions.
+
+
+---
+
+## LLM fallback (optional — P2, not P0)
+
+Use only when deterministic extract returns **zero high-confidence income metrics** but
+`signals.hasFinancials` and `R3.htm` exist.
+
+| Option | When |
+|--------|------|
+| **Gemini flash-lite** | `LLM_PROVIDER=gemini`, structured JSON schema = `FilingFinancials` |
+| **Local Ollama** | `LLM_PROVIDER=local`, same schema |
+
+Rules:
+
+- Pass **truncated R3/R2 HTML** (max ~32k chars), not whole accession folder.
+- Prompt: extract ranked metrics only; return same JSON shape; `source: llm_fallback`.
+- **Never overwrite** existing `source: rendered_html` with LLM output.
+- Log accession + model + token count for audit.
+- Feature-flagged env: `EDGAR_FINANCIALS_LLM=1`.
+
+Deterministic path must ship and pass tests **before** LLM fallback is enabled.
+
+
+---
+
+## Integration points
+
+### Ingest (prompt 2 extension)
+
+| Step | Change |
+|------|--------|
+| `cmd/edgar meta` | After `BuildMeta`, call `financials.Extract(dir)` when category qualifies |
+| `internal/edgar/financials/` | New package: `extract.go`, `render_html.go`, `labels.go`, `normalize.go`, `schema.go` |
+| Tests | Golden files: real `R3.htm` / `R2.htm` **snippets** from Kamada (check in
+  `internal/edgar/financials/testdata/`, not whole fileDB) |
+
+### Read path (prompt 1 / 3 / 6)
+
+| Step | Change |
+|------|--------|
+| `filedb` | Load optional `financials.json` when building `FilingRow` or on demand by accession |
+| `companyview.BuildHighlights` | **Prefer** `financials.json` → map to `EventHighlight` (revenue, EPS, net income, cash);
+  fall back to existing `summary_parse` regex |
+| `timeline.go` `BuildEvents` | Attach highlights from financials when present |
+| UI | No change beyond richer modal metrics (prompt 6 already renders `highlights.metrics`) |
+
+Highlight mapping (deterministic):
+
+```go
+// Order: revenue+yoy, eps, net income, cash
+func HighlightsFromFinancials(f *FilingFinancials) *EventHighlight
+```
+
+
+---
+
+## Relationship to other prompts
+
+| Prompt | Role |
+|--------|------|
+| **2** | Owns accession folder layout; add `financials.json` + batch hook |
+| **6** | Consumer of `Event.highlights`; replaces headline-only `summary_parse` when financials exist |
+| **7** | Unrelated (event filter UI) |
+| **1 / 3** | Read layer passes financials through to timeline API |
+
+Supersedes prompt 6's vague **P1c "XBRL facts"** with **`R*.htm` rendered HTML** as the
+concrete mechanism.
+
+
+---
+
+## Acceptance criteria
+
+### P0 — Deterministic extract
+
+- [ ] `financials.json` schema documented and implemented in Go
+- [ ] R3 parser extracts revenue, net income, basic EPS (+ prior + YoY when columns exist)
+  for ≥3 real Kamada quarterly 6-K accessions in corpus
+- [ ] R2 parser extracts cash and equivalents for same filings
+- [ ] `edgar meta` writes `financials.json` idempotently
+- [ ] `BuildHighlights` prefers financials over summary regex when file present
+- [ ] Timeline modal shows Revenue, EPS, Net income, Cash when extracted
+- [ ] `go test ./internal/edgar/financials/...` and `go test ./internal/companyview/...` pass
+
+### P1 — Extended statements
+
+- [ ] R5 operating cash flow row
+- [ ] R20 segment lines (top 2 by value)
+- [ ] Derived gross margin % in highlights when gross profit + revenue present
+
+### P2 — LLM fallback (optional)
+
+- [ ] Flag-gated; never clobber `rendered_html` extracts
+- [ ] Documented prompt + schema in LLD
+
+### Non-goals
+
+- Full XBRL taxonomy / iXBRL instance parser
+- Parsing primary document prose or EX-99 press release body
+- Real-time extraction on timeline page load (batch at ingest only)
+- Multi-company analytics warehouse
+
+
+---
+
+## Implementation order
+
+1. `labels.go` + `normalize.go` + unit tests (amounts, YoY math)
+2. `render_html.go` table row walker + R3 golden tests
+3. `extract.go` orchestrator + `financials.json` writer
+4. Wire `cmd/edgar meta` batch
+5. `filedb` load + `HighlightsFromFinancials` + timeline integration
+6. R2, then R5, then R20
+7. Manual smoke: Kamada quarterly marker → modal shows `$47.0M` revenue with YoY
+8. (Optional) LLM fallback spike behind flag
+
+
+---
+
+## Risks
+
+| Risk | Mitigation |
+|------|------------|
+| R*.htm layout varies by filer / form | Label dictionary + fuzzy match; table tests per form type |
+| Wrong column picked (9M vs 3M) | Header regex priority; `parseNotes`; medium confidence → skip write |
+| Foreign private issuers use different file names | Glob `R*.htm`; fallback to largest income-like table in primary doc (P1.1) |
+| LLM hallucination | Deterministic default; LLM never overwrites high-confidence JSON |
+
+---
+
+## References
+
+- `prompts/dev/prompt_2_convert_from_python_to_go.txt` — `meta.json`, ingest layout
+- `prompts/dev/prompt_6_timeline_events-hld.md` §3 — summary audit (no dollar figures)
+- `internal/companyview/highlights.go` — current `summary_parse` (to extend, not delete)
+- SEC inline XBRL rendered reports: `R1.htm`–`R20.htm` in accession folders
+- Kamada CIK `0001567529` — reference corpus for golden tests
