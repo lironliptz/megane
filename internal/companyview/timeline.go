@@ -44,9 +44,21 @@ type Event struct {
 	AccessionNumber string   `json:"accessionNumber"`
 	Weight          Weight   `json:"weight"`
 	Why             string   `json:"why,omitempty"`
+	// ReportPeriod is the extracted reporting window (Q3 2025, FY 2024, …).
+	// Populated from financials.json when present; nil for non-financial events
+	// or filings without a publishable extract.
+	ReportPeriod *ReportPeriod `json:"reportPeriod,omitempty"`
 	// Highlights is a best-effort financial callout parsed from Summary; nil
 	// when nothing could be extracted. Additive and optional, like Why.
 	Highlights *EventHighlight `json:"highlights,omitempty"`
+}
+
+// ReportPeriod describes the window a financial-results filing covers.
+type ReportPeriod struct {
+	Label    string `json:"label,omitempty"`    // "Q3 2025", "FY 2024"
+	Duration string `json:"duration,omitempty"` // P3M | P9M | P1Y
+	EndDate  string `json:"endDate,omitempty"`  // YYYY-MM-DD period end
+	Focus    string `json:"focus,omitempty"`    // Q1..Q4 | FY
 }
 
 // PricePoint is one trading day as shipped to the chart. OHLC is stored but not
@@ -167,6 +179,7 @@ func BuildEvents(rows []filedb.FilingRow, w Window, filter string) []Event {
 			AccessionNumber: r.AccessionNumber,
 			Weight:          weight,
 			Why:             WhyItMatters(r.Category),
+			ReportPeriod:    reportPeriodFromFinancials(r.Financials),
 			Highlights:      BuildHighlights(r.Category, r.Summary, r.Financials),
 		})
 	}

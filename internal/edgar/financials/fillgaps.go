@@ -85,6 +85,13 @@ func hasLocalArtifact(dir string) bool {
 	if err != nil || f == nil {
 		return false
 	}
+	// If the local artifact contains suspect/withheld metrics, we do not treat
+	// it as a trusted/complete local artifact, allowing gap-fill to resolve it.
+	for _, l := range append(append([]Line{}, f.Statements.Income...), f.Statements.Balance...) {
+		if l.Confidence == ConfidenceSuspect {
+			return false
+		}
+	}
 	for _, l := range append(append([]Line{}, f.Statements.Income...), f.Statements.Balance...) {
 		switch l.Source {
 		case SourceInstance, SourceRendered, SourceBoth, SourceAdjudicated:

@@ -37,8 +37,23 @@
   --chart-period-b: rgba(15, 23, 42, 0.055);
   --chart-financial-q: #3b82f6;
   --chart-financial-a: #1e3a8a;
+  --chart-fin-report-line: rgba(15, 23, 42, 0.32);
   --chart-revenue: #059669;
   --chart-net-income: #7c3aed;
+  --chart-eps: #d97706;
+  --chart-cash: #0891b2;
+  /* Financial graph bar layout — canonical tunables (read by tab-timeline.js).
+     *-thickness-px → Chart.js barThickness (fixed pixel width).
+     Offsets are trading-day shifts from the report anchor. */
+  --chart-fin-bar-revenue-thickness-px: 9;
+  --chart-fin-bar-metric-thickness-px: 7;
+  /* 4 trading days between bar centers; revenue stays on report anchor (0) */
+  --chart-fin-offset-eps: -8;
+  --chart-fin-offset-net-income: -4;
+  --chart-fin-offset-revenue: 0;
+  --chart-fin-offset-cash: 4;
+  --chart-fin-bar-quarterly-opacity: 0.85;
+  --chart-fin-bar-annual-opacity: 0.38;
   --focus-ring: 0 0 0 3px rgba(37, 99, 235, .18);
 }
 
@@ -1334,6 +1349,48 @@ body.company-page .tab-panel.active {
   height: 1.25rem;
 }
 
+.timeline-range-bridge {
+  position: absolute;
+  top: 8px;
+  height: 4px;
+  background: var(--accent);
+  opacity: 0.25;
+  border-radius: 2px;
+  cursor: grab;
+  z-index: 1;
+  pointer-events: auto;
+  transition: opacity 0.15s ease, height 0.15s ease, top 0.15s ease;
+}
+
+.timeline-range-bridge:hover,
+.timeline-range-bridge.dragging {
+  opacity: 0.6;
+  height: 6px;
+  top: 7px;
+}
+
+.timeline-range-bridge-handle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 22px;
+  height: 14px;
+  border-radius: 7px;
+  background: var(--accent);
+  color: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  pointer-events: none;
+  border: 1px solid var(--surface);
+}
+
+.timeline-range-bridge.dragging {
+  cursor: grabbing;
+}
+
 .timeline-range-sliders input[type="range"] {
   position: absolute;
   left: 0;
@@ -1408,7 +1465,12 @@ body.company-page .tab-panel.active {
 .timeline-chart-wrap-financial {
   min-height: 136px;
   height: clamp(112px, 15.2vh, 192px);
-  margin-bottom: 0;
+  margin-bottom: -4px;
+}
+
+/* Halve the visual gap between the two stacked charts (Chart.js canvas inset). */
+.timeline-financial:not([hidden]) + .timeline-chart-wrap {
+  margin-top: -4px;
 }
 
 .timeline-chart-wrap-financial canvas {
@@ -1418,6 +1480,20 @@ body.company-page .tab-panel.active {
 .timeline-chart-wrap canvas {
   width: 100% !important;
   max-height: min(612px, 55.8vh);
+}
+
+/* Shift+drag period selection band (see installDragSelect in tab-timeline.js).
+   top/height/left/width are all set inline by JS to track the chart area and
+   the live drag extent — this rule only supplies paint + stacking. */
+.timeline-drag-select {
+  position: absolute;
+  top: 0;
+  width: 0;
+  z-index: 3;
+  background: rgba(37, 99, 235, 0.12);
+  border-left: 1px solid rgba(37, 99, 235, 0.55);
+  border-right: 1px solid rgba(37, 99, 235, 0.55);
+  pointer-events: none;
 }
 
 .timeline-volume-scale {

@@ -65,14 +65,16 @@ func TestTimelineDefinitionOfDone(t *testing.T) {
 		}
 	}
 
-	// --- the negative case: the mis-tagged filing must withhold -------------
+	// --- the negative case: the mis-tagged filing must not render mis-tagged values ---
 	q1, ok := byDate["2024-05-08"]
 	if !ok {
 		t.Fatal("no event on 2024-05-08")
 	}
 	for _, m := range highlightMetrics(q1) {
 		if m.Label == "Total revenues" {
-			t.Errorf("2024-05-08 rendered a withheld revenue metric: %q", m.Value)
+			if !strings.Contains(m.Value, "$37.7M") {
+				t.Errorf("2024-05-08 revenue = %q, want $37.7M (never $37.7K)", m.Value)
+			}
 		}
 		if m.Value == "$37.7K" || m.Value == "$37,736" {
 			t.Errorf("2024-05-08 rendered the mis-tagged value: %q", m.Value)

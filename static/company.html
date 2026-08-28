@@ -93,6 +93,13 @@
                 <time id="tl-range-to-label">—</time>
               </div>
               <div class="timeline-range-sliders">
+                <div id="tl-range-bridge" class="timeline-range-bridge" title="Slide period" style="display: none;">
+                  <span class="timeline-range-bridge-handle">
+                    <svg width="10" height="10" viewBox="0 0 16 16" fill="currentColor">
+                      <path d="M5 3l-5 5 5 5v-3h6v3l5-5-5-5v3h-6z"/>
+                    </svg>
+                  </span>
+                </div>
                 <input type="range" id="tl-range-from" aria-label="Range start date">
                 <input type="range" id="tl-range-to" aria-label="Range end date">
               </div>
@@ -121,10 +128,12 @@
           <div class="timeline-financial" id="tl-financial-wrap" hidden>
             <div class="timeline-chart-wrap timeline-chart-wrap-financial">
               <canvas id="timeline-chart-financial"></canvas>
+              <div class="timeline-drag-select" id="tl-drag-select-fin" hidden></div>
             </div>
           </div>
           <div class="timeline-chart-wrap">
             <canvas id="timeline-chart"></canvas>
+            <div class="timeline-drag-select" id="tl-drag-select" hidden></div>
             <label class="timeline-volume-scale" id="tl-volume-log-wrap" hidden>
               <input type="checkbox" id="tl-volume-log" aria-describedby="tl-volume-log-hint">
               <span>Log volume</span>

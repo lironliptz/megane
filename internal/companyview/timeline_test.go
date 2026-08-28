@@ -5,6 +5,7 @@ import (
 	"testing"
 	"time"
 
+	"megane/internal/edgar/financials"
 	"megane/internal/filedb"
 )
 
@@ -145,6 +146,39 @@ func TestBuildEventsEmptyIsNonNil(t *testing.T) {
 	got := BuildEvents(nil, Window{From: "2020-01-01", To: "2020-02-01"}, FilterAll)
 	if got == nil {
 		t.Error("empty result must be a non-nil slice so JSON renders []")
+	}
+}
+
+func TestBuildEventsReportPeriod(t *testing.T) {
+	rows := []filedb.FilingRow{{
+		FilingDate: "2025-03-05", Form: "20-F", Category: "annual_report",
+		AccessionNumber: "fy24",
+		Financials: &financials.FilingFinancials{
+			Period: financials.Period{
+				Label: "FY 2024", Duration: "P1Y", EndDate: "2024-12-31", Focus: "FY",
+			},
+		},
+	}, {
+		FilingDate: "2025-11-10", Form: "6-K", Category: "quarterly_results",
+		AccessionNumber: "q3",
+		Financials: &financials.FilingFinancials{
+			Period: financials.Period{
+				Label: "Q3 2025", Duration: "P3M", EndDate: "2025-09-30", Focus: "Q3",
+			},
+		},
+	}}
+	got := BuildEvents(rows, Window{From: "2025-01-01", To: "2025-12-31"}, FilterAll)
+	byAcc := map[string]Event{}
+	for _, e := range got {
+		byAcc[e.AccessionNumber] = e
+	}
+	fy := byAcc["fy24"].ReportPeriod
+	if fy == nil || fy.Label != "FY 2024" || fy.Duration != "P1Y" || fy.EndDate != "2024-12-31" {
+		t.Fatalf("annual reportPeriod = %+v, want FY 2024 P1Y", fy)
+	}
+	q := byAcc["q3"].ReportPeriod
+	if q == nil || q.Label != "Q3 2025" || q.Duration != "P3M" || q.Focus != "Q3" {
+		t.Fatalf("quarterly reportPeriod = %+v, want Q3 2025 P3M", q)
 	}
 }
 

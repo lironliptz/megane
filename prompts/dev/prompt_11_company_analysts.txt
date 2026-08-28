@@ -1,0 +1,431 @@
+=== prompt ===
+**Sell-side analyst coverage & research tracking** per company — discover who follows a
+ticker, persist the roster, ingest their reports over time, and (later) extract structured
+fields for display and prediction.
+
+Builds on **prompt 1** (company page, `CompanyStore`, CIK identity), **prompt 3** (tabbed
+company view + hash routing), **prompt 6** (timeline events + modal pattern), and **prompt 8**
+(sidecar JSON artifacts + batch CLI ingest). **Greenfield** — no analyst code exists today;
+only this spec.
+
+This prompt does **not** replace SEC filing ingest (`fileDB` EDGAR tree). Analyst research is
+a **parallel corpus**: broker PDFs/HTML, price targets, ratings, and narrative — orthogonal
+to `meta.json` / `financials.json`.
+
+
+---
+
+## Problem (current behavior)
+
+Megane today is **SEC filing intelligence**:
+
+| Layer | Today |
+|-------|--------|
+| Company identity | `fileDB/companies/{cik}/submissions.json` |
+| Filing corpus | `{year}/{accession}/meta.json`, optional `financials.json` |
+| Timeline | Filing events + stock prices — no sell-side research overlay |
+| DB | `stock_prices`, `stock_price_coverage` — no analyst tables |
+
+Every public company has **sell-side analysts** (and sometimes independent shops) publishing
+coverage, estimates, and rating changes. Users cannot today:
+
+1. See **who covers** a company they are researching
+2. **Track new reports** from those analysts over time
+3. Compare **price targets / ratings / estimate revisions** alongside SEC events on the timeline
+4. Feed structured analyst data into **prediction or scoring** models
+
+User intent (from product sketch):
+
+1. **Generic discovery** — find analysts following a company without manual SEC archaeology
+2. **Persist roster** — store analysts in DB for inspection and re-fetch
+3. **Follow over time** — gather new reports as they appear
+4. **Structured extraction** — well-defined JSON from report bodies (phase 2+)
+5. **Presentation** — incorporate into company UI and downstream prediction
+
+
+---
+
+## Goal (phased)
+
+| Priority | Deliverable |
+|----------|-------------|
+| **P0** | **Schema + storage** — SQLite tables for analyst roster per CIK, report metadata, fetch/coverage status; on-disk layout for downloaded report files |
+| **P0** | **Manual curation path** — admin or CLI can add/remove analysts and attach a report PDF/HTML without any external API |
+| **P1** | **Discovery v1** — one automated source (env-gated) to seed roster + latest rating/PT where available; document fallbacks |
+| **P1** | **Company API** — `GET /api/companies/:cik/analysts`, `GET /api/companies/:cik/analyst-reports` (paginated) |
+| **P1** | **Company tab** — `#analysts` tab: roster table + recent reports list; link to report detail modal |
+| **P2** | **Batch ingest CLI** — `cmd/analyst-reports` polls configured sources, downloads new reports, records `crawler_run_stats` |
+| **P2** | **Timeline overlay (optional)** — analyst report dates as a distinct event category on `#timeline` (separate lane or filter), **without** mixing into SEC filing markers |
+| **P3** | **Structured extraction** — LLM (or rules) → `analysis.json` sidecar; sync prompt + Go struct + UI renderer |
+| **P3** | **Prediction hook** — export time-series of PT/rating/estimate revisions for modeling (API or CSV) |
+| **P4** | **Licensed feeds** — FactSet / Refinitiv / Bloomberg adapters behind feature flags (design only until contracts exist) |
+
+Ship **P0 → P1** before extraction. Do not block roster storage on perfect discovery.
+
+
+---
+
+## Scope & non-goals
+
+**In scope**
+
+- **Sell-side equity research** tied to a **CIK + ticker**
+- Report types: initiating coverage, update, rating change, estimate revision, industry note
+  (when company is primary subject)
+- Metadata: firm, analyst name(s), report date, rating, price target, headline summary
+- File artifacts: PDF preferred; HTML acceptable
+
+**Out of scope (this prompt)**
+
+- **Insider / 13F holder tracking** — separate `#ownership` tab (prompt 3 P2)
+- **News sentiment scrapers** without a named analyst attribution
+- **Scraping broker portals** that prohibit automation (default **off**; legal review required)
+- **Replacing** prompt 8/9 financial extraction from SEC filings
+- **Browser-side** fetching of third-party research (all ingest server-side)
+
+**Terminology**
+
+| Term | Meaning here |
+|------|----------------|
+| **Analyst** | Person or desk publishing research (may map to many reports) |
+| **Firm** | Broker-dealer / bank (Goldman, Jefferies, …) |
+| **Coverage** | Analyst/firm relationship to a **specific CIK** (active / dropped) |
+| **Report** | One published research document (PDF/HTML) with date + metadata |
+
+
+---
+
+## Where to find analysts & reports (source tiers)
+
+Implement as **pluggable providers** (`internal/analysts/provider.go`). Never hard-code one
+vendor. Order by **legality and reliability**, not scrape-ability.
+
+### Tier 1 — MVP (ship first)
+
+| Source | What you get | Notes |
+|--------|----------------|-------|
+| **Manual / admin UI** | Full control | Same pattern as user CRUD in admin panel |
+| **CSV / JSON import** | Bulk roster + report URLs | `cmd/analyst-reports import --cik … --file …` |
+| **User upload** | PDF per company | Reuse megane upload + `projects/` storage pattern; tag `kind=analyst_report` |
+
+### Tier 2 — Public APIs (env-gated, best-effort)
+
+| Source | Endpoints (typical) | Limits |
+|--------|---------------------|--------|
+| **Finnhub** | Recommendation trends, price target consensus, upgrade/downgrade history | Free tier rate limits; **not** full PDFs — metadata only unless paired with another source |
+| **Financial Modeling Prep** | Analyst estimates, grades | API key; check license for redistribution |
+| **Polygon.io** | Some analyst-related fields on ticker | Metadata, not full research PDFs |
+| **SEC EDGAR** | Occasional research attached as **EX-99** exhibits on 8-K / 6-K | Sparse but **free and legal** — scan existing `fileDB` tree for PDF exhibits titled like research (stretch) |
+
+Use Tier 2 to **seed roster + headline metrics**; do not assume PDF availability.
+
+### Tier 3 — Licensed (design interface only)
+
+| Source | Value |
+|--------|--------|
+| **Refinitiv / LSEG**, **FactSet**, **Bloomberg** | Authoritative coverage lists + full research PDFs + estimate detail |
+| **S&P Capital IQ**, **Visible Alpha** | Estimate revisions, model downloads |
+
+Define `Provider` interface so Tier 3 is a drop-in when credentials exist.
+
+### Tier 4 — Web scrape (explicit opt-in, default off)
+
+Broker research portals, aggregators (TipRanks, MarketBeat, …). **Requires** per-site ToS
+review, robots.txt respect, and rate limits. Not part of P0–P2.
+
+
+---
+
+## Architecture (mirror financials + stock prices)
+
+### Storage split
+
+| Data | Where | Pattern |
+|------|--------|---------|
+| Analyst roster, coverage rows, report **metadata** | **SQLite** | `stock_price_coverage`-style status rows |
+| Report **files** (PDF/HTML) | **`fileDB/companies/{cik}/analyst-reports/`** | Sidecar JSON beside file (like `financials.json`) |
+| Extracted structured fields | **`analysis.json`** next to report | Prompt 8 artifact pattern |
+| Fetch telemetry | **`crawler_run_stats`** or `analyst_fetch_runs` | Existing crawler stats table |
+
+### On-disk layout
+
+```
+fileDB/companies/{cik}/analyst-reports/
+  {report_id}/                    ← stable slug: YYYY-MM-DD_firm_analyst or UUID
+    report.json                   ← metadata mirror (source, url, rating, PT, hash)
+    document.pdf                  ← or document.html
+    analysis.json                 ← optional; P3 LLM/rule extraction output
+```
+
+**`report.json` minimal schema (P0):**
+
+```json
+{
+  "id": "2025-08-15_jefferies_smith",
+  "cik": "0001567529",
+  "ticker": "KMDA",
+  "firm": "Jefferies",
+  "analysts": ["Jane Smith", "John Doe"],
+  "reportDate": "2025-08-15",
+  "reportType": "update",
+  "rating": "Buy",
+  "priorRating": "Hold",
+  "priceTarget": 12.5,
+  "priorPriceTarget": 10.0,
+  "currency": "USD",
+  "title": "Kamada — Q2 beat; raising PT",
+  "source": "manual",
+  "sourceUrl": "",
+  "documentMime": "application/pdf",
+  "documentSha256": "…",
+  "fetchedAt": "2025-08-27T10:00:00Z"
+}
+```
+
+Withholding beats guessing: omit nullable fields rather than inventing values.
+
+
+### SQLite tables (append migration v34+)
+
+```sql
+-- One row per (cik, firm, analyst_key) while coverage is active
+CREATE TABLE IF NOT EXISTS company_analysts (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  cik TEXT NOT NULL,
+  firm TEXT NOT NULL,
+  analyst_name TEXT NOT NULL,
+  analyst_key TEXT NOT NULL,          -- normalized slug for dedupe
+  status TEXT NOT NULL DEFAULT 'active',  -- active | dropped | unknown
+  discovered_via TEXT NOT NULL,       -- manual | finnhub | import | ...
+  first_seen_at TEXT NOT NULL,
+  last_seen_at TEXT NOT NULL,
+  UNIQUE(cik, analyst_key)
+);
+
+CREATE TABLE IF NOT EXISTS analyst_reports (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  cik TEXT NOT NULL,
+  report_id TEXT NOT NULL,            -- matches directory name under analyst-reports/
+  firm TEXT NOT NULL,
+  report_date TEXT NOT NULL,          -- YYYY-MM-DD
+  rating TEXT,
+  price_target REAL,
+  title TEXT NOT NULL DEFAULT '',
+  source TEXT NOT NULL,
+  document_sha256 TEXT,
+  created_at TEXT NOT NULL,
+  UNIQUE(cik, report_id)
+);
+
+-- Coverage / fetch bookkeeping (mirror stock_price_coverage)
+CREATE TABLE IF NOT EXISTS analyst_coverage (
+  cik TEXT PRIMARY KEY,
+  status TEXT NOT NULL,               -- idle | fetching | ok | error | no_data
+  provider TEXT NOT NULL DEFAULT '',
+  last_attempt_at TEXT,
+  last_success_at TEXT,
+  next_retry_after TEXT,
+  note TEXT NOT NULL DEFAULT ''
+);
+```
+
+Query helpers: `internal/db/analysts.go`. **Append only** to `versionedMigrations` in
+`internal/db/db.go` (same rule as all megane migrations).
+
+
+### Go packages
+
+```
+internal/analysts/
+  provider.go       # Provider interface + registry
+  manual.go         # P0 manual/import
+  finnhub.go        # P1 optional (env: FINNHUB_API_KEY)
+  ingest.go         # download, hash, write report.json + file
+  roster.go         # merge discovery → company_analysts
+  schema.go         # report.json + analysis.json types
+
+internal/db/analysts.go
+internal/handlers/companies.go   # Analysts, AnalystReports handlers
+internal/companyview/analysts.go # optional: build timeline events from reports
+
+cmd/analyst-reports/main.go      # batch: discover | fetch | import | extract --gaps
+
+static/js/company/tab-analysts.js
+```
+
+
+### API (authenticated, same conventions as timeline)
+
+| Method | Path | Purpose |
+|--------|------|---------|
+| GET | `/api/companies/:cik/analysts` | Roster for company (active first) |
+| GET | `/api/companies/:cik/analyst-reports?from=&to=&limit=&offset=` | Paginated report list |
+| GET | `/api/companies/:cik/analyst-reports/:reportId` | Metadata + link to document |
+| POST | `/api/admin/companies/:cik/analyst-reports` | **P0** manual upload / metadata (admin) |
+
+Response shape: `{"data": …, "error": null}`. CIK via `filedb.NormalizeCIK`.
+
+
+### Frontend — `#analysts` tab
+
+Register in `static/js/company/shell.js` after Filings:
+
+| Section | Content |
+|---------|---------|
+| **Coverage summary** | “N analysts · M reports in window” |
+| **Roster table** | Firm, analyst, status, first/last seen, report count |
+| **Reports table** | Date, firm, title, rating, PT, Δ vs prior (when known) |
+| **Actions** | Open document (new tab / inline PDF viewer P2), open detail modal |
+
+Detail modal reuses timeline event modal styling (`#timeline-event-modal` pattern): title,
+firm, analysts, rating/PT grid, link to PDF.
+
+**Do not** block tab ship on PDF viewer — link to `/static/…` or signed file route is enough
+for P1.
+
+
+---
+
+## Discovery algorithm (P1 generic approach)
+
+For each company with a **ticker** on file:
+
+1. **Load existing roster** from `company_analysts` (may be empty).
+2. **Call configured providers** in order (manual import already merged; then Finnhub, etc.).
+3. **Normalize** firm + analyst names → stable `analyst_key` (`lower(firm)|lower(name)`).
+4. **Upsert** coverage rows; set `last_seen_at`; mark missing analysts `dropped` only after
+   N consecutive failed refresh cycles (don't flip-flop daily).
+5. **For each new report reference** (URL or API row): enqueue download → `ingest.go`.
+6. **Update** `analyst_coverage` status + retry floor (same philosophy as
+   `stock_price_coverage` — page load never hammers providers).
+
+If **no ticker**: roster API returns empty with `note: "no ticker on file"` (same as timeline).
+
+
+---
+
+## Report ingest (P2)
+
+Batch job (`cmd/analyst-reports fetch --cik …` or `--all`):
+
+1. List candidate URLs / API document IDs since `last_success_at`.
+2. **HEAD/GET** with If-None-Match / If-Modified-Since where supported.
+3. Store under `analyst-reports/{report_id}/`; compute SHA-256; skip duplicates.
+4. Insert `analyst_reports` row.
+5. Record run in `crawler_run_stats` (tool name `analyst-reports`).
+
+**Never** fetch on every Timeline tab open — same rule as Yahoo price backfill.
+
+
+---
+
+## Structured extraction (P3 — LLM)
+
+Once PDFs exist on disk, extract a **canonical analysis object** into `analysis.json`.
+
+Follow megane's **three-surface sync**:
+
+1. `prompts/analyst_report.txt` — extraction instructions
+2. `internal/models/analyst_analysis.go` — `LLMOutput` struct with `json` + `description` tags
+3. UI renderer in `tab-analysts.js` (and optionally timeline callouts)
+
+**Suggested fields (ranked):**
+
+| Field | Use |
+|-------|-----|
+| `rating`, `priorRating`, `ratingAction` | upgrade / downgrade / reiterate |
+| `priceTarget`, `priorPriceTarget`, `currency` | timeline + prediction |
+| `revenueEstimate`, `epsEstimate` (FY/CQ) | vs SEC actuals |
+| `investmentThesis` (1–3 sentences) | modal summary |
+| `keyRisks[]`, `keyCatalysts[]` | structured bullets |
+| `confidence` | extractor self-score; hide fields below threshold |
+
+Register a **pipeline route** only if uploads go through megane file pipeline; batch CLI may
+call `llm.Client` directly (same as `edgar-financials` adjudication path).
+
+**Withholding beats guessing** — if PDF is image-only or redacted, write
+`{"status":"unavailable","reason":"…"}` rather than hallucinating estimates.
+
+
+---
+
+## Timeline integration (P2 — optional but high value)
+
+Add **`analyst_report`** event type in `companyview` (distinct from SEC `category` values):
+
+- Build from `analyst_reports` rows, not from EDGAR scan
+- Merge into timeline API as a second stream **or** separate query param
+  `?include=analysts` to keep default payload unchanged
+- Chart: **separate marker style** (e.g. diamond, purple) — do **not** reuse financial-report
+  squares or SEC weight markers
+- Modal: show rating/PT + link to PDF
+
+Prompt 10 financial lane rules still apply: **SEC financial filings ≠ analyst research**.
+
+
+---
+
+## Prediction / downstream (P3)
+
+Export weekly snapshot per CIK:
+
+- Consensus PT (median / mean of active reports)
+- Rating distribution (# Buy / Hold / Sell)
+- Estimate revision velocity (Δ EPS estimate vs 30d ago)
+
+Store as `fileDB/companies/{cik}/analyst-consensus.json` or materialized SQLite view.
+Consumers: future ML tab, admin stats, external CSV export endpoint.
+
+
+---
+
+## Security & compliance
+
+- Research PDFs may be **material non-public** or **license-restricted** — default storage
+  stays **private** (auth required on download routes); never public CDN.
+- Log provider ToS version in `report.json` when scraped or API-sourced.
+- Rate-limit external provider calls; honor `Retry-After`.
+- Admin upload path virus-scan is out of scope; document “trusted admin only”.
+
+
+---
+
+## Testing
+
+| Level | What |
+|-------|------|
+| **Unit** | `analyst_key` normalization, provider mock, ingest dedupe by SHA-256 |
+| **Integration** | Handler tests with temp fileDB + SQLite (mirror `timeline_test.go`) |
+| **Smoke** | `cmd/analyst-reports import` Kamada sample CSV → API returns 1 roster + 1 report |
+| **Heavy** | Optional live Finnhub key in `.env` — record fixture JSON for CI |
+
+Ship P0 with **fixtures only** — no live network in CI.
+
+
+---
+
+## Deliverables checklist (for LLD author)
+
+- [ ] HLD: source tier decision, legal notes, timeline merge strategy
+- [ ] LLD: exact migration SQL, provider interface, API JSON shapes, tab wireframe
+- [ ] P0 migration + manual import + admin POST
+- [ ] P1 GET endpoints + `#analysts` tab
+- [ ] P2 `cmd/analyst-reports` + optional timeline `include=analysts`
+- [ ] P3 `analysis.json` + prompt/struct/UI sync
+
+**Companion docs to generate:** `prompt_11_company_analysts-hld.md`,
+`prompt_11_company_analysts-lld.md` (follow prompt 8/9/10 naming).
+
+
+---
+
+## Pitfalls
+
+- **Confusing “coverage”** — SEC filing span (`filedb.Coverage`) ≠ analyst coverage; name
+  APIs/tables `analyst_*` explicitly.
+- **Page-load fetch** — will get rate-limited and slow; always batch + coverage row.
+- **Finnhub ≠ PDFs** — metadata-only sources still valuable for roster/PT; set user
+  expectations in UI copy.
+- **Duplicate analysts** — same person moves firms; use `analyst_key` per firm or global
+  person ID (P4); document choice in LLD.
+- **LLM before ingest** — extract only after document is on disk and hashed.

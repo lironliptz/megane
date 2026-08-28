@@ -88,7 +88,7 @@ func Apply(
 
 	// 3. Route Snippet
 	routeSrc := RouteSnippet(detail.FileType.Slug, detail.Config.MIMETypes, detail.StrategyConsensus)
-	routePath := filepath.Join(baseDir, "route_snippet.go")
+	routePath := filepath.Join(baseDir, "route_snippet.go.txt")
 	if err := writeFile(routePath, []byte(routeSrc)); err != nil {
 		return resp, fmt.Errorf("write route snippet: %w", err)
 	}

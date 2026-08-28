@@ -50,6 +50,7 @@
   let preset = '2Y';
   let loading = false;
   let rangeSyncing = false;
+  let suppressNextClick = false;   // set by installDragSelect; skips the click a shift-drag ends on
 
   // ---- event type filter (prompt 7) ----------------------------------
   const FILTER_KEY = 'megane.timelineEventFilter.v1';
@@ -162,6 +163,43 @@
     return null;
   }
 
+  // Unique snapped trading-day labels for visible financial reports — drives
+  // the full-height vertical guide lines on both charts.
+  function financialReportLabels(labels, financialEvents, snapIndex) {
+    const seen = {};
+    const out = [];
+    financialEvents.forEach(function (e) {
+      const i = snapIndex(anchorDateForEvent(e));
+      if (i < 0) return;
+      const label = labels[i];
+      if (seen[label]) return;
+      seen[label] = true;
+      out.push(label);
+    });
+    return out;
+  }
+
+  function drawFinancialReportLines(chart) {
+    const reportLabels = chart._finReportLabels;
+    if (!reportLabels || !reportLabels.length) return;
+    const xScale = chart.scales.x;
+    const area = chart.chartArea;
+    if (!xScale || !area || area.bottom <= area.top) return;
+    const c2d = chart.ctx;
+    c2d.save();
+    c2d.strokeStyle = cssVar('--chart-fin-report-line', 'rgba(15, 23, 42, 0.32)');
+    c2d.lineWidth = 1.5;
+    reportLabels.forEach(function (label) {
+      const x = xScale.getPixelForValue(label);
+      if (x < area.left - 1 || x > area.right + 1) return;
+      c2d.beginPath();
+      c2d.moveTo(x, area.top);
+      c2d.lineTo(x, area.bottom);
+      c2d.stroke();
+    });
+    c2d.restore();
+  }
+
   function updateFilterBadge(tree) {
     let total = 0;
     let checked = 0;
@@ -262,6 +300,27 @@
     return { fromDay: fromDay, toDay: toDay };
   }
 
+  function updateBridgePosition() {
+    const bridge = el('tl-range-bridge');
+    const fromInput = el('tl-range-from');
+    const toInput = el('tl-range-to');
+    if (!bridge || !fromInput || !toInput) return;
+
+    const min = +fromInput.min || 0;
+    const max = +fromInput.max || 100;
+    if (max === min) return;
+
+    const fromVal = +fromInput.value;
+    const toVal = +toInput.value;
+
+    const pctFrom = (fromVal - min) / (max - min) * 100;
+    const pctTo = (toVal - min) / (max - min) * 100;
+
+    bridge.style.left = pctFrom + '%';
+    bridge.style.width = (pctTo - pctFrom) + '%';
+    bridge.style.display = 'block';
+  }
+
   function setRangeDays(fromDay, toDay, opts) {
     opts = opts || {};
     const bounds = coverageBounds();
@@ -282,6 +341,7 @@
     toInput.value = String(toDay);
     rangeSyncing = false;
     updateRangeLabels(fromDay, toDay);
+    updateBridgePosition();
   }
 
   function rangeForPreset(p) {
@@ -398,6 +458,252 @@
     if (v >= 1e6) return '$' + (v / 1e6).toFixed(1) + 'M';
     if (v >= 1e3) return '$' + (v / 1e3).toFixed(0) + 'K';
     return '$' + String(Math.round(v));
+  }
+
+  function formatEPS(n) {
+    const v = Number(n) || 0;
+    if (Math.abs(v) >= 1) return '$' + v.toFixed(2);
+    return '$' + v.toFixed(2);
+  }
+
+  function cssNum(name, fallback) {
+    const v = parseFloat(cssVar(name, String(fallback)));
+    return isNaN(v) ? fallback : v;
+  }
+
+  // All financial-graph bar width / spacing / opacity tunables live in
+  // static/css/style.css (:root --chart-fin-*). Change them there only.
+  function finChartLayout() {
+    return {
+      metricThickness: cssNum('--chart-fin-bar-metric-thickness-px', 12),
+      revenueThickness: cssNum('--chart-fin-bar-revenue-thickness-px', 16),
+      quarterlyOpacity: cssNum('--chart-fin-bar-quarterly-opacity', 0.85),
+      annualOpacity: cssNum('--chart-fin-bar-annual-opacity', 0.38),
+    };
+  }
+
+  function finMetricDefs() {
+    const lay = finChartLayout();
+    return [
+      { key: 'net_income', label: 'Net income', match: /net income/i, isFlow: true,
+        colorVar: '--chart-net-income', fallback: '#7c3aed',
+        dayOffset: cssNum('--chart-fin-offset-net-income', -2),
+        axis: 'yFin', barThickness: lay.metricThickness },
+      { key: 'eps', label: 'Basic EPS', match: /eps/i, isFlow: true,
+        colorVar: '--chart-eps', fallback: '#d97706',
+        dayOffset: cssNum('--chart-fin-offset-eps', -3),
+        axis: 'yEPS', barThickness: lay.metricThickness },
+      { key: 'revenue', label: 'Revenue', match: /revenue/i, isFlow: true,
+        colorVar: '--chart-financial-q', fallback: '#3b82f6',
+        dayOffset: cssNum('--chart-fin-offset-revenue', 0),
+        axis: 'yFin', barThickness: lay.revenueThickness },
+      { key: 'cash', label: 'Cash', match: /cash/i, isFlow: false,
+        colorVar: '--chart-cash', fallback: '#0891b2',
+        dayOffset: cssNum('--chart-fin-offset-cash', 2),
+        axis: 'yFin', barThickness: lay.metricThickness },
+    ];
+  }
+
+  function extractFinMetrics(ev) {
+    const out = {};
+    finMetricDefs().forEach(function (def) {
+      const amt = findMetricAmount(ev, def.match);
+      if (amt != null) out[def.key] = amt;
+    });
+    return out;
+  }
+
+  function mergeFinMetricMaps(a, b) {
+    const out = Object.assign({}, a);
+    Object.keys(b).forEach(function (k) {
+      if (out[k] == null || b[k] > out[k]) out[k] = b[k];
+    });
+    return out;
+  }
+
+  function isAnnualPeriod(p) {
+    return !!(p && (p.duration === 'P1Y' || p.focus === 'FY'));
+  }
+
+  function isQ4Period(p) {
+    if (!p) return false;
+    if (p.focus === 'Q4') return true;
+    return /^Q4\b/i.test(p.label || '');
+  }
+
+  function fiscalYearFromPeriod(p) {
+    if (!p || !p.label) return null;
+    const m = /\b(20\d{2})\b/.exec(p.label);
+    return m ? m[1] : null;
+  }
+
+  // Chart x-position uses the filing date to align perfectly with the timeline events.
+  function anchorDateForEvent(ev) {
+    return ev.filingDate;
+  }
+
+  function periodSpanLabel(p, isAnnual) {
+    if (!p) return isAnnual ? 'FY' : '';
+    if (p.label) return p.label;
+    return isAnnual ? 'FY' : (p.focus || '');
+  }
+
+  // Builds chart clusters. Quarterly filings sit at their period end; annual
+  // filings merge onto the Q4 cluster for the same fiscal year when one
+  // exists, otherwise stand alone at year-end (common for 20-F filers).
+  function buildFinClusters(labels, financialEvents, snapIndex) {
+    const byLabel = {};
+    const q4ByFY = {};
+    const q123ByFY = {};
+
+    // Build q123ByFY from ALL loaded financial events to ensure robust synthesis
+    // even when some quarters are outside the currently visible timeline window.
+    if (current && current.events) {
+      current.events.forEach(function (ev) {
+        if (!isFinancialReport(ev)) return;
+        const metrics = extractFinMetrics(ev);
+        if (!Object.keys(metrics).length) return;
+        const p = ev.reportPeriod || null;
+        if (isAnnualPeriod(p) || ev.category === 'annual_report' || isQ4Period(p)) {
+          return;
+        }
+        const anchor = anchorDateForEvent(ev);
+        const fy = fiscalYearFromPeriod(p) || (p && p.endDate ? p.endDate.slice(0, 4) : anchor.slice(0, 4));
+        if (fy) {
+          if (!q123ByFY[fy]) q123ByFY[fy] = { _count: 0 };
+          q123ByFY[fy]._count++;
+          Object.keys(metrics).forEach(function (k) {
+            q123ByFY[fy][k] = (q123ByFY[fy][k] || 0) + metrics[k];
+          });
+        }
+      });
+    }
+
+    function ensureCluster(i, label, fy) {
+      if (!byLabel[label]) {
+        byLabel[label] = { i: i, label: label, fy: fy, quarterly: null, annual: null };
+      }
+      return byLabel[label];
+    }
+
+    financialEvents.forEach(function (ev) {
+      const metrics = extractFinMetrics(ev);
+      if (!Object.keys(metrics).length) return;
+      const p = ev.reportPeriod || null;
+      const anchor = anchorDateForEvent(ev);
+      const i = snapIndex(anchor);
+      if (i < 0) return;
+      const label = labels[i];
+      const fy = fiscalYearFromPeriod(p) || (p && p.endDate ? p.endDate.slice(0, 4) : label.slice(0, 4));
+      const slot = { ev: ev, metrics: metrics };
+
+      if (isAnnualPeriod(p) || ev.category === 'annual_report') {
+        const q4Cluster = q4ByFY[fy];
+        if (q4Cluster) {
+          q4Cluster.annual = slot;
+        } else {
+          ensureCluster(i, label, fy).annual = slot;
+        }
+        return;
+      }
+
+      const cluster = ensureCluster(i, label, fy);
+      cluster.quarterly = slot;
+      if (isQ4Period(p)) {
+        q4ByFY[fy] = cluster;
+      }
+    });
+
+    // Synthesize missing Q4 metrics from FY and Q1-Q3
+    const defs = finMetricDefs();
+    Object.keys(byLabel).forEach(function (k) {
+      const cluster = byLabel[k];
+      if (cluster.annual && !cluster.quarterly && cluster.fy) {
+        const q123 = q123ByFY[cluster.fy];
+        // Only synthesize if we have exactly 3 quarters of data for this FY
+        if (q123 && q123._count === 3) {
+          const synth = {};
+          defs.forEach(function (def) {
+            const annVal = cluster.annual.metrics[def.key];
+            if (annVal != null) {
+              if (def.isFlow && q123[def.key] != null) {
+                synth[def.key] = annVal - q123[def.key];
+              } else if (!def.isFlow) {
+                synth[def.key] = annVal;
+              }
+            }
+          });
+          if (Object.keys(synth).length > 0) {
+            cluster.quarterly = { ev: cluster.annual.ev, metrics: synth, synthesized: true };
+          }
+        }
+      }
+    });
+
+    return Object.keys(byLabel).map(function (k) { return byLabel[k]; });
+  }
+
+  function addFinMetricDataset(datasets, def, clusters, layer, counters, lay) {
+    const isAnnual = layer === 'annual';
+    const color = cssVar(def.colorVar, def.fallback);
+    const pts = [];
+    clusters.forEach(function (cluster) {
+      const slot = isAnnual ? cluster.annual : cluster.quarterly;
+      if (!slot) return;
+      const val = slot.metrics[def.key];
+      if (val == null) return;
+
+      let yVal = val;
+      if (isAnnual && cluster.quarterly) {
+        const qVal = cluster.quarterly.metrics[def.key];
+        // Stack the annual bar on top of Q4 if they share the same sign
+        // and the annual total is larger in magnitude than Q4.
+        if (qVal != null && (qVal * val > 0) && Math.abs(val) > Math.abs(qVal)) {
+          yVal = [qVal, val];
+        }
+      }
+
+      const ti = cluster.i + def.dayOffset;
+      if (ti < 0 || ti >= counters.labelCount) return;
+      if (def.axis === 'yEPS') {
+        if (val > counters.epsMax) counters.epsMax = val;
+      } else if (val > counters.finMax) {
+        counters.finMax = val;
+      }
+      const p = slot.ev.reportPeriod;
+      let pLabel = periodSpanLabel(p, isAnnual);
+      let pDur = (p && p.duration) || (isAnnual ? 'P1Y' : 'P3M');
+      if (slot.synthesized) {
+        pLabel = (pLabel || '').replace('FY', 'Q4');
+        pDur = 'P3M';
+      }
+      pts.push({
+        x: counters.labels[ti],
+        y: yVal,
+        ev: slot.ev,
+        metricLabel: def.label,
+        reportLabel: cluster.label,
+        periodLabel: pLabel,
+        isAnnual: isAnnual,
+        duration: pDur,
+        synthesized: slot.synthesized,
+      });
+    });
+    if (!pts.length) return;
+    datasets.push({
+      type: 'bar',
+      label: def.label + (isAnnual ? ' (FY)' : ''),
+      data: pts,
+      backgroundColor: hexToRgba(color, isAnnual ? lay.annualOpacity : lay.quarterlyOpacity),
+      hoverBackgroundColor: color,
+      borderWidth: 0,
+      // Chart.js grouped layout shifts each dataset by barThickness×index,
+      // which beats the CSS dayOffsets and spaces a cluster unevenly.
+      grouped: false,
+      barThickness: def.barThickness,
+      yAxisID: def.axis,
+      order: isAnnual ? 0 : 4,
+    });
   }
 
   // Both charts pin every vertical axis to the same pixel width so their
@@ -719,6 +1025,15 @@
   };
   Chart.register(periodStripesPlugin);
 
+  // Full-height vertical guides at each financial-report trading day (both charts).
+  const financialReportLinesPlugin = {
+    id: 'financialReportLines',
+    beforeDatasetsDraw: function (chart) {
+      drawFinancialReportLines(chart);
+    },
+  };
+  Chart.register(financialReportLinesPlugin);
+
   // Custom legend rows below the charts (the canvases' own legends are off):
   // tl-legend-stock lists the stock chart's datasets, tl-legend-fin is filled
   // by renderFinancialChart. Swatch colors come from our own cssVar/WEIGHTS
@@ -747,65 +1062,78 @@
     host.innerHTML = html;
   }
 
-  // Financial graph (prompt 10): separate chart ABOVE the stock chart, ~1/3
-  // its height (CSS), one Revenue bar per quarterly/annual report. Shares the
-  // stock chart's category labels and pins its axes to the same pixel width
-  // (fitAxisWidth) so category positions land on the same x pixels. Bars use
-  // barPercentage 5 (Chart.js multiplies categoryPercentage × barPercentage
-  // with no clamp), so each bar spans five trading-day slots — the default
-  // 0.9 × 0.8 footprint would be a hairline at 2Y+ windows.
-  function renderFinancialChart(labels, financialEvents, snapIndex, showVolume) {
+  // Financial graph: headline metrics per report cluster. Quarterly (P3M) bars
+  // are solid; full-year (P1Y) bars are outlined/semi-transparent and merge
+  // onto the Q4 cluster when a Q4 filing exists for that fiscal year.
+  function renderFinancialChart(labels, financialEvents, snapIndex, showVolume, finReportLabels) {
     const wrap = el('tl-financial-wrap');
     const canvas = el('timeline-chart-financial');
     const legendHost = el('tl-legend-fin');
     if (finChart) { finChart.destroy(); finChart = null; }
     if (!wrap || !canvas) return;
 
-    // One bar per trading-day label; on a same-day collision keep the
-    // larger figure (annual report filed alongside a quarterly).
-    const byLabel = {};
-    financialEvents.forEach(function (ev) {
-      const revenue = findMetricAmount(ev, /revenue/i);
-      if (revenue == null) return;
-      const i = snapIndex(ev.filingDate);
-      if (i < 0) return;
-      const label = labels[i];
-      if (!byLabel[label] || byLabel[label].y < revenue) {
-        byLabel[label] = { x: label, y: revenue, ev: ev };
-      }
-    });
-    const pts = Object.keys(byLabel).map(function (k) { return byLabel[k]; });
+    const clusters = buildFinClusters(labels, financialEvents, snapIndex);
 
-    if (!pts.length) {
+    const datasets = [];
+    const lay = finChartLayout();
+    const counters = { finMax: 0, epsMax: 0, labelCount: labels.length, labels: labels };
+    finMetricDefs().forEach(function (def) {
+      addFinMetricDataset(datasets, def, clusters, 'quarterly', counters, lay);
+      addFinMetricDataset(datasets, def, clusters, 'annual', counters, lay);
+    });
+
+    if (!datasets.length) {
       wrap.hidden = true;
       if (legendHost) legendHost.innerHTML = '';
       return;
     }
     wrap.hidden = false;
 
+    const finMax = counters.finMax;
+    const epsMax = counters.epsMax;
     const finColor = cssVar('--chart-financial-q', '#3b82f6');
+    const epsColor = cssVar('--chart-eps', '#d97706');
+    const showFinAxis = finMax > 0;
+    const hasEps = epsMax > 0;
     const scales = {
-      x: { type: 'category', ticks: { display: false }, grid: { display: false } },
-      yRev: {
+      x: { type: 'category', offset: true, display: false, ticks: { display: false }, grid: { display: false } },
+      yFin: {
         type: 'linear',
         position: 'left',
         beginAtZero: true,
+        min: 0,
+        max: showFinAxis ? finMax * 1.08 : 1,
         afterFit: fitAxisWidth,
-        title: { display: true, text: 'Revenue', color: finColor },
+        title: { display: showFinAxis, text: 'Reported ($)', color: finColor },
         ticks: {
+          display: showFinAxis,
           maxTicksLimit: 4,
           color: finColor,
           callback: function (v) { return formatMoney(v); },
         },
-        grid: { drawOnChartArea: true },
+        grid: { display: showFinAxis, drawOnChartArea: showFinAxis },
+        border: { display: showFinAxis },
       },
     };
-    if (showVolume) {
-      // Invisible right axis reserving the same width as the stock chart's
-      // volume axis, so both plot areas end at the same x pixel. display is
-      // NOT false (a display:false scale takes no layout space) — instead
-      // every drawn part is turned off individually.
-      scales.yRevPad = {
+
+    if (hasEps) {
+      scales.yEPS = {
+        type: 'linear',
+        position: 'right',
+        beginAtZero: true,
+        min: 0,
+        max: epsMax * 1.25,
+        afterFit: fitAxisWidth,
+        title: { display: true, text: 'EPS', color: epsColor },
+        ticks: {
+          maxTicksLimit: 4,
+          color: epsColor,
+          callback: function (v) { return formatEPS(v); },
+        },
+        grid: { display: false, drawOnChartArea: false },
+      };
+    } else if (showVolume) {
+      scales.yFinPad = {
         type: 'linear',
         position: 'right',
         afterFit: fitAxisWidth,
@@ -817,24 +1145,15 @@
 
     finChart = new Chart(canvas.getContext('2d'), {
       type: 'bar',
-      data: {
-        labels: labels,
-        datasets: [{
-          label: 'Revenue',
-          data: pts,
-          backgroundColor: hexToRgba(finColor, 0.85),
-          hoverBackgroundColor: finColor,
-          borderWidth: 0,
-          barPercentage: 5,
-          categoryPercentage: 1,
-          yAxisID: 'yRev',
-        }],
-      },
+      data: { labels: labels, datasets: datasets },
       options: {
         responsive: true,
         maintainAspectRatio: false,
+        datasets: { bar: { grouped: false } },
+        layout: { autoPadding: false, padding: { top: 2, bottom: 2, left: 0, right: 16 } },
         interaction: { mode: 'nearest', intersect: true },
         onClick: function (evt, elements) {
+          if (suppressNextClick) { suppressNextClick = false; return; }   // shift-drag just ended here
           if (!elements.length) return;
           const el0 = elements[0];
           const pt = finChart.data.datasets[el0.datasetIndex].data[el0.index];
@@ -846,13 +1165,37 @@
           tooltip: {
             callbacks: {
               title: function (items) {
-                const it = items[0];
-                return (it && it.raw && it.raw.ev) ? it.raw.ev.filingDate : '';
+                const raw = items[0] && items[0].raw;
+                if (!raw) return '';
+                const parts = [];
+                if (raw.periodLabel) parts.push(raw.periodLabel);
+                if (raw.duration === 'P1Y') parts.push('12 mo');
+                else if (raw.duration === 'P3M') parts.push('3 mo');
+                if (raw.reportLabel && raw.reportLabel !== raw.periodLabel) {
+                  parts.push('filed ' + raw.ev.filingDate);
+                }
+                return parts.join(' · ') || (raw.ev ? raw.ev.filingDate : '');
               },
               label: function (item) {
-                const ev = item.raw && item.raw.ev;
-                const out = ['Revenue: ' + formatMoney(item.parsed.y)];
-                if (ev) out.push(ev.form + ' · ' + String(ev.category || '').replace(/_/g, ' '));
+                const raw = item.raw;
+                const ds = finChart.data.datasets[item.datasetIndex];
+                const isEps = ds.yAxisID === 'yEPS';
+                // For floating bars (annual stacked on Q4), item.parsed.y is the top value.
+                // We want to show the total FY value, which is item.parsed.y.
+                // But wait, if it's a floating bar, item.parsed.y might be the array?
+                // In Chart.js, item.parsed.y is the top of the bar.
+                let val = item.parsed.y;
+                if (raw && raw.y && Array.isArray(raw.y)) val = raw.y[1];
+                const fmt = isEps ? formatEPS(val) : formatMoney(val);
+                const name = (raw && raw.metricLabel) || ds.label;
+                const out = [name + ': ' + fmt];
+                if (raw && raw.synthesized) out[0] += ' (implied)';
+                if (raw && raw.isAnnual) out.push('Full fiscal year');
+                else if (raw && raw.duration === 'P3M') out.push('Quarter');
+                if (raw && raw.ev) {
+                  out.push(raw.ev.form + ' · ' +
+                    String(raw.ev.category || '').replace(/_/g, ' '));
+                }
                 return out;
               },
             },
@@ -861,10 +1204,17 @@
       },
     });
 
+    finChart._finReportLabels = finReportLabels || [];
+
     if (legendHost) {
-      legendHost.innerHTML = '<span class="timeline-legend-item">' +
-        '<span class="timeline-legend-swatch timeline-legend-swatch-square" style="color:' +
-        finColor + '"></span>Revenue (reported)</span>';
+      let html = '';
+      datasets.forEach(function (ds) {
+        const color = ds.hoverBackgroundColor || ds.backgroundColor;
+        html += '<span class="timeline-legend-item">' +
+          '<span class="timeline-legend-swatch timeline-legend-swatch-square" style="color:' +
+          color + '"></span>' + escHtml(ds.label) + '</span>';
+      });
+      legendHost.innerHTML = html;
     }
   }
 
@@ -1063,7 +1413,7 @@
     }
 
     const scales = {
-      x: { type: 'category', ticks: { maxTicksLimit: 10, autoSkip: true }, grid: { display: false } },
+      x: { type: 'category', offset: true, ticks: { maxTicksLimit: 10, autoSkip: true }, grid: { display: false } },
       y: {
         type: 'linear',
         position: 'left',
@@ -1109,15 +1459,21 @@
       };
     }
 
+    const showFinGraph = financialEvents.some(function (ev) {
+      return Object.keys(extractFinMetrics(ev)).length > 0;
+    });
+
     chart = new Chart(canvas.getContext('2d'), {
       data: { labels: labels, datasets: datasets },
       options: {
         responsive: true,
         maintainAspectRatio: false,
+        layout: { autoPadding: false, padding: { top: showFinGraph ? 2 : 8, bottom: 0, left: 0, right: 16 } },
         interaction: { mode: 'nearest', intersect: true },
         // interaction.mode 'nearest' already resolves elements[0] to the
         // closest point, so a dense day's markers stay individually clickable.
         onClick: function (evt, elements) {
+          if (suppressNextClick) { suppressNextClick = false; return; }   // shift-drag just ended here
           if (!elements.length) return;
           const el0 = elements[0];
           const ds = chart.data.datasets[el0.datasetIndex];
@@ -1163,7 +1519,10 @@
       chart._volLogAxis = volLogAxis;
     }
 
-    renderFinancialChart(labels, financialEvents, snapIndex, showVolume);
+    const finReportLabels = financialReportLabels(labels, financialEvents, snapIndex);
+    chart._finReportLabels = finReportLabels;
+
+    renderFinancialChart(labels, financialEvents, snapIndex, showVolume, finReportLabels);
 
     // Status line: which half of the data, if any, is missing.
     if (!current.ticker) {
@@ -1225,6 +1584,11 @@
     let html = '<span class="badge">' + escHtml(w ? w.label : ev.weight) + '</span> ';
     html += '<strong>' + escHtml(String(ev.category || '').replace(/_/g, ' ')) + '</strong>';
     if (ev.tierLabel) html += ' <span class="badge">' + escHtml(ev.tierLabel) + '</span>';
+    if (ev.reportPeriod && ev.reportPeriod.label) {
+      const span = ev.reportPeriod.duration === 'P1Y' ? '12 mo' : '3 mo';
+      html += ' <span class="badge">' + escHtml(ev.reportPeriod.label) +
+        ' (' + escHtml(span) + ')</span>';
+    }
     if (ev.why) html += '<p class="muted">' + escHtml(ev.why) + '</p>';
     html += '<p>' + escHtml(ev.summary || '\u2014') + '</p>';
     html += renderHighlights(ev.highlights);
@@ -1238,6 +1602,98 @@
   function closeEventModal() {
     const overlay = el('timeline-event-modal');
     if (overlay) overlay.classList.remove('open');
+  }
+
+  // ---- shift+drag period selection ------------------------------------
+  // Holding Shift and dragging across either chart draws a selection band
+  // (a plain absolutely-positioned div, not a Chart.js plugin — simplest way
+  // to track a live drag without fighting the redraw cycle) and, on mouseup,
+  // sets that span as the timeline's period via the same setRangeDays/load
+  // path the range sliders already use. Both charts install this the same
+  // way and land on the same period, since they share one labels array and
+  // an identical x-axis pixel width (see the file header).
+  function installDragSelect(canvasId, overlayId, getChart) {
+    const canvas = el(canvasId);
+    const overlay = el(overlayId);
+    if (!canvas || !overlay) return;
+
+    const DRAG_THRESHOLD_PX = 4;
+    let dragging = false;
+    let startPx = 0;
+
+    function clampToArea(px, area) {
+      return Math.max(area.left, Math.min(px, area.right));
+    }
+
+    function pixelFromEvent(e, area) {
+      const rect = canvas.getBoundingClientRect();
+      return clampToArea(e.clientX - rect.left, area);
+    }
+
+    // Category scale pixel->value isn't reliably public across Chart.js
+    // builds; getPixelForValue(label) is already used elsewhere in this file
+    // (drawFinancialReportLines, periodStripesPlugin), so invert it by
+    // nearest match instead — this is only run once per drag, at mouseup.
+    function pixelToDay(c, px) {
+      const scale = c.scales.x;
+      const labels = c.data.labels;
+      if (!scale || !labels || !labels.length) return null;
+      let bestIdx = 0;
+      let bestDist = Infinity;
+      for (let i = 0; i < labels.length; i++) {
+        const d = Math.abs(scale.getPixelForValue(labels[i]) - px);
+        if (d < bestDist) { bestDist = d; bestIdx = i; }
+      }
+      return parseDay(labels[bestIdx]);
+    }
+
+    function paintOverlay(x0, x1) {
+      overlay.style.left = Math.min(x0, x1) + 'px';
+      overlay.style.width = Math.abs(x1 - x0) + 'px';
+    }
+
+    canvas.addEventListener('mousedown', function (e) {
+      if (!e.shiftKey) return;
+      const c = getChart();
+      const area = c && c.chartArea;
+      if (!c || !area) return;
+      e.preventDefault();   // shift+drag must not trigger text/page selection
+      dragging = true;
+      startPx = pixelFromEvent(e, area);
+      canvas.style.cursor = 'crosshair';
+      overlay.style.top = area.top + 'px';
+      overlay.style.height = (area.bottom - area.top) + 'px';
+      paintOverlay(startPx, startPx);
+      overlay.hidden = false;
+    });
+
+    document.addEventListener('mousemove', function (e) {
+      if (!dragging) return;
+      const c = getChart();
+      const area = c && c.chartArea;
+      if (!c || !area) return;
+      paintOverlay(startPx, pixelFromEvent(e, area));
+    });
+
+    document.addEventListener('mouseup', function (e) {
+      if (!dragging) return;
+      dragging = false;
+      canvas.style.cursor = '';
+      overlay.hidden = true;
+      const c = getChart();
+      if (!c) return;
+      const area = c.chartArea || { left: startPx, right: startPx };
+      const endPx = pixelFromEvent(e, area);
+      if (Math.abs(endPx - startPx) < DRAG_THRESHOLD_PX) return;   // shift-click, not a drag
+      const d0 = pixelToDay(c, startPx);
+      const d1 = pixelToDay(c, endPx);
+      if (d0 == null || d1 == null) return;
+      suppressNextClick = true;   // the mouseup that ends this drag also fires a native click
+      clearPresetActive();
+      preset = 'custom';
+      setRangeDays(Math.min(d0, d1), Math.max(d0, d1));
+      load();
+    });
   }
 
   function wireControls() {
@@ -1270,6 +1726,7 @@
         toInput.value = String(toDay);
         rangeSyncing = false;
         updateRangeLabels(fromDay, toDay);
+        updateBridgePosition();
       });
       input.addEventListener('change', function () {
         if (rangeSyncing) return;
@@ -1278,6 +1735,102 @@
         load();
       });
     });
+
+    // Bridge (sliding window) dragging logic
+    const bridge = el('tl-range-bridge');
+    const fromInput = el('tl-range-from');
+    const toInput = el('tl-range-to');
+    const slidersContainer = document.querySelector('.timeline-range-sliders');
+
+    if (bridge && fromInput && toInput && slidersContainer) {
+      let isDragging = false;
+      let startX = 0;
+      let startFromVal = 0;
+      let startToVal = 0;
+
+      function getEventX(e) {
+        if (e.touches && e.touches.length) {
+          return e.touches[0].clientX;
+        }
+        return e.clientX;
+      }
+
+      function onDragStart(e) {
+        const bounds = coverageBounds();
+        if (!bounds) return;
+
+        isDragging = true;
+        bridge.classList.add('dragging');
+        startX = getEventX(e);
+        startFromVal = +fromInput.value;
+        startToVal = +toInput.value;
+
+        // Prevent text selection/scrolling while dragging
+        e.preventDefault();
+
+        document.addEventListener('mousemove', onDragMove, { passive: false });
+        document.addEventListener('mouseup', onDragEnd);
+        document.addEventListener('touchmove', onDragMove, { passive: false });
+        document.addEventListener('touchend', onDragEnd);
+      }
+
+      function onDragMove(e) {
+        if (!isDragging) return;
+
+        const bounds = coverageBounds();
+        if (!bounds) return;
+
+        const rect = slidersContainer.getBoundingClientRect();
+        if (rect.width === 0) return;
+
+        const deltaX = getEventX(e) - startX;
+        const daysRange = bounds.maxDay - bounds.minDay;
+        const daysPerPixel = daysRange / rect.width;
+        const deltaDays = Math.round(deltaX * daysPerPixel);
+
+        let newFrom = startFromVal + deltaDays;
+        let newTo = startToVal + deltaDays;
+        const span = startToVal - startFromVal;
+
+        if (newFrom < bounds.minDay) {
+          newFrom = bounds.minDay;
+          newTo = bounds.minDay + span;
+        } else if (newTo > bounds.maxDay) {
+          newTo = bounds.maxDay;
+          newFrom = bounds.maxDay - span;
+        }
+
+        rangeSyncing = true;
+        fromInput.value = String(newFrom);
+        toInput.value = String(newTo);
+        rangeSyncing = false;
+
+        updateRangeLabels(newFrom, newTo);
+        updateBridgePosition();
+
+        // Prevent default touch behavior (scrolling)
+        e.preventDefault();
+      }
+
+      function onDragEnd() {
+        if (!isDragging) return;
+
+        isDragging = false;
+        bridge.classList.remove('dragging');
+
+        document.removeEventListener('mousemove', onDragMove);
+        document.removeEventListener('mouseup', onDragEnd);
+        document.removeEventListener('touchmove', onDragMove);
+        document.removeEventListener('touchend', onDragEnd);
+
+        clearPresetActive();
+        preset = 'custom';
+        load();
+      }
+
+      bridge.addEventListener('mousedown', onDragStart);
+      bridge.addEventListener('touchstart', onDragStart, { passive: false });
+    }
 
     // Event type filter: checkbox toggles are live (re-render on every
     // change, no Apply button); one delegated listener covers both the
@@ -1359,6 +1912,9 @@
         render();
       });
     }
+
+    installDragSelect('timeline-chart', 'tl-drag-select', function () { return chart; });
+    installDragSelect('timeline-chart-financial', 'tl-drag-select-fin', function () { return finChart; });
   }
 
   CompanyTabs.register('timeline', {
