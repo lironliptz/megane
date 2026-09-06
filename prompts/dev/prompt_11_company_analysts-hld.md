@@ -19,8 +19,8 @@ the spec.
 ## 1. Objective
 
 Let a user researching a company see **who covers it**, **what they say** (rating, price
-target), and **how that changes over time**, stored durably enough to feed later extraction
-and modelling.
+target), and **how that changes over time**, stored durably enough to feed later extraction,
+modeling, and **deviation (surprise) analysis** alongside stock price reactions.
 
 Ship storage and a curation path first; treat automated discovery as a best-effort seed,
 not a precondition.
@@ -43,9 +43,9 @@ The idea file's "append migration v34+" is correct: 33 is the current head.
 
 ---
 
-## 3. Data audit (measured, not assumed)
+## 3. Data Audit & Constraints
 
-### 3.1 The central finding: individual analyst names are not obtainable from the free tiers
+### 3.1 Individual analyst names are not obtainable from the free tiers
 
 The spec's Tier 2 is meant to "seed roster + latest rating/PT". Measured against the actual
 documented response shapes:
@@ -102,7 +102,7 @@ and would crowd a chart that is already dense. → D8.
 
 ---
 
-## 4. Architecture decisions
+## 4. Architecture Decisions
 
 ### D1 — The coverage entity is the **firm**; the analyst person is an optional attribute
 
@@ -155,8 +155,7 @@ implies we could not find the people, rather than that this source tier never ha
 per-site ToS review is a prerequisite this design does not perform, and shipping dormant
 scraper code invites someone to flip the flag without it.
 
-Pick **one** Tier 2 provider for P1 behind the `Provider` interface. Both return the same
-shape of thing; implementing two is duplicated work before either is validated.
+**Tier 2 Provider Decision:** Finnhub is selected as the primary automated provider. It provides robust aggregate recommendation trends and consensus price targets, with FMP as a pluggable alternative.
 
 ### D4 — Documents are a manual path in v1; do not promise PDFs
 
@@ -186,19 +185,18 @@ only, recorded in the existing `crawler_run_stats` (migration 7) under tool name
 A company with no ticker returns an empty roster with `note: "no ticker on file"`, matching
 the timeline's existing behaviour.
 
-### D6 — Migration v34, append-only, three tables
+### D6 — Migration v34, append-only, four tables
 
-One migration adding `company_analysts`, `analyst_reports`, `analyst_coverage`, appended to
+One migration adding `company_analysts`, `analyst_reports`, `analyst_period_consensus`, and `analyst_coverage`, appended to
 `versionedMigrations` after 33. Existing entries are never edited — the repo's standing
 rule. Naming is `analyst_*` throughout so nothing collides with `filedb.Coverage`, which
-means *filing date span* and is a genuinely confusable term (the spec flags this; it is
-worth honouring in every identifier).
+means *filing date span* and is a genuinely confusable term.
 
 ### D7 — API follows the existing company group verbatim
 
 | Method | Path | Notes |
 |---|---|---|
-| GET | `/api/companies/:cik/analysts` | Consensus + firm rows |
+| GET | `/api/companies/:cik/analysts` | Consensus + firm rows + surprises |
 | GET | `/api/companies/:cik/analyst-reports` | Paginated, `from`/`to`/`limit`/`offset` |
 | GET | `/api/companies/:cik/analyst-reports/:reportId` | Metadata + document link |
 | POST | `/api/admin/companies/:cik/analyst-reports` | Admin upload (P0) |
@@ -226,6 +224,18 @@ Redistribution limits on Tier 2 data (both providers restrict it) mean the conse
 shows the provider name and is not exported wholesale. Admin upload is trusted-admin-only;
 virus scanning is out of scope and stated as such.
 
+### D10 — Deviation & Stock Price Reaction Engine
+
+To fulfill the core business requirement of analyzing expectations vs. actuals alongside stock price reactions, the system implements a **Deviation Engine**:
+
+1. **Filing Date Alignment:** When a financial report is filed on date $T_{0}$, the engine queries the nearest preceding consensus estimate from `analyst_period_consensus` for that specific fiscal year and period (e.g., Q2 2025).
+2. **Surprise % Calculation:**
+   $$\text{Revenue Surprise \%} = \frac{\text{Actual Revenue} - \text{Estimated Revenue}}{\text{Estimated Revenue}} \times 100$$
+   $$\text{EPS Surprise \%} = \frac{\text{Actual EPS} - \text{Estimated EPS}}{\text{Estimated EPS}} \times 100$$
+3. **Stock Price Reaction Window:**
+   - Queries `stock_prices` to calculate absolute cumulative returns over 1-day ($T_{+1}$), 3-day ($T_{+3}$), and 5-day ($T_{+5}$) windows relative to the pre-announcement close ($T_{-1}$).
+   - Snaps non-trading days forward to the next trading day.
+
 ---
 
 ## 5. What this touches
@@ -233,11 +243,11 @@ virus scanning is out of scope and stated as such.
 | Area | New / Changed |
 |---|---|
 | `internal/db/db.go` | **+1 migration (v34)** |
-| `internal/db/analysts.go` | **new** — query helpers |
-| `internal/analysts/` | **new** — `provider.go`, `manual.go`, `<tier2>.go`, `ingest.go`, `roster.go`, `schema.go` |
+| `internal/db/analysts.go` | **new** — query helpers (including surprise & price reaction joins) |
+| `internal/analysts/` | **new** — `provider.go`, `manual.go`, `<tier2>.go`, `ingest.go`, `roster.go`, `schema.go`, `deviation.go` |
 | `internal/handlers/companies.go`, `router.go` | 3 GET routes + 1 admin POST |
 | `cmd/analyst-reports/` | **new** — `import`, `refresh`, `--gaps` |
-| `static/company.html`, `shell.js`, `tab-analysts.js`, `style.css` | fifth tab |
+| `static/company.html`, `shell.js`, `tab-analysts.js`, `style.css` | fifth tab (including Consensus, Surprises, and Roster tables) |
 | `fileDB/companies/{cik}/analyst-reports/` | **new artifact tree** (gitignored) |
 | `.env.example` | provider key + TTL, off by default |
 | `internal/companyview/` | **unchanged** in P0–P1 (D8) |
@@ -273,48 +283,27 @@ Nothing in prompts 8–10 changes. No existing table is altered.
 
 ## 8. Done when
 
-Open `/company/0001567529#analysts`. The tab shows a **consensus panel** — "N analysts
-covering · Buy/Hold/Sell split · PT mean, median, range", each labelled with its as-of date
-and the provider — above a **firm coverage table** listing the firms with rating actions on
-record, newest first.
+Open `/company/0001567529#analysts`. The tab shows:
+1. **Consensus Panel:** "N analysts covering · Buy/Hold/Sell split · PT mean, median, range", each labelled with its as-of date and the provider.
+2. **Earnings Surprise & Stock Price Reaction Panel:** A table showing historical quarters, the consensus estimates, actual reported figures, surprise percentages, and the subsequent 1D/3D/5D stock price returns.
+3. **Firm Coverage Table:** Listing the firms with rating actions on record, newest first.
 
 Two negative cases carry the design:
+- A firm discovered automatically shows **no analyst name** and the tab explains why, rather than showing a blank column that reads as missing data.
+- A company with no ticker on file shows "no ticker on file", the same as the timeline — not an empty table.
 
-- A firm discovered automatically shows **no analyst name** and the tab explains why, rather
-  than showing a blank column that reads as missing data.
-- A company with no ticker on file shows "no ticker on file", the same as the timeline —
-  not an empty table.
-
-And the curation path: an admin uploads a research PDF with firm, analyst name, date, rating
-and price target; it appears in the reports table, its document opens through an
-authenticated route, and `fileDB/companies/{cik}/analyst-reports/{id}/report.json` records
-its SHA-256.
+And the curation path: an admin uploads a research PDF with firm, analyst name, date, rating and price target; it appears in the reports table, its document opens through an authenticated route, and `fileDB/companies/{cik}/analyst-reports/{id}/report.json` records its SHA-256.
 
 ---
 
-## 9. Deliverables & phasing
+## 9. Deliverables & Phasing
 
-1. `prompt_11_company_analysts-lld.md` — exact v34 SQL, `Provider` interface, the
-   firm-only→person upgrade path (D1), API JSON shapes, tab wireframe, fixture plan.
-2. **P0** — migration, `internal/db/analysts.go`, manual import + admin POST, on-disk
-   artifact + SHA-256 dedupe.
-3. **P1** — three GET endpoints, `#analysts` tab (consensus panel + firm table), one Tier 2
-   provider behind the interface, coverage row + batch refresh.
+1. `prompt_11_company_analysts-lld.md` — exact v34 SQL, `Provider` interface, the firm-only→person upgrade path (D1), API JSON shapes, tab wireframe, fixture plan.
+2. **P0** — migration, `internal/db/analysts.go`, manual import + admin POST, on-disk artifact + SHA-256 dedupe.
+3. **P1** — three GET endpoints, `#analysts` tab (consensus panel + firm table), one Tier 2 provider behind the interface, coverage row + batch refresh.
 4. **P2** — `cmd/analyst-reports` import/refresh, `crawler_run_stats` wiring.
-5. **P3+** — `analysis.json` extraction (prompt/struct/UI three-surface sync), consensus
-   snapshot export, timeline overlay if D8's bar is cleared.
-
-Ship P0 → P1 before any extraction, per the spec's own instruction.
-
-### Open questions (2)
-
-1. **Which Tier 2 provider.** Finnhub and FMP are equivalent for this purpose; the choice
-   should follow whichever licence permits displaying consensus to authenticated users.
-   Needs a licence read, not an engineering decision.
-2. **Whether firm-level-only coverage clears the product bar.** If the intent was
-   specifically *named people*, then Tier 1 manual curation is the only path and Tier 2
-   should be dropped from P1 rather than shipped as a partial answer. Worth settling before
-   the LLD.
+5. **P2 (Deviation Engine):** SQLite surprise calculation, stock price return join, and UI surprise panel.
+6. **P3+** — `analysis.json` extraction (prompt/struct/UI three-surface sync), consensus snapshot export, timeline overlay if D8's bar is cleared.
 
 ---
 

@@ -208,6 +208,59 @@ var versionedMigrations = []struct {
 		note            TEXT NOT NULL DEFAULT '',
 		last_attempt_at DATETIME NOT NULL
 	)`},
+	{34, `CREATE TABLE IF NOT EXISTS analyst_period_consensus (
+		id                INTEGER PRIMARY KEY AUTOINCREMENT,
+		cik               TEXT NOT NULL,
+		source            TEXT NOT NULL,
+		fiscal_year       TEXT NOT NULL,
+		fiscal_period     TEXT NOT NULL,
+		period_end        TEXT NOT NULL,
+		duration          TEXT NOT NULL,
+		consensus_date    TEXT NOT NULL,
+		announcement_date TEXT,
+		revenue_estimate  REAL,
+		eps_estimate      REAL,
+		eps_actual        REAL,
+		eps_surprise      REAL,
+		eps_surprise_pct  REAL,
+		basis             TEXT,
+		currency          TEXT NOT NULL DEFAULT 'USD',
+		rating_buy_count  INTEGER NOT NULL DEFAULT 0,
+		rating_hold_count INTEGER NOT NULL DEFAULT 0,
+		rating_sell_count INTEGER NOT NULL DEFAULT 0,
+		source_url        TEXT NOT NULL DEFAULT '',
+		fetched_at        DATETIME NOT NULL,
+		created_at        DATETIME NOT NULL,
+		UNIQUE(cik, source, fiscal_year, fiscal_period, duration, consensus_date)
+	)`},
+	{35, `CREATE INDEX IF NOT EXISTS analyst_period_consensus_join_idx
+      ON analyst_period_consensus(cik, period_end, duration, source)`},
+	{36, `CREATE TABLE IF NOT EXISTS analyst_coverage (
+		cik              TEXT PRIMARY KEY,
+		status           TEXT NOT NULL,
+		provider         TEXT NOT NULL DEFAULT '',
+		last_attempt_at  TEXT,
+		last_success_at  TEXT,
+		next_retry_after TEXT,
+		note             TEXT NOT NULL DEFAULT ''
+	)`},
+	{37, `CREATE TABLE IF NOT EXISTS analyst_snapshot (
+		id                INTEGER PRIMARY KEY AUTOINCREMENT,
+		cik               TEXT NOT NULL,
+		source            TEXT NOT NULL,
+		as_of             TEXT NOT NULL,
+		pt_mean           REAL,
+		pt_high           REAL,
+		pt_low            REAL,
+		pt_median         REAL,
+		analyst_count     INTEGER,
+		rating_buy_count  INTEGER NOT NULL DEFAULT 0,
+		rating_hold_count INTEGER NOT NULL DEFAULT 0,
+		rating_sell_count INTEGER NOT NULL DEFAULT 0,
+		currency          TEXT NOT NULL DEFAULT 'USD',
+		fetched_at        DATETIME NOT NULL,
+		UNIQUE(cik, source, as_of)
+	)`},
 }
 
 // DB wraps sql.DB with helper methods.

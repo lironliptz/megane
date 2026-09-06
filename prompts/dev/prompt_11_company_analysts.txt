@@ -1,17 +1,17 @@
 === prompt ===
 **Sell-side analyst coverage & research tracking** per company — discover who follows a
-ticker, persist the roster, ingest their reports over time, and (later) extract structured
-fields for display and prediction.
+ticker, persist the roster, ingest their reports over time, extract structured fields,
+and analyze the deviation between analyst expectations and actual reported results alongside
+subsequent stock price reactions.
 
 Builds on **prompt 1** (company page, `CompanyStore`, CIK identity), **prompt 3** (tabbed
-company view + hash routing), **prompt 6** (timeline events + modal pattern), and **prompt 8**
-(sidecar JSON artifacts + batch CLI ingest). **Greenfield** — no analyst code exists today;
-only this spec.
+company view + hash routing), **prompt 4** (stock prices), **prompt 6** (timeline events + modal pattern),
+**prompt 8** (sidecar JSON artifacts + batch CLI ingest), and **prompt 10** (timeline event lanes).
+**Greenfield** — no analyst code exists today; only this spec and its HLD.
 
 This prompt does **not** replace SEC filing ingest (`fileDB` EDGAR tree). Analyst research is
 a **parallel corpus**: broker PDFs/HTML, price targets, ratings, and narrative — orthogonal
 to `meta.json` / `financials.json`.
-
 
 ---
 
@@ -29,19 +29,30 @@ Megane today is **SEC filing intelligence**:
 Every public company has **sell-side analysts** (and sometimes independent shops) publishing
 coverage, estimates, and rating changes. Users cannot today:
 
-1. See **who covers** a company they are researching
-2. **Track new reports** from those analysts over time
-3. Compare **price targets / ratings / estimate revisions** alongside SEC events on the timeline
-4. Feed structured analyst data into **prediction or scoring** models
+1. See **who covers** a company they are researching.
+2. **Track new reports** from those analysts over time.
+3. Compare **price targets / ratings / estimate revisions** alongside SEC events on the timeline.
+4. Feed structured analyst data into **prediction or scoring** models to analyze the deviation between expectations and reported results.
+5. Correlate earnings surprises (deviations) with subsequent stock price movements.
 
-User intent (from product sketch):
+---
 
-1. **Generic discovery** — find analysts following a company without manual SEC archaeology
-2. **Persist roster** — store analysts in DB for inspection and re-fetch
-3. **Follow over time** — gather new reports as they appear
-4. **Structured extraction** — well-defined JSON from report bodies (phase 2+)
-5. **Presentation** — incorporate into company UI and downstream prediction
+## Critical Realization & Data Audit (HLD Findings)
 
+A thorough data audit of public free-tier APIs (Finnhub, FMP, Polygon) reveals a critical constraint:
+**Individual analyst names (the actual persons) are NOT obtainable from free/public tiers.**
+
+* Finnhub's `recommendation-trends` and `price-target` return aggregate counts and consensus figures only.
+* Finnhub's `upgrade-downgrade` and FMP's `grades` return the **firm name** (e.g., "JP Morgan", "Benchmark", "Stifel") as the author, not the individual person.
+
+### The Ladder of Reality:
+* **Consensus metrics & Firm names:** Genuinely obtainable from free/public APIs (Tier 2).
+* **Individual analyst names & PDF reports:** Only obtainable via manual curation (Tier 1) or licensed feeds like Refinitiv/Bloomberg (Tier 3).
+
+### Architectural Pivot:
+1. **Firm-First Schema:** The primary coverage entity is the **firm** (`(cik, firm)`), with the individual `analyst_name` being **nullable**. A row with no person is a normal, honest result of automated discovery.
+2. **Consensus-First UI:** The `#analysts` tab leads with an aggregate consensus panel, followed by a firm-level coverage table. Individual names appear only where manually curated or imported.
+3. **Withholding over Hallucinating:** The UI explicitly states: *"Firm-level coverage from {provider}. Individual analyst names require a licensed feed or manual entry."*
 
 ---
 
@@ -49,116 +60,58 @@ User intent (from product sketch):
 
 | Priority | Deliverable |
 |----------|-------------|
-| **P0** | **Schema + storage** — SQLite tables for analyst roster per CIK, report metadata, fetch/coverage status; on-disk layout for downloaded report files |
-| **P0** | **Manual curation path** — admin or CLI can add/remove analysts and attach a report PDF/HTML without any external API |
-| **P1** | **Discovery v1** — one automated source (env-gated) to seed roster + latest rating/PT where available; document fallbacks |
-| **P1** | **Company API** — `GET /api/companies/:cik/analysts`, `GET /api/companies/:cik/analyst-reports` (paginated) |
-| **P1** | **Company tab** — `#analysts` tab: roster table + recent reports list; link to report detail modal |
-| **P2** | **Batch ingest CLI** — `cmd/analyst-reports` polls configured sources, downloads new reports, records `crawler_run_stats` |
-| **P2** | **Timeline overlay (optional)** — analyst report dates as a distinct event category on `#timeline` (separate lane or filter), **without** mixing into SEC filing markers |
-| **P3** | **Structured extraction** — LLM (or rules) → `analysis.json` sidecar; sync prompt + Go struct + UI renderer |
-| **P3** | **Prediction hook** — export time-series of PT/rating/estimate revisions for modeling (API or CSV) |
-| **P4** | **Licensed feeds** — FactSet / Refinitiv / Bloomberg adapters behind feature flags (design only until contracts exist) |
-
-Ship **P0 → P1** before extraction. Do not block roster storage on perfect discovery.
-
+| **P0** | **Schema + storage** — SQLite tables for analyst roster, report metadata, and fetch coverage status; on-disk sidecar layout for uploaded report files. |
+| **P0** | **Manual curation path** — Admin POST endpoint and CLI import to add/remove analysts and attach a report PDF/HTML without any external API. |
+| **P1** | **Discovery v1** — Automated Tier 2 provider integration (Finnhub or FMP) to seed consensus panels and firm-level rating actions. |
+| **P1** | **Company API** — `GET /api/companies/:cik/analysts` and `GET /api/companies/:cik/analyst-reports` (paginated). |
+| **P1** | **Company tab** — `#analysts` tab: consensus panel, firm coverage table, and recent reports list; link to report detail modal. |
+| **P2** | **Batch import CLI** — `cmd/analyst-reports` CLI for bulk CSV/JSON import and background refresh of Tier 2 data. |
+| **P2** | **Deviation Analysis Engine** — Backend/frontend logic joining analyst expectations with SEC actuals (`financials.json`) and stock prices (`stock_prices`) to calculate surprises and price reactions. |
+| **P3** | **Structured extraction** — LLM (or rules) → `analysis.json` sidecar; sync prompt + Go struct + UI renderer. |
+| **P3** | **Prediction hook** — Export time-series of PT/rating/estimate revisions for modeling (API or CSV) to analyze deviation vs reported results. |
+| **P4** | **Licensed feeds** — Bloomberg/FactSet adapters behind feature flags (design only). |
 
 ---
 
 ## Scope & non-goals
 
 **In scope**
+- **Sell-side equity research** tied to a **CIK + ticker**.
+- Report types: initiating coverage, update, rating change, estimate revision, industry note.
+- Metadata: firm, analyst name(s) (optional), report date, rating, price target, headline summary.
+- File artifacts: PDF preferred; HTML acceptable (manual/import only).
+- **Surprise & Price Reaction Analysis:** Calculation of deviations between consensus expectations and reported results (Revenue, EPS) and subsequent 1-day, 3-day, and 5-day stock returns.
 
-- **Sell-side equity research** tied to a **CIK + ticker**
-- Report types: initiating coverage, update, rating change, estimate revision, industry note
-  (when company is primary subject)
-- Metadata: firm, analyst name(s), report date, rating, price target, headline summary
-- File artifacts: PDF preferred; HTML acceptable
-
-**Out of scope (this prompt)**
-
-- **Insider / 13F holder tracking** — separate `#ownership` tab (prompt 3 P2)
-- **News sentiment scrapers** without a named analyst attribution
-- **Scraping broker portals** that prohibit automation (default **off**; legal review required)
-- **Replacing** prompt 8/9 financial extraction from SEC filings
-- **Browser-side** fetching of third-party research (all ingest server-side)
-
-**Terminology**
-
-| Term | Meaning here |
-|------|----------------|
-| **Analyst** | Person or desk publishing research (may map to many reports) |
-| **Firm** | Broker-dealer / bank (Goldman, Jefferies, …) |
-| **Coverage** | Analyst/firm relationship to a **specific CIK** (active / dropped) |
-| **Report** | One published research document (PDF/HTML) with date + metadata |
-
+**Out of scope**
+- Insider / 13F holder tracking (separate `#ownership` tab).
+- News sentiment scrapers without named firm attribution.
+- Scraping broker portals that prohibit automation.
+- SEC EX-99 research scanning (data audit shows no research PDFs in the corpus).
 
 ---
 
-## Where to find analysts & reports (source tiers)
+## Architecture
 
-Implement as **pluggable providers** (`internal/analysts/provider.go`). Never hard-code one
-vendor. Order by **legality and reliability**, not scrape-ability.
-
-### Tier 1 — MVP (ship first)
-
-| Source | What you get | Notes |
-|--------|----------------|-------|
-| **Manual / admin UI** | Full control | Same pattern as user CRUD in admin panel |
-| **CSV / JSON import** | Bulk roster + report URLs | `cmd/analyst-reports import --cik … --file …` |
-| **User upload** | PDF per company | Reuse megane upload + `projects/` storage pattern; tag `kind=analyst_report` |
-
-### Tier 2 — Public APIs (env-gated, best-effort)
-
-| Source | Endpoints (typical) | Limits |
-|--------|---------------------|--------|
-| **Finnhub** | Recommendation trends, price target consensus, upgrade/downgrade history | Free tier rate limits; **not** full PDFs — metadata only unless paired with another source |
-| **Financial Modeling Prep** | Analyst estimates, grades | API key; check license for redistribution |
-| **Polygon.io** | Some analyst-related fields on ticker | Metadata, not full research PDFs |
-| **SEC EDGAR** | Occasional research attached as **EX-99** exhibits on 8-K / 6-K | Sparse but **free and legal** — scan existing `fileDB` tree for PDF exhibits titled like research (stretch) |
-
-Use Tier 2 to **seed roster + headline metrics**; do not assume PDF availability.
-
-### Tier 3 — Licensed (design interface only)
-
-| Source | Value |
-|--------|--------|
-| **Refinitiv / LSEG**, **FactSet**, **Bloomberg** | Authoritative coverage lists + full research PDFs + estimate detail |
-| **S&P Capital IQ**, **Visible Alpha** | Estimate revisions, model downloads |
-
-Define `Provider` interface so Tier 3 is a drop-in when credentials exist.
-
-### Tier 4 — Web scrape (explicit opt-in, default off)
-
-Broker research portals, aggregators (TipRanks, MarketBeat, …). **Requires** per-site ToS
-review, robots.txt respect, and rate limits. Not part of P0–P2.
-
-
----
-
-## Architecture (mirror financials + stock prices)
-
-### Storage split
+### Storage Split
 
 | Data | Where | Pattern |
 |------|--------|---------|
-| Analyst roster, coverage rows, report **metadata** | **SQLite** | `stock_price_coverage`-style status rows |
-| Report **files** (PDF/HTML) | **`fileDB/companies/{cik}/analyst-reports/`** | Sidecar JSON beside file (like `financials.json`) |
+| Analyst roster, coverage rows, report metadata | **SQLite** | `stock_price_coverage`-style status rows |
+| Report files (PDF/HTML) | **`fileDB/companies/{cik}/analyst-reports/{report_id}/`** | Sidecar JSON beside file (like `financials.json`) |
 | Extracted structured fields | **`analysis.json`** next to report | Prompt 8 artifact pattern |
-| Fetch telemetry | **`crawler_run_stats`** or `analyst_fetch_runs` | Existing crawler stats table |
+| Fetch telemetry | **`crawler_run_stats`** | Existing crawler stats table |
 
-### On-disk layout
+### On-Disk Layout
 
 ```
 fileDB/companies/{cik}/analyst-reports/
   {report_id}/                    ← stable slug: YYYY-MM-DD_firm_analyst or UUID
     report.json                   ← metadata mirror (source, url, rating, PT, hash)
-    document.pdf                  ← or document.html
-    analysis.json                 ← optional; P3 LLM/rule extraction output
+    document.pdf                  ← or document.html (manual/import only)
+    analysis.json                 ← optional; P3 LLM extraction output
 ```
 
-**`report.json` minimal schema (P0):**
-
+**`report.json` schema (P0):**
 ```json
 {
   "id": "2025-08-15_jefferies_smith",
@@ -177,26 +130,23 @@ fileDB/companies/{cik}/analyst-reports/
   "source": "manual",
   "sourceUrl": "",
   "documentMime": "application/pdf",
-  "documentSha256": "…",
+  "documentSha256": "e3b0c442...",
   "fetchedAt": "2025-08-27T10:00:00Z"
 }
 ```
 
-Withholding beats guessing: omit nullable fields rather than inventing values.
-
-
-### SQLite tables (append migration v34+)
+### SQLite Tables (Migration v34)
 
 ```sql
--- One row per (cik, firm, analyst_key) while coverage is active
+-- One row per (cik, firm, analyst_key)
 CREATE TABLE IF NOT EXISTS company_analysts (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   cik TEXT NOT NULL,
   firm TEXT NOT NULL,
-  analyst_name TEXT NOT NULL,
-  analyst_key TEXT NOT NULL,          -- normalized slug for dedupe
+  analyst_name TEXT,                  -- NULLABLE: firm-level coverage is normal
+  analyst_key TEXT NOT NULL,          -- normalized slug: slug(firm) or slug(firm)|slug(name)
   status TEXT NOT NULL DEFAULT 'active',  -- active | dropped | unknown
-  discovered_via TEXT NOT NULL,       -- manual | finnhub | import | ...
+  discovered_via TEXT NOT NULL,       -- manual | finnhub | import
   first_seen_at TEXT NOT NULL,
   last_seen_at TEXT NOT NULL,
   UNIQUE(cik, analyst_key)
@@ -205,19 +155,35 @@ CREATE TABLE IF NOT EXISTS company_analysts (
 CREATE TABLE IF NOT EXISTS analyst_reports (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   cik TEXT NOT NULL,
-  report_id TEXT NOT NULL,            -- matches directory name under analyst-reports/
+  report_id TEXT NOT NULL,            -- matches folder under analyst-reports/
   firm TEXT NOT NULL,
   report_date TEXT NOT NULL,          -- YYYY-MM-DD
   rating TEXT,
   price_target REAL,
   title TEXT NOT NULL DEFAULT '',
-  source TEXT NOT NULL,
+  source TEXT NOT NULL,               -- manual | finnhub | import
   document_sha256 TEXT,
   created_at TEXT NOT NULL,
   UNIQUE(cik, report_id)
 );
 
--- Coverage / fetch bookkeeping (mirror stock_price_coverage)
+-- Historical consensus estimates per reporting period (for deviation analysis)
+CREATE TABLE IF NOT EXISTS analyst_period_consensus (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  cik TEXT NOT NULL,
+  fiscal_year TEXT NOT NULL,          -- e.g., "2025"
+  fiscal_period TEXT NOT NULL,        -- "Q1" | "Q2" | "Q3" | "FY"
+  consensus_date TEXT NOT NULL,       -- YYYY-MM-DD (as-of date of consensus)
+  revenue_estimate REAL,              -- consensus revenue estimate
+  eps_estimate REAL,                  -- consensus EPS estimate
+  rating_buy_count INTEGER NOT NULL DEFAULT 0,
+  rating_hold_count INTEGER NOT NULL DEFAULT 0,
+  rating_sell_count INTEGER NOT NULL DEFAULT 0,
+  created_at TEXT NOT NULL,
+  UNIQUE(cik, fiscal_year, fiscal_period, consensus_date)
+);
+
+-- Coverage / fetch bookkeeping (mirrors stock_price_coverage)
 CREATE TABLE IF NOT EXISTS analyst_coverage (
   cik TEXT PRIMARY KEY,
   status TEXT NOT NULL,               -- idle | fetching | ok | error | no_data
@@ -229,203 +195,270 @@ CREATE TABLE IF NOT EXISTS analyst_coverage (
 );
 ```
 
-Query helpers: `internal/db/analysts.go`. **Append only** to `versionedMigrations` in
-`internal/db/db.go` (same rule as all megane migrations).
+*Note: When a person is later supplied for a firm-only row, the row is upgraded in place (`UPDATE ... WHERE analyst_key = slug(firm)`) to prevent duplicate firm rows.*
 
+---
 
-### Go packages
+## Deviation & Price Impact Analysis Engine (P2)
+
+To understand how analyst expectations affect stock prices, the system must correlate consensus estimates with actual reported filings and stock price changes.
+
+### 1. Surprise (Deviation) Calculation
+For a given reporting period (e.g., FY 2025 or Q2 2025):
+* **Actuals:** Extracted from `financials.json` (via prompt 8/9).
+* **Expectations:** The latest `analyst_period_consensus` row recorded *just prior* to the filing date.
+* **Surprise % Formula:**
+  $$\text{Surprise \%} = \frac{\text{Actual} - \text{Estimate}}{\text{Estimate}} \times 100$$
+
+### 2. Post-Announcement Price Impact
+Calculate the stock price reaction over three horizons starting from the filing date ($T_{0}$):
+* **1-Day Return ($T_{+1}$):**
+  $$\text{Return}_{1\text{D}} = \frac{\text{Close}_{T+1} - \text{Close}_{T-1}}{\text{Close}_{T-1}} \times 100$$
+* **3-Day Return ($T_{+3}$):**
+  $$\text{Return}_{3\text{D}} = \frac{\text{Close}_{T+3} - \text{Close}_{T-1}}{\text{Close}_{T-1}} \times 100$$
+* **5-Day Return ($T_{+5}$):**
+  $$\text{Return}_{5\text{D}} = \frac{\text{Close}_{T+5} - \text{Close}_{T-1}}{\text{Close}_{T-1}} \times 100$$
+
+*Note: If $T_{0}$ is a non-trading day, snap to the next trading day for $T_{0}$ and use the preceding trading day for $T_{-1}$.*
+
+---
+
+## API Specifications
+
+All endpoints are authenticated and return the standard `{"data": ..., "error": null}` envelope.
+
+### 1. GET `/api/companies/:cik/analysts`
+Returns the active coverage roster, current consensus, and historical period surprises.
+```json
+{
+  "data": {
+    "consensus": {
+      "analystCount": 3,
+      "priceTarget": {
+        "mean": 11.5,
+        "median": 12.0,
+        "high": 13.0,
+        "low": 9.5,
+        "currency": "USD"
+      },
+      "ratings": {
+        "buy": 2,
+        "hold": 1,
+        "sell": 0
+      },
+      "asOf": "2026-08-28T12:00:00Z",
+      "provider": "Finnhub"
+    },
+    "roster": [
+      {
+        "firm": "Stifel",
+        "analystName": "Annabel Samimy",
+        "status": "active",
+        "firstSeen": "2024-03-10",
+        "lastSeen": "2026-08-15"
+      },
+      {
+        "firm": "H.C. Wainwright",
+        "analystName": "Ram Selvaraju",
+        "status": "active",
+        "firstSeen": "2024-05-12",
+        "lastSeen": "2026-08-20"
+      }
+    ],
+    "surprises": [
+      {
+        "period": "2025-Q2",
+        "filingDate": "2025-08-14",
+        "revenue": {
+          "estimate": 45000000,
+          "actual": 47000000,
+          "surprisePct": 4.44
+        },
+        "eps": {
+          "estimate": 0.10,
+          "actual": 0.12,
+          "surprisePct": 20.0
+        },
+        "priceImpact": {
+          "return1D": 2.5,
+          "return3D": 4.8,
+          "return5D": 3.2
+        }
+      }
+    ]
+  },
+  "error": null
+}
+```
+
+### 2. GET `/api/companies/:cik/analyst-reports`
+Paginated list of reports.
+```json
+{
+  "data": {
+    "reports": [
+      {
+        "reportId": "2026-08-15_stifel_samimy",
+        "firm": "Stifel",
+        "analystName": "Annabel Samimy",
+        "reportDate": "2026-08-15",
+        "title": "Kamada Ltd. — Q2 beat; reiterating Buy",
+        "rating": "Buy",
+        "priceTarget": 12.0,
+        "hasDocument": true
+      }
+    ],
+    "total": 12,
+    "limit": 10,
+    "offset": 0
+  },
+  "error": null
+}
+```
+
+### 3. POST `/api/admin/companies/:cik/analyst-reports`
+Multipart form upload for manual curation.
+* Fields: `firm`, `analyst_name` (optional), `report_date`, `rating`, `price_target`, `title`, `file` (optional PDF/HTML).
+
+---
+
+## Frontend — `#analysts` Tab Wireframe
+
+The fifth tab is registered in `static/js/company/shell.js` after Filings.
 
 ```
-internal/analysts/
-  provider.go       # Provider interface + registry
-  manual.go         # P0 manual/import
-  finnhub.go        # P1 optional (env: FINNHUB_API_KEY)
-  ingest.go         # download, hash, write report.json + file
-  roster.go         # merge discovery → company_analysts
-  schema.go         # report.json + analysis.json types
-
-internal/db/analysts.go
-internal/handlers/companies.go   # Analysts, AnalystReports handlers
-internal/companyview/analysts.go # optional: build timeline events from reports
-
-cmd/analyst-reports/main.go      # batch: discover | fetch | import | extract --gaps
-
-static/js/company/tab-analysts.js
+┌───────────────────────────────────────────────────────────────────────────┐
+│  Analyst Consensus (As of 2026-08-28 via Finnhub)                         │
+│  ┌──────────────────┐  ┌──────────────────┐  ┌─────────────────────────┐  │
+│  │  Active Coverage │  │  Consensus PT    │  │  Rating Distribution    │  │
+│  │  3 Firms         │  │  $11.50 (USD)    │  │  Buy: 2  Hold: 1  Sell:0│  │
+│  └──────────────────┘  └──────────────────┘  └─────────────────────────┘  │
+└───────────────────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────────┐
+│  Earnings Surprise & Stock Price Reaction                                 │
+│  Period   Filing Date  Revenue Surprise     EPS Surprise     Price Impact │
+│  2025-Q2  2025-08-14   +4.4% (Act: $47.0M)  +20.0% (Act: $0.12)  +4.8% (3D)│
+│  2025-Q1  2025-05-15   -1.2% (Act: $38.5M)  -10.0% (Act: $0.09)  -3.1% (3D)│
+└───────────────────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────────┐
+│  Firms Covering KMDA                                                      │
+│  Firm             Analyst             Status    First Seen   Last Seen    │
+│  Stifel           Annabel Samimy      Active    2024-03-10   2026-08-15   │
+│  H.C. Wainwright  Ram Selvaraju       Active    2024-05-12   2026-08-20   │
+│  Benchmark        —                   Active    2025-01-15   2026-08-22   │
+│  * Firm-level coverage from Finnhub. Individual analyst names require     │
+│    a licensed feed or manual entry.                                       │
+└───────────────────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────────┐
+│  Research Reports                                                         │
+│  Date        Firm             Title                       Rating   PT     │
+│  2026-08-15  Stifel           KMDA: Q2 beat; raising PT   Buy      $12.00 │
+│  2026-08-20  H.C. Wainwright  KMDA: Reaffirming Buy       Buy      $13.00 │
+└───────────────────────────────────────────────────────────────────────────┘
 ```
 
+---
 
-### API (authenticated, same conventions as timeline)
-
-| Method | Path | Purpose |
-|--------|------|---------|
-| GET | `/api/companies/:cik/analysts` | Roster for company (active first) |
-| GET | `/api/companies/:cik/analyst-reports?from=&to=&limit=&offset=` | Paginated report list |
-| GET | `/api/companies/:cik/analyst-reports/:reportId` | Metadata + link to document |
-| POST | `/api/admin/companies/:cik/analyst-reports` | **P0** manual upload / metadata (admin) |
-
-Response shape: `{"data": …, "error": null}`. CIK via `filedb.NormalizeCIK`.
-
-
-### Frontend — `#analysts` tab
-
-Register in `static/js/company/shell.js` after Filings:
-
-| Section | Content |
-|---------|---------|
-| **Coverage summary** | “N analysts · M reports in window” |
-| **Roster table** | Firm, analyst, status, first/last seen, report count |
-| **Reports table** | Date, firm, title, rating, PT, Δ vs prior (when known) |
-| **Actions** | Open document (new tab / inline PDF viewer P2), open detail modal |
-
-Detail modal reuses timeline event modal styling (`#timeline-event-modal` pattern): title,
-firm, analysts, rating/PT grid, link to PDF.
-
-**Do not** block tab ship on PDF viewer — link to `/static/…` or signed file route is enough
-for P1.
-
+## Compliance & Security
+- **Private-by-Default:** Research PDFs are proprietary. They are served only through authenticated session routes, never stored in a public static directory, and never exposed to public CDNs.
+- **License Tracking:** `report.json` records the exact `source` and provider to audit redistribution rights.
+- **Rate-Limiting:** Background fetchers honor `Retry-After` headers and enforce a minimum 24-hour fetch cool-down per CIK to prevent API key exhaustion.
 
 ---
 
-## Discovery algorithm (P1 generic approach)
+## Downstream Prediction Integration (P3)
 
-For each company with a **ticker** on file:
+The ultimate goal of sell-side tracking is analyzing **expectation deviations** (revisions/consensus vs. SEC actuals) and their impact on share prices.
 
-1. **Load existing roster** from `company_analysts` (may be empty).
-2. **Call configured providers** in order (manual import already merged; then Finnhub, etc.).
-3. **Normalize** firm + analyst names → stable `analyst_key` (`lower(firm)|lower(name)`).
-4. **Upsert** coverage rows; set `last_seen_at`; mark missing analysts `dropped` only after
-   N consecutive failed refresh cycles (don't flip-flop daily).
-5. **For each new report reference** (URL or API row): enqueue download → `ingest.go`.
-6. **Update** `analyst_coverage` status + retry floor (same philosophy as
-   `stock_price_coverage` — page load never hammers providers).
+### 1. Consensus Snapshot Export
+Export a weekly or post-filing JSON snapshot:
+`fileDB/companies/{cik}/analyst-consensus.json`
+```json
+{
+  "cik": "0001567529",
+  "ticker": "KMDA",
+  "date": "2026-08-28",
+  "consensusPriceTarget": 11.5,
+  "consensusRevenueEstimate": 182000000,
+  "consensusEpsEstimate": 0.36,
+  "reportedRevenue": 180460000,
+  "reportedEps": 0.35,
+  "revenueDeviationPct": -0.85,
+  "epsDeviationPct": -2.78,
+  "priceImpact5DayPct": -1.2
+}
+```
 
-If **no ticker**: roster API returns empty with `note: "no ticker on file"` (same as timeline).
-
-
----
-
-## Report ingest (P2)
-
-Batch job (`cmd/analyst-reports fetch --cik …` or `--all`):
-
-1. List candidate URLs / API document IDs since `last_success_at`.
-2. **HEAD/GET** with If-None-Match / If-Modified-Since where supported.
-3. Store under `analyst-reports/{report_id}/`; compute SHA-256; skip duplicates.
-4. Insert `analyst_reports` row.
-5. Record run in `crawler_run_stats` (tool name `analyst-reports`).
-
-**Never** fetch on every Timeline tab open — same rule as Yahoo price backfill.
-
+### 2. Deviation Modeling Hook
+Provide a query helper in `internal/db/analysts.go` that joins `analyst_reports` (expectations) with `financials.json` (SEC actuals) and `stock_prices` to export a clean CSV for machine learning models or prediction tabs.
 
 ---
 
-## Structured extraction (P3 — LLM)
+## Deliverables Checklist
 
-Once PDFs exist on disk, extract a **canonical analysis object** into `analysis.json`.
-
-Follow megane's **three-surface sync**:
-
-1. `prompts/analyst_report.txt` — extraction instructions
-2. `internal/models/analyst_analysis.go` — `LLMOutput` struct with `json` + `description` tags
-3. UI renderer in `tab-analysts.js` (and optionally timeline callouts)
-
-**Suggested fields (ranked):**
-
-| Field | Use |
-|-------|-----|
-| `rating`, `priorRating`, `ratingAction` | upgrade / downgrade / reiterate |
-| `priceTarget`, `priorPriceTarget`, `currency` | timeline + prediction |
-| `revenueEstimate`, `epsEstimate` (FY/CQ) | vs SEC actuals |
-| `investmentThesis` (1–3 sentences) | modal summary |
-| `keyRisks[]`, `keyCatalysts[]` | structured bullets |
-| `confidence` | extractor self-score; hide fields below threshold |
-
-Register a **pipeline route** only if uploads go through megane file pipeline; batch CLI may
-call `llm.Client` directly (same as `edgar-financials` adjudication path).
-
-**Withholding beats guessing** — if PDF is image-only or redacted, write
-`{"status":"unavailable","reason":"…"}` rather than hallucinating estimates.
-
+- [ ] **HLD Document:** `prompts/dev/prompt_11_company_analysts-hld.md` (completed).
+- [ ] **LLD Document:** `prompts/dev/prompt_11_company_analysts-lld.md` describing exact SQL, Go structs, and API routes.
+- [ ] **P0 (Storage & Curation):** Migration v34, `internal/db/analysts.go`, admin upload handler, and on-disk sidecar layout.
+- [ ] **P1 (Consensus & Tab):** GET endpoints, `#analysts` tab (consensus panel + firm table), and Finnhub/FMP provider integration.
+- [ ] **P2 (CLI & Import):** `cmd/analyst-reports` bulk importer and background fetcher.
+- [ ] **P2 (Deviation Engine):** SQLite surprise calculation, stock price return join, and UI surprise panel.
+- [ ] **P3 (Extraction & Prediction):** LLM sidecar extraction (`analysis.json`) and consensus snapshot exporter.
 
 ---
 
-## Timeline integration (P2 — optional but high value)
+## Pitfalls to Avoid
+- **Confusing "coverage":** SEC filing date span (`filedb.Coverage`) is completely separate from analyst coverage. Always name tables and APIs `analyst_coverage` or `company_analysts` explicitly.
+- **Page-Load Fetching:** Never trigger external API calls during a page load. Read solely from the SQLite cache; let the background CLI handle refreshes.
+- **Duplicate Firms:** Ensure the `analyst_key` update logic is bulletproof so adding an analyst name to an existing firm-only row updates the row in-place instead of creating a duplicate.
 
-Add **`analyst_report`** event type in `companyview` (distinct from SEC `category` values):
-
-- Build from `analyst_reports` rows, not from EDGAR scan
-- Merge into timeline API as a second stream **or** separate query param
-  `?include=analysts` to keep default payload unchanged
-- Chart: **separate marker style** (e.g. diamond, purple) — do **not** reuse financial-report
-  squares or SEC weight markers
-- Modal: show rating/PT + link to PDF
-
-Prompt 10 financial lane rules still apply: **SEC financial filings ≠ analyst research**.
+=== prompt === [Assi]
+Public listed companies usually are actively followed by a combination of major/small financial institutions, investment research firms, and community-driven investment platforms.
+For example, KAMDA Ltd. (NASDAQ: KMDA) is followed by Benchmark, Stifel (by Annabel Samimy) and H.C. Wainwright (by Ram Selvaraju).
+Such followers issue and update when required, on an ongoing basis analysis on the followed companies business activity and their expectation for the followed companies financial results, the main financial metrics, included, but not limited to revenue, profit (gross, net), EPS and other.
+We need to consider the deviation between such expectations (consensus or not) to the reported results on the share price in the applicable stock exchanges adjacent to the reports by the companies.
 
 
----
+Another consideration that should be factored in:                                                        
+                                                                                                           
+  Reported purchases and sales of the company’s shares by insiders.                                        
+                                                                                                           
+  More broadly, I think we should ask Claude what information—both company-reported and external—it would  
+  take into account when building the model, and have it rank the information by importance.    
 
-## Prediction / downstream (P3)
+  Good addition — and before ranking anything, let me check whether insider data is already sitting in the
+  corpus, since that changes its position substantially.
 
-Export weekly snapshot per CIK:
+  Before ranking, one framing point worth stating: the ranking changes completely depending on what the 
+  model predicts. Next-day reaction to a 6-K, 90-day drift, and 12-month return have almost disjoint
+  top-fives. I'll assume "explain and anticipate price reaction around company events" since that's what
+  the timeline is built around, and flag where it differs.
 
-- Consensus PT (median / mean of active reports)
-- Rating distribution (# Buy / Hold / Sell)
-- Estimate revision velocity (Δ EPS estimate vs 30d ago)
+  On your insider suggestion — I measured it, and the data on disk is currently ~zero signal. All 26 Form
+  4s parse cleanly, but of 227 transactions the codes are A 118 and D 109 — zero code P, zero code S. Every
+  insider event on file is compensation mechanics (awards, dispositions to issuer), not open-market
+  conviction trades. And the history is 5 months deep (2026-03 → 2026-08) against 10.6 years of filings,
+  because the EDGAR fetch only pulled recent Forms 3/4.
 
-Store as `fileDB/companies/{cik}/analyst-consensus.json` or materialized SQLite view.
-Consumers: future ML tab, admin stats, external CSV export endpoint.
+  The evidence base is also narrower than the folklore: open-market purchases carry modest predictive
+  power; sales are mostly uninformative (tax, diversification, 10b5-1), and grants/vesting essentially
+  none. So it's worth building — free, structured XML, already half-parsed — but it ranks #10, not 
+  top-five, and needs a backfill plus a P/S filter before it's evaluable.
 
+  Three things I'd flag more strongly than the ranking itself:
 
----
+  1. This reframes prompt 11. Surprise is a difference, and you have the actuals but not the consensus.
+     That makes the Tier 2 consensus panel the missing denominator of the highest-value input — a much
+     stronger argument for it than "show the user a rating split." With one catch: consensus APIs return
+     current consensus, so computing a 2023 surprise from a 2026 figure is lookahead leakage. It has to be
+     snapshotted with an as-of date, the same coverage-row pattern as prices. That can't be retrofitted.
+  2. Clinical/regulatory events are missing from the roadmap and probably shouldn't be. For a
+     plasma-derived pharma company, a Phase 3 readout or FDA decision can reprice the equity more than a
+     decade of earnings surprises. ClinicalTrials.gov and openFDA are free and structured, and the corpus
+     already classifies 8 filings as regulatory_clinical — the event type is recognised, the calendar
+     isn't. For this issuer I'd rank it above analyst ratings, insider data, and 13F combined.
+  3. n=1. The corpus has one CIK and ~66 results filings. Nothing here is testable on a single company —
+     adding a second and third issuer is worth more than any feature on the list. Until then this is
+     descriptive tooling that helps a human read one company faster, not a model.
 
-## Security & compliance
-
-- Research PDFs may be **material non-public** or **license-restricted** — default storage
-  stays **private** (auth required on download routes); never public CDN.
-- Log provider ToS version in `report.json` when scraped or API-sourced.
-- Rate-limit external provider calls; honor `Retry-After`.
-- Admin upload path virus-scan is out of scope; document “trusted admin only”.
-
-
----
-
-## Testing
-
-| Level | What |
-|-------|------|
-| **Unit** | `analyst_key` normalization, provider mock, ingest dedupe by SHA-256 |
-| **Integration** | Handler tests with temp fileDB + SQLite (mirror `timeline_test.go`) |
-| **Smoke** | `cmd/analyst-reports import` Kamada sample CSV → API returns 1 roster + 1 report |
-| **Heavy** | Optional live Finnhub key in `.env` — record fixture JSON for CI |
-
-Ship P0 with **fixtures only** — no live network in CI.
-
-
----
-
-## Deliverables checklist (for LLD author)
-
-- [ ] HLD: source tier decision, legal notes, timeline merge strategy
-- [ ] LLD: exact migration SQL, provider interface, API JSON shapes, tab wireframe
-- [ ] P0 migration + manual import + admin POST
-- [ ] P1 GET endpoints + `#analysts` tab
-- [ ] P2 `cmd/analyst-reports` + optional timeline `include=analysts`
-- [ ] P3 `analysis.json` + prompt/struct/UI sync
-
-**Companion docs to generate:** `prompt_11_company_analysts-hld.md`,
-`prompt_11_company_analysts-lld.md` (follow prompt 8/9/10 naming).
-
-
----
-
-## Pitfalls
-
-- **Confusing “coverage”** — SEC filing span (`filedb.Coverage`) ≠ analyst coverage; name
-  APIs/tables `analyst_*` explicitly.
-- **Page-load fetch** — will get rate-limited and slow; always batch + coverage row.
-- **Finnhub ≠ PDFs** — metadata-only sources still valuable for roster/PT; set user
-  expectations in UI copy.
-- **Duplicate analysts** — same person moves firms; use `analyst_key` per firm or global
-  person ID (P4); document choice in LLD.
-- **LLM before ingest** — extract only after document is on disk and hashed.
+  I put the ordered build sequence in §4: consensus snapshots → guidance extraction → more companies →
+  clinical calendar → Form 4 parser with backfill.

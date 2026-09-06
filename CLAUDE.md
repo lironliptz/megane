@@ -28,41 +28,10 @@ For **new sprout-applications** or any automated takeover of domain-specific wor
 
 ## Commands
 
-```bash
-make run                     # go run ./cmd/server
-make build                   # go build -o megane ./cmd/server
-make test                    # go test ./...
-make docker                  # docker-compose up --build
-```
-
-`CGO_ENABLED=1` is required (sqlite3 + go-fitz use cgo). The Makefile sets it automatically.
+See `Makefile` (`make run` / `build` / `test` / `docker`). `CGO_ENABLED=1` is required
+(sqlite3 + go-fitz use cgo); the Makefile sets it.
 
 ## Architecture
-
-### Directory Layout
-
-```
-megane/
-├── AGENTS.md            # agent/sprout index — read first for customization paths
-├── sprout.index.json    # same as structured metadata for tools
-├── CLAUDE.md            # full architecture (Claude Code)
-├── cmd/server/          # main entry point (graceful shutdown, slog)
-├── internal/
-│   ├── auth/            # login, JWT, role middleware (admin / user)
-│   ├── db/              # SQLite + versioned migrations (schema_migrations table)
-│   ├── admin/           # Admin JSON APIs: users, projects, stats (mounted from handlers/router.go)
-│   ├── handlers/        # Gin handlers: auth, files + rate limiter + router
-│   ├── models/          # Pipeline LLM output structs + legacy DataModel helpers
-│   ├── llm/             # LLM client abstraction (Gemini, OpenAI, local/Ollama)
-│   ├── pipeline/        # async goroutine pipeline + prompt loader
-│   ├── crawler/         # optional: Colly (static) + rod (JS) fetching helpers
-│   └── fileconv/        # per-format converters: PDF, image, DWG/DXF, Excel, Word
-├── prompts/             # prompt files in English/Hebrew — core business logic
-├── projects/            # uploaded file storage (gitignored)
-├── static/              # HTML, JS, CSS
-├── .env.example         # copy to .env and fill in values
-└── docker-compose.yml
-```
 
 ### Key Design Decisions
 
@@ -86,26 +55,10 @@ megane/
 
 Simple server-rendered HTML with fetch-based polling. Drop-zone supports multi-file upload. A per-file processing spinner updates via periodic status polling. No SPA framework — keep it easy to restyle in sprout-applications. Page width and the analysis modal use `--layout-max-width`, `--modal-wide-max-width`, etc. in `static/css/style.css` so sprout-apps can widen or narrow the shell in one place.
 
-## Environment Variables (`.env`)
+## Environment Variables
 
-```
-# LLM
-LLM_PROVIDER=gemini          # gemini | openai | local
-GEMINI_API_KEY=
-OPENAI_API_KEY=
-LLM_LOCAL_URL=               # e.g. http://localhost:11434 for Ollama
-
-# Auth
-SESSION_SECRET=
-SESSION_TTL=86400            # seconds
-
-# App
-ADMIN_EMAIL=
-ADMIN_PASSWORD=
-DB_PATH=./.db/megane.db
-PROJECTS_DIR=./projects
-PORT=8080
-```
+See `.env.example` — copy to `.env` and fill in. Non-obvious defaults are noted in the
+Stack table above.
 
 ## Claude Skills
 

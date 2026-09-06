@@ -1,0 +1,464 @@
+=== prompt ===
+**Consensus & analyst-estimate ingestion** — given a company (CIK and/or ticker), collect
+earnings estimates, rating aggregates, and price-target consensus over the same time span
+as the on-disk filing corpus, persist them in a concrete Go data model, and compute
+per-period consensus figures suitable for surprise analysis and prompt 12 modeling.
+
+Builds on **prompt 1** (CIK identity, `fileDB/companies/{cik}/`), **prompt 4** (stock
+prices in SQLite), **prompt 8/9** (`financials.json` actuals + `period.duration`), **prompt
+11** (SQLite tables `analyst_period_consensus`, `analyst_coverage`, `company_analysts` —
+**this prompt populates those tables**), **prompt 12** (prediction features need consensus
+as the surprise denominator), and **prompt 13** (batch peers via `"fetch": true` in
+`fileDB/similar/*.json`). Informed by **`prompts/dev/model_inputs_ranked.md`** §4.
+
+**Greenfield** — no consensus collector exists today. Data is gathered through a **strict
+source ladder**: vendor APIs first, then allowlisted public endpoints, then controlled
+web fetch — never ad-hoc LLM web search without cached provenance.
+
+---
+
+## Problem (current behavior)
+
+Megane holds **actuals** but not **expectations**:
+
+| Layer | Today |
+|-------|--------|
+| SEC actuals | `financials.json` — revenue, EPS, `period.end_date`, `period.duration` (`P3M`/`P1Y`) |
+| Stock prices | `stock_prices` table — daily OHLCV back to corpus start |
+| Consensus estimates | **None** — tables in prompt 11 are designed but empty |
+| Rating / price-target aggregates | **None** |
+| Earnings surprise | Cannot compute — missing denominator |
+
+`model_inputs_ranked.md` ranks **earnings surprise** as the #1 model input. Prompt 11
+defines the analyst UX; **this prompt ships the collector** that fills prompt 11's SQLite
+rows and optional sidecars so surprise math and `#analysts` have honest data to read.
+
+---
+
+## Source ladder (prefer APIs; web only when APIs gap)
+
+Every value stored must record **`source`** (slug) and **`source_url`** (when fetched from
+the web). Never mix sources within one metric time series for a company.
+
+### Tier 1 — Vendor APIs (default, deterministic)
+
+| Source | Endpoint | Gives | Depth | Cost |
+|--------|----------|-------|-------|------|
+| **Finnhub** | `/stock/earnings` | EPS actual, estimate, surprise | Deep history | Free key |
+| **Finnhub** | `/stock/recommendation` | Buy/hold/sell counts over time | ~12 months | Free key |
+| **Finnhub** | `/stock/price-target` | PT mean/high/low | Current + history | Free key |
+| **Finnhub** | `/stock/upgrade-downgrade` | Firm-level rating actions | Recent | Free key |
+| **FMP** | `analyst-estimates` | **Revenue + EPS** | Historical + forward | 250 calls/day free |
+| **Alpha Vantage** | `EARNINGS` | EPS actual + estimate + surprise | Deep (e.g. 122 qtrs IBM) | Very low daily cap |
+
+**Default routing:**
+
+| Metric | Tier 1 primary | Tier 1 fallback |
+|--------|----------------|-----------------|
+| Historical EPS + surprise | Finnhub | Alpha Vantage |
+| Revenue estimates | FMP | — (no free Finnhub revenue) |
+| Rating trends / PT | Finnhub | FMP grades / PT |
+
+### Tier 2 — Public endpoints (no API key, still deterministic)
+
+Use when Tier 1 returns `no_data`, rate-limits, or missing recent quarters:
+
+| Source | URL pattern | Gives | Depth |
+|--------|-------------|-------|-------|
+| **Nasdaq** | `/api/company/{sym}/earnings-surprise` | EPS actual + consensus | **Last 4 quarters only** |
+| **Nasdaq** | `/api/company/{sym}/revenue` | — | **Not available** (tested) |
+
+Tier 2 rows use `source: "nasdaq_api"`, not the Finnhub vendor slug. Do **not** merge
+Nasdaq EPS into a Finnhub EPS series — pick one vendor per backfill run and record it.
+
+### Tier 3 — Allowlisted web fetch (gap-fill only)
+
+When Tier 1 and Tier 2 cannot supply a field (typically **revenue consensus** for a ticker
+FMP skipped, or **firm names** for roster seeding):
+
+1. **Fetch only from an allowlist** — no open-ended search:
+   - `nasdaq.com`, `api.nasdaq.com`
+   - `sec.gov`, `data.sec.gov`
+   - `finance.yahoo.com` (quote summary pages — structured embedded JSON when present)
+   - Issuer IR / investor-relations pages linked from `submissions.json` (same domain only)
+2. **Cache raw bytes** under `fileDB/companies/{cik}/consensus-cache/{sha256}.{ext}` with a
+   sidecar `fetch.json`: `{ "url", "fetched_at", "http_status", "content_type" }`.
+3. **Parse deterministically first** — JSON API responses, HTML tables with fixed selectors.
+   Use Gemini structured output **only** on cached content when rules fail, with schema
+   matching `ConsensusPeriod` fields and `confidence: low` when extraction is ambiguous.
+4. **Never write a number without provenance** — if parsing fails, leave the field null and
+   set coverage `status: partial` with a note.
+
+Tier 3 is **not** a substitute for Tier 1 backfill. It fills holes after the API pass.
+
+**Explicitly forbidden:** broker PDF portals, login-walled research, generic "search the
+web" agents, or storing LLM-invented estimates with no cached source document.
+
+---
+
+## Goal (phased)
+
+| Priority | Deliverable |
+|----------|-------------|
+| **P0** | **Go data model** + migration v34 tables (reuse prompt 11 DDL — do not fork schema) |
+| **P0** | **`internal/consensus/`** — `Provider` interface; Finnhub impl for EPS + ratings + PT |
+| **P0** | **`cmd/collect-consensus`** — `--cik` / `--ticker`, historical EPS backfill, coverage row |
+| **P1** | **FMP revenue** provider; **Nasdaq Tier 2** fallback for last-4-quarters EPS sanity check |
+| **P1** | **Batch** — `--similar ./fileDB/similar/kamada.json` (`fetch: true` peers only) |
+| **P1** | **Forward snapshot** — `--snapshot` writes today's PT/ratings/forward EPS with `as_of` |
+| **P1** | **Tier 3 gap-fill** — `--gap-fill` runs allowlisted web pass only for null fields |
+| **P2** | **Surprise join** — join to `financials.json` on `(period_end, duration)`; basis-check log |
+| **P2** | **`GET /api/companies/:cik/consensus`** — cache-only read (no live vendor on page load) |
+| **P2** | **Firm roster seed** — Finnhub upgrade-downgrade → `company_analysts` firm rows |
+
+---
+
+## Scope & non-goals
+
+**In scope**
+- EPS / revenue estimates, surprises, rating counts, price-target aggregates, firm-level
+  rating changes (not individual analyst persons on free tiers).
+- Time window: overlap of `[corpus_earliest_filing, today]` per CIK.
+- Point-in-time fields: `consensus_date` / `as_of`, `source`, `fetched_at` on every row.
+- Idempotent upsert; `--force` refresh; `--dry-run` cost survey.
+
+**Out of scope**
+- Licensed feeds (Refinitiv, FactSet, Bloomberg) — interface hook only.
+- Scraping ToS-prohibited broker sites.
+- Mixing vendor slugs in one exported surprise series.
+- Individual analyst PDF ingestion (prompt 11 Tier 1 manual path).
+
+---
+
+## Vendor & surprise rules (do not skip)
+
+1. **Surprise = vendor actual − vendor estimate** (same source, same basis).
+2. **Never** `SEC GAAP actual − vendor street estimate` without a `basis` flag and explicit
+   downstream opt-in.
+3. **Join SEC actuals on `(period_end, duration)`** — `P3M` vs `P1Y`; never period-end alone.
+4. **Historical EPS backfill is retrofittable** (one API call per symbol).
+5. **Forward estimates are perishable** — snapshot weekly; start early.
+6. **Revenue:** FMP free tier caps batch size (~200 tickers/day); plan accordingly.
+7. **Downstream:** prefer SUE-style scaled surprise (surprise ÷ issuer historical σ).
+
+---
+
+## Architecture
+
+### Storage (prompt 11 schema — populate, do not redesign)
+
+Prompt 14 writes into existing prompt 11 tables:
+
+```sql
+-- See prompt_11_company_analysts.txt § SQLite Tables (Migration v34)
+-- analyst_period_consensus  ← per-period EPS/revenue estimates + rating counts
+-- analyst_coverage          ← fetch status per CIK
+-- company_analysts          ← firm rows seeded from upgrade-downgrade (P2)
+```
+
+**Additional columns** (append-only migration if missing):
+
+```sql
+ALTER TABLE analyst_period_consensus ADD COLUMN period_end TEXT;      -- YYYY-MM-DD
+ALTER TABLE analyst_period_consensus ADD COLUMN duration TEXT;        -- P3M | P1Y
+ALTER TABLE analyst_period_consensus ADD COLUMN source TEXT NOT NULL DEFAULT 'finnhub';
+ALTER TABLE analyst_period_consensus ADD COLUMN eps_actual REAL;
+ALTER TABLE analyst_period_consensus ADD COLUMN eps_surprise REAL;
+ALTER TABLE analyst_period_consensus ADD COLUMN eps_surprise_pct REAL;
+ALTER TABLE analyst_period_consensus ADD COLUMN basis TEXT;           -- street | reported
+ALTER TABLE analyst_period_consensus ADD COLUMN source_url TEXT;
+```
+
+### Sidecar layout
+
+```
+fileDB/companies/{cik}/
+  consensus.json              ← export mirror (optional, P1)
+  consensus-cache/            ← Tier 3 raw fetches (P1)
+    {sha256}.html
+    {sha256}.fetch.json
+```
+
+**`consensus.json` (v1):**
+
+```json
+{
+  "cik": "0001567529",
+  "ticker": "KMDA",
+  "primary_source": "finnhub",
+  "fetched_at": "2026-09-06T12:00:00Z",
+  "periods": [
+    {
+      "fiscal_year": "2025",
+      "fiscal_period": "Q2",
+      "period_end": "2025-06-30",
+      "duration": "P3M",
+      "consensus_date": "2025-08-13",
+      "source": "finnhub",
+      "eps": {
+        "estimate": 0.09,
+        "actual": 0.12,
+        "surprise": 0.03,
+        "surprise_pct": 33.33,
+        "basis": "street"
+      },
+      "revenue": { "estimate": 45000000, "currency": "USD" },
+      "announcement_date": "2025-08-14"
+    }
+  ],
+  "snapshot": {
+    "as_of": "2026-09-06",
+    "source": "finnhub",
+    "price_target": { "mean": 11.5, "high": 13.0, "low": 9.5, "currency": "USD" },
+    "ratings": { "buy": 2, "hold": 1, "sell": 0 }
+  }
+}
+```
+
+### Go packages
+
+| Path | Role |
+|------|------|
+| `internal/models/consensus.go` | DTOs shared by providers, DB, sidecar |
+| `internal/consensus/provider.go` | `Provider` interface + source slug constants |
+| `internal/consensus/finnhub.go` | Tier 1 Finnhub |
+| `internal/consensus/fmp.go` | Tier 1 FMP revenue |
+| `internal/consensus/nasdaq.go` | Tier 2 public API |
+| `internal/consensus/gapfill.go` | Tier 3 allowlisted fetch + parse |
+| `internal/db/consensus.go` | Upsert/query on `analyst_period_consensus` |
+| `cmd/collect-consensus/` | CLI orchestrator |
+
+```go
+type Provider interface {
+    Slug() string
+    FetchEarnings(ctx context.Context, ticker string, from, to time.Time) ([]ConsensusPeriod, error)
+    FetchSnapshot(ctx context.Context, ticker string) (*ConsensusSnapshot, error)
+}
+
+type ConsensusPeriod struct {
+    CIK, Ticker, Source, SourceURL string
+    FiscalYear, FiscalPeriod         string // "2025", "Q2"
+    PeriodEnd, Duration              string // "2025-06-30", "P3M"
+    ConsensusDate                    string // estimate as-of date when vendor provides it
+    EPSEstimate, EPSActual           *float64
+    EPSSurprise, EPSSurprisePct      *float64
+    RevenueEstimate                  *float64
+    Basis, Currency                  string
+    FetchedAt                        time.Time
+}
+```
+
+---
+
+## CLI — `cmd/collect-consensus`
+
+```
+go run ./cmd/collect-consensus \
+  --cik 0001567529 \
+  [--ticker KMDA] \
+  [--root ./fileDB] \
+  [--vendor finnhub] \
+  [--metrics eps,revenue,ratings,price_target] \
+  [--from 2016-01-01] [--to today] \
+  [--snapshot] [--gap-fill] \
+  [--dry-run] [--force]
+```
+
+| Flag | Default | Purpose |
+|------|---------|---------|
+| `--cik` | required* | 10-digit CIK (*or `--similar` / `--all-in-corpus`) |
+| `--ticker` | from `submissions.json` | Symbol for vendor APIs |
+| `--similar` | — | Batch: peers with `"fetch": true` |
+| `--all-in-corpus` | false | Every CIK under `{root}/companies/` |
+| `--vendor` | `finnhub` | Tier 1 primary slug |
+| `--metrics` | `eps,ratings,price_target` | Subset to collect |
+| `--from` / `--to` | corpus span | Clip to filing/price history |
+| `--snapshot` | false | Write forward snapshot for today |
+| `--gap-fill` | false | Tier 3 pass for null fields after Tier 1/2 |
+| `--dry-run` | false | Print planned calls + period counts; write nothing |
+| `--force` | false | Ignore min fetch interval |
+
+**Env vars** (`.env.example`):
+
+```
+FINNHUB_API_KEY=
+FMP_API_KEY=
+ALPHA_VANTAGE_API_KEY=
+CONSENSUS_PROVIDER=finnhub
+CONSENSUS_MIN_FETCH_INTERVAL=24h
+CONSENSUS_GAP_FILL=0              # 1 = enable Tier 3 by default
+```
+
+**Exit codes:** 0 = all requested CIKs ok or `no_data`; 1 = hard error on any CIK; 2 = usage.
+
+**Makefile target (proposed):**
+
+```makefile
+collect-consensus:
+	CGO_ENABLED=1 go run ./cmd/collect-consensus \
+	  --similar $(SIMILAR) $(if $(SNAPSHOT),--snapshot,)
+```
+
+---
+
+## Collection algorithm
+
+For each target CIK:
+
+1. **Resolve** — `submissions.json` → ticker, `fiscalYearEnd`, exchanges. Error if no
+   ticker unless `--ticker` override.
+2. **Window** — intersect CLI `--from`/`--to` with on-disk filing span.
+3. **Tier 1** — call primary provider(s) per `--metrics`; normalize to `ConsensusPeriod`.
+4. **Tier 2** — if EPS still missing for recent quarters, try Nasdaq earnings-surprise;
+   store as separate `source` or complete a dedicated Nasdaq backfill run (never merge).
+5. **Tier 3** (`--gap-fill`) — for each null revenue/estimate field, try allowlisted URLs;
+   cache raw response; parse; attach `source_url`.
+6. **Basis check** — compare vendor `eps_actual` to matching `financials.json` EPS; set
+   `basis` and log when relative diff > 5%.
+7. **Upsert** — `analyst_period_consensus`; if `--snapshot`, upsert snapshot blob / latest row.
+8. **Coverage** — `analyst_coverage.status`: `ok` | `partial` | `no_data` | `error`.
+9. **Sidecar** — rewrite `consensus.json` when `--write-sidecar` (default on).
+
+**Idempotency:** skip CIK if last success within `CONSENSUS_MIN_FETCH_INTERVAL` unless `--force`.
+
+---
+
+## `--dry-run`
+
+Before spending API quota or writing rows:
+
+1. List CIKs to process (from `--cik`, `--similar`, or corpus walk).
+2. Print Tier 1 call plan: `{vendor} earnings × N`, `{vendor} snapshot × N`, FMP revenue × M.
+3. Print estimated periods in window vs already in DB.
+4. Write `{slug}.consensus-plan.json` beside `--similar` input (same pattern as prompt 13
+   `.fetch-plan.json`) — **never** write `consensus.json` or SQLite rows.
+
+Example:
+
+```bash
+CGO_ENABLED=1 go run ./cmd/collect-consensus \
+  --similar ./fileDB/similar/kamada.json --dry-run
+```
+
+---
+
+## API (P2, cache-only)
+
+### GET `/api/companies/:cik/consensus`
+
+```json
+{
+  "data": {
+    "coverage": {
+      "status": "ok",
+      "provider": "finnhub",
+      "lastSuccessAt": "2026-09-06T12:00:00Z"
+    },
+    "snapshot": {
+      "asOf": "2026-09-06",
+      "priceTarget": { "mean": 11.5, "currency": "USD" },
+      "ratings": { "buy": 2, "hold": 1, "sell": 0 }
+    },
+    "periods": [
+      {
+        "fiscalYear": "2025",
+        "fiscalPeriod": "Q2",
+        "periodEnd": "2025-06-30",
+        "duration": "P3M",
+        "source": "finnhub",
+        "eps": { "estimate": 0.09, "actual": 0.12, "surprisePct": 33.33 },
+        "revenue": { "estimate": 45000000 }
+      }
+    ],
+    "gaps": [
+      { "fiscalPeriod": "2024-Q3", "field": "revenue_estimate", "note": "FMP cap reached; run --gap-fill" }
+    ]
+  },
+  "error": null
+}
+```
+
+Register in `internal/handlers/router.go` under the existing `/api/companies/:cik` group.
+
+---
+
+## Examples
+
+**Development fixture (Kamada):**
+
+```bash
+set -a && source .env && set +a
+CGO_ENABLED=1 go run ./cmd/collect-consensus \
+  --cik 0001567529 --ticker KMDA --snapshot
+```
+
+**Selected similar peers (Grifols, Emergent, Protalix when `fetch: true`):**
+
+```bash
+CGO_ENABLED=1 go run ./cmd/collect-consensus \
+  --similar ./fileDB/similar/kamada.json --snapshot --gap-fill
+```
+
+**Revenue-heavy batch (respect FMP 250/day — run subset or spread over days):**
+
+```bash
+CGO_ENABLED=1 go run ./cmd/collect-consensus \
+  --similar ./fileDB/similar/kamada.json --metrics eps,revenue --force
+```
+
+---
+
+## Tests
+
+| Level | Coverage |
+|-------|----------|
+| **Unit** | Finnhub/FMP/Nasdaq JSON fixtures → normalized periods; `(period_end, duration)` join; vendor-mix guard; Tier 3 parser on cached HTML samples |
+| **Integration** | SQLite upsert idempotency; `--dry-run` writes plan only; gap-fill skips when Tier 1 complete |
+| **Manual** | Live Finnhub call for KMDA ≥ 4 quarters; one Nasdaq fallback quarter matches Finnhub actual. Not in `make test`. |
+
+---
+
+## Done when
+
+- [ ] `make test` green; `go vet` clean on new packages
+- [ ] `--dry-run` on `kamada.json` lists only `fetch: true` peers and estimated API calls
+- [ ] Live run for `0001567529` populates `analyst_period_consensus` with ≥ 4 EPS rows
+- [ ] `consensus.json` sidecar written; `analyst_coverage.status = ok`
+- [ ] Join helper returns surprise for at least one period matching a `financials.json` row
+- [ ] Tier 3 row (if any) has non-empty `source_url` and file in `consensus-cache/`
+- [ ] API handler returns cached data with zero vendor HTTP during request
+
+---
+
+## Deliverables checklist
+
+- [ ] HLD: `prompts/dev/prompt_14_collect_consensus_data-hld.md`
+- [ ] LLD: provider URLs, error codes, allowlist domains, migration deltas
+- [ ] `internal/consensus/*` + `internal/db/consensus.go`
+- [ ] `cmd/collect-consensus/`
+- [ ] Makefile `collect-consensus` target
+- [ ] `.env.example` keys
+- [ ] Handoff to prompt 11 `#analysts` tab + prompt 12 surprise features
+
+---
+
+## Pitfalls
+
+- **Lookahead leakage** — using *today's* consensus for a 2023 filing date; store
+  `consensus_date` and pick the row immediately **before** `announcement_date`.
+- **Period-end-only join** — Q4 vs FY confusion; always use `duration`.
+- **Merged Tier 1 + Tier 2 series** — vendor disagreement (~20% on some quarters).
+- **Ungoverned web search** — non-reproducible; Tier 3 requires cache + allowlist.
+- **Page-load vendor calls** — forbidden; CLI refreshes, API reads SQLite only.
+
+---
+
+## Relationship to prompt 11
+
+| Prompt 11 | Prompt 14 |
+|-----------|-----------|
+| `#analysts` UI, manual PDFs | Batch ingestion |
+| Schema owner (v34 tables) | Schema consumer + gap-fill writer |
+| Firm roster curation | Seeds firms from upgrade-downgrade (P2) |
+
+**Ship prompt 14 P0–P1 before prompt 11 P1 tab** so the consensus panel reads real rows.

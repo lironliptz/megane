@@ -1,3 +1,10 @@
+---
+description: >
+  Add a new configuration field to the Jump-Start wizard end-to-end.
+  Use when the user says "add a field to jump-start", "new wizard field", or needs a
+  general or LLM-provider-specific setting surfaced in the sprout wizard.
+---
+
 # Skill: new-jumpstart-field
 
 Add a new configuration field to the Jump-Start wizard end-to-end.

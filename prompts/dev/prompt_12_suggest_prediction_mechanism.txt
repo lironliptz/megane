@@ -1,0 +1,273 @@
+=== prompt ===
+**Event-Driven Stock Price Prediction & Correlation Engine** — discover statistical correlations
+between corporate events (SEC filings, financial surprises, analyst rating changes) and subsequent
+short-term stock price movements, and build a predictive modeling framework using cross-company
+historical data to forecast price direction and magnitude over a multi-day window.
+
+Builds on **prompt 1** (company page, CIK identity), **prompt 3** (tabbed company view),
+**prompt 4** (stock prices), **prompt 6** (timeline events), **prompt 8** (financial extraction),
+**prompt 10** (timeline event lanes), and **prompt 11** (analyst coverage & surprises).
+**Greenfield** — no prediction or correlation code exists today; only this spec.
+
+---
+
+## Problem (current behavior)
+
+Megane has successfully assembled a rich, multi-modal database of corporate intelligence:
+1. **SEC Filings & Timelines:** Dates, form types, and event weights (major, medium, minor).
+2. **Extracted Financials:** Revenue, Net Income, EPS, Cash, and their historical trends.
+3. **Analyst Consensus & Surprises:** Price targets, rating distributions, and earnings surprises.
+4. **Market Data:** Daily adjusted close prices, trading volumes, and historical volatility.
+
+However, these data streams currently sit in silos. Megane is purely **retrospective**: it displays what happened in the past but does not help users answer the ultimate investment questions:
+* *Which events actually move the stock, and by how much?*
+* *What is the statistical correlation between an earnings surprise of $+X\%$ and the subsequent 5-day return?*
+* *Can we predict the short-term price direction (e.g., next 3 to 5 days) following a major corporate announcement?*
+
+To solve this, we must build a **Prediction & Correlation Engine** that extracts predictive features from historical events, calculates statistical correlations, and trains a cross-company predictive model.
+
+---
+
+## Goal (phased)
+
+| Priority | Deliverable |
+|----------|-------------|
+| **P0** | **Feature Engineering Pipeline** — A robust Go pipeline that extracts structured features (financial surprises, event weights, market momentum, analyst revisions) anchored around historical event dates ($T_0$). |
+| **P0** | **Statistical Correlation Engine** — Backend service calculating historical Pearson/Spearman correlations between event categories/metrics and subsequent multi-day stock returns. |
+| **P1** | **Predictive Modeling Framework** — A dual-model approach: (1) A lightweight, Go-native machine learning model (e.g., Ridge Regression or Random Forest) for quantitative scoring, and (2) A Gemini-powered LLM reasoning agent for qualitative synthesis. |
+| **P1** | **Prediction API** — `GET /api/companies/:cik/predictions/correlations`, `GET /api/companies/:cik/predictions/active`, and `GET /api/companies/:cik/predictions/backtest`. |
+| **P1** | **Company Tab** — `#predictions` tab: Correlation Heatmap, Active Prediction Card (with confidence score and feature contributions), and Backtest Performance chart. |
+| **P2** | **Cross-Company Training CLI** — `cmd/predict-train` CLI to aggregate historical event-price samples across all companies in `fileDB` to train and serialize the cross-sectional model. |
+| **P3** | **Backtesting & Simulation Engine** — Automated walk-forward backtesting to measure and display model accuracy, precision, and Sharpe ratio over historical periods. |
+
+---
+
+## Scope & non-goals
+
+**In scope**
+- **Multi-Day Prediction Windows:** Predicting cumulative returns or Cumulative Abnormal Returns (CAR) over $T_{+1} \to T_{+3}$ and $T_{+1} \to T_{+5}$ trading days.
+- **Cross-Sectional Training:** Training models on historical data from *many* companies to learn generalizable event-driven patterns (e.g., how the market reacts to a Q2 revenue beat).
+- **Multi-Modal Feature Extraction:** Combining categorical (form types), numerical (surprises, momentum), and textual (event summaries) features.
+- **Explainable Predictions:** Displaying feature contributions (why the model made a prediction).
+
+**Out of scope**
+- **Intra-day / High-Frequency Trading:** No real-time tick data or sub-daily predictions.
+- **Automated Order Execution:** The engine is purely advisory; it does not place trades.
+- **Unstructured Social Media Scrapers:** No scraping of Reddit, Twitter, or message boards.
+
+---
+
+## Feature Engineering Design
+
+For every historical event of interest at date $T_0$, the pipeline constructs a training/inference vector containing four categories of features, ensuring **no lookahead bias** (all features are calculated using data available at or before $T_0$, and the target variable begins at $T_{+1}$).
+
+### 1. Filing & Event Features (Categorical & Ordinal)
+* `form_type`: Form 10-K, 10-Q, 8-K, 20-F, 6-K, etc.
+* `event_category`: Financial, Governance, Regulatory, Insider, Analyst, etc.
+* `event_weight`: Numerical mapping of event severity (Minor = 1, Medium = 2, Major = 3).
+* `days_since_last_event`: Time elapsed since the company's previous public announcement.
+
+### 2. Financial Surprise Features (Numerical)
+* `revenue_surprise_pct`: $\frac{\text{Actual Revenue} - \text{Consensus Estimate}}{\text{Consensus Estimate}} \times 100$ (from prompt 11).
+* `eps_surprise_pct`: $\frac{\text{Actual EPS} - \text{Consensus Estimate}}{\text{Consensus Estimate}} \times 100$ (from prompt 11).
+* `operating_margin_change`: Change in operating margin compared to the same quarter last year.
+* `is_annual_report`: Boolean flag (annual reports typically carry higher market weight).
+
+### 3. Analyst Sentiment Features (Numerical)
+* `consensus_pt_change_30d`: Percentage change in the consensus price target over the preceding 30 days.
+* `rating_upgrade_indicator`: $+1$ for upgrade, $-1$ for downgrade, $0$ for reiteration.
+* `buy_ratio`: $\frac{\text{Buy Ratings}}{\text{Total Ratings}}$ in the active consensus.
+
+### 4. Market Momentum Features (Numerical)
+* `historical_volatility_30d`: Standard deviation of daily returns over the preceding 30 trading days.
+* `price_momentum_30d`: Cumulative return of the stock over the preceding 30 trading days.
+* `relative_strength_index_14d`: Standard 14-day RSI to identify overbought/oversold states.
+* `volume_spike_ratio`: $\frac{\text{Volume}_{T_0}}{\text{Moving Average}(Volume)_{30d}}$ (identifies high-liquidity breakouts).
+
+### 5. Target Variable: Cumulative Abnormal Return (CAR)
+To isolate the event's true impact from broader market movements, the target variable is the **Cumulative Abnormal Return (CAR)** over a 5-day window:
+$$\text{CAR}_{5\text{D}} = \sum_{t=1}^{5} \left( R_{\text{stock}, T+t} - R_{\text{market}, T+t} \right)$$
+Where $R_{\text{market}}$ is the return of a benchmark index (e.g., S&P 500 or NASDAQ-100) on trading day $T+t$.
+
+---
+
+## Model Architecture
+
+The prediction engine implements a **Dual-Engine Architecture** to combine quantitative rigor with qualitative reasoning:
+
+```
+                  ┌────────────────────────────────────────┐
+                  │          Historical Event Data         │
+                  └───────────────────┬────────────────────┘
+                                      │
+                         [ Feature Extraction Pipeline ]
+                                      │
+                  ┌───────────────────┴────────────────────┐
+                  ▼                                        ▼
+     ┌─────────────────────────┐              ┌─────────────────────────┐
+     │   Quantitative Engine   │              │    Qualitative Engine   │
+     │ (Go-Native Random Forest│              │ (Gemini Structured LLM) │
+     │   or Ridge Regression)  │              │                         │
+     └────────────┬────────────┘              └────────────┬────────────┘
+                  │                                        │
+                  └───────────────────┬────────────────────┘
+                                      ▼
+                  ┌────────────────────────────────────────┐
+                  │           Ensemble Predictor           │
+                  │  (Weighted Probability & Explanation)  │
+                  └────────────────────────────────────────┘
+```
+
+1. **Quantitative Engine (Go-Native):**
+   - Uses a Go-native machine learning library (e.g., `github.com/sjwhitworth/golearn` or a custom decision tree implementation) trained on cross-company historical data.
+   - Outputs a raw expected return magnitude and a statistical confidence interval.
+2. **Qualitative Engine (Gemini LLM):**
+   - Invokes Gemini using a highly structured JSON schema.
+   - Prompt passes the engineered feature vector, the historical correlation matrix, and the event's textual summary.
+   - Outputs a structured prediction: direction (Bullish/Bearish/Neutral), probability, and a 2-sentence investment thesis.
+
+---
+
+## API Specifications
+
+All endpoints are authenticated and return the standard `{"data": ..., "error": null}` envelope.
+
+### 1. GET `/api/companies/:cik/predictions/correlations`
+Returns the statistical correlation of various event categories and financial surprises with subsequent stock returns.
+```json
+{
+  "data": {
+    "cik": "0001567529",
+    "ticker": "KMDA",
+    "correlations": [
+      {
+        "feature": "revenue_surprise_pct",
+        "correlationCoefficient": 0.68,
+        "pValue": 0.001,
+        "sampleCount": 42,
+        "average5DayReturn": 3.4
+      },
+      {
+        "feature": "event_weight_major",
+        "correlationCoefficient": 0.45,
+        "pValue": 0.012,
+        "sampleCount": 18,
+        "average5DayReturn": 2.1
+      }
+    ]
+  },
+  "error": null
+}
+```
+
+### 2. GET `/api/companies/:cik/predictions/active`
+Returns active predictions for recently occurred events (within the last 5 days) or upcoming scheduled events.
+```json
+{
+  "data": {
+    "activePredictions": [
+      {
+        "eventId": "2026-08-26_6k_q2_results",
+        "eventDate": "2026-08-26",
+        "eventTitle": "Form 6-K: Q2 2026 Earnings Release",
+        "prediction": {
+          "direction": "Bullish",
+          "probability": 0.84,
+          "expected5DayReturnPct": 3.8,
+          "confidenceInterval": [1.2, 6.4],
+          "thesis": "The strong Q2 revenue beat (+12.6% YoY) combined with positive analyst price target revisions over the last 30 days creates a highly supportive setup for short-term momentum.",
+          "featureContributions": [
+            { "feature": "revenue_surprise_pct", "impact": "Highly Positive", "value": "+4.4%" },
+            { "feature": "consensus_pt_change_30d", "impact": "Positive", "value": "+2.5%" },
+            { "feature": "historical_volatility_30d", "impact": "Neutral", "value": "Low" }
+          ]
+        }
+      }
+    ]
+  },
+  "error": null
+}
+```
+
+### 3. GET `/api/companies/:cik/predictions/backtest`
+Returns the historical accuracy of the model for this specific company.
+```json
+{
+  "data": {
+    "metrics": {
+      "directionalAccuracy": 0.76,
+      "meanAbsoluteError": 1.45,
+      "totalPredictionsCount": 38,
+      "successfulPredictionsCount": 29
+    },
+    "historicalPredictions": [
+      {
+        "eventDate": "2025-08-14",
+        "eventTitle": "Form 6-K: Q2 2025 Earnings Release",
+        "predictedDirection": "Bullish",
+        "predictedReturnPct": 4.1,
+        "actualReturnPct": 4.8,
+        "wasCorrect": true
+      }
+    ]
+  },
+  "error": null
+}
+```
+
+---
+
+## Frontend — `#predictions` Tab Wireframe
+
+The sixth tab is registered in `static/js/company/shell.js` after Analysts.
+
+```
+┌───────────────────────────────────────────────────────────────────────────┐
+│  Active Prediction: Form 6-K (Q2 Earnings Release) — Filed 2026-08-26     │
+│  ┌──────────────────┐  ┌──────────────────┐  ┌─────────────────────────┐  │
+│  │  Predicted Trend  │  │  Expected Return │  │  Model Confidence       │  │
+│  │  ▲ BULLISH       │  │  +3.8% (5-Day)   │  │  84% Probability        │  │
+│  └──────────────────┘  └──────────────────┘  └─────────────────────────┘  │
+│  Thesis: The strong Q2 revenue beat (+12.6% YoY) combined with positive   │
+│  analyst price target revisions over the last 30 days creates a highly    │
+│  supportive setup for short-term momentum.                                │
+│                                                                           │
+│  Feature Contributions:                                                   │
+│  • Revenue Surprise (+4.4%): 🟩 Highly Positive                           │
+│  • Analyst PT Revision (+2.5%): 🟩 Positive                               │
+│  • 30-Day Price Momentum: 🟨 Neutral                                      │
+└───────────────────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────────┐
+│  Event Correlation Matrix (Historical Price Impact)                       │
+│  Event/Feature Type       Sample Count   Avg 5D Return   Correlation Coeff│
+│  Revenue Surprise > +5%   18             +4.2%           0.68 🟩 Strong    │
+│  Analyst Rating Upgrade   12             +3.1%           0.52 🟩 Moderate  │
+│  Major Form 8-K Filing    14             +1.8%           0.38 🟩 Weak      │
+│  Revenue Surprise < -5%   8              -5.4%           -0.72 🟥 Strong   │
+└───────────────────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────────┐
+│  Model Backtest Performance (KMDA History)                                │
+│  Directional Accuracy: 76% (29/38 Correct) | Mean Absolute Error: 1.45%    │
+│  Date        Event                       Predicted   Actual   Result      │
+│  2025-08-14  Q2 Earnings Release         +4.1%       +4.8%    ✅ Correct  │
+│  2025-05-15  Q1 Earnings Release         -2.8%       -3.1%    ✅ Correct  │
+└───────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Pitfalls to Avoid
+
+- **Lookahead Bias & Data Leakage:** Never include any information from $T_{+1}$ or later in the feature vector. The target return must start strictly on $T_{+1}$ (excluding $T_0$ to prevent in-day execution leakage).
+- **Overfitting on a Single Ticker:** Do not train a separate model per company. The model must be trained cross-sectionally across the entire multi-company database to capture robust, generalizable market principles.
+- **Ignoring Market Regimes:** A positive earnings surprise in a bear market may result in a flat or negative price reaction. Always include the benchmark index return ($R_{\text{market}}$) or a market-wide volatility feature (e.g., VIX or index momentum) to control for market regimes.
+- **Illiquid Stocks:** Small-cap or illiquid stocks can have highly volatile, erratic price reactions. Exclude events from companies with average daily trading volumes below a minimum threshold (e.g., $50\text{K}$ shares) during training.
+
+=== prompt === [Assi]
+now i want to find correlation between the stock price and the events that occured seveal days before.
+This is the actual point of thie application.
+My basic claim is that we have to find the most-important event, and create a predictive model using historical daata from many other companies
+so we are able to predict the stock price in a close time period (several days - NOT in-day).
+suggest how to combine the edgar data we have, 
+extract the important features and create a model 
+to predic stock price changes

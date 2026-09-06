@@ -1,0 +1,368 @@
+=== prompt ===
+**Batch fetch similar peer companies** — given a curated list of companies similar to a
+reference company (e.g. Kamada), use existing megane ingestion infrastructure to download
+SEC filings, build filing metadata, extract financials, and backfill stock prices so each
+peer reaches **data parity** with the reference company.
+
+Builds on **prompt 1** (`fileDB/` layout, `CompanyStore`), **prompt 2** (EDGAR fetch +
+`meta.json` pipeline), **prompt 4** (stock price backfill), **prompt 8/9** (`financials.json`
++ gap-fill), and **prompt 12** (cross-company prediction training needs multi-company corpus).
+**Greenfield orchestration** — the peer list exists today as a hand-curated JSON file; no
+batch-fetch CLI or API exists yet.
+
+This prompt does **not** define how to *discover* similar companies (that is manual curation
+for now). It defines how to **ingest** a list that already exists on disk.
+
+---
+
+## Problem (current behavior)
+
+Megane's corpus is **single-company**:
+
+| Layer | Today |
+|-------|--------|
+| Reference company | `fileDB/companies/0001567529/` — Kamada Ltd. (KMDA), 381 filings, full `meta.json` |
+| Peer list | `fileDB/similar/kamada.json` — 10 curated similar companies (hand-authored) |
+| Peer corpus | **None** — only Kamada is on disk |
+| Stock prices | Kamada cached in SQLite; peers not fetched |
+| Financials | Kamada 66/66 qualifying accessions with `financials.json` or explicit no-facts record |
+
+Prompt 12's **cross-company prediction engine** cannot train on a single ticker. We need the
+same ingestion depth for ADMA, Grifols, CSL, Catalyst, Emergent, Protalix, Anika, and other
+peers listed in the similar-companies file.
+
+User intent:
+
+1. Read a **similar-companies JSON** file (starting with Kamada's peer group).
+2. For each peer with a resolvable SEC CIK, run the **same fetch pipeline** used for Kamada.
+3. Skip or flag peers without a US SEC CIK (private, foreign-only, or missing from EDGAR).
+4. Produce a **fetch status report** so we know which peers are ready for prompt 12 training.
+
+---
+
+## Input — similar-companies JSON
+
+Temporary hand-curated files live under:
+
+```
+fileDB/similar/
+  kamada.json          ← first reference list (exists today)
+  {reference_slug}.json
+```
+
+**Schema (v1):**
+
+```json
+{
+  "company_name": "Kamada Ltd.",
+  "company_id": "0001567529",
+  "ticker": "KMDA",
+  "similar_companies": [
+    {
+      "company_name": "ADMA Biologics, Inc.",
+      "company_id": "0001368514",
+      "ticker": "ADMA",
+      "relation_type": "Direct Specialty Plasma-Derived Peer",
+      "description": "…"
+    },
+    {
+      "company_name": "Kedrion Biopharma (Kedrion SpA)",
+      "company_id": null,
+      "ticker": "KEDR",
+      "relation_type": "Direct Specialty Plasma-Derived Peer / Strategic Partner",
+      "description": "…"
+    }
+  ]
+}
+```
+
+| Field | Required | Notes |
+|-------|----------|-------|
+| `company_name` | yes | Reference company display name |
+| `company_id` | yes | Reference CIK (10-digit, zero-padded) |
+| `ticker` | no | Primary US ticker when known |
+| `similar_companies[]` | yes | Peer rows |
+| `similar_companies[].company_id` | no | **Null = skip or resolve** — not all peers file with SEC |
+| `similar_companies[].ticker` | no | Used for CIK lookup when `company_id` is null |
+
+**Reference file today:** `fileDB/similar/kamada.json` — 10 peers; 7 with SEC CIKs, 3 without
+(Kedrion, BPL, Biotest — private or non-US-primary filers).
+
+---
+
+## Goal — data parity with reference company
+
+For each successfully ingested peer CIK, the on-disk + DB state should match what Kamada has:
+
+| Layer | Parity target | How |
+|-------|---------------|-----|
+| Identity | `submissions.json` present | SEC `data.sec.gov/submissions/CIK{cik}.json` |
+| Filings tree | `{year}/{accession}/filing.json`, `index.json`, primary docs | Same as `python/edgar/fetch_kamada.py` |
+| Filing metadata | `meta.json` on every accession folder | `python/edgar/build_meta_all.py` or future `cmd/edgar meta` |
+| Financials | `financials.json` on qualifying accessions | `go run ./cmd/edgar-financials --root ./fileDB --cik {cik} --all --fill-gaps` |
+| Stock prices | Rows in `stock_prices` + `stock_price_coverage` | `internal/marketdata` backfill via timeline service or dedicated CLI |
+| Company visible in UI | Appears in company search | `fileDB/companies/{cik}/submissions.json` is enough for `FileDBStore` |
+
+**Depth defaults (match Kamada):**
+
+- Filing history: **last 10 calendar years** (same cutoff as `fetch_kamada.py`)
+- Stock history: **full available daily history** (prompt 4 — chunked Yahoo backfill)
+- Financial extraction: local extract + Company Facts gap-fill when `SEC_EDGAR_USER_AGENT` set
+
+Ship peers with CIKs first; document skipped rows honestly.
+
+---
+
+## Scope & non-goals
+
+**In scope**
+
+- Batch orchestration CLI reading `fileDB/similar/*.json`
+- Per-CIK pipeline: fetch → meta → financials → (optional) stock backfill
+- CIK normalization via `filedb.NormalizeCIK`
+- Fetch status artifact: `fileDB/similar/{slug}.fetch-status.json`
+- Idempotent re-runs — skip existing filings unless `--force`
+
+**Out of scope**
+
+- Automated peer discovery (LLM, industry screens, FactSet) — manual JSON curation only
+- Analyst coverage fetch (prompt 11) — separate batch job
+- Prediction model training (prompt 12) — consumes output of this prompt, does not run here
+- Replacing Python fetch with Go (prompt 2) — wrap Python for P0 if Go `cmd/edgar fetch` absent
+
+---
+
+## Architecture
+
+### Orchestration flow
+
+```
+fileDB/similar/kamada.json
+        │
+        ▼
+  [ Parse peer list ]
+        │
+        ├── company_id null? ──► try SEC ticker→CIK lookup ──► still null? ──► skip + note
+        │
+        ▼
+  For each resolvable CIK:
+        │
+        ├─ 1. SEC fetch      → fileDB/companies/{cik}/submissions.json + filing tree
+        ├─ 2. Build meta     → meta.json per accession
+        ├─ 3. Financials     → financials.json (+ gap-fill)
+        ├─ 4. Stock backfill → SQLite stock_prices (if ticker on file)
+        └─ 5. Write status   → fetch-status.json row
+```
+
+### Existing tools to reuse (do not reinvent)
+
+| Step | Tool today | Env / flags |
+|------|------------|-------------|
+| SEC download | `python/edgar/fetch_kamada.py` (hardcoded CIK) | Generalize to `--cik`; `SEC_USER_AGENT` or script header |
+| Meta build | `python/edgar/build_meta_all.py --dir fileDB/companies/{cik}` | `--all` to rebuild |
+| Financials | `go run ./cmd/edgar-financials` | `--root ./fileDB --cik {cik} --all --fill-gaps`; requires `SEC_EDGAR_USER_AGENT` |
+| Stock prices | `internal/companyview` backfill path | Triggered on timeline load; prefer explicit CLI hook for batch |
+| CIK normalize | `filedb.NormalizeCIK` | Shared across handlers and CLIs |
+
+When prompt 2's `cmd/edgar fetch --cik=… --years=10` ships, replace the Python call — same
+output layout, orchestrator unchanged.
+
+### On-disk output
+
+```
+fileDB/companies/{cik}/              ← same layout as Kamada (prompt 1)
+fileDB/similar/kamada.fetch-status.json
+```
+
+**`fetch-status.json` schema (v1):**
+
+```json
+{
+  "reference": {
+    "company_name": "Kamada Ltd.",
+    "company_id": "0001567529",
+    "ticker": "KMDA"
+  },
+  "generated_at": "2026-09-01T17:00:00Z",
+  "peers": [
+    {
+      "company_name": "ADMA Biologics, Inc.",
+      "company_id": "0001368514",
+      "ticker": "ADMA",
+      "status": "complete",
+      "steps": {
+        "submissions": "ok",
+        "filings": "ok",
+        "meta": "ok",
+        "financials": "ok",
+        "stock_prices": "ok"
+      },
+      "filing_count": 412,
+      "financials_count": 58,
+      "stock_bar_count": 2847,
+      "note": ""
+    },
+    {
+      "company_name": "Kedrion Biopharma (Kedrion SpA)",
+      "company_id": null,
+      "ticker": "KEDR",
+      "status": "skipped",
+      "steps": {},
+      "note": "no SEC CIK — not a US-primary filer"
+    }
+  ]
+}
+```
+
+Status values: `complete` | `partial` | `error` | `skipped`.
+
+---
+
+## CLI — `cmd/fetch-similar` (proposed)
+
+```
+go run ./cmd/fetch-similar \
+  --similar ./fileDB/similar/kamada.json \
+  [--steps fetch,meta,financials,prices] \
+  [--years 10] \
+  [--force] \
+  [--dry-run]
+```
+
+| Flag | Default | Purpose |
+|------|---------|---------|
+| `--similar` | required | Path to similar-companies JSON |
+| `--steps` | all | Comma-separated subset to run |
+| `--years` | 10 | Filing history depth |
+| `--force` | false | Re-download / overwrite existing artifacts |
+| `--dry-run` | false | Survey only: fetch `submissions.json` per peer, report counts + size/time estimates; write `{slug}.fetch-plan.json`; download nothing |
+
+**Rate limiting:** inherit SEC ≥120 ms between requests (prompt 2). Sleep between companies
+(≥5 s) to avoid burst rate limits.
+
+**Exit codes:** 0 if all resolvable peers `complete` or `skipped` (or `planned` in dry-run); 1 if any peer `error`.
+
+---
+
+## Dry-run mode (`--dry-run`)
+
+Before committing to a multi-hour batch download, run a **costed survey** that collects
+high-level info and counts only — no filing documents, no `meta.json`, no `financials.json`,
+no stock prices, and **nothing written under `{root}/companies/`**.
+
+### What it does per peer
+
+1. Resolve CIK (from `company_id` or SEC ticker map).
+2. Fetch **only** `https://data.sec.gov/submissions/CIK{cik}.json` (held in memory, discarded).
+3. Read identity: name, tickers, SIC, exchanges.
+4. Count filings in the full index and within the `--years` window.
+5. Diff against `{root}/companies/{cik}/` to compute **filings already on disk** vs **filings to fetch**.
+6. Sum `size` (bytes) over filings to fetch → estimated download; apply 1.4× factor → estimated disk.
+7. Count XBRL-flagged filings as an **upper bound** on future `financials.json` artifacts.
+8. Estimate HTTP requests and wall-clock time for the real run.
+
+### Output
+
+| Artifact | Purpose |
+|----------|---------|
+| `{slug}.fetch-plan.json` | Machine-readable plan with per-peer and batch totals (HLD §3.3) |
+| stdout table | One-screen summary for operator approval |
+
+**Never writes** `{slug}.fetch-status.json` or any file under `{root}/companies/`.
+
+### Example
+
+```bash
+go run ./cmd/fetch-similar \
+  --similar ./fileDB/similar/kamada.json \
+  --years 10 \
+  --dry-run
+```
+
+→ `fileDB/similar/kamada.fetch-plan.json` with 10 peer rows (7 `planned`, 3 `skipped`); ≤11 SEC requests total.
+
+---
+
+## CIK resolution for peers with `company_id: null`
+
+1. If `ticker` present → query SEC company tickers JSON
+   (`https://www.sec.gov/files/company_tickers.json`) and map ticker → CIK.
+2. If still unresolved → mark `skipped` with note; do **not** guess.
+3. Persist resolved CIK back into `fetch-status.json` (not the source JSON — source stays
+   hand-curated; status file is machine output).
+
+Peers known to lack US SEC CIK today: Kedrion, BPL, Biotest — expect `skipped`.
+
+---
+
+## Phasing
+
+| Priority | Deliverable |
+|----------|-------------|
+| **P0** | **`cmd/fetch-similar`** — read JSON, loop resolvable CIKs, shell out to Python fetch + meta + `edgar-financials`, write `fetch-status.json` |
+| **P0** | **`--dry-run` survey** — submissions-only fetch, counts + size/time estimates, `{slug}.fetch-plan.json` (ships before first real batch) |
+| **P0** | **Generalize Python fetch** — `fetch_kamada.py` → accept `--cik` and `--years` (minimal change; keep Kamada as default for backward compat) |
+| **P1** | **Stock backfill step** — invoke marketdata backfill per peer ticker after filings exist |
+| **P1** | **Makefile target** — `make fetch-similar SIMILAR=./fileDB/similar/kamada.json` |
+| **P2** | **Swap Python for Go** — when `cmd/edgar fetch` exists (prompt 2), orchestrator calls Go instead |
+| **P3** | **Admin trigger** — `POST /api/admin/fetch-similar` with JSON path or inline peer list (optional) |
+
+Ship **P0** before prompt 12 cross-company training.
+
+---
+
+## Testing
+
+| Level | What |
+|-------|------|
+| **Unit** | Parse similar JSON; CIK normalize; ticker→CIK map against fixture tickers file |
+| **Integration** | `--dry-run` on `kamada.json` prints 7 resolvable + 3 skipped |
+| **Smoke** | Fetch one peer (`ADMA`, CIK `0001368514`) with `--years 1`; verify `submissions.json` + at least one accession folder |
+| **Heavy** | Full `kamada.json` batch — manual / nightly only; record timing in status file |
+
+CI uses fixtures + dry-run only — no live SEC in default `make test`.
+
+---
+
+## Deliverables checklist
+
+- [ ] Generalize `python/edgar/fetch_kamada.py` to `--cik` / `--years`
+- [ ] `cmd/fetch-similar/main.go` orchestrator
+- [ ] `fetch-status.json` writer + `fetch-plan.json` dry-run survey
+- [ ] Makefile target `fetch-similar`
+- [ ] **HLD:** `prompt_13_fetch_similar_companies-hld.md`
+- [ ] **LLD:** `prompt_13_fetch_similar_companies-lld.md`
+
+**Companion docs to generate:** follow prompt 8/11/12 naming.
+
+---
+
+## Pitfalls
+
+- **Hardcoded Kamada in Python fetch** — must parameterize CIK before batch run works.
+- **Foreign-primary filers** — Grifols (`GRFS`) and CSL (`CSLLY`) file with SEC via ADR; CIK
+  exists but filing mix differs from domestic issuers — still ingest; do not expect identical
+  form breakdown to Kamada's 6-K/20-F pattern.
+- **SEC User-Agent** — both Python fetch and `edgar-financials --fill-gaps` require a valid
+  `SEC_EDGAR_USER_AGENT` / script header; fail fast with a clear message if missing.
+- **Partial runs** — a peer can have filings but no financials if gap-fill was skipped;
+  status must be `partial`, not `complete`.
+- **Do not mutate source JSON** — `fileDB/similar/kamada.json` is hand-curated; machine
+  output goes to `fetch-status.json` only.
+
+---
+
+## Done when
+
+After `make fetch-similar SIMILAR=./fileDB/similar/kamada.json`:
+
+1. `fileDB/companies/0001368514/` (ADMA) exists with `submissions.json` and ≥1 year of filings.
+2. Each resolvable peer has `meta.json` on downloaded accessions.
+3. `edgar-financials --fill-gaps` has run for each resolvable CIK (when env set).
+4. `fileDB/similar/kamada.fetch-status.json` lists every peer with `complete`, `partial`,
+   `skipped`, or `error` and per-step notes.
+5. Company search in the UI finds ADMA by name or ticker without manual DB edits.
+
+=== prompt === [Assi]
+given a similar list of companies, use the current infra we've got to execute a "company info fetch"
+from edgar, sec and whatever resource we have to complete the information similar to the original company.

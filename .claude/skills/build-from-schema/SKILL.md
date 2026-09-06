@@ -1,3 +1,10 @@
+---
+description: >
+  Turn a converged data-modeling schema into production code (struct, prompt, route).
+  Use when the user says "build the model", "generate code for this schema", or
+  "deploy the data model".
+---
+
 # Skill: build-from-schema
 
 Turn a converged data-modeling schema into production code (struct, prompt, route).

@@ -11,6 +11,7 @@ import (
 	"github.com/gin-gonic/gin"
 
 	"megane/internal/companyview"
+	"megane/internal/db"
 	"megane/internal/filedb"
 )
 
@@ -25,6 +26,7 @@ const (
 // Phase 2 SQLite store requires no change here.
 type CompanyHandler struct {
 	Store filedb.CompanyStore
+	DB    *db.DB
 	// Timeline is optional: when nil, the timeline endpoint reports 503 rather
 	// than panicking, so the rest of the company view still works.
 	Timeline *companyview.Service
@@ -135,6 +137,47 @@ func (h *CompanyHandler) TimelineView(c *gin.Context) {
 		return
 	}
 	c.JSON(http.StatusOK, gin.H{"data": tl, "error": nil})
+}
+
+// Consensus handles GET /api/companies/:cik/consensus.
+func (h *CompanyHandler) Consensus(c *gin.Context) {
+	if h.DB == nil {
+		c.JSON(http.StatusServiceUnavailable, gin.H{"data": nil, "error": "consensus storage not configured"})
+		return
+	}
+	cik, err := filedb.NormalizeCIK(c.Param("cik"))
+	if err != nil {
+		respondStoreErr(c, err)
+		return
+	}
+
+	coverage, err := h.DB.AnalystCoverage(c.Request.Context(), cik)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"data": nil, "error": "internal error"})
+		return
+	}
+	source := c.Query("source")
+	if source == "" {
+		if coverage != nil && coverage.Provider != "" {
+			source = coverage.Provider
+		} else {
+			source = "finnhub"
+		}
+	}
+	periods, err := h.DB.ConsensusPeriods(c.Request.Context(), cik, source)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"data": nil, "error": "internal error"})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{
+		"data": gin.H{
+			"coverage": coverage,
+			"source":   source,
+			"periods":  periods,
+			"gaps":     []any{},
+		},
+		"error": nil,
+	})
 }
 
 // parseISODate validates an optional YYYY-MM-DD query parameter. An absent value

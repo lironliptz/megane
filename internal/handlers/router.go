@@ -10,8 +10,8 @@ import (
 
 	"megane/internal/admin"
 	"megane/internal/auth"
-	"megane/internal/datamodeling"
 	"megane/internal/companyview"
+	"megane/internal/datamodeling"
 	"megane/internal/db"
 	"megane/internal/filedb"
 	"megane/internal/pipeline"
@@ -40,8 +40,8 @@ func NewRouter(ctx context.Context, database *db.DB, pipe *pipeline.Pipeline, pr
 	// Health check (unauthenticated)
 	r.GET("/health", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"status":                "ok",
-			"jump_starter":          version.Name,
+			"status":               "ok",
+			"jump_starter":         version.Name,
 			"jump_starter_version": version.Version(),
 		})
 	})
@@ -82,13 +82,14 @@ func NewRouter(ctx context.Context, database *db.DB, pipe *pipeline.Pipeline, pr
 	}
 
 	// Company routes (authenticated users) — read-only view over fileDB/.
-	companyHandler := &CompanyHandler{Store: companies.Store, Timeline: companies.Timeline}
+	companyHandler := &CompanyHandler{Store: companies.Store, DB: database, Timeline: companies.Timeline}
 	apiCompanies := r.Group("/api/companies", auth.AuthRequired(), requestTimeout(defaultRequestTimeout))
 	{
 		apiCompanies.GET("/search", companyHandler.Search)
 		apiCompanies.GET("/:cik", companyHandler.Get)
 		apiCompanies.GET("/:cik/filings", companyHandler.Filings)
 		apiCompanies.GET("/:cik/timeline", companyHandler.TimelineView)
+		apiCompanies.GET("/:cik/consensus", companyHandler.Consensus)
 	}
 
 	// Admin routes
