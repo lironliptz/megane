@@ -102,6 +102,16 @@ def download_filing_files(filing, cik_int, out_dir, headers):
 	return downloaded
 
 
+def filing_needs_download(filing, out_dir):
+	accession = filing.get("accessionNumber", "")
+	filing_date = filing.get("filingDate", "")
+	if not accession or len(filing_date) < 4:
+		return False
+	year = filing_date[:4]
+	local_dir = os.path.join(out_dir, year, accession)
+	return not os.path.exists(os.path.join(local_dir, "filing.json"))
+
+
 def main():
 	args = parse_args()
 
@@ -116,7 +126,9 @@ def main():
 	# ------------------------------------------------
 
 	submissions_url = f"https://data.sec.gov/submissions/CIK{cik}.json"
+	print(f"SEC submissions request: {submissions_url}", flush=True)
 	data = get_json(submissions_url, headers)
+	print("SEC submissions loaded", flush=True)
 
 	with open(os.path.join(out_dir, "submissions.json"), "w") as f:
 		json.dump(data, f, indent=2)
@@ -130,6 +142,7 @@ def main():
 		{key: recent[key][i] for key in recent}
 		for i in range(len(recent["accessionNumber"]))
 	]
+	print(f"Submissions recent filings: {len(filings)}", flush=True)
 
 	# ------------------------------------------------
 	# 3. Keep last N years
@@ -140,22 +153,37 @@ def main():
 		f for f in filings
 		if f["filingDate"] and int(f["filingDate"][:4]) >= cutoff
 	]
+	print(f"Filings in {args.years}-year window: {len(filings)}", flush=True)
+	missing = [f for f in filings if filing_needs_download(f, out_dir)]
+	print(f"Missing filings to fetch: {len(missing)}", flush=True)
+	total = len(missing)
+	print(f"MEGANE_PROGRESS sec 0 {total}", flush=True)
+	if total == 0:
+		print("No missing SEC filing dates/accessions; nothing to fetch.", flush=True)
+		print("\nDone: 0 filings fetched, 0 errors")
+		return 0
 
 	# ------------------------------------------------
 	# 4. Download all files for each filing
 	# ------------------------------------------------
 
 	errors = 0
-	for filing in filings:
+	current_year = ""
+	for i, filing in enumerate(missing, start=1):
 		accession = filing["accessionNumber"]
+		filing_year = filing.get("filingDate", "")[:4]
+		if filing_year and filing_year != current_year:
+			current_year = filing_year
+			print(f"Starting year {current_year}", flush=True)
 		try:
 			count = download_filing_files(filing, cik_int, out_dir, headers)
 			print("Downloaded", accession, f"({count} files)")
 		except Exception as e:
 			print("ERROR", accession, e)
 			errors += 1
+		print(f"MEGANE_PROGRESS sec {i} {total}", flush=True)
 
-	print(f"\nDone: {len(filings)} filings in window, {errors} errors")
+	print(f"\nDone: {len(missing)} missing filings fetched, {errors} errors")
 	return 1 if errors else 0
 
 

@@ -7,6 +7,13 @@ Triage: **HEAVY** — migration v34 (first since 33), new `internal/consensus/` 
 `internal/db/consensus.go`, new CLI, a fetch-cache tree, and an external vendor dependency
 with hard daily quotas.
 
+> **Update 2026-09-07:** P0 from this LLD has shipped (migrations 34–37; `internal/consensus/`
+> with Finnhub live, FMP/Nasdaq/gapfill stubbed; `cmd/collect-consensus` with `--dry-run`,
+> `--similar`, `--snapshot`). The HLD gained a new requirement since: raw rows must be
+> retained before aggregation (D1's `analyst_raw_estimates`), and quarter selection must
+> prioritize pre-report proximity (D5.1). §3a/§4a/§6.5/§8a/§9a below are the delta; everything
+> else in this file describes what already exists and is unchanged.
+
 > **Governing rule:** a number without `source`, `consensus_date`, and `basis` is worse than
 > a null — it poisons every surprise computed from it. Provenance columns are `NOT NULL`
 > wherever the schema can enforce it.
@@ -17,7 +24,9 @@ with hard daily quotas.
 
 **In (P0):** migration v34; `internal/models/consensus.go`; `internal/db/consensus.go`;
 `internal/consensus/` with the `Provider` interface and Finnhub; `cmd/collect-consensus`
-with `--cik`, `--dry-run`, coverage rows.
+with `--cik`, `--dry-run`, coverage rows. **(shipped)** Plus, new: migration v38
+`analyst_raw_estimates` + backfill (§4a), `reduce.go`'s pre-report selection (§6.5), and the
+raw-first retrofit of the write path (§9a).
 **In (P1):** FMP revenue; Nasdaq Tier 2; `--similar` batch; `--snapshot`; Tier 3 `--gap-fill`.
 **In (P2):** surprise join helper; `GET /api/companies/:cik/consensus`; firm roster seed.
 **Out:** licensed feeds; broker scraping; analyst person names; prompt 12 training.
@@ -53,6 +62,27 @@ a *different* row only because `duration` is in the key.
 | API keys | `FINNHUB_API_KEY`, `FMP_API_KEY`, `ALPHA_VANTAGE_API_KEY` — all empty |
 | Fixture | `fileDB/similar/kamada.json`, 10 peers, **3 with `fetch: true`** |
 | Fixture company | `fiscalYearEnd: "1231"`, ticker `KMDA`, 23 joinable periods |
+
+---
+
+## 3a. Current state, corrected (verified 2026-09-07)
+
+§3's table describes the pre-implementation state. As shipped: migration head is **37**
+(v34 `analyst_period_consensus`, v35 join index, v36 `analyst_coverage`, v37
+`analyst_snapshot` — same DDL as §4 below, unchanged). `internal/consensus/` exists
+(`provider.go`, `finnhub.go` live, `fmp.go`/`nasdaq.go`/`gapfill.go` stubs returning
+`ErrNoData`, `period.go`, `basis.go`). `internal/db/consensus.go` has the six functions in
+§8. `cmd/collect-consensus/main.go` implements `--cik`/`--similar`/`--all-in-corpus`,
+`--dry-run`, `--snapshot`, `--force`. **No `analyst_raw_estimates` table exists** — this is
+net-new (§4a).
+
+**The gap this closes:** today, `UpsertConsensusPeriods` upserts
+`ON CONFLICT(cik, source, fiscal_year, fiscal_period, duration, consensus_date) DO UPDATE`,
+and `finnhub.go` sets `consensus_date = period_end` when the vendor gives no as-of date
+(it never does, on this endpoint). Every re-fetch of the same quarter therefore collides on
+the same key and **overwrites in place** — there is no history, and "reproducible from
+stored raw rows" (the new requirement) is false today. §4a/§6.5/§9a fix this without
+changing `analyst_period_consensus`'s schema or its existing accessors.
 
 ---
 
@@ -125,6 +155,52 @@ history D4 calls perishable.
 
 ---
 
+## 4a. Migration v38 — `analyst_raw_estimates` (HLD D1 addendum)
+
+One atomic scalar observation per row — one metric, one as-of date, one value — so a
+quarter can accumulate many rows across many fetch runs instead of one row that gets
+overwritten each time.
+
+```go
+{38, `CREATE TABLE IF NOT EXISTS analyst_raw_estimates (
+    id            INTEGER PRIMARY KEY AUTOINCREMENT,
+    cik           TEXT NOT NULL,
+    source        TEXT NOT NULL,               -- finnhub | fmp | nasdaq_api | ...
+    firm          TEXT NOT NULL DEFAULT '',    -- '' = vendor aggregate; populated by prompt 11 later
+    metric        TEXT NOT NULL,               -- eps_estimate | eps_actual_vendor | revenue_estimate |
+                                                -- pt_mean | pt_high | pt_low | pt_median |
+                                                -- rating_buy | rating_hold | rating_sell
+    fiscal_year   TEXT NOT NULL DEFAULT '',
+    fiscal_period TEXT NOT NULL DEFAULT '',    -- Q1..Q4 | FY | ''
+    period_end    TEXT NOT NULL DEFAULT '',
+    duration      TEXT NOT NULL DEFAULT '',
+    value_num     REAL,
+    value_text    TEXT NOT NULL DEFAULT '',
+    currency      TEXT NOT NULL DEFAULT 'USD',
+    as_of_date    TEXT NOT NULL DEFAULT '',    -- vendor as-of when known, else this fetch's date (never blank)
+    source_url    TEXT NOT NULL DEFAULT '',
+    fetched_at    DATETIME NOT NULL,
+    created_at    DATETIME NOT NULL,
+    UNIQUE(cik, source, firm, metric, fiscal_year, fiscal_period, as_of_date, value_num, value_text)
+)`},
+{39, `CREATE INDEX IF NOT EXISTS analyst_raw_estimates_period_idx
+      ON analyst_raw_estimates(cik, source, period_end, duration, metric)`},
+```
+
+**Why value is in the unique key:** an unchanged re-fetch (same as-of, same number) is a
+true no-op. A vendor that revises a historical estimate under the *same* as-of date produces
+a second row rather than colliding — both observations survive; §6.5's reducer tie-breaks
+on `fetched_at` when it finds more than one row for the same `as_of_date`.
+
+**Backfill:** existing `analyst_period_consensus` rows (written before this migration)
+have no raw provenance. One-time backfill inserts one `eps_estimate` (+`eps_actual_vendor`
+if non-null) raw row per existing period row, `as_of_date = consensus_date`,
+`source_url = 'backfill:pre-raw-era'` so it's visibly distinguishable from a real fetch.
+Run as a Go function called once from the migration (same transaction, same pattern as
+other data-carrying migrations in this file), not a separate script.
+
+---
+
 ## 5. `internal/models/consensus.go`
 
 ```go
@@ -153,6 +229,21 @@ type ConsensusSnapshot struct {
 
 Pointers for every measured value: a vendor omitting EPS must produce `nil`, never `0.0`.
 `0` is a legitimate EPS and the distinction survives into the DB as `NULL`.
+
+**New, for §4a:**
+
+```go
+type RawEstimate struct {
+    CIK, Source, Firm                       string
+    Metric                                  string // see §4a's metric vocabulary
+    FiscalYear, FiscalPeriod                string
+    PeriodEnd, Duration                     string
+    ValueNum                                *float64
+    ValueText, Currency                     string
+    AsOfDate, SourceURL                     string
+    FetchedAt                               time.Time
+}
+```
 
 ---
 
@@ -234,6 +325,33 @@ Non-December year-ends shift the quarter boundaries accordingly.
 year-end is missing or unparseable — and per D3 the row is then **dropped with a gap
 record**, never written with a null `period_end`.
 
+### 6.5 `reduce.go` — pre-report proximity selection (HLD D5.1, new)
+
+```go
+const PreReportWindow = 30 * 24 * time.Hour // announcement_date-30d .. announcement_date-1d
+
+// SelectQuarterRaw picks the one raw row that becomes the quarter's consensus_date/value,
+// per metric, from every accumulated raw row for one (cik, source, period_end, duration).
+// Pure function — no DB access — so it is unit-testable without fixtures.
+func SelectQuarterRaw(raws []models.RawEstimate, announcementDate string) (chosen *models.RawEstimate, note string)
+```
+
+Rule, exactly D5.1:
+1. Rows with `as_of_date` in `[announcement_date-30d, announcement_date-1d]` → nearest to
+   `announcement_date` wins.
+2. None in-window → latest row with `as_of_date` strictly before `announcement_date`.
+3. Still none → `chosen == nil`, `note = "no pre-report row"` (gap, per D3's "never write a
+   guess" precedent — the caller records the gap and does not touch
+   `analyst_period_consensus` for that quarter).
+4. **Never** a row with `as_of_date >= announcement_date` (D4's anti-lookahead rule, restated
+   for the raw layer). Post-report rows are ignored even if closer in absolute distance.
+5. Tie (two rows, same `as_of_date`, different `value_num`) → higher `fetched_at` wins —
+   the later fetch is presumed the vendor's corrected value.
+
+`announcement_date` comes from the matching `financials.json`'s filing date for that
+`(period_end, duration)` — the same sidecar lookup `cmd/collect-consensus` already does for
+the basis check (§7), extended to also return `filingDate`.
+
 ---
 
 ## 7. Basis check (HLD D5)
@@ -272,6 +390,16 @@ over the value columns, mirroring `UpsertStockPrices`. Batched in one transactio
 join may use: `... AND consensus_date < ? ORDER BY consensus_date DESC LIMIT 1`. Every read
 is `source`-scoped (D2) — there is deliberately no "all sources" query.
 
+**New, for §4a — same file:**
+
+```go
+func (d *DB) UpsertRawEstimates(ctx context.Context, rows []models.RawEstimate) error
+func (d *DB) RawEstimatesFor(ctx context.Context, cik, source, periodEnd, duration string) ([]models.RawEstimate, error)
+```
+
+Plain insert with `ON CONFLICT(...) DO NOTHING` (not `DO UPDATE`) — an identical row really
+is a no-op; a changed value is, by the unique key in §4a, a different row, not an update.
+
 ---
 
 ## 9. `cmd/collect-consensus`
@@ -296,6 +424,27 @@ already in DB, periods expected, planned calls per vendor per metric, and an exp
 **FMP-cap warning** when planned FMP calls exceed the remaining daily budget. With
 `--similar`, only peers with `fetch: true` are planned (3 of 10 in the fixture).
 
+### 9a. Retrofit — raw-first write path (HLD D1/D5.1, new)
+
+`provider.FetchEarnings` keeps returning `[]models.ConsensusPeriod` (no interface change).
+What happens after that response comes back changes:
+
+1. Map each returned row to 1–2 `RawEstimate` rows (`eps_estimate`, and `eps_actual_vendor`
+   when the vendor also returned an actual), `as_of_date` = this fetch's date (Finnhub gives
+   none). `UpsertRawEstimates` — this never overwrites an earlier fetch's observation.
+2. For each distinct `(period_end, duration)` touched, `RawEstimatesFor` pulls **every**
+   accumulated raw row (this run's plus all prior runs'), looks up `announcement_date` from
+   the matching `financials.json` filing date, and calls `SelectQuarterRaw` (§6.5).
+3. `chosen == nil` → gap note, no `analyst_period_consensus` write for that quarter (same
+   "never null period_end" spirit as D3, applied to a missing pre-report row instead).
+4. `chosen != nil` → build one `models.ConsensusPeriod` (`consensus_date = chosen.AsOfDate`,
+   `eps_estimate = chosen.ValueNum`) and call the existing `UpsertConsensusPeriods` —
+   unchanged function, unchanged table.
+
+Snapshot metrics (PT/rating) get the same raw-logging in step 1 for audit completeness, but
+skip steps 2–4: `analyst_snapshot`'s `UNIQUE(cik, source, as_of)` already keeps one row per
+fetch day, so there is no ambiguity for a reducer to resolve.
+
 ---
 
 ## 10. Tests
@@ -316,6 +465,15 @@ No live vendor call in `make test`. Fixtures under `internal/consensus/testdata/
 | `TestRowWithoutPeriodEndIsDropped` | underivable period → gap record, no row written |
 | `TestDryRunWritesPlanOnly` | plan file exists; DB row count unchanged; `consensus.json` absent |
 | `TestDryRunHonoursFetchFlag` | fixture → 3 planned peers, not 10 |
+| `TestSelectQuarterRawPreReportWindow` | a row 5 days before `announcement_date` beats one 40 days before |
+| `TestSelectQuarterRawNeverPostReport` | a row 1 day *after* `announcement_date` is never chosen even if it is the only row |
+| `TestSelectQuarterRawFallsBackBeforeWindow` | no row inside the 30d window → latest row still strictly before `announcement_date` wins |
+| `TestSelectQuarterRawNoEligibleRow` | every row is post-report → `chosen == nil`, gap note |
+| `TestSelectQuarterRawTieBreak` | two rows, same `as_of_date`, different value → higher `fetched_at` wins |
+| `TestRawEstimatesRefetchIsNoOp` | same (source, metric, as_of, value) upserted twice → one row |
+| `TestRawEstimatesRevisionAddsRow` | same as_of_date, different value → two rows, both retained |
+| `TestConsensusReflectsRawHistory` | two fetch runs (different `as_of_date`s) for one quarter → `analyst_period_consensus` ends on the run §6.5 picks, not the latest run unconditionally |
+| `TestBackfillPreservesExistingRows` | migration v38 backfill: every pre-existing `analyst_period_consensus` row has ≥1 raw row tagged `backfill:pre-raw-era` afterward |
 
 ---
 
@@ -329,9 +487,17 @@ No live vendor call in `make test`. Fixtures under `internal/consensus/testdata/
 6. Basis check + surprise join helper (§7).
 7. P1: FMP, Nasdaq, `--snapshot`, `--gap-fill`.
 8. P2: API handler, firm roster seed.
+9. **(new)** Migration v38 (§4a) + backfill. Gate: `TestBackfillPreservesExistingRows`.
+10. **(new)** `RawEstimate` model + `UpsertRawEstimates`/`RawEstimatesFor` (§8a).
+11. **(new)** `reduce.go` (§6.5) against fixtures only — no DB. Gate: the five
+    `TestSelectQuarterRaw*` tests, especially `TestSelectQuarterRawNeverPostReport`.
+12. **(new)** Retrofit §9a into `cmd/collect-consensus`. Gate: `TestConsensusReflectsRawHistory`
+    — run the CLI twice against two different fixture responses for the same quarter and
+    confirm the final row matches §6.5's pick, not "whichever ran last."
 
 Steps 1–6 are P0 and need one free Finnhub key to smoke-test; everything before step 4 runs
-offline against fixtures.
+offline against fixtures. Steps 9–11 (new) are pure/offline; step 12 needs a live key only
+to confirm end-to-end, same as step 3.
 
 ---
 
@@ -359,6 +525,13 @@ Three negative cases:
 - `--dry-run --similar ./fileDB/similar/kamada.json` plans **3** peers, writes
   `kamada.consensus-plan.json`, and leaves the DB untouched.
 
+**Two more, from D1/D5.1 (new):** the same run above also writes to `analyst_raw_estimates`
+**before** touching `analyst_period_consensus`, and re-running it a second time with a
+different fixture response for `2025-09-30`/`P3M` (simulating a revised Finnhub estimate)
+never lets a post-report-dated raw row win — the consensus row only changes if the new raw
+row is itself within the pre-report window and nearer to `announcement_date` than what was
+already chosen.
+
 ---
 
 ## 13. Risks
@@ -371,6 +544,8 @@ Three negative cases:
 | Vendors revise history retroactively | `fetched_at` per row makes drift detectable; not preventable locally |
 | Tier 3 HTML parse drift | Raw bytes cached, so a reparse never needs a refetch |
 | Non-December fiscal year-ends unmeasured | Derivation is 23/23 on one December filer only; the table-driven test covers other year-ends by construction, not by observation |
+| Finnhub's endpoint has no real as-of date, so every raw row's `as_of_date` is *this fetch's* date, not the vendor's | §6.5 still orders correctly across repeated fetches (each run's date is real), but a single run can never place its own row inside a *past* pre-report window — multi-run history has to accumulate over real time before D5.1 has more than one candidate to choose from |
+| Backfilled raw rows (`backfill:pre-raw-era`) carry `as_of_date = consensus_date`, which was itself `period_end` under the old scheme, not a genuine estimate date | Flagged via `source_url`, never silently indistinguishable from a real observation; §6.5 still applies D4's anti-lookahead check against it like any other row |
 
 ---
 

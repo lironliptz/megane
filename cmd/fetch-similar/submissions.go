@@ -6,27 +6,19 @@ import (
 	"fmt"
 	"io"
 	"net/http"
-	"os"
+
+	"megane/internal/companyfetch"
 )
 
-// submissionsRecent is the subset of SEC's submissions.json `filings.recent`
-// block this orchestrator reads. Verified field shapes against a real fixture
-// (fileDB/companies/0001567529/submissions.json): isXBRL/isInlineXBRL are
-// ints (0/1), size is an int (bytes), sic is a string.
-type submissionsRecent struct {
-	AccessionNumber []string `json:"accessionNumber"`
-	FilingDate      []string `json:"filingDate"`
-	Form            []string `json:"form"`
-	Size            []int64  `json:"size"`
-	IsXBRL          []int    `json:"isXBRL"`
-	IsInlineXBRL    []int    `json:"isInlineXBRL"`
-}
-
+// submissionsFilesEntry is one entry in submissions.json's `filings.files`
+// (older-filing index pages SEC pushes out of `recent` past ~1000 rows).
 type submissionsFilesEntry struct {
 	Name string `json:"name"`
 }
 
-// submissionsDoc is the top-level shape of CIK{cik}.json.
+// submissionsDoc is the top-level shape of CIK{cik}.json. The `recent` shape
+// is shared with the fetch step's idempotency check (companyfetch.Run) via
+// companyfetch.SubmissionsRecent, so both readers agree on one field set.
 type submissionsDoc struct {
 	Name      string   `json:"name"`
 	Tickers   []string `json:"tickers"`
@@ -34,8 +26,8 @@ type submissionsDoc struct {
 	SIC       string   `json:"sic"`
 	SICDesc   string   `json:"sicDescription"`
 	Filings   struct {
-		Recent submissionsRecent       `json:"recent"`
-		Files  []submissionsFilesEntry `json:"files"`
+		Recent companyfetch.SubmissionsRecent `json:"recent"`
+		Files  []submissionsFilesEntry        `json:"files"`
 	} `json:"filings"`
 }
 
@@ -63,26 +55,6 @@ func fetchSubmissions(ctx context.Context, client *http.Client, baseURL, cik, us
 		return nil, fmt.Errorf("decode submissions: %w", err)
 	}
 	return &doc, nil
-}
-
-// readSubmissionsRecent reads an on-disk submissions.json (already fetched by
-// a prior run) and returns just its `filings.recent` block — used by the
-// fetch step's idempotency check (steps.go), which only needs accession/date
-// pairs, not the full survey shape.
-func readSubmissionsRecent(path string) (*submissionsRecent, error) {
-	b, err := os.ReadFile(path)
-	if err != nil {
-		return nil, err
-	}
-	var doc struct {
-		Filings struct {
-			Recent submissionsRecent `json:"recent"`
-		} `json:"filings"`
-	}
-	if err := json.Unmarshal(b, &doc); err != nil {
-		return nil, err
-	}
-	return &doc.Filings.Recent, nil
 }
 
 func safeIndex(s []string, i int) string {

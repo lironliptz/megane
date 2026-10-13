@@ -3,7 +3,7 @@ VERSION_FILE := VERSION
 VERSION_VAL := $(shell test -f $(VERSION_FILE) && tr -d ' \n\r\t' < $(VERSION_FILE) || echo dev)
 LDFLAGS := -X jump-starter/internal/version.LinkVersion=$(VERSION_VAL)
 
-.PHONY: run build test docker clean version fetch-similar collect-consensus
+.PHONY: run build test docker clean version fetch-similar fetch-company collect-consensus
 
 run:
 	CGO_ENABLED=1 go run -ldflags "$(LDFLAGS)" ./cmd/server
@@ -16,6 +16,11 @@ build:
 fetch-similar:
 	CGO_ENABLED=1 go run ./cmd/fetch-similar \
 	  --similar $(SIMILAR) $(if $(ROOT),--root $(ROOT),) $(if $(YEARS),--years $(YEARS),)
+
+# Ingest one standalone company by CIK — no peer-list / "similar" framing.
+fetch-company:
+	CGO_ENABLED=1 go run ./cmd/fetch-company \
+	  --cik $(CIK) $(if $(ROOT),--root $(ROOT),) $(if $(YEARS),--years $(YEARS),)
 
 collect-consensus:
 	CGO_ENABLED=1 go run ./cmd/collect-consensus \

@@ -82,7 +82,7 @@ func NewRouter(ctx context.Context, database *db.DB, pipe *pipeline.Pipeline, pr
 	}
 
 	// Company routes (authenticated users) — read-only view over fileDB/.
-	companyHandler := &CompanyHandler{Store: companies.Store, DB: database, Timeline: companies.Timeline}
+	companyHandler := &CompanyHandler{Store: companies.Store, DB: database, Timeline: companies.Timeline, Refresh: newRefreshManager()}
 	apiCompanies := r.Group("/api/companies", auth.AuthRequired(), requestTimeout(defaultRequestTimeout))
 	{
 		apiCompanies.GET("/search", companyHandler.Search)
@@ -90,6 +90,8 @@ func NewRouter(ctx context.Context, database *db.DB, pipe *pipeline.Pipeline, pr
 		apiCompanies.GET("/:cik/filings", companyHandler.Filings)
 		apiCompanies.GET("/:cik/timeline", companyHandler.TimelineView)
 		apiCompanies.GET("/:cik/consensus", companyHandler.Consensus)
+		apiCompanies.POST("/:cik/fetch-updated-data", companyHandler.FetchUpdatedData)
+		apiCompanies.GET("/:cik/fetch-updated-data/status", companyHandler.FetchUpdatedDataStatus)
 	}
 
 	// Admin routes

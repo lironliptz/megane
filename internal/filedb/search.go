@@ -19,7 +19,9 @@ type SearchCandidate struct {
 // excluded from results entirely.
 const (
 	scoreExactTicker     = 100
+	scoreTickerPrefix    = 95
 	scoreNamePrefix      = 90
+	scoreTickerSubstring = 85
 	scoreNameTokenPrefix = 80
 	scoreNameSubstring   = 70
 	scoreFormerName      = 60
@@ -76,8 +78,18 @@ func RankCompanies(cands []SearchCandidate, query string, limit int) []CompanySu
 // when nothing matches. q is already lowercased and trimmed.
 func scoreCandidate(cand SearchCandidate, q string) int {
 	for _, tk := range cand.Tickers {
-		if strings.EqualFold(tk, q) {
+		tkl := strings.ToLower(strings.TrimSpace(tk))
+		if tkl == "" {
+			continue
+		}
+		if tkl == q {
 			return scoreExactTicker
+		}
+		if strings.HasPrefix(tkl, q) {
+			return scoreTickerPrefix
+		}
+		if strings.Contains(tkl, q) {
+			return scoreTickerSubstring
 		}
 	}
 

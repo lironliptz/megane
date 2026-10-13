@@ -41,15 +41,17 @@ def main() -> int:
 	if not filing_dirs:
 		print(f"No filing folders found under {company_dir}")
 		return 0
+	print(f"MEGANE_PROGRESS meta 0 {len(filing_dirs)}", flush=True)
 
 	created = 0
 	skipped = 0
 	errors = 0
 
-	for folder in filing_dirs:
+	for i, folder in enumerate(filing_dirs, start=1):
 		meta_path = folder / "meta.json"
 		if meta_path.exists() and not args.all:
 			skipped += 1
+			print(f"MEGANE_PROGRESS meta {i} {len(filing_dirs)}", flush=True)
 			continue
 		try:
 			meta = write_meta(folder)
@@ -58,6 +60,7 @@ def main() -> int:
 		except Exception as exc:
 			errors += 1
 			print(f"ERROR {folder.name}: {exc}", file=sys.stderr)
+		print(f"MEGANE_PROGRESS meta {i} {len(filing_dirs)}", flush=True)
 
 	print(f"\nDone: {created} written, {skipped} skipped, {errors} errors")
 	return 1 if errors else 0

@@ -15,6 +15,7 @@ import (
 	"strings"
 	"time"
 
+	"megane/internal/companyfetch"
 	"megane/internal/companyview"
 	"megane/internal/db"
 	"megane/internal/filedb"
@@ -166,9 +167,9 @@ func run(args []string) int {
 		}
 	}
 
-	orch := &orchestrator{
-		root: *root, years: *years, force: *force, steps: steps,
-		runner: defaultRunner, userAgent: userAgent, svc: svc, database: database,
+	cfg := companyfetch.Config{
+		Root: *root, Years: *years, Force: *force, Steps: steps,
+		Runner: companyfetch.DefaultRunner, UserAgent: userAgent, Svc: svc, Database: database,
 	}
 
 	status := &FetchStatus{
@@ -180,7 +181,7 @@ func run(args []string) int {
 
 	anyError := false
 	for i, p := range peers {
-		ps := orch.runPeer(ctx, p, tickers)
+		ps := runPeer(ctx, cfg, p, tickers)
 		status.Peers = append(status.Peers, ps)
 		if ps.Status == "error" {
 			anyError = true

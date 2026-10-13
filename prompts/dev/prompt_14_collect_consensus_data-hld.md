@@ -14,26 +14,32 @@ model input depends on. Greenfield: no consensus collector exists.
 
 ## 1. Objective
 
-Collect earnings estimates, rating aggregates, and price-target consensus for a company
-over the same span as its on-disk filing corpus; persist them point-in-time; and make
-earnings surprise computable against the actuals prompts 8–9 already extract.
+Collect **raw analyst estimate/rating rows first**, then earnings estimates, rating
+aggregates, and price-target consensus for a company over the same span as its on-disk
+filing corpus; persist them point-in-time; and make earnings surprise computable against
+the actuals prompts 8–9 already extract.
 
 `model_inputs_ranked.md` §4 ranks earnings surprise #1 and shows the denominator is missing.
 This prompt ships the collector that supplies it.
 
+Additional requirement from product direction:
+- Aggregation must be reproducible from stored raw rows.
+- Rows closest to the quarterly report date are the most relevant and must be prioritized
+  in the quarter-level selection logic.
+
 ---
 
-## 2. Context — what exists today (verified 2026-09-06)
+## 2. Context — what exists today (verified 2026-09-07)
 
 | Layer | State |
 |---|---|
 | SEC actuals | `financials.json` with `period.endDate`, `period.duration` (`P3M`/`P1Y`), `period.focus` — 66/66 qualifying accessions for the fixture company |
 | Stock prices | `stock_prices` + `stock_price_coverage` (migration 33) |
-| Consensus | **none** — no table, no package, no key |
-| Migration head | **33** — `stock_price_coverage` |
-| `internal/consensus/` | does not exist |
-| Analyst tables in code | **none** — `grep 'analyst_' internal/db/*.go` returns nothing |
-| API keys | `FINNHUB_API_KEY`, `FMP_API_KEY`, `ALPHA_VANTAGE_API_KEY` — **all empty in `.env`** |
+| Consensus | **partially shipped** — `analyst_period_consensus`, `analyst_coverage`, `analyst_snapshot`; Finnhub collector writes EPS rows |
+| Migration head | **37** — prompt 14 migrations applied |
+| `internal/consensus/` | exists (`provider`, `finnhub`, stubs for `fmp`/`nasdaq`/`gapfill`) |
+| Analyst tables in code | Period/snapshot/coverage exist; raw analyst table and full prompt-11 firm/report tables are still pending |
+| API keys | `FINNHUB_API_KEY` can run live; other provider keys optional/pending by phase |
 | Peer fixture | `fileDB/similar/kamada.json` — 10 peers, all carry `fetch`, **3 set `true`** |
 
 ---
@@ -123,6 +129,9 @@ additional columns folded into the `CREATE`. Prompt 11's LLD then consumes this 
 rather than redefining it. If prompt 11 ships its own v34 first, prompt 14 becomes v35 with
 the extra columns as `ALTER`s; the LLD must state which branch it is implementing.
 
+Add one more table in the same migration set (or immediately after): `analyst_raw_estimates`.
+Consensus tables are reducers over raw rows; they are not a substitute for raw data retention.
+
 ### D2 — `source` is part of the uniqueness key, and one vendor owns a series
 
 ```sql
@@ -157,6 +166,13 @@ vendor actual only to classify `basis` (`reported` when they agree within 5%, `s
 otherwise) and to log divergence. A `SEC_actual − vendor_estimate` figure is never written
 without an explicit `basis` flag and downstream opt-in, because street EPS excludes items
 GAAP includes and the difference is not a surprise.
+
+### D5.1 — Quarter selection prioritizes pre-report proximity
+
+For each quarter `(period_end, duration)`, choose consensus inputs in this order:
+1. Rows in pre-report window `[announcement_date-30d, announcement_date-1d]`, nearest first.
+2. If none, latest row strictly before `announcement_date`.
+3. If still none, null + gap note (never use post-report rows).
 
 ### D6 — The source ladder is strictly ordered and never merges
 
@@ -203,6 +219,7 @@ loudly** with `analyst_coverage.status = error` and a note naming the env var �
 |---|---|
 | `internal/db/db.go` | **+1 migration (v34)** — four tables (D1) |
 | `internal/db/consensus.go` | **new** — upsert/query, source-scoped reads |
+| `internal/db/consensus.go` | **new** — raw row upsert/query (`analyst_raw_estimates`) and deterministic reducers |
 | `internal/models/consensus.go` | **new** — `ConsensusPeriod`, `ConsensusSnapshot` DTOs |
 | `internal/consensus/` | **new** — `provider.go`, `finnhub.go`, `fmp.go`, `nasdaq.go`, `gapfill.go` |
 | `cmd/collect-consensus/` | **new** — CLI orchestrator |
@@ -241,7 +258,7 @@ mixing vendor slugs in one exported series; prompt 12's model training.
 ## 9. Done when
 
 `go run ./cmd/collect-consensus --cik 0001567529 --ticker KMDA --snapshot` populates
-`analyst_period_consensus` with ≥4 EPS rows carrying `source`, `consensus_date`,
+`analyst_raw_estimates` and then populates `analyst_period_consensus` with ≥4 EPS rows carrying `source`, `consensus_date`,
 `period_end`, `duration`, and `basis`; writes `consensus.json`; and sets
 `analyst_coverage.status = ok`.
 
@@ -254,6 +271,7 @@ And three negative cases:
 
 - A vendor row that cannot be resolved to a `period_end` is **not written**; it appears as a
   gap with a reason (D3).
+- A post-report raw row is never chosen for quarter consensus if pre-report rows exist.
 - With `FINNHUB_API_KEY` unset, the run exits non-zero with `status = error` naming the
   variable — **not** `no_data` (D10).
 - `--dry-run` on `kamada.json` lists only the **3 peers with `fetch: true`**, prints the
@@ -265,9 +283,9 @@ And three negative cases:
 
 | Priority | Deliverable |
 |---|---|
-| **P0** | Migration v34 (D1–D3); `internal/models/consensus.go`; `internal/db/consensus.go` |
+| **P0** | Migration v34 (D1–D3) + `analyst_raw_estimates`; `internal/models/consensus.go`; `internal/db/consensus.go` |
 | **P0** | `internal/consensus/` + Finnhub provider (EPS, ratings, PT); `cmd/collect-consensus` with `--cik`, `--dry-run`, coverage row |
-| **P1** | FMP revenue; Nasdaq Tier 2 sanity check; `--similar` batch; **`--snapshot`** (perishable — D4) |
+| **P1** | FMP revenue; Nasdaq Tier 2 sanity check; `--similar` batch; **`--snapshot`** (perishable — D4); pre-report weighted selector |
 | **P1** | Tier 3 `--gap-fill` with cache + allowlist (D7) |
 | **P2** | Surprise join helper + basis-check log; `GET /api/companies/:cik/consensus` (cache-only); firm roster seed |
 

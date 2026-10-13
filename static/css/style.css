@@ -976,6 +976,7 @@ html[dir="rtl"] pre {
 /* ---- Company picker ---- */
 .search-combobox {
   position: relative;
+  width: 25%;
 }
 
 .search-box {
@@ -1041,6 +1042,12 @@ html[dir="rtl"] pre {
   font-size: .85rem;
 }
 
+@media (max-width: 900px) {
+  .search-combobox {
+    width: 100%;
+  }
+}
+
 /* ---- Company page header ---- */
 .company-title {
   display: flex;
@@ -1069,6 +1076,18 @@ html[dir="rtl"] pre {
 .coverage-gap {
   color: var(--text-muted);
   font-size: .88rem;
+}
+
+.company-refresh-box {
+  margin-top: .8rem;
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  flex-wrap: wrap;
+}
+
+.company-refresh-box .btn {
+  min-width: 11.5rem;
 }
 
 /* ---- Pagination ---- */

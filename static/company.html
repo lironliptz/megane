@@ -60,6 +60,12 @@
           <h2>Filing coverage</h2>
           <p class="coverage-line" id="coverage-line">Loading…</p>
           <div class="chip-list" id="coverage-years"></div>
+          <div class="company-refresh-box">
+            <button type="button" class="btn btn-primary" id="fetch-updated-data-btn">Fetch updated data</button>
+            <span id="fetch-updated-data-label" class="muted">Idle</span>
+          </div>
+          <progress id="fetch-updated-data-progress" class="pipeline-progress-bar" max="100" value="0" hidden></progress>
+          <p id="fetch-updated-data-error" class="timeline-status-error" style="display:none;margin-top:.45rem"></p>
         </div>
 
         <div class="card" id="summary-card">

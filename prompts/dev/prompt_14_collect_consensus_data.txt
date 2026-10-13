@@ -1,8 +1,9 @@
 === prompt ===
 **Consensus & analyst-estimate ingestion** — given a company (CIK and/or ticker), collect
-earnings estimates, rating aggregates, and price-target consensus over the same time span
-as the on-disk filing corpus, persist them in a concrete Go data model, and compute
-per-period consensus figures suitable for surprise analysis and prompt 12 modeling.
+**raw analyst estimate/rating rows first**, then compute earnings estimates, rating
+aggregates, and price-target consensus over the same time span as the on-disk filing
+corpus, persist them in a concrete Go data model, and compute per-period consensus figures
+suitable for surprise analysis and prompt 12 modeling.
 
 Builds on **prompt 1** (CIK identity, `fileDB/companies/{cik}/`), **prompt 4** (stock
 prices in SQLite), **prompt 8/9** (`financials.json` actuals + `period.duration`), **prompt
@@ -32,6 +33,12 @@ Megane holds **actuals** but not **expectations**:
 `model_inputs_ranked.md` ranks **earnings surprise** as the #1 model input. Prompt 11
 defines the analyst UX; **this prompt ships the collector** that fills prompt 11's SQLite
 rows and optional sidecars so surprise math and `#analysts` have honest data to read.
+
+**User requirement (non-negotiable):**
+- Keep **raw analyst data** (firm-level estimate/rating actions with timestamps) as first-class storage.
+- Build consensus/aggregation **only from raw rows** (never from provider-only summary blobs).
+- Prioritize/weight analyst rows nearest to the company's quarterly announcement date
+  (the most important reports are those immediately before the quarterly report).
 
 ---
 
@@ -101,6 +108,7 @@ web" agents, or storing LLM-invented estimates with no cached source document.
 | Priority | Deliverable |
 |----------|-------------|
 | **P0** | **Go data model** + migration v34 tables (reuse prompt 11 DDL — do not fork schema) |
+| **P0** | **Raw-first schema** — add `analyst_raw_estimates` (or equivalent) and write raw rows before any aggregation. |
 | **P0** | **`internal/consensus/`** — `Provider` interface; Finnhub impl for EPS + ratings + PT |
 | **P0** | **`cmd/collect-consensus`** — `--cik` / `--ticker`, historical EPS backfill, coverage row |
 | **P1** | **FMP revenue** provider; **Nasdaq Tier 2** fallback for last-4-quarters EPS sanity check |
@@ -116,8 +124,10 @@ web" agents, or storing LLM-invented estimates with no cached source document.
 ## Scope & non-goals
 
 **In scope**
-- EPS / revenue estimates, surprises, rating counts, price-target aggregates, firm-level
-  rating changes (not individual analyst persons on free tiers).
+- Raw analyst rows (firm-level): estimate snapshots/revisions, rating actions, PT updates,
+  publication/as-of timestamps, provider source, and provenance URL when applicable.
+- EPS / revenue estimates, surprises, rating counts, price-target aggregates derived from
+  raw rows, plus firm-level rating changes (not individual analyst persons on free tiers).
 - Time window: overlap of `[corpus_earliest_filing, today]` per CIK.
 - Point-in-time fields: `consensus_date` / `as_of`, `source`, `fetched_at` on every row.
 - Idempotent upsert; `--force` refresh; `--dry-run` cost survey.
@@ -155,6 +165,34 @@ Prompt 14 writes into existing prompt 11 tables:
 -- analyst_coverage          ← fetch status per CIK
 -- company_analysts          ← firm rows seeded from upgrade-downgrade (P2)
 ```
+
+**Raw-first addition (required):**
+
+```sql
+CREATE TABLE IF NOT EXISTS analyst_raw_estimates (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  cik TEXT NOT NULL,
+  source TEXT NOT NULL,                 -- finnhub | fmp | nasdaq_api | ...
+  firm TEXT NOT NULL DEFAULT '',
+  metric TEXT NOT NULL,                 -- eps_estimate | revenue_estimate | pt | rating
+  fiscal_year TEXT NOT NULL DEFAULT '',
+  fiscal_period TEXT NOT NULL DEFAULT '',  -- Q1..Q4 | FY | ''
+  period_end TEXT NOT NULL DEFAULT '',     -- YYYY-MM-DD when known
+  duration TEXT NOT NULL DEFAULT '',       -- P3M | P1Y when known
+  value_num REAL,
+  value_text TEXT NOT NULL DEFAULT '',
+  currency TEXT NOT NULL DEFAULT 'USD',
+  report_date TEXT NOT NULL DEFAULT '',    -- publication date if known
+  as_of_date TEXT NOT NULL DEFAULT '',     -- estimate as-of date if known
+  source_url TEXT NOT NULL DEFAULT '',
+  fetched_at DATETIME NOT NULL,
+  created_at DATETIME NOT NULL,
+  UNIQUE(cik, source, firm, metric, fiscal_year, fiscal_period, as_of_date, value_num, value_text)
+);
+```
+
+Aggregation tables (`analyst_period_consensus`, `analyst_snapshot`) are computed from
+`analyst_raw_estimates` in deterministic SQL/Go reducers.
 
 **Additional columns** (append-only migration if missing):
 
@@ -308,16 +346,21 @@ For each target CIK:
 1. **Resolve** — `submissions.json` → ticker, `fiscalYearEnd`, exchanges. Error if no
    ticker unless `--ticker` override.
 2. **Window** — intersect CLI `--from`/`--to` with on-disk filing span.
-3. **Tier 1** — call primary provider(s) per `--metrics`; normalize to `ConsensusPeriod`.
+3. **Tier 1** — call primary provider(s) per `--metrics`; normalize to raw events/rows.
 4. **Tier 2** — if EPS still missing for recent quarters, try Nasdaq earnings-surprise;
    store as separate `source` or complete a dedicated Nasdaq backfill run (never merge).
 5. **Tier 3** (`--gap-fill`) — for each null revenue/estimate field, try allowlisted URLs;
    cache raw response; parse; attach `source_url`.
-6. **Basis check** — compare vendor `eps_actual` to matching `financials.json` EPS; set
+6. **Write raw rows first** — upsert `analyst_raw_estimates` for every parsed observation.
+7. **Aggregate second** — build/update `analyst_period_consensus` and `analyst_snapshot`
+   from raw rows only.
+8. **Pre-quarter prioritization** — for each quarter, rank or weight raw rows by recency to
+   `announcement_date` (default window: `announcement_date - 30d` to `announcement_date - 1d`).
+   Prefer nearest pre-quarter rows; if none in window, fall back to latest earlier row.
+9. **Basis check** — compare vendor `eps_actual` to matching `financials.json` EPS; set
    `basis` and log when relative diff > 5%.
-7. **Upsert** — `analyst_period_consensus`; if `--snapshot`, upsert snapshot blob / latest row.
-8. **Coverage** — `analyst_coverage.status`: `ok` | `partial` | `no_data` | `error`.
-9. **Sidecar** — rewrite `consensus.json` when `--write-sidecar` (default on).
+10. **Coverage** — `analyst_coverage.status`: `ok` | `partial` | `no_data` | `error`.
+11. **Sidecar** — rewrite `consensus.json` when `--write-sidecar` (default on).
 
 **Idempotency:** skip CIK if last success within `CONSENSUS_MIN_FETCH_INTERVAL` unless `--force`.
 
@@ -422,9 +465,11 @@ CGO_ENABLED=1 go run ./cmd/collect-consensus \
 
 - [ ] `make test` green; `go vet` clean on new packages
 - [ ] `--dry-run` on `kamada.json` lists only `fetch: true` peers and estimated API calls
+- [ ] Raw rows are written to `analyst_raw_estimates` before consensus aggregation for each run
 - [ ] Live run for `0001567529` populates `analyst_period_consensus` with ≥ 4 EPS rows
 - [ ] `consensus.json` sidecar written; `analyst_coverage.status = ok`
 - [ ] Join helper returns surprise for at least one period matching a `financials.json` row
+- [ ] For at least one quarter, the selected consensus row is the nearest pre-quarter row within the configured window
 - [ ] Tier 3 row (if any) has non-empty `source_url` and file in `consensus-cache/`
 - [ ] API handler returns cached data with zero vendor HTTP during request
 
@@ -446,6 +491,7 @@ CGO_ENABLED=1 go run ./cmd/collect-consensus \
 
 - **Lookahead leakage** — using *today's* consensus for a 2023 filing date; store
   `consensus_date` and pick the row immediately **before** `announcement_date`.
+- **Aggregating without raw retention** — impossible to audit or recompute; always store raw rows first.
 - **Period-end-only join** — Q4 vs FY confusion; always use `duration`.
 - **Merged Tier 1 + Tier 2 series** — vendor disagreement (~20% on some quarters).
 - **Ungoverned web search** — non-reproducible; Tier 3 requires cache + allowlist.

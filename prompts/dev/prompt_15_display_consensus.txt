@@ -1,0 +1,185 @@
+=== prompt ===
+**Display consensus + raw analyst data in the company UI** — after prompt 14 collection is
+in place, render both (1) quarter-level consensus and (2) raw analyst observations in the
+company page so users can inspect provenance before trusting aggregation.
+
+Builds on **prompt 3** (company tabs/shell), **prompt 10** (timeline pane pattern),
+**prompt 11** (analyst UX direction), and **prompt 14** (consensus collector/storage/API).
+
+---
+
+## Problem (current behavior)
+
+Prompt 14 now stores consensus data (`analyst_period_consensus`, `analyst_coverage`,
+`analyst_snapshot`, and `consensus.json` sidecars), but the company UI does not expose it
+in a way that lets users verify:
+
+1. What the raw analyst rows were.
+2. Which rows were selected for quarter consensus.
+3. How close those rows were to the quarterly report date.
+
+Without this, users see computed values but cannot audit the underlying observations.
+
+---
+
+## Goal
+
+Add two UI surfaces:
+
+1. **Timeline consensus pane** (below the quarterly financial pane):
+   - Visual markers for quarterly consensus points (EPS estimate, surprise sign, confidence/basis).
+   - Hover/click tooltips linking each quarter to its selected raw rows.
+
+2. **Dedicated `#consensus` tab**:
+   - Coverage status + provider + last refresh.
+   - Quarter-level consensus table.
+   - Raw analyst rows table.
+   - Selection diagnostics ("chosen row was T-5 days before report", fallback reason, etc.).
+
+---
+
+## Scope & non-goals
+
+**In scope**
+- Read-only rendering from existing backend cache (`/api/companies/:cik/consensus`).
+- Add query params for tab filters: source, fiscal year, metric type.
+- Show both aggregated and raw data in one page.
+- Clear empty/error states (`no_data`, `partial`, `error`) from `analyst_coverage`.
+
+**Out of scope**
+- Triggering vendor fetches from page load.
+- Editing analyst rows in UI.
+- Model training logic (prompt 12).
+
+---
+
+## UI design
+
+### A) Timeline: new "Consensus" lane
+
+Add a third chart lane under the existing financial lane:
+
+- Keep stock chart unchanged.
+- Keep financial bars unchanged.
+- Add consensus lane as compact markers aligned to report quarters:
+  - marker color: positive surprise / negative surprise / unknown basis
+  - marker shape: quarterly vs annual if both appear
+  - optional tiny whisker showing estimate→actual distance (EPS delta)
+
+Interaction:
+- Hover marker: quarter, estimate, actual, surprise %, source, basis.
+- Click marker: opens side panel/modal with raw rows used in that quarter's aggregate.
+
+Fallback:
+- If no consensus rows, lane hidden and show muted text: "No consensus data for selected window."
+
+### B) New `#consensus` tab
+
+Tab sections (top to bottom):
+
+1. **Coverage summary card**
+   - status badge (`ok | partial | no_data | error`)
+   - provider
+   - last success time
+   - note/error text
+
+2. **Consensus by quarter table**
+   - Columns:
+     - Period (`fiscalYear` + `fiscalPeriod`)
+     - Period end + duration
+     - Consensus date used
+     - EPS estimate
+     - EPS actual
+     - Surprise %
+     - Basis
+     - Source
+   - Sort default: newest period first.
+
+3. **Raw analyst rows table**
+   - Columns:
+     - Provider/source
+     - Firm (nullable)
+     - Metric type
+     - Fiscal period
+     - As-of / report date
+     - Value
+     - Currency
+     - Source URL badge/link when present
+   - Filters:
+     - metric (`eps_estimate`, `revenue_estimate`, `pt`, `rating`)
+     - source
+     - fiscal year
+
+4. **Selection diagnostics**
+   - For each consensus period, show:
+     - selected raw row timestamp
+     - distance to announcement date (days)
+     - selection mode (`pre_window`, `latest_before`, `fallback_none`)
+
+---
+
+## API requirements (cache-only)
+
+Extend `GET /api/companies/:cik/consensus` response shape to include raw rows and
+selection metadata, for example:
+
+```json
+{
+  "data": {
+    "coverage": { "status": "ok", "provider": "finnhub", "lastSuccessAt": "..." },
+    "source": "finnhub",
+    "periods": [...],
+    "rawRows": [...],
+    "selection": [
+      {
+        "periodEnd": "2025-09-30",
+        "duration": "P3M",
+        "selectedAsOf": "2025-09-25",
+        "daysBeforeAnnouncement": 5,
+        "mode": "pre_window"
+      }
+    ],
+    "gaps": [...]
+  },
+  "error": null
+}
+```
+
+Rules:
+- No outbound vendor HTTP in this handler.
+- If data missing, return empty arrays + coverage state; do not 500.
+
+---
+
+## Files to touch (expected)
+
+- `internal/handlers/companies.go` — consensus endpoint payload expansion.
+- `internal/handlers/router.go` — ensure route remains under auth.
+- `internal/db/consensus.go` — query helpers for raw rows + selection diagnostics.
+- `internal/companyview/` (if needed) — timeline composition helpers.
+- `static/company.html` — add `#consensus` tab button/panel shell.
+- `static/js/company/shell.js` — tab registration + loading flow.
+- `static/js/company/tab-consensus.js` (new) — tab renderer.
+- `static/js/company/tab-timeline.js` — consensus lane rendering.
+- `static/css/style.css` — lane + table styles.
+
+---
+
+## Acceptance criteria
+
+- [ ] Company page shows a `Consensus` tab.
+- [ ] Tab renders coverage summary + quarter table + raw rows table.
+- [ ] Timeline can display consensus markers aligned to periods.
+- [ ] Clicking a marker reveals selected raw rows and selection mode.
+- [ ] Empty/no-data/error states are handled gracefully.
+- [ ] No vendor requests occur on page load or tab open.
+- [ ] Existing tabs (`general`, `filings`, `events`, `timeline`) keep working.
+
+---
+
+## Pitfalls
+
+- Showing only aggregated values without raw provenance.
+- Using post-report rows when pre-report rows exist.
+- Mixing rows from different `source` values in one displayed consensus series.
+- Re-fetching remote data in request path instead of reading cache/DB.

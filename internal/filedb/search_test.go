@@ -39,6 +39,11 @@ func TestRankCompaniesOrdering(t *testing.T) {
 			want:  []string{"KAMADA LTD", "GLOBAL KMDA PARTNERS"},
 		},
 		{
+			name:  "ticker prefix matches",
+			query: "kmd",
+			want:  []string{"KAMADA LTD", "GLOBAL KMDA PARTNERS"},
+		},
+		{
 			name:  "name prefix beats token prefix beats former name",
 			query: "kamada",
 			want:  []string{"KAMADA LTD", "ACME KAMADA HOLDINGS", "ZETA CORP"},

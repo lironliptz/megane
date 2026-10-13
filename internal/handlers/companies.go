@@ -1,6 +1,7 @@
 package handlers
 
 import (
+	"context"
 	"errors"
 	"log/slog"
 	"net/http"
@@ -30,6 +31,7 @@ type CompanyHandler struct {
 	// Timeline is optional: when nil, the timeline endpoint reports 503 rather
 	// than panicking, so the rest of the company view still works.
 	Timeline *companyview.Service
+	Refresh  *refreshManager
 }
 
 // Search handles GET /api/companies/search?q=&limit=
@@ -178,6 +180,49 @@ func (h *CompanyHandler) Consensus(c *gin.Context) {
 		},
 		"error": nil,
 	})
+}
+
+// FetchUpdatedData starts a background refresh for one company.
+func (h *CompanyHandler) FetchUpdatedData(c *gin.Context) {
+	if h.Refresh == nil {
+		c.JSON(http.StatusServiceUnavailable, gin.H{"data": nil, "error": "refresh service not configured"})
+		return
+	}
+	cik, err := filedb.NormalizeCIK(c.Param("cik"))
+	if err != nil {
+		respondStoreErr(c, err)
+		return
+	}
+	started := h.Refresh.start(cik)
+	if !started {
+		c.JSON(http.StatusAccepted, gin.H{"data": h.Refresh.get(cik), "error": nil})
+		return
+	}
+	// Detached context: request returns immediately while refresh runs.
+	go func() {
+		ctx, cancel := context.WithTimeout(context.Background(), 30*time.Minute)
+		defer cancel()
+		if err := runRefreshPipeline(ctx, h.Timeline, h.Store, cik, h.Refresh); err != nil {
+			h.Refresh.fail(cik, err)
+			return
+		}
+		h.Refresh.done(cik)
+	}()
+	c.JSON(http.StatusAccepted, gin.H{"data": h.Refresh.get(cik), "error": nil})
+}
+
+// FetchUpdatedDataStatus returns the background refresh state for one company.
+func (h *CompanyHandler) FetchUpdatedDataStatus(c *gin.Context) {
+	if h.Refresh == nil {
+		c.JSON(http.StatusServiceUnavailable, gin.H{"data": nil, "error": "refresh service not configured"})
+		return
+	}
+	cik, err := filedb.NormalizeCIK(c.Param("cik"))
+	if err != nil {
+		respondStoreErr(c, err)
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"data": h.Refresh.get(cik), "error": nil})
 }
 
 // parseISODate validates an optional YYYY-MM-DD query parameter. An absent value

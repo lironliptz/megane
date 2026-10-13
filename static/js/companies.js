@@ -51,6 +51,16 @@ function updateAriaActive() {
   }
 }
 
+function updateActiveRowUI() {
+  Array.prototype.forEach.call(resultsEl.children, function (el) {
+    var idx = Number(el.getAttribute('data-index'));
+    var isActive = idx === activeIndex;
+    el.classList.toggle('active', isActive);
+    el.setAttribute('aria-selected', isActive ? 'true' : 'false');
+  });
+  updateAriaActive();
+}
+
 function selectionHint() {
   if (!rows.length) return '';
   if (rows.length === 1) {
@@ -93,7 +103,7 @@ function renderResults() {
     });
     el.addEventListener('mouseenter', function () {
       activeIndex = Number(el.getAttribute('data-index'));
-      renderResults();
+      updateActiveRowUI();
     });
   });
 
@@ -117,7 +127,12 @@ function moveActive(delta) {
   } else {
     activeIndex = (activeIndex + delta + rows.length) % rows.length;
   }
-  renderResults();
+  updateActiveRowUI();
+
+  var activeEl = resultsEl.children[activeIndex];
+  if (activeEl && activeEl.scrollIntoView) {
+    activeEl.scrollIntoView({ block: 'nearest' });
+  }
 }
 
 async function runSearch(q) {

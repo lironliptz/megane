@@ -345,3 +345,24 @@ func (s *Service) lockFor(cik string) *sync.Mutex {
 	}
 	return l
 }
+
+// RefreshCompanyData refreshes market data for one company in the background
+// job flow used by the company page "Fetch updated data" action. It uses the
+// current filing coverage window and runs the same delta/full-backfill logic
+// as timeline rendering, but without requiring the timeline endpoint itself.
+func (s *Service) RefreshCompanyData(ctx context.Context, cik string) error {
+	detail, err := s.store.GetCompany(ctx, cik)
+	if err != nil {
+		return err
+	}
+	symbol := primaryTicker(detail.Identity.Tickers)
+	if symbol == "" {
+		return nil
+	}
+	now := time.Now().UTC().Format(DateLayout)
+	w := Window{
+		From: detail.Coverage.EarliestFilingDate,
+		To:   now,
+	}
+	return s.ensureCoverage(ctx, cik, symbol, w)
+}

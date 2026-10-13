@@ -11,6 +11,7 @@
   let ctx = null;
   let showAllForms = false;
   let formCounts = {};
+  let refreshPollTimer = null;
 
   // Absent optional fields are omitted entirely rather than rendered as "—".
   function renderIdentity(id) {
@@ -89,6 +90,84 @@
       '<span class="muted">No tiers.</span>';
   }
 
+  function stopRefreshPolling() {
+    if (refreshPollTimer) {
+      clearInterval(refreshPollTimer);
+      refreshPollTimer = null;
+    }
+  }
+
+  function renderRefreshStatus(st) {
+    const btn = document.getElementById('fetch-updated-data-btn');
+    const label = document.getElementById('fetch-updated-data-label');
+    const bar = document.getElementById('fetch-updated-data-progress');
+    const err = document.getElementById('fetch-updated-data-error');
+    if (!btn || !label || !bar || !err) return;
+
+    const status = (st && st.status) || 'idle';
+    const pct = Math.max(0, Math.min(100, Number(st && st.progress) || 0));
+    const inProgress = !!(st && st.in_progress);
+
+    btn.disabled = inProgress;
+    label.textContent = (st && st.label) || 'Idle';
+
+    bar.hidden = status === 'idle';
+    bar.value = pct;
+    bar.classList.toggle('pipeline-progress-error', status === 'error');
+
+    if (status === 'error' && st.last_error) {
+      err.style.display = '';
+      err.textContent = st.last_error;
+    } else {
+      err.style.display = 'none';
+      err.textContent = '';
+    }
+  }
+
+  async function refreshGeneralData() {
+    const detail = await ctx.apiFetch('/api/companies/' + encodeURIComponent(ctx.cik));
+    ctx.detail = detail;
+    renderIdentity(detail.identity);
+    renderCoverage(detail.coverage);
+    renderSummary(detail.filingsSummary);
+  }
+
+  async function loadRefreshStatus() {
+    const st = await ctx.apiFetch('/api/companies/' + encodeURIComponent(ctx.cik) + '/fetch-updated-data/status');
+    renderRefreshStatus(st);
+    if (!st.in_progress) {
+      stopRefreshPolling();
+      if (st.status === 'complete') {
+        await refreshGeneralData();
+      }
+    }
+  }
+
+  function ensureRefreshPolling() {
+    if (refreshPollTimer) return;
+    refreshPollTimer = setInterval(function () {
+      loadRefreshStatus().catch(function (err) {
+        stopRefreshPolling();
+        showError('Could not read refresh status: ' + err.message);
+      });
+    }, 2000);
+  }
+
+  async function triggerRefresh() {
+    const btn = document.getElementById('fetch-updated-data-btn');
+    if (btn) btn.disabled = true;
+    try {
+      const st = await ctx.apiFetch('/api/companies/' + encodeURIComponent(ctx.cik) + '/fetch-updated-data', {
+        method: 'POST',
+      });
+      renderRefreshStatus(st);
+      if (st.in_progress) ensureRefreshPolling();
+    } catch (err) {
+      if (btn) btn.disabled = false;
+      showError('Refresh failed to start: ' + err.message);
+    }
+  }
+
   CompanyTabs.register('general', {
     init: function (c) {
       ctx = c;
@@ -100,6 +179,33 @@
         showAllForms = !showAllForms;
         renderFormBars();
       });
+
+      const refreshBtn = document.getElementById('fetch-updated-data-btn');
+      if (refreshBtn) {
+        refreshBtn.addEventListener('click', function () {
+          triggerRefresh();
+        });
+      }
+
+      loadRefreshStatus().then(function () {
+        if (document.getElementById('fetch-updated-data-btn') &&
+            document.getElementById('fetch-updated-data-btn').disabled) {
+          ensureRefreshPolling();
+        }
+      }).catch(function () {
+        renderRefreshStatus({ status: 'idle', label: 'Idle', progress: 0, in_progress: false });
+      });
+    },
+    show: function () {
+      loadRefreshStatus().then(function () {
+        if (document.getElementById('fetch-updated-data-btn') &&
+            document.getElementById('fetch-updated-data-btn').disabled) {
+          ensureRefreshPolling();
+        }
+      }).catch(function () {});
+    },
+    hide: function () {
+      stopRefreshPolling();
     },
   });
 })();
